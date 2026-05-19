@@ -1,0 +1,49 @@
+{
+  "glp1-obesity": {
+    "icd10": ["E66", "E66.0", "E66.01", "E66.09"],
+    "aliases": ["obesity", "overweight", "BMI management", "weight loss"],
+    "mesh": "Obesity",
+    "ctgov_condition": "Obesity"
+  },
+  "type2-diabetes": {
+    "icd10": ["E11", "E11.0", "E11.9", "E11.65"],
+    "aliases": ["T2D", "type 2 diabetes", "T2DM", "diabetes mellitus type 2",
+                "non-insulin dependent diabetes", "adult-onset diabetes"],
+    "mesh": "Diabetes Mellitus, Type 2",
+    "ctgov_condition": "Type 2 Diabetes Mellitus"
+  },
+  "alzheimers": {
+    "icd10": ["G30", "G30.0", "G30.1", "G30.8", "G30.9"],
+    "aliases": ["Alzheimer's disease", "AD", "dementia", "early-onset Alzheimer's"],
+    "mesh": "Alzheimer Disease",
+    "ctgov_condition": "Alzheimer Disease"
+  },
+  "hf-htn": {
+    "icd10": ["I50", "I50.1", "I50.2", "I10", "I11"],
+    "aliases": ["heart failure", "HFrEF", "HFpEF", "hypertension",
+                "HTN", "cardiac failure", "congestive heart failure"],
+    "mesh": "Heart Failure",
+    "ctgov_condition": "Heart Failure"
+  },
+  "oncology-nsclc": {
+    "icd10": ["C34", "C34.0", "C34.1", "C34.2", "C34.3"],
+    "aliases": ["NSCLC", "non-small cell lung cancer", "lung cancer",
+                "lung adenocarcinoma", "squamous cell lung"],
+    "mesh": "Carcinoma, Non-Small-Cell Lung",
+    "ctgov_condition": "Non-Small Cell Lung Cancer"
+  },
+  "oncology-breast": {
+    "icd10": ["C50", "C50.1", "C50.2", "C50.9"],
+    "aliases": ["breast cancer", "HER2+", "triple negative breast cancer",
+                "TNBC", "HR+ breast cancer"],
+    "mesh": "Breast Neoplasms",
+    "ctgov_condition": "Breast Cancer"
+  },
+  "oncology-crc": {
+    "icd10": ["C18", "C19", "C20"],
+    "aliases": ["colorectal cancer", "CRC", "colon cancer", "rectal cancer",
+                "colorectal carcinoma"],
+    "mesh": "Colorectal Neoplasms",
+    "ctgov_condition": "Colorectal Cancer"
+  }
+}

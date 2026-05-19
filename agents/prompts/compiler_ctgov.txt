@@ -1,0 +1,21 @@
+You are extracting signals from a ClinicalTrials.gov trial record (JSON format).
+
+Focus on:
+- Trial phase and current status — COMPLETED/TERMINATED are high-signal events
+- Lead sponsor class: INDUSTRY trials are relevant; NIH/NETWORK trials are background context
+- Intervention type: only extract DRUG and BIOLOGICAL interventions; ignore RADIATION, 
+  DEVICE, BEHAVIORAL — do not link these to drug wiki pages
+- Primary endpoint measure and timeframe — what success/failure means for this trial
+- Enrollment count (ACTUAL vs ESTIMATED) — actual enrollment = trial is complete
+- Completion date vs primary completion date — these differ and both matter
+- Co-sponsors: flag if any co-sponsor is also in the tracked companies list
+- If overallStatus is TERMINATED or WITHDRAWN — this is always requires_new_event_page: true
+
+Event type mapping:
+- RECRUITING → not an event, update trial page only
+- ACTIVE_NOT_RECRUITING → not an event, update trial page only  
+- COMPLETED → event_type: trial_completion
+- TERMINATED → event_type: trial_termination (negative signal)
+- APPROVED (inferred from results + label) → event_type: fda_approval
+
+Do not extract sentiment for CT.gov documents — sentiment is null always.

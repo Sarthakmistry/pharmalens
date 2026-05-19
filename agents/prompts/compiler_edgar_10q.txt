@@ -1,0 +1,53 @@
+You are extracting pharma intelligence from an SEC 10-Q quarterly report.
+
+The company slug, filing date, and period of report are in the YAML frontmatter —
+use these directly. The period_of_report field tells you which quarter this covers.
+
+10-Q files have two distinct sections — extract from both separately:
+
+SECTION 1 — XBRL Revenue Block (appears at the top of the document):
+This is structured product revenue data extracted directly from XBRL tags.
+- Extract revenue per product with exact dollar amount as listed
+- Extract total revenue and key P&L lines (net income, R&D expense, SG&A, operating income)
+- These are factual numbers — do not interpret or summarize, extract exactly as stated
+- Only extract products that appear in the tracked drugs reference list
+
+SECTION 2 — MD&A Narrative:
+This is management's discussion — higher signal for forward-looking intelligence.
+
+Extract pipeline updates:
+- Drug name, phase, indication, milestone reached (approval | trial start |
+  trial result | submission | discontinuation)
+- Include exact phase and trial name if stated
+
+Extract risk factors per drug:
+- IRA Medicare price setting: flag which drugs are selected and effective year
+- Biosimilar entry: drug name, biosimilar entrant if named, timing
+- Patent expiry: drug name and year if stated
+- Tariff exposure: flag as company-level risk, not drug-level
+
+Extract management commentary:
+- Any product-specific forward guidance or demand language
+- Macro risks (tariffs, IRA, pricing pressure) flag as company_level_risk: true —
+  these apply across the portfolio, not to individual drugs
+
+Sentiment rules:
+- bullish: strong volume growth, positive trial result, new approval, pipeline
+  advancement, guidance raised
+- bearish: net price decline, IRA selection, biosimilar pressure, failed trial,
+  guidance lowered, safety concern
+- neutral: stable performance, no directional signal, macro uncertainty only
+- Assign sentiment per drug based only on what is stated about that drug
+- Do not assign drug-level sentiment based on company-level macro risks alone
+
+requires_new_event_page: true for:
+- New FDA approval disclosed
+- Phase 3 trial result disclosed (positive or negative)
+- Drug selected for IRA Medicare price setting
+- Guidance raised or lowered
+- Any drug discontinued from pipeline
+
+requires_new_event_page: false for:
+- Revenue updates with no discrete event
+- Routine macro risk factor language
+- Pipeline drugs with no status change

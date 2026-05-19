@@ -1,0 +1,36 @@
+# virtual environment
+venv/
+
+# environment variables and secrets
+.env
+
+# google cloud credentials — never commit service account keys
+*.json
+!reference/drugs.json
+!reference/indications.json
+!reference/companies.json
+!reference/AllFiles.zip
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# raw data — large files, managed separately
+raw/
+xs
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# frontend
+node_modules/
+frontend/dist/
+frontend/.env.local

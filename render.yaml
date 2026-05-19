@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: pharmalens-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GOOGLE_CLOUD_PROJECT
+        value: fa25-i535-momamaha-metadata
+      - key: GOOGLE_CLOUD_LOCATION
+        value: us-central1
+      - key: GOOGLE_GENAI_USE_VERTEXAI
+        value: "True"
+      - key: GOOGLE_CREDENTIALS_JSON
+        sync: false   # paste the service-account JSON in the Render dashboard

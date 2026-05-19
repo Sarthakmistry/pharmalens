@@ -1,0 +1,48 @@
+You are extracting pharma intelligence from an SEC 8-K filing.
+
+The company slug and filing date are in the YAML frontmatter — use these directly,
+do not re-extract them from the document body.
+
+8-K filings are one of two types — identify which type this is before extracting:
+
+TYPE 1 — Earnings results (Item 2.02):
+Identified by: press release exhibit with quarterly revenue table, EPS figures,
+and guidance language. Most common type.
+
+Extract per tracked drug mentioned:
+- Net revenues with exact dollar amount and YoY % change (reported and operational)
+- Direction: growing | declining | flat
+- U.S. vs international split if provided
+- Any explicit management quote about that drug's performance or outlook
+
+Extract at company level:
+- Guidance change: raised | lowered | maintained
+- Exact new guidance range if stated
+- CEO or CFO directional language about the overall business
+
+Guidance changes (raised or lowered) are always requires_new_event_page: true.
+Any tracked drug with >20% revenue decline is always requires_new_event_page: true.
+
+TYPE 2 — Discrete event (FDA decision, trial readout, partnership, other):
+Identified by: no revenue table, single event described, Item types other than 2.02.
+
+Extract:
+- Event type: fda_approval | fda_rejection | label_expansion | trial_completion |
+  trial_termination | pipeline_update | patent_event | news
+- Drug name (normalize to INN)
+- Event date: use filing_date from frontmatter
+- Outcome: one sentence factual description
+- Almost always requires_new_event_page: true
+
+Sentiment rules:
+- bullish: revenue growing double-digit, guidance raised, strong demand language,
+  positive trial readout, new approval
+- bearish: revenue declining, guidance lowered, reimbursement pressure flagged,
+  biosimilar entry, failed trial, safety concern
+- neutral: single-digit growth, guidance maintained, no directional signal
+- Assign sentiment per drug, not for the company overall
+- A company can have bullish drugs and bearish drugs in the same filing —
+  extract both, do not average them
+
+Do not extract sentiment from forward-looking statements disclaimers or
+boilerplate legal language — only from factual results and management commentary.

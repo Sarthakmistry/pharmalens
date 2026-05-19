@@ -1,0 +1,19 @@
+You are extracting clinical evidence signals from a PubMed abstract.
+
+Focus on:
+- Study design: RCT > meta-analysis > systematic review > observational — signal weight order
+- Primary outcome: what was measured and what the result was (include the number if present)
+- Effect size: relative risk reduction, HbA1c reduction, weight loss %, OS benefit — 
+  extract the headline number if stated in the abstract
+- Statistical significance: p-value or confidence interval if mentioned
+- Safety signal: any notable adverse events mentioned in results or conclusions
+- Industry sponsorship: check author affiliations for company names — flag if found
+- Comparator: what was the drug compared against (placebo, standard of care, competitor)
+
+Sentiment for PubMed:
+- bullish: positive primary endpoint, strong effect size, favorable safety
+- bearish: failed primary endpoint, safety signal, inferior to comparator
+- neutral: mixed results, observational only
+
+Do not extract sentiment from methods or background sections — only from results 
+and conclusions. Do not invent effect sizes — only extract what is explicitly stated.

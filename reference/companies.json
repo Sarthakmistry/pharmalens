@@ -1,0 +1,301 @@
+{
+  "novo-nordisk": {
+    "full_name": "Novo Nordisk A/S",
+    "ticker": "NVO",
+    "exchange": "NYSE",
+    "edgar_cik": "0001116132",
+    "aliases": [
+      "Novo Nordisk",
+      "Novo Nordisk A/S",
+      "NVO",
+      "Novo"
+    ],
+    "headquarters": "Bagsvaerd, Denmark",
+    "drugs": ["semaglutide", "liraglutide", "dulaglutide"],
+    "indications_active": ["glp1-obesity", "type2-diabetes", "hf-htn"]
+  },
+  "eli-lilly": {
+    "full_name": "Eli Lilly and Company",
+    "ticker": "LLY",
+    "exchange": "NYSE",
+    "edgar_cik": "0000059478",
+    "aliases": [
+      "Eli Lilly",
+      "Lilly",
+      "LLY",
+      "Eli Lilly and Company"
+    ],
+    "headquarters": "Indianapolis, Indiana, USA",
+    "drugs": ["tirzepatide", "retatrutide", "dulaglutide", "abemaciclib", "donanemab", "cetuximab"],
+    "indications_active": ["glp1-obesity", "type2-diabetes", "oncology-breast", "oncology-crc", "alzheimers"]
+  },
+  "bristol-myers-squibb": {
+    "full_name": "Bristol-Myers Squibb Company",
+    "ticker": "BMY",
+    "exchange": "NYSE",
+    "edgar_cik": "0000014272",
+    "aliases": [
+      "Bristol-Myers Squibb",
+      "BMS",
+      "BMY",
+      "Bristol Myers Squibb"
+    ],
+    "headquarters": "Princeton, New Jersey, USA",
+    "drugs": ["nivolumab"],
+    "indications_active": ["oncology-nsclc", "oncology-breast", "oncology-crc"]
+  },
+  "merck": {
+    "full_name": "Merck & Co., Inc.",
+    "ticker": "MRK",
+    "exchange": "NYSE",
+    "edgar_cik": "0000310158",
+    "aliases": [
+      "Merck",
+      "MRK",
+      "Merck & Co",
+      "Merck Sharp & Dohme",
+      "MSD"
+    ],
+    "headquarters": "Rahway, New Jersey, USA",
+    "drugs": ["pembrolizumab", "sitagliptin"],
+    "indications_active": ["oncology-nsclc", "oncology-breast", "oncology-crc", "type2-diabetes"]
+  },
+  "pfizer": {
+    "full_name": "Pfizer Inc.",
+    "ticker": "PFE",
+    "exchange": "NYSE",
+    "edgar_cik": "0000078003",
+    "aliases": [
+      "Pfizer",
+      "PFE",
+      "Pfizer Inc"
+    ],
+    "headquarters": "New York, New York, USA",
+    "drugs": ["palbociclib"],
+    "indications_active": ["oncology-breast"]
+  },
+  "roche": {
+    "full_name": "Roche Holding AG",
+    "ticker": "RHHBY",
+    "exchange": "NYSE",
+    "edgar_cik": "0001335293",
+    "aliases": [
+      "Roche",
+      "RHHBY",
+      "Roche Holding",
+      "Genentech",
+      "Hoffmann-La Roche",
+      "F. Hoffmann-La Roche"
+    ],
+    "headquarters": "Basel, Switzerland",
+    "drugs": ["bevacizumab", "atezolizumab"],
+    "indications_active": ["oncology-nsclc", "oncology-breast", "oncology-crc"]
+  },
+  "astrazeneca": {
+    "full_name": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "exchange": "NYSE",
+    "edgar_cik": "0000901832",
+    "aliases": [
+      "AstraZeneca",
+      "AZN",
+      "AZ",
+      "AstraZeneca PLC"
+    ],
+    "headquarters": "Cambridge, United Kingdom",
+    "drugs": ["dapagliflozin", "saxagliptin", "osimertinib", "durvalumab", "olaparib", "trastuzumab deruxtecan"],
+    "indications_active": ["type2-diabetes", "hf-htn", "oncology-nsclc", "oncology-breast", "oncology-crc"]
+  },
+  "novartis": {
+    "full_name": "Novartis AG",
+    "ticker": "NVS",
+    "exchange": "NYSE",
+    "edgar_cik": "0001114448",
+    "aliases": [
+      "Novartis",
+      "NVS",
+      "Novartis AG",
+      "Novartis Pharmaceuticals"
+    ],
+    "headquarters": "Basel, Switzerland",
+    "drugs": ["sacubitril-valsartan", "inclisiran", "ribociclib"],
+    "indications_active": ["hf-htn", "oncology-breast"]
+  },
+  "johnson-and-johnson": {
+    "full_name": "Johnson & Johnson",
+    "ticker": "JNJ",
+    "exchange": "NYSE",
+    "edgar_cik": "0000200406",
+    "aliases": [
+      "Johnson & Johnson",
+      "J&J",
+      "JNJ",
+      "Janssen",
+      "Janssen Pharmaceuticals",
+      "Johnson and Johnson"
+    ],
+    "headquarters": "New Brunswick, New Jersey, USA",
+    "drugs": ["canagliflozin"],
+    "indications_active": ["type2-diabetes", "hf-htn"]
+  },
+  "abbvie": {
+    "full_name": "AbbVie Inc.",
+    "ticker": "ABBV",
+    "exchange": "NYSE",
+    "edgar_cik": "0001551152",
+    "aliases": [
+      "AbbVie",
+      "ABBV",
+      "AbbVie Inc"
+    ],
+    "headquarters": "North Chicago, Illinois, USA",
+    "drugs": [],
+    "indications_active": []
+  },
+  "amgen": {
+    "full_name": "Amgen Inc.",
+    "ticker": "AMGN",
+    "exchange": "NYSE",
+    "edgar_cik": "0000318154",
+    "aliases": [
+      "Amgen",
+      "AMGN",
+      "Amgen Inc"
+    ],
+    "headquarters": "Thousand Oaks, California, USA",
+    "drugs": [],
+    "indications_active": ["glp1-obesity", "oncology-crc"]
+  },
+  "gilead": {
+    "full_name": "Gilead Sciences, Inc.",
+    "ticker": "GILD",
+    "exchange": "NYSE",
+    "edgar_cik": "0000882184",
+    "aliases": [
+      "Gilead",
+      "GILD",
+      "Gilead Sciences"
+    ],
+    "headquarters": "Foster City, California, USA",
+    "drugs": [],
+    "indications_active": []
+  },
+  "biogen": {
+    "full_name": "Biogen Inc.",
+    "ticker": "BIIB",
+    "exchange": "NYSE",
+    "edgar_cik": "0000875320",
+    "aliases": [
+      "Biogen",
+      "BIIB",
+      "Biogen Inc",
+      "Biogen Idec"
+    ],
+    "headquarters": "Cambridge, Massachusetts, USA",
+    "drugs": ["lecanemab"],
+    "indications_active": ["alzheimers"]
+  },
+  "regeneron": {
+    "full_name": "Regeneron Pharmaceuticals, Inc.",
+    "ticker": "REGN",
+    "exchange": "NYSE",
+    "edgar_cik": "0000872589",
+    "aliases": [
+      "Regeneron",
+      "REGN",
+      "Regeneron Pharmaceuticals"
+    ],
+    "headquarters": "Tarrytown, New York, USA",
+    "drugs": [],
+    "indications_active": ["oncology-crc"]
+  },
+  "vertex": {
+    "full_name": "Vertex Pharmaceuticals Incorporated",
+    "ticker": "VRTX",
+    "exchange": "NYSE",
+    "edgar_cik": "0000875320",
+    "aliases": [
+      "Vertex",
+      "VRTX",
+      "Vertex Pharmaceuticals"
+    ],
+    "headquarters": "Boston, Massachusetts, USA",
+    "drugs": ["ivacaftor-tezacaftor-elexacaftor"],
+    "indications_active": []
+  },
+  "sanofi": {
+    "full_name": "Sanofi S.A.",
+    "ticker": "SNY",
+    "exchange": "NYSE",
+    "edgar_cik": "0001121404",
+    "aliases": [
+      "Sanofi",
+      "SNY",
+      "Sanofi S.A.",
+      "Sanofi-Aventis",
+      "Aventis"
+    ],
+    "headquarters": "Paris, France",
+    "drugs": [],
+    "indications_active": []
+  },
+  "gsk": {
+    "full_name": "GSK plc",
+    "ticker": "GSK",
+    "exchange": "NYSE",
+    "edgar_cik": "0001131399",
+    "aliases": [
+      "GSK",
+      "GlaxoSmithKline",
+      "GlaxoSmithKline plc",
+      "Glaxo"
+    ],
+    "headquarters": "Brentford, United Kingdom",
+    "drugs": [],
+    "indications_active": []
+  },
+  "takeda": {
+    "full_name": "Takeda Pharmaceutical Company Limited",
+    "ticker": "TAK",
+    "exchange": "NYSE",
+    "edgar_cik": "0001412093",
+    "aliases": [
+      "Takeda",
+      "TAK",
+      "Takeda Pharmaceutical"
+    ],
+    "headquarters": "Tokyo, Japan",
+    "drugs": [],
+    "indications_active": []
+  },
+  "eisai": {
+    "full_name": "Eisai Co., Ltd.",
+    "ticker": "ESALY",
+    "exchange": "NYSE",
+    "edgar_cik": "0000049196",
+    "aliases": [
+      "Eisai",
+      "ESALY",
+      "Eisai Co",
+      "Eisai Ltd"
+    ],
+    "headquarters": "Tokyo, Japan",
+    "drugs": ["lecanemab"],
+    "indications_active": ["alzheimers"]
+  },
+  "bayer": {
+    "full_name": "Bayer AG",
+    "ticker": "BAYRY",
+    "exchange": "NYSE",
+    "edgar_cik": "0000875045",
+    "aliases": [
+      "Bayer",
+      "BAYRY",
+      "Bayer AG",
+      "Bayer Healthcare"
+    ],
+    "headquarters": "Leverkusen, Germany",
+    "drugs": ["finerenone"],
+    "indications_active": ["hf-htn"]
+  }
+}

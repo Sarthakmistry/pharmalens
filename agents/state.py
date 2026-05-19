@@ -1,0 +1,377 @@
+"""
+agents/state.py
+Single source of truth for all processing state in PharmaLens.
+
+Tracks:
+  1. Raw files processed (all source types)
+  2. NCT IDs seen (to determine new vs update for trial entries)
+
+State is stored in agents/processing_state.json
+No index.md — wiki navigation uses build_wiki_map() at query time.
+"""
+
+import json
+from pathlib import Path
+from datetime import datetime
+from agents.logger import get_logger
+
+logger = get_logger("pharmalens.state")
+
+try:
+    BASE_DIR = Path(__file__).parent.parent
+except NameError:
+    BASE_DIR = Path.cwd().parent  # notebook fallback
+
+STATE_FILE = BASE_DIR / "agents" / "processing_state.json"
+RAW_DIR    = BASE_DIR / "raw"
+WIKI_DIR   = BASE_DIR / "wiki"
+
+
+# ── load / save ───────────────────────────────────────────────────────────────
+
+def _load() -> dict:
+    """Load state from JSON file. Returns empty state if file doesn't exist."""
+    if not STATE_FILE.exists():
+        return {
+            "processed_files": {},
+            "processed_nct_ids": {},
+            "last_lint_run": None,
+        }
+    try:
+        return json.loads(STATE_FILE.read_text())
+    except json.JSONDecodeError:
+        logger.warning("STATE | state file corrupted — starting fresh")
+        return {"processed_files": {}, "processed_nct_ids": {}}
+
+
+def _save(state: dict):
+    """Save state to JSON file atomically."""
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    # write to temp then rename for atomic save
+    tmp = STATE_FILE.with_suffix(".tmp")
+    tmp.write_text(json.dumps(state, indent=2))
+    tmp.rename(STATE_FILE)
+
+
+# ── file tracking ─────────────────────────────────────────────────────────────
+
+def is_file_processed(file_path: Path) -> bool:
+    """Check if a raw file has already been processed."""
+    return str(file_path) in _load()["processed_files"]
+
+
+def mark_file_processed(
+    file_path: Path,
+    doc_type: str,
+    status: str,
+    company: str | None = None,
+    drug: str | None = None,
+):
+    """
+    Record a raw file as processed.
+    Call this after compile_document() succeeds or fails.
+    """
+    state = _load()
+    state["processed_files"][str(file_path)] = {
+        "processed_at": datetime.now().strftime("%Y-%m-%dT%H:%M"),
+        "doc_type": doc_type,
+        "company": company,
+        "drug": drug,
+        "status": status,
+    }
+    _save(state)
+
+
+SKIP_FILES = {".gitkeep", ".DS_Store", ".DS_store"}
+
+def get_unprocessed_files() -> list[Path]:
+    """
+    Diff raw/ folder against state file.
+    Returns all files not yet in processed_files.
+    Pure Python — no LLM, no regex.
+    """
+    processed = _load()["processed_files"]
+    all_files = [
+        p for p in RAW_DIR.rglob("*")
+        if p.is_file() and p.name not in SKIP_FILES
+    ]
+    return [f for f in all_files if str(f) not in processed]
+
+
+def reset_timeout_files() -> list[Path]:
+    """
+    Remove timeout entries from processed_files so they are picked up on the next run.
+    Returns the list of paths that were reset.
+    """
+    state = _load()
+    to_reset = [
+        path for path, meta in state["processed_files"].items()
+        if meta.get("status", "").startswith("timeout:")
+    ]
+    for path in to_reset:
+        del state["processed_files"][path]
+    if to_reset:
+        _save(state)
+        logger.info(f"STATE | reset {len(to_reset)} timeout file(s) for retry")
+    return [Path(p) for p in to_reset]
+
+
+# ── lint scheduling ───────────────────────────────────────────────────────────
+
+def should_run_lint() -> bool:
+    """Return True if lint has never run or last ran more than 7 days ago."""
+    last = _load().get("last_lint_run")
+    if not last:
+        return True
+    try:
+        delta = datetime.now() - datetime.fromisoformat(last)
+        return delta.days >= 7
+    except ValueError:
+        return True
+
+
+def mark_lint_run() -> None:
+    """Record the current timestamp as the last lint run."""
+    state = _load()
+    state["last_lint_run"] = datetime.now().isoformat()
+    _save(state)
+
+
+# ── NCT ID tracking ───────────────────────────────────────────────────────────
+
+def is_nct_processed(nct_id: str) -> bool:
+    """Check if an NCT ID has ever been processed."""
+    return nct_id in _load()["processed_nct_ids"]
+
+
+def get_nct_action(nct_id: str) -> str:
+    """
+    Returns 'new' or 'update'.
+    Used by compiler Step 2 to tell Step 3 whether to add or update a trial entry.
+    """
+    return "update" if is_nct_processed(nct_id) else "new"
+
+
+def mark_nct_processed(nct_id: str, primary_sponsor: str, first_seen: str | None = None):
+    """
+    Record an NCT ID as seen. Only records on first encounter.
+    Subsequent calls for the same NCT ID are no-ops.
+    """
+    state = _load()
+    if nct_id not in state["processed_nct_ids"]:
+        state["processed_nct_ids"][nct_id] = {
+            "first_seen": first_seen or datetime.now().strftime("%Y-%m-%d"),
+            "primary_sponsor": primary_sponsor,
+        }
+        _save(state)
+
+
+# ── wiki navigation (replaces index.md) ──────────────────────────────────────
+
+def build_wiki_map() -> str:
+    """
+    Build a navigation map of all current wiki pages for the Q&A agent.
+    Generated fresh from the filesystem at query time — always accurate,
+    zero maintenance overhead.
+    """
+    sections = {
+        "Drugs":       sorted(WIKI_DIR.glob("drugs/*.md")),
+        "Companies":   sorted(WIKI_DIR.glob("companies/*.md")),
+        "Indications": sorted(WIKI_DIR.glob("indications/**/_index.md")),
+        "Trials":      sorted(WIKI_DIR.glob("trials/*.md")),
+        "Events":      sorted(WIKI_DIR.glob("events/*.md")),
+    }
+
+    lines = ["Available wiki pages:\n"]
+    for section, paths in sections.items():
+        if paths:
+            lines.append(f"## {section}")
+            for p in paths:
+                lines.append(f"  - {p.relative_to(WIKI_DIR)}")
+            lines.append("")
+
+    return "\n".join(lines)
+
+
+# ── reporting helpers ─────────────────────────────────────────────────────────
+
+def get_summary() -> dict:
+    """
+    Return a summary of current processing state.
+    Useful for debugging and status checks.
+    """
+    state = _load()
+    files = state["processed_files"]
+    ncts  = state["processed_nct_ids"]
+
+    by_status = {}
+    by_doc_type = {}
+    for meta in files.values():
+        s = meta.get("status", "unknown")
+        d = meta.get("doc_type", "unknown")
+        by_status[s]    = by_status.get(s, 0) + 1
+        by_doc_type[d]  = by_doc_type.get(d, 0) + 1
+
+    return {
+        "total_files_processed": len(files),
+        "by_status": by_status,
+        "by_doc_type": by_doc_type,
+        "total_nct_ids_seen": len(ncts),
+        "state_file": str(STATE_FILE),
+    }
+
+
+def print_summary():
+    """Log a human-readable processing summary at INFO level."""
+    s = get_summary()
+    logger.info("STATE | ── processing summary ──────────────────────────")
+    logger.info(f"STATE | state file:       {s['state_file']}")
+    logger.info(f"STATE | files processed:  {s['total_files_processed']}")
+    logger.info(f"STATE | NCT IDs tracked:  {s['total_nct_ids_seen']}")
+    logger.info(f"STATE | by doc type:      {s['by_doc_type']}")
+    logger.info(f"STATE | by status:        {s['by_status']}")
+    logger.info("STATE | ────────────────────────────────────────────────")
+
+
+def export_to_csv(output_path: Path | None = None):
+    """
+    Export processed files to CSV for easy inspection in Excel/Sheets.
+    Useful for sharing status with your DE teammate.
+    """
+    import csv
+    output_path = output_path or BASE_DIR / "agents" / "processing_log.csv"
+
+    state = _load()
+    files = state["processed_files"]
+
+    with open(output_path, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=[
+            "file_path", "processed_at", "doc_type",
+            "company", "drug", "status"
+        ])
+        writer.writeheader()
+        for file_path, meta in sorted(files.items()):
+            writer.writerow({
+                "file_path":    file_path,
+                "processed_at": meta.get("processed_at", ""),
+                "doc_type":     meta.get("doc_type", ""),
+                "company":      meta.get("company", ""),
+                "drug":         meta.get("drug", ""),
+                "status":       meta.get("status", ""),
+            })
+
+    logger.info(f"STATE | exported {len(files)} records → {output_path}")
+
+
+
+# ── index updater (replaces LLM-based _update_index) ─────────────────────────
+
+INDEX_SECTIONS = {
+    "drug":           "## Drugs",
+    "company":        "## Companies",
+    "indication_hub": "## Indications",
+    "trial":          "## Trials",
+    "event":          "## Events",
+}
+
+def update_index_py(pages_to_update: list[dict]):
+    """
+    Update wiki/index.md purely in Python after each compiler run.
+    Only adds new entries — never removes or duplicates existing ones.
+
+    pages_to_update: list of {path, type, entity} dicts from compile_document()
+    Each entry gets one line in the relevant section of index.md.
+    """
+    index_path = WIKI_DIR / "index.md"
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    # read existing index — empty string if first run
+    existing = index_path.read_text() if index_path.exists() else ""
+
+    # collect new lines per section — skip anything already in index
+    additions: dict[str, list[str]] = {}
+
+    for page in pages_to_update:
+        path   = page["path"]
+        ptype  = page["type"]
+        entity = page["entity"]
+
+        # skip if this page path already appears in index
+        if f"[[{path}]]" in existing:
+            continue
+
+        section = INDEX_SECTIONS.get(ptype)
+        if not section:
+            continue
+
+        line = f"- [[{path}]] — {entity} (last updated: {today})"
+        additions.setdefault(section, []).append(line)
+
+    if not additions:
+        return  # nothing new to add
+
+    # ensure all section headers exist in the file
+    lines = existing.splitlines() if existing else []
+    existing_headers = set(lines)
+
+    for header in INDEX_SECTIONS.values():
+        if header not in existing_headers:
+            lines.extend(["", header, ""])
+
+    # insert new lines immediately after their section header
+    result = []
+    i = 0
+    while i < len(lines):
+        result.append(lines[i])
+        for section, new_lines in additions.items():
+            if lines[i].strip() == section:
+                result.extend(new_lines)
+        i += 1
+
+    WIKI_DIR.mkdir(parents=True, exist_ok=True)
+    index_path.write_text("\n".join(result))
+
+    total_added = sum(len(v) for v in additions.values())
+    logger.info(f"INDEX | added {total_added} new entries to index.md")
+
+
+# ── CLI for inspection ────────────────────────────────────────────────────────
+
+if __name__ == "__main__":
+    import sys
+
+    cmd = sys.argv[1] if len(sys.argv) > 1 else "summary"
+
+    if cmd == "summary":
+        print_summary()
+
+    elif cmd == "export":
+        export_to_csv()
+
+    elif cmd == "unprocessed":
+        files = get_unprocessed_files()
+        logger.info(f"STATE | {len(files)} unprocessed files:")
+        for f in files:
+            logger.info(f"STATE |   {f}")
+
+    elif cmd == "ncts":
+        state = _load()
+        ncts = state["processed_nct_ids"]
+        logger.info(f"STATE | {len(ncts)} NCT IDs tracked:")
+        for nct_id, meta in sorted(ncts.items()):
+            logger.info(
+                f"STATE |   {nct_id} | sponsor: {meta['primary_sponsor']} "
+                f"| first seen: {meta['first_seen']}"
+            )
+
+    elif cmd == "reset":
+        confirm = input("Reset all processing state? This cannot be undone. (yes/no): ")
+        if confirm.lower() == "yes":
+            STATE_FILE.unlink(missing_ok=True)
+            logger.info("STATE | reset complete — state file deleted")
+        else:
+            logger.info("STATE | reset cancelled")
+
+    else:
+        logger.warning(f"STATE | unknown command '{cmd}'")
+        logger.info("STATE | usage: python state.py [summary | export | unprocessed | ncts | reset]")
