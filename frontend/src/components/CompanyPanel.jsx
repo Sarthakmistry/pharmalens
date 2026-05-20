@@ -1,4 +1,4 @@
-export default function CompanyPanel({ companies }) {
+export default function CompanyPanel({ companies, onSelectCompany }) {
   return (
     <div className="card">
       <p className="sec-label" style={{ marginBottom: 12 }}>Companies in class</p>
@@ -15,7 +15,7 @@ export default function CompanyPanel({ companies }) {
           return (
             <div key={co.slug}>
               {i > 0 && <hr className="divider" style={{ margin: 0 }} />}
-              <div className="co-row">
+              <div className="co-row" style={{ cursor: onSelectCompany ? 'pointer' : 'default' }} onClick={() => onSelectCompany?.(co.slug)}>
                 <div>
                   <div className="co-name">{co.full_name}</div>
                   <div className="co-sub">

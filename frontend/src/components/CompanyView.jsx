@@ -10,7 +10,7 @@ const SearchIcon = () => (
   </svg>
 )
 
-export default function CompanyView({ slug }) {
+export default function CompanyView({ slug, onSelectIndication }) {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
 
@@ -117,7 +117,11 @@ export default function CompanyView({ slug }) {
             {(meta.indications_active ?? []).map((ind, i) => (
               <div key={ind}>
                 {i > 0 && <hr className="divider" style={{ margin: 0 }} />}
-                <div className="co-row" style={{ cursor: 'default' }}>
+                <div
+                  className="co-row"
+                  style={{ cursor: onSelectIndication ? 'pointer' : 'default' }}
+                  onClick={() => onSelectIndication?.(ind)}
+                >
                   <div>
                     <div className="co-name">{ind.replace(/-/g, ' ')}</div>
                   </div>

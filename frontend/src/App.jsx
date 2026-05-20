@@ -51,6 +51,7 @@ export default function App() {
               slug={activeIndication}
               stocks={stocks}
               companies={companies}
+              onSelectCompany={slug => { setActiveCompany(slug); setActiveIndication(null) }}
             />
           )}
           {activeCompany && (
@@ -58,6 +59,7 @@ export default function App() {
               key={activeCompany}
               slug={activeCompany}
               stocks={stocks}
+              onSelectIndication={slug => { setActiveIndication(slug); setActiveCompany(null) }}
             />
           )}
         </main>

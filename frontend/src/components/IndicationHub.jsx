@@ -13,7 +13,7 @@ const SearchIcon = () => (
   </svg>
 )
 
-export default function IndicationHub({ slug, stocks, companies }) {
+export default function IndicationHub({ slug, stocks, companies, onSelectCompany }) {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
 
@@ -91,7 +91,7 @@ export default function IndicationHub({ slug, stocks, companies }) {
       {/* Events + Companies */}
       <div className="bottom-grid">
         <EventList events={events} />
-        <CompanyPanel companies={activeCompanies} />
+        <CompanyPanel companies={activeCompanies} onSelectCompany={onSelectCompany} />
       </div>
 
       {/* Embedded AI bar */}
