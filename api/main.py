@@ -160,7 +160,25 @@ def get_company(slug: str) -> dict:
     ticker = company_meta.get("ticker", "")
     stock = get_stock_price(ticker) if ticker else {}
 
-    return {"slug": slug, "meta": company_meta, "wiki": wiki_body, "stock": stock}
+    # Build drug → [indication slugs] map by scanning each active indication's wiki
+    drug_indications: dict[str, list[str]] = {}
+    company_drugs = set(company_meta.get("drugs", []))
+    for ind_slug in company_meta.get("indications_active", []):
+        ind_path = WIKI_DIR / "indications" / ind_slug / "_index.md"
+        if not ind_path.exists():
+            continue
+        fm, _ = _parse_frontmatter(ind_path.read_text())
+        for drug in [*fm.get("drugs_approved", []), *fm.get("drugs_pipeline", [])]:
+            if drug in company_drugs:
+                drug_indications.setdefault(drug, []).append(ind_slug)
+
+    return {
+        "slug": slug,
+        "meta": company_meta,
+        "wiki": wiki_body,
+        "stock": stock,
+        "drug_indications": drug_indications,
+    }
 
 
 # ── Q&A agent (SSE) ───────────────────────────────────────────────────────────

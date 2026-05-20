@@ -23,20 +23,14 @@ export default function CompanyView({ slug }) {
   if (loading) return <div className="loading">Loading {slug}…</div>
   if (!data) return null
 
-  const { meta, wiki, stock } = data
+  const { meta, wiki, stock, drug_indications = {} } = data
   const events = parseEventsTable(wiki)
 
   const changePct = stock?.change_pct
   const priceClass = changePct > 0 ? 'price-pos' : changePct < 0 ? 'price-neg' : 'price-neu'
 
-  // Group drugs by indication from meta
-  const drugsByIndication = {}
-  ;(meta.indications_active ?? []).forEach(ind => {
-    drugsByIndication[ind] = (meta.drugs ?? []).filter(d =>
-      // All drugs listed under this company belong to their active indications
-      true
-    )
-  })
+  const fmtIndication = slug =>
+    slug.replace('glp1', 'GLP-1').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
 
   return (
     <div>
@@ -77,15 +71,20 @@ export default function CompanyView({ slug }) {
         <>
           <p className="sec-label" style={{ marginBottom: 10 }}>Drug portfolio</p>
           <div className="drug-grid" style={{ marginBottom: 20 }}>
-            {meta.drugs.map((drug, i) => (
-              <div key={i} className="drug-card">
-                <div className="drug-name">{drug}</div>
-                <div className="drug-co" style={{ marginBottom: 8 }}>
-                  {meta.indications_active?.join(' · ')}
+            {meta.drugs.map((drug, i) => {
+              const indications = drug_indications[drug] ?? []
+              return (
+                <div key={i} className="drug-card">
+                  <div className="drug-name">{drug}</div>
+                  {indications.length > 0 && (
+                    <div className="drug-co" style={{ marginBottom: 8 }}>
+                      {indications.map(fmtIndication).join(' · ')}
+                    </div>
+                  )}
+                  <span className="badge badge-approved">Active</span>
                 </div>
-                <span className="badge badge-approved">Active</span>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </>
       )}
