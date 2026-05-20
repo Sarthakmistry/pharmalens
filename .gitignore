@@ -10,6 +10,8 @@ venv/
 !reference/indications.json
 !reference/companies.json
 !reference/AllFiles.zip
+!frontend/package.json
+!frontend/package-lock.json
 
 # python
 __pycache__/
