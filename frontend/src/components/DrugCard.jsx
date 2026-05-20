@@ -1,5 +1,3 @@
-import { sentimentScore } from '../parseWiki'
-
 function statusClass(status) {
   const s = status.toLowerCase()
   if (s.includes('approved')) return 'badge-approved'
@@ -10,7 +8,6 @@ function statusClass(status) {
 }
 
 export default function DrugCard({ drug, stock }) {
-  const score = sentimentScore(drug.sentiment)
   const changePct = stock?.change_pct
 
   const priceClass =
@@ -26,16 +23,12 @@ export default function DrugCard({ drug, stock }) {
       <div className="drug-co">{drug.company}</div>
       <span className={`badge ${statusClass(drug.status)}`}>{drug.status}</span>
 
-      <hr className="divider" />
-
-      <div className="sent-label">Mgmt. sentiment</div>
-      <div className="dots">
-        {[1, 2, 3, 4, 5].map(i => (
-          <span key={i} className={`dot ${i <= score ? 'dot-filled' : 'dot-empty'}`} />
-        ))}
-      </div>
-
-      {priceLabel && <span className={priceClass}>{priceLabel}</span>}
+      {priceLabel && (
+        <>
+          <hr className="divider" />
+          <span className={priceClass}>{priceLabel}</span>
+        </>
+      )}
     </div>
   )
 }
