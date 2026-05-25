@@ -70,7 +70,9 @@ def mark_file_processed(
     """
     Record a raw file as processed.
     Call this after compile_document() succeeds or fails.
+    Stores content_hash so get_unprocessed_files() can skip unchanged files on re-encounter.
     """
+    from agents.gcs import get_content_hash
     state = _load()
     state["processed_files"][str(file_path)] = {
         "processed_at": datetime.now().strftime("%Y-%m-%dT%H:%M"),
@@ -78,6 +80,7 @@ def mark_file_processed(
         "company": company,
         "drug": drug,
         "status": status,
+        "content_hash": get_content_hash(file_path, BASE_DIR),
     }
     _save(state)
 
@@ -86,16 +89,73 @@ SKIP_FILES = {".gitkeep", ".DS_Store", ".DS_store"}
 
 def get_unprocessed_files() -> list[Path]:
     """
-    Diff raw/ folder against state file.
-    Returns all files not yet in processed_files.
-    Pure Python — no LLM, no regex.
+    Diff local + GCS raw/ listing against state file.
+    Returns files that are new OR whose content has changed since last processing.
+
+    Hash-based delta detection:
+      - If a file was processed before and its content_hash matches the current
+        file, skip it — no reprocessing needed.
+      - If the hash differs (content updated), include it for reprocessing.
+      - Entries without a stored hash (pre-hash era) are treated as done.
+
+    ctgov cross-folder dedup:
+      Same trial JSON under a different date folder (e.g. 2026-04-06 vs 2026-05-06)
+      is matched by (company, filename). If hashes match, skip; if hashes differ,
+      the content changed and the trial should be reprocessed.
     """
+    from agents.gcs import list_raw_blobs, get_content_hash
     processed = _load()["processed_files"]
-    all_files = [
-        p for p in RAW_DIR.rglob("*")
-        if p.is_file() and p.name not in SKIP_FILES
-    ]
-    return [f for f in all_files if str(f) not in processed]
+
+    # build (company, filename) → stored_hash for ctgov cross-folder dedup
+    processed_ctgov_keys: dict[tuple[str, str], str | None] = {}
+    for p, meta in processed.items():
+        parts = Path(p).parts
+        if "ctgov" in parts:
+            idx = list(parts).index("ctgov")
+            if idx + 2 < len(parts):
+                key = (parts[idx + 1], Path(p).name)
+                processed_ctgov_keys[key] = meta.get("content_hash")
+
+    skipped_unchanged = 0
+    reprocess_changed = 0
+    result = []
+
+    for f in list_raw_blobs(BASE_DIR):
+        if str(f) in processed:
+            stored_hash = processed[str(f)].get("content_hash")
+            if stored_hash is None:
+                # pre-hash era entry — treat as done to avoid mass reprocessing
+                continue
+            current_hash = get_content_hash(f, BASE_DIR)
+            if current_hash == stored_hash:
+                skipped_unchanged += 1
+                continue
+            # content changed since last run — reprocess
+            reprocess_changed += 1
+            logger.info(f"STATE | content changed, reprocessing: {f.name}")
+        elif "ctgov" in f.parts:
+            idx = list(f.parts).index("ctgov")
+            if idx + 2 < len(f.parts):
+                key = (f.parts[idx + 1], f.name)
+                if key in processed_ctgov_keys:
+                    stored_hash = processed_ctgov_keys[key]
+                    if stored_hash is None:
+                        # pre-hash era — treat cross-folder duplicate as done
+                        continue
+                    current_hash = get_content_hash(f, BASE_DIR)
+                    if current_hash == stored_hash:
+                        skipped_unchanged += 1
+                        continue
+                    reprocess_changed += 1
+                    logger.info(f"STATE | ctgov content changed (new folder), reprocessing: {f.name}")
+
+        result.append(f)
+
+    if skipped_unchanged:
+        logger.info(f"STATE | skipped {skipped_unchanged} unchanged file(s) (hash match)")
+    if reprocess_changed:
+        logger.info(f"STATE | queued {reprocess_changed} file(s) for reprocessing (content changed)")
+    return result
 
 
 def reset_timeout_files() -> list[Path]:

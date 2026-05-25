@@ -7,7 +7,7 @@ indications_active: []
 blockbuster_drugs: []
 pipeline_drugs: []
 last_earnings_date: YYYY-MM-DD
-last_updated: 2026-04-07
+last_updated: 2025-07-22
 ---
 
 ## Gilead Sciences, Inc.
@@ -41,6 +41,7 @@ No specific earnings intelligence available from the latest processing.
 | 2026-04-06 | A clinical trial (NCT01854775) sponsored by Gilead Sciences, evaluating the pharmacokinetics, safety, and antiviral activity of the Elvitegravir/Cobicistat/Emtricitabine/Tenofovir Alafenamide (E/C/F/TAF) single tablet regimen in HIV-1 infected adolescents and children, has been completed. | [[2026-04-06-gilead-ecftaf-trial-completion]] |
 
 ### Sources
+- `raw/edgar/gilead/8K/2025-07-22-8K--25-000036.txt`
 - `raw/ctgov/gilead/2026-04-07/NCT02932150.json`
 - `raw/ctgov/gilead/2026-04-07/NCT02625480.json`
 - `raw/ctgov/gilead/2026-04-07/NCT02881320.json`
@@ -52,48 +53,3 @@ No specific earnings intelligence available from the latest processing.
 - `raw/ctgov/gilead/2026-04-06/NCT02285114.json`
 - `raw/ctgov/gilead/2026-04-07/NCT02953509.json`
 - `raw/ctgov/gilead/2026-04-07/NCT02842086.json`
----
----
-event_type: trial_initiation
-date: 2026-04-07
-slug: gilead-tenofovir-alafenamide-hbv-trial-initiation
-companies: [gilead]
-drugs: [Tenofovir Alafenamide]
-indications: [Chronic Hepatitis B]
-clinical_trial_ids: [NCT02932150]
-summary: Gilead Sciences has initiated a Phase 2 randomized controlled trial (RCT) for Tenofovir Alafenamide (TAF) in 150 participants with Chronic Hepatitis B. The study compares TAF to placebo, monitoring the incidence of Treatment-Emergent Serious Adverse Events (SAEs) and Treatment-Emergent Adverse Events (AEs) at Week 24, as well as the percentage of participants with plasma HBV DNA < 20 IU/mL and PK Parameter: AUCtau of TAF. The trial is currently recruiting, with primary completion expected in September 2026.
-sentiment: neutral
-signal_weight: High
-last_updated: 2026-04-07
----
-## Gilead Sciences initiates Phase 2 trial (NCT02932150) for Tenofovir Alafenamide in Chronic Hepatitis B.
-
-### Clinical evidence
-- Study design: RCT
-- Sample size: 150 participants
-- Comparator: placebo
-- Primary outcome: Incidence of Treatment-Emergent Serious Adverse Events (SAEs) at Week 24 | Incidence of Treatment-Emergent Adverse Events (AEs) at Week 24 | Percentage of participants with plasma HBV DNA < 20 IU/mL at Week 24 | PK Parameter: AUCtau of TAF for participants from Cohort 2 Part A
-- Primary result: None
-- Secondary results: None
-- Safety: The study monitors the incidence of Treatment-Emergent Serious Adverse Events (SAEs) and Treatment-Emergent Adverse Events (AEs) as primary outcome measures.
-- Conclusions: None
-- Journal: None
-- Industry sponsored: True
-
-### Timeline
-- **2026-09**: Estimated Primary Completion Date
-
-### Drug(s)
-- Tenofovir Alafenamide
-
-### Indication(s)
-- Chronic Hepatitis B
-
-### Company(s)
-- [[gilead]]
-
-### Clinical Trial(s)
-- NCT02932150
-
-### Sources
-- `raw/ctgov/gilead/2026-04-07/NCT02932150.json`

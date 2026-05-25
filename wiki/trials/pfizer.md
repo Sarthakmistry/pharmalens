@@ -1,4 +1,3 @@
-```markdown
 ---
 ---
 # Pfizer Clinical Trials
@@ -15,6 +14,7 @@
 | NCT02684006 | Avelumab, Axitinib, Sunitinib | Renal Cell Cancer | 3 | Completed | 2018-05-01 |
 | NCT00868530 | Xyntha | Hemophilia A | 3 | Completed | 2009-12-31 |
 | NCT01909453 | LGX818, MEK162, Vemurafenib | Melanoma | 3 | Completed | 2024-09-03 |
+| NCT04168203 | apixaban | Venous Thromboembolism | 3 | Completed | N/A |
 | NCT02319837 | Enzalutamide, Leuprolide | Hormone Sensitive Prostate Cancer, Prostate Cancer, Cancer of the Prostate | 3 | Active | N/A |
 | NCT02850406 | Voxelotor | Sickle Cell Disease | 2 | Terminated | N/A |
 
@@ -295,6 +295,41 @@ Part 1: Progression Free Survival (PFS) by BIRC in Combo 450 Group as Compared t
 ### Sources
 - `raw/ctgov/pfizer/2026-04-07/NCT01909453.json`
 
+### NCT04168203: Apixaban for the Prevention of Recurrent Venous Thromboembolism (HI-PRO)
+
+---
+trial_id: NCT04168203
+title: Apixaban for the Prevention of Recurrent Venous Thromboembolism (HI-PRO)
+phase: 3
+status: completed
+primary_sponsor: pfizer
+co_sponsors: ["bristol-myers-squibb"]
+drugs: ["apixaban"]
+indications: ["Venous Thromboembolism"]
+enrollment: 600
+primary_endpoint: the first symptomatic recurrent VTE
+primary_completion_date: N/A
+has_results: true
+primary_result_value: "Symptomatic recurrent VTE occurred in 4 of the 300 patients (1.3%) in the apixaban group and in 30 of the 300 patients (10.0%) in the placebo group (hazard ratio, 0.13; 95% confidence interval [CI], 0.04 to 0.36; P<0.001)."
+last_updated: 2026-04-12
+---
+
+## Apixaban for the Prevention of Recurrent Venous Thromboembolism (HI-PRO)
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[pfizer]]
+
+### Design
+This was an RCT study involving 600 patients, comparing apixaban against placebo for the prevention of recurrent venous thromboembolism in patients with provoked VTE and enduring risk factors.
+
+### Primary endpoint
+the first symptomatic recurrent VTE. Result: Symptomatic recurrent VTE occurred in 4 of the 300 patients (1.3%) in the apixaban group and in 30 of the 300 patients (10.0%) in the placebo group (hazard ratio, 0.13; 95% confidence interval [CI], 0.04 to 0.36; P<0.001).
+
+### Results summary
+Symptomatic recurrent VTE occurred in 4 of the 300 patients (1.3%) in the apixaban group and in 30 of the 300 patients (10.0%) in the placebo group (hazard ratio, 0.13; 95% confidence interval [CI], 0.04 to 0.36; P<0.001). Major bleeding occurred in 1 patient in the apixaban group and none in the placebo group. Clinically relevant nonmajor bleeding was observed in 14 of 294 patients (4.8%) in the apixaban group and in 5 of 294 patients (1.7%) in the placebo group (hazard ratio, 2.68; 95% CI, 0.96 to 7.43; P=0.06). Among patients with provoked VTE and enduring risk factors, low-intensity therapy with apixaban for 12 months resulted in a lower risk of symptomatic recurrent VTE than placebo, with a low risk of major bleeding. (Funded by Bristol-Myers Squibb-Pfizer Alliance; HI-PRO ClinicalTrials.gov number, NCT04168203.).
+
+### Sources
+- `raw/pubmed/apixaban/2026-04-12/abstract-40888734.json`
+
 ## Active Trials
 
 ### NCT02319837: A Study of Enzalutamide Plus Leuprolide Versus Placebo Plus Leuprolide in Patients With High-Risk Nonmetastatic Prostate Cancer (EMBARK)
@@ -367,4 +402,3 @@ Part A: Maximum Concentration (Cmax) of Voxelotor in Whole Blood | Part A: Area 
 
 ### Sources
 - `raw/ctgov/pfizer/2026-04-06/NCT02850406.json`
-```

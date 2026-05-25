@@ -5,6 +5,9 @@
 
 | NCT ID | Drug | Indication | Phase | Status | Primary Completion Date |
 |---|---|---|---|---|---|
+| NCT05359263 | [[dapagliflozin]] | chronic kidney disease | 3 | completed | 2025-01-01 |
+| NCT05567796 | cagrilintide, [[semaglutide]] | [[glp1-obesity]], [[hf-htn]] | 3 | completed | 2025-01-01 |
+| NCT05394519 | cagrilintide, [[semaglutide]] | [[glp1-obesity]], [[type2-diabetes]] | 2 | completed | 2025-01-01 |
 | NCT03914326 | [[semaglutide]] | [[type2-diabetes]], [[hf-htn]] | 3 | completed | 2024-08-23 |
 | NCT03878446 | somapacitan | Growth Hormone Deficiency in Children | 2 | active | |
 | NCT03811561 | [[semaglutide]] | [[type2-diabetes]] | 3 | active | |
@@ -61,7 +64,7 @@ Presence of at least 3 steps Early Treatment Diabetic Retinopathy Study (ETDRS) 
 - **Comparator**: placebo
 - **Primary outcome**: Presence of at least 3 steps Early Treatment Diabetic Retinopathy Study (ETDRS) subject level progression.
 - **Primary result**: None
-- **Secondary results**: None
+- **Secondary results**: []
 - **Safety**: None
 - **Conclusions**: None
 - **Journal**: None, None
@@ -71,6 +74,143 @@ Presence of at least 3 steps Early Treatment Diabetic Retinopathy Study (ETDRS) 
 - `raw/ctgov/novo-nordisk/2026-04-07/NCT03811561.json`
 
 ## Completed Trials
+
+---
+trial_id: NCT05359263
+title: A Study to Evaluate the Effect of Dapagliflozin on Left Ventricular Mass in Patients With Chronic Kidney Disease
+phase: 3
+status: completed
+primary_sponsor: novo-nordisk
+co_sponsors: []
+drugs: [[dapagliflozin]]
+indications: [chronic kidney disease]
+enrollment: 222
+primary_endpoint: change in left ventricular mass index
+primary_completion_date: 2025-01-01
+has_results: true
+primary_result_value: "The estimated mean difference in left ventricular mass index between the dapagliflozin group compared with placebo was -8.44 g/m2 (95% confidence interval, -11.83 to -5.06; P<0.001)."
+last_updated: 2026-04-12
+---
+
+### NCT05359263: A Study to Evaluate the Effect of Dapagliflozin on Left Ventricular Mass in Patients With Chronic Kidney Disease
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[novo-nordisk]]
+
+### Design
+This randomized controlled trial (RCT) investigated the effect of [[dapagliflozin]] on left ventricular mass in 222 patients with chronic kidney disease, compared to placebo.
+
+### Primary endpoint
+change in left ventricular mass index
+
+### Results summary
+The estimated mean difference in left ventricular mass index between the dapagliflozin group compared with placebo was -8.44 g/m2 (95% confidence interval, -11.83 to -5.06; P<0.001). The rate of serious adverse events was similar between the groups.
+
+### Clinical evidence
+- **Study design**: RCT
+- **Sample size**: 222 patients
+- **Comparator**: placebo
+- **Primary outcome**: change in left ventricular mass index
+- **Primary result**: The estimated mean difference in left ventricular mass index between the dapagliflozin group compared with placebo was -8.44 g/m2 (95% confidence interval, -11.83 to -5.06; P<0.001).
+- **Secondary results**: []
+- **Safety**: The rate of serious adverse events was similar between the groups.
+- **Conclusions**: In a heterogeneous population of patients with chronic kidney disease, dapagliflozin significantly reduced left ventricular mass index compared with placebo. These findings provide mechanistic insights into the early treatment benefits of SGLT2 inhibitors seen previously in chronic kidney disease. Further research is needed to replicate and further define these early treatment benefits. (Funded by the Danish Cardiovascular Academy and Novo Nordisk Foundation; ClinicalTrials.gov number, NCT05359263.).
+- **Journal**: NEJM evidence, 2025
+- **Industry sponsored**: True
+
+### Sources
+- `raw/pubmed/dapagliflozin/2026-04-12/abstract-41147829.json`
+
+---
+
+### NCT05567796: A Trial to Investigate the Efficacy and Safety of Cagrilintide With Semaglutide in People With Overweight or Obesity (REDEFINE 1)
+---
+trial_id: NCT05567796
+title: A Trial to Investigate the Efficacy and Safety of Cagrilintide With Semaglutide in People With Overweight or Obesity (REDEFINE 1)
+phase: 3
+status: completed
+primary_sponsor: novo-nordisk
+co_sponsors: []
+drugs: [cagrilintide, [[semaglutide]]]
+indications: [[glp1-obesity]], [[hf-htn]]
+enrollment: 3417
+primary_endpoint: Changes from baseline to week 68 in blood pressure (BP)
+primary_completion_date: 2025-01-01
+has_results: true
+primary_result_value: "Changes from baseline to week 68 in blood pressure (BP) were greater with CagriSema versus placebo (systolic BP: -10.9 versus -2.8 mm Hg; diastolic BP: -5.4 versus -1.7 mm Hg, respectively)."
+last_updated: 2026-04-12
+---
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[novo-nordisk]]
+
+### Design
+This randomized controlled trial (RCT) investigated the efficacy and safety of CagriSema (cagrilintide with [[semaglutide]]) compared to placebo in 3417 participants with overweight or obesity. The study aimed to evaluate changes in blood pressure over 68 weeks.
+
+### Primary endpoint
+Changes from baseline to week 68 in blood pressure (BP)
+
+### Results summary
+Changes from baseline to week 68 in blood pressure (BP) were greater with CagriSema versus placebo (systolic BP: -10.9 versus -2.8 mm Hg; diastolic BP: -5.4 versus -1.7 mm Hg, respectively). The proportion of participants reaching BP targets at week 68 was 63.0% and 32.0% for CagriSema and placebo, respectively. Among participants who used antihypertensive medication during the study, 39.6% in the CagriSema group decreased or stopped treatment from week 0 to week 68 versus 18.8% with placebo.
+
+### Clinical evidence
+- **Study design**: RCT
+- **Sample size**: 3417 participants
+- **Comparator**: placebo
+- **Primary outcome**: Changes from baseline to week 68 in blood pressure (BP)
+- **Primary result**: Changes from baseline to week 68 in blood pressure (BP) were greater with CagriSema versus placebo (systolic BP: -10.9 versus -2.8 mm Hg; diastolic BP: -5.4 versus -1.7 mm Hg, respectively).
+- **Secondary results**:
+    - The proportion of participants reaching BP targets at week 68 was 63.0% and 32.0% for CagriSema and placebo, respectively.
+    - The proportion of participants with resistant hypertension at baseline (n=167) that reached BP targets at week 68 was 42.0% and 29.3% for CagriSema and placebo, respectively (odds ratio, 1.7 [95% CI, 0.7-4.4]).
+    - Among participants who used antihypertensive medication during the study, 39.6% in the CagriSema group decreased or stopped treatment from week 0 to week 68 versus 18.8% with placebo.
+- **Safety**: None
+- **Conclusions**: CagriSema presents clinically relevant reductions in BP across a wide range of participant subgroups, including those with resistant hypertension.
+- **Journal**: Hypertension (Dallas, Tex. : 1979), 2026
+- **Industry sponsored**: True
+
+### Sources
+- `raw/pubmed/cagrilintide/2026-04-12/abstract-40544433.json`
+- `raw/pubmed/cagrilintide/2026-04-12/abstract-41328546.json`
+
+---
+
+### NCT05394519: A Trial to Investigate the Efficacy and Safety of Cagrilintide With Semaglutide in People With Overweight or Obesity and Type 2 Diabetes (REDEFINE 2)
+
+**Phase:** 2 | **Status:** completed | **Sponsor:** [[novo-nordisk]]
+**drugs:** [cagrilintide, semaglutide]
+**indications:** [glp1-obesity, type2-diabetes]
+**enrollment:** 1206
+**primary_endpoint:** percent change in body weight and the percentage of patients with a weight reduction of at least 5%
+**primary_completion_date:** 2025-01-01
+**has_results:** true
+**primary_result_value:** "The estimated mean change in body weight from baseline to week 68 was -13.7% in the cagrilintide-semaglutide group and -3.4% in the placebo group (estimated difference, -10.4 percentage points; 95% confidence interval, -11.2 to -9.5; P<0.001). More patients in the cagrilintide-semaglutide group than in the placebo group had a weight reduction of 5% or more (P<001)."
+**last_updated:** 2026-04-12
+
+### Design
+This randomized controlled trial investigated the efficacy and safety of once-weekly cagrilintide-semaglutide (at a dose of 2.4 mg each) compared to placebo in 1206 adults with obesity and type 2 diabetes.
+
+### Primary endpoint
+percent change in body weight and the percentage of patients with a weight reduction of at least 5%
+
+### Results summary
+The estimated mean change in body weight from baseline to week 68 was -13.7% in the cagrilintide-semaglutide group and -3.4% in the placebo group (estimated difference, -10.4 percentage points; 95% confidence interval, -11.2 to -9.5; P<0.001). More patients in the cagrilintide-semaglutide group than in the placebo group had a weight reduction of 5% or more (P<001). Gastrointestinal adverse events were reported by 72.5% of the patients in the cagrilintide-semaglutide group and 34.4% in the placebo group, most of which were transient and mild or moderate in severity.
+
+### Clinical evidence
+- **Study design**: RCT
+- **Sample size**: 1206 patients
+- **Comparator**: placebo
+- **Primary outcome**: percent change in body weight and the percentage of patients with a weight reduction of at least 5%
+- **Primary result**: The estimated mean change in body weight from baseline to week 68 was -13.7% in the cagrilintide-semaglutide group and -3.4% in the placebo group (estimated difference, -10.4 percentage points; 95% confidence interval, -11.2 to -9.5; P<0.001). More patients in the cagrilintide-semaglutide group than in the placebo group had a weight reduction of 5% or more (P<001).
+- **Secondary results**:
+    - Reductions of at least 10%, 15%, and 20% were also significantly higher in the cagrilintide-semaglutide group (P<001 for the last comparison).
+    - The percentage of patients who had a glycated hemoglobin level of 6.5% or less was 73.5% in the cagrilintide-semaglutide group and 15.9% in the placebo group.
+- **Safety**: Gastrointestinal adverse events were reported by 72.5% of the patients in the cagrilintide-semaglutide group and 34.4% in the placebo group, most of which were transient and mild or moderate in severity.
+- **Conclusions**: Once-weekly cagrilintide-semaglutide (at a dose of 2.4 mg each) resulted in a significantly lower body weight than placebo in adults with obesity and type 2 diabetes. (Funded by Novo Nordisk; REDEFINE 2 ClinicalTrials.gov number, NCT05394519.).
+- **Journal**: The New England journal of medicine, 2025
+- **Industry sponsored**: True
+
+### Sources
+- `raw/pubmed/cagrilintide/2026-04-12/abstract-40544432.json`
+
+---
 
 ### NCT03914326: A Study to Evaluate the Effect of Semaglutide on Cardiovascular Outcomes in Subjects With Type 2 Diabetes
 
@@ -109,7 +249,7 @@ Number of Participants From Randomization to First Occurrence of a Major Adverse
 This randomized controlled trial investigated the efficacy and safety of once-weekly NNC0195-0092 compared to daily Norditropin® FlexPro® in 76 pre-pubertal children with growth hormone deficiency who were treatment naive.
 
 ### Primary endpoint
-Height Velocity (HV) (cm/Year) During the First 26 Weeks of Treatment, Measured as Standing Height With Stadiometer | Cohort II and Cohort III - Adverse Events Rate, Including Injection Site Reactions in Children With GHD.
+Height Velocity (HV) (cm/Year) During the First 26 Weeks of Treatment, Measured As Standing Height With Stadiometer | Cohort II and Cohort III - Adverse Events Rate, Including Injection Site Reactions in Children With GHD.
 
 ### Results summary
 
@@ -117,7 +257,7 @@ Height Velocity (HV) (cm/Year) During the First 26 Weeks of Treatment, Measured 
 - **Study design**: RCT
 - **Sample size**: 76 participants
 - **Comparator**: Norditropin® FlexPro®
-- **Primary outcome**: Height Velocity (HV) (cm/Year) During the First 26 Weeks of Treatment, Measured as Standing Height With Stadiometer | Cohort II and Cohort III - Adverse Events Rate, Including Injection Site Reactions in Children With GHD.
+- **Primary outcome**: Height Velocity (HV) (cm/Year) During the First 26 Weeks of Treatment, Measured As Standing Height With Stadiometer | Cohort II and Cohort III - Adverse Events Rate, Including Injection Site Reactions in Children With GHD.
 - **Primary result**: None
 - **Secondary results**: []
 - **Safety**: Adverse Events Rate, Including Injection Site Reactions (as a primary outcome measure, but no results provided)
@@ -188,4 +328,3 @@ None
 
 ### Sources
 - `raw/ctgov/novo-nordisk/2026-04-06/NCT02141074.json`
----

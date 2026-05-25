@@ -3,47 +3,57 @@ company: sanofi
 full_name: Sanofi S.A.
 ticker: null
 exchange: null
-indications_active: [hf-htn, oncology-nsclc, glp1-obesity]
+indications_active: [hf-htn, oncology-nsclc, glp1-obesity, oncology-crc]
 blockbuster_drugs: []
-pipeline_drugs: []
-last_earnings_date: 2025-10-28
-last_updated: 2025-10-28
+pipeline_drugs: [dual GLP-1/GIP receptor agonist]
+last_earnings_date: 2026-04-29
+last_updated: 2025-07-01
 ---
 
 ## Sanofi S.A.
 
 ### Drug portfolio by indication
-Sanofi commercializes dupilumab (Dupixent) in collaboration with Regeneron for multiple indications including atopic dermatitis, asthma, chronic rhinosinusitis with nasal polyposis, bullous pemphigoid, and chronic spontaneous urticaria (CSU). Dupixent also received Japan approval for chronic obstructive pulmonary disease (COPD).
-
-Sanofi also handles the commercialization of alirocumab (Praluent) outside the United States, while Regeneron is responsible for development and commercialization in the United States.
-- alirocumab (Praluent) for hypercholesterolemia.
-- linvoseltamab (Lynozyfic) received EU approval for relapsed/refractory multiple myeloma.
-- cemiplimab (Libtayo) has regulatory applications submitted for adjuvant cutaneous squamous cell carcinoma (CSCC) in the U.S. and EU.
-- sarilumab (Kevzara) for Systemic Juvenile Idiopathic Arthritis (sJIA).
-- aflibercept (EYLEA) and aflibercept high-dose (EYLEA HD) are also part of the portfolio, primarily for ophthalmology indications, with EYLEA HD having an sBLA accepted for priority review for retinal vein occlusion (RVO) and monthly dosing.
+Sanofi collaborates with Regeneron on several key drugs.
+*   **[[dupilumab]] (Dupixent)**: Commercialized in collaboration with Regeneron for multiple indications including atopic dermatitis, asthma, chronic rhinosinusitis with nasal polyps, bullous pemphigoid, chronic spontaneous urticaria (CSU), and allergic fungal rhinosinusitis (AFRS). Dupixent also received Japan approval for chronic obstructive pulmonary disease (COPD). Recent studies showed significant improvements in signs, symptoms, and quality of life in young children with moderate-to-severe Atopic Dermatitis. A semi-mechanistic population PK/PD model for dupilumab in uncontrolled moderate-to-severe asthma predicted near-maximum FEV1 response with 200-300 mg Q2W, with greater efficacy in patients with elevated type-2 inflammation biomarkers. In COPD patients with type 2 inflammation, dupilumab reduced type 2 inflammatory biomarkers and exacerbation risk. Furthermore, dupilumab demonstrated superiority over omalizumab in patients with severe CRSwNP and coexisting asthma. Global net sales increased 33% to $4.9 billion versus first quarter 2025.
+*   **linvoseltamab (Lynozyfic)**: FDA approved for relapsed or refractory multiple myeloma. Generated $11.2 million in global net sales.
+*   **cemiplimab (Libtayo)**: FDA accepted for priority review sBLA for adjuvant cutaneous squamous cell carcinoma (CSCC). Global net sales increased 54% to $438.2 million. FDA approved Libtayo for high-risk adjuvant cutaneous squamous cell carcinoma (CSCC).
+*   **alirocumab (Praluent)**: Sanofi handles commercialization outside the United States for hypercholesterolemia. Global net sales increased 27% to $245.7 million.
+*   **sarilumab (Kevzara)**: For Systemic Juvenile Idiopathic Arthritis (sJIA). Global net sales increased 24% to $144.8 million.
+*   **aflibercept (EYLEA HD)**: Primarily for ophthalmology indications. EYLEA HD received FDA approval for dosing intervals up to 5 months for wet age-related macular degeneration (wAMD) and diabetic macular edema (DME). U.S. net sales increased 52% to $468 million.
+*   **aflibercept (EYLEA)**: Primarily for ophthalmology indications. Global net sales decreased 40% to $869.3 million.
+*   **lunsotogene parvec (Otarmeni)**: Approved by FDA as first and only gene therapy for genetic hearing loss.
+*   **rilonacept (ARCALYST)**: Sales are recorded by Kiniksa. Net product sales of ARCALYST are recorded by Kiniksa.
 
 ### Earnings intelligence
-Regeneron Pharmaceuticals reported third quarter 2025 financial results, with total revenues increasing 1% to $3.75 billion, driven by strong growth in Dupixent, Libtayo, Kevzara, and EYLEA HD, alongside the FDA approval of Libtayo for CSCC, despite a decline in EYLEA sales. The overall sentiment is bullish, reflecting robust performance and pipeline progress.
-
-*   Dupixent: Global net sales (recorded by Sanofi) increased 27% to $4.86 billion versus third quarter 2024, indicating strong growth and bullish sentiment.
-*   EYLEA HD: Total net sales increased 31.35% to $711.0 million in the third quarter 2025, showing significant growth and bullish sentiment.
-*   EYLEA: Total net sales decreased 34.93% to $1,254.0 million in the third quarter 2025, indicating a declining trend and bearish sentiment.
-*   Libtayo: Total net sales increased 27% to $365.2 million. The FDA approved Libtayo as the first and only immunotherapy for high-risk adjuvant cutaneous squamous cell carcinoma (CSCC), contributing to its strong performance and bullish sentiment.
-*   Praluent: Total net sales increased 13% to $215.7 million in the third quarter 2025, showing moderate growth and neutral sentiment.
-*   Kevzara: Total net sales increased 28% to $154.0 million in the third quarter 2025, indicating strong growth and neutral sentiment.
-*   ARCALYST: Net product sales are recorded by Kiniksa, resulting in a neutral sentiment from Sanofi's perspective.
+Regeneron Pharmaceuticals, Inc. reported strong first quarter 2026 financial results with 19% revenue growth, driven by Dupixent and EYLEA HD, and announced multiple new drug approvals including Otarmeni for genetic hearing loss.
+*   **[[dupilumab]] (Dupixent)**: Global net sales increased 33% to $4.9 billion versus first quarter 2025, indicating strong growth and bullish sentiment. New approvals by FDA and EC for chronic spontaneous urticaria (CSU) and by FDA for allergic fungal rhinosinusitis (AFRS) further bolster its market position. Recent clinical findings also reinforce bullish sentiment, demonstrating significant improvements in Atopic Dermatitis, strong PK/PD modeling for asthma, reduction in COPD exacerbation risk, and superiority over omalizumab in CRSwNP.
+*   **aflibercept (EYLEA HD)**: U.S. net sales increased 52% to $468 million, showing significant growth and bullish sentiment. FDA approval for dosing intervals up to 5 months for wet age-related macular degeneration (wAMD) and diabetic macular edema (DME) is a key positive.
+*   **aflibercept (EYLEA)**: Global net sales decreased 40% to $869.3 million, indicating a decline and bearish sentiment.
+*   **cemiplimab (Libtayo)**: Global net sales increased 54% to $438.2 million, reflecting growth and bullish sentiment.
+*   **alirocumab (Praluent)**: Global net sales increased 27% to $245.7 million, showing growth and bullish sentiment.
+*   **sarilumab (Kevzara)**: Global net sales increased 24% to $144.8 million, indicating growth and bullish sentiment.
+*   **Lynozyfic**: Generated $11.2 million in global net sales, showing initial positive performance.
+*   **lunsotogene parvec (Otarmeni)**: Approved by FDA as first and only gene therapy for genetic hearing loss, representing a significant new product launch.
 
 ### Pipeline
-- GLP-1/GIP receptor agonist: Regeneron in-licensed rights to a late-stage dual GLP-1/GIP receptor agonist and reported interim 26-week data from Phase 2 COURAGE trial in obesity.
+- dual GLP-1/GIP receptor agonist: Regeneron in-licensed rights to a late-stage dual GLP-1/GIP receptor agonist and reported interim Phase 2 data in obesity.
+- Positive Phase 3 results were reported from trials in generalized myasthenia gravis, fibrodysplasia ossificans progressiva (FOP), and cat and birch allergies.
 - SAR422459: Phase I/II long-term follow-up study (NCT01736592) for Stargardt's Macular Degeneration. The study is sponsored by Sanofi and is currently active but not recruiting. The primary objective is to assess the long-term safety and tolerability of SAR422459 over 15 years. The study has enrolled 27 patients and is expected to complete on August 29, 2033.
 - avalglucosidase alfa: Phase 2, open-label, multicenter, multinational, ascending dose cohort, repeated intravenous (IV) infusion study (NCT03019406) in pediatric patients with Infantile-Onset Pompe Disease (IOPD) previously treated with alglucosidase alfa. Sample size: 22 patients. Comparator: alglucosidase alfa. Primary outcomes: Number of Participants With Treatment-emergent Adverse Events (TEAEs), Serious Treatment-emergent Adverse Events, and Adverse Event of Special Interest (AESI); Number of Participants With Infusion-associated Reactions (IARs).
 - SAR421869: Phase 2 trial for Usher syndrome Type 1B, evaluating long-term safety and tolerability.
-- A Phase 2 study of lademirsen (SAR339375) for Alport Syndrome was terminated.
-- Sanofi's Phase 3 clinical trial (NCT02859896) for Hectorol in pediatric patients with chronic kidney disease and secondary hyperparathyroidism was terminated.
 
 ### Recent events
 | Date | Event | Signal |
 |---|---|---|
+| 2025-12-31 | [[dupilumab]] demonstrated superiority over omalizumab in patients with severe CRSwNP and coexisting asthma. | [[2025-12-31-dupilumab-crswnp-vs-omalizumab-pubmed]] |
+| 2025-12-31 | [[dupilumab]] reduced type 2 inflammatory biomarkers and exacerbation risk in COPD patients with type 2 inflammation. | [[2025-12-31-dupilumab-copd-biomarkers-pubmed]] |
+| 2025-12-31 | A semi-mechanistic population PK/PD model for [[dupilumab]] in uncontrolled moderate-to-severe asthma predicted near-maximum FEV1 response. | [[2025-12-31-dupilumab-asthma-pkpd-pubmed]] |
+| 2025-07-01 | [[dupilumab]] showed significant improvements in signs, symptoms, and quality of life in young children with moderate-to-severe Atopic Dermatitis. | [[2025-07-01-dupilumab-atopic-dermatitis-pubmed]] |
+| 2026-04-29 | Regeneron reported strong first quarter 2026 financial results with 19% revenue growth, driven by Dupixent and EYLEA HD, and announced multiple new drug approvals including Otarmeni for genetic hearing loss. | [[2026-04-29-regeneron-q1-earnings-approvals]] |
+| 2026-01-30 | Regeneron Q4 and Full Year 2025 Earnings Call, with strong performance for Dupixent and EYLEA HD, and FDA approval for EYLEA HD. | [[2026-01-30-regeneron-q4-fy-2025-earnings]] |
+| 2025-10-28 | Regeneron Q3 2025 earnings: Strong growth in Dupixent, Libtayo, and EYLEA HD, FDA approval for Libtayo in CSCC, despite EYLEA decline. | [[2025-10-28-regeneron-q3-earnings]] |
+| 2025-08-01 | Regeneron reported strong second quarter 2025 financial results with increased revenues and EPS, driven by Dupixent and EYLEA HD sales growth, alongside key FDA approvals for Lynozyfic and Dupixent, and a priority review acceptance. | [[2025-08-01-regeneron-q2-earnings-approvals]] |
+| 2026-04-29 | Regeneron Q1 2026 total revenue of $3,605.4 million, an increase from the prior year, but net income and EPS declined, partly due to a temporary manufacturing interruption. | [[2026-04-29-regeneron-q1-2026-earnings]] |
 | 2025-10-28 | Regeneron Q3 2025 earnings: Strong growth in Dupixent, Libtayo, and EYLEA HD, FDA approval for Libtayo in CSCC, despite EYLEA decline. | [[2025-10-28-regeneron-q3-earnings]] |
 | 2025-04-29 | Regeneron Q1 2025 earnings: Strong Dupixent growth, new approvals for Dupixent (CSU, COPD) and Lynozyfic (multiple myeloma). | [[2025-04-29-regeneron-q1-earnings-and-approvals]] |
 | 2025-08-01 | Regeneron Q2 2025 Earnings Call, with strong performance for Dupixent, EYLEA HD, Libtayo, and Kevzara, and key FDA approvals for Lynozyfic and Dupixent. | [[2025-08-01-regeneron-q2-earnings-approvals]] |
@@ -59,6 +69,7 @@ Regeneron Pharmaceuticals reported third quarter 2025 financial results, with to
 | 2026-04-06 | Phase 2 trial of lademirsen (SAR339375) for Alport Syndrome terminated | [[2026-04-06-lademirsen-alport-syndrome-trial-termination]] |
 
 ### Sources
+- `raw/edgar/regeneron/8K/2025-08-01-8K--25-000017.txt`
 - `raw/edgar/regeneron/10Q/2025-Q2-10Q.txt`
 - `raw/edgar/regeneron/10Q/2025-Q3-10Q.txt`
 - `raw/edgar/regeneron/10Q/2025-Q1-10Q.txt`
@@ -75,3 +86,10 @@ Regeneron Pharmaceuticals reported third quarter 2025 financial results, with to
 - `raw/edgar/regeneron/8k/2025-08-01-8K--25-000017.txt`
 - `raw/edgar/regeneron/8k/2025-04-29-8K--25-000020.txt`
 - `raw/edgar/regeneron/8k/2025-10-28-8K--25-000026.txt`
+- `raw/edgar/regeneron/10Q/2026-Q1-10Q.txt`
+- `raw/edgar/regeneron/8K/2025-10-28-8K--25-000026.txt`
+- `raw/edgar/regeneron/8K/2026-04-29-8K--26-000014.txt`
+- `raw/pubmed/dupilumab/2026-04-12/abstract-40338484.json`
+- `raw/pubmed/dupilumab/2026-04-12/abstract-40536285.json`
+- `raw/pubmed/dupilumab/2026-04-12/abstract-40651490.json`
+- `raw/pubmed/dupilumab/2026-04-12/abstract-41033334.json`

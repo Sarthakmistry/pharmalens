@@ -5,9 +5,9 @@ ticker: AZN
 exchange: NASDAQ
 indications_active: [type2-diabetes, hf-htn, oncology-nsclc, oncology-breast, oncology-crc]
 blockbuster_drugs: [dapagliflozin, osimertinib, durvalumab, trastuzumab deruxtecan, olaparib]
-pipeline_drugs: [selumetinib]
-last_earnings_date:
-last_updated: 2025-05-02
+pipeline_drugs: [selumetinib, AZD5462, balcinrenone, tozorakimab]
+last_earnings_date: 
+last_updated: 2026-05-04
 ---
 
 ## AstraZeneca PLC
@@ -36,10 +36,21 @@ last_updated: 2025-05-02
 
 ### Pipeline
 - selumetinib (Phase 3 for KRAS-positive NSCLC)
+- AZD5462 (Phase 1b for Heart Failure and Renal Insufficiency)
+- balcinrenone (Phase 2b for Chronic Kidney Disease)
+- tozorakimab (Phase 2 for Diabetic Kidney Disease)
 
 ### Recent events
 | Date | Event | Signal |
 |---|---|---|
+| 2026-04-12 | Perioperative [[durvalumab]] plus FLOT significantly improved event-free survival in resectable gastric or gastroesophageal junction adenocarcinoma. | [[2026-04-12-durvalumab-gastric-gastroesophageal-cancer-pubmed-results]] |
+| 2026-04-12 | A study showed [[durvalumab]] plus chemotherapy significantly improved overall survival in advanced biliary tract cancer. | [[2026-04-12-durvalumab-biliary-tract-cancer-pubmed-results]] |
+| 2026-05-04 | AstraZeneca's tozorakimab Phase 2 study in Diabetic Kidney Disease showed no significant UACR reduction. | [[2026-05-04-astrazeneca-tozorakimab-dkd-phase2-results]] |
+| 2026-04-12 | Network Meta-Analysis showed SGLT2 inhibitor [[dapagliflozin]] and incretin-based agents improved fibrosis in MASH. | [[2026-04-12-dapagliflozin-incretin-mash-fibrosis-nma]] |
+| 2026-04-12 | AstraZeneca's AZD5462 Phase 1b study design with [[dapagliflozin]] in heart failure and renal impairment was published. | [[2026-04-12-astrazeneca-azd5462-dapagliflozin-hf-renal-study-design]] |
+| 2026-04-12 | AstraZeneca's balcinrenone plus [[dapagliflozin]] Phase 2b study showed superior UACR reduction in CKD. | [[2026-04-12-astrazeneca-balcinrenone-dapagliflozin-ckd-phase2b-results]] |
+| 2026-04-12 | A study re-analyzing [[dapagliflozin]] HF trials found survival proportional odds model more robust for time-to-event outcomes. | [[2026-04-12-dapagliflozin-hf-trial-analysis-methodology]] |
+| 2025-07-25 | Bristol Myers Squibb announced a leadership transition, with Dr. Samit Hirawat stepping down as Chief Medical Officer and Head of Development, and Dr. Cristian Massacesi appointed to the role, both effective August 1, 2025. | [[2025-07-25-bristol-myers-squibb-cmo-transition]] |
 | 2007-10-01 | A long-term Phase 3 study (APTA-2217-07) investigating the safety and efficacy of Roflumilast in Japanese patients with Bronchial Asthma completed on 2007-10-01. | [[2007-10-01-roflumilast-bronchial-asthma-trial-completion]] |
 | 2007-06-01 | AstraZeneca completed a Phase 2/3 study (NCT00242307) investigating the efficacy and safety of Roflumilast in Japanese patients with Bronchial Asthma. | [[2007-06-01-roflumilast-bronchial-asthma-trial-completion]] |
 | 2026-04-07 | A Phase 3 RCT study (NCT00099437) comparing Fulvestrant 250 mg and 500 mg doses in 736 patients with oestrogen receptor positive advanced breast cancer completed. The primary outcome was Time to Progression (TTP). No primary results or conclusions were reported. | [[2026-04-07-astrazeneca-fulvestrant-breast-cancer-trial-completion]] |
@@ -50,6 +61,7 @@ last_updated: 2025-05-02
 | 2026-01-16 | AstraZeneca's Phase 3 study comparing Fulvestrant and Anastrozole in hormone receptor-positive breast cancer patients has completed. | [[2026-01-16-astrazeneca-fulvestrant-anastrozole-breast-cancer-trial-completion]] |
 
 ### Sources
+- `raw/edgar/{company-slug}/`
 - `raw/ctgov/astrazeneca/2026-04-07/NCT00246922.json`
 - `raw/ctgov/astrazeneca/2026-04-07/NCT00099437.json`
 - `raw/ctgov/astrazeneca/2026-04-07/NCT01081951.json`
@@ -60,4 +72,12 @@ last_updated: 2025-05-02
 - `raw/ctgov/astrazeneca/2026-04-06/NCT01874353.json`
 - `raw/ctgov/astrazeneca/2026-04-06/NCT02000622.json`
 - `raw/ctgov/astrazeneca/2026-04-07/NCT00242307.json`
----
+- `raw/edgar/merck/10Q/2026-Q1-10Q.txt`
+- `raw/edgar/bristol-myers-squibb/8K/2025-07-25-8K--25-027350.txt`
+- `raw/pubmed/dapagliflozin/2026-04-12/abstract-40907851.json`
+- `raw/pubmed/dapagliflozin/2026-04-12/abstract-41063381.json`
+- `raw/pubmed/dapagliflozin/2026-04-12/abstract-41170566.json`
+- `raw/pubmed/dapagliflozin/2026-04-12/abstract-41218621.json`
+- `raw/pubmed/dapagliflozin/2026-05-04/abstract-41563367.json`
+- `raw/pubmed/durvalumab/2026-04-12/abstract-40381735.json`
+- `raw/pubmed/durvalumab/2026-04-12/abstract-40454643.json`

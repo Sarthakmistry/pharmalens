@@ -1,28 +1,26 @@
 ---
 event_type: earnings_signal
 date: 2025-07-31
-drugs: ["nivolumab"]
+drugs: []
 companies: ["bristol-myers-squibb"]
 indications: []
-signal: neutral
-headline: Bristol Myers Squibb Reports Q2 2025 Financial Results
+signal: bearish
+headline: Bristol-Myers Squibb Reports Bearish Q2 2025 Earnings with Decreased Net Earnings and EPS
 last_updated: 2025-07-31
 ---
 
-## Bristol Myers Squibb Reports Q2 2025 Financial Results
+## Bristol-Myers Squibb Reports Bearish Q2 2025 Earnings with Decreased Net Earnings and EPS
 
-**Date:** 2025-07-31 | **Type:** earnings_signal | **Signal:** neutral
+**Date:** 2025-07-31 | **Type:** earnings_signal | **Signal:** bearish
 
 ### Summary
-Bristol Myers Squibb reported Q2 2025 financial results with total revenue of $23,470.0M, net product sales of $22,794.0M, and key product revenues including Eliquis at $7,245.0M and [[nivolumab]] (Opdivo) at $4,824.0M. The company also reported a net income of $3,766.0M and R&D expenses of $4,837.0M.
+Bristol-Myers Squibb Company announced its financial results for the second quarter of 2025, reporting a decrease in net earnings and diluted EPS compared to the prior year. Both GAAP and Non-GAAP net earnings and diluted EPS for Q2 2025 decreased significantly compared to Q2 2024.
 
 ### Market implication
-The financial report provides detailed revenue figures for key products and overall company performance, but without comparative data or specific management commentary on future outlook or guidance changes, the immediate market implication remains neutral.
+The reported decrease in net earnings and diluted EPS on both GAAP and Non-GAAP bases suggests a negative financial performance, likely leading to a bearish outlook for the company's stock valuation.
 
 ### Affected entities
-- Drug: [[nivolumab]]
 - Company: [[bristol-myers-squibb]]
-- Indication:
 
 ### Sources
-- `raw/edgar/bristol-myers-squibb/10Q/2025-Q2-10Q.txt`
+- `raw/edgar/bristol-myers-squibb/8K/2025-07-31-8K--25-000129.txt`

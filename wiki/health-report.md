@@ -1,7 +1,7 @@
 # Wiki health report
-Generated: 2026-05-02 02:32  |  Pages checked: 107
+Generated: 2026-05-24 13:33  |  Pages checked: 339
 
-## Structural issues (31)
+## Structural issues (13)
 
 ### missing_drug_page
 - **Page:** `drugs/retatrutide.md`
@@ -36,14 +36,6 @@ Generated: 2026-05-02 02:32  |  Pages checked: 107
 - **Detail:** finerenone in drugs.json but no wiki page exists yet
 
 ### missing_drug_page
-- **Page:** `drugs/nivolumab.md`
-- **Detail:** nivolumab in drugs.json but no wiki page exists yet
-
-### missing_drug_page
-- **Page:** `drugs/osimertinib.md`
-- **Detail:** osimertinib in drugs.json but no wiki page exists yet
-
-### missing_drug_page
 - **Page:** `drugs/atezolizumab.md`
 - **Detail:** atezolizumab in drugs.json but no wiki page exists yet
 
@@ -63,97 +55,70 @@ Generated: 2026-05-02 02:32  |  Pages checked: 107
 - **Page:** `drugs/trastuzumab deruxtecan.md`
 - **Detail:** trastuzumab deruxtecan in drugs.json but no wiki page exists yet
 
-### missing_drug_page
-- **Page:** `drugs/bevacizumab.md`
-- **Detail:** bevacizumab in drugs.json but no wiki page exists yet
-
-### missing_drug_page
-- **Page:** `drugs/cetuximab.md`
-- **Detail:** cetuximab in drugs.json but no wiki page exists yet
-
-### missing_drug_page
-- **Page:** `drugs/lecanemab.md`
-- **Detail:** lecanemab in drugs.json but no wiki page exists yet
-
-### missing_company_page
-- **Page:** `companies/merck.md`
-- **Detail:** merck in companies.json but no wiki page exists yet
-
-### missing_company_page
-- **Page:** `companies/astrazeneca.md`
-- **Detail:** astrazeneca in companies.json but no wiki page exists yet
-
-### missing_company_page
-- **Page:** `companies/johnson-and-johnson.md`
-- **Detail:** johnson-and-johnson in companies.json but no wiki page exists yet
-
-### missing_company_page
-- **Page:** `companies/gilead.md`
-- **Detail:** gilead in companies.json but no wiki page exists yet
-
-### missing_company_page
-- **Page:** `companies/gsk.md`
-- **Detail:** gsk in companies.json but no wiki page exists yet
-
-### missing_company_page
-- **Page:** `companies/takeda.md`
-- **Detail:** takeda in companies.json but no wiki page exists yet
-
-### missing_company_page
-- **Page:** `companies/eisai.md`
-- **Detail:** eisai in companies.json but no wiki page exists yet
-
-### missing_indication_hub
-- **Page:** `indications/type2-diabetes/_index.md`
-- **Detail:** No _index.md for indication type2-diabetes
-
-### missing_indication_hub
-- **Page:** `indications/alzheimers/_index.md`
-- **Detail:** No _index.md for indication alzheimers
-
-### missing_indication_hub
-- **Page:** `indications/hf-htn/_index.md`
-- **Detail:** No _index.md for indication hf-htn
-
-### missing_indication_hub
-- **Page:** `indications/oncology-nsclc/_index.md`
-- **Detail:** No _index.md for indication oncology-nsclc
-
-### missing_indication_hub
-- **Page:** `indications/oncology-breast/_index.md`
-- **Detail:** No _index.md for indication oncology-breast
-
-### missing_indication_hub
-- **Page:** `indications/oncology-crc/_index.md`
-- **Detail:** No _index.md for indication oncology-crc
-
-## Semantic issues (5)
+## Semantic issues (12)
 
 ### contradiction
-- **Page:** `companies/eli-lilly.md`
-- **Detail:** The company page lists 'donanemab' in 'blockbuster_drugs'. However, the corresponding drug page 'drugs/donanemab.md' indicates its status is 'phase3' and it received a negative approval recommendation from EMA's CHMP, which contradicts the definition of a blockbuster drug.
-- **Action:** Remove 'donanemab' from the 'blockbuster_drugs' list in the frontmatter of 'companies/eli-lilly.md'.
+- **Page:** `drugs/osimertinib.md`
+- **Detail:** The 'blockbuster' field is 'false', but the company page 'companies/astrazeneca.md' lists 'osimertinib' in its 'blockbuster_drugs' list.
+- **Action:** Verify the blockbuster status of osimertinib and align the 'blockbuster' field in 'drugs/osimertinib.md' with the company page, likely by changing it to 'true'.
+
+### contradiction
+- **Page:** `drugs/abemaciclib.md`
+- **Detail:** The page's 'last_updated' date is '2026-04-07', but the 'latest_event' field contains a very old event from '2017-02-14'. A more recent event, like the '2025-Q1' earnings signal, is not reflected as the latest event.
+- **Action:** Update the 'latest_event' field to reflect the most recent significant event for the drug, ensuring it is more current than 2017.
+
+### contradiction
+- **Page:** `drugs/cetuximab.md`
+- **Detail:** The 'company' field lists only 'eli-lilly', but a source file referenced in the page body ('raw/ctgov/merck/...') indicates a relationship with Merck. This co-marketing relationship is not captured.
+- **Action:** Update the 'company' field to be a list including both 'eli-lilly' and 'merck' and briefly explain the partnership in the page body.
 
 ### stale_entity
-- **Page:** `companies/abbvie.md`
-- **Detail:** The page has a 'last_updated' date of '2025-07-31', but a document for a later event on '2025-10-03' ('2025-10-03-abbvie-eps-guidance-update.md') was successfully ingested on 2026-05-02. The page has not been updated to reflect this new information.
-- **Action:** Update 'companies/abbvie.md' with information from the October 3, 2025 event and update the 'last_updated' timestamp.
+- **Page:** `companies/takeda.md`
+- **Detail:** The page was last updated on '2026-04-07', but new clinical trial documents related to Takeda were ingested on '2026-05-24'.
+- **Action:** Review the newly ingested documents and update the Takeda company page with any relevant information.
+
+### stale_entity
+- **Page:** `companies/gilead.md`
+- **Detail:** The page was last updated on '2026-05-03' (per index.md), but new 8-K filings for Gilead were ingested on '2026-05-24'.
+- **Action:** Review the ingested 8-K filings and update the Gilead company page with any new financial or event information.
+
+### stale_entity
+- **Page:** `companies/eli-lilly.md`
+- **Detail:** The page was last updated on '2026-05-02' (per index.md), but new 8-K filings for Eli Lilly were ingested on '2026-05-24'.
+- **Action:** Review the ingested 8-K filings and update the Eli Lilly company page with any new financial or event information.
 
 ### missing_backlink
-- **Page:** `companies/abbvie.md`
-- **Detail:** An event page 'events/2025-10-03-abbvie-eps-guidance-update.md' exists, but the main company page does not reference this event in its 'Earnings intelligence' section or other relevant fields.
-- **Action:** Add a reference to the '2025-10-03' guidance update event on the 'companies/abbvie.md' page.
+- **Page:** `drugs/olaparib.md`
+- **Detail:** The 'latest_event' field explicitly mentions 'Merck' and its role in an alliance for Lynparza, but the page body does not contain a markdown link '[[merck]]' to the Merck company page.
+- **Action:** Add a link to '[[companies/merck.md]]' in the page body and clarify the alliance relationship with AstraZeneca.
 
-### thin_indication_hub
-- **Page:** `indications/glp1-obesity/_index.md`
-- **Detail:** The wiki contains at least three drugs associated with the 'glp1-obesity' indication ('semaglutide', 'dulaglutide', 'tirzepatide'). The central indication hub page is likely incomplete as it may not link to all relevant drugs.
-- **Action:** Audit 'indications/glp1-obesity/_index.md' and ensure it links to all drugs with the 'glp1-obesity' indication.
+### missing_backlink
+- **Page:** `drugs/empagliflozin.md`
+- **Detail:** The page contains a link '[[boehringer-ingelheim]]' to its parent company, but the corresponding company page 'companies/boehringer-ingelheim.md' does not exist.
+- **Action:** Create a new company page for Boehringer Ingelheim to resolve the broken link.
+
+### thin_hub
+- **Page:** `indications/hf-htn/_index.md`
+- **Detail:** The 'hf-htn' indication hub is thin because it is missing key drugs. Company pages for Novartis and AstraZeneca mention 'sacubitril-valsartan' and 'dapagliflozin' for this indication, but these drugs do not have pages and are thus not on the hub.
+- **Action:** Create new drug pages for 'sacubitril-valsartan' and 'dapagliflozin' and link them from the 'indications/hf-htn/_index.md' page.
 
 ### suggested_new_page
-- **Page:** `analysis/ira-drug-price-negotiation-impact.md`
-- **Detail:** Multiple drug pages (e.g., 'drugs/empagliflozin.md', 'drugs/sitagliptin.md', 'drugs/pembrolizumab.md') mention the impact of the Inflation Reduction Act (IRA) drug price negotiation. There is no central page to synthesize this cross-cutting theme.
-- **Action:** Create a new analysis page to track and summarize the impact of the IRA price negotiations on all affected drugs and companies in the wiki.
+- **Page:** `drugs/apixaban.md`
+- **Detail:** Recent log entries from '2026-05-24' show that multiple PubMed abstracts for 'apixaban' have been ingested, but no corresponding drug page exists in the wiki.
+- **Action:** Create a new drug page for 'apixaban' to synthesize the new information and begin tracking this entity.
+
+### suggested_new_page
+- **Page:** `topics/inflation-reduction-act.md`
+- **Detail:** Multiple drug pages (empagliflozin, sitagliptin, pembrolizumab) mention significant impacts from the Inflation Reduction Act (IRA) Drug Price Negotiation Program. This recurring theme lacks a central tracking page.
+- **Action:** Create a new synthesis page to track the IRA's impact, list affected drugs, and consolidate related events and sentiment.
+
+### suggested_new_page
+- **Page:** `drugs/dapagliflozin.md`
+- **Detail:** The company page 'companies/astrazeneca.md' lists 'dapagliflozin' as a blockbuster drug for multiple indications, but no corresponding drug page exists.
+- **Action:** Create a new drug page for 'dapagliflozin' to track this important asset and populate the 'hf-htn' and 'type2-diabetes' indication hubs.
 
 ## Suggested new pages
 
-- Multiple drug pages (e.g., 'drugs/empagliflozin.md', 'drugs/sitagliptin.md', 'drugs/pembrolizumab.md') mention the impact of the Inflation Reduction Act (IRA) drug price negotiation. There is no central page to synthesize this cross-cutting theme.
+- Recent log entries from '2026-05-24' show that multiple PubMed abstracts for 'apixaban' have been ingested, but no corresponding drug page exists in the wiki.
+- Multiple drug pages (empagliflozin, sitagliptin, pembrolizumab) mention significant impacts from the Inflation Reduction Act (IRA) Drug Price Negotiation Program. This recurring theme lacks a central tracking page.
+- The company page 'companies/astrazeneca.md' lists 'dapagliflozin' as a blockbuster drug for multiple indications, but no corresponding drug page exists.

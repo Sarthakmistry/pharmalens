@@ -44,6 +44,7 @@ from agents.compiler import (
     build_system_prompt,
     load_prompt,
     load_page_template,
+    flush_buffered_pages,
 )
 
 logger = get_logger("pharmalens.orchestrator")
@@ -146,6 +147,10 @@ def run_compiler_on_file(
     file_path: Path,
     extraction_caches: dict,
     template_caches: dict,
+    company_buffer: dict | None = None,
+    trial_buffer: dict | None = None,
+    drug_buffer: dict | None = None,
+    indication_buffer: dict | None = None,
 ) -> None:
     """Call the compiler agent on a single new file."""
     from agents.compiler import compile_document
@@ -176,7 +181,10 @@ def run_compiler_on_file(
     timeout = EDGAR_TIMEOUT_SECONDS if doc_type in EDGAR_DOC_TYPES else FILE_TIMEOUT_SECONDS
     logger.info(f"ORCHESTRATOR | COMPILE | {file_path.name} → type: {doc_type} | timeout: {timeout}s")
     executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
-    future = executor.submit(compile_document, file_path, context, extraction_caches, template_caches)
+    future = executor.submit(
+        compile_document, file_path, context, extraction_caches, template_caches,
+        company_buffer, trial_buffer, drug_buffer, indication_buffer,
+    )
     executor.shutdown(wait=False)
     try:
         future.result(timeout=timeout)
@@ -237,8 +245,33 @@ def run_daily_pipeline(limit: int | None = None) -> None:
             f"{len(extraction_caches)} extraction, {len(template_caches)} template"
         )
 
+        # all entity buffers accumulate signals across files; flushed once after the loop
+        company_buffer:    dict = {}
+        trial_buffer:      dict = {}
+        drug_buffer:       dict = {}
+        indication_buffer: dict = {}
+
         for file_path in unprocessed:
-            run_compiler_on_file(file_path, extraction_caches, template_caches)
+            run_compiler_on_file(
+                file_path, extraction_caches, template_caches,
+                company_buffer, trial_buffer, drug_buffer, indication_buffer,
+            )
+
+        # write all buffered pages in one parallel pass — one LLM call per entity
+        total_signals = sum(
+            len(v) for buf in (company_buffer, trial_buffer, drug_buffer, indication_buffer)
+            for v in buf.values()
+        )
+        if total_signals:
+            logger.info(
+                f"ORCHESTRATOR | Flushing — "
+                f"company={len(company_buffer)}, trial={len(trial_buffer)}, "
+                f"drug={len(drug_buffer)}, indication={len(indication_buffer)} "
+                f"({total_signals} total signals)"
+            )
+            flush_buffered_pages(
+                company_buffer, trial_buffer, drug_buffer, indication_buffer, template_caches,
+            )
     else:
         logger.info("ORCHESTRATOR | No new files — skipping cache build")
 
@@ -248,6 +281,10 @@ def run_daily_pipeline(limit: int | None = None) -> None:
         from agents.lint import run_lint
         run_lint()
         mark_lint_run()
+
+    from agents.cost import ledger
+    ledger.report()
+    ledger.reset()
 
     logger.info("ORCHESTRATOR | Pipeline complete")
 

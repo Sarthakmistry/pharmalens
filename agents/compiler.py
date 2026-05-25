@@ -20,6 +20,7 @@ from google import genai
 from google.genai import types
 
 from agents.logger import get_logger
+from agents.cost import ledger
 
 logger = get_logger("pharmalens.compiler")
 
@@ -197,10 +198,14 @@ def preprocess_ctgov(raw: str) -> str:
         "has_results":               data.get("HasResults"),
     }
 
-    # filter out non-drug intervention types
-    if relevant.get("intervention_type") not in ("DRUG", "BIOLOGICAL"):
-        relevant["intervention_type"] = None
-        relevant["intervention_name"] = None
+    # keep interventions only if at least one component is DRUG or BIOLOGICAL.
+    # InterventionType is a pipe-delimited string e.g. "DRUG | DRUG | OTHER"
+    int_type = relevant.get("intervention_type")
+    if int_type:
+        types = [t.strip().upper() for t in str(int_type).split("|")]
+        if not any(t in ("DRUG", "BIOLOGICAL") for t in types):
+            relevant["intervention_type"] = None
+            relevant["intervention_name"] = None
 
     relevant = {k: v for k, v in relevant.items() if v is not None}
     return json.dumps(relevant, indent=2)
@@ -272,7 +277,8 @@ def preprocess_document(file_path: Path, doc_type: str) -> str:
 
     Returns a clean string ready for the Step 1 extraction prompt.
     """
-    raw = file_path.read_text(errors="replace")
+    from agents.gcs import read_blob
+    raw = read_blob(file_path, BASE_DIR)
 
     if doc_type == "ctgov":
         return preprocess_ctgov(raw)
@@ -286,6 +292,141 @@ def preprocess_document(file_path: Path, doc_type: str) -> str:
         return preprocess_text(raw, max_chars=8000)
     else:
         return preprocess_text(raw, max_chars=12000)
+
+
+# ── ctgov pure-Python Step 1 ─────────────────────────────────────────────────
+
+def extract_ctgov_python(preprocessed: dict) -> dict:
+    """
+    Pure-Python Step 1 replacement for ctgov files.
+    Takes the preprocessed dict from preprocess_ctgov() (snake_case keys).
+
+    For ctgov, Step 1 is almost entirely entity resolution against reference
+    data — company from sponsor name, drugs from intervention name, indications
+    from condition field. Python handles this accurately using the same alias
+    maps the LLM would use, saving one LLM call per file.
+    """
+    # company: substring-match lead_sponsor against alias map
+    sponsor = (preprocessed.get("lead_sponsor") or "").lower()
+    company = next(
+        (slug for alias, slug in ALIAS_TO_COMPANY.items() if alias in sponsor),
+        None,
+    )
+
+    # drugs: split intervention_name by "|", match each segment against INN + brands
+    intervention_str = str(preprocessed.get("intervention_name") or "")
+    intervention_parts = [p.strip().lower() for p in intervention_str.split("|") if p.strip()]
+
+    # terms that are definitely not drug names — skip them for untracked list
+    _NON_DRUG_TERMS = {
+        "placebo", "standard of care", "usual care", "best supportive care",
+        "no intervention", "observation", "sham", "vehicle", "control",
+        "lifestyle", "exercise", "diet", "surgery", "radiation",
+    }
+
+    matched_drugs: list[str] = []
+    matched_part_indices: set[int] = set()
+    for inn, info in DRUGS.items():
+        brands = [b.lower() for b in info.get("brand_names", [])]
+        for i, part in enumerate(intervention_parts):
+            if inn in part or any(b in part for b in brands):
+                if inn not in matched_drugs:
+                    matched_drugs.append(inn)
+                matched_part_indices.add(i)
+                break
+
+    # untracked: parts that didn't match any tracked drug and aren't noise
+    untracked_names: list[str] = []
+    for i, part in enumerate(intervention_parts):
+        if i in matched_part_indices:
+            continue
+        if len(part) < 3:
+            continue
+        if any(noise in part for noise in _NON_DRUG_TERMS):
+            continue
+        untracked_names.append(part[0].upper() + part[1:])
+
+    # indications: split conditions by "|", match each segment against alias map
+    conditions_str = str(preprocessed.get("conditions") or "")
+    condition_parts = [c.strip().lower() for c in conditions_str.split("|") if c.strip()]
+    matched_indications: list[str] = []
+    for part in condition_parts:
+        for alias, slug in ALIAS_TO_INDICATION.items():
+            if alias in part and slug not in matched_indications:
+                matched_indications.append(slug)
+
+    nct_id = preprocessed.get("nct_id")
+    status  = (preprocessed.get("overall_status") or "").upper()
+    _TERMINAL = {"COMPLETED", "TERMINATED", "WITHDRAWN"}
+    requires_event = status in _TERMINAL and bool(company)
+    event_type = {"COMPLETED": "trial_completion", "TERMINATED": "trial_termination"}.get(status)
+
+    date = (
+        preprocessed.get("primary_completion_date")
+        or preprocessed.get("completion_date")
+        or ""
+    )[:10]
+    drug_slug = matched_drugs[0] if matched_drugs else "unknown"
+    slug = (
+        f"{date}-{drug_slug}-{(nct_id or '').lower()}-{status.lower()}"
+        if requires_event else None
+    )
+
+    key_facts = [f for f in [
+        f"Phase: {preprocessed['phase']}"                       if preprocessed.get("phase") else None,
+        f"Status: {status}",
+        (f"Enrollment: {preprocessed['enrollment_count']} "
+         f"({preprocessed.get('enrollment_type', '')})")        if preprocessed.get("enrollment_count") else None,
+        f"Primary completion: {preprocessed['primary_completion_date']}"
+                                                                if preprocessed.get("primary_completion_date") else None,
+        f"Has results: {preprocessed['has_results']}"           if preprocessed.get("has_results") is not None else None,
+    ] if f is not None]
+
+    return {
+        "all_drugs_mentioned": (
+            [{"name": inn} for inn in matched_drugs] +
+            [{"name": name} for name in untracked_names]
+        ),
+        "companies_mentioned":     [company] if company else [],
+        "indications_mentioned":   matched_indications,
+        "trial_ids":               [nct_id] if nct_id else [],
+        "event_type":              event_type,
+        "event_summary":           None,
+        "sentiment":               None,
+        "sentiment_reasoning":     None,
+        "key_facts":               key_facts,
+        "event_date":              date or None,
+        "requires_new_event_page": requires_event,
+        "suggested_event_slug":    slug,
+        "clinical_findings":       None,
+    }
+
+
+# ── ctgov pre-LLM filter ─────────────────────────────────────────────────────
+
+def _ctgov_passes_filter(parsed: dict) -> tuple[bool, str]:
+    """
+    Pure-Python gate applied before the Step 1 LLM call for ctgov files.
+    Returns (True, "") to proceed, or (False, reason) to skip.
+
+    Goal: keep ALL drug/biological trials from tracked companies — the ctgov
+    pipeline is a company-level portfolio view, not drug-specific. Understanding
+    a company's full pipeline (including untracked drugs and new indications)
+    is the point.
+
+    The only thing worth skipping: trials with NO drug or biological intervention
+    at all (device studies, blood draws, behavioral/procedural arms).
+    preprocess_ctgov() already nullifies intervention_type/name for those, so
+    if both fields are absent from the preprocessed dict this trial has zero
+    pharmaceutical signal.
+    """
+    if "intervention_type" not in parsed and "intervention_name" not in parsed:
+        return False, (
+            f"no drug/biological intervention "
+            f"(status={parsed.get('overall_status')!r}, "
+            f"conditions={parsed.get('conditions', [])[:2]})"
+        )
+    return True, ""
 
 
 # ── path helpers ──────────────────────────────────────────────────────────────
@@ -413,6 +554,7 @@ Return ONLY valid JSON with no markdown fences.
             response_mime_type="application/json",
         ),
     )
+    ledger.record(step1_response.usage_metadata)
 
     try:
         return json.loads(step1_response.text)
@@ -423,11 +565,19 @@ Return ONLY valid JSON with no markdown fences.
         )
 
 
-def collect_entity_pages(extracted: dict, pages_to_update: list, context: dict) -> None:
+def collect_entity_pages(
+    extracted: dict,
+    pages_to_update: list,
+    context: dict,
+    file_path: Path,
+    company_buffer: dict | None = None,
+    drug_buffer: dict | None = None,
+    indication_buffer: dict | None = None,
+) -> bool:
     """Step 2a — validate extracted entities against reference data.
-    Appends page update entries for drugs, companies, and indications.
-    Entities not found in reference files are logged and skipped.
-    Modifies pages_to_update in place.
+    Routes each entity to its batch buffer (if provided) or to pages_to_update.
+    Buffered pages are written once at end-of-batch via flush_buffered_pages().
+    Returns True if any tracked entity was found.
     """
     # enrich all_drugs_mentioned with is_tracked flag (set here in Python, not by LLM)
     all_drugs = extracted.get("all_drugs_mentioned", [])
@@ -454,6 +604,7 @@ def collect_entity_pages(extracted: dict, pages_to_update: list, context: dict) 
             "type":      "drug",
             "ref_name":  "reference/drugs.json",
             "entities":  tracked_drug_names,
+            "buffer":    drug_buffer,
         },
         {
             "reference": COMPANIES,
@@ -461,6 +612,7 @@ def collect_entity_pages(extracted: dict, pages_to_update: list, context: dict) 
             "type":      "company",
             "ref_name":  "reference/companies.json",
             "entities":  companies_mentioned,
+            "buffer":    company_buffer,
         },
         {
             "reference": INDICATIONS,
@@ -468,8 +620,16 @@ def collect_entity_pages(extracted: dict, pages_to_update: list, context: dict) 
             "type":      "indication_hub",
             "ref_name":  "reference/indications.json",
             "entities":  extracted.get("indications_mentioned", []),
+            "buffer":    indication_buffer,
         },
     ]
+
+    found_any = False
+    signal = {
+        "file_path": str(file_path),
+        "doc_type":  context.get("doc_type", ""),
+        "extracted": extracted,
+    }
 
     for config in entity_configs:
         for entity in config["entities"]:
@@ -483,18 +643,29 @@ def collect_entity_pages(extracted: dict, pages_to_update: list, context: dict) 
                     normalized = ALIAS_TO_COMPANY.get(entity.lower(), normalized)
 
             if normalized in config["reference"]:
-                page_path = config["path_fn"](normalized)
-                pages_to_update.append({
-                    "path":              page_path,
-                    "type":              config["type"],
-                    "entity":            normalized,
-                    "current":           read_wiki_page(page_path),
-                    "all_drugs_mentioned": all_drugs,  # carries is_tracked flag
-                })
+                found_any = True
+                buf = config["buffer"]
+                if buf is not None:
+                    buf.setdefault(normalized, []).append(signal)
+                    logger.info(
+                        f"STEP2 | BUFFER {config['type'].upper()} | {normalized} — "
+                        f"signal queued for batch flush"
+                    )
+                else:
+                    page_path = config["path_fn"](normalized)
+                    pages_to_update.append({
+                        "path":                page_path,
+                        "type":                config["type"],
+                        "entity":              normalized,
+                        "current":             read_wiki_page(page_path),
+                        "all_drugs_mentioned": all_drugs,
+                    })
             else:
                 logger.warning(
                     f"STEP2 | SKIP ENTITY | '{entity}' not in {config['ref_name']}"
                 )
+
+    return found_any
 
 
 def collect_trial_and_event_pages(
@@ -502,13 +673,16 @@ def collect_trial_and_event_pages(
     pages_to_update: list,
     file_path: Path,
     context: dict,
+    trial_buffer: dict | None = None,
 ) -> bool:
     """Step 2b — validate and accumulate trial and event page entries.
-    Trials: one file per company, multiple NCT IDs accumulated onto one entry.
-    Events: always a new page.
-    Returns False if pages_to_update is still empty (caller should return early).
+    Trials: buffered per-company if trial_buffer provided; else accumulated onto pages_to_update.
+    Events: always written per-file (each event has a unique slug).
+    Returns True if any tracked entity was found.
     """
     from agents.state import get_nct_action, mark_nct_processed
+
+    found_any = False
 
     for nct_id in extracted.get("trial_ids", []):
         if not (nct_id.startswith("NCT") and len(nct_id) == 11):
@@ -535,42 +709,51 @@ def collect_trial_and_event_pages(
             )
             continue
 
+        found_any = True
         nct_action = get_nct_action(nct_id)
         mark_nct_processed(nct_id, primary_sponsor, extracted.get("event_date"))
         logger.debug(f"STEP2 | {nct_id} → action={nct_action}, sponsor={primary_sponsor}")
 
-        trial_page_path = f"trials/{primary_sponsor}.md"
-        existing = next(
-            (p for p in pages_to_update if p["path"] == trial_page_path), None
-        )
-
-        if existing is None:
-            pages_to_update.append({
-                "path":    trial_page_path,
-                "type":    "trial",
-                "entity":  primary_sponsor,
-                "current": read_wiki_page(trial_page_path),
-                "nct_ids": [{"nct_id": nct_id, "action": nct_action}],
+        if trial_buffer is not None:
+            trial_buffer.setdefault(primary_sponsor, []).append({
+                "nct_id":    nct_id,
+                "action":    nct_action,
+                "extracted": extracted,
+                "file_path": str(file_path),
             })
+            logger.info(
+                f"STEP2 | BUFFER TRIAL | {primary_sponsor}/{nct_id} ({nct_action}) — "
+                f"queued for batch flush"
+            )
         else:
-            existing["nct_ids"].append({"nct_id": nct_id, "action": nct_action})
-            logger.debug(f"STEP2 | Accumulated {nct_id} onto {trial_page_path}")
+            trial_page_path = f"trials/{primary_sponsor}.md"
+            existing = next(
+                (p for p in pages_to_update if p["path"] == trial_page_path), None
+            )
+            if existing is None:
+                pages_to_update.append({
+                    "path":    trial_page_path,
+                    "type":    "trial",
+                    "entity":  primary_sponsor,
+                    "current": read_wiki_page(trial_page_path),
+                    "nct_ids": [{"nct_id": nct_id, "action": nct_action}],
+                })
+            else:
+                existing["nct_ids"].append({"nct_id": nct_id, "action": nct_action})
+                logger.debug(f"STEP2 | Accumulated {nct_id} onto {trial_page_path}")
 
     if extracted.get("requires_new_event_page") and extracted.get("suggested_event_slug"):
         event_path = f"events/{extracted['suggested_event_slug']}.md"
         pages_to_update.append({
-            "path":   event_path,
-            "type":   "event",
-            "entity": extracted["suggested_event_slug"],
+            "path":    event_path,
+            "type":    "event",
+            "entity":  extracted["suggested_event_slug"],
             "current": "",
         })
         logger.debug(f"STEP2 | Queued event: {event_path}")
+        found_any = True
 
-    if not pages_to_update:
-        logger.info(f"STEP2 | NO PAGES | No tracked entities in {file_path.name}")
-        return False
-
-    return True
+    return found_any
 
 
 def build_trial_context(page: dict) -> str:
@@ -604,12 +787,16 @@ def write_wiki_pages(
     template_caches: dict,
 ) -> list[str]:
     """Step 3 — write or update each wiki page identified in Step 2.
-    One LLM call per page. Uses cached template if available, falls back to
-    building the prompt inline (notebook mode).
+    All LLM calls fire in parallel (one thread per page), then results are
+    written to disk in the main thread. Uses cached template if available.
     Returns the list of wiki page paths written.
     """
-    updated_paths = []
+    import concurrent.futures as _cf
 
+    if not pages_to_update:
+        return []
+
+    # build clinical block once — shared across all page prompts
     clinical_block = ""
     if extracted.get("clinical_findings"):
         cf = extracted["clinical_findings"]
@@ -630,10 +817,11 @@ These numbers MUST appear in the Clinical evidence section exactly as stated.
 Do not paraphrase the primary result or conclusions.
 """
 
+    # pre-build (prompt, config) for every page — no LLM involved yet
+    tasks: list[tuple[dict, str, types.GenerateContentConfig]] = []
     for page in pages_to_update:
         trial_context = build_trial_context(page)
-
-        step3_prompt = f"""{trial_context}
+        prompt = f"""{trial_context}
 {clinical_block}
 Write the updated wiki page for: {page['path']}
 Page type: {page['type']}
@@ -660,32 +848,239 @@ Rules:
 - last_updated: always use the source document date, never a date from within the document body
 - Write ONLY the markdown content — no preamble, no explanation
 """
-
-        # use cached template if available (production), otherwise build inline (notebook)
         cache_name = template_caches.get(page["type"])
         if cache_name:
-            config = types.GenerateContentConfig(
-                cached_content=cache_name,
-                temperature=0.2,
-            )
+            config = types.GenerateContentConfig(cached_content=cache_name, temperature=0.2)
         else:
             page_template = load_page_template(page["type"])
             config = types.GenerateContentConfig(
                 system_instruction=system_prompt + "\n\n" + page_template,
                 temperature=0.2,
             )
+        tasks.append((page, prompt, config))
 
+    def _call_llm(task: tuple) -> tuple[dict, str, object, float]:
+        page, prompt, config = task
         start = time.time()
-        step3_response = client.models.generate_content(
-            model=FLASH_MODEL,
-            contents=step3_prompt,
-            config=config,
+        resp = client.models.generate_content(
+            model=FLASH_MODEL, contents=prompt, config=config,
         )
-        logger.info(f"STEP3 | API call took {time.time() - start:.1f}s for {page['type']}")
+        return page, resp.text, resp.usage_metadata, time.time() - start
 
-        write_wiki_page(page["path"], step3_response.text)
+    # fire all LLM calls in parallel — bounded by number of pages per file (≤5)
+    with _cf.ThreadPoolExecutor(max_workers=len(tasks)) as pool:
+        results = list(pool.map(_call_llm, tasks))
+
+    # write to disk and record usage in main thread (avoids any shared-state races)
+    updated_paths = []
+    for page, content, usage, elapsed in results:
+        logger.info(f"STEP3 | API call took {elapsed:.1f}s for {page['type']}")
+        ledger.record(usage)
+        write_wiki_page(page["path"], content)
         updated_paths.append(page["path"])
         logger.info(f"STEP3 | WROTE | {page['path']}")
+
+    return updated_paths
+
+
+def flush_buffered_pages(
+    company_buffer: dict,
+    trial_buffer: dict,
+    drug_buffer: dict,
+    indication_buffer: dict,
+    template_caches: dict,
+) -> list[str]:
+    """Flush all buffered signals — one LLM call per entity covering all accumulated signals.
+    Handles company, trial, drug, and indication pages in a single parallel pass.
+    Call once after the per-file loop. Returns list of wiki page paths written.
+    """
+    import concurrent.futures as _cf
+    from agents.state import update_index_py
+
+    if not any([company_buffer, trial_buffer, drug_buffer, indication_buffer]):
+        return []
+
+    system_prompt = build_system_prompt()
+    tasks: list[tuple] = []
+
+    def _signals_block(signals: list[dict]) -> str:
+        return "\n\n".join(
+            f"Signal {i + 1} (file: {s['file_path']}, type: {s['doc_type']}):\n"
+            f"{json.dumps(s['extracted'], indent=2)}"
+            for i, s in enumerate(signals)
+        )
+
+    def _make_config(page_type: str) -> types.GenerateContentConfig:
+        cache_name = template_caches.get(page_type)
+        if cache_name:
+            return types.GenerateContentConfig(cached_content=cache_name, temperature=0.2)
+        page_template = load_page_template(page_type)
+        return types.GenerateContentConfig(
+            system_instruction=system_prompt + "\n\n" + page_template, temperature=0.2,
+        )
+
+    # ── company ────────────────────────────────────────────────────────────────
+    for slug, signals in company_buffer.items():
+        page_path = f"companies/{slug}.md"
+        current   = read_wiki_page(page_path)
+        prompt = f"""Update the company wiki page for: {page_path}
+Page type: company
+Entity: {slug}
+
+{len(signals)} document(s) processed in this batch run.
+
+Current page content (empty if new page):
+---
+{current if current else '[NEW PAGE — write from scratch using the template above]'}
+---
+
+Signals to integrate (ordered as processed):
+{_signals_block(signals)}
+
+Rules:
+- Integrate ALL signals above into the company page
+- Follow the company template exactly
+- Preserve all existing content — only add or update what these documents affect
+- Timeline section is append-only — add new rows at the top, never delete existing rows
+- End with a ## Sources section listing all raw file paths
+- For all_drugs_mentioned: drugs with is_tracked=true get [[drug_name]] links; is_tracked=false as plain text
+- last_updated: use the most recent event_date from the signals above
+- Write ONLY the markdown content — no preamble, no explanation
+"""
+        tasks.append(("company", slug, page_path, prompt, _make_config("company"), signals))
+
+    # ── trial ──────────────────────────────────────────────────────────────────
+    for sponsor, entries in trial_buffer.items():
+        page_path = f"trials/{sponsor}.md"
+        current   = read_wiki_page(page_path)
+        trials_block = "\n\n".join(
+            f"Trial {i + 1}: {e['nct_id']} — action: {e['action']}\n"
+            f"Source: {e['file_path']}\n"
+            f"{json.dumps(e['extracted'], indent=2)}"
+            for i, e in enumerate(entries)
+        )
+        new_ncts    = [e["nct_id"] for e in entries if e["action"] == "new"]
+        update_ncts = [e["nct_id"] for e in entries if e["action"] == "update"]
+        prompt = f"""Update the trial registry page for: {page_path}
+Page type: trial
+Entity: {sponsor}
+
+{len(entries)} trial(s) to process from this batch run.
+- NCT IDs to ADD as new entries: {new_ncts if new_ncts else 'none'}
+- NCT IDs to UPDATE existing entries: {update_ncts if update_ncts else 'none'}
+
+Current page content (empty if new page):
+---
+{current if current else '[NEW PAGE — write from scratch using the template above]'}
+---
+
+Trials (ordered as processed):
+{trials_block}
+
+Rules:
+- action=new: add row to summary table + create section under correct status group (Active/Completed/Terminated)
+- action=update: find existing section by NCT ID, update status/result/completion date — no duplicates
+- Never remove existing trial entries
+- Follow the trial template exactly
+- End with a ## Sources section listing all NCT file paths
+- Write ONLY the markdown content — no preamble, no explanation
+"""
+        tasks.append(("trial", sponsor, page_path, prompt, _make_config("trial"), entries))
+
+    # ── drug ───────────────────────────────────────────────────────────────────
+    for drug_slug, signals in drug_buffer.items():
+        page_path = f"drugs/{drug_slug}.md"
+        current   = read_wiki_page(page_path)
+        prompt = f"""Update the drug wiki page for: {page_path}
+Page type: drug
+Entity: {drug_slug}
+
+{len(signals)} document(s) processed in this batch run.
+
+Current page content (empty if new page):
+---
+{current if current else '[NEW PAGE — write from scratch using the template above]'}
+---
+
+Signals to integrate (ordered as processed):
+{_signals_block(signals)}
+
+Rules:
+- Integrate ALL signals above into the drug page
+- Follow the drug template exactly
+- Preserve all existing content — only add or update what these documents affect
+- Timeline section is append-only — add new rows at the top, never delete existing rows
+- Clinical evidence section: accumulate all study findings, newest first
+- End with a ## Sources section listing all raw file paths
+- Write ONLY the markdown content — no preamble, no explanation
+"""
+        tasks.append(("drug", drug_slug, page_path, prompt, _make_config("drug"), signals))
+
+    # ── indication ─────────────────────────────────────────────────────────────
+    for ind_slug, signals in indication_buffer.items():
+        page_path = f"indications/{ind_slug}/_index.md"
+        current   = read_wiki_page(page_path)
+        prompt = f"""Update the indication hub page for: {page_path}
+Page type: indication_hub
+Entity: {ind_slug}
+
+{len(signals)} document(s) processed in this batch run.
+
+Current page content (empty if new page):
+---
+{current if current else '[NEW PAGE — write from scratch using the template above]'}
+---
+
+Signals to integrate (ordered as processed):
+{_signals_block(signals)}
+
+Rules:
+- Integrate ALL signals above into the indication hub page
+- Follow the indication_hub template exactly
+- Preserve all existing content — only add or update what these documents affect
+- Timeline section is append-only — add new rows at the top, never delete existing rows
+- End with a ## Sources section listing all raw file paths
+- Write ONLY the markdown content — no preamble, no explanation
+"""
+        tasks.append(("indication_hub", ind_slug, page_path, prompt, _make_config("indication_hub"), signals))
+
+    def _call_llm(task: tuple) -> tuple:
+        page_type, entity, page_path, prompt, config, signals = task
+        start = time.time()
+        resp  = client.models.generate_content(model=FLASH_MODEL, contents=prompt, config=config)
+        return page_type, entity, page_path, resp.text, resp.usage_metadata, time.time() - start, signals
+
+    logger.info(
+        f"FLUSH | Firing {len(tasks)} page writes in parallel — "
+        f"company={len(company_buffer)}, trial={len(trial_buffer)}, "
+        f"drug={len(drug_buffer)}, indication={len(indication_buffer)}"
+    )
+    with _cf.ThreadPoolExecutor(max_workers=len(tasks)) as pool:
+        results = list(pool.map(_call_llm, tasks))
+
+    updated_paths   = []
+    pages_for_index = []
+    for page_type, entity, page_path, content, usage, elapsed, signals in results:
+        n = len(signals)
+        logger.info(f"FLUSH | {page_type.upper()} | {entity} — {n} signal(s), API took {elapsed:.1f}s")
+        ledger.record(usage)
+        write_wiki_page(page_path, content)
+        updated_paths.append(page_path)
+        logger.info(f"FLUSH | WROTE | {page_path}")
+        all_drugs = (
+            signals[-1]["extracted"].get("all_drugs_mentioned", [])
+            if isinstance(signals[-1], dict) and "extracted" in signals[-1]
+            else []
+        )
+        pages_for_index.append({
+            "path":                page_path,
+            "type":                page_type,
+            "entity":              entity,
+            "all_drugs_mentioned": all_drugs,
+        })
+
+    if pages_for_index:
+        update_index_py(pages_for_index)
 
     return updated_paths
 
@@ -695,19 +1090,18 @@ def compile_document(
     context: dict,
     extraction_caches: dict | None = None,
     template_caches: dict | None = None,
+    company_buffer: dict | None = None,
+    trial_buffer: dict | None = None,
+    drug_buffer: dict | None = None,
+    indication_buffer: dict | None = None,
 ) -> list[str]:
     """3-step compiler chain: extract → validate → write.
 
-    Args:
-        file_path:         Path to the raw source file.
-        context:           Dict with keys: doc_type, company, drug.
-        extraction_caches: Dict of doc_type → cache name (built by orchestrator).
-                           If None or key missing, system prompt is built inline.
-        template_caches:   Dict of page_type → cache name (built by orchestrator).
-                           If None or key missing, template is loaded inline.
+    When batch buffers are provided, entity pages are accumulated across files
+    and written once at end-of-batch via flush_buffered_pages(). Only event
+    pages (unique per slug) are written per-file.
 
-    Returns:
-        List of wiki page paths that were written.
+    Returns list of wiki page paths written in this call (event pages only in batch mode).
     """
     from agents.state import update_index_py
 
@@ -725,35 +1119,43 @@ def compile_document(
     # pre-process document
     raw_content = preprocess_document(file_path, doc_type)
 
-    # build system prompt once — used for Step 1 inline fallback and Step 3 inline fallback
+    # ctgov pre-filter — skip irrelevant trials before any LLM call
+    if doc_type == "ctgov":
+        try:
+            _parsed_ctgov = json.loads(raw_content)
+        except (json.JSONDecodeError, AttributeError):
+            _parsed_ctgov = {}
+        _passes, _skip_reason = _ctgov_passes_filter(_parsed_ctgov)
+        if not _passes:
+            logger.info(f"COMPILE | PRE-FILTER SKIP | {file_name} — {_skip_reason}")
+            return []
+
+    # build system prompt once — used for Step 3 (and Step 1 for non-ctgov types)
     system_prompt = build_system_prompt()
 
     # ── STEP 1: Extract ───────────────────────────────────────────────────────
-    # use cached system+extraction prompt if available, else pass system_prompt inline
-    cache_name = extraction_caches.get(doc_type)
-    step1_system = cache_name if cache_name else system_prompt
+    if doc_type == "ctgov":
+        extracted = extract_ctgov_python(_parsed_ctgov)
+        logger.info(f"STEP1 | PYTHON | {file_name} — LLM call skipped")
+    else:
+        cache_name   = extraction_caches.get(doc_type)
+        step1_system = cache_name if cache_name else system_prompt
+        try:
+            extracted = compile_document_step1(
+                file_path, context, raw_content, doc_type, step1_system,
+            )
+        except ValueError as e:
+            logger.error(f"STEP1 | FAILED | {file_name}: {e}")
+            raise
 
-    try:
-        extracted = compile_document_step1(
-            file_path,
-            context,
-            raw_content,
-            doc_type,
-            step1_system,
-        )
-    except ValueError as e:
-        logger.error(f"STEP1 | FAILED | {file_name}: {e}")
-        raise
-
-    # pubmed files never trigger event pages — override regardless of LLM output
+    # pubmed files never trigger event pages
     if doc_type == "pubmed":
         extracted["requires_new_event_page"] = False
         extracted["suggested_event_slug"]    = None
         extracted["event_type"]              = None
         extracted["event_summary"]           = None
 
-    # ctgov event pages only make sense when a trial has reached a terminal status;
-    # active/recruiting trials produce no discrete event — suppress regardless of LLM output
+    # ctgov events only for terminal status trials
     if doc_type == "ctgov":
         _TERMINAL_STATUSES = {"COMPLETED", "TERMINATED", "WITHDRAWN"}
         try:
@@ -771,24 +1173,26 @@ def compile_document(
 
     # ── STEP 2: Collect pages ─────────────────────────────────────────────────
     pages_to_update = []
-    collect_entity_pages(extracted, pages_to_update, context)
-    has_work = collect_trial_and_event_pages(extracted, pages_to_update, file_path, context)
-
-    if not has_work:
-        logger.info(f"COMPILE | DONE | {file_name} — no tracked entities, nothing written")
-        return []
-
-    # ── STEP 3: Write pages ───────────────────────────────────────────────────
-    updated_paths = write_wiki_pages(
-        pages_to_update,
-        extracted,
-        file_path,
-        doc_type,
-        system_prompt,
-        template_caches,
+    found_entities = collect_entity_pages(
+        extracted, pages_to_update, context, file_path,
+        company_buffer, drug_buffer, indication_buffer,
+    )
+    found_trials = collect_trial_and_event_pages(
+        extracted, pages_to_update, file_path, context, trial_buffer,
     )
 
-    # update wiki navigation map — pure Python, no LLM
+    if not pages_to_update:
+        if found_entities or found_trials:
+            logger.info(f"COMPILE | DONE | {file_name} — all signals buffered, no per-file writes")
+        else:
+            logger.info(f"COMPILE | DONE | {file_name} — no tracked entities, nothing written")
+        return []
+
+    # ── STEP 3: Write event pages (only per-file pages remain) ───────────────
+    updated_paths = write_wiki_pages(
+        pages_to_update, extracted, file_path, doc_type, system_prompt, template_caches,
+    )
+
     if updated_paths:
         update_index_py(pages_to_update)
 

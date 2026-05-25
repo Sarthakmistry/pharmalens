@@ -14,13 +14,13 @@ last_updated: 2026-01-30
 **Date:** 2026-01-30 | **Type:** news | **Signal:** neutral
 
 ### Summary
-Amgen Inc. and Kyowa Kirin Co., Ltd. have entered into a Termination Agreement to end their License and Collaboration Agreement, originally dated June 1, 2021. The termination will become effective upon receipt of regulatory approval.
+Amgen Inc. and Kyowa Kirin Co., Ltd. have signed a Termination Agreement on January 30, 2026, to end their License and Collaboration Agreement, which was originally dated June 1, 2021. The termination will become effective upon receipt of regulatory approval.
 
 ### Market implication
-The termination of the collaboration agreement between Amgen and Kyowa Kirin is a factual event; its market implications are neutral given the lack of specific details regarding the financial or strategic impact of the terminated agreement.
+The termination of this agreement is a neutral event as no financial or strategic details were provided to assess its impact on Amgen's valuation.
 
 ### Affected entities
 - Company: [[amgen]]
 
 ### Sources
-- `raw/edgar/amgen/8k/2026-01-30-8K--26-030518.txt`
+- `raw/edgar/amgen/8K/2026-01-30-8K--26-030518.txt`

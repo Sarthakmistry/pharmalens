@@ -1,6 +1,6 @@
 ---
 company_slug: abbvie
-last_updated: 2026-04-07
+last_updated: 2026-05-01
 ---
 
 # AbbVie Clinical Trials
@@ -9,20 +9,1146 @@ last_updated: 2026-04-07
 
 | NCT ID | Title | Phase | Status | Primary Completion Date | Has Results |
 |---|---|---|---|---|---|
+| NCT06890338 | A Study of ABBV-916 in Participants With Early Alzheimer's Disease | 2 | recruiting | 2030-02 | False |
+| NCT03339128 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ulcerative Colitis | 2 | recruiting | 2026-12 | False |
+| NCT04928846 | A Study of Telisotuzumab Vedotin in Participants With Non-Small Cell Lung Cancer (NSCLC) | 3 | recruiting | 2028-03 | False |
+| NCT05407636 | A Study to Evaluate the Efficacy and Safety of ABBV-RGX-314 in Participants With Neovascular Age-Related Macular Degeneration (nAMD) | 3 | recruiting | 2026-10 | False |
+| NCT06012240 | A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease | 3 | recruiting | 2030-04 | False |
+| NCT06241313 | A Study to Evaluate the Efficacy and Safety of Atogepant in Participants With Chronic Migraine | 3 | recruiting | 2025-07-07 | False |
+| NCT06332534 | A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease | 3 | recruiting | 2027-06 | False |
+| NCT06389136 | A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Atopic Dermatitis | 3 | recruiting | 2026-08 | False |
+| NCT06428019 | A Study of Venetoclax in Combination With Acalabrutinib and Obinutuzumab in Participants With Relapsed or Refractory Chronic Lymphocytic Leukemia | 3 | recruiting | 2028-03 | False |
+| NCT06461897 | A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Atopic Dermatitis | 3 | recruiting | 2030-07 | False |
+| NCT06548542 | A Study to Evaluate the Efficacy and Safety of Risankizumab, Lutikizumab, Trosunilimab, and ABBV-8736 in Participants With Moderately to Severely Active Crohn's Disease | 2 | recruiting | 2027-12 | False |
+| NCT06696755 | A Study of Icalcaprant in Participants With Chronic Cough | 2 | recruiting | 2027-11 | False |
+| NCT06810505 | A Study to Evaluate the Efficacy and Safety of Atogepant in Participants With Chronic Migraine | 3 | recruiting | 2031-03 | False |
+| NCT06820463 | A Study of Telisotuzumab Adizutecan in Combination With Fluorouracil, Leucovorin, Oxaliplatin, and Bevacizumab in Participants With Advanced or Metastatic Colorectal Cancer (CRC) | 2 | recruiting | 2028-03 | False |
+| NCT06972446 | A Study to Evaluate the Efficacy and Safety of Lutikizumab in Participants With Moderate to Severe Atopic Dermatitis | 2 | recruiting | 2027-02 | False |
+| NCT07005102 | A Study of Osimertinib With or Without Telisotuzumab Vedotin in Participants With Epidermal Growth Factor Receptor (EGFR) Mutated, Advanced Non-Small Cell Lung Cancer (NSCLC) | 2/3 | recruiting | 2031-12 | False |
+| NCT07007065 | A Study to Evaluate the Efficacy and Safety of ABBV-RGX-314 in Participants With Neovascular Age-Related Macular Degeneration (nAMD) | 3 | recruiting | 2033-03 | False |
+| NCT07023289 | A Study of Telisotuzumab Adizutecan in Participants With Advanced or Metastatic Colorectal Cancer (CRC) | 2 | recruiting | 2029-11 | False |
+| NCT07023302 | A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease | 3 | recruiting | 2029-02 | False |
+| NCT07024784 | A Study of Olaparib in Combination With Bevacizumab in Participants With Platinum-Sensitive, Recurrent Ovarian Cancer | 2 | recruiting | 2028-01 | False |
+| NCT07044687 | A Study of Venetoclax in Combination With Azacitidine in Participants With Myelodysplastic Syndromes | 4 | recruiting | 2027-11 | False |
+| NCT07059845 | A Study of Mirvetuximab Soravtansine in Combination With Bevacizumab and Carboplatin in Participants With Platinum-Sensitive Ovarian Cancer | 2 | recruiting | 2029-01 | False |
+| NCT07071519 | A Study of Risankizumab in Participants With Moderately to Severely Active Crohn's Disease | 3 | recruiting | 2034-07 | False |
+| NCT07095452 | A Study of Etentamig in Combination With Lenalidomide and Dexamethasone in Participants With Relapsed or Refractory Multiple Myeloma | 2/3 | recruiting | 2042-01 | False |
+| NCT07145918 | A Study of Emraclidine in Participants With Schizophrenia | 2 | recruiting | 2028-02 | False |
+| NCT07155174 | A Study of ABBV-706 in Combination With Etoposide and Carboplatin or Lurbinectedin in Participants With Advanced Small Cell Lung Cancer (SCLC) | 2 | recruiting | 2029-05 | False |
+| NCT07155187 | A Study of Telisotuzumab Adizutecan in Combination With Osimertinib in Participants With Epidermal Growth Factor Receptor (EGFR) Mutated, Advanced Non-Small Cell Lung Cancer (NSCLC) | 2/3 | recruiting | 2030-09 | False |
+| NCT07160179 | A Study of ABBV-6628 in Participants With Geographic Atrophy Secondary to Age-Related Macular Degeneration | 1/2 | recruiting | 2029-10 | False |
+| NCT07196644 | A Study of Telisotuzumab Adizutecan in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) | 2 | recruiting | 2030-12 | False |
+| NCT07220460 | A Study of ABBV-932 in Participants With Advanced Solid Tumors | 2 | recruiting | 2027-04 | False |
+| NCT07226791 | A Study of AGN-151607-DP in Participants With Geographic Atrophy Secondary to Age-Related Macular Degeneration | 2 | recruiting | 2028-09 | False |
+| NCT07230288 | A Study of ABBV-142 in Participants With Advanced Solid Tumors | 2 | recruiting | 2029-09 | False |
+| NCT07284381 | A Study to Evaluate the Efficacy and Safety of ABBV-444 in Participants With Dry Eye Disease | 3 | recruiting | 2026-11 | False |
+| NCT07387471 | A Study of Venetoclax in Combination With Pomalidomide and Dexamethasone in Participants With Relapsed or Refractory Multiple Myeloma | 2 | recruiting | 2028-07 | False |
 | NCT02899052 | A Study of Venetoclax in Combination With Carfilzomib-Dexamethasone (Kd) in Participants With Relapsed or Refractory Multiple Myeloma | 2 | active | | False |
-| NCT03006068 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ulcerative Colitis | 3 | Active | | False |
-| NCT02966756 | A Study to Evaluate the Efficacy and Safety of Venetoclax in Participants With Relapsed or Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma | 2 | Active | | False |
-| NCT02632175 | A Long-Term Safety and Efficacy Study of Adalimumab in Pediatric Subjects With Ulcerative Colitis | 3 | completed | | False |
-| NCT02782663 | A Study to Evaluate the Long-Term Efficacy, Safety, and Tolerability of Upadacitinib (ABT-494) in Participants With Crohn's Disease | 3 | completed | 2025-07-18 | False |
-| NCT03069352 | A Study of Venetoclax in Combination With Low Dose Cytarabine Versus Low Dose Cytarabine Alone in Treatment-Naive Patients With Acute Myeloid Leukemia Ineligible for Intensive Chemotherapy | 3 | Completed | | True |
-| NCT03104374 | A Study Comparing Upadacitinib (ABT-494) to Placebo in Participants With Active Psoriatic Arthritis | 3 | Completed | 2019-07-01 | No |
-| NCT02993523 | A Study of Venetoclax in Combination With Azacitidine Versus Azacitidine in Participants With Treatment-Naive Acute Myeloid Leukemia Ineligible for Standard Induction Therapy | 3 | Completed | 2021-12-01 | True |
-| NCT02556736 | A Phase I/II, Open-Label, Multiple-Dose, Dose-Escalation Study to Evaluate the Safety and Tolerability of AGN-151597 (Formerly RST-001) in Patients With Advanced Retinitis Pigmentosa | 1/2 | Completed | 2020-06-01 | True |
+| NCT02966756 | A Study to Evaluate the Efficacy and Safety of Venetoclax in Participants With Relapsed or Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma | 2 | active | | False |
+| NCT03006068 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ulcerative Colitis | 3 | active | | False |
+| NCT03105102 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Crohn's Disease | 3 | active | 2026-05 | False |
+| NCT03314181 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis | 2 | active | 2031-05 | False |
+| NCT03345823 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis | 3 | active | 2027-09 | False |
+| NCT03398135 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis | 3 | active | 2028-09 | False |
+| NCT03539744 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Rheumatoid Arthritis Who Have Had an Inadequate Response to Conventional Synthetic Disease Modifying Anti-Rheumatic Drugs | 3 | active | 2026-08 | False |
+| NCT03844048 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis | 3 | active | 2027-08 | False |
+| NCT03891446 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Heart Failure With Preserved Ejection Fraction (HFpEF) | 3 | active | 2026-07 | False |
+| NCT03933735 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 1/2 | active | 2026-05 | False |
+| NCT04086264 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 1/2 | active | 2027-02 | False |
+| NCT04161898 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 3 | active | 2028-08 | False |
+| NCT04333576 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 3 | active | 2029-03 | False |
+| NCT04524611 | A Study of Risankizumab in Participants With Moderately to Severely Active Crohn's Disease | 3 | active | 2028-02 | False |
+| NCT04704921 | A Study to Evaluate the Efficacy and Safety of ABBV-RGX-314 in Participants With Neovascular Age-Related Macular Degeneration (nAMD) | 2/3 | active | 2026-12 | False |
+| NCT05843643 | A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease | 3 | active | 2027-03 | False |
+| NCT02556736 | A Phase I/II, Open-Label, Multiple-Dose, Dose-Escalation Study to Evaluate the Safety and Tolerability of AGN-151597 (Formerly RST-001) in Patients With Advanced Retinitis Pigmentosa | 1/2 | completed | 2020-06-01 | True |
 | NCT02629159 | A Study Comparing Upadacitinib (ABT-494) to Placebo and Adalimumab in Participants With Rheumatoid Arthritis Who Are on a Stable Dose of Methotrexate and Have an Inadequate Response to Methotrexate | 3 | completed | 2017-10-27 | True |
+| NCT02632175 | A Long-Term Safety and Efficacy Study of Adalimumab in Pediatric Subjects With Ulcerative Colitis | 3 | completed | | False |
+| NCT02782663 | A Study to Evaluate the Long-Term Efficacy and Safety, and Tolerability of Upadacitinib (ABT-494) in Participants With Crohn's Disease | 3 | completed | 2025-07-18 | False |
+| NCT02993523 | A Study of Venetoclax in Combination With Azacitidine Versus Azacitidine in Participants With Treatment-Naive Acute Myeloid Leukemia Ineligible for Standard Induction Therapy | 3 | completed | 2021-12-01 | True |
+| NCT03104374 | A Study Comparing Upadacitinib (ABT-494) to Placebo in Participants With Active Psoriatic Arthritis | 3 | completed | 2019-07-01 | False |
+| NCT03104400 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Rheumatoid Arthritis Who Have Had an Inadequate Response to Biologic Disease Modifying Anti-Rheumatic Drugs | 3 | completed | 2019-09-26 | True |
+| NCT03222609 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ankylosing Spondylitis | 2 | completed | 2022-03-28 | True |
+| NCT03271489 | AbbVie Clinical Trial NCT03271489 | 3 | completed | 2024-06-28 | True |
+| NCT03568318 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis | 3 | completed | 2021-02-16 | True |
+| NCT03671148 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis | 3 | completed | 2020-06-22 | True |
+| NCT03675308 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis | 3 | completed | 2020-10-08 | True |
+| NCT03725202 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Crohn's Disease | 3 | completed | 2024-02-06 | True |
+| NCT03850782 | A Study in Heart Failure with Preserved Ejection Fraction (HFpEF) | 3 | completed | 2025-08-08 | False |
+| NCT04030962 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 1/2 | completed | 2022-03-18 | True |
+| NCT04102020 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 3 | completed | 2022-09-29 | True |
+| NCT04166058 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 3 | completed | 2025-06-05 | True |
+| NCT04169373 | A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis | 3 | completed | 2021-09-02 | True |
+| NCT04201093 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 3 | completed | 2024-06-28 | True |
+| NCT04209855 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 3 | completed | 2023-04-13 | True |
+| NCT04223193 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 3 | completed | 2024-10-01 | True |
+| NCT04244175 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 2 | completed | 2024-05-21 | True |
+| NCT04295538 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 2 | completed | 2026-01-26 | False |
+| NCT04309474 | AbbVie Clinical Trial NCT04309474 | 2 | completed | 2024-04-18 | True |
+| NCT06333860 | A Study of Risankizumab and Deucravacitinib | 4 | completed | 2026-03-19 | False |
+| NCT06346288 | A Study to Evaluate the Transfer of Risankizumab Into Breast Milk in Lactating Women With Psoriasis | 4 | completed | 2026-02-05 | False |
+| NCT04064827 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 3 | terminated | 2025-06-09 | False |
+| NCT04161885 | A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus | 3 | terminated | 2025-09-23 | False |
+
+## Recruiting Trials
+
+### NCT06890338: A Study of ABBV-916 in Participants With Early Alzheimer's Disease
+
+---
+trial_id: NCT06890338
+title: A Study of ABBV-916 in Participants With Early Alzheimer's Disease
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-916]
+indications: [alzheimers]
+enrollment: 140
+primary_endpoint: To evaluate the efficacy and safety of ABBV-916 in participants with early Alzheimer's disease.
+primary_completion_date: 2030-02
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of ABBV-916 in Participants With Early Alzheimer's Disease
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-916 in participants with early [[alzheimers]].
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-916 in participants with early Alzheimer's disease.
+
+### Results summary
+
+### NCT03339128: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ulcerative Colitis
+
+---
+trial_id: NCT03339128
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ulcerative Colitis
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active ulcerative colitis.
+primary_completion_date: 2026-12
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ulcerative Colitis
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study aims to evaluate the efficacy and safety of Upadacitinib (ABT-494) in adult participants with moderate to severely active ulcerative colitis.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active ulcerative colitis.
+
+### Results summary
+
+### NCT04928846: A Study of Telisotuzumab Vedotin in Participants With Non-Small Cell Lung Cancer (NSCLC)
+
+---
+trial_id: NCT04928846
+title: A Study of Telisotuzumab Vedotin in Participants With Non-Small Cell Lung Cancer (NSCLC)
+phase: 3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Telisotuzumab vedotin, Docetaxel]
+indications: [oncology-nsclc]
+enrollment: 698
+primary_endpoint: To evaluate the efficacy and safety of Telisotuzumab Vedotin in participants with non-small cell lung cancer (NSCLC).
+primary_completion_date: 2028-03
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Telisotuzumab Vedotin in Participants With Non-Small Cell Lung Cancer (NSCLC)
+
+**Phase:** 3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Telisotuzumab Vedotin in participants with non-small cell lung cancer (NSCLC), with Docetaxel as a comparator.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Telisotuzumab Vedotin in participants with non-small cell lung cancer (NSCLC).
+
+### Results summary
+
+### NCT05407636: A Study to Evaluate the Efficacy and Safety of ABBV-RGX-314 in Participants With Neovascular Age-Related Macular Degeneration (nAMD)
+
+---
+trial_id: NCT05407636
+title: A Study to Evaluate the Efficacy and Safety of ABBV-RGX-314 in Participants With Neovascular Age-Related Macular Degeneration (nAMD)
+phase: 3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Abbv-rgx-314, Aflibercept]
+indications: []
+enrollment: 714
+primary_endpoint: To evaluate the efficacy and safety of ABBV-RGX-314 in participants with neovascular age-related macular degeneration (nAMD).
+primary_completion_date: 2026-10
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-RGX-314 in Participants With Neovascular Age-Related Macular Degeneration (nAMD)
+
+**Phase:** 3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-RGX-314 in participants with neovascular age-related macular degeneration (nAMD), with Aflibercept as a comparator.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-RGX-314 in participants with neovascular age-related macular degeneration (nAMD).
+
+### Results summary
+
+### NCT06012240: A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease
+
+---
+trial_id: NCT06012240
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease
+phase: 3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 1500
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active Crohn's disease.
+primary_completion_date: 2030-04
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease
+
+**Phase:** 3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib in participants with moderately to severely active Crohn's disease.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active Crohn's disease.
+
+### Results summary
+
+### NCT06241313: A Study to Evaluate the Efficacy and Safety of Atogepant in Participants With Chronic Migraine
+
+---
+trial_id: NCT06241313
+title: A Study to Evaluate the Efficacy and Safety of Atogepant in Participants With Chronic Migraine
+phase: 3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Atogepant]
+indications: []
+enrollment: 1300
+primary_endpoint: To evaluate the efficacy and safety of Atogepant in participants with chronic migraine.
+primary_completion_date: 2025-07-07
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Atogepant in Participants With Chronic Migraine
+
+**Phase:** 3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Atogepant in participants with chronic migraine.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Atogepant in participants with chronic migraine.
+
+### Results summary
+
+### NCT06332534: A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease
+
+---
+trial_id: NCT06332534
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease
+phase: 3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 110
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active Crohn's disease.
+primary_completion_date: 2027-06
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease
+
+**Phase:** 3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib in participants with moderately to severely active Crohn's disease.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active Crohn's disease.
+
+### Results summary
+
+### NCT06389136: A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Atopic Dermatitis
+
+---
+trial_id: NCT06389136
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Atopic Dermatitis
+phase: 3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 200
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active atopic dermatitis.
+primary_completion_date: 2026-08
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Atopic Dermatitis
+
+**Phase:** 3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib in participants with moderately to severely active atopic dermatitis.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active atopic dermatitis.
+
+### Results summary
+
+### NCT06428019: A Study of Venetoclax in Combination With Acalabrutinib and Obinutuzumab in Participants With Relapsed or Refractory Chronic Lymphocytic Leukemia
+
+---
+trial_id: NCT06428019
+title: A Study of Venetoclax in Combination With Acalabrutinib and Obinutuzumab in Participants With Relapsed or Refractory Chronic Lymphocytic Leukemia
+phase: 3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [venetoclax, Acalabrutinib, Obinutuzumab]
+indications: []
+enrollment: 170
+primary_endpoint: To evaluate the efficacy and safety of Venetoclax in combination with Acalabrutinib and Obinutuzumab in participants with relapsed or refractory chronic lymphocytic leukemia.
+primary_completion_date: 2028-03
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Venetoclax in Combination With Acalabrutinib and Obinutuzumab in Participants With Relapsed or Refractory Chronic Lymphocytic Leukemia
+
+**Phase:** 3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of [[venetoclax]] in combination with Acalabrutinib and Obinutuzumab in participants with relapsed or refractory chronic lymphocytic leukemia.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Venetoclax in combination with Acalabrutinib and Obinutuzumab in participants with relapsed or refractory chronic lymphocytic leukemia.
+
+### Results summary
+
+### NCT06461897: A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Atopic Dermatitis
+
+---
+trial_id: NCT06461897
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Atopic Dermatitis
+phase: 3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 675
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active atopic dermatitis.
+primary_completion_date: 2030-07
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Atopic Dermatitis
+
+**Phase:** 3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib in participants with moderately to severely active atopic dermatitis, with Dupilumab as a comparator.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active atopic dermatitis.
+
+### Results summary
+
+### NCT06548542: A Study to Evaluate the Efficacy and Safety of Risankizumab, Lutikizumab, Trosunilimab, and ABBV-8736 in Participants With Moderately to Severely Active Crohn's Disease
+
+---
+trial_id: NCT06548542
+title: A Study to Evaluate the Efficacy and Safety of Risankizumab, Lutikizumab, Trosunilimab, and ABBV-8736 in Participants With Moderately to Severely Active Crohn's Disease
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Risankizumab, Lutikizumab, Trosunilimab, ABBV-8736]
+indications: []
+enrollment: 540
+primary_endpoint: To evaluate the efficacy and safety of Risankizumab, Lutikizumab, Trosunilimab, and ABBV-8736 in participants with moderately to severely active Crohn's disease.
+primary_completion_date: 2027-12
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Risankizumab, Lutikizumab, Trosunilimab, and ABBV-8736 in Participants With Moderately to Severely Active Crohn's Disease
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Risankizumab, Lutikizumab, Trosunilimab, and ABBV-8736 in participants with moderately to severely active Crohn's disease.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Risankizumab, Lutikizumab, Trosunilimab, and ABBV-8736 in participants with moderately to severely active Crohn's disease.
+
+### Results summary
+
+### NCT06696755: A Study of Icalcaprant in Participants With Chronic Cough
+
+---
+trial_id: NCT06696755
+title: A Study of Icalcaprant in Participants With Chronic Cough
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Icalcaprant]
+indications: []
+enrollment: 195
+primary_endpoint: To evaluate the efficacy and safety of Icalcaprant in participants with chronic cough.
+primary_completion_date: 2027-11
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Icalcaprant in Participants With Chronic Cough
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Icalcaprant in participants with chronic cough.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Icalcaprant in participants with chronic cough.
+
+### Results summary
+
+### NCT06810505: A Study to Evaluate the Efficacy and Safety of Atogepant in Participants With Chronic Migraine
+
+---
+trial_id: NCT06810505
+title: A Study to Evaluate the Efficacy and Safety of Atogepant in Participants With Chronic Migraine
+phase: 3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Atogepant]
+indications: []
+enrollment: 420
+primary_endpoint: To evaluate the efficacy and safety of Atogepant in participants with chronic migraine.
+primary_completion_date: 2031-03
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Atogepant in Participants With Chronic Migraine
+
+**Phase:** 3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Atogepant in participants with chronic migraine.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Atogepant in participants with chronic migraine.
+
+### Results summary
+
+### NCT06820463: A Study of Telisotuzumab Adizutecan in Combination With Fluorouracil, Leucovorin, Oxaliplatin, and Bevacizumab in Participants With Advanced or Metastatic Colorectal Cancer (CRC)
+
+---
+trial_id: NCT06820463
+title: A Study of Telisotuzumab Adizutecan in Combination With Fluorouracil, Leucovorin, Oxaliplatin, and Bevacizumab in Participants With Advanced or Metastatic Colorectal Cancer (CRC)
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [bevacizumab, Telisotuzumab adizutecan, Fluorouracil, Oxaliplatin, Leucovorin]
+indications: [oncology-crc]
+enrollment: 390
+primary_endpoint: To evaluate the efficacy and safety of Telisotuzumab Adizutecan in combination with Fluorouracil, Leucovorin, Oxaliplatin, and Bevacizumab in participants with advanced or metastatic colorectal cancer (CRC).
+primary_completion_date: 2028-03
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Telisotuzumab Adizutecan in Combination With Fluorouracil, Leucovorin, Oxaliplatin, and Bevacizumab in Participants With Advanced or Metastatic Colorectal Cancer (CRC)
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Telisotuzumab Adizutecan in combination with Fluorouracil, Leucovorin, Oxaliplatin, and [[bevacizumab]] in participants with advanced or metastatic [[oncology-crc]].
+
+### Primary endpoint
+To evaluate the efficacy and safety of Telisotuzumab Adizutecan in combination with Fluorouracil, Leucovorin, Oxaliplatin, and Bevacizumab in participants with advanced or metastatic colorectal cancer (CRC).
+
+### Results summary
+
+### NCT06972446: A Study to Evaluate the Efficacy and Safety of Lutikizumab in Participants With Moderate to Severe Atopic Dermatitis
+
+---
+trial_id: NCT06972446
+title: A Study to Evaluate the Efficacy and Safety of Lutikizumab in Participants With Moderate to Severe Atopic Dermatitis
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Lutikizumab, Ravagalimab]
+indications: []
+enrollment: 180
+primary_endpoint: To evaluate the percentage of participants with an Investigator's Global Assessment (IGA) score of 0 or 1 and a reduction of at least 2 points from baseline at Week 16.
+primary_completion_date: 2027-02
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Lutikizumab in Participants With Moderate to Severe Atopic Dermatitis
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This is a Phase 2, multicenter, randomized, double-blind, placebo-controlled study designed to evaluate the efficacy and safety of Lutikizumab in adult participants with moderate to severe atopic dermatitis. Participants will be randomized to receive Lutikizumab or placebo.
+
+### Primary endpoint
+To evaluate the percentage of participants with an Investigator's Global Assessment (IGA) score of 0 or 1 and a reduction of at least 2 points from baseline at Week 16.
+
+### Results summary
+
+### NCT07005102: A Study of Osimertinib With or Without Telisotuzumab Vedotin in Participants With Epidermal Growth Factor Receptor (EGFR) Mutated, Advanced Non-Small Cell Lung Cancer (NSCLC)
+
+---
+trial_id: NCT07005102
+title: A Study of Osimertinib With or Without Telisotuzumab Vedotin in Participants With Epidermal Growth Factor Receptor (EGFR) Mutated, Advanced Non-Small Cell Lung Cancer (NSCLC)
+phase: 2/3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [osimertinib, Telisotuzumab adizutecan, Cisplatin, Carboplatin, Pemetrexed]
+indications: [oncology-nsclc]
+enrollment: 854
+primary_endpoint: To evaluate the efficacy and safety of osimertinib with or without telisotuzumab vedotin in participants with EGFR-mutated, advanced NSCLC.
+primary_completion_date: 2031-12
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Osimertinib With or Without Telisotuzumab Vedotin in Participants With Epidermal Growth Factor Receptor (EGFR) Mutated, Advanced Non-Small Cell Lung Cancer (NSCLC)
+
+**Phase:** 2/3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study investigates the efficacy and safety of [[osimertinib]] with or without Telisotuzumab adizutecan, Cisplatin, Carboplatin, or Pemetrexed in participants with Epidermal Growth Factor Receptor (EGFR) mutated, advanced non-small cell lung cancer (NSCLC).
+
+### Primary endpoint
+To evaluate the efficacy and safety of osimertinib with or without telisotuzumab vedotin in participants with EGFR-mutated, advanced NSCLC.
+
+### Results summary
+
+### NCT07007065: A Study to Evaluate the Efficacy and Safety of ABBV-RGX-314 in Participants With Neovascular Age-Related Macular Degeneration (nAMD)
+
+---
+trial_id: NCT07007065
+title: A Study to Evaluate the Efficacy and Safety of ABBV-RGX-314 in Participants With Neovascular Age-Related Macular Degeneration (nAMD)
+phase: 3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Surabgene lomparvovec (abbv-rgx-314)]
+indications: []
+enrollment: 561
+primary_endpoint: To evaluate the efficacy and safety of ABBV-RGX-314 in participants with neovascular age-related macular degeneration (nAMD).
+primary_completion_date: 2033-03
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-RGX-314 in Participants With Neovascular Age-Related Macular Degeneration (nAMD)
+
+**Phase:** 3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study aims to evaluate the efficacy and safety of Surabgene lomparvovec (ABBV-RGX-314) in participants with neovascular age-related macular degeneration (nAMD).
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-RGX-314 in participants with neovascular age-related macular degeneration (nAMD).
+
+### Results summary
+
+### NCT07023289: A Study of Telisotuzumab Adizutecan in Participants With Advanced or Metastatic Colorectal Cancer (CRC)
+
+---
+trial_id: NCT07023289
+title: A Study of Telisotuzumab Adizutecan in Participants With Advanced or Metastatic Colorectal Cancer (CRC)
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Telisotuzumab adizutecan]
+indications: [oncology-crc]
+enrollment: 140
+primary_endpoint: To evaluate the efficacy and safety of Telisotuzumab Adizutecan in participants with advanced or metastatic colorectal cancer (CRC).
+primary_completion_date: 2029-11
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Telisotuzumab Adizutecan in Participants With Advanced or Metastatic Colorectal Cancer (CRC)
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Telisotuzumab Adizutecan in participants with advanced or metastatic colorectal cancer (CRC).
+
+### Primary endpoint
+To evaluate the efficacy and safety of Telisotuzumab Adizutecan in participants with advanced or metastatic colorectal Cancer (CRC).
+
+### Results summary
+
+### NCT07023302: A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease
+
+---
+trial_id: NCT07023302
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease
+phase: 3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 123
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active Crohn's Disease.
+primary_completion_date: 2029-02
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease
+
+**Phase:** 3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib in participants with moderately to severely active Crohn's disease.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active Crohn's disease.
+
+### Results summary
+
+### NCT07024784: A Study of Olaparib in Combination With Bevacizumab in Participants With Platinum-Sensitive, Recurrent Ovarian Cancer
+
+---
+trial_id: NCT07024784
+title: A Study of Olaparib in Combination With Bevacizumab in Participants With Platinum-Sensitive, Recurrent Ovarian Cancer
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [olaparib, bevacizumab]
+indications: []
+enrollment: 377
+primary_endpoint: To evaluate the efficacy and safety of olaparib in combination with bevacizumab in participants with platinum-sensitive, recurrent ovarian cancer.
+primary_completion_date: 2028-01
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Olaparib in Combination With Bevacizumab in Participants With Platinum-Sensitive, Recurrent Ovarian Cancer
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of [[olaparib]] in combination with [[bevacizumab]] in participants with platinum-sensitive, recurrent ovarian cancer. The study also includes Imgn151 and Carboplatin.
+
+### Primary endpoint
+To evaluate the efficacy and safety of olaparib in combination with bevacizumab in participants with platinum-sensitive, recurrent ovarian cancer.
+
+### Results summary
+
+### NCT07044687: A Study of Venetoclax in Combination With Azacitidine in Participants With Myelodysplastic Syndromes
+
+---
+trial_id: NCT07044687
+title: A Study of Venetoclax in Combination With Azacitidine in Participants With Myelodysplastic Syndromes
+phase: 4
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Venetoclax, Azacitidine]
+indications: []
+enrollment: 100
+primary_endpoint: To evaluate the efficacy and safety of venetoclax in combination with azacitidine in participants with myelodysplastic syndromes.
+primary_completion_date: 2027-11
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Venetoclax in Combination With Azacitidine in Participants With Myelodysplastic Syndromes
+
+**Phase:** 4 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Venetoclax in combination with Azacitidine in participants with myelodysplastic syndromes.
+
+### Primary endpoint
+To evaluate the efficacy and safety of venetoclax in combination with azacitidine in participants with myelodysplastic syndromes.
+
+### Results summary
+
+### NCT07059845: A Study of Mirvetuximab Soravtansine in Combination With Bevacizumab and Carboplatin in Participants With Platinum-Sensitive Ovarian Cancer
+
+---
+trial_id: NCT07059845
+title: A Study of Mirvetuximab Soravtansine in Combination With Bevacizumab and Carboplatin in Participants With Platinum-Sensitive Ovarian Cancer
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [bevacizumab, Mirvetuximab soravtansine, Carboplatin]
+indications: []
+enrollment: 320
+primary_endpoint: To evaluate the efficacy and safety of mirvetuximab soravtansine in combination with bevacizumab and carboplatin in participants with platinum-sensitive ovarian cancer.
+primary_completion_date: 2029-01
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Mirvetuximab Soravtansine in Combination With Bevacizumab and Carboplatin in Participants With Platinum-Sensitive Ovarian Cancer
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Mirvetuximab soravtansine in combination with [[bevacizumab]] and Carboplatin in participants with platinum-sensitive ovarian cancer.
+
+### Primary endpoint
+To evaluate the efficacy and safety of mirvetuximab soravtansine in combination with bevacizumab and carboplatin in participants with platinum-sensitive ovarian cancer.
+
+### Results summary
+
+### NCT07071519: A Study of Risankizumab in Participants With Moderately to Severely Active Crohn's Disease
+
+---
+trial_id: NCT07071519
+title: A Study of Risankizumab in Participants With Moderately to Severely Active Crohn's Disease
+phase: 3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Risankizumab]
+indications: []
+enrollment: 120
+primary_endpoint: To evaluate the efficacy and safety of risankizumab in participants with moderately to severely active Crohn's disease.
+primary_completion_date: 2034-07
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Risankizumab in Participants With Moderately to Severely Active Crohn's Disease
+
+**Phase:** 3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Risankizumab in participants with moderately to severely active Crohn's disease.
+
+### Primary endpoint
+To evaluate the efficacy and safety of risankizumab in participants with moderately to severely active Crohn's disease.
+
+### Results summary
+
+### NCT07095452: A Study of Etentamig in Combination With Lenalidomide and Dexamethasone in Participants With Relapsed or Refractory Multiple Myeloma
+
+---
+trial_id: NCT07095452
+title: A Study of Etentamig in Combination With Lenalidomide and Dexamethasone in Participants With Relapsed or Refractory Multiple Myeloma
+phase: 2/3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Etentamig, Lenalidomide, Daratumumab, Dexamethasone]
+indications: []
+enrollment: 660
+primary_endpoint: To evaluate the efficacy and safety of Etentamig in combination with Lenalidomide and Dexamethasone in participants with relapsed or refractory multiple Myeloma.
+primary_completion_date: 2042-01
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Etentamig in Combination With Lenalidomide and Dexamethasone in Participants With Relapsed or Refractory Multiple Myeloma
+
+**Phase:** 2/3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Etentamig in combination with Lenalidomide and Dexamethasone, with or without Daratumumab, in participants with relapsed or refractory multiple myeloma.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Etentamig in combination with Lenalidomide and Dexamethasone in participants with relapsed or refractory multiple Myeloma.
+
+### Results summary
+
+### NCT07145918: A Study of Emraclidine in Participants With Schizophrenia
+
+---
+trial_id: NCT07145918
+title: A Study of Emraclidine in Participants With Schizophrenia
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Emraclidine]
+indications: []
+enrollment: 268
+primary_endpoint: To evaluate the efficacy and safety of Emraclidine in participants with schizophrenia.
+primary_completion_date: 2028-02
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Emraclidine in Participants With Schizophrenia
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Emraclidine in participants with schizophrenia.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Emraclidine in participants with schizophrenia.
+
+### Results summary
+
+### NCT07155174: A Study of ABBV-706 in Combination With Etoposide and Carboplatin or Lurbinectedin in Participants With Advanced Small Cell Lung Cancer (SCLC)
+
+---
+trial_id: NCT07155174
+title: A Study of ABBV-706 in Combination With Etoposide and Carboplatin or Lurbinectedin in Participants With Advanced Small Cell Lung Cancer (SCLC)
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [atezolizumab, Abbv-706, Etoposide, Carboplatin, Lurbinectedin]
+indications: [oncology-nsclc]
+enrollment: 180
+primary_endpoint: To evaluate the efficacy and safety of ABBV-706 in combination with Etoposide and Carboplatin or Lurbinectedin in participants with advanced SCLC.
+primary_completion_date: 2029-05
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of ABBV-706 in Combination With Etoposide and Carboplatin or Lurbinectedin in Participants With Advanced Small Cell Lung Cancer (SCLC)
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-706 in combination with [[atezolizumab]], Etoposide, and Carboplatin or Lurbinectedin in participants with advanced small cell lung cancer (SCLC).
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-706 in combination with Etoposide and Carboplatin or Lurbinectedin in participants with advanced SCLC.
+
+### Results summary
+
+### NCT07155187: A Study of Telisotuzumab Adizutecan in Combination With Osimertinib in Participants With Epidermal Growth Factor Receptor (EGFR) Mutated, Advanced Non-Small Cell Lung Cancer (NSCLC)
+
+---
+trial_id: NCT07155187
+title: A Study of Telisotuzumab Adizutecan in Combination With Osimertinib in Participants With Epidermal Growth Factor Receptor (EGFR) Mutated, Advanced Non-Small Cell Lung Cancer (NSCLC)
+phase: 2/3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Telisotuzumab adizutecan, osimertinib]
+indications: [oncology-nsclc]
+enrollment: 430
+primary_endpoint: To evaluate the efficacy and safety of Telisotuzumab Adizutecan in combination with Osimertinib in participants with Epidermal Growth Factor Receptor (EGFR) Mutated, Advanced Non-Small Cell Lung Cancer (NSCLC).
+primary_completion_date: 2030-09
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Telisotuzumab Adizutecan in Combination With Osimertinib in Participants With Epidermal Growth Factor Receptor (EGFR) Mutated, Advanced Non-Small Cell Lung Cancer (NSCLC)
+
+**Phase:** 2/3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Telisotuzumab Adizutecan in combination with [[osimertinib]] in participants with Epidermal Growth Factor Receptor (EGFR) mutated, advanced Non-Small Cell Lung Cancer (NSCLC).
+
+### Primary endpoint
+To evaluate the efficacy and safety of Telisotuzumab Adizutecan in combination with Osimertinib in participants with Epidermal Growth Factor Receptor (EGFR) Mutated, Advanced Non-Small Cell Lung Cancer (NSCLC).
+
+### Results summary
+
+### NCT07160179: A Study of ABBV-6628 in Participants With Geographic Atrophy Secondary to Age-Related Macular Degeneration
+
+---
+trial_id: NCT07160179
+title: A Study of ABBV-6628 in Participants With Geographic Atrophy Secondary to Age-Related Macular Degeneration
+phase: 1/2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-6628]
+indications: []
+enrollment: 66
+primary_endpoint: To evaluate the safety, tolerability, and pharmacokinetics of ABBV-6628 in participants with geographic atrophy secondary to age-related macular degeneration.
+primary_completion_date: 2029-10
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of ABBV-6628 in Participants With Geographic Atrophy Secondary to Age-Related Macular Degeneration
+
+**Phase:** 1/2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the safety, tolerability, and pharmacokinetics of ABBV-6628 in participants with geographic atrophy secondary to age-related macular degeneration.
+
+### Primary endpoint
+To evaluate the safety, tolerability, and pharmacokinetics of ABBV-6628 in participants with geographic atrophy secondary to age-related macular degeneration.
+
+### Results summary
+
+### NCT07196644: A Study of Telisotuzumab Adizutecan in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC)
+
+---
+trial_id: NCT07196644
+title: A Study of Telisotuzumab Adizutecan in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC)
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Telisotuzumab adizutecan]
+indications: [oncology-nsclc]
+enrollment: 125
+primary_endpoint: To evaluate the efficacy and safety of Telisotuzumab Adizutecan in participants with advanced or metastatic non-small cell lung cancer (NSCLC).
+primary_completion_date: 2030-12
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Telisotuzumab Adizutecan in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC)
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Telisotuzumab Adizutecan in participants with advanced or metastatic non-small cell lung cancer (NSCLC).
+
+### Primary endpoint
+To evaluate the efficacy and safety of Telisotuzumab Adizutecan in participants with advanced or metastatic non-small cell lung cancer (NSCLC).
+
+### Results summary
+
+### NCT07220460: A Study of ABBV-932 in Participants With Advanced Solid Tumors
+
+---
+trial_id: NCT07220460
+title: A Study of ABBV-932 in Participants With Advanced Solid Tumors
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-932]
+indications: []
+enrollment: 200
+primary_endpoint: To evaluate the safety and efficacy of ABBV-932 in participants with advanced solid tumors.
+primary_completion_date: 2027-04
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of ABBV-932 in Participants With Advanced Solid Tumors
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the safety and efficacy of ABBV-932 in participants with advanced solid tumors.
+
+### Primary endpoint
+To evaluate the safety and efficacy of ABBV-932 in participants with advanced solid tumors.
+
+### Results summary
+
+### NCT07226791: A Study of AGN-151607-DP in Participants With Geographic Atrophy Secondary to Age-Related Macular Degeneration
+
+---
+trial_id: NCT07226791
+title: A Study of AGN-151607-DP in Participants With Geographic Atrophy Secondary to Age-Related Macular Degeneration
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Agn-151607-dp]
+indications: []
+enrollment: 200
+primary_endpoint: To evaluate the safety and efficacy of AGN-151607-DP in participants with geographic atrophy secondary to age-related macular degeneration.
+primary_completion_date: 2028-09
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of AGN-151607-DP in Participants With Geographic Atrophy Secondary to Age-Related Macular Degeneration
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the safety and efficacy of AGN-151607-DP in participants with geographic atrophy secondary to age-related macular degeneration.
+
+### Primary endpoint
+To evaluate the safety and efficacy of AGN-151607-DP in participants with geographic atrophy secondary to age-related macular degeneration.
+
+### Results summary
+
+### NCT07230288: A Study of ABBV-142 in Participants With Advanced Solid Tumors
+
+---
+trial_id: NCT07230288
+title: A Study of ABBV-142 in Participants With Advanced Solid Tumors
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-142]
+indications: []
+enrollment: 165
+primary_endpoint: To evaluate the safety and efficacy of ABBV-142 in participants with advanced solid tumors.
+primary_completion_date: 2029-09
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of ABBV-142 in Participants With Advanced Solid Tumors
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the safety and efficacy of ABBV-142 in participants with advanced solid tumors.
+
+### Primary endpoint
+To evaluate the safety and efficacy of ABBV-142 in participants with advanced solid tumors.
+
+### Results summary
+
+### NCT07284381: A Study to Evaluate the Efficacy and Safety of ABBV-444 in Participants With Dry Eye Disease
+
+---
+trial_id: NCT07284381
+title: A Study to Evaluate the Efficacy and Safety of ABBV-444 in Participants With Dry Eye Disease
+phase: 3
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Abbv-444, Refresh optive ud]
+indications: []
+enrollment: 250
+primary_endpoint: To evaluate the efficacy and safety of ABBV-444 in participants with dry eye disease.
+primary_completion_date: 2026-11
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-444 in Participants With Dry Eye Disease
+
+**Phase:** 3 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-444 in participants with dry eye disease, with Refresh optive ud as a comparator or concomitant treatment.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-444 in participants with dry eye disease.
+
+### Results summary
+
+### NCT07387471: A Study of Venetoclax in Combination With Pomalidomide and Dexamethasone in Participants With Relapsed or Refractory Multiple Myeloma
+
+---
+trial_id: NCT07387471
+title: A Study of Venetoclax in Combination With Pomalidomide and Dexamethasone in Participants With Relapsed or Refractory Multiple Myeloma
+phase: 2
+status: recruiting
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Venetoclax, Pomalidomide, Dexamethasone]
+indications: []
+enrollment: 14
+primary_endpoint: To evaluate the efficacy and safety of venetoclax in combination with pomalidomide and dexamethasone in participants with relapsed or refractory multiple myeloma.
+primary_completion_date: 2028-07
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Venetoclax in Combination With Pomalidomide and Dexamethasone in Participants With Relapsed or Refractory Multiple Myeloma
+
+**Phase:** 2 | **Status:** recruiting | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Venetoclax in combination with Pomalidomide and Dexamethasone in participants with relapsed or refractory multiple myeloma.
+
+### Primary endpoint
+To evaluate the efficacy and safety of venetoclax in combination with pomalidomide and dexamethasone in participants with relapsed or refractory multiple myeloma.
+
+### Results summary
 
 ## Active Trials
 
-### NCT02899052 - A Study of Venetoclax in Combination With Carfilzomib-Dexamethasone (Kd) in Participants With Relapsed or Refractory Multiple Myeloma
+### NCT02899052: A Study of Venetoclax in Combination With Carfilzomib-Dexamethasone (Kd) in Participants With Relapsed or Refractory Multiple Myeloma
+
 ---
 trial_id: NCT02899052
 title: A Study of Venetoclax in Combination With Carfilzomib-Dexamethasone (Kd) in Participants With Relapsed or Refractory Multiple Myeloma
@@ -30,63 +1156,30 @@ phase: 2
 status: active
 primary_sponsor: abbvie
 co_sponsors: []
-drugs: []
+drugs: [Venetoclax, Carfilzomib, Dexamethasone]
 indications: []
-enrollment: 120
-primary_endpoint: Adverse events, Very Good Partial Response (VGPR) or Better Response Rate, Objective Response Rate (ORR), and Complete Response (CR) or Better Rate.
-primary_completion_date:
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Venetoclax in combination with Carfilzomib-Dexamethasone (Kd) in participants with relapsed or refractory multiple myeloma.
+primary_completion_date: ""
 has_results: false
 primary_result_value: ""
-last_updated: 2026-04-07
+last_updated: 2026-05-01
 ---
+
+## A Study of Venetoclax in Combination With Carfilzomib-Dexamethasone (Kd) in Participants With Relapsed or Refractory Multiple Myeloma
 
 **Phase:** 2 | **Status:** active | **Sponsor:** [[abbvie]]
 
 ### Design
-This Phase 2, open-label, dose escalation trial evaluates venetoclax in combination with carfilzomib-dexamethasone (Kd) in participants with relapsed or refractory Multiple Myeloma who have received 1 to 3 prior lines of therapy. The study is currently 'ACTIVE_NOT_RECRUITING' and has an estimated enrollment of 120 participants.
+This study investigates the efficacy and safety of Venetoclax in combination with Carfilzomib-Dexamethasone (Kd) for participants with relapsed or refractory multiple myeloma.
 
 ### Primary endpoint
-Adverse events, Very Good Partial Response (VGPR) or Better Response Rate, Objective Response Rate (ORR), and Complete Response (CR) or Better Rate.
+To evaluate the efficacy and safety of Venetoclax in combination with Carfilzomib-Dexamethasone (Kd) in participants with relapsed or refractory multiple myeloma.
 
 ### Results summary
 
+### NCT02966756: A Study to Evaluate the Efficacy and Safety of Venetoclax in Participants With Relapsed or Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma
 
-### Sources
-- `raw/ctgov/abbvie/2026-04-07/NCT02899052.json`
-
-### NCT03006068 - A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ulcerative Colitis
----
-trial_id: NCT03006068
-title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ulcerative Colitis
-phase: 3
-status: active
-primary_sponsor: abbvie
-co_sponsors: []
-drugs: [upadacitinib]
-indications: []
-enrollment: 950
-primary_endpoint: Assessing Treatment-Emergent Adverse Events (Up to 288 Weeks)
-primary_completion_date:
-has_results: false
-primary_result_value: ""
-last_updated: 2026-04-06
----
-
-**Phase:** 3 | **Status:** active | **Sponsor:** [[abbvie]]
-
-### Design
-This Phase 3 study is evaluating the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active Ulcerative Colitis. The study is currently active, not recruiting, and has an estimated enrollment of 950 participants.
-
-### Primary endpoint
-Assessing Treatment-Emergent Adverse Events (Up to 288 Weeks)
-
-### Results summary
-
-
-### Sources
-- `raw/ctgov/abbvie/2026-04-06/NCT03006068.json`
-
-### NCT02966756 - A Study to Evaluate the Efficacy and Safety of Venetoclax in Participants With Relapsed or Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma
 ---
 trial_id: NCT02966756
 title: A Study to Evaluate the Efficacy and Safety of Venetoclax in Participants With Relapsed or Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma
@@ -94,248 +1187,497 @@ phase: 2
 status: active
 primary_sponsor: abbvie
 co_sponsors: []
-drugs: []
+drugs: [Venetoclax]
 indications: []
-enrollment: 110
-primary_endpoint: Overall Response Rate (ORR)
-primary_completion_date:
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Venetoclax in participants with relapsed or refractory chronic lymphocytic leukemia or small lymphocytic lymphoma.
+primary_completion_date: ""
 has_results: false
 primary_result_value: ""
-last_updated: 2026-04-06
+last_updated: 2026-05-01
 ---
+
+## A Study to Evaluate the Efficacy and Safety of Venetoclax in Participants With Relapsed or Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma
 
 **Phase:** 2 | **Status:** active | **Sponsor:** [[abbvie]]
 
 ### Design
-This is a Phase 2, open-label, multicenter study evaluating Venetoclax in participants with relapsed or refractory Chronic Lymphocytic Leukemia (CLL) or Small Lymphocytic Lymphoma (SLL). Participants are divided into two cohorts: those with 17p deletion or those who failed BCRI therapy and chemoimmunotherapy. The estimated enrollment count is 110 participants.
+This study evaluates the efficacy and safety of Venetoclax in participants diagnosed with relapsed or refractory chronic lymphocytic leukemia or small lymphocytic lymphoma.
 
 ### Primary endpoint
-Overall Response Rate (ORR)
+To evaluate the efficacy and safety of Venetoclax in participants with relapsed or refractory chronic lymphocytic leukemia or small lymphocytic lymphoma.
 
 ### Results summary
 
-### Clinical evidence
-- Study design: None
-- Sample size: 110 participants
-- Comparator: None
-- Primary outcome: Overall Response Rate (ORR)
-- Primary result: None
-- Secondary results: []
-- Safety: None
-- Conclusions: None
-- Journal: None, None
-- Industry sponsored: True
+### NCT03006068: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ulcerative Colitis
 
-### Sources
-- `raw/ctgov/abbvie/2026-04-06/NCT02966756.json`
+---
+trial_id: NCT03006068
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ulcerative Colitis
+phase: 3
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active ulcerative colitis.
+primary_completion_date: ""
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ulcerative Colitis
+
+**Phase:** 3 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active ulcerative colitis.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active ulcerative colitis.
+
+### Results summary
+
+### NCT03105102: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Crohn's Disease
+
+---
+trial_id: NCT03105102
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Crohn's Disease
+phase: 3
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active Crohn's disease.
+primary_completion_date: 2026-05
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Crohn's Disease
+
+**Phase:** 3 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active Crohn's disease.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active Crohn's disease.
+
+### Results summary
+
+### NCT03314181: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+---
+trial_id: NCT03314181
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+phase: 2
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+primary_completion_date: 2031-05
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+**Phase:** 2 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Results summary
+
+### NCT03345823: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+---
+trial_id: NCT03345823
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+phase: 3
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 747
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+primary_completion_date: 2027-09
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+**Phase:** 3 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Results summary
+
+### NCT03398135: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+---
+trial_id: NCT03398135
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+phase: 3
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+primary_completion_date: 2028-09
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+**Phase:** 3 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Results summary
+
+### NCT03539744: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Rheumatoid Arthritis Who Have Had an Inadequate Response to Conventional Synthetic Disease Modifying Anti-Rheumatic Drugs
+
+---
+trial_id: NCT03539744
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Rheumatoid Arthritis Who Have Had an Inadequate Response to Conventional Synthetic Disease Modifying Anti-Rheumatic Drugs
+phase: 3
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active rheumatoid arthritis.
+primary_completion_date: 2026-08
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Rheumatoid Arthritis Who Have Had an Inadequate Response to Conventional Synthetic Disease Modifying Anti-Rheumatic Drugs
+
+**Phase:** 3 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active rheumatoid arthritis who have had an inadequate response to conventional synthetic disease modifying anti-rheumatic drugs.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active rheumatoid arthritis.
+
+### Results summary
+
+### NCT03844048: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+---
+trial_id: NCT03844048
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+phase: 3
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+primary_completion_date: 2027-08
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+**Phase:** 3 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Results summary
+
+### NCT03891446: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Heart Failure With Preserved Ejection Fraction (HFpEF)
+
+---
+trial_id: NCT03891446
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Heart Failure With Preserved Ejection Fraction (HFpEF)
+phase: 3
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: [hf-htn]
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with heart failure with preserved ejection fraction (HFpEF).
+primary_completion_date: 2026-07
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Heart Failure With Preserved Ejection Fraction (HFpEF)
+
+**Phase:** 3 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with heart failure with preserved ejection fraction (HFpEF).
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with heart failure with preserved ejection fraction (HFpEF).
+
+### Results summary
+
+### NCT03933735: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT03933735
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 1/2
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2026-05
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 1/2 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### NCT04086264: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT04086264
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 1/2
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2027-02
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 1/2 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### NCT04161898: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT04161898
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 3
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2028-08
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 3 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### NCT04333576: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT04333576
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 3
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2029-03
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 3 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### NCT04524611: A Study of Risankizumab in Participants With Moderately to Severely Active Crohn's Disease
+
+---
+trial_id: NCT04524611
+title: A Study of Risankizumab in Participants With Moderately to Severely Active Crohn's Disease
+phase: 3
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Risankizumab]
+indications: []
+enrollment: 527
+primary_endpoint: To evaluate the efficacy and safety of risankizumab in participants with moderately to severely active Crohn's disease.
+primary_completion_date: 2028-02
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Risankizumab in Participants With Moderately to Severely Active Crohn's Disease
+
+**Phase:** 3 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Risankizumab in participants with moderately to severely active Crohn's disease.
+
+### Primary endpoint
+To evaluate the efficacy and safety of risankizumab in participants with moderately to severely active Crohn's disease.
+
+### Results summary
+
+### NCT04704921: A Study to Evaluate the Efficacy and Safety of ABBV-RGX-314 in Participants With Neovascular Age-Related Macular Degeneration (nAMD)
+
+---
+trial_id: NCT04704921
+title: A Study to Evaluate the Efficacy and Safety of ABBV-RGX-314 in Participants With Neovascular Age-Related Macular Degeneration (nAMD)
+phase: 2/3
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Abbv-rgx-314, Ranibizumab]
+indications: []
+enrollment: 671
+primary_endpoint: To evaluate the efficacy and safety of ABBV-RGX-314 in participants with neovascular age-related macular degeneration (nAMD).
+primary_completion_date: 2026-12
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-RGX-314 in Participants With Neovascular Age-Related Macular Degeneration (nAMD)
+
+**Phase:** 2/3 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-RGX-314 in participants with neovascular age-related macular degeneration (nAMD), with Ranibizumab (Lucentis®) as a comparator.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-RGX-314 in participants with neovascular age-related macular degeneration (nAMD).
+
+### Results summary
+
+### NCT05843643: A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease
+
+---
+trial_id: NCT05843643
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease
+phase: 3
+status: active
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 1014
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active Crohn's disease.
+primary_completion_date: 2027-03
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib in Participants With Moderately to Severely Active Crohn's Disease
+
+**Phase:** 3 | **Status:** active | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib in participants with moderately to severely active Crohn's disease.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib in participants with moderately to severely active Crohn's disease.
+
+### Results summary
 
 ## Completed Trials
 
-### NCT02632175 - A Long-Term Safety and Efficacy Study of Adalimumab in Pediatric Subjects With Ulcerative Colitis
----
-trial_id: NCT02632175
-title: A Long-Term Safety and Efficacy Study of Adalimumab in Pediatric Subjects With Ulcerative Colitis
-phase: 3
-status: completed
-primary_sponsor: abbvie
-co_sponsors: []
-drugs: []
-indications: []
-enrollment: 59
-primary_endpoint: Number of Participants With Adverse Events (AEs) | Proportion of Participants Who Achieve Clinical Remission as Measured by Partial Mayo Score (PMS) | Proportion of Participants Who Achieve Clinical Response as Measured by PMS (From Study M11-290 Baseline) | Proportion of Participants Who Achieve Pediatric Ulcerative Colitis Activity Index (PUCAI) Remission | Proportion of Participants Who Achieve PUCAI Response (From Study M11-290 Baseline)
-primary_completion_date:
-has_results: false
-primary_result_value: ""
-last_updated: 2026-04-07
----
+### NCT02556736: A Phase I/II, Open-Label, Multiple-Dose, Dose-Escalation Study to Evaluate the Safety and Tolerability of AGN-151597 (Formerly RST-001) in Patients With Advanced Retinitis Pigmentosa
 
-**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
-
-### Design
-This was a long-term safety and efficacy study of Adalimumab in 59 pediatric subjects with ulcerative colitis. There was no comparator.
-
-### Primary endpoint
-Number of Participants With Adverse Events (AEs) | Proportion of Participants Who Achieve Clinical Remission as Measured by Partial Mayo Score (PMS) | Proportion of Participants Who Achieve Clinical Response as Measured by PMS (From Study M11-290 Baseline) | Proportion of Participants Who Achieve Pediatric Ulcerative Colitis Activity Index (PUCAI) Remission | Proportion of Participants Who Achieve PUCAI Response (From Study M11-290 Baseline)
-
-### Results summary
-
-### Clinical evidence
-- Study design: None
-- Sample size: 59 participants
-- Comparator: None
-- Primary outcome: Number of Participants With Adverse Events (AEs) | Proportion of Participants Who Achieve Clinical Remission as Measured by Partial Mayo Score (PMS) | Proportion of Participants Who Achieve Clinical Response as Measured by PMS (From Study M11-290 Baseline) | Proportion of Participants Who Achieve Pediatric Ulcerative Colitis Activity Index (PUCAI) Remission | Proportion of Participants Who Achieve PUCAI Response (From Study M11-290 Baseline)
-- Primary result: None
-- Secondary results: []
-- Safety: None
-- Conclusions: None
-- Journal: None, None
-- Industry sponsored: True
-
-### Sources
-- `raw/ctgov/abbvie/2026-04-07/NCT02632175.json`
-
-### NCT02782663 - A Study to Evaluate the Long-Term Efficacy, Safety, and Tolerability of Upadacitinib (ABT-494) in Participants With Crohn's Disease
----
-trial_id: NCT02782663
-title: A Study to Evaluate the Long-Term Efficacy, Safety, and Tolerability of Upadacitinib (ABT-494) in Participants With Crohn's Disease
-phase: 3
-status: completed
-primary_sponsor: abbvie
-co_sponsors: []
-drugs: []
-indications: []
-enrollment: 107
-primary_endpoint: Percentage of Participants Achieving Remission | Percentage of Participants in Remission at Week 0 Who Maintain Remission | Percentage of Participants Achieving Response | Percentage of Participants Achieving Clinical Remission | Percentage of Participants Achieving Modified Clinical Remission | Percentage of Participants Achieving Enhanced Clinical Response | Percentage of Participants Achieving Clinical Response | Percentage of Participants Achieving Endoscopic Remission | Percentage of Participants in Endoscopic Remission at Week 0 Who Maintain Endoscopic Remission | Percentage of Participants Achieving Endoscopic Improvement | Percentage of Participants Achieving Endoscopic Response | Percentage of Participants Achieving Crohn's Disease Activity Index (CDAI) Remission | Percentage of Participants Achieving Crohn's Disease Activity Index (CDAI) Response | Percentage of Participants Achieving Enhanced CDAI Response | Percentage of Participants Achieving Inflammatory Bowel Disease Questionnaire (IBDQ) Remission | Percentage of Participants Achieving IBDQ Response | Percentage of Participants Taking Steroids at Baseline (of Study M13-740) Who Are Steroid-Free | Percentage of Participants Taking Steroids at Baseline (of Study M13-740) Who Are Steroid-Free for At Least 90 Days and Achieve Remission | Percentage of Participants Achieving Remission and Normal C-Reactive Protein
-primary_completion_date: 2025-07-18
-has_results: false
-primary_result_value: ""
-last_updated: 2026-04-07
----
-
-**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
-
-### Design
-This was an open-label extension study evaluating the long-term efficacy, safety, and tolerability of Upadacitinib (ABT-494) in 107 participants with Crohn's Disease. There was no comparator.
-
-### Primary endpoint
-Percentage of Participants Achieving Remission | Percentage of Participants in Remission at Week 0 Who Maintain Remission | Percentage of Participants Achieving Response | Percentage of Participants Achieving Clinical Remission | Percentage of Participants Achieving Modified Clinical Remission | Percentage of Participants Achieving Enhanced Clinical Response | Percentage of Participants Achieving Clinical Response | Percentage of Participants Achieving Endoscopic Remission | Percentage of Participants in Endoscopic Remission at Week 0 Who Maintain Endoscopic Remission | Percentage of Participants Achieving Endoscopic Improvement | Percentage of Participants Achieving Endoscopic Response | Percentage of Participants Achieving Crohn's Disease Activity Index (CDAI) Remission | Percentage of Participants Achieving Crohn's Disease Activity Index (CDAI) Response | Percentage of Participants Achieving Enhanced CDAI Response | Percentage of Participants Achieving Inflammatory Bowel Disease Questionnaire (IBDQ) Remission | Percentage of Participants Achieving IBDQ Response | Percentage of Participants Taking Steroids at Baseline (of Study M13-740) Who Are Steroid-Free | Percentage of Participants Taking Steroids at Baseline (of Study M13-740) Who Are Steroid-Free for At Least 90 Days and Achieve Remission | Percentage of Participants Achieving Remission and Normal C-Reactive Protein
-
-### Results summary
-
-
-### Clinical evidence
-- Study design: open-label extension
-- Sample size: 107 participants
-- Comparator: None
-- Primary outcome: Percentage of Participants Achieving Remission | Percentage of Participants in Remission at Week 0 Who Maintain Remission | Percentage of Participants Achieving Response | Percentage of Participants Achieving Clinical Remission | Percentage of Participants Achieving Modified Clinical Remission | Percentage of Participants Achieving Enhanced Clinical Response | Percentage of Participants Achieving Clinical Response | Percentage of Participants Achieving Endoscopic Remission | Percentage of Participants in Endoscopic Remission at Week 0 Who Maintain Endoscopic Remission | Percentage of Participants Achieving Endoscopic Improvement | Percentage of Participants Achieving Endoscopic Response | Percentage of Participants Achieving Crohn's Disease Activity Index (CDAI) Remission | Percentage of Participants Achieving Crohn's Disease Activity Index (CDAI) Response | Percentage of Participants Achieving Enhanced CDAI Response | Percentage of Participants Achieving Inflammatory Bowel Disease Questionnaire (IBDQ) Remission | Percentage of Participants Achieving IBDQ Response | Percentage of Participants Taking Steroids at Baseline (of Study M13-740) Who Are Steroid-Free | Percentage of Participants Taking Steroids at Baseline (of Study M13-740) Who Are Steroid-Free for At Least 90 Days and Achieve Remission | Percentage of Participants Achieving Remission and Normal C-Reactive Protein
-- Primary result: None
-- Secondary results: []
-- Safety: None
-- Conclusions: None
-- Journal: None, None
-- Industry sponsored: True
-
-### Sources
-- `raw/ctgov/abbvie/2026-04-07/NCT02782663.json`
-
-### NCT03069352 - A Study of Venetoclax in Combination With Low Dose Cytarabine Versus Low Dose Cytarabine Alone in Treatment-Naive Patients With Acute Myeloid Leukemia Ineligible for Intensive Chemotherapy
----
-trial_id: NCT03069352
-title: A Study of Venetoclax in Combination With Low Dose Cytarabine Versus Low Dose Cytarabine Alone in Treatment-Naive Patients With Acute Myeloid Leukemia Ineligible for Intensive Chemotherapy
-phase: 3
-status: completed
-primary_sponsor: abbvie
-co_sponsors: []
-drugs: []
-indications: []
-enrollment: 211
-primary_endpoint: Overall Survival (OS)
-primary_completion_date:
-has_results: true
-primary_result_value: ""
-last_updated: 2026-04-06
----
-**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
-
-#### Design
-This Phase 3, INTERVENTIONAL trial investigated Venetoclax in combination with Low Dose Cytarabine versus Low Dose Cytarabine alone. It targeted treatment-naive patients with Acute Myeloid Leukemia (AML) who are ineligible for intensive chemotherapy. The primary objective was to evaluate if venetoclax with LDAC improves overall survival (OS) versus LDAC and placebo.
-
-#### Primary endpoint
-Overall Survival (OS)
-
-#### Results summary
-None
-
-#### Clinical evidence
-- Study design: RCT
-- Sample size: 211 patients
-- Comparator: Low Dose Cytarabine alone
-- Primary outcome: Overall Survival (OS)
-- Primary result: None
-- Secondary results: []
-- Safety: None
-- Conclusions: None
-- Journal: None, None
-- Industry sponsored: True
-
-#### Sources
-- `raw/ctgov/abbvie/2026-04-06/NCT03069352.json`
-
-### NCT03104374 - A Study Comparing Upadacitinib (ABT-494) to Placebo in Participants With Active Psoriatic Arthritis
----
-trial_id: NCT03104374
-title: A Study Comparing Upadacitinib (ABT-494) to Placebo in Participants With Active Psoriatic Arthritis
-phase: 3
-status: completed
-primary_sponsor: abbvie
-co_sponsors: []
-drugs: []
-indications: []
-enrollment: 642
-primary_endpoint: Percentage of Participants With an American College of Rheumatology 20% (ACR20) Response at Week 12.
-primary_completion_date: 2019-07-01
-has_results: false
-primary_result_value: ""
-last_updated: 2026-04-06
----
-**Phase:** 3 | **Status:** Completed | **Sponsor:** [[abbvie]]
-
-#### Design
-This was a Phase 3 Randomized Controlled Trial (RCT) involving 642 participants with active Psoriatic Arthritis. The study compared upadacitinib (ABT-494) against placebo.
-
-#### Primary endpoint
-Percentage of Participants With an American College of Rheumatology 20% (ACR20) Response at Week 12.
-
-#### Results summary
-
-
-#### Sources
-- `raw/ctgov/abbvie/2026-04-06/NCT03104374.json`
-
-### NCT02993523 - A Study of Venetoclax in Combination With Azacitidine Versus Azacitidine in Participants With Treatment-Naive Acute Myeloid Leukemia Ineligible for Standard Induction Therapy
----
-trial_id: NCT02993523
-title: A Study of Venetoclax in Combination With Azacitidine Versus Azacitidine in Participants With Treatment-Naive Acute Myeloid Leukemia Ineligible for Standard Induction Therapy
-phase: 3
-status: completed
-primary_sponsor: abbvie
-co_sponsors: []
-drugs: []
-indications: []
-enrollment: 443
-primary_endpoint: Overall Survival (OS) | Percentage of Participants With Complete Remission (CR) and Complete Remission With Incomplete Marrow Recovery (CRi).
-primary_completion_date: 2021-12-01
-has_results: true
-primary_result_value: ""
-last_updated: 2026-04-06
----
-**Phase:** 3 | **Status:** Completed | **Sponsor:** [[abbvie]]
-
-#### Design
-This was a Phase 3, randomized, double-blind, placebo-controlled study comparing venetoclax + azacitidine vs. azacitidine + placebo. It targeted treatment-naive Acute Myeloid Leukemia (AML) participants aged 18 or older who were ineligible for standard induction therapy. The study enrolled 443 participants globally across approximately 180 hospitals. Genentech, Inc. was a collaborator.
-
-#### Primary endpoint
-Overall Survival (OS) | Percentage of Participants With Complete Remission (CR) and Complete Remission With Incomplete Marrow Recovery (CRi).
-
-#### Results summary
-None
-
-#### Clinical evidence
-- Study design: RCT
-- Sample size: 443 participants
-- Comparator: azacitidine
-- Primary outcome: Overall Survival (OS) | Percentage of Participants With Complete Remission (CR) and Complete Remission With Incomplete Marrow Recovery (CRi)
-- Primary result: None
-- Secondary results: None
-- Safety: None
-- Conclusions: None
-- Journal: None, None
-- Industry sponsored: True
-
-#### Sources
-- `raw/ctgov/abbvie/2026-04-06/NCT02993523.json`
-
-### NCT02556736 - A Phase I/II, Open-Label, Multiple-Dose, Dose-Escalation Study to Evaluate the Safety and Tolerability of AGN-151597 (Formerly RST-001) in Patients With Advanced Retinitis Pigmentosa
 ---
 trial_id: NCT02556736
 title: A Phase I/II, Open-Label, Multiple-Dose, Dose-Escalation Study to Evaluate the Safety and Tolerability of AGN-151597 (Formerly RST-001) in Patients With Advanced Retinitis Pigmentosa
@@ -343,43 +1685,30 @@ phase: 1/2
 status: completed
 primary_sponsor: abbvie
 co_sponsors: []
-drugs: []
+drugs: [AGN-151597]
 indications: []
-enrollment: 14
-primary_endpoint: Number of Participants With Any Grade 3 or Greater Adverse Event (AE) Considered Related to AGN-151597 | Visual Acuity in the Study Eye at Baseline and Month 6 | Change From Baseline at Month 6 in Full Field Sensitivity in the Study Eye - Blue Light Threshold | Change From Baseline at Month 6 in Full Field Sensitivity in the Study Eye - Red Light Threshold | Change From Baseline at Month 6 in Full Field Sensitivity in the Study Eye - White Light Threshold | Change From Baseline at Month 6 in Ambulation in the Study Eye (Time) | Change From Baseline at Month 6 in Ambulation in the Study Eye (Distance) | Intraocular Pressure (IOP) Measurements in the Study Eye | Anatomical Parameters as Measured in the Study Eye by Color Fundus Photography and Autofluorescence | Change From Baseline at Month 6 in the Anatomical Parameters in the Study Eye as Measured by Spectral Domain-Optical Coherence Tomography (SD-OCT) - Total Retinal Nerve Fibre Layer Volume | Change From Baseline at Month 6 in the Anatomical Parameters in the Study Eye as Measured by Spectral Domain-Optical Coherence Tomography (SD-OCT) - Total Ganglion Cell and Inner Plexiform Layer Volume | Change From Baseline at Month 6 in the Anatomical Parameters in the Study Eye as Measured by Spectral Domain-Optical Coherence Tomography (SD-OCT) - Total Retinal Volume | Change From Baseline at Month 6 in the Anatomical Parameters in the Study Eye as Measured by Spectral Domain-Optical Coherence Tomography (SD-OCT) - Total Retinal Thickness
+enrollment: 0
+primary_endpoint: To evaluate the safety and tolerability of AGN-151597 (Formerly RST-001) in patients with advanced retinitis pigmentosa.
 primary_completion_date: 2020-06-01
 has_results: true
-primary_result_value: "efficacy was not demonstrated"
-last_updated: 2026-04-07
+primary_result_value: ""
+last_updated: 2026-05-01
 ---
+
+## A Phase I/II, Open-Label, Multiple-Dose, Dose-Escalation Study to Evaluate the Safety and Tolerability of AGN-151597 (Formerly RST-001) in Patients With Advanced Retinitis Pigmentosa
 
 **Phase:** 1/2 | **Status:** completed | **Sponsor:** [[abbvie]]
 
 ### Design
-This was a Phase I/II, open-label, multiple-dose, dose-escalation study to evaluate the safety and tolerability of AGN-151597 (formerly RST-001) in 14 patients with advanced Retinitis Pigmentosa.
+This is a Phase I/II, open-label, multiple-dose, dose-escalation study to evaluate the safety and tolerability of AGN-151597 (Formerly RST-001) in patients with advanced retinitis pigmentosa.
 
 ### Primary endpoint
-Number of Participants With Any Grade 3 or Greater Adverse Event (AE) Considered Related to AGN-151597 | Visual Acuity in the Study Eye at Baseline and Month 6 | Change From Baseline at Month 6 in Full Field Sensitivity in the Study Eye - Blue Light Threshold | Change From Baseline at Month 6 in Full Field Sensitivity in the Study Eye - Red Light Threshold | Change From Baseline at Month 6 in Full Field Sensitivity in the Study Eye - White Light Threshold | Change From Baseline at Month 6 in Ambulation in the Study Eye (Time) | Change From Baseline at Month 6 in Ambulation in the Study Eye (Distance) | Intraocular Pressure (IOP) Measurements in the Study Eye | Anatomical Parameters as Measured in the Study Eye by Color Fundus Photography and Autofluorescence | Change From Baseline at Month 6 in the Anatomical Parameters in the Study Eye as Measured by Spectral Domain-Optical Coherence Tomography (SD-OCT) - Total Retinal Nerve Fibre Layer Volume | Change From Baseline at Month 6 in the Anatomical Parameters in the Study Eye as Measured by Spectral Domain-Optical Coherence Tomography (SD-OCT) - Total Ganglion Cell and Inner Plexiform Layer Volume | Change From Baseline at Month 6 in the Anatomical Parameters in the Study Eye as Measured by Spectral Domain-Optical Coherence Tomography (SD-OCT) - Total Retinal Volume | Change From Baseline at Month 6 in the Anatomical Parameters in the Study Eye as Measured by Spectral Domain-Optical Coherence Tomography (SD-OCT) - Total Retinal Thickness
+To evaluate the safety and tolerability of AGN-151597 (Formerly RST-001) in patients with advanced retinitis pigmentosa.
 
 ### Results summary
-Efficacy was not demonstrated.
 
-### Clinical evidence
-- Study design: None
-- Sample size: 14 participants
-- Comparator: None
-- Primary outcome: Number of Participants With Any Grade 3 or Greater Adverse Event (AE) Considered Related to AGN-151597 | Visual Acuity in the Study Eye at Baseline and Month 6 | Change From Baseline at Month 6 in Full Field Sensitivity in the Study Eye - Blue Light Threshold | Change From Baseline at Month 6 in Full Field Sensitivity in the Study Eye - Red Light Threshold | Change From Baseline at Month 6 in Full Field Sensitivity in the Study Eye - White Light Threshold | Change From Baseline at Month 6 in Ambulation in the Study Eye (Time) | Change From Baseline at Month 6 in Ambulation in the Study Eye (Distance) | Intraocular Pressure (IOP) Measurements in the Study Eye | Anatomical Parameters as Measured in the Study Eye by Color Fundus Photography and Autofluorescence | Change From Baseline at Month 6 in the Anatomical Parameters in the Study Eye as Measured by Spectral Domain-Optical Coherence Tomography (SD-OCT) - Total Retinal Nerve Fibre Layer Volume | Change From Baseline at Month 6 in the Anatomical Parameters in the Study Eye as Measured by Spectral Domain-Optical Coherence Tomography (SD-OCT) - Total Ganglion Cell and Inner Plexiform Layer Volume | Change From Baseline at Month 6 in the Anatomical Parameters in the Study Eye as Measured by Spectral Domain-Optical Coherence Tomography (SD-OCT) - Total Retinal Volume | Change From Baseline at Month 6 in the Anatomical Parameters in the Study Eye as Measured by Spectral Domain-Optical Coherence Tomography (SD-OCT) - Total Retinal Thickness
-- Primary result: efficacy was not demonstrated
-- Secondary results: []
-- Safety: None
-- Conclusions: All participants in phase 1 and phase 2a had hand motion visual acuity or worse. If efficacy was demonstrated from phase 1, better vision could be enrolled; however, efficacy was not demonstrated.
-- Journal: None, None
-- Industry sponsored: True
+### NCT02629159: A Study Comparing Upadacitinib (ABT-494) to Placebo and Adalimumab in Participants With Rheumatoid Arthritis Who Are on a Stable Dose of Methotrexate and Have an Inadequate Response to Methotrexate
 
-### Sources
-- `raw/ctgov/abbvie/2026-04-07/NCT02556736.json`
-
-### NCT02629159 - A Study Comparing Upadacitinib (ABT-494) to Placebo and Adalimumab in Participants With Rheumatoid Arthritis Who Are on a Stable Dose of Methotrexate and Have an Inadequate Response to Methotrexate
 ---
 trial_id: NCT02629159
 title: A Study Comparing Upadacitinib (ABT-494) to Placebo and Adalimumab in Participants With Rheumatoid Arthritis Who Are on a Stable Dose of Methotrexate and Have an Inadequate Response to Methotrexate
@@ -387,41 +1716,882 @@ phase: 3
 status: completed
 primary_sponsor: abbvie
 co_sponsors: []
-drugs: [upadacitinib]
+drugs: [Upadacitinib, Adalimumab]
 indications: []
-enrollment: 1629
-primary_endpoint: Percentage of Participants With an American College of Rheumatology 20% (ACR20) Response at Week 12 | Percentage of Participants Achieving Clinical Remission (CR) Based on DAS28(CRP) at Week 12
+enrollment: 0
+primary_endpoint: To compare Upadacitinib (ABT-494) to placebo and adalimumab in participants with rheumatoid arthritis.
 primary_completion_date: 2017-10-27
 has_results: true
 primary_result_value: ""
-last_updated: 2026-04-07
+last_updated: 2026-05-01
 ---
+
+## A Study Comparing Upadacitinib (ABT-494) to Placebo and Adalimumab in Participants With Rheumatoid Arthritis Who Are on a Stable Dose of Methotrexate and Have an Inadequate Response to Methotrexate
 
 **Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
 
 ### Design
-This Phase 3, randomized, double-blind, active comparator and placebo-controlled study involved 1629 participants with Rheumatoid Arthritis who had an inadequate response to methotrexate. It compared upadacitinib (ABT-494) to placebo and Adalimumab.
+This study compares Upadacitinib (ABT-494) to placebo and adalimumab in participants with rheumatoid arthritis who are on a stable dose of methotrexate and have an inadequate response to methotrexate.
 
 ### Primary endpoint
-Percentage of Participants With an American College of Rheumatology 20% (ACR20) Response at Week 12 | Percentage of Participants Achieving Clinical Remission (CR) Based on DAS28(CRP) at Week 12
+To compare Upadacitinib (ABT-494) to placebo and adalimumab in participants with rheumatoid arthritis.
 
 ### Results summary
 
-### Clinical evidence
-- Study design: RCT
-- Sample size: 1629 participants
-- Comparator: placebo | competitor drug
-- Primary outcome: Percentage of Participants With an American College of Rheumatology 20% (ACR20) Response at Week 12 | Percentage of Participants Achieving Clinical Remission (CR) Based on DAS28(CRP) at Week 12
-- Primary result: None
-- Secondary results: []
-- Safety: None
-- Conclusions: None
-- Journal: None, None
-- Industry sponsored: True
+### NCT02632175: A Long-Term Safety and Efficacy Study of Adalimumab in Pediatric Subjects With Ulcerative Colitis
 
-### Sources
-- `raw/ctgov/abbvie/2026-04-07/NCT02629159.json`
+---
+trial_id: NCT02632175
+title: A Long-Term Safety and Efficacy Study of Adalimumab in Pediatric Subjects With Ulcerative Colitis
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Adalimumab]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the long-term safety and efficacy of Adalimumab in pediatric subjects with ulcerative colitis.
+primary_completion_date: ""
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Long-Term Safety and Efficacy Study of Adalimumab in Pediatric Subjects With Ulcerative Colitis
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the long-term safety and efficacy of Adalimumab in pediatric subjects with ulcerative colitis.
+
+### Primary endpoint
+To evaluate the long-term safety and efficacy of Adalimumab in pediatric subjects with ulcerative colitis.
+
+### Results summary
+
+### NCT02782663: A Study to Evaluate the Long-Term Efficacy and Safety, and Tolerability of Upadacitinib (ABT-494) in Participants With Crohn's Disease
+
+---
+trial_id: NCT02782663
+title: A Study to Evaluate the Long-Term Efficacy and Safety, and Tolerability of Upadacitinib (ABT-494) in Participants With Crohn's Disease
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the long-term efficacy, safety, and tolerability of Upadacitinib (ABT-494) in participants with Crohn's disease.
+primary_completion_date: 2025-07-18
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Long-Term Efficacy and Safety, and Tolerability of Upadacitinib (ABT-494) in Participants With Crohn's Disease
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the long-term efficacy, safety, and tolerability of Upadacitinib (ABT-494) in participants with Crohn's disease.
+
+### Primary endpoint
+To evaluate the long-term efficacy, safety, and tolerability of Upadacitinib (ABT-494) in participants with Crohn's disease.
+
+### Results summary
+
+### NCT02993523: A Study of Venetoclax in Combination With Azacitidine Versus Azacitidine in Participants With Treatment-Naive Acute Myeloid Leukemia Ineligible for Standard Induction Therapy
+
+---
+trial_id: NCT02993523
+title: A Study of Venetoclax in Combination With Azacitidine Versus Azacitidine in Participants With Treatment-Naive Acute Myeloid Leukemia Ineligible for Standard Induction Therapy
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Venetoclax, Azacitidine]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate Venetoclax in combination with Azacitidine versus Azacitidine in participants with treatment-naive acute myeloid leukemia.
+primary_completion_date: 2021-12-01
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Venetoclax in Combination With Azacitidine Versus Azacitidine in Participants With Treatment-Naive Acute Myeloid Leukemia Ineligible for Standard Induction Therapy
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates Venetoclax in combination with Azacitidine versus Azacitidine alone in participants with treatment-naive acute myeloid leukemia who are ineligible for standard induction therapy.
+
+### Primary endpoint
+To evaluate Venetoclax in combination with Azacitidine versus Azacitidine in participants with treatment-naive acute myeloid leukemia.
+
+### Results summary
+
+### NCT03104374: A Study Comparing Upadacitinib (ABT-494) to Placebo in Participants With Active Psoriatic Arthritis
+
+---
+trial_id: NCT03104374
+title: A Study Comparing Upadacitinib (ABT-494) to Placebo in Participants With Active Psoriatic Arthritis
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To compare Upadacitinib (ABT-494) to placebo in participants with active psoriatic arthritis.
+primary_completion_date: 2019-07-01
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study Comparing Upadacitinib (ABT-494) to Placebo in Participants With Active Psoriatic Arthritis
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study compares Upadacitinib (ABT-494) to placebo in participants with active psoriatic arthritis.
+
+### Primary endpoint
+To compare Upadacitinib (ABT-494) to placebo in participants with active psoriatic arthritis.
+
+### Results summary
+
+### NCT03104400: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Rheumatoid Arthritis Who Have Had an Inadequate Response to Biologic Disease Modifying Anti-Rheumatic Drugs
+
+---
+trial_id: NCT03104400
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Rheumatoid Arthritis Who Have Had an Inadequate Response to Biologic Disease Modifying Anti-Rheumatic Drugs
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active rheumatoid arthritis.
+primary_completion_date: 2019-09-26
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Rheumatoid Arthritis Who Have Had an Inadequate Response to Biologic Disease Modifying Anti-Rheumatic Drugs
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active rheumatoid arthritis who have had an inadequate response to biologic disease modifying anti-rheumatic drugs.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active rheumatoid arthritis.
+
+### Results summary
+
+### NCT03222609: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ankylosing Spondylitis
+
+---
+trial_id: NCT03222609
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ankylosing Spondylitis
+phase: 2
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active ankylosing spondylitis.
+primary_completion_date: 2022-03-28
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Ankylosing Spondylitis
+
+**Phase:** 2 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active ankylosing spondylitis.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active ankylosing spondylitis.
+
+### Results summary
+
+### NCT03271489: AbbVie Clinical Trial NCT03271489
+
+---
+trial_id: NCT03271489
+title: AbbVie Clinical Trial NCT03271489
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: []
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety in an unspecified clinical condition.
+primary_completion_date: 2024-06-28
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## AbbVie Clinical Trial NCT03271489
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This is a Phase 3 clinical trial conducted by AbbVie. Specific details about the drug, indication, and comparator are not available from the provided summary.
+
+### Primary endpoint
+To evaluate the efficacy and safety in an unspecified clinical condition.
+
+### Results summary
+
+### NCT03568318: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+---
+trial_id: NCT03568318
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+primary_completion_date: 2021-02-16
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Results summary
+
+### NCT03671148: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+---
+trial_id: NCT03671148
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+primary_completion_date: 2020-06-22
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Results summary
+
+### NCT03675308: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+---
+trial_id: NCT03675308
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+primary_completion_date: 2020-10-08
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Results summary
+
+### NCT03725202: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Crohn's Disease
+
+---
+trial_id: NCT03725202
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Crohn's Disease
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active Crohn's disease.
+primary_completion_date: 2024-02-06
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Crohn's Disease
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active Crohn's disease.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active Crohn's disease.
+
+### Results summary
+
+### NCT03850782: A Study in Heart Failure with Preserved Ejection Fraction (HFpEF)
+
+---
+trial_id: NCT03850782
+title: A Study in Heart Failure with Preserved Ejection Fraction (HFpEF)
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: []
+indications: [hf-htn]
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety in participants with heart failure with preserved ejection fraction (HFpEF).
+primary_completion_date: 2025-08-08
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study in Heart Failure with Preserved Ejection Fraction (HFpEF)
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study investigates a treatment for heart failure with preserved ejection fraction (HFpEF). Specific details about the drug and comparator are not available from the provided summary.
+
+### Primary endpoint
+To evaluate the efficacy and safety in participants with heart failure with preserved ejection fraction (HFpEF).
+
+### Results summary
+
+### NCT04030962: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT04030962
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 1/2
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2022-03-18
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 1/2 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### NCT04102020: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT04102020
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 112
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2022-09-29
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### NCT04166058: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT04166058
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2025-06-05
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### NCT04169373: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+---
+trial_id: NCT04169373
+title: A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Upadacitinib]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+primary_completion_date: 2021-09-02
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of Upadacitinib (ABT-494) in Participants With Moderately to Severely Active Psoriatic Arthritis
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Upadacitinib (ABT-494) in participants with moderately to severely active psoriatic arthritis.
+
+### Results summary
+
+### NCT04201093: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT04201093
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2024-06-28
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### NCT04209855: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT04209855
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2023-04-13
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### NCT04223193: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT04223193
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 3
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2024-10-01
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### NCT04244175: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT04244175
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 2
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2024-05-21
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 2 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### NCT04295538: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT04295538
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 2
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2026-01-26
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 2 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### NCT04309474: AbbVie Clinical Trial NCT04309474
+
+---
+trial_id: NCT04309474
+title: AbbVie Clinical Trial NCT04309474
+phase: 2
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: []
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety in an unspecified clinical condition.
+primary_completion_date: 2024-04-18
+has_results: true
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## AbbVie Clinical Trial NCT04309474
+
+**Phase:** 2 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This is a Phase 2 clinical trial conducted by AbbVie. Specific details about the drug, indication, and comparator are not available from the provided summary.
+
+### Primary endpoint
+To evaluate the efficacy and safety in an unspecified clinical condition.
+
+### Results summary
+
+### NCT06333860: A Study of Risankizumab and Deucravacitinib
+
+---
+trial_id: NCT06333860
+title: A Study of Risankizumab and Deucravacitinib
+phase: 4
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Risankizumab, Deucravacitinib]
+indications: []
+enrollment: 393
+primary_endpoint: To evaluate the efficacy and safety of Risankizumab and Deucravacitinib.
+primary_completion_date: 2026-03-19
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study of Risankizumab and Deucravacitinib
+
+**Phase:** 4 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of Risankizumab and Deucravacitinib.
+
+### Primary endpoint
+To evaluate the efficacy and safety of Risankizumab and Deucravacitinib.
+
+### Results summary
+
+### NCT06346288: A Study to Evaluate the Transfer of Risankizumab Into Breast Milk in Lactating Women With Psoriasis
+
+---
+trial_id: NCT06346288
+title: A Study to Evaluate the Transfer of Risankizumab Into Breast Milk in Lactating Women With Psoriasis
+phase: 4
+status: completed
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [Risankizumab]
+indications: []
+enrollment: 10
+primary_endpoint: Concentration of Risankizumab in breast milk at various time points.
+primary_completion_date: 2026-02-05
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Transfer of Risankizumab Into Breast Milk in Lactating Women With Psoriasis
+
+**Phase:** 4 | **Status:** completed | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the transfer of Risankizumab into breast milk in lactating women with psoriasis.
+
+### Primary endpoint
+Concentration of Risankizumab in breast milk at various time points.
+
+### Results summary
 
 ## Terminated Trials
 
-## Withdrawn Trials
+### NCT04064827: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT04064827
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 3
+status: terminated
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2025-06-09
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 3 | **Status:** terminated | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus. The trial was terminated prematurely.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### NCT04161885: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+---
+trial_id: NCT04161885
+title: A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+phase: 3
+status: terminated
+primary_sponsor: abbvie
+co_sponsors: []
+drugs: [ABBV-157]
+indications: []
+enrollment: 0
+primary_endpoint: To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+primary_completion_date: 2025-09-23
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+## A Study to Evaluate the Efficacy and Safety of ABBV-157 in Participants With Systemic Lupus Erythematosus
+
+**Phase:** 3 | **Status:** terminated | **Sponsor:** [[abbvie]]
+
+### Design
+This study evaluates the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus. The trial was terminated prematurely.
+
+### Primary endpoint
+To evaluate the efficacy and safety of ABBV-157 in participants with systemic lupus erythematosus.
+
+### Results summary
+
+### Sources
+- `raw/ctgov/abbvie/2026-04-07/NCT06972446.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07005102.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07023289.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07023302.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07024784.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07044687.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07059845.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07071519.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07095452.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07145918.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07155174.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07155187.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07160179.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07196644.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07226791.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07230288.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07284381.json`
+- `raw/ctgov/abbvie/2026-04-07/NCT07387471.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT03345823.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT04102020.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT04524611.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT04704921.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT04928846.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT05407636.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT05843643.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06012240.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06241313.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06332534.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06333860.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06346288.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06389136.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06428019.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06461897.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06548542.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06696755.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06810505.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06820463.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06890338.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT06972446.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT07005102.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT07007065.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT07024784.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT07095452.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT07155174.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT07220460.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT07226791.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT07230288.json`
+- `raw/ctgov/abbvie/2026-05-01/NCT07387471.json`

@@ -8,13 +8,16 @@ company_slug: sanofi
 
 | Trial ID | Drug(s) | Indication(s) | Phase | Status | Primary Completion Date |
 |---|---|---|---|---|---|
+| NCT04998604 | dupilumab, omalizumab | | 3 | completed | |
+| NCT03346434 | dupilumab | Dermatitis, Atopic | 3 | completed | 2025-07-01 |
+| NCT03930732 | dupilumab | | 3 | completed | |
 | NCT00532155 | aflibercept, docetaxel | oncology-nsclc | 3 | completed | 2011-10-01 |
-| NCT02991469 | sarilumab | | 2 | recruiting | 2026-04-01 |
-| NCT02065011 | SAR421869 | | 2 | active | |
-| NCT01736592 | SAR422459 | Stargardt's Disease | 1/2 | active | 2033-08-29 |
 | NCT03019406 | avalglucosidase alfa | Pompe Disease | 2 | completed | 2023-08-01 |
 | NCT01496313 | vandetanib | Medullary Thyroid Cancer | 2 | completed | 2014-04-02 |
 | NCT00410761 | Vandetanib | | 3 | completed | 2009-07-31 |
+| NCT02991469 | sarilumab | | 2 | recruiting | 2026-04-01 |
+| NCT02065011 | SAR421869 | | 2 | active | |
+| NCT01736592 | SAR422459 | Stargardt's Disease | 1/2 | active | 2033-08-29 |
 | NCT02855268 | lademirsen | | 2 | terminated | |
 | NCT02859896 | Hectorol | Secondary Hyperparathyroidism-Chronic Kidney Disease | 3 | terminated | |
 
@@ -159,6 +162,144 @@ The incidence of Adverse Events.
 - `raw/ctgov/sanofi/2026-04-07/NCT01736592.json`
 
 ## Completed Trials
+
+### NCT04998604: A Phase 3, Randomized, Double-Blind, Double-Dummy, Active-Controlled Study to Evaluate the Efficacy and Safety of Dupilumab Compared to Omalizumab in Patients With Severe Chronic Rhinosinusitis With Nasal Polyps and Comorbid Asthma
+```yaml
+trial_id: NCT04998604
+title: A Phase 3, Randomized, Double-Blind, Double-Dummy, Active-Controlled Study to Evaluate the Efficacy and Safety of Dupilumab Compared to Omalizumab in Patients With Severe Chronic Rhinosinusitis With Nasal Polyps and Comorbid Asthma
+phase: 3
+status: completed
+primary_sponsor: sanofi
+co_sponsors: [regeneron]
+drugs: [dupilumab, omalizumab]
+indications: []
+enrollment: 360
+primary_endpoint: change from baseline in endoscopic nasal polyp score and University of Pennsylvania Smell Identification Test (UPSIT) at 24 weeks
+primary_completion_date:
+has_results: true
+primary_result_value: "Least squares mean differences in change from baseline dupilumab over omalizumab were: nasal polyp score -1.60 (95% CI -1.96 to -1.25; p<0.0001) and UPSIT 8.0 (6.3 to 9.7; p<0.0001)."
+last_updated: 2026-04-12
+---
+
+## A Phase 3, Randomized, Double-Blind, Double-Dummy, Active-Controlled Study to Evaluate the Efficacy and Safety of Dupilumab Compared to Omalizumab in Patients With Severe Chronic Rhinosinusitis With Nasal Polyps and Comorbid Asthma
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[sanofi]]
+
+### Design
+This was a Phase 3, Randomized, Double-Blind, Double-Dummy, Active-Controlled Study to Evaluate the Efficacy and Safety of Dupilumab Compared to Omalizumab in 360 participants with severe chronic rhinosinusitis with nasal polyps and comorbid asthma. The comparator was omalizumab.
+
+### Primary endpoint
+change from baseline in endoscopic nasal polyp score and University of Pennsylvania Smell Identification Test (UPSIT) at 24 weeks.
+
+### Results summary
+Least squares mean differences in change from baseline dupilumab over omalizumab were: nasal polyp score -1.60 (95% CI -1.96 to -1.25; p<0.0001) and UPSIT 8.0 (6.3 to 9.7; p<0.0001).
+
+### Clinical evidence
+- Study design: RCT
+- Sample size: 360 participants
+- Comparator: omalizumab
+- Primary outcome: change from baseline in endoscopic nasal polyp score and University of Pennsylvania Smell Identification Test (UPSIT) at 24 weeks
+- Primary result: Least squares mean differences in change from baseline dupilumab over omalizumab were: nasal polyp score -1.60 (95% CI -1.96 to -1.25; p<0.0001) and UPSIT 8.0 (6.3 to 9.7; p<0.0001).
+- Secondary results: Improvements were significantly greater with dupilumab than omalizumab for all primary and secondary efficacy endpoints at week 24.
+- Safety: 115 (64%) of 179 participants in the dupilumab group and 116 (67%) of 173 participants in the omalizumab group reported treatment-emergent adverse events, the most common of which were nasopharyngitis, accidental overdose, headache, upper respiratory tract infection, and cough. There were no deaths in the study.
+- Conclusions (verbatim): Dupilumab was superior to omalizumab in patients with severe CRSwNP and coexisting asthma. These findings support the efficacy of dupilumab in patients with type 2 respiratory diseases versus an active biologic comparator, the known safety profiles of dupilumab and omalizumab, and could enable better treatment targeting for patients with CRSwNP and asthma in clinical practice.
+- Journal: The Lancet. Respiratory medicine, 2025
+- Industry sponsored: True
+
+### Sources
+- `raw/pubmed/dupilumab/2026-04-12/abstract-41033334.json`
+
+### NCT03346434: A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study of Dupilumab in Children 6 Months to <6 Years of Age With Moderate-to-Severe Atopic Dermatitis
+```yaml
+trial_id: NCT03346434
+title: A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study of Dupilumab in Children 6 Months to <6 Years of Age With Moderate-to-Severe Atopic Dermatitis
+phase: 3
+status: completed
+primary_sponsor: sanofi
+co_sponsors: []
+drugs: [dupilumab]
+indications: [Dermatitis, Atopic]
+enrollment:
+primary_endpoint: AD severity, quality of life, and AD-related biomarkers
+primary_completion_date: 2025-07-01
+has_results: true
+primary_result_value: "Clinically meaningful improvements in the measured outcomes were observed in most of the patients, including AD extent and severity, clinical lesions, itch, sleep loss, frequency of symptoms, and quality of life. These improvements were associated with substantial reductions in AD-related biomarkers."
+last_updated: 2026-04-12
+---
+
+## A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study of Dupilumab in Children 6 Months to <6 Years of Age With Moderate-to-Severe Atopic Dermatitis
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[sanofi]]
+
+### Design
+This was a Phase 3, randomized, double-blind, placebo-controlled study of dupilumab in children 6 months to <6 years of age with moderate-to-severe Atopic Dermatitis. The comparator was placebo.
+
+### Primary endpoint
+AD severity, quality of life, and AD-related biomarkers.
+
+### Results summary
+Clinically meaningful improvements in the measured outcomes were observed in most of the patients, including AD extent and severity, clinical lesions, itch, sleep loss, frequency of symptoms, and quality of life. These improvements were associated with substantial reductions in AD-related biomarkers.
+
+### Clinical evidence
+- Study design: RCT
+- Sample size: None
+- Comparator: placebo
+- Primary outcome: AD severity, quality of life, and AD-related biomarkers
+- Primary result: Clinically meaningful improvements in the measured outcomes were observed in most of the patients, including AD extent and severity, clinical lesions, itch, sleep loss, frequency of symptoms, and quality of life. These improvements were associated with substantial reductions in AD-related biomarkers.
+- Secondary results: []
+- Safety: None
+- Conclusions (verbatim): Treatment with dupilumab improved signs, symptoms, and quality of life, and reduced AD-related serum biomarkers in young children with moderate-to-severe AD with different phenotypes and endotypes.
+- Journal: Advances in therapy, 2025
+- Industry sponsored: True
+
+### Sources
+- `raw/pubmed/dupilumab/2026-04-12/abstract-40338484.json`
+
+### NCT03930732: Biomarker Changes and Exacerbation Risk in COPD Patients Treated with Dupilumab (BOREAS Trial Post-hoc Analysis)
+```yaml
+trial_id: NCT03930732
+title: Biomarker Changes and Exacerbation Risk in COPD Patients Treated with Dupilumab (BOREAS Trial Post-hoc Analysis)
+phase: 3
+status: completed
+primary_sponsor: sanofi
+co_sponsors: [regeneron]
+drugs: [dupilumab]
+indications: []
+enrollment: 939
+primary_endpoint: Evaluation of the predictive value and longitudinal changes in type 2 inflammatory biomarkers in patients with COPD and type 2 inflammation from the BOREAS trial who received dupilumab treatment.
+primary_completion_date:
+has_results: true
+primary_result_value: "At week 52, greater median percentage reductions were observed in dupilumab versus placebo for most biomarkers (total IgE: -22·5% [IQR -30·4 to -16·5] vs -0·9% [-6·5 to 4·8]; FeNO: -28·6% [-57·1 to 0] vs -6·9% [-35·7 to 25·0]; eotaxin-3: -8·8% [-15·6 to -2·9] vs -0·4% [-5·6 to 5·0]; and PARC: -14·4% [-29·2 to 2·1] vs -0·8% [-13·9 to 17·2]). Exacerbation risk overall was reduced, with a greater magnitude of reduction in those with higher baseline blood eosinophil count (p=0·0056) and baseline FeNO (p=0·043)."
+last_updated: 2026-04-12
+---
+
+## Biomarker Changes and Exacerbation Risk in COPD Patients Treated with Dupilumab (BOREAS Trial Post-hoc Analysis)
+
+**Phase:** 3 | **Status:** completed | **Sponsor:** [[sanofi]]
+
+### Design
+This was a Phase 3, randomized controlled trial (RCT) investigating dupilumab in 939 patients with COPD and type 2 inflammation. The comparator was placebo.
+
+### Primary endpoint
+Evaluation of the predictive value and longitudinal changes in type 2 inflammatory biomarkers in patients with COPD and type 2 inflammation from the BOREAS trial who received dupilumab treatment.
+
+### Results summary
+At week 52, greater median percentage reductions were observed in dupilumab versus placebo for most biomarkers (total IgE: -22·5% [IQR -30·4 to -16·5] vs -0·9% [-6·5 to 4·8]; FeNO: -28·6% [-57·1 to 0] vs -6·9% [-35·7 to 25·0]; eotaxin-3: -8·8% [-15·6 to -2·9] vs -0·4% [-5·6 to 5·0]; and PARC: -14·4% [-29·2 to 2·1] vs -0·8% [-13·9 to 17·2]). Exacerbation risk overall was reduced, with a greater magnitude of reduction in those with higher baseline blood eosinophil count (p=0·0056) and baseline FeNO (p=0·043).
+
+### Clinical evidence
+- Study design: RCT
+- Sample size: 939 patients
+- Comparator: placebo
+- Primary outcome: Evaluation of the predictive value and longitudinal changes in type 2 inflammatory biomarkers in patients with COPD and type 2 inflammation from the BOREAS trial who received dupilumab treatment.
+- Primary result: At week 52, greater median percentage reductions were observed in dupilumab versus placebo for most biomarkers (total IgE: -22·5% [IQR -30·4 to -16·5] vs -0·9% [-6·5 to 4·8]; FeNO: -28·6% [-57·1 to 0] vs -6·9% [-35·7 to 25·0]; eotaxin-3: -8·8% [-15·6 to -2·9] vs -0·4% [-5·6 to 5·0]; and PARC: -14·4% [-29·2 to 2·1] vs -0·8% [-13·9 to 17·2]). Exacerbation risk overall was reduced, with a greater magnitude of reduction in those with higher baseline blood eosinophil count (p=0·0056) and baseline FeNO (p=0·043).
+- Secondary results: []
+- Safety: None
+- Conclusions (verbatim): Patients with COPD and type 2 inflammation who were given dupilumab showed reduced type 2 inflammatory biomarkers, with elevated blood eosinophil count and FeNO predicting greater treatment response. These findings support biomarker-driven treatment strategies to optimise therapy.
+- Journal: The Lancet. Respiratory medicine, 2025
+- Industry sponsored: True
+
+### Sources
+- `raw/pubmed/dupilumab/2026-04-12/abstract-40651490.json`
 
 ### NCT00532155: A Study of Aflibercept in Combination With Docetaxel in Patients With Locally Advanced or Metastatic Non-Small Cell Lung Cancer
 ```yaml
@@ -449,3 +590,6 @@ Percentage of participants achieving two consecutive ≥30% reductions in iPTH.
 - `raw/ctgov/sanofi/2026-04-07/NCT00410761.json`
 - `raw/ctgov/sanofi/2026-04-07/NCT01736592.json`
 - `raw/ctgov/sanofi/2026-04-07/NCT00532155.json`
+- `raw/pubmed/dupilumab/2026-04-12/abstract-40338484.json`
+- `raw/pubmed/dupilumab/2026-04-12/abstract-40651490.json`
+- `raw/pubmed/dupilumab/2026-04-12/abstract-41033334.json`

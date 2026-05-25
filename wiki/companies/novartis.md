@@ -7,7 +7,7 @@ indications_active: [hf-htn, oncology-breast]
 blockbuster_drugs: [sacubitril-valsartan, inclisiran, ribociclib]
 pipeline_drugs: [fingolimod, branaplam, LMI070, erenumab]
 last_earnings_date: YYYY-MM-DD
-last_updated: 2026-04-06
+last_updated: 2025-07-25
 ---
 
 ## Novartis AG
