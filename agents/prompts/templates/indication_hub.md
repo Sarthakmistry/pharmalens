@@ -22,6 +22,14 @@ last_updated: YYYY-MM-DD
 | [[semaglutide]] | [[novo-nordisk]] | Approved | Bullish | NVO |
 | [[tirzepatide]] | [[eli-lilly]] | Approved | Bullish | LLY |
 
+RULE: The Stock column must ALWAYS be filled with the company's stock ticker for every row.
+Use these tickers (never leave Stock blank for these companies):
+novo-nordisk=NVO, eli-lilly=LLY, bristol-myers-squibb=BMY, merck=MRK, pfizer=PFE,
+roche=RHHBY, astrazeneca=AZN, novartis=NVS, johnson-and-johnson=JNJ, abbvie=ABBV,
+amgen=AMGN, gilead=GILD, biogen=BIIB, regeneron=REGN, vertex=VRTX, sanofi=SNY,
+gsk=GSK, takeda=TAK, eisai=ESALY, bayer=BAYRY.
+For private companies (boehringer-ingelheim, eisai co-development partners, etc.) leave blank.
+
 ### Companies
 | Company | Drugs | Latest event |
 |---|---|---|
