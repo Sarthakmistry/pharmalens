@@ -15,15 +15,15 @@ last_updated: 2026-05-15
 | Drug | Company | Status | Sentiment | Stock |
 |---|---|---|---|---|
 | [[semaglutide]] | [[novo-nordisk]] | Approved | Bullish | NVO |
-| [[liraglutide]] | [[novo-nordisk]] | Approved | Neutral | |
-| [[dapagliflozin]] | [[astrazeneca]] | Approved | Bullish | |
-| [[canagliflozin]] | [[johnson-and-johnson]] | Approved | Bullish | |
-| [[sacubitril-valsartan]] | [[novartis]] | Approved | Neutral | |
-| [[inclisiran]] | [[novartis]] | Approved | Neutral | |
-| [[finerenone]] | [[bayer]] | Approved | Neutral | |
+| [[liraglutide]] | [[novo-nordisk]] | Approved | Neutral | NVO |
+| [[dapagliflozin]] | [[astrazeneca]] | Approved | Bullish | AZN |
+| [[canagliflozin]] | [[johnson-and-johnson]] | Approved | Bullish | JNJ |
+| [[sacubitril-valsartan]] | [[novartis]] | Approved | Neutral | NVS |
+| [[inclisiran]] | [[novartis]] | Approved | Neutral | NVS |
+| [[finerenone]] | [[bayer]] | Approved | Neutral | BAYRY |
 | empagliflozin | Boehringer Ingelheim | Approved | Neutral | |
 | cagrilintide | [[novo-nordisk]] | Pipeline | Bullish | NVO |
-| AZD5462 | [[astrazeneca]] | Pipeline | Neutral | |
+| AZD5462 | [[astrazeneca]] | Pipeline | Neutral | AZN |
 
 ### Companies
 | Company | Drugs | Latest event |
