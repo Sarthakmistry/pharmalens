@@ -5,7 +5,7 @@ ticker: AMGN
 exchange: NASDAQ
 indications_active: [glp1-obesity, type2-diabetes, oncology-nsclc, hf-htn, alzheimers, oncology-crc]
 blockbuster_drugs: [Aranesp, BLINCYTO, ENBREL, EVENITY, KYPROLIS, Nplate, Otezla, Prolia, Repatha, TEPEZZA, TEZSPIRE, Vectibix, XGEVA]
-pipeline_drugs: [Maridebart cafraglutide, Rocatinlimab, erenumab, AMG 520, tarlatamab, Dazodalibep, Hzn-1116, Xaluritamig, Amg 732, Abp 234, Abp 692, Olpasiran]
+pipeline_drugs: [Abp 234, Abp 692, Amg 732, AMG 520, Anvumetostat, Apremilast, Avacopan, Blinatumomab, Dazodalibep, erenumab, Hzn-1116, Inebilizumab, Maridebart cafraglutide, Olpasiran, Pegloticase, Rocatinlimab, Romosozumab, Sotorasib, tarlatamab, Xaluritamig]
 last_earnings_date: 2026-02-03
 last_updated: 2036-12-31
 ---
@@ -27,6 +27,7 @@ last_updated: 2036-12-31
 #### Oncology - NSCLC
 - tarlatamab - Phase 3
 - Abp 234 (biosimilar for [[pembrolizumab]]) - Phase 3
+- Anvumetostat - Phase 1|2, Phase 2
 
 #### Alzheimer's
 - AMG 520 - Phase 1/2
@@ -60,7 +61,7 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Study design: Phase 3
         - Status: ACTIVE_NOT_RECRUITING
         - Enrollment: 145 (ACTUAL)
-        - Primary completion: 2026-03-10
+        - Primary completion: 2026-05-20
         - Has results: False
     - Clinical Evidence (NCT06660173):
         - Study design: PHASE2
@@ -192,7 +193,7 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Primary outcome: To evaluate safety and to determine the recommended phase 2 dose or maximum tolerated dose of tarlatamab in combination with a PD-L1 inhibitor through assessment of dose-limiting toxicities, treatment-emergent adverse events, treatment-related adverse events, and changes in vital signs, electrocardiograms, and clinical laboratory tests.
         - Primary result: The most common grade 3-4 adverse events were hyponatraemia (nine [10%] of 88 patients), anaemia (seven [8%] of 88 patients), and neutropenia (six [7%] of 88 patients). Serious adverse events occurred in 50 (57%) of 88 patients. The most common serious adverse events were cytokine release syndrome (21 [24%] of 88 patients), pyrexia (six [7%] of 88 patients), immune effector cell-associated neurotoxicity syndrome (four [5%] of 88 patients), and pneumonia (four [5%] of 88 patients). There were no deaths due to treatment-related adverse events.
         - Secondary results: Median overall survival was 25.3 months (95% CI 20.3-not estimable).
-        - Safety: The most common grade 3-4 adverse events were hyponatraemia (10%), anaemia (8%), and neutropenia (7%). Serious adverse events occurred in 57% of patients, with cytokine release syndrome (24%) being the most common. No deaths were due to treatment-related adverse events.
+        - Safety: The most common grade 3-4 adverse events were hyponatraemia (10%), anaemia (8%), and neutropenia (7%). Serious adverse events occurred in 57% of patients, with cytokine release syndrome (24%), pyrexia (7%), immune effector cell-associated neurotoxicity syndrome (5%), and pneumonia (5%) being the most common. No deaths were due to treatment-related adverse events.
         - Conclusions: Tarlatamab plus a PD-L1 inhibitor as maintenance after first-line chemo-immunotherapy showed a manageable safety profile with promising anticancer activity, supporting the ongoing phase 3 trial (NCT06211036).
         - Journal: The Lancet. Oncology, 2025 (Industry sponsored: True)
     - Clinical Evidence (NCT05060016):
@@ -209,9 +210,9 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Has results: True
     - Clinical Evidence (NCT06117774):
         - Study design: PHASE3
-        - Status: RECRUITING
-        - Enrollment: 400 (ESTIMATED)
-        - Primary completion: 2030-05-29
+        - Status: ACTIVE_NOT_RECRUITING
+        - Enrollment: 404 (ACTUAL)
+        - Primary completion: 2030-04-20
         - Has results: False
     - Clinical Evidence (NCT06211036):
         - Study design: PHASE3
@@ -224,7 +225,7 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Status: ACTIVE_NOT_RECRUITING
         - Enrollment: 32 (ACTUAL)
         - Primary completion: 2025-03-28
-        - Has results: False
+        - Has results: True
     - Clinical Evidence (NCT06745323):
         - Study design: PHASE2
         - Status: ACTIVE_NOT_RECRUITING
@@ -310,6 +311,95 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Enrollment: 11000 (ESTIMATED)
         - Primary completion: 2031-10-20
         - Has results: False
+    - Clinical Evidence (NCT07293260):
+        - Study design: PHASE3
+        - Status: RECRUITING
+        - Enrollment: 406 (ESTIMATED)
+        - Primary completion: 2028-06-15
+        - Has results: False
+- **Anvumetostat**: Phase 1|2, Phase 2, [[oncology-nsclc]].
+    - Clinical Evidence (NCT05975073):
+        - Study design: PHASE1 | PHASE2
+        - Status: COMPLETED
+        - Enrollment: 53 (ACTUAL)
+        - Primary completion: 2026-02-25
+        - Has results: False
+    - Clinical Evidence (NCT06593522):
+        - Study design: PHASE2
+        - Status: RECRUITING
+        - Enrollment: 200 (ESTIMATED)
+        - Primary completion: 2028-11-29
+        - Has results: False
+- **Pegloticase**: Phase 4.
+    - Clinical Evidence (NCT06229145):
+        - Study design: PHASE4
+        - Status: COMPLETED
+        - Enrollment: 262 (ACTUAL)
+        - Primary completion: 2025-07-30
+        - Has results: False
+    - Clinical Evidence (NCT07388498):
+        - Study design: PHASE3
+        - Status: RECRUITING
+        - Enrollment: 270 (ESTIMATED)
+        - Primary completion: 2028-05-23
+        - Has results: False
+- **Inebilizumab**: Phase 4.
+    - Clinical Evidence (NCT06180278):
+        - Study design: PHASE4
+        - Status: ACTIVE_NOT_RECRUITING
+        - Enrollment: 32 (ACTUAL)
+        - Primary completion: 2028-06-26
+        - Has results: False
+    - Clinical Evidence (NCT06570798):
+        - Study design: PHASE2
+        - Status: RECRUITING
+        - Enrollment: 220 (ESTIMATED)
+        - Primary completion: 2028-01-17
+        - Has results: False
+    - Clinical Evidence (NCT06987539):
+        - Study design: PHASE2
+        - Status: RECRUITING
+        - Enrollment: 15 (ESTIMATED)
+        - Primary completion: 2030-03-13
+        - Has results: False
+- **Sotorasib**: Phase 3, [[oncology-crc]], [[alzheimers]].
+    - Clinical Evidence (NCT06252649):
+        - Study design: PHASE3
+        - Status: RECRUITING
+        - Enrollment: 450 (ESTIMATED)
+        - Primary completion: 2028-01-31
+        - Has results: False
+    - Clinical Evidence (NCT07172919):
+        - Study design: PHASE2
+        - Status: RECRUITING
+        - Enrollment: 14 (ESTIMATED)
+        - Primary completion: 2028-01-02
+        - Has results: False
+    - Clinical Evidence (NCT05198934):
+        - Study design: PHASE3
+        - Status: COMPLETED
+        - Enrollment: 160 (ACTUAL)
+        - Primary completion: 2025-07-16
+        - Has results: False
+- **Blinatumomab**: Phase 2, [[alzheimers]].
+    - Clinical Evidence (NCT06570798):
+        - Study design: PHASE2
+        - Status: RECRUITING
+        - Enrollment: 220 (ESTIMATED)
+        - Primary completion: 2028-01-17
+        - Has results: False
+    - Clinical Evidence (NCT07134088):
+        - Study design: PHASE1 | PHASE2
+        - Status: RECRUITING
+        - Enrollment: 104 (ESTIMATED)
+        - Primary completion: 2028-12-05
+        - Has results: False
+    - Clinical Evidence (NCT04994717):
+        - Study design: PHASE3
+        - Status: RECRUITING
+        - Enrollment: 304 (ESTIMATED)
+        - Primary completion: 2029-09-07
+        - Has results: False
 - **Avacopan**: Phase 4.
     - Clinical Evidence (NCT06072482):
         - Study design: PHASE4
@@ -343,77 +433,6 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Enrollment: 60 (ESTIMATED)
         - Primary completion: 2028-03-21
         - Has results: False
-- **Inebilizumab**: Phase 4.
-    - Clinical Evidence (NCT06180278):
-        - Study design: PHASE4
-        - Status: ACTIVE_NOT_RECRUITING
-        - Enrollment: 32 (ACTUAL)
-        - Primary completion: 2028-06-26
-        - Has results: False
-    - Clinical Evidence (NCT06570798):
-        - Study design: PHASE2
-        - Status: RECRUITING
-        - Enrollment: 220 (ESTIMATED)
-        - Primary completion: 2028-01-17
-        - Has results: False
-    - Clinical Evidence (NCT06987539):
-        - Study design: PHASE2
-        - Status: RECRUITING
-        - Enrollment: 15 (ESTIMATED)
-        - Primary completion: 2030-03-13
-        - Has results: False
-- **Pegloticase**: Phase 4.
-    - Clinical Evidence (NCT06229145):
-        - Study design: PHASE4
-        - Status: ACTIVE_NOT_RECRUITING
-        - Enrollment: 262 (ACTUAL)
-        - Primary completion: 2025-07-30
-        - Has results: False
-    - Clinical Evidence (NCT07388498):
-        - Study design: PHASE3
-        - Status: RECRUITING
-        - Enrollment: 270 (ESTIMATED)
-        - Primary completion: 2028-05-23
-        - Has results: False
-- **Prolia**: Phase 4.
-    - Clinical Evidence (NCT06332014):
-        - Study design: PHASE4
-        - Status: ACTIVE_NOT_RECRUITING
-        - Enrollment: 102 (ACTUAL)
-        - Primary completion: 2027-01-23
-        - Has results: False
-    - Clinical Evidence (NCT06588153):
-        - Study design: PHASE4
-        - Status: RECRUITING
-        - Enrollment: 100 (ESTIMATED)
-        - Primary completion: 2027-05-24
-        - Has results: False
-- **Sotorasib**: Phase 3, [[oncology-crc]], [[alzheimers]].
-    - Clinical Evidence (NCT06252649):
-        - Study design: PHASE3
-        - Status: RECRUITING
-        - Enrollment: 450 (ESTIMATED)
-        - Primary completion: 2028-01-31
-        - Has results: False
-    - Clinical Evidence (NCT07172919):
-        - Study design: PHASE2
-        - Status: RECRUITING
-        - Enrollment: 14 (ESTIMATED)
-        - Primary completion: 2028-01-02
-        - Has results: False
-- **Blinatumomab**: Phase 2.
-    - Clinical Evidence (NCT06570798):
-        - Study design: PHASE2
-        - Status: RECRUITING
-        - Enrollment: 220 (ESTIMATED)
-        - Primary completion: 2028-01-17
-        - Has results: False
-    - Clinical Evidence (NCT07134088):
-        - Study design: PHASE1 | PHASE2
-        - Status: RECRUITING
-        - Enrollment: 104 (ESTIMATED)
-        - Primary completion: 2028-12-05
-        - Has results: False
 
 ### Recent events
 | Date | Event | Signal |
@@ -421,7 +440,7 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
 | 2036-12-31 | Trial NCT06072482 for Avacopan reaches primary completion | [[2036-12-31-unknown-nct06072482-completed]] |
 | 2036-03-17 | Trial NCT05767047 for Apremilast reaches primary completion | [[2036-03-17-unknown-nct05767047-completed]] |
 | 2031-10-20 | Trial NCT07136012 for Olpasiran reaches primary completion | [[2031-10-20-unknown-nct07136012-completed]] |
-| 2030-05-29 | Trial NCT06117774 for Tarlatamab reaches primary completion | [[2030-05-29-unknown-nct06117774-completed]] |
+| 2030-04-20 | Trial NCT06117774 for Tarlatamab reaches primary completion | [[2030-04-20-unknown-nct06117774-completed]] |
 | 2030-03-13 | Trial NCT06987539 for Inebilizumab reaches primary completion | [[2030-03-13-unknown-nct06987539-completed]] |
 | 2030-02-07 | Trial NCT04528082 for Apremilast reaches primary completion | [[2030-02-07-unknown-nct04528082-completed]] |
 | 2030-01-07 | Trial NCT07213674 for Xaluritamig reaches primary completion | [[2030-01-07-unknown-nct07213674-completed]] |
@@ -431,12 +450,13 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
 | 2029-01-31 | Erenumab Phase 3 trial (NCT03633708) reaches primary completion | [[2029-01-31-erenumab-nct03633708-trial-completion]] |
 | 2029-01-04 | Trial NCT07005128 for Tarlatamab reaches primary completion | [[2029-01-04-unknown-nct07005128-completed]] |
 | 2029-01-02 | Trial NCT06691984 for Xaluritamig reaches primary completion | [[2029-01-02-unknown-nct06691984-completed]] |
-| 2028-11-29 | Trial NCT06593522 for Amg 193 reaches primary completion | [[2028-11-29-unknown-nct06593522-completed]] |
 | 2028-12-05 | Trial NCT07134088 for Blinatumomab reaches primary completion | [[2028-12-05-unknown-nct07134088-completed]] |
+| 2028-11-29 | Trial NCT06593522 for Anvumetostat reaches primary completion | [[2028-11-29-unknown-nct06593522-completed]] |
 | 2028-09-26 | Trial NCT06321601 for Avacopan reaches primary completion | [[2028-09-26-unknown-nct06321601-completed]] |
 | 2028-06-30 | Trial NCT07037459 for Maridebart cafraglutide reaches primary completion | [[2028-06-30-unknown-nct07037459-completed]] |
 | 2028-06-30 | Trial NCT07037433 for Maridebart cafraglutide reaches primary completion | [[2028-06-30-unknown-nct07037433-completed]] |
 | 2028-06-26 | Trial NCT06180278 for Inebilizumab reaches primary completion | [[2028-06-26-unknown-nct06180278-completed]] |
+| 2028-06-15 | Trial NCT07293260 for Olpasiran reaches primary completion | [[2028-06-15-unknown-nct07293260-completed]] |
 | 2028-05-23 | Trial NCT07388498 for Pegloticase reaches primary completion | [[2028-05-23-unknown-nct07388498-completed]] |
 | 2028-03-31 | Trial NCT05581303 for Olpasiran reaches primary completion | [[2028-03-31-unknown-nct05581303-completed]] |
 | 2028-03-21 | Trial NCT04804553 for Apremilast reaches primary completion | [[2028-03-21-unknown-nct04804553-completed]] |
@@ -451,6 +471,7 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
 | 2027-09-29 | Trial NCT07226765 for Maridebart cafraglutide reaches primary completion | [[2027-09-29-unknown-nct07226765-completed]] |
 | 2027-09-29 | Trial NCT07225686 for Maridebart cafraglutide reaches primary completion | [[2027-09-29-unknown-nct07225686-completed]] |
 | 2027-06-30 | Trial NCT05882877 for Rocatinlimab reaches primary completion | [[2027-06-30-unknown-nct05882877-completed]] |
+| 2027-06-30 | Trial NCT05920356 for [[pembrolizumab]] reaches primary completion | [[2027-06-30-pembrolizumab-nct05920356-completed]] |
 | 2027-06-30 | Trial NCT03969329 for Etelcalcetide reaches primary completion | [[2027-06-30-unknown-nct03969329-completed]] |
 | 2027-06-01 | Trial NCT05972551 for Romosozumab reaches primary completion | [[2027-06-01-unknown-nct05972551-completed]] |
 | 2027-05-24 | Trial NCT06588153 for Prolia® reaches primary completion | [[2027-05-24-unknown-nct06588153-completed]] |
@@ -468,15 +489,16 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
 | 2026-10-19 | Trial NCT06376045 for Rocatinlimab reaches primary completion | [[2026-10-19-unknown-nct06376045-completed]] |
 | 2026-08-19 | Trial NCT06104124 for Dazodalibep reaches primary completion | [[2026-08-19-unknown-nct06104124-completed]] |
 | 2026-08-06 | Trial NCT06088199 for Apremilast reaches primary completion | [[2026-08-06-unknown-nct06088199-completed]] |
-| 2026-06-30 | Trial NCT05920356 for [[pembrolizumab]] reaches primary completion | [[2026-06-30-pembrolizumab-nct05920356-completed]] |
 | 2026-05-30 | AMG 520 Phase 1/2 trial (NCT03600883) for Alzheimer's reaches primary completion | [[2026-05-30-amg-520-nct03600883-trial-completion]] |
 | 2026-05-27 | Trial NCT05094336 for Anvumetostat reaches primary completion | [[2026-05-27-unknown-nct05094336-completed]] |
+| 2026-05-20 | Maridebart cafraglutide Phase 3 trial (NCT03937154) for obesity/T2D reaches primary completion | [[2026-05-20-maridebart-cafraglutide-nct03937154-trial-completion]] |
 | 2026-05-20 | Amgen Inc. held its Annual Meeting of Stockholders on May 19, 2026, where stockholders voted on the election of directors, executive compensation, ratification of independent accountants, and a stockholder proposal. | [[2026-05-20-amgen-annual-meeting-results]] |
 | 2026-04-22 | Amgen Inc. announced the retirement of David M. Reese, Executive Vice President and Chief Technology Officer, with his responsibilities being redistributed among other executives. | [[2026-04-22-amgen-executive-retirement]] |
+| 2026-04-12 | Tarlatamab plus PD-L1 inhibitor shows promising anticancer activity in NSCLC (Pubmed) | [[2026-04-12-tarlatamab-pubmed-result]] |
 | 2026-04-06 | A Phase 4 study evaluating the safety, tolerability, and efficacy of Kyprolis (Carfilzomib) in relapsed or refractory multiple myeloma has been completed. | [[2026-04-06-kyprolis-carfilzomib-relapsed-refractory-multiple-myeloma-trial-completion]] |
-| 2026-04-01 | Trial NCT05975073 for Amg 193 reaches primary completion | [[2026-04-01-unknown-nct05975073-completed]] |
 | 2026-03-19 | Trial NCT06312020 for Hzn-1116 reaches primary completion | [[2026-03-19-unknown-nct06312020-completed]] |
 | 2026-03-10 | Maridebart cafraglutide (AMG 133) Phase 3 trial (NCT03937154) for obesity/T2D reaches primary completion | [[2026-03-10-maridebart-cafraglutide-nct03937154-trial-completion]] |
+| 2026-02-25 | Trial NCT05975073 for Anvumetostat reaches primary completion | [[2026-02-25-unknown-nct05975073-completed]] |
 | 2026-02-19 | Amgen Inc. issued $4 billion in senior notes. | [[2026-02-19-amgen-senior-notes-offering]] |
 | 2026-02-03 | Amgen Q4 2025 financial results and 2026 guidance | [[2026-02-03-amgen-q4-2025-earnings]] |
 | 2026-01-30 | Amgen and Kyowa Kirin terminate collaboration agreement | [[2026-01-30-amgen-kyowa-kirin-agreement-termination]] |
@@ -669,4 +691,29 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
 - `raw/ctgov/amgen/2026-05-01/NCT04303780.json`
 - `raw/ctgov/amgen/2026-05-01/NCT04521231.json`
 - `raw/ctgov/amgen/2026-05-01/NCT04804553.json`
----
+- `raw/ctgov/amgen/2026-05-01/NCT04994717.json`
+- `raw/ctgov/amgen/2026-05-01/NCT05198934.json`
+- `raw/ctgov/amgen/2026-05-01/NCT05920356.json`
+- `raw/ctgov/amgen/2026-05-01/NCT05975073.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06072482.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06117774.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06229145.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06252649.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06311721.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06401044.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06502977.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06593522.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06700343.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06747949.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06987539.json`
+- `raw/ctgov/amgen/2026-05-01/NCT07005128.json`
+- `raw/ctgov/amgen/2026-05-01/NCT07037433.json`
+- `raw/ctgov/amgen/2026-05-01/NCT07037459.json`
+- `raw/ctgov/amgen/2026-05-01/NCT07134088.json`
+- `raw/ctgov/amgen/2026-05-01/NCT07136012.json`
+- `raw/ctgov/amgen/2026-05-01/NCT07172919.json`
+- `raw/ctgov/amgen/2026-05-01/NCT07213674.json`
+- `raw/ctgov/amgen/2026-05-01/NCT07225686.json`
+- `raw/ctgov/amgen/2026-05-01/NCT07226765.json`
+- `raw/ctgov/amgen/2026-05-01/NCT07293260.json`
+- `raw/ctgov/amgen/2026-05-01/NCT07441252.json`

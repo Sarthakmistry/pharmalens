@@ -5,8 +5,8 @@ icd10: [E66, E66.0, E66.01, E66.09]
 drugs_approved: [dulaglutide, liraglutide, semaglutide, tirzepatide]
 drugs_pipeline: [cagrilintide-semaglutide, eloralintide, retatrutide, maridebart-cafraglutide]
 companies_active: [eli-lilly, novo-nordisk, amgen]
-active_trials: 10
-last_updated: 2024-05-15
+active_trials: 14
+last_updated: 2026-05-01
 ---
 ## GLP-1 / Obesity
 
@@ -42,6 +42,10 @@ last_updated: 2024-05-15
 ### Active trials
 | Trial | Drug | Phase | Status |
 |---|---|---|---|
+| [[NCT07037433]] | Maridebart cafraglutide | 3 | Recruiting |
+| [[NCT07037459]] | Maridebart cafraglutide | 3 | Recruiting |
+| [[NCT07225686]] | Maridebart cafraglutide | 3 | Recruiting |
+| [[NCT07441252]] | Maridebart cafraglutide | 2 | Recruiting |
 | [[NCT06241638]] | [[dapagliflozin]] | | |
 | [[NCT04251156]] | [[semaglutide]] | | |
 | [[NCT05567796]] | cagrilintide-[[semaglutide]] | | |
@@ -186,4 +190,7 @@ last_updated: 2024-05-15
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-04-07/NCT07037459.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-04-07/NCT07225686.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-04-07/NCT07441252.json
----
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-05-01/NCT07037433.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-05-01/NCT07037459.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-05-01/NCT07225686.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-05-01/NCT07441252.json

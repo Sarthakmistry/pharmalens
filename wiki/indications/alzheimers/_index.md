@@ -3,10 +3,10 @@ indication: alzheimers
 display_name: Alzheimer's Disease
 icd10: [G30, G30.0, G30.1, G30.8, G30.9]
 drugs_approved: [lecanemab]
-drugs_pipeline: [donanemab]
-companies_active: [eisai, eli-lilly, amgen]
-active_trials: 14
-last_updated: 2024-05-15
+drugs_pipeline: [donanemab, pembrolizumab, durvalumab, olaparib, trastuzumab deruxtecan, cetuximab]
+companies_active: [eisai, eli-lilly, amgen, astrazeneca]
+active_trials: 26
+last_updated: 2024-05-17
 ---
 
 ## Alzheimer's Disease
@@ -14,15 +14,21 @@ last_updated: 2024-05-15
 ### Drugs in class
 | Drug | Company | Status | Sentiment | Stock |
 |---|---|---|---|---|
-| [[lecanemab]] | [[eisai]] | Approved | Bullish | Eisai |
+| [[lecanemab]] | [[eisai]] | Approved | Bullish | ESALY |
 | [[donanemab]] | [[eli-lilly]] | Pipeline | Bullish | LLY |
+| [[pembrolizumab]] | [[merck]] | Pipeline | Neutral | MRK |
+| [[durvalumab]] | [[astrazeneca]] | Pipeline | Neutral | AZN |
+| [[olaparib]] | [[astrazeneca]] | Pipeline | Neutral | AZN |
+| [[trastuzumab deruxtecan]] | [[astrazeneca]] | Pipeline | Neutral | AZN |
+| [[cetuximab]] | [[eli-lilly]] | Pipeline | Neutral | LLY |
 
 ### Companies
 | Company | Drugs | Latest event |
 |---|---|---|
 | [[eisai]] | lecanemab | 2026-04-20 |
-| [[eli-lilly]] | donanemab | 2026-05-18 |
-| [[amgen]] | | 2028-02-14 |
+| [[eli-lilly]] | donanemab, cetuximab | 2026-05-18 |
+| [[amgen]] | pembrolizumab | 2026-05-27 |
+| [[astrazeneca]] | durvalumab, olaparib, trastuzumab deruxtecan, cetuximab | 2025-02-18 |
 
 ### Recent events
 | Date | Event | Signal |
@@ -40,12 +46,16 @@ last_updated: 2024-05-15
 | 2026-04-07 | A Phase 2 study evaluating Lecanemab for early Alzheimer's Disease has completed. | [[lecanemab-alzheimers-disease-phase-2-trial-completion]] |
 | 2025-11-01 | Post-hoc analysis suggests AD04 treatment benefit in early AD, comparable to approved mAbs. | [[2025-11-01-ad04-post-hoc-analysis]] |
 | 2025-09-01 | Meta-analysis finds donanemab offers modest cognitive benefits but significantly increases ARIA-E risk. | neutral |
+| 2025-02-18 | Trial NCT04564027 for Ceralasertib (AstraZeneca) completed primary completion. | High |
 | 2025 | Over 3 years, donanemab-treated participants with early symptomatic AD demonstrated increasing clinical benefits and a consistent safety profile, with limited-duration dosing. | Medium |
 | 2025 | Secondary analysis of RCT shows correlation between posttreatment amyloid levels and clinical benefit for donanemab. | pubmed_result |
 | 2025 | Network meta-analysis finds donanemab and lecanemab most effective for cognitive function and daily activities in Alzheimer's Disease. | Medium |
 | 2025 | Single IV doses of donanemab showed acceptable safety, tolerability, and dose-proportional PK in healthy Chinese adults. | pubmed_result |
 | 2025 | Clinical findings on ARIA associated with donanemab treatment published. | pubmed_result |
+| 2023-09-08 | Trial NCT04630756 for Azd4573 (AstraZeneca) completed primary completion. | High |
 | 2022-12-01 | Phase 4 trial NCT03971071 for Erenumab 70 mg and Erenumab 140 mg completed primary completion. | High |
+| 2020-02-28 | Trial NCT02499328 for Azd9150 (AstraZeneca) completed primary completion. | High |
+| 2017-06-19 | Trial NCT02296125 for Erlotinib (AstraZeneca) completed primary completion. | High |
 
 ### Active trials
 | Trial | Drug | Phase | Status |
@@ -53,7 +63,6 @@ last_updated: 2024-05-15
 | [[NCT05094336]] | | 1/2 | ACTIVE_NOT_RECRUITING |
 | [[NCT05052801]] | | 3 | Active Not Recruiting |
 | [[2020-000077-25]] | [[donanemab]] | | |
-| [[NCT01117818]] | | N/A | Completed |
 | [[EudraCT 2022-003532-73]] | | N/A | Active |
 | [[NCT05738486]] | [[donanemab]] | | |
 | [[NCT02624778]] | [[donanemab]] | | |
@@ -64,6 +73,19 @@ last_updated: 2024-05-15
 | [[NCT06311721]] | [[pembrolizumab]] | 3 | ACTIVE_NOT_RECRUITING |
 | [[NCT07172919]] | | 2 | RECRUITING |
 | [[NCT04303780]] | | 3 | ACTIVE_NOT_RECRUITING |
+| [[NCT04994717]] | | 3 | RECRUITING |
+| [[NCT02264678]] | [[durvalumab]], [[olaparib]] | 1/2 | ACTIVE_NOT_RECRUITING |
+| [[NCT03459846]] | [[durvalumab]], [[olaparib]] | 2 | ACTIVE_NOT_RECRUITING |
+| [[NCT03528694]] | [[durvalumab]] | 3 | ACTIVE_NOT_RECRUITING |
+| [[NCT03682068]] | [[durvalumab]] | 3 | ACTIVE_NOT_RECRUITING |
+| [[NCT03732677]] | [[durvalumab]] | 3 | ACTIVE_NOT_RECRUITING |
+| [[NCT04214288]] | | 2 | ACTIVE_NOT_RECRUITING |
+| [[NCT04305496]] | | 3 | ACTIVE_NOT_RECRUITING |
+| [[NCT04482309]] | [[trastuzumab deruxtecan]] | 2 | ACTIVE_NOT_RECRUITING |
+| [[NCT04494425]] | [[trastuzumab deruxtecan]] | 3 | ACTIVE_NOT_RECRUITING |
+| [[NCT04590963]] | [[cetuximab]] | 3 | ACTIVE_NOT_RECRUITING |
+| [[NCT04639219]] | [[trastuzumab deruxtecan]] | 2 | ACTIVE_NOT_RECRUITING |
+| [[NCT04644068]] | | 1/2 | ACTIVE_NOT_RECRUITING |
 
 ### Clinical evidence
 
@@ -341,3 +363,22 @@ last_updated: 2024-05-15
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-04-07/NCT06311721.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-04-07/NCT07172919.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-05-01/NCT04303780.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-05-01/NCT04994717.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-05-01/NCT06311721.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-05-01/NCT07172919.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT02264678.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT02296125.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT02499328.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT03459846.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT03528694.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT03682068.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT03732677.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04214288.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04305496.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04482309.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04494425.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04564027.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04590963.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04630756.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04639219.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04644068.json

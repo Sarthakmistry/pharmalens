@@ -28,7 +28,7 @@ logger = get_logger("pharmalens.compiler")
 
 load_dotenv()  # must be before genai.Client()
 
-client = genai.Client()
+client = genai.Client(http_options=types.HttpOptions(timeout=300))
 
 FLASH_MODEL = "gemini-2.5-flash"
 
@@ -869,7 +869,7 @@ Rules:
 
     # fire all LLM calls in parallel — bounded by number of pages per file (≤5)
     with _cf.ThreadPoolExecutor(max_workers=len(tasks)) as pool:
-        results = list(pool.map(_call_llm, tasks))
+        results = list(pool.map(_call_llm, tasks, timeout=600))
 
     # write to disk and record usage in main thread (avoids any shared-state races)
     updated_paths = []
@@ -1044,23 +1044,30 @@ Rules:
 """
         tasks.append(("indication_hub", ind_slug, page_path, prompt, _make_config("indication_hub"), signals))
 
-    def _call_llm(task: tuple) -> tuple:
+    def _call_llm(task: tuple) -> tuple | None:
         page_type, entity, page_path, prompt, config, signals = task
         start = time.time()
-        resp  = client.models.generate_content(model=FLASH_MODEL, contents=prompt, config=config)
-        return page_type, entity, page_path, resp.text, resp.usage_metadata, time.time() - start, signals
+        try:
+            resp = client.models.generate_content(model=FLASH_MODEL, contents=prompt, config=config)
+            return page_type, entity, page_path, resp.text, resp.usage_metadata, time.time() - start, signals
+        except Exception as exc:
+            logger.error(f"FLUSH | ERROR | {page_type} {entity}: {exc}")
+            return None
 
     logger.info(
         f"FLUSH | Firing {len(tasks)} page writes in parallel — "
         f"company={len(company_buffer)}, trial={len(trial_buffer)}, "
         f"drug={len(drug_buffer)}, indication={len(indication_buffer)}"
     )
-    with _cf.ThreadPoolExecutor(max_workers=len(tasks)) as pool:
-        results = list(pool.map(_call_llm, tasks))
+    with _cf.ThreadPoolExecutor(max_workers=min(len(tasks), 20)) as pool:
+        results = list(pool.map(_call_llm, tasks, timeout=600))
 
     updated_paths   = []
     pages_for_index = []
-    for page_type, entity, page_path, content, usage, elapsed, signals in results:
+    for result in results:
+        if result is None:
+            continue
+        page_type, entity, page_path, content, usage, elapsed, signals = result
         n = len(signals)
         logger.info(f"FLUSH | {page_type.upper()} | {entity} — {n} signal(s), API took {elapsed:.1f}s")
         ledger.record(usage)

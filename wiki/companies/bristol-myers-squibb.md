@@ -7,7 +7,7 @@ indications_active: [oncology-nsclc, oncology-breast, oncology-crc, hf-htn]
 blockbuster_drugs: [nivolumab]
 pipeline_drugs: []
 last_earnings_date: 2026-04-30
-last_updated: 2026-04-07
+last_updated: 2026-04-12
 ---
 
 ## Bristol Myers Squibb
@@ -35,24 +35,14 @@ Bristol-Myers Squibb reported its fourth quarter and full-year 2025 financial re
 
 ### Pipeline
 
-### Clinical Evidence: Apixaban in Venous Thromboembolism (VTE)
-
-**Study Design:** RCT
-**Sample Size:** 600 patients
-**Comparator:** placebo
-**Primary Outcome:** the first symptomatic recurrent VTE
-**Primary Result:** Symptomatic recurrent VTE occurred in 4 of the 300 patients (1.3%) in the apixaban group and in 30 of the 300 patients (10.0%) in the placebo group (hazard ratio, 0.13; 95% confidence interval [CI], 0.04 to 0.36; P<0.001).
-**Secondary Results:**
-*   Major bleeding occurred in 1 patient in the apixaban group and none in the placebo group.
-*   Clinically relevant nonmajor bleeding was observed in 14 of 294 patients (4.8%) in the apixaban group and in 5 of 294 patients (1.7%) in the placebo group (hazard ratio, 2.68; 95% CI, 0.96 to 7.43; P=0.06).
-**Safety:** Major bleeding occurred in 1 patient in the apixaban group and none in the placebo group. Clinically relevant nonmajor bleeding was observed in 4.8% of apixaban patients vs 1.7% of placebo patients.
-**Conclusions:** Among patients with provoked VTE and enduring risk factors, low-intensity therapy with apixaban for 12 months resulted in a lower risk of symptomatic recurrent VTE than placebo, with a low risk of major bleeding. (Funded by Bristol-Myers Squibb-Pfizer Alliance; HI-PRO ClinicalTrials.gov number, NCT04168203.).
-**Journal:** The New England journal of medicine, 2025
-**Industry Sponsored:** True
-
 ### Recent events
 | Date | Event | Signal |
 |---|---|---|
+| 2026-04-12 | No PFS improvement with encorafenib/binimetinib induction in advanced melanoma. | [[2026-04-12-encorafenib-binimetinib-melanoma-pubmed]] |
+| 2026-04-12 | Durable OS benefit for [[nivolumab]] plus ipilimumab with chemotherapy in metastatic NSCLC. | [[2026-04-12-nivolumab-ipilimumab-nsclc-pubmed]] |
+| 2026-04-12 | Feasibility study of [[nivolumab]] combinations in PD-1-refractory cancer. | [[2026-04-12-nivolumab-cabiralizumab-pd1-refractory-cancer-pubmed]] |
+| 2026-04-12 | Positive results for [[nivolumab]] plus ipilimumab in unresectable hepatocellular carcinoma. | [[2026-04-12-nivolumab-ipilimumab-hepatocellular-carcinoma-pubmed]] |
+| 2025-05-13 | Positive results for [[nivolumab]] plus ipilimumab in hypermutated HER2-negative metastatic breast cancer. | [[2025-05-13-nivolumab-ipilimumab-her2-negative-breast-cancer-pubmed]] |
 | 2024-10-22 | Phase 2 trial (NCT02060188) for [[nivolumab]] completed primary endpoint with 385 patients. | [[2024-10-22-nivolumab-nct02060188-completed]] |
 | 2018-11-26 | Phase 3 trial (NCT02388906) for [[nivolumab]] completed primary endpoint with 906 patients. | [[2018-11-26-nivolumab-nct02388906-completed]] |
 | 2020-07-17 | Phase 3 trial (NCT02632409) for [[nivolumab]] in Alzheimer's disease reached primary completion with 709 patients. | [[2020-07-17-nivolumab-nct02632409-completion]] |
@@ -109,3 +99,8 @@ Bristol-Myers Squibb reported its fourth quarter and full-year 2025 financial re
 - `raw/ctgov/bristol-myers-squibb/2026-04-07/NCT02632409.json`
 - `raw/ctgov/bristol-myers-squibb/2026-04-07/NCT02388906.json`
 - `raw/ctgov/bristol-myers-squibb/2026-04-07/NCT02060188.json`
+- `raw/pubmed/ipilimumab/2026-04-12/abstract-40349714.json`
+- `raw/pubmed/ipilimumab/2026-04-12/abstract-40360544.json`
+- `raw/pubmed/ipilimumab/2026-04-12/abstract-40389374.json`
+- `raw/pubmed/ipilimumab/2026-04-12/abstract-40446626.json`
+- `raw/pubmed/ipilimumab/2026-04-12/abstract-40449497.json`

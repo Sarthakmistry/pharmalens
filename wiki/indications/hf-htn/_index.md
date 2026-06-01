@@ -3,10 +3,10 @@ indication: hf-htn
 display_name: Heart Failure / Hypertension
 icd10: [I50, I50.1, I50.2, I10, I11]
 drugs_approved: [semaglutide, liraglutide, dapagliflozin, canagliflozin, sacubitril-valsartan, inclisiran, finerenone, empagliflozin]
-drugs_pipeline: [cagrilintide, AZD5462]
+drugs_pipeline: [cagrilintide, AZD5462, maridebart cafraglutide]
 companies_active: [novo-nordisk, astrazeneca, johnson-and-johnson, novartis, bayer, biogen, abbvie, amgen]
 active_trials: 4
-last_updated: 2026-05-15
+last_updated: 2026-05-18
 ---
 
 ## Heart Failure / Hypertension
@@ -24,6 +24,7 @@ last_updated: 2026-05-15
 | empagliflozin | Boehringer Ingelheim | Approved | Neutral | |
 | cagrilintide | [[novo-nordisk]] | Pipeline | Bullish | NVO |
 | AZD5462 | [[astrazeneca]] | Pipeline | Neutral | AZN |
+| Maridebart cafraglutide | [[amgen]] | Pipeline | Neutral | AMGN |
 
 ### Companies
 | Company | Drugs | Latest event |
@@ -240,7 +241,7 @@ last_updated: 2026-05-15
 *   **Primary outcome:** a composite of time to cardiovascular death or worsening HF through 2 months
 *   **Primary result:** The primary outcome occurred in 133 patients (10.9%) in the dapagliflozin group and 150 (12.7%) in the placebo group (hazard ratio [HR], 0.86 [95% CI, 0.68-1.08]; P=0.20).
 *   **Secondary results:**
-    *   A worsening HF event occurred in 115 (9.4%) and 122 (10.3%) patients in the dapagliflozin and placebo groups, respectively (HR, 0.91 [95% CI, 0.71-1.18]).
+    *   A worsening HF event occurred in 115 (9.4%) and 122 (10.3%) in the dapagliflozin and placebo groups, respectively (HR, 0.91 [95% CI, 0.71-1.18]).
     *   Cardiovascular death occurred in 30 (2.5%) and 37 (3.1%) patients (HR, 0.78 [95% CI, 0.48-1.27]).
     *   Death from any cause occurred in 36 (3.0%) and 53 (4.5%) patients in the dapagliflozin and placebo groups, respectively (HR, 0.66 [95% CI, 0.43-1.00]).
     *   In a meta-analysis of patients hospitalized for HF, SGLT2 inhibitors reduced the early risk of cardiovascular death or worsening HF (HR, 0.71 [95% CI, 0.54-0.93] P=0.012) and of all-cause death (HR, 0.57 [95% CI, 0.41-0.80]; P=0.001).
@@ -496,3 +497,4 @@ last_updated: 2026-05-15
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/dapagliflozin/2026-04-12/abstract-41170566.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/dapagliflozin/2026-04-12/abstract-41311237.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-04-07/NCT07037459.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-05-01/NCT07037459.json

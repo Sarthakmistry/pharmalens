@@ -38,20 +38,21 @@ Merck & Co., Inc. announced strong third-quarter 2025 financial results with tot
 | Date | Event | Signal |
 |---|---|---|
 | 2026-05-22 | Merck & Co., Inc. closed an underwritten public offering of $6 billion aggregate principal amount of various notes, including Floating Rate Notes due 2028 and fixed-rate notes with maturities ranging from 2028 to 2056. | [[2026-05-22-merck-debt-offering-close]] |
-| 2025-12-04 | Merck Debt Offering Close | [[2025-12-04-merck-debt-offering-close]] |
-| 2025-10-30 | Merck Q3 2025 Earnings | [[2025-10-30-merck-q3-2025-earnings]] |
-| 2025-05-29 | Merck & Co., Inc. reported the results of its Annual Meeting of Shareholders held on May 27, 2025, including the election of directors, approval of executive compensation, ratification of auditors, and votes on several shareholder proposals. | [[2025-05-29-merck-shareholder-meeting-results-2025]] |
-| 2026-01-12 | Bristol-Myers Squibb Investor Presentation | [[2026-01-12-bristol-myers-squibb-investor-presentation-pipeline-update]] |
-| 2027-10-25 | Pembrolizumab (NCT02332668) Phase 1/2 Trial Completion | [[2027-10-25-pembrolizumab-nct02332668-completed]] |
-| 2011-09-06 | NCT00875056 Phase 2 Trial Completion | [[2011-09-06-unknown-nct00875056-completed]] |
-| 2018-01-08 | Pembrolizumab (NCT02362594) Phase 3 Trial Completion | [[2018-01-08-pembrolizumab-nct02362594-completed]] |
-| 2019-02-25 | Pembrolizumab (NCT02358031) Phase 3 Trial Completion | [[2019-02-25-pembrolizumab-nct02358031-completed]] |
-| 2025-11-05 | Pembrolizumab (NCT02625961) Phase 2 Trial Completion | [[2025-11-05-pembrolizumab-nct02625961-completed]] |
-| 2018-10-18 | Pembrolizumab (NCT02853331) Phase 3 Trial Completion | [[2018-10-18-pembrolizumab-nct02853331-completed]] |
-| 2027-05-04 | Pembrolizumab (NCT02628067) Phase 2 Trial Completion | [[2027-05-04-pembrolizumab-nct02628067-completed]] |
 | 2026-01-14 | Pembrolizumab (NCT02684292) Phase 3 Trial Completion | [[2026-01-14-pembrolizumab-nct02684292-completed]] |
-| 2023-01-24 | Pembrolizumab (NCT02504372) Phase 3 Trial Completion | [[2023-01-24-pembrolizumab-nct02504372-completed]] |
+| 2026-01-12 | Bristol-Myers Squibb Investor Presentation | [[2026-01-12-bristol-myers-squibb-investor-presentation-pipeline-update]] |
+| 2025-12-04 | Merck Debt Offering Close | [[2025-12-04-merck-debt-offering-close]] |
+| 2025-11-05 | Pembrolizumab (NCT02625961) Phase 2 Trial Completion | [[2025-11-05-pembrolizumab-nct02625961-completed]] |
+| 2025-10-30 | Merck Q3 2025 Earnings | [[2025-10-30-merck-q3-2025-earnings]] |
 | 2025-07-29 | Merck Q2 2025 Earnings and Restructuring Program | [[2025-07-29-merck-q2-earnings-restructuring]] |
+| 2025-05-29 | Merck & Co., Inc. reported the results of its Annual Meeting of Shareholders held on May 27, 2025, including the election of directors, approval of executive compensation, ratification of auditors, and votes on several shareholder proposals. | [[2025-05-29-merck-shareholder-meeting-results-2025]] |
+| 2025-XX-XX | Pembrolizumab with chemotherapy shows promising 2-year PFS in unresectable NSCLC (Evolution trial) | [[2025-XX-XX-pembrolizumab-nsclc-evolution-trial-pubmed]] |
+| 2023-01-24 | Pembrolizumab (NCT02504372) Phase 3 Trial Completion | [[2023-01-24-pembrolizumab-nct02504372-completed]] |
+| 2019-02-25 | Pembrolizumab (NCT02358031) Phase 3 Trial Completion | [[2019-02-25-pembrolizumab-nct02358031-completed]] |
+| 2018-10-18 | Pembrolizumab (NCT02853331) Phase 3 Trial Completion | [[2018-10-18-pembrolizumab-nct02853331-completed]] |
+| 2018-01-08 | Pembrolizumab (NCT02362594) Phase 3 Trial Completion | [[2018-01-08-pembrolizumab-nct02362594-completed]] |
+| 2011-09-06 | NCT00875056 Phase 2 Trial Completion | [[2011-09-06-unknown-nct00875056-completed]] |
+| 2027-10-25 | Pembrolizumab (NCT02332668) Phase 1/2 Trial Completion | [[2027-10-25-pembrolizumab-nct02332668-completed]] |
+| 2027-05-04 | Pembrolizumab (NCT02628067) Phase 2 Trial Completion | [[2027-05-04-pembrolizumab-nct02628067-completed]] |
 
 ### Sources
 - `raw/edgar/merck/8k/2025-07-29-8K--25-071380.txt`
@@ -70,3 +71,4 @@ Merck & Co., Inc. announced strong third-quarter 2025 financial results with tot
 - `raw/edgar/merck/8K/2025-05-29-8K--25-054131.txt`
 - `raw/edgar/merck/8K/2025-10-30-8K--25-103974.txt`
 - `raw/edgar/merck/8K/2026-05-22-8K--26-037738.txt`
+- `raw/pubmed/durvalumab/2026-04-12/abstract-41082893.json`

@@ -151,8 +151,12 @@ def run_compiler_on_file(
     trial_buffer: dict | None = None,
     drug_buffer: dict | None = None,
     indication_buffer: dict | None = None,
-) -> None:
-    """Call the compiler agent on a single new file."""
+) -> tuple[Path, str, str] | None:
+    """Call the compiler agent on a single new file.
+    Returns (file_path, doc_type, company) on success so the caller can mark
+    it processed only after the flush succeeds. Returns None on timeout/error
+    (those are marked immediately since no signals were buffered).
+    """
     from agents.compiler import compile_document
 
     def get_date_from_filename(path: Path) -> str | None:
@@ -169,7 +173,7 @@ def run_compiler_on_file(
         logger.warning(f"ORCHESTRATOR | SKIP | Cannot classify: {file_path}")
         mark_file_processed(file_path, "unknown", "skipped_unknown_type")
         append_log(file_path, "skipped_unknown_type", "unknown")
-        return
+        return None
 
     context = {
         "doc_type": doc_type,
@@ -188,19 +192,22 @@ def run_compiler_on_file(
     executor.shutdown(wait=False)
     try:
         future.result(timeout=timeout)
-        mark_file_processed(file_path, doc_type, "success", company, drug)
-        append_log(file_path, "success", doc_type)
+        # Do NOT mark success here — deferred until after flush_buffered_pages() confirms
+        # wiki pages were actually written. See run_daily_pipeline().
         logger.info(f"ORCHESTRATOR | DONE | {file_path.name}")
+        return (file_path, doc_type, company, drug)
     except concurrent.futures.TimeoutError:
         timeout_msg = f"timeout: exceeded {timeout}s"
         mark_file_processed(file_path, doc_type, timeout_msg, company, drug)
         append_log(file_path, timeout_msg, doc_type)
         logger.warning(f"ORCHESTRATOR | TIMEOUT | {file_path.name} skipped after {timeout}s")
+        return None
     except Exception as e:
         error_msg = f"error: {str(e)[:100]}"
         mark_file_processed(file_path, doc_type, error_msg, company, drug)
         append_log(file_path, error_msg, doc_type)
         logger.error(f"ORCHESTRATOR | ERROR | {file_path}: {e}")
+        return None
 
 
 def _pick_subset(files: list[Path], limit: int) -> list[Path]:
@@ -251,11 +258,16 @@ def run_daily_pipeline(limit: int | None = None) -> None:
         drug_buffer:       dict = {}
         indication_buffer: dict = {}
 
+        # success entries deferred — only marked processed after flush confirms wiki writes
+        pending_success: list[tuple] = []
+
         for file_path in unprocessed:
-            run_compiler_on_file(
+            result = run_compiler_on_file(
                 file_path, extraction_caches, template_caches,
                 company_buffer, trial_buffer, drug_buffer, indication_buffer,
             )
+            if result is not None:
+                pending_success.append(result)
 
         # write all buffered pages in one parallel pass — one LLM call per entity
         total_signals = sum(
@@ -272,6 +284,13 @@ def run_daily_pipeline(limit: int | None = None) -> None:
             flush_buffered_pages(
                 company_buffer, trial_buffer, drug_buffer, indication_buffer, template_caches,
             )
+
+        # flush succeeded — now safe to mark all compiled files as processed
+        for file_path, doc_type, company, drug in pending_success:
+            mark_file_processed(file_path, doc_type, "success", company, drug)
+            append_log(file_path, "success", doc_type)
+        if pending_success:
+            logger.info(f"ORCHESTRATOR | Marked {len(pending_success)} file(s) as processed")
     else:
         logger.info("ORCHESTRATOR | No new files — skipping cache build")
 
@@ -327,7 +346,10 @@ if __name__ == "__main__":
             print("Usage: orchestrator.py [once|schedule|retry-timeouts] [--limit N]")
             sys.exit(1)
 
-    if cmd == "schedule":
+    if cmd in ("--help", "-h", "help"):
+        print("Usage: orchestrator.py [once|schedule|retry-timeouts] [--limit N]")
+        sys.exit(0)
+    elif cmd == "schedule":
         run_scheduled()
     elif cmd == "retry-timeouts":
         run_timeout_retry_pipeline()

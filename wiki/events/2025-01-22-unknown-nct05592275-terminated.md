@@ -1,0 +1,28 @@
+---
+event_type: trial_termination
+date: 2025-01-22
+drugs: [Ly3540378]
+companies: [eli-lilly]
+indications: [hf-htn]
+signal: bearish
+headline: Eli Lilly terminates Phase 2 trial (NCT05592275) for Ly3540378 in heart failure
+last_updated: 2026-04-07
+---
+
+## Eli Lilly terminates Phase 2 trial (NCT05592275) for Ly3540378 in heart failure
+
+**Date:** 2025-01-22 | **Type:** trial_termination | **Signal:** bearish
+
+### Summary
+Eli Lilly has terminated its Phase 2 clinical trial (NCT05592275) for the drug Ly3540378, which was investigating its use in heart failure. The trial, which had an actual enrollment of 332 participants, reached its primary completion date on January 22, 2025, before being terminated. This termination suggests potential issues with the drug's development.
+
+### Market implication
+The termination of a Phase 2 trial for Ly3540378 suggests potential concerns regarding the drug's efficacy or safety profile, which is a bearish signal for Eli Lilly's pipeline in the HF-HTN indication.
+
+### Affected entities
+- Drug: Ly3540378
+- Company: [[eli-lilly]]
+- Indication: [[hf-htn/_index]]
+
+### Sources
+- `raw/ctgov/eli-lilly/2026-04-07/NCT05592275.json`
