@@ -33,6 +33,8 @@ One paragraph per drug with notable management language.}
 |---|---|---|
 | YYYY-MM-DD | Description | [[event-slug]] |
 
+RULE: Only include events, earnings intelligence, and sources from documents filed BY this company (i.e. where the file path contains this company's slug). Do NOT add events or intelligence from another company's filings even if this company is mentioned as a collaborator, licensee, or partner in that document. Cross-company mentions belong only on that other company's page.
+
 ### Sources
 - `raw/edgar/{company-slug}/`
 
