@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { streamAsk } from '../api'
 
 const SparkIcon = () => (
@@ -8,7 +8,6 @@ const SparkIcon = () => (
   </svg>
 )
 
-// Derive a readable label for a tool call
 function toolLabel(name, input) {
   if (name === 'read_wiki_page') return `Reading ${input.page_path ?? '…'}`
   if (name === 'list_wiki_pages') return `Listing ${input.prefix || 'wiki'}…`
@@ -19,34 +18,55 @@ function toolLabel(name, input) {
 
 export default function AIBar({ indication, company, displayName }) {
   const [question, setQuestion] = useState('')
-  const [toolCalls, setToolCalls] = useState([])  // [{name, input, done}]
-  const [answer, setAnswer] = useState('')
+  // history = [{question, toolCalls: [{name, input, done}], answer, streaming}]
+  const [history, setHistory] = useState([])
   const [streaming, setStreaming] = useState(false)
   const inputRef = useRef(null)
+  const bottomRef = useRef(null)
+
+  // Scroll to bottom whenever history updates
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: 'smooth' })
+  }, [history])
+
+  const updateLast = (updater) =>
+    setHistory(prev => {
+      const next = [...prev]
+      next[next.length - 1] = updater(next[next.length - 1])
+      return next
+    })
 
   const submit = async q => {
     if (!q.trim() || streaming) return
     setStreaming(true)
-    setToolCalls([])
-    setAnswer('')
     setQuestion('')
+
+    // Append new entry — keep all previous entries intact
+    setHistory(prev => [...prev, { question: q, toolCalls: [], answer: '', streaming: true }])
 
     try {
       for await (const event of streamAsk(q, indication ?? null, company ?? null)) {
         if (event.type === 'tool_call') {
-          setToolCalls(prev => [...prev, { name: event.name, input: event.input, done: false }])
+          updateLast(entry => ({
+            ...entry,
+            toolCalls: [...entry.toolCalls, { name: event.name, input: event.input, done: false }],
+          }))
         } else if (event.type === 'tool_result') {
-          setToolCalls(prev =>
-            prev.map((t, i) => i === prev.length - 1 ? { ...t, done: true } : t)
-          )
+          updateLast(entry => {
+            const toolCalls = entry.toolCalls.map((t, i) =>
+              i === entry.toolCalls.length - 1 ? { ...t, done: true } : t
+            )
+            return { ...entry, toolCalls }
+          })
         } else if (event.type === 'text') {
-          setAnswer(prev => prev + event.content)
+          updateLast(entry => ({ ...entry, answer: entry.answer + event.content }))
         } else if (event.type === 'done') {
+          updateLast(entry => ({ ...entry, streaming: false }))
           setStreaming(false)
         }
       }
     } catch (err) {
-      setAnswer(`Error: ${err.message}`)
+      updateLast(entry => ({ ...entry, answer: `Error: ${err.message}`, streaming: false }))
       setStreaming(false)
     }
   }
@@ -58,26 +78,35 @@ export default function AIBar({ indication, company, displayName }) {
     `Key pipeline risks?`,
   ]
 
-  const hasResponse = toolCalls.length > 0 || answer || (streaming && !answer)
-
   return (
     <div className="ai-section">
-      {/* Response panel — shown once agent starts */}
-      {hasResponse && (
-        <div className="ai-response">
-          {toolCalls.length > 0 && (
-            <div className="tool-chips">
-              {toolCalls.map((t, i) => (
-                <span key={i} className={`tool-chip ${t.done ? 'done' : ''}`}>
-                  {t.done ? '✓' : '⟳'} {toolLabel(t.name, t.input)}
-                </span>
-              ))}
+      {/* Conversation history */}
+      {history.length > 0 && (
+        <div className="ai-history">
+          {history.map((entry, i) => (
+            <div key={i} className="ai-exchange">
+              {/* Question bubble */}
+              <div className="ai-question">{entry.question}</div>
+
+              {/* Response */}
+              <div className="ai-response">
+                {entry.toolCalls.length > 0 && (
+                  <div className="tool-chips">
+                    {entry.toolCalls.map((t, j) => (
+                      <span key={j} className={`tool-chip ${t.done ? 'done' : ''}`}>
+                        {t.done ? '✓' : '⟳'} {toolLabel(t.name, t.input)}
+                      </span>
+                    ))}
+                  </div>
+                )}
+                {entry.streaming && !entry.answer && (
+                  <div className="ai-thinking">Thinking…</div>
+                )}
+                {entry.answer && <div className="ai-text">{entry.answer}</div>}
+              </div>
             </div>
-          )}
-          {streaming && !answer && (
-            <div className="ai-thinking">Thinking…</div>
-          )}
-          {answer && <div className="ai-text">{answer}</div>}
+          ))}
+          <div ref={bottomRef} />
         </div>
       )}
 

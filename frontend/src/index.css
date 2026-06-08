@@ -292,6 +292,29 @@ body {
 
 .ai-section { margin-top: 4px; }
 
+.ai-history {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 12px;
+  max-height: 520px;
+  overflow-y: auto;
+}
+
+.ai-exchange { display: flex; flex-direction: column; gap: 8px; }
+
+.ai-question {
+  align-self: flex-end;
+  background: #1D9E75;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 8px 14px;
+  border-radius: 18px 18px 4px 18px;
+  max-width: 80%;
+  word-break: break-word;
+}
+
 .ai-response {
   background: #fff;
   border: 0.5px solid #e2e0d8;
