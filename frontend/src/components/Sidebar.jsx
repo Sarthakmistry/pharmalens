@@ -14,9 +14,9 @@ export default function Sidebar({
   const filteredIndications = indications.filter(i =>
     i.display_name.toLowerCase().includes(q) || i.slug.includes(q)
   )
-  const filteredCompanies = companies.filter(c =>
-    c.full_name.toLowerCase().includes(q) || c.slug.includes(q)
-  )
+  const filteredCompanies = companies
+    .filter(c => c.full_name.toLowerCase().includes(q) || c.slug.includes(q))
+    .sort((a, b) => a.full_name.localeCompare(b.full_name))
 
   return (
     <aside className="sidebar">
