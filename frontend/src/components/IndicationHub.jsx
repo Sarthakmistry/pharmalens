@@ -66,9 +66,11 @@ export default function IndicationHub({ slug, stocks, companies, onSelectCompany
         <>
           <p className="sec-label">Drugs in class</p>
           <div className="drug-grid">
-            {drugs.map((d, i) => (
-              <DrugCard key={i} drug={d} stock={stocks[d.ticker]} />
-            ))}
+            {drugs.map((d, i) => {
+              const co = companies.find(c => c.slug === d.company)
+              const drug = co ? { ...d, company: co.full_name } : d
+              return <DrugCard key={i} drug={drug} stock={stocks[d.ticker]} />
+            })}
           </div>
         </>
       )}
