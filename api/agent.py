@@ -11,6 +11,7 @@ server-sent event dicts that the FastAPI route streams to the client:
   {"type": "done",        "full_text": str}
 """
 
+import asyncio
 import json
 from typing import AsyncGenerator
 
@@ -22,7 +23,7 @@ from .tools import read_wiki_page, list_wiki_pages, get_stock_price
 
 load_dotenv()
 
-client = genai.Client()
+client = genai.Client(http_options=types.HttpOptions(timeout=60_000))
 FLASH_MODEL = "gemini-2.5-flash"
 MAX_TOOL_CALLS = 10
 
@@ -137,65 +138,71 @@ async def run_agent(
 
     full_text_parts: list[str] = []
 
-    for _ in range(MAX_TOOL_CALLS):
-        response = await client.aio.models.generate_content(
-            model=FLASH_MODEL,
-            contents=contents,
-            config=types.GenerateContentConfig(
-                system_instruction=SYSTEM_PROMPT,
-                tools=[TOOL_DECLARATIONS],
-                temperature=0.2,
-            ),
-        )
-
-        candidate = response.candidates[0]
-        function_calls: list = []
-        text_parts: list[str] = []
-
-        for part in candidate.content.parts:
-            if hasattr(part, "function_call") and part.function_call:
-                function_calls.append(part.function_call)
-            if hasattr(part, "text") and part.text:
-                text_parts.append(part.text)
-
-        if text_parts:
-            text = "".join(text_parts)
-            full_text_parts.append(text)
-            yield {"type": "text", "content": text}
-
-        if not function_calls:
-            break
-
-        # Append model turn before executing tools
-        contents.append(candidate.content)
-
-        tool_result_parts: list[types.Part] = []
-        for fc in function_calls:
-            fn_name = fc.name
-            fn_args = dict(fc.args) if fc.args else {}
-
-            yield {"type": "tool_call", "name": fn_name, "input": fn_args}
-
-            try:
-                raw = _dispatch(fn_name, fn_args)
-            except Exception as exc:
-                raw = f"Error: {exc}"
-
-            # Truncate very large results (wiki pages can be long)
-            if len(raw) > 8000:
-                raw = raw[:8000] + "\n...[truncated]"
-
-            yield {"type": "tool_result", "name": fn_name, "content": raw[:300]}
-
-            tool_result_parts.append(
-                types.Part(
-                    function_response=types.FunctionResponse(
-                        name=fn_name,
-                        response={"output": raw},
-                    )
-                )
+    try:
+        for _ in range(MAX_TOOL_CALLS):
+            response = await asyncio.wait_for(
+                client.aio.models.generate_content(
+                    model=FLASH_MODEL,
+                    contents=contents,
+                    config=types.GenerateContentConfig(
+                        system_instruction=SYSTEM_PROMPT,
+                        tools=[TOOL_DECLARATIONS],
+                        temperature=0.2,
+                        thinking_config=types.ThinkingConfig(thinking_budget=2048),
+                    ),
+                ),
+                timeout=60,
             )
 
-        contents.append(types.Content(role="user", parts=tool_result_parts))
+            candidate = response.candidates[0]
+            function_calls: list = []
+            text_parts: list[str] = []
+
+            for part in candidate.content.parts:
+                if hasattr(part, "function_call") and part.function_call:
+                    function_calls.append(part.function_call)
+                if hasattr(part, "text") and part.text:
+                    text_parts.append(part.text)
+
+            if text_parts:
+                text = "".join(text_parts)
+                full_text_parts.append(text)
+                yield {"type": "text", "content": text}
+
+            if not function_calls:
+                break
+
+            contents.append(candidate.content)
+
+            tool_result_parts: list[types.Part] = []
+            for fc in function_calls:
+                fn_name = fc.name
+                fn_args = dict(fc.args) if fc.args else {}
+
+                yield {"type": "tool_call", "name": fn_name, "input": fn_args}
+
+                try:
+                    raw = _dispatch(fn_name, fn_args)
+                except Exception as exc:
+                    raw = f"Error: {exc}"
+
+                if len(raw) > 8000:
+                    raw = raw[:8000] + "\n...[truncated]"
+
+                yield {"type": "tool_result", "name": fn_name, "content": raw[:300]}
+
+                tool_result_parts.append(
+                    types.Part(
+                        function_response=types.FunctionResponse(
+                            name=fn_name,
+                            response={"output": raw},
+                        )
+                    )
+                )
+
+            contents.append(types.Content(role="user", parts=tool_result_parts))
+
+    except asyncio.TimeoutError:
+        yield {"type": "text", "content": "\n\n_Request timed out after 60 seconds. Try a more specific question._"}
 
     yield {"type": "done", "full_text": "".join(full_text_parts)}
