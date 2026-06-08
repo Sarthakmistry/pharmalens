@@ -2,11 +2,11 @@
 indication: glp1-obesity
 display_name: GLP-1 / Obesity
 icd10: [E66, E66.0, E66.01, E66.09]
-drugs_approved: [dulaglutide, liraglutide, semaglutide, tirzepatide]
+drugs_approved: [dulaglutide, liraglutide, orforglipron, semaglutide, tirzepatide]
 drugs_pipeline: [retatrutide]
 companies_active: [amgen, astrazeneca, eli-lilly, novo-nordisk, pfizer, regeneron]
 active_trials: 39
-last_updated: 2024-06-04
+last_updated: 2026-06-08
 ---
 ## GLP-1 / Obesity
 
@@ -32,7 +32,7 @@ last_updated: 2024-06-04
 | Nnc0519-0130 | [[novo-nordisk]] | Pipeline | Neutral | NVO |
 | Nnc0662-0419 | [[novo-nordisk]] | Pipeline | Neutral | NVO |
 | Olatorepatide | [[regeneron]] | Pipeline | Neutral | REGN |
-| Orforglipron | [[eli-lilly]] | Pipeline | Neutral | LLY |
+| Orforglipron | [[eli-lilly]] | Approved | Bullish | LLY |
 | Pf-07976016 | [[pfizer]] | Pipeline | Neutral | PFE |
 | Pf-08653944 | [[pfizer]] | Pipeline | Neutral | PFE |
 | [[retatrutide]] | [[eli-lilly]] | Pipeline | Bullish | LLY |
