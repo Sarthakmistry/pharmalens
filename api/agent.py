@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
-from .tools import read_wiki_page, list_wiki_pages, get_stock_price
+from .tools import read_wiki_page, list_wiki_pages, get_stock_price, search_wiki
 
 load_dotenv()
 
@@ -37,10 +37,11 @@ Wiki layout:
 - events/<slug>.md              — individual corporate events (earnings, approvals, filings)
 
 Instructions:
-1. Always look up relevant wiki pages with read_wiki_page or list_wiki_pages before answering.
-2. Quote specific numbers, dates, and drug names from the wiki — do not hallucinate.
-3. For live stock data, call get_stock_price with the company's ticker (e.g. NVO, LLY).
-4. Be concise. One short paragraph per topic; bullet points for lists.
+1. Always look up relevant wiki pages before answering. Start with read_wiki_page for known paths.
+2. When you don't know the exact path (e.g. looking for an earnings event, NCT number, or specific drug mention), use search_wiki first — it returns matching file paths and snippets so you can then read_wiki_page the right file.
+3. Quote specific numbers, dates, and drug names from the wiki — do not hallucinate.
+4. For live stock data, call get_stock_price with the company's ticker (e.g. NVO, LLY).
+5. Be concise. One short paragraph per topic; bullet points for lists.
 """
 
 # ── Gemini tool declarations ──────────────────────────────────────────────────
@@ -97,6 +98,30 @@ TOOL_DECLARATIONS = types.Tool(
                 required=["ticker"],
             ),
         ),
+        types.FunctionDeclaration(
+            name="search_wiki",
+            description=(
+                "Full-text search across all wiki pages. Returns up to 20 matches "
+                "with the file path and a short snippet around the matching line. "
+                "Use this when you need to find a specific event, NCT number, drug name, "
+                "or any term without knowing the exact page path. "
+                "Optionally scope the search with a prefix (e.g. 'events', 'companies')."
+            ),
+            parameters=types.Schema(
+                type=types.Type.OBJECT,
+                properties={
+                    "query": types.Schema(
+                        type=types.Type.STRING,
+                        description="Search term or phrase, e.g. 'eli-lilly earnings 2026-04-30'",
+                    ),
+                    "prefix": types.Schema(
+                        type=types.Type.STRING,
+                        description="Optional sub-directory to search within, e.g. 'events'. Leave empty to search all.",
+                    ),
+                },
+                required=["query"],
+            ),
+        ),
     ]
 )
 
@@ -110,6 +135,9 @@ def _dispatch(name: str, args: dict) -> str:
         return json.dumps(result)
     if name == "get_stock_price":
         result = get_stock_price(args.get("ticker", ""))
+        return json.dumps(result)
+    if name == "search_wiki":
+        result = search_wiki(args.get("query", ""), args.get("prefix", ""))
         return json.dumps(result)
     return f"Unknown tool: {name}"
 

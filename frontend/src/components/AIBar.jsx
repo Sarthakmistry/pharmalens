@@ -13,6 +13,7 @@ function toolLabel(name, input) {
   if (name === 'read_wiki_page') return `Reading ${input.page_path ?? '…'}`
   if (name === 'list_wiki_pages') return `Listing ${input.prefix || 'wiki'}…`
   if (name === 'get_stock_price') return `Fetching ${input.ticker}…`
+  if (name === 'search_wiki') return `Searching wiki for "${input.query}"…`
   return name
 }
 

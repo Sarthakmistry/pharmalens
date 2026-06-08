@@ -40,6 +40,38 @@ def list_wiki_pages(prefix: str = "") -> list[str]:
     return sorted(pages)
 
 
+def search_wiki(query: str, prefix: str = "") -> list[dict]:
+    """Full-text search across wiki files. Returns [{path, snippet}] up to 20 matches."""
+    search_dir = WIKI_DIR / prefix if prefix else WIKI_DIR
+    if not search_dir.exists():
+        return [{"path": "", "snippet": f"Directory not found: {prefix}"}]
+    query_lower = query.lower()
+    results = []
+    for p in sorted(search_dir.rglob("*.md")):
+        if ".ipynb_checkpoints" in p.parts:
+            continue
+        try:
+            content = p.read_text()
+        except Exception:
+            continue
+        if query_lower not in content.lower():
+            continue
+        lines = content.splitlines()
+        for i, line in enumerate(lines):
+            if query_lower in line.lower():
+                start = max(0, i - 1)
+                end = min(len(lines), i + 3)
+                snippet = "\n".join(lines[start:end]).strip()
+                results.append({
+                    "path": str(p.relative_to(WIKI_DIR)),
+                    "snippet": snippet[:400],
+                })
+                break  # one snippet per file
+        if len(results) >= 20:
+            break
+    return results
+
+
 def get_stock_price(ticker: str) -> dict:
     """Return current price, change, and % change for a ticker via yfinance."""
     try:
