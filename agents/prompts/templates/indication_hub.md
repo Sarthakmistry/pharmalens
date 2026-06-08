@@ -40,6 +40,8 @@ For private companies (boehringer-ingelheim, eisai co-development partners, etc.
 |---|---|---|
 | YYYY-MM-DD | {description} | [[event-slug]] |
 
+RULE: Recent events must ALWAYS be sorted by date descending (newest row first). When adding new events, insert at the top.
+
 ### Active trials
 | Trial | Drug | Phase | Status |
 |---|---|---|---|

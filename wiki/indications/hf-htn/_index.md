@@ -2,11 +2,11 @@
 indication: hf-htn
 display_name: Heart Failure / Hypertension
 icd10: [I50, I50.1, I50.2, I10, I11]
-drugs_approved: [semaglutide, liraglutide, dapagliflozin, canagliflozin, sacubitril-valsartan, inclisiran, finerenone, empagliflozin]
-drugs_pipeline: [cagrilintide, AZD5462, maridebart cafraglutide]
-companies_active: [novo-nordisk, astrazeneca, johnson-and-johnson, novartis, bayer, biogen, abbvie, amgen]
-active_trials: 4
-last_updated: 2026-05-18
+drugs_approved: [semaglutide, liraglutide, dapagliflozin, canagliflozin, sacubitril-valsartan, inclisiran, finerenone, empagliflozin, tirzepatide, dulaglutide]
+drugs_pipeline: [cagrilintide, AZD5462, maridebart cafraglutide, Baxdrostat, Acalabrutinib, Vericiguat, Bardoxolone methyl, Ly3540378, Orforglipron, Bms-986435, Frespaciguat, Sotatercept, Ltp001, Xxb750 drug, Xxb750, Lcz, Ltp, Qcz484, Ziltivekimab, Cdr132l, Ponsegromab, Pf-07868489, Pf-07328948, Regn5381, Regn13335]
+companies_active: [novo-nordisk, astrazeneca, johnson-and-johnson, novartis, bayer, biogen, abbvie, amgen, eli-lilly, bristol-mybs-squibb, merck, pfizer, regeneron]
+active_trials: 32
+last_updated: 2024-07-30
 ---
 
 ## Heart Failure / Hypertension
@@ -22,21 +22,58 @@ last_updated: 2026-05-18
 | [[inclisiran]] | [[novartis]] | Approved | Neutral | NVS |
 | [[finerenone]] | [[bayer]] | Approved | Neutral | BAYRY |
 | empagliflozin | Boehringer Ingelheim | Approved | Neutral | |
+| [[tirzepatide]] | [[eli-lilly]] | Approved | Bullish | LLY |
+| [[dulaglutide]] | [[eli-lilly]] | Approved | Neutral | LLY |
 | cagrilintide | [[novo-nordisk]] | Pipeline | Bullish | NVO |
 | AZD5462 | [[astrazeneca]] | Pipeline | Neutral | AZN |
-| Maridebart cafraglutide | [[amgen]] | Pipeline | Neutral | AMGN |
+| maridebart cafraglutide | [[amgen]] | Pipeline | Neutral | AMGN |
+| Baxdrostat | [[astrazeneca]] | Pipeline | Neutral | AZN |
+| Acalabrutinib | [[astrazeneca]] | Pipeline | Neutral | AZN |
+| Vericiguat | [[bayer]] | Pipeline | Neutral | BAYRY |
+| Bardoxolone methyl | [[biogen]] | Pipeline | Neutral | BIIB |
+| Bms-986435 | [[bristol-myers-squibb]] | Pipeline | Neutral | BMY |
+| Ly3540378 | [[eli-lilly]] | Pipeline | Neutral | LLY |
+| Orforglipron | [[eli-lilly]] | Pipeline | Neutral | LLY |
+| Frespaciguat | [[merck]] | Pipeline | Neutral | MRK |
+| Sotatercept | [[eli-lilly]] | Pipeline | Neutral | LLY |
+| Sotatercept | [[merck]] | Pipeline | Neutral | MRK |
+| Ltp001 | [[novartis]] | Pipeline | Neutral | NVS |
+| Xxb750 drug | [[novartis]] | Pipeline | Neutral | NVS |
+| Xxb750 | [[novartis]] | Pipeline | Neutral | NVS |
+| Lcz | [[novartis]] | Pipeline | Neutral | NVS |
+| Ltp | [[novartis]] | Pipeline | Neutral | NVS |
+| Qcz484 | [[novartis]] | Pipeline | Neutral | NVS |
+| Ziltivekimab | [[novo-nordisk]] | Pipeline | Neutral | NVO |
+| Cdr132l | [[novo-nordisk]] | Pipeline | Neutral | NVO |
+| Ponsegromab | [[pfizer]] | Pipeline | Neutral | PFE |
+| Pf-07868489 | [[pfizer]] | Pipeline | Neutral | PFE |
+| Pf-07328948 | [[pfizer]] | Pipeline | Neutral | PFE |
+| Regn5381 | [[regeneron]] | Pipeline | Neutral | REGN |
+| Regn13335 | [[regeneron]] | Pipeline | Neutral | REGN |
 
 ### Companies
 | Company | Drugs | Latest event |
 |---|---|---|
-| [[novo-nordisk]] | semaglutide, liraglutide, cagrilintide | CagriSema (semaglutide/cagrilintide) shows clinically relevant BP reductions in RCT |
-| [[astrazeneca]] | dapagliflozin, AZD5462 | Dapagliflozin did not reduce early recurrence of arrhythmia after catheter ablation in persistent AF. |
+| [[novo-nordisk]] | semaglutide, liraglutide, cagrilintide, Ziltivekimab, Cdr132l | CagriSema (semaglutide/cagrilintide) shows clinically relevant BP reductions in RCT |
+| [[eli-lilly]] | tirzepatide, dulaglutide, Ly3540378, Orforglipron, Sotatercept | Trial NCT04945460 for Sotatercept completed by [[eli-lilly]] |
+| [[bristol-myers-squibb]] | Bms-986435 | {latest event} |
+| [[merck]] | Frespaciguat, Sotatercept, Vericiguat | Trial NCT06664801 for Sotatercept completed by [[merck]] |
+| [[pfizer]] | Ponsegromab, Pf-07868489, Pf-07328948 | Trial NCT05492500 for Ponsegromab terminated by [[pfizer]] |
+| [[roche]] | | {latest event} |
+| [[astrazeneca]] | dapagliflozin, AZD5462, Baxdrostat, Acalabrutinib | Dapagliflozin did not reduce early recurrence of arrhythmia after catheter ablation in persistent AF. |
+| [[novartis]] | sacubitril-valsartan, inclisiran, Ltp001, Xxb750 drug, Xxb750, Lcz, Ltp, Qcz484 | Trial NCT06236061 for Lcz completed by [[novartis]] |
 | [[johnson-and-johnson]] | canagliflozin | SGLT2i meta-analysis highlights canagliflozin benefit |
-| [[novartis]] | sacubitril-valsartan, inclisiran | {latest event} |
-| [[bayer]] | finerenone | {latest event} |
-| [[biogen]] | | Trial NCT02036970 completed |
-| [[abbvie]] | | Trial NCT03850782 completed |
-| [[amgen]] | Maridebart cafraglutide | {latest event} |
+| [[abbvie]] | | Trial NCT03850782 for unknown drug completed by AbbVie |
+| [[amgen]] | maridebart cafraglutide | {latest event} |
+| [[gilead]] | | {latest event} |
+| [[biogen]] | Bardoxolone methyl | Trial NCT03068130 for Bardoxolone methyl terminated by [[biogen]] |
+| [[regeneron]] | Regn5381, Regn13335 | Trial NCT06833190 for Regn5381 terminated by [[regeneron]] |
+| [[vertex]] | | {latest event} |
+| [[sanofi]] | | {latest event} |
+| [[gsk]] | | {latest event} |
+| [[takeda]] | | {latest event} |
+| [[eisai]] | | {latest event} |
+| [[bayer]] | finerenone, Vericiguat | Trial NCT06195930 for Vericiguat completed by [[bayer]] |
 
 ### Recent events
 | Date | Event | Signal |
@@ -52,10 +89,45 @@ last_updated: 2026-05-18
 | 2026-04-12 | Substudy of DAPA-HF trial on VCAM-1 levels and dapagliflozin benefit published | pubmed_result |
 | 2026-04-12 | Meta-analysis finds SGLT2i significantly lower the risk of HF hospitalization and new HF diagnoses among cancer patients and survivors. | pubmed_result |
 | 2026-04-12 | Dapagliflozin shows clinically meaningful improvements in HF patients regardless of EF or baseline eGFR | pubmed_result |
-| 2026-04-12 | CagriSema (semaglutide/cagrilintide) shows clinically relevant BP reductions in RCT | pubmed_result |
 | 2026-04-12 | Biomarker study for HF hospitalization published | pubmed_result |
+| 2026-02-01 | CagriSema (semaglutide/cagrilintide) shows clinically relevant BP reductions in RCT | pubmed_result |
+| 2025-11-20 | Trial NCT06664801 for Sotatercept completed by [[merck]] | [[2025-11-20-unknown-nct06664801-completed]] |
+| 2025-10-15 | Trial NCT06833190 for Regn5381 terminated by [[regeneron]] | [[2025-10-15-regn5381-nct06833190-terminated]] |
+| 2025-09-17 | Trial NCT06237309 for Regn5381 terminated by [[regeneron]] | [[2025-09-17-regn5381-nct06237309-terminated]] |
+| 2025-09-05 | Trial NCT04945460 for Sotatercept completed by [[eli-lilly]] | [[2025-09-05-unknown-nct04945460-completed]] |
 | 2025-08-08 | Trial NCT03850782 for unknown drug completed by AbbVie | [[2025-08-08-unknown-nct03850782-completed]] |
 | 2025-08-05 | Dapagliflozin reduced the occurrence of new-onset T2DM following myocardial infarction, regardless of baseline hemoglobin A1c or BMI. Dapagliflozin provided greater reduction in heart failure symptom burden in those with prediabetes compared with normoglycemia. | pubmed_result |
+| 2025-07-29 | Trial NCT06195930 for Vericiguat completed by [[bayer]] | [[2024-07-29-unknown-nct06195930-completed]] |
+| 2025-07-02 | Trial NCT04847557 for [[tirzepatide]] completed by [[eli-lilly]] | [[2024-07-02-tirzepatide-nct04847557-completed]] |
+| 2025-06-02 | Trial NCT05353166 for Regn5381 completed by [[regeneron]] | [[2025-06-02-regn5381-nct05353166-completed]] |
+| 2025-05-28 | Trial NCT06236061 for Lcz completed by [[novartis]] | [[2025-05-28-unknown-nct06236061-completed]] |
+| 2025-04-03 | Trial NCT04811092 for Sotatercept terminated by [[eli-lilly]] | [[2025-04-03-unknown-nct04811092-terminated]] |
+| 2025-03-16 | Trial NCT04023227 for Sacubitril/valsartan completed by [[novartis]] | [[2025-03-16-sacubitril-valsartan-nct04023227-completed]] |
+| 2025-03-05 | Trial NCT05492500 for Ponsegromab terminated by [[pfizer]] | [[2025-03-05-ponsegromab-nct05492500-terminated]] |
+| 2025-01-22 | Trial NCT05592275 for Ly3540378 terminated by [[eli-lilly]] | [[2025-01-22-unknown-nct05592275-terminated]] |
+| 2025-01-01 | Dapagliflozin may enhance diuresis and reduce loop diuretic requirements in critically ill patients, potentially at the cost of increased vasopressor needs. | pubmed_result |
+| 2025-01-01 | Systematic Review and Network Meta-Analysis on T2D and HF treatments published | pubmed_result |
+| 2025-01-01 | Study on oral medication use and frequency in ATTR-CM patients, including acoramidis | pubmed_result |
+| 2025-01-01 | Study on SCAF progression and stroke risk with aspirin, supporting anticoagulant use | pubmed_result |
+| 2025-01-01 | Clinical trial results for apixaban in Heart Failure published | pubmed_result |
+| 2024-11-20 | Trial NCT05093933 for Vericiguat completed by [[merck]] | [[2024-11-20-unknown-nct05093933-completed]] |
+| 2024-11-01 | Trial NCT06142383 for Xxb750 terminated by [[novartis]] | [[2024-11-01-unknown-nct06142383-terminated]] |
+| 2024-08-14 | Trial NCT06149104 for Sacubitril/valsartan completed by [[novartis]] | [[2024-08-14-unknown-nct06149104-completed]] |
+| 2024-07-26 | Trial NCT04896008 for Sotatercept completed by [[eli-lilly]] | [[2024-07-26-unknown-nct04896008-completed]] |
+| 2024-07-02 | Trial NCT05562934 for Xxb750 drug completed by [[novartis]] | [[2024-07-02-unknown-nct05562934-completed]] |
+| 2024-05-15 | Trial NCT04435626 for [[finerenone]] completed by [[bayer]] | [[2024-05-15-finerenone-nct04435626-completed]] |
+| 2024-04-26 | Trial NCT05764265 for Ltp001 terminated by [[novartis]] | [[2024-04-26-unknown-nct05764265-terminated]] |
+| 2024-03-20 | Trial NCT05135000 for Ltp001 terminated by [[novartis]] | [[2024-03-20-unknown-nct05135000-terminated]] |
+| 2024-03-12 | Trial NCT05818137 for Sotatercept completed by [[merck]] | [[2024-03-12-unknown-nct05818137-completed]] |
+| 2024-01-04 | Trial NCT04732221 for Frespaciguat completed by [[merck]] | [[2024-01-04-unknown-nct04732221-completed]] |
+| 2023-12-29 | Trial NCT03785405 for Sacubitril/valsartan completed by [[novartis]] | [[2023-12-29-unknown-nct03785405-completed]] |
+| 2023-10-11 | Trial NCT04916470 for [[semaglutide]] completed by [[novo-nordisk]] | [[2023-10-11-semaglutide-nct04916470-completed]] |
+| 2023-06-08 | Trial NCT04491136 for unknown drug terminated by [[novartis]] | [[2023-06-08-unknown-nct04491136-terminated]] |
+| 2020-09-30 | Trial NCT03068130 for Bardoxolone methyl terminated by [[biogen]] | [[2020-09-30-unknown-nct03068130-terminated]] |
+| 2020-05-07 | Trial NCT02657356 for Bardoxolone methyl terminated by [[biogen]] | [[2020-05-07-unknown-nct02657356-terminated]] |
+| 2018-01-19 | Trial NCT02036970 for unknown drug completed by Biogen | [[2018-01-19-unknown-nct02036970-completed]] |
+| 2026 | GLP-1 receptor agonists have limited absolute benefit for preventing HF events in patients with type 2 diabetes and/or obesity, including in those without baseline HF. | pubmed_result |
+| 2026 | Incretin-based therapy led to a modest but clinically meaningful BP reduction and lower all-cause mortality in adults with overweight or obesity, without excess in hypoglycaemia or pancreatitis episodes. | pubmed_result |
 | 2025 | Post-urination external genital cleaning significantly improves [[dapagliflozin]] medication adherence in male heart failure patients. | pubmed_result |
 | 2025 | The survival proportional odds model was more robust to heterogeneity and demonstrated higher power compared with traditional Cox regression in high heterogeneity populations. (Circulation. Heart failure) | pubmed_result |
 | 2025 | [[dapagliflozin]] did not show additional benefit in health status after TAVI compared to standard care (DapaTAVI; NCT04696185). | pubmed_result |
@@ -67,22 +139,102 @@ last_updated: 2026-05-18
 | 2025 | Meta-analysis finds SGLT2i class effects include ACM, ACH, and HHF reduction. Canagliflozin showed greatest ACM, CVD, and HHF benefit. | pubmed_result |
 | 2025 | Dapagliflozin significantly reduced effective regurgitant orifice area (EROA) of FMR and enhanced myocardial remodelling. | pubmed_result |
 | 2025 | Meta-analysis finds SGLT2 inhibitors have no significant effect on nervous system disorders, but notes Parkinson's benefit and safety risks for empagliflozin/dapagliflozin. | pubmed_result |
-| 2025-01-01 | Dapagliflozin may enhance diuresis and reduce loop diuretic requirements in critically ill patients, potentially at the cost of increased vasopressor needs. | pubmed_result |
-| 2025-01-01 | Systematic Review and Network Meta-Analysis on T2D and HF treatments published | pubmed_result |
-| 2025-01-01 | Study on oral medication use and frequency in ATTR-CM patients, including acoramidis | pubmed_result |
-| 2025-01-01 | Study on SCAF progression and stroke risk with aspirin, supporting anticoagulant use | pubmed_result |
-| 2025-01-01 | Clinical trial results for apixaban in Heart Failure published | pubmed_result |
-| 2018-01-19 | Trial NCT02036970 for unknown drug completed by Biogen | [[2018-01-19-unknown-nct02036970-completed]] |
+| 2025 | Semaglutide demonstrated the most favorable outcome in reducing BNP levels. | pubmed_result |
+| 2025 | All obesity management medications (OMMs) significantly reduced total body weight compared to placebo (P < 0.0001). | pubmed_result |
+| 2025 | Tirzepatide likely results in a greater percentage reduction in body weight from baseline (MD -16.03) over 12 to 18 months. | pubmed_result |
+| 2025 | Bariatric surgery was associated with lower risks of mortality and cardiovascular outcomes compared to GLP-1RA therapy. | pubmed_result |
+| 2025 | GLP-1 RAs provide significant benefits for patients with HFpEF or HFmrEF, with semaglutide offering more advantages than tirzepatide and exenatide. | pubmed_result |
+| 2025 | GLP-1 RAs reduce mortality and MACE in high-risk populations, highlighting benefits beyond glycemic control. | pubmed_result |
+| 2025 | Despite less pronounced weight loss, patients with HFpEF, obesity, and type 2 diabetes responded favorably to tirzepatide. | pubmed_result |
+| 2025 | All OMMs (orlistat, semaglutide, liraglutide, tirzepatide, naltrexone/bupropion, phentermine/topiramate) showed significantly greater total body weight loss (TBWL%) versus placebo. | pubmed_result |
+| 2025 | Tirzepatide had a neutral effect on the overall risk for heart failure (RR 0.63 [95% CI 0.35-1.13]) compared with placebo or other active glucose-lowering drugs. | pubmed_result |
+| 2025 | In patients with cardiovascular or renal disease, GLP-1RAs and tirzepatide provide consistent cardiovascular and renal protection, with a possible benefit in reducing hospitalization for heart failure among individuals with obesity. | pubmed_result |
 
 ### Active trials
 | Trial | Drug | Phase | Status |
 |---|---|---|---|
-| NCT07037459 | Maridebart cafraglutide | 3 | RECRUITING |
-| NCT04499248 | unknown | 2 | RECRUITING |
 | NCT03891446 | unknown | 3 | ACTIVE_NOT_RECRUITING |
 | NCT03982381 | [[dapagliflozin]] | 3 | Ongoing |
+| NCT04499248 | unknown | 1/2 | ACTIVE_NOT_RECRUITING |
+| NCT05636176 | Ziltivekimab | 3 | RECRUITING |
+| NCT06137742 | Pf-07868489 | 1/2 | ACTIVE_NOT_RECRUITING |
+| NCT06122779 | Bms-986435 | 2 | RECRUITING |
+| NCT06200207 | Ziltivekimab | 3 | RECRUITING |
+| NCT06268873 | [[dapagliflozin]] | 3 | ACTIVE_NOT_RECRUITING |
+| NCT06307652 | [[dapagliflozin]] | 3 | RECRUITING |
+| NCT06344104 | Baxdrostat | 3 | ACTIVE_NOT_RECRUITING |
+| NCT06649110 | Ltp | 1/2 | RECRUITING |
+| NCT06651970 | Acalabrutinib | 4 | RECRUITING |
+| NCT06677060 | [[dapagliflozin]] | 3 | RECRUITING |
+| NCT06742723 | [[dapagliflozin]] | 3 | RECRUITING |
+| NCT06814145 | Sotatercept | 2 | RECRUITING |
+| NCT06857955 | Qcz484 | 2 | RECRUITING |
+| NCT06925750 | Sotatercept | 2 | ACTIVE_NOT_RECRUITING |
+| NCT06948422 | Orforglipron | 3 | ACTIVE_NOT_RECRUITING |
+| NCT06948435 | Orforglipron | 3 | ACTIVE_NOT_RECRUITING |
+| NCT06952530 | Orforglipron | 3 | ACTIVE_NOT_RECRUITING |
+| NCT06979362 | Cdr132l | 2 | RECRUITING |
+| NCT06979375 | Cdr132l | 2 | RECRUITING |
+| NCT06991257 | Pf-07328948 | 2 | RECRUITING |
+| NCT07037459 | Maridebart cafraglutide | 3 | RECRUITING |
+| NCT07073820 | Pf-07868489 | 2 | RECRUITING |
+| NCT07188805 | [[finerenone]] | 3 | RECRUITING |
+| NCT07218029 | Sotatercept | 3 | RECRUITING |
+| NCT07222917 | [[dapagliflozin]] | 2 | RECRUITING |
+| NCT07318597 | Regn13335 | 2 | RECRUITING |
+| NCT05587712 | Sotatercept | 2 | RECRUITING |
+| NCT05612035 | Frespaciguat | 2 | ACTIVE_NOT_RECRUITING |
+| NCT05714085 | Vericiguat | 2/3 | RECRUITING |
 
 ### Clinical Evidence
+
+#### European journal of preventive cardiology, 2026 (None)
+*   **Study design:** meta-analysis
+*   **Sample size:** 90977 participants
+*   **Comparator:** placebo
+*   **Primary outcome:** change in SBP
+*   **Primary result:** GLP1-RAs reduced SBP by 3.4 mmHg (95% CI 2.8-4.0)
+*   **Secondary results:**
+    *   GLP1-RAs reduced DBP by 0.9 mmHg (95% CI 0.5-1.2)
+    *   All-cause mortality was reduced by 18% (RR 0.82, 95% CI 0.76-0.90)
+    *   Incretin-based therapy did not increase the risk of hypoglycaemia (RR 1.05, 95% CI 0.83-1.33)
+    *   Incretin-based therapy did not increase the risk of pancreatitis (RR 0.84, 95% CI 0.61-1.15)
+    *   Dual receptor agonists reduced SBP by 5.1 mmHg and DBP by 1.8 mmHg
+    *   Triple receptor agonists reduced SBP by 6.6 mmHg and DBP by 2.1 mmHg
+*   **Safety:** Incretin-based therapy did not increase the risk of hypoglycaemia (RR 1.05, 95% CI 0.83-1.33) or pancreatitis (RR 0.84, 95% CI 0.61-1.15).
+*   **Conclusions:** Incretin-based therapy led to a modest but clinically meaningful BP reduction and lower all-cause mortality in adults with overweight or obesity, without excess in hypoglycaemia or pancreatitis episodes. There was a significant association between weight loss and the reduction in SBP and DBP. Dual and triple agonists exhibited the most pronounced antihypertensive effect. These findings support the use of incretin-based therapies as part of an integrated and multidisciplinary approach to managing obesity and hypertension, with multiple agonists showing particular promise. Our findings also underscore the need for long-term RCTs to clarify weight-independent mechanisms and the durability effect of BP reduction.
+*   **Journal:** European journal of preventive cardiology, 2026
+*   **Industry sponsored:** None
+
+#### ESC heart failure, 2026 (None)
+*   **Study design:** meta-analysis
+*   **Sample size:** 95023 patients
+*   **Comparator:** placebo
+*   **Primary outcome:** HF event endpoint
+*   **Primary result:** GLP-1 receptor agonists reduced HF events by 12% (RR 0.88, 95% CI 0.82-0.95; ARR 0.42%, 95% CI 0.17%-0.62%; NNT 238, 95% CI 161-588)
+*   **Secondary results:**
+    *   GLP-1 receptor agonists reduced HF events by 19% in those without baseline HF (RR 0.81, 95% CI 0.72-0.90; ARR 0.60%, 95% CI 0.32%-0.89%; NNT 167, 95% CI 113-313)
+    *   Semaglutide reduced the risk of HF events by 16% (RR 0.84, 95% CI 0.74-0.95; ARR 0.62%, 95% CI 0.19%-1.00%; NNT 161, 95% CI 100-526)
+    *   Semaglutide reduced the risk of HF events by 31% in those without baseline HF (RR 0.69, 95% CI 0.55-0.88; ARR 1.25%, 95% CI 0.48%-1.82%; NNT 80, 95% CI 55-208)
+*   **Safety:** None
+*   **Conclusions:** GLP-1 receptor agonists have limited absolute benefit for preventing HF events in patients with type 2 diabetes and/or obesity, including in those without baseline HF.
+*   **Journal:** ESC heart failure, 2026
+*   **Industry sponsored:** None
+
+#### Hypertension (Dallas, Tex. : 1979), 2026 (Industry sponsored)
+*   **Study design:** RCT
+*   **Sample size:** 3417 participants
+*   **Comparator:** placebo
+*   **Primary outcome:** Changes from baseline to week 68 in blood pressure (BP)
+*   **Primary result:** Changes from baseline to week 68 in blood pressure (BP) were greater with CagriSema versus placebo (systolic BP: -10.9 versus -2.8 mm Hg; diastolic BP: -5.4 versus -1.7 mm Hg, respectively).
+*   **Secondary results:**
+    *   The proportion of participants reaching BP targets at week 68 was 63.0% and 32.0% for CagriSema and placebo, respectively.
+    *   The proportion of participants with resistant hypertension at baseline (n=167) that reached BP targets at week 68 was 42.0% and 29.3% for CagriSema and placebo, respectively (odds ratio, 1.7 [95% CI, 0.7-4.4]).
+    *   Among participants who used antihypertensive medication during the study, 39.6% in the CagriSema group decreased or stopped treatment from week 0 to week 68 versus 18.8% with placebo.
+*   **Safety:** None
+*   **Conclusions:** CagriSema presents clinically relevant reductions in BP across a wide range of participant subgroups, including those with resistant hypertension.
+*   **Journal:** Hypertension (Dallas, Tex. : 1979), 2026
+*   **Industry sponsored:** True
 
 #### European journal of clinical pharmacology, 2026 (None)
 *   **Study design:** RCT
@@ -292,6 +444,8 @@ last_updated: 2026-05-18
 *   **Secondary results:** []
 *   **Safety:** Safety analysis indicated that LICO and IPRA had the lowest incidence of adverse events. GLIM was associated with an increased risk of hypoglycemia, whereas DAPA was linked to a higher risk of urinary tract infections.
 *   **Conclusions:** SEMA significantly improves both metabolic control and BNP levels, making it suitable for patients requiring comprehensive management of metabolic abnormalities and heart failure. LICO offers a distinct advantage in weight management, particularly benefiting individuals with obesity. DAPA demonstrates notable efficacy in optimizing HbA1c and LVEF, making it a preferred option for patients needing more intensive cardiac support. Despite its moderate efficacy, GLIM remains a viable choice for certain patients due to its favorable safety profile and cost-effectiveness. Collectively, these findings provide essential evidence-based insights to guide individualized therapeutic strategies in type 2 diabetes complicated by heart failure.
+*   **Journal:** Frontiers in endocrinology, 2025
+*   **Industry sponsored:** None
 
 #### JAMA cardiology, 2025 (Industry sponsored)
 *   **Study design:** RCT
@@ -304,6 +458,8 @@ last_updated: 2026-05-18
     *   There was no significant change in VCAM-1 level with dapagliflozin at 52 weeks.
 *   **Safety:** None
 *   **Conclusions:** Results of this substudy of the DAPA-HF randomized clinical trial demonstrate that higher VCAM-1 levels, possibly reflecting a distinct inflammatory/immune pathophysiological pathway in HFrEF, were associated with worse outcomes, even after adjustment for conventional prognostic variables.
+*   **Journal:** JAMA cardiology, 2025
+*   **Industry sponsored:** True
 
 #### European review for medical and pharmacological sciences, 2025 (None)
 *   **Study design:** RCT
@@ -322,6 +478,8 @@ last_updated: 2026-05-18
     *   composite clinical outcome (HR 0.65, 95% CI: 0.43-0.98, p = 0.043)
 *   **Safety:** None
 *   **Conclusions:** Dapagliflozin emerges as a potential therapy for patients with left ventricular dysfunction, enhancing LV systolic function and diastolic performance, alongside a favorable clinical response. Future studies with more extensive assessment of right ventricular function and longer follow-up are warranted.
+*   **Journal:** European review for medical and pharmacological sciences, 2025
+*   **Industry sponsored:** None
 
 #### Diabetes research and clinical practice, 2025 (None)
 *   **Study design:** systematic review, meta-analysis
@@ -335,6 +493,8 @@ last_updated: 2026-05-18
     *   Canagliflozin ranked highest in decreasing HHF (p-score = 0.88).
 *   **Safety:** None
 *   **Conclusions:** In patients with HF and T2DM, SGLT2i class effects include ACM, ACH, and HHF reduction. Among SGLT2i, canagliflozin showed greatest ACM, CVD, and HHF benefit.
+*   **Journal:** Diabetes research and clinical practice, 2025
+*   **Industry sponsored:** None
 
 #### ESC heart failure, 2025 (None)
 *   **Study design:** RCT
@@ -352,6 +512,8 @@ last_updated: 2026-05-18
     *   Cardiovascular death occurred in 1.9% of the dapagliflozin group compared to 3.8% of the control group (hazard ratio, 0.49; 95% CI, 0.04-5.41; P = 0.561)
 *   **Safety:** Hospitalization for heart failure and cardiovascular death rates were numerically lower in the dapagliflozin group, though not statistically significant over the 3-month follow-up.
 *   **Conclusions:** Dapagliflozin demonstrates the potential to further reduce the degree of MR and enhance myocardial remodelling in patients with FMR when used in addition to current GDMT. These findings suggest the importance of SGLT2i in heart failure patients with FMR as an additive positive effect on echocardiographic parameter and possibly outcome.
+*   **Journal:** ESC heart failure, 2025
+*   **Industry sponsored:** None
 
 #### European journal of preventive cardiology, 2026 (None)
 *   **Study design:** Systematic Review | Meta-Analysis
@@ -363,6 +525,8 @@ last_updated: 2026-05-18
     *   Multi-variate meta-regression analysis suggested that among breast cancer populations, studies with ≥50% of patients on anthracyclines exhibited a 99% reduction in HF hospitalization risk compared with similar studies that included <50% of patients on anthracyclines (RR 0.0085, 95% CI: 0.0001-0.2645, P = 0.0081).
 *   **Safety:** None
 *   **Conclusions:** SGLT2i significantly lower the risk of HF hospitalization and new HF diagnoses among cancer patients and survivors, with particularly pronounced benefits in breast cancer patients receiving anthracycline-based chemotherapy. These findings support the need for prospective trials to further investigate the integration of SGLT2i into cancer patient management to enhance cardiovascular outcomes.
+*   **Journal:** European journal of preventive cardiology, 2026
+*   **Industry sponsored:** None
 
 #### The Annals of pharmacotherapy, 2025 (None)
 *   **Study design:** meta-analysis
@@ -375,6 +539,8 @@ last_updated: 2026-05-18
     *   Empagliflozin and dapagliflozin significantly increased the risk of syncope (RR = 1.65; 95% CI = 1.15-2.38; P < 0.01) and carotid artery occlusion/carotid artery stenosis (RR = 1.65; 95% CI = 1.04-2.61; P = 0.03), respectively.
 *   **Safety:** Empagliflozin and dapagliflozin significantly increased the risk of syncope (RR = 1.65; 95% CI = 1.15-2.38; P < 0.01) and carotid artery occlusion/carotid artery stenosis (RR = 1.65; 95% CI = 1.04-2.61; P = 0.03), respectively.
 *   **Conclusions:** No significant effect of SGLT2 inhibitors on nervous system disorders was observed. There was reduced risk for Parkinson's Disease observed in some specific populations. In addition, the risks of empagliflozin and dapagliflozin concerning syncope and carotid artery occlusion/carotid artery stenosis are worth attention.
+*   **Journal:** The Annals of pharmacotherapy, 2025
+*   **Industry sponsored:** None
 
 #### ESC heart failure, 2025 (None)
 *   **Study design:** RCT
@@ -388,19 +554,8 @@ last_updated: 2026-05-18
     *   P interaction for eGFR categories was 0.46, and for eGFR as a continuous variable was 0.48, indicating consistent benefits regardless of eGFR.
 *   **Safety:** None
 *   **Conclusions:** Dapagliflozin led to early and clinically meaningful improvements in health status in HF patients, regardless of EF or baseline eGFR.
-
-#### Hypertension (Dallas, Tex. : 1979), 2026 (Industry sponsored)
-*   **Study design:** RCT
-*   **Sample size:** 3417 participants
-*   **Comparator:** placebo
-*   **Primary outcome:** Changes from baseline to week 68 in blood pressure (BP)
-*   **Primary result:** Changes from baseline to week 68 in blood pressure (BP) were greater with CagriSema versus placebo (systolic BP: -10.9 versus -2.8 mm Hg; diastolic BP: -5.4 versus -1.7 mm Hg, respectively).
-*   **Secondary results:**
-    *   The proportion of participants reaching BP targets at week 68 was 63.0% and 32.0% for CagriSema and placebo, respectively.
-    *   The proportion of participants with resistant hypertension at baseline (n=167) that reached BP targets at week 68 was 42.0% and 29.3% for CagriSema and placebo, respectively (odds ratio, 1.7 [95% CI, 0.7-4.4]).
-    *   Among participants who used antihypertensive medication during the study, 39.6% in the CagriSema group decreased or stopped treatment from week 0 to week 68 versus 18.8% with placebo.
-*   **Safety:** None
-*   **Conclusions:** CagriSema presents clinically relevant reductions in BP across a wide range of participant subgroups, including those with resistant hypertension.
+*   **Journal:** ESC heart failure, 2025
+*   **Industry sponsored:** None
 
 #### Journal of the American Heart Association, 2026 (Industry sponsored)
 *   **Study design:** RCT
@@ -413,6 +568,8 @@ last_updated: 2026-05-18
     *   Levels of stem cell factor and leptin were higher in HF with preserved ejection fraction (all P<0.05).
 *   **Safety:** None
 *   **Conclusions:** Of 268 evaluated biomarkers, this study identified biomarkers representing mechanisms strongly associated with subsequent HF hospitalization. HF with reduced ejection fraction was more strongly associated with cardiorenal dysfunction and inflammation markers, while HF with preserved ejection fraction was associated with adipose metabolism and tissue repair proteins.
+*   **Journal:** Journal of the American Heart Association, 2026
+*   **Industry sponsored:** True
 
 #### American journal of cardiovascular drugs : drugs, devices, and other interventions, 2025 (Industry sponsored)
 *   **Study design:** RCT (ATTRibute-CM study, NCT03860935)
@@ -427,6 +584,8 @@ last_updated: 2026-05-18
     *   The most frequent BID medications in real-world data were apixaban, carvedilol, furosemide, metoprolol, and potassium chloride.
 *   **Safety:** None
 *   **Conclusions:** Patients with ATTR-CM take oral medications administered multiple times a day for the treatment of HF and other comorbidities. As a BID medication, acoramidis does not appear to deviate from non-ATTR-CM pharmacotherapy strategies, and is therefore not expected to impose additional burden in a real-world setting. These data suggest that acoramidis may align with and could possibly be incorporated into patients' existing non-ATTR-CM pharmacotherapeutic regimens.
+*   **Journal:** American journal of cardiovascular drugs : drugs, devices, and other interventions, 2025
+*   **Industry sponsored:** True
 
 #### Heart rhythm, 2025 (Industry sponsored)
 *   **Study design:** RCT
@@ -439,6 +598,8 @@ last_updated: 2026-05-18
     *   Baseline variables modestly predicted SCAF progression (C statistic 0.59; 95% CI 0.57-0.61), including age (HR 1.02 per year; 95% CI 1.01-1.03 per year), male sex (HR 1.30; 95% CI 1.14-1.47), heart failure (HR 1.28; 95% CI 1.13-1.46), diabetes mellitus (HR 1.18; 95% CI 1.04-1.34), left atrial diameter > 4.1 cm (HR 1.28; 95% CI 1.08-1.52), and longest baseline SCAF episode duration > 1 hour (HR 1.59; 95% CI 1.42-1.79).
 *   **Safety:** None
 *   **Conclusions:** SCAF progression occurred in >9% of patients per year and was associated with a doubling of the risk of all-cause mortality, driven by increases in both heart failure-related and arrhythmic deaths. Patients who remained on aspirin after SCAF progression had an annual rate of stroke/systemic embolism of 1.42%, which is higher than the threshold currently proposed for oral anticoagulant prophylaxis.
+*   **Journal:** Heart rhythm, 2025
+*   **Industry sponsored:** True
 
 #### Circulation. Heart failure, 2025 (Industry sponsored)
 *   **Study design:** RCT
@@ -465,6 +626,146 @@ last_updated: 2026-05-18
 *   **Conclusions:** This decentralised RRCT in newly onset T2D demonstrates a highly feasible option for large-scale trials in the primary care setting, enabling representative participant recruitment. Blinded interim analyses showed a low risk of MACE or death, but unexpectedly high rates of microvascular complications. Study completion is event-driven and is expected by January 2026. The study will challenge or reinforce the current metformin paradigm in early T2D. (EUDRA-CT number 2019-001046-17; EU number 2024-516228-33-00; ClinicalTrials.gov Identifier: NCT03982381).
 *   **Journal:** Diabetes, obesity & metabolism, 2026
 *   **Industry sponsored:** False
+
+#### Nature medicine, 2025 (None)
+*   **Study design:** Systematic Review | Network Meta-Analysis
+*   **Sample size:** 60,307 patients
+*   **Comparator:** placebo/active comparators
+*   **Primary outcome:** percentage of total body weight loss (TBWL%) at the end of the study
+*   **Primary result:** All OMMs showed a significantly greater TBWL% versus placebo (P < 0.0001), more than 10% for semaglutide and tirzepatide.
+*   **Secondary results:**
+    *   Tirzepatide and semaglutide showed normoglycemia restoration, remission of type 2 diabetes and reduction in hospitalization due to heart failure.
+    *   Semaglutide was effective in reducing major adverse cardiovascular events and reducing pain in knee osteoarthritis.
+    *   Tirzepatide was effective in remission of obstructive sleep apnea syndrome and metabolic dysfunction-associated steatohepatitis.
+*   **Safety:** Safety was evaluated as a secondary endpoint (serious adverse events), but specific findings or rates are not detailed in the abstract's results section.
+*   **Conclusions:** These results support the need to individualize the selection of OMMs.
+*   **Journal:** Nature medicine, 2025
+*   **Industry sponsored:** None
+
+#### The Cochrane database of systematic reviews, 2025 (Industry sponsored)
+*   **Study design:** Systematic Review, Meta-Analysis
+*   **Sample size:** 7111 participants
+*   **Comparator:** placebo
+*   **Primary outcome:** percentage reduction in body weight from baseline
+*   **Primary result:** Tirzepatide likely results in a greater percentage reduction in body weight from baseline (mean difference (MD) -16.03, 95% confidence interval (CI) -18.91 to -13.14; 8 studies, 6317 participants; moderate-certainty evidence)
+*   **Secondary results:**
+    *   Tirzepatide likely results in an increase in the number of people achieving a 5% weight reduction (risk ratio (RR) 3.60, 95% CI 2.44 to 5.30; I2 = 86%; 5 studies, 4455 participants; moderate-certainty evidence).
+    *   Tirzepatide may result in an increase in non-serious adverse events (RR 1.33, 95% CI 1.03 to 1.71; 5 studies, 4582 participants; low-certainty evidence).
+    *   The evidence is very uncertain about the effect on serious adverse events (RR 0.99, 95% CI 0.88 to 1.12; 8 studies, 6359 participants; very low-certainty evidence).
+    *   Tirzepatide likely results in little to no difference in MACE (RR 0.75, 95% CI 0.34 to 1.66; I\u00b2 = 0%; 7 studies, 5628 participants; moderate-certainty evidence).
+    *   Tirzepatide likely results in little to no difference in mortality (RR 0.79, 95% CI 0.34 to 1.83; 7 studies, 5628 participants; moderate-certainty evidence).
+*   **Safety:** Tirzepatide may result in an increase in non-serious adverse events. The evidence is very uncertain about the effect on serious adverse events. Tirzepatide may result in little to no difference in adverse events leading to withdrawal.
+*   **Conclusions:** Tirzepatide likely results in weight loss at medium-term follow-up, and this initial weight loss is likely to be sustained at longer-term follow-up. The long-term impact on other patient-important outcomes may be limited or uncertain. The certainty of the evidence on events leading to withdrawal at medium- and long-term follow-up is low, which might further limit our understanding of the sustainability of the initial effects. All the included studies were funded by the drug manufacturer, raising concerns about potential conflicts of interest. Further independent studies are needed, particularly in underrepresented populations, to better understand the broader effects of tirzepatide in the management of obesity.
+*   **Journal:** The Cochrane database of systematic reviews, 2025
+*   **Industry sponsored:** True
+
+#### Surgery for obesity and related diseases : official journal of the American Society for Bariatric Surgery, 2025 (None)
+*   **Study design:** Systematic Review, Meta-Analysis
+*   **Sample size:** 39,569 patients
+*   **Comparator:** GLP-1RA therapy
+*   **Primary outcome:** mortality, major adverse cardiovascular events (MACE), and heart failure
+*   **Primary result:** BS was associated with a 43% lower risk of mortality (hazard ratio [HR] .57, 95% CI .34-.95), 35% lower MACE risk (HR .65, 95% CI .51-.83), and 55% lower risk of heart failure (HR .45, 95% CI .39-.51).
+*   **Secondary results:**
+    *   Per 1000 patients treated, absolute reductions were 25 deaths, 25 cardiovascular events, and 23 heart failure cases.
+*   **Safety:** None
+*   **Conclusions:** In this meta-analysis of observational studies, bariatric surgery was associated with lower risks of mortality and cardiovascular outcomes compared to GLP-1RA therapy in adults with obesity. These findings suggest potential differences in long-term effectiveness between treatment strategies, warranting further investigation in randomized controlled trials. Residual confounding and selection bias cannot be fully eliminated given the observational design of the included cohorts.
+*   **Journal:** Surgery for obesity and related diseases : official journal of the American Society for Bariatric Surgery, 2025
+*   **Industry sponsored:** None
+
+#### Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists, 2025 (None)
+*   **Study design:** Network Meta-Analysis
+*   **Sample size:** 24099 patients
+*   **Comparator:** placebo
+*   **Primary outcome:** hospitalization for HF (HHF)
+*   **Primary result:** Compared to placebo, semaglutide reduced the risk of HHF (HR 0.52, 95% CrI [0.25, 0.87]), while tirzepatide (HR 0.51, 95% CrI [0.16, 1.24]) and exenatide (HR 0.82, 95% CrI [0.33, 1.73]) demonstrated no effect.
+*   **Secondary results:**
+    *   Semaglutide and exenatide, but not tirzepatide, reduced the risk of all-cause mortality.
+    *   None affected cardiovascular mortality.
+    *   Semaglutide decreased the risk of worsening of HF events; tirzepatide did not.
+    *   Tirzepatide and semaglutide enabled weight loss; however, only semaglutide notably enhanced the 6-minute walk distance.
+*   **Safety:** None
+*   **Conclusions:** GLP-1 RAs provide significant benefits for patients with HFpEF or HFmrEF, with semaglutide offering more advantages than tirzepatide and exenatide.
+*   **Journal:** Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists, 2025
+*   **Industry sponsored:** None
+
+#### Journal of the American College of Cardiology, 2025 (None)
+*   **Study design:** meta-analysis
+*   **Sample size:** 99,599 patients
+*   **Comparator:** controls or placebo
+*   **Primary outcome:** mortality (all-cause and CV), trial-defined major adverse cardiovascular events (MACE) and serious adverse events
+*   **Primary result:** GLP-1 RAs reduced all-cause death (IRR: 0.88; 95% CI: 0.84-0.92; needed to treat [NNT] = 121), CV death (IRR: 0.87; 95% CI: 0.81-0.92; NNT = 170), and MACE (IRR: 0.87; 95% CI: 0.83-0.91; NNT = 66), compared with controls.
+*   **Secondary results:**
+    *   GLP-1 RAs reduced serious adverse events (-9%)
+    *   GLP-1 RAs reduced myocardial infarction (-15%)
+    *   GLP-1 RAs reduced acute kidney failure (-9%)
+    *   GLP-1 RAs reduced heart failure (-15%)
+    *   GLP-1 RAs reduced infections (-10%)
+*   **Safety:** increased gastrointestinal (+63%) and gallbladder (+26%) disorders. There were no differences in stroke, pancreatitis, or neoplasm between groups.
+*   **Conclusions:** GLP-1 RAs reduce mortality and MACE in high-risk populations, highlighting benefits beyond glycemic control. These come at increased gastrointestinal and gallbladder risks. Variation in efficacy and tolerability supports tailoring GLP-1 RA therapy to individual patient characteristics and treatment goals. (PROSPERO [GLP-1 RAs Reduce Mortality and Cardiovascular Events Across the Spectrum of Treated Patients: A Systematic Review and Meta-Analysis]; CRD420251032222).
+*   **Journal:** Journal of the American College of Cardiology, 2025
+*   **Industry sponsored:** False
+
+#### Journal of the American College of Cardiology, 2025 (Industry sponsored)
+*   **Study design:** RCT
+*   **Sample size:** 731 patients
+*   **Comparator:** placebo
+*   **Primary outcome:** 1) time to first cardiovascular death or worsening heart failure event; and 2) change in the Kansas City Cardiomyopathy Questionnaire Clinical Summary Score at 52 weeks.
+*   **Primary result:** Overall, cardiovascular death or worsening heart failure events occurred less frequently in the tirzepatide group (HR: 0.62; 95% CI: 0.41-0.95; P = 0.026), primarily related to fewer worsening heart failure events.
+*   **Secondary results:**
+    *   The effect in patients with or without diabetes was similar: HR of 0.64 (95% CI: 0.35-1.15) in patients with diabetes and 0.61 (95% CI: 0.33-1.10) in patients without diabetes (Pinteraction = 0.95).
+    *   The magnitude of the improvement in Kansas City Cardiomyopathy Questionnaire Clinical Summary Score, 6-minute walk distance, quality-of-life scores, and NYHA functional class with tirzepatide was statistically significant and did not differ in patients with and without type 2 diabetes.
+    *   At 52 weeks, weight loss was less pronounced in patients with type 2 diabetes; patients with diabetes lost 10.4% (95% CI: 8.7%-12.2%) of body weight, compared with 12.9% (95% CI: 11.2%-14.6%) in patients without diabetes (Pinteraction = 0.04).
+    *   However, patients with or without diabetes showed similar decreases in visceral adiposity (as reflected by the decline in paracardiac fat) and in left ventricular mass.
+*   **Safety:** None
+*   **Conclusions:** Despite less pronounced weight loss, patients with HFpEF, obesity, and type 2 diabetes responded favorably to tirzepatide. This favorable response was reflected by a reduced risk of adverse heart failure outcomes and improved health status, quality of life, and functional capacity, as well as a decrease in left ventricular mass and paracardiac fat, to a degree that was similar to that in patients without diabetes. These observations raise the possibility that the heart failure benefits of incretin-based drugs may not be faithfully estimated by measuring the magnitude of the change in body weight. (SUMMIT [A Study of Tirzepatide (LY3298176) in Participants With Heart Failure With Preserved Ejection Fraction (HFpEF) and Obesity]; NCT04847557).
+*   **Journal:** Journal of the American College of Cardiology, 2025
+*   **Industry sponsored:** True
+
+#### Nature medicine, 2025 (None)
+*   **Study design:** systematic review
+*   **Sample size:** 60,307 patients
+*   **Comparator:** placebo/active comparators
+*   **Primary outcome:** percentage of total body weight loss (TBWL%) at the end of the study
+*   **Primary result:** All OMMs showed a significantly greater TBWL% versus placebo (P < 0.0001), more than 10% for semaglutide and tirzepatide.
+*   **Secondary results:**
+    *   Both tirzepatide and semaglutide showed normoglycemia restoration, remission of type 2 diabetes and reduction in hospitalization due to heart failure.
+    *   Semaglutide was effective in reducing major adverse cardiovascular events and reducing pain in knee osteoarthritis.
+    *   Tirzepatide was effective in remission of obstructive sleep apnea syndrome and metabolic dysfunction-associated steatohepatitis.
+*   **Safety:** Safety was evaluated as a secondary endpoint (serious adverse events), but specific results regarding safety are not detailed in the abstract.
+*   **Conclusions:** These results support the need to individualize the selection of OMMs.
+*   **Journal:** Nature medicine, 2025
+*   **Industry sponsored:** None
+
+#### Diabetes/metabolism research and reviews, 2025 (Industry sponsored)
+*   **Study design:** systematic review | meta-analysis
+*   **Sample size:** 13,378 participants
+*   **Comparator:** placebo or other active glucose-lowering drugs
+*   **Primary outcome:** overall risk for heart failure
+*   **Primary result:** tirzepatide had a neutral effect on the overall risk for heart failure (risk ratio [RR] 0.63 [95% confidence interval (CI) 0.35-1.13])
+*   **Secondary results:**
+    *   In patients ≤ 58 years of age, RR 0.40 [95% CI 0.17-0.96].
+    *   In patients undergoing monotherapy, RR 0.43 (95% CI 0.20-0.88).
+*   **Safety:** Results of this systematic review and meta-analysis of RCTs support the safety of tirzepatide as a therapeutic option for the clinical management of T2DM or obesity.
+*   **Conclusions:** Tirzepatide had no overall effect on heart failure outcomes in patients with T2DM or obesity. However, among patients ≤ 58 years of age, tirzepatide yielded a 60% relative risk reduction (i.e., RR = 0.40), while in patients undergoing monotherapy, it yielded a 57% relative risk reduction (i.e., RR = 0.43). Results of this systematic review and meta-analysis of RCTs support the safety of tirzepatide as a therapeutic option for the clinical management of T2DM or obesity.
+*   **Journal:** Diabetes/metabolism research and reviews, 2025
+*   **Industry sponsored:** True
+
+#### Metabolism: clinical and experimental, 2025 (None)
+*   **Study design:** meta-analysis | systematic review
+*   **Sample size:** 97,800
+*   **Comparator:** placebo
+*   **Primary outcome:** primary composite outcome
+*   **Primary result:** RR 0.88, 95% CI 0.84-0.91, P < 0.001
+*   **Secondary results:**
+    *   death from any cause (RR 0.88, 95% CI 0.84-0.92, P < 0.001)
+    *   death from cardiovascular causes (RR 0.88, 95% CI 0.83-0.93, P < 0.001)
+    *   hospitalization for heart failure was not statistically significant (RR 0.92, 95% CI 0.78-1.08), but a potential benefit was observed in obese patients (P for interaction = 0.02)
+    *   lower incidence of serious adverse events (RR 0.93, 95% CI 0.89-0.99, P = 0.01)
+    *   lower incidence of cardiac adverse events (RR 0.90, 95% CI 0.85-0.96, P < 0.01)
+*   **Safety:** GLP-1RAs showed favorable overall safety profile, with a lower incidence of serious adverse events (RR 0.93, 95% CI 0.89-0.99, P = 0.01) and cardiac adverse events (RR 0.90, 95% CI 0.85-0.96, P < 0.01) compared with placebo.
+*   **Conclusions:** In patients with cardiovascular or renal disease, GLP-1RAs and tirzepatide provide consistent cardiovascular and renal protection, with a possible benefit in reducing hospitalization for heart failure among individuals with obesity.
+*   **Journal:** Metabolism: clinical and experimental, 2025
+*   **Industry sponsored:** None
 
 ### Sources
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/dapagliflozin/2026-05-18/abstract-42133048.json
@@ -498,3 +799,104 @@ last_updated: 2026-05-18
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/dapagliflozin/2026-04-12/abstract-41311237.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-04-07/NCT07037459.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-05-01/NCT07037459.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT04499248.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07037459.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06268873.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06307652.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06344104.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06651970.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06677060.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06742723.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06677060.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40556828.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07222917.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT04435626.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41039116.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41161687.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT06195930.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT07188805.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT07188805.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41506923.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT07188805.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT02657356.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT03068130.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41883191.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40556828.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40892610.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40903131.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41039116.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41100405.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41207615.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-05-18/abstract-40899050.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06122779.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06122779.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04847557.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05592275.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06948422.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06948435.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06952530.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06948422.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06948435.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06952530.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06948422.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06948435.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06952530.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04732221.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04811092.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04896008.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04945460.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05093933.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05587712.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05612035.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05714085.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05818137.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06664801.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06814145.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06925750.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07218029.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04811092.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04945460.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT05587712.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT05612035.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT05714085.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06814145.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07218029.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04896008.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05714085.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06814145.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07218029.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03785405.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04023227.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04491136.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05135000.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05562934.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05764265.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06142383.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06149104.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06236061.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06649110.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06857955.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06649110.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06857955.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04023227.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04916470.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05636176.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06200207.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06979362.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06979375.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06200207.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05492500.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06137742.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06991257.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07073820.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06137742.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06991257.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07073820.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06137742.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06991257.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07073820.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05353166.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06237309.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06833190.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07318597.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07318597.json
