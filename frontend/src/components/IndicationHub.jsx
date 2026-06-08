@@ -6,12 +6,6 @@ import EventList from './EventList'
 import CompanyPanel from './CompanyPanel'
 import AIBar from './AIBar'
 
-const SearchIcon = () => (
-  <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
-    <circle cx="6.5" cy="6.5" r="5" stroke="#888780" strokeWidth="1.5" />
-    <path d="M10.5 10.5L14 14" stroke="#888780" strokeWidth="1.5" strokeLinecap="round" />
-  </svg>
-)
 
 export default function IndicationHub({ slug, stocks, companies, onSelectCompany }) {
   const [data, setData] = useState(null)
@@ -43,15 +37,6 @@ export default function IndicationHub({ slug, stocks, companies, onSelectCompany
 
   return (
     <div>
-      {/* Top search bar */}
-      <div className="topbar">
-        <div className="search-bar">
-          <SearchIcon />
-          <input type="text" defaultValue={displayName} key={slug} />
-        </div>
-        <button className="search-btn">Search</button>
-      </div>
-
       {/* Indication header */}
       <div className="ind-header">
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
