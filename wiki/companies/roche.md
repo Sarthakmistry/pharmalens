@@ -32,7 +32,7 @@ last_updated: 2026-04-12
 - [[bevacizumab]] (Avastin)
 
 ### Earnings intelligence
-No earnings intelligence for Roche was found in the provided source document. The document primarily detailed Regeneron Pharmaceuticals, Inc.'s Q1 2025 financial results.
+No earnings intelligence for Roche has been compiled yet. Roche reports under Swiss GAAP and its own 20-F filings have not yet been processed.
 
 ### Pipeline
 No pipeline updates for Roche were found in the provided source document.
@@ -152,7 +152,6 @@ No pipeline updates for Roche were found in the provided source document.
 | 2009-02-05 | trial | Phase 2 trial NCT00666016 completed. | [[2009-02-05-unknown-nct00666016-completed]] |
 
 ### Sources
-- `raw/edgar/regeneron/10Q/2025-Q1-10Q.txt`
 - `raw/ctgov/roche/2026-04-07/NCT01358877.json`
 - `raw/ctgov/roche/2026-04-06/NCT01772472.json`
 - `raw/ctgov/roche/2026-04-06/NCT01378975.json`

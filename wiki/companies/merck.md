@@ -7,7 +7,7 @@ indications_active: [type2-diabetes, oncology-nsclc, oncology-breast, oncology-c
 blockbuster_drugs: [pembrolizumab, sitagliptin]
 pipeline_drugs: [favezelimab]
 last_earnings_date: 2025-10-30
-last_updated: 2027-10-25
+last_updated: 2026-05-22
 ---
 
 ## Merck & Co., Inc.
@@ -50,7 +50,6 @@ Merck & Co., Inc. announced strong third-quarter 2025 financial results with tot
 | 2026-04-12 | research | Mixed results for novel combinations with [[pembrolizumab]] and lenvatinib in ccRCC. | [[2026-04-12-pembrolizumab-lenvatinib-ccrcc-pubmed]] | pubmed_result |
 | 2026-04-12 | research | Neoadjuvant [[pembrolizumab]] plus chemotherapy showed improved efficacy in TNBC. | [[2026-04-12-pembrolizumab-tnbc-pubmed]] | pubmed_result |
 | 2026-04-12 | research | [[pembrolizumab]] plus lenvatinib showed promising anti-tumour activity in recurrent gynaecological clear cell carcinoma. | [[2026-04-12-pembrolizumab-lenvatinib-ccgc-pubmed]] | pubmed_result |
-| 2026-04-12 | research | Cabozantinib plus [[nivolumab]] showed better efficacy but high ICER in advanced renal cell carcinoma. | [[2026-04-12-cabozantinib-nivolumab-rcc-pubmed]] | pubmed_result |
 | 2026-04-12 | research | Vibostolimab coformulated with [[pembrolizumab]] did not provide additional clinical benefit in melanoma (futility). | [[2026-04-12-vibostolimab-pembrolizumab-melanoma-futility-pubmed]] | pubmed_result |
 | 2026-04-12 | research | Perioperative enfortumab vedotin plus [[pembrolizumab]] and surgery led to significantly better outcomes in bladder cancer. | [[2026-04-12-enfortumab-vedotin-pembrolizumab-bladder-cancer-pubmed]] | pubmed_result |
 | 2026-04-12 | research | Favezelimab plus pembrolizumab showed higher response rate in Hodgkin lymphoma. | [[2026-04-12-favezelimab-pembrolizumab-hodgkin-lymphoma-pubmed]] | pubmed_result |
@@ -58,8 +57,6 @@ Merck & Co., Inc. announced strong third-quarter 2025 financial results with tot
 | 2026-04-12 | research | Pembrolizumab plus ipilimumab showed manageable safety and antitumor activity in advanced NSCLC. | [[2026-04-12-pembrolizumab-ipilimumab-nsclc-pubmed]] | pubmed_result |
 | 2026-04-01 | research | Multicycle [177Lu]Lu-PSMA-617 and [[pembrolizumab]] showed encouraging activity in prostate cancer. | [[2026-04-01-lu-psma-617-pembrolizumab-prostate-cancer-pubmed]] | pubmed_result |
 | 2026-01-14 | trial | [[pembrolizumab]] (NCT02684292) Phase 3 Trial Completion | [[2026-01-14-pembrolizumab-nct02684292-completed]] |
-| 2026-01-12 | sec | Bristol-Myers Squibb Investor Presentation | [[2026-01-12-bristol-myers-squibb-investor-presentation-pipeline-update]] |
-| 2026-01-01 | research | Cabozantinib plus nivolumab showed better efficacy but high ICER in advanced renal cell carcinoma. | [[2026-01-01-cabozantinib-nivolumab-renal-cell-carcinoma-pubmed]] |
 | 2025-12-31 | research | Enfortumab vedotin plus pembrolizumab improved survival and QOL in urothelial cancer (EV-302 trial). | [[2025-12-31-enfortumab-vedotin-pembrolizumab-urothelial-cancer-pubmed]] |
 | 2025-12-04 | sec | Merck Debt Offering Close | [[2025-12-04-merck-debt-offering-close]] |
 | 2025-12-01 | research | Pembrolizumab combination therapy cost-effective for R/M HNSCC in Colombia. | [[2025-12-01-pembrolizumab-hnscc-cost-effectiveness-pubmed]] |
@@ -78,7 +75,6 @@ Merck & Co., Inc. announced strong third-quarter 2025 financial results with tot
 ### Sources
 - `raw/edgar/merck/8k/2025-07-29-8K--25-071380.txt`
 - `raw/edgar/merck/8K/2025-12-04-8K--25-055388.txt`
-- `raw/edgar/bristol-myers-squibb/8K/2026-01-12-8K--26-000929.txt`
 - `raw/ctgov/merck/2026-04-06/NCT02504372.json`
 - `raw/ctgov/merck/2026-04-06/NCT02684292.json`
 - `raw/ctgov/merck/2026-04-06/NCT02628067.json`
@@ -92,8 +88,6 @@ Merck & Co., Inc. announced strong third-quarter 2025 financial results with tot
 - `raw/edgar/merck/8K/2025-05-29-8K--25-054131.txt`
 - `raw/edgar/merck/8K/2025-10-30-8K--25-103974.txt`
 - `raw/edgar/merck/8K/2026-05-22-8K--26-037738.txt`
-- `raw/pubmed/durvalumab/2026-04-12/abstract-41082893.json`
-- `raw/pubmed/nivolumab/2026-04-12/abstract-41555735.json`
 - `raw/pubmed/pembrolizumab/2026-04-12/abstract-40036983.json`
 - `raw/pubmed/pembrolizumab/2026-04-12/abstract-40318646.json`
 - `raw/pubmed/pembrolizumab/2026-04-12/abstract-40417835.json`

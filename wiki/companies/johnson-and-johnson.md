@@ -43,7 +43,6 @@ Johnson & Johnson announced its first quarter 2026 sales and earnings. The compa
 | 2026-04-06 | trial | Phase 2 trial (NCT06667908) initiated for JNJ-90301900 in non-small cell lung cancer. | [[2026-04-06-jnj-90301900-nsclc-trial-initiation]] |
 | 2026-04-06 | trial | Teclistamab Phase 4 trial (NCT07030517) initiated for relapsed and refractory multiple myeloma. | [[2026-04-06-teclistamab-phase-4-trial-initiation]] |
 | 2026-01-21 | sec | Johnson & Johnson reported strong Q4 and Full-Year 2025 results, with reported sales growth of 9.1% and 6.0% respectively, driven by pharmaceutical and medtech segments. | [[2026-01-21-johnson-and-johnson-q4-2025-earnings]] |
-| 2026-01-12 | sec | Bristol-Myers Squibb Company filed an 8-K announcing the posting of an investor presentation to its website, detailing its clinical development portfolio. | [[2026-01-12-bristol-myers-squibb-investor-presentation-pipeline-update]] |
 | 2025-10-14 | sec | Johnson & Johnson reported strong third-quarter 2025 sales and earnings, raising its full-year sales and adjusted EPS outlook, and announced its intent to separate its Orthopaedics business. | [[2025-10-14-johnson-and-johnson-q3-earnings-orthopaedics-separation]] |
 | 2025-10-14 | sec | Johnson & Johnson Q3 2025 earnings and raised sales outlook | [[2025-10-14-johnson-and-johnson-q3-earnings]] |
 | 2025-09-09 | sec | John Morikis elected to Board of Directors | [[2025-09-09-john-morikis-board-appointment]] |
@@ -55,7 +54,6 @@ Johnson & Johnson announced its first quarter 2026 sales and earnings. The compa
 
 ### Sources
 - `raw/edgar/johnson-and-johnson/8K/2025-07-16-8K--25-000170.txt`
-- `raw/edgar/merck/10Q/2025-Q1-10Q.txt`
 - `raw/edgar/johnson-and-johnson/8k/2025-09-09-8K--25-000190.txt`
 - `raw/edgar/johnson-and-johnson/8k/2026-04-14-8K--26-000076.txt`
 - `raw/edgar/johnson-and-johnson/8k/2025-10-14-8K--25-000201.txt`
@@ -67,10 +65,7 @@ Johnson & Johnson announced its first quarter 2026 sales and earnings. The compa
 - `raw/ctgov/johnson-and-johnson/2026-04-06/NCT05868122.json`
 - `raw/ctgov/johnson-and-johnson/2026-04-07/NCT05761574.json`
 - `raw/ctgov/johnson-and-johnson/2026-04-07/NCT03190330.json`
-- `raw/edgar/bristol-myers-squibb/8K/2026-01-12-8K--26-000929.txt`
 - `raw/edgar/johnson-and-johnson/10Q/2026-Q1-10Q.txt`
-- `raw/edgar/merck/10Q/2026-Q1-10Q.txt`
-- `raw/pubmed/apixaban/2026-04-12/abstract-40844380.json`
 - `raw/edgar/johnson-and-johnson/8K/2025-10-14-8K--25-000201.txt`
 - `raw/edgar/johnson-and-johnson/8K/2026-04-14-8K--26-000076.txt`
 - `raw/edgar/johnson-and-johnson/8K/2026-04-28-8K--26-000089.txt`
