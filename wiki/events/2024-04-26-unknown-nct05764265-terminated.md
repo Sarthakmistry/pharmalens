@@ -5,19 +5,19 @@ drugs: []
 companies: [novartis]
 indications: [hf-htn]
 signal: bearish
-headline: Novartis terminates Phase 2 trial (NCT05764265) for Ltp001 in heart failure
+headline: Novartis terminates Phase 2 trial of Ltp001 for heart failure and hypertension
 last_updated: 2024-04-26
 ---
 
-## Novartis terminates Phase 2 trial (NCT05764265) for Ltp001 in heart failure
+## Novartis terminates Phase 2 trial of Ltp001 for heart failure and hypertension
 
 **Date:** 2024-04-26 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-Novartis has terminated its Phase 2 clinical trial (NCT05764265) for the investigational drug Ltp001, which was being evaluated for heart failure. The trial, which had an actual enrollment of 31 participants, reached its primary completion on April 26, 2024, and was subsequently terminated. The reason for termination is not specified, but the trial status is officially listed as 'TERMINATED'.
+Novartis has terminated its Phase 2 clinical trial (NCT05764265) evaluating Ltp001 for the treatment of heart failure and hypertension. The trial, which had an actual enrollment of 31 participants, reached its primary completion date on April 26, 2024, and has results available, but the study itself has been terminated.
 
 ### Market implication
-The termination of a Phase 2 trial for an investigational drug represents a setback for Novartis's pipeline in the heart failure indication, potentially impacting future revenue streams from this program.
+The termination of this Phase 2 trial suggests a potential setback for Novartis's pipeline in the HF-HTN indication, indicating a possible halt in the development of Ltp001.
 
 ### Affected entities
 - Drug: Ltp001

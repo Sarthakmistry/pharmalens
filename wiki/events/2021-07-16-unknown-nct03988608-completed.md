@@ -2,27 +2,27 @@
 event_type: trial_completion
 date: 2021-07-16
 drugs: []
-companies: [novartis]
+companies: ["novartis"]
 indications: []
 signal: neutral
-headline: Novartis completes Phase 2 trial NCT03988608 for Eltrombopag
+headline: Novartis's Phase 2 Trial (NCT03988608) for Eltrombopag Reaches Primary Completion
 last_updated: 2021-07-16
 ---
 
-## Novartis completes Phase 2 trial NCT03988608 for Eltrombopag
+## Novartis's Phase 2 Trial (NCT03988608) for Eltrombopag Reaches Primary Completion
 
 **Date:** 2021-07-16 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis has completed its Phase 2 clinical trial (NCT03988608) for Eltrombopag. The study, which enrolled 20 participants, reached its primary completion date on July 16, 2021, and results are available.
+A Phase 2 clinical trial (NCT03988608) sponsored by [[novartis]], investigating Eltrombopag, reached its primary completion on July 16, 2021. The trial enrolled 20 participants and has reported results.
 
 ### Market implication
-The completion of this Phase 2 trial provides an update on Novartis's pipeline, with results now available for further evaluation.
+This marks a procedural milestone for [[novartis]]'s Eltrombopag development, with results now available for review.
 
 ### Affected entities
 - Drug: Eltrombopag
 - Company: [[novartis]]
-- Indication:
+- Indication: N/A
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT03988608.json`

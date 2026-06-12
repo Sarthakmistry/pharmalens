@@ -2,25 +2,26 @@
 event_type: trial_completion
 date: 2025-12-19
 drugs: [semaglutide]
-companies: [astrazeneca]
+companies: [novo-nordisk, astrazeneca]
 indications: [type2-diabetes]
 signal: neutral
-headline: Semaglutide Phase 2 Trial (NCT06579105) for Type 2 Diabetes Completed
+headline: Phase 2 Trial of Semaglutide (NCT06579105) Completed
 last_updated: 2026-04-07
 ---
-## Semaglutide Phase 2 Trial (NCT06579105) for Type 2 Diabetes Completed
+
+## Phase 2 Trial of Semaglutide (NCT06579105) Completed
 
 **Date:** 2025-12-19 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT06579105) investigating [[semaglutide]] for [[type2-diabetes]] has reached its primary completion date on December 19, 2025. Sponsored by [[astrazeneca]], the trial enrolled 406 participants and has not yet reported results.
+A Phase 2 clinical trial (NCT06579105) investigating semaglutide for type 2 diabetes, sponsored by AstraZeneca, has reached primary completion on December 19, 2025. The trial enrolled 406 participants, and results are not yet available.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard development step for [[astrazeneca]] and [[semaglutide]]; market impact will depend on the eventual release and nature of the study results.
+As results are not yet available, this trial completion is a neutral event for Novo Nordisk, AstraZeneca, and semaglutide.
 
 ### Affected entities
 - Drug: [[semaglutide]]
-- Company: [[astrazeneca]]
+- Company: [[novo-nordisk]], [[astrazeneca]]
 - Indication: [[type2-diabetes/_index]]
 
 ### Sources

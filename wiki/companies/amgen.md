@@ -123,7 +123,7 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Study design: PHASE3
         - Status: ACTIVE_NOT_RECRUITING
         - Enrollment: 2621 (ACTUAL)
-        - Primary completion: 2027-06-30
+        - Primary completion: 2026-06-22
         - Has results: False
     - Clinical Evidence (NCT06376045):
         - Study design: PHASE2
@@ -135,7 +135,7 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Study design: PHASE3
         - Status: ACTIVE_NOT_RECRUITING
         - Enrollment: 469 (ACTUAL)
-        - Primary completion: 2026-10-28
+        - Primary completion: 2026-04-17
         - Has results: False
 - **erenumab**: Phase 3, Migraine.
     - Clinical Evidence (NCT03836040):
@@ -267,8 +267,8 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
 - **Xaluritamig**: Phase 3.
     - Clinical Evidence (NCT06691984):
         - Study design: PHASE3
-        - Status: RECRUITING
-        - Enrollment: 675 (ESTIMATED)
+        - Status: ACTIVE_NOT_RECRUITING
+        - Enrollment: 707 (ACTUAL)
         - Primary completion: 2029-01-02
         - Has results: False
     - Clinical Evidence (NCT07213674):
@@ -284,18 +284,30 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Enrollment: 88 (ESTIMATED)
         - Primary completion: 2027-02-22
         - Has results: False
+    - Clinical Evidence (NCT07438405):
+        - Study design: PHASE2
+        - Status: RECRUITING
+        - Enrollment: 30 (ESTIMATED)
+        - Primary completion: 2028-01-29
+        - Has results: False
 - **Abp 234**: Phase 3, [[alzheimers]], [[oncology-nsclc]]. (biosimilar for [[pembrolizumab]])
     - Clinical Evidence (NCT06311721):
         - Study design: PHASE3
         - Status: ACTIVE_NOT_RECRUITING
         - Enrollment: 315 (ACTUAL)
-        - Primary completion: 2028-02-14
+        - Primary completion: 2028-01-10
         - Has results: False
     - Clinical Evidence (NCT06430866):
         - Study design: PHASE3
         - Status: ACTIVE_NOT_RECRUITING
         - Enrollment: 163 (ACTUAL)
         - Primary completion: 2026-12-14
+        - Has results: False
+    - Clinical Evidence (NCT05920356):
+        - Study design: PHASE3
+        - Status: RECRUITING
+        - Enrollment: 750 (ESTIMATED)
+        - Primary completion: 2027-06-30
         - Has results: False
 - **Abp 692**: Phase 3. (biosimilar for Ocrelizumab)
     - Clinical Evidence (NCT06700343):
@@ -326,11 +338,17 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Has results: False
     - Clinical Evidence (NCT06593522):
         - Study design: PHASE2
-        - Status: RECRUITING
-        - Enrollment: 200 (ESTIMATED)
-        - Primary completion: 2028-11-29
+        - Status: ACTIVE_NOT_RECRUITING
+        - Enrollment: 61 (ACTUAL)
+        - Primary completion: 2026-10-31
         - Has results: False
-- **Pegloticase**: Phase 4.
+    - Clinical Evidence (NCT05094336):
+        - Study design: PHASE1 | PHASE2
+        - Status: ACTIVE_NOT_RECRUITING
+        - Enrollment: 329 (ACTUAL)
+        - Primary completion: 2026-11-30
+        - Has results: False
+- **Pegloticase**: Phase 3.
     - Clinical Evidence (NCT06229145):
         - Study design: PHASE4
         - Status: COMPLETED
@@ -344,6 +362,12 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Primary completion: 2028-05-23
         - Has results: False
 - **Inebilizumab**: Phase 4.
+    - Clinical Evidence (NCT04524273):
+        - Study design: PHASE3
+        - Status: ACTIVE_NOT_RECRUITING
+        - Enrollment: 238 (ACTUAL)
+        - Primary completion: 2024-05-28
+        - Has results: True
     - Clinical Evidence (NCT06180278):
         - Study design: PHASE4
         - Status: ACTIVE_NOT_RECRUITING
@@ -354,7 +378,7 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Study design: PHASE2
         - Status: RECRUITING
         - Enrollment: 220 (ESTIMATED)
-        - Primary completion: 2028-01-17
+        - Primary completion: 2028-07-21
         - Has results: False
     - Clinical Evidence (NCT06987539):
         - Study design: PHASE2
@@ -362,7 +386,7 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Enrollment: 15 (ESTIMATED)
         - Primary completion: 2030-03-13
         - Has results: False
-- **Sotorasib**: Phase 3, [[oncology-crc]], [[alzheimers]].
+- **Sotorasib**: Phase 3, [[oncology-crc]], [[alzheimers]], [[oncology-nsclc]].
     - Clinical Evidence (NCT06252649):
         - Study design: PHASE3
         - Status: RECRUITING
@@ -381,23 +405,35 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Enrollment: 160 (ACTUAL)
         - Primary completion: 2025-07-16
         - Has results: False
-- **Blinatumomab**: Phase 2, [[alzheimers]].
+    - Clinical Evidence (NCT05920356):
+        - Study design: PHASE3
+        - Status: RECRUITING
+        - Enrollment: 750 (ESTIMATED)
+        - Primary completion: 2027-06-30
+        - Has results: False
+- **Blinatumomab**: Phase 3, [[alzheimers]].
+    - Clinical Evidence (NCT04521231):
+        - Study design: PHASE1 | PHASE2
+        - Status: ACTIVE_NOT_RECRUITING
+        - Enrollment: 181 (ACTUAL)
+        - Primary completion: 2027-11-24
+        - Has results: False
     - Clinical Evidence (NCT06570798):
         - Study design: PHASE2
         - Status: RECRUITING
         - Enrollment: 220 (ESTIMATED)
-        - Primary completion: 2028-01-17
+        - Primary completion: 2028-07-21
         - Has results: False
     - Clinical Evidence (NCT07134088):
         - Study design: PHASE1 | PHASE2
-        - Status: RECRUITING
+        - Status: ACTIVE_NOT_RECRUITING
         - Enrollment: 104 (ESTIMATED)
         - Primary completion: 2028-12-05
         - Has results: False
     - Clinical Evidence (NCT04994717):
         - Study design: PHASE3
-        - Status: RECRUITING
-        - Enrollment: 304 (ESTIMATED)
+        - Status: ACTIVE_NOT_RECRUITING
+        - Enrollment: 303 (ACTUAL)
         - Primary completion: 2029-09-07
         - Has results: False
 - **Avacopan**: Phase 4.
@@ -413,6 +449,12 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Status: COMPLETED
         - Enrollment: 100 (ACTUAL)
         - Primary completion: 2025-10-18
+        - Has results: False
+    - Clinical Evidence (NCT05972551):
+        - Study design: PHASE3
+        - Status: RECRUITING
+        - Enrollment: 106 (ESTIMATED)
+        - Primary completion: 2027-06-01
         - Has results: False
 - **Apremilast**: Phase 3.
     - Clinical Evidence (NCT06088199):
@@ -435,132 +477,134 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
         - Has results: False
 
 ### Recent events
-| Date | Event | Signal |
-|---|---|---|
-| 2036-12-31 | Trial NCT06072482 for Avacopan reaches primary completion | [[2036-12-31-unknown-nct06072482-completed]] |
-| 2036-03-17 | Trial NCT05767047 for Apremilast reaches primary completion | [[2036-03-17-unknown-nct05767047-completed]] |
-| 2031-10-20 | Trial NCT07136012 for Olpasiran reaches primary completion | [[2031-10-20-unknown-nct07136012-completed]] |
-| 2030-04-20 | Trial NCT06117774 for Tarlatamab reaches primary completion | [[2030-04-20-unknown-nct06117774-completed]] |
-| 2030-03-13 | Trial NCT06987539 for Inebilizumab reaches primary completion | [[2030-03-13-unknown-nct06987539-completed]] |
-| 2030-02-07 | Trial NCT04528082 for Apremilast reaches primary completion | [[2030-02-07-unknown-nct04528082-completed]] |
-| 2030-01-07 | Trial NCT07213674 for Xaluritamig reaches primary completion | [[2030-01-07-unknown-nct07213674-completed]] |
-| 2029-12-11 | Trial NCT06747949 for Dazodalibep reaches primary completion | [[2029-12-11-unknown-nct06747949-completed]] |
-| 2029-09-07 | Trial NCT04994717 for Blinatumomab reaches primary completion | [[2029-09-07-unknown-nct04994717-completed]] |
-| 2029-02-09 | Trial NCT06745323 for Tarlatamab reaches primary completion | [[2029-02-09-unknown-nct06745323-completed]] |
-| 2029-01-31 | Erenumab Phase 3 trial (NCT03633708) reaches primary completion | [[2029-01-31-erenumab-nct03633708-trial-completion]] |
-| 2029-01-04 | Trial NCT07005128 for Tarlatamab reaches primary completion | [[2029-01-04-unknown-nct07005128-completed]] |
-| 2029-01-02 | Trial NCT06691984 for Xaluritamig reaches primary completion | [[2029-01-02-unknown-nct06691984-completed]] |
-| 2028-12-05 | Trial NCT07134088 for Blinatumomab reaches primary completion | [[2028-12-05-unknown-nct07134088-completed]] |
-| 2028-11-29 | Trial NCT06593522 for Anvumetostat reaches primary completion | [[2028-11-29-unknown-nct06593522-completed]] |
-| 2028-09-26 | Trial NCT06321601 for Avacopan reaches primary completion | [[2028-09-26-unknown-nct06321601-completed]] |
-| 2028-06-30 | Trial NCT07037459 for Maridebart cafraglutide reaches primary completion | [[2028-06-30-unknown-nct07037459-completed]] |
-| 2028-06-30 | Trial NCT07037433 for Maridebart cafraglutide reaches primary completion | [[2028-06-30-unknown-nct07037433-completed]] |
-| 2028-06-26 | Trial NCT06180278 for Inebilizumab reaches primary completion | [[2028-06-26-unknown-nct06180278-completed]] |
-| 2028-06-15 | Trial NCT07293260 for Olpasiran reaches primary completion | [[2028-06-15-unknown-nct07293260-completed]] |
-| 2028-05-23 | Trial NCT07388498 for Pegloticase reaches primary completion | [[2028-05-23-unknown-nct07388498-completed]] |
-| 2028-03-31 | Trial NCT05581303 for Olpasiran reaches primary completion | [[2028-03-31-unknown-nct05581303-completed]] |
-| 2028-03-21 | Trial NCT04804553 for Apremilast reaches primary completion | [[2028-03-21-unknown-nct04804553-completed]] |
-| 2028-03-07 | Trial NCT04586660 for Xgeva® reaches primary completion | [[2028-03-07-unknown-nct04586660-completed]] |
-| 2028-02-14 | Trial NCT06311721 for [[pembrolizumab]] reaches primary completion | [[2028-02-14-pembrolizumab-nct06311721-completed]] |
-| 2028-01-31 | Trial NCT06252649 for Sotorasib reaches primary completion | [[2028-01-31-unknown-nct06252649-completed]] |
-| 2028-01-25 | Trial NCT06054555 for [[nivolumab]] reaches primary completion | [[2028-01-25-nivolumab-nct06054555-completed]] |
-| 2028-01-17 | Trial NCT06570798 for Inebilizumab reaches primary completion | [[2028-01-17-unknown-nct06570798-completed]] |
-| 2028-01-02 | Trial NCT07172919 for Sotorasib reaches primary completion | [[2028-01-02-unknown-nct07172919-completed]] |
-| 2027-11-24 | Trial NCT04521231 for Blinatumomab reaches primary completion | [[2027-11-24-unknown-nct04521231-completed]] |
-| 2027-09-29 | Trial NCT07441252 for Maridebart cafraglutide reaches primary completion | [[2027-09-29-unknown-nct07441252-completed]] |
-| 2027-09-29 | Trial NCT07226765 for Maridebart cafraglutide reaches primary completion | [[2027-09-29-unknown-nct07226765-completed]] |
-| 2027-09-29 | Trial NCT07225686 for Maridebart cafraglutide reaches primary completion | [[2027-09-29-unknown-nct07225686-completed]] |
-| 2027-06-30 | Trial NCT05882877 for Rocatinlimab reaches primary completion | [[2027-06-30-unknown-nct05882877-completed]] |
-| 2027-06-30 | Trial NCT05920356 for [[pembrolizumab]] reaches primary completion | [[2027-06-30-pembrolizumab-nct05920356-completed]] |
-| 2027-06-30 | Trial NCT03969329 for Etelcalcetide reaches primary completion | [[2027-06-30-unknown-nct03969329-completed]] |
-| 2027-06-01 | Trial NCT05972551 for Romosozumab reaches primary completion | [[2027-06-01-unknown-nct05972551-completed]] |
-| 2027-05-24 | Trial NCT06588153 for Prolia® reaches primary completion | [[2027-05-24-unknown-nct06588153-completed]] |
-| 2027-04-27 | Trial NCT06987695 for Maridebart cafraglutide reaches primary completion | [[2027-04-27-unknown-nct06987695-completed]] |
-| 2027-04-13 | Trial NCT05549258 for Inebilizumab reaches primary completion | [[2027-04-13-unknown-nct05549258-completed]] |
-| 2027-02-22 | Trial NCT06401044 for Amg 732 reaches primary completion | [[2027-02-22-unknown-nct06401044-completed]] |
-| 2027-01-23 | Trial NCT06332014 for Prolia reaches primary completion | [[2027-01-23-unknown-nct06332014-completed]] |
-| 2027-01-21 | Trial NCT06858878 for Maridebart cafraglutide reaches primary completion | [[2027-01-21-unknown-nct06858878-completed]] |
-| 2027-01-21 | Trial NCT06858839 for Maridebart cafraglutide reaches primary completion | [[2027-01-21-unknown-nct06858839-completed]] |
-| 2027-01-15 | Trial NCT06700343 for Ocrelizumab (us) reaches primary completion | [[2027-01-15-unknown-nct06700343-completed]] |
-| 2026-12-30 | Trial NCT05060016 for Tarlatamab reaches primary completion | [[2026-12-30-unknown-nct05060016-completed]] |
-| 2026-12-14 | Trial NCT06430866 for [[pembrolizumab]] reaches primary completion | [[2026-12-14-pembrolizumab-nct06430866-completed]] |
-| 2026-10-28 | Trial NCT06527404 for Rocatinlimab reaches primary completion | [[2026-10-28-unknown-nct06527404-completed]] |
-| 2026-10-22 | Trial NCT06245408 for Dazodalibep reaches primary completion | [[2026-10-22-unknown-nct06245408-completed]] |
-| 2026-10-19 | Trial NCT06376045 for Rocatinlimab reaches primary completion | [[2026-10-19-unknown-nct06376045-completed]] |
-| 2026-08-19 | Trial NCT06104124 for Dazodalibep reaches primary completion | [[2026-08-19-unknown-nct06104124-completed]] |
-| 2026-08-06 | Trial NCT06088199 for Apremilast reaches primary completion | [[2026-08-06-unknown-nct06088199-completed]] |
-| 2026-05-30 | AMG 520 Phase 1/2 trial (NCT03600883) for Alzheimer's reaches primary completion | [[2026-05-30-amg-520-nct03600883-trial-completion]] |
-| 2026-05-27 | Trial NCT05094336 for Anvumetostat reaches primary completion | [[2026-05-27-unknown-nct05094336-completed]] |
-| 2026-05-20 | Maridebart cafraglutide Phase 3 trial (NCT03937154) for obesity/T2D reaches primary completion | [[2026-05-20-maridebart-cafraglutide-nct03937154-trial-completion]] |
-| 2026-05-20 | Amgen Inc. held its Annual Meeting of Stockholders on May 19, 2026, where stockholders voted on the election of directors, executive compensation, ratification of independent accountants, and a stockholder proposal. | [[2026-05-20-amgen-annual-meeting-results]] |
-| 2026-04-22 | Amgen Inc. announced the retirement of David M. Reese, Executive Vice President and Chief Technology Officer, with his responsibilities being redistributed among other executives. | [[2026-04-22-amgen-executive-retirement]] |
-| 2026-04-12 | Tarlatamab plus PD-L1 inhibitor shows promising anticancer activity in NSCLC (Pubmed) | [[2026-04-12-tarlatamab-pubmed-result]] |
-| 2026-04-06 | A Phase 4 study evaluating the safety, tolerability, and efficacy of Kyprolis (Carfilzomib) in relapsed or refractory multiple myeloma has been completed. | [[2026-04-06-kyprolis-carfilzomib-relapsed-refractory-multiple-myeloma-trial-completion]] |
-| 2026-03-19 | Trial NCT06312020 for Hzn-1116 reaches primary completion | [[2026-03-19-unknown-nct06312020-completed]] |
-| 2026-03-10 | Maridebart cafraglutide (AMG 133) Phase 3 trial (NCT03937154) for obesity/T2D reaches primary completion | [[2026-03-10-maridebart-cafraglutide-nct03937154-trial-completion]] |
-| 2026-02-25 | Trial NCT05975073 for Anvumetostat reaches primary completion | [[2026-02-25-unknown-nct05975073-completed]] |
-| 2026-02-19 | Amgen Inc. issued $4 billion in senior notes. | [[2026-02-19-amgen-senior-notes-offering]] |
-| 2026-02-03 | Amgen Q4 2025 financial results and 2026 guidance | [[2026-02-03-amgen-q4-2025-earnings]] |
-| 2026-01-30 | Amgen and Kyowa Kirin terminate collaboration agreement | [[2026-01-30-amgen-kyowa-kirin-agreement-termination]] |
-| 2026-01-28 | Trial NCT05325866 for Bemarituzumab reaches primary completion | [[2026-01-28-unknown-nct05325866-completed]] |
-| 2026-01-14 | Trial NCT06248619 for Teprotumumab reaches primary completion | [[2026-01-14-unknown-nct06248619-completed]] |
-| 2026-01-07 | Erenumab pediatric migraine trial completion (NCT03832998) | [[2026-01-07-erenumab-pediatric-migraine-trial-completion]] |
-| 2026-01-05 | Trial NCT06054113 for Blinatumomab reaches primary completion | [[2026-01-05-unknown-nct06054113-completed]] |
-| 2025-12-19 | Trial NCT05002998 for Teprotumumab reaches primary completion | [[2025-12-19-unknown-nct05002998-completed]] |
-| 2025-11-21 | Trial NCT05322577 for [[nivolumab]] reaches primary completion | [[2025-11-21-nivolumab-nct05322577-completed]] |
-| 2025-11-20 | Trial NCT05565560 for Apremilast reaches primary completion | [[2025-11-20-unknown-nct05565560-completed]] |
-| 2025-11-05 | Amgen Q3 earnings and product updates | [[2025-11-05-amgen-q3-earnings-product-updates]] |
-| 2025-11-04 | Amgen Inc. reported its third quarter 2025 financial results, including GAAP and non-GAAP earnings per share guidance for the full year, and detailed reconciliations of non-GAAP financial measures. | [[amgen-2025-q3-earnings]] |
-| 2025-10-30 | Trial NCT04175613 for Apremilast reaches primary completion | [[2025-10-30-unknown-nct04175613-completed]] |
-| 2025-10-18 | Trial NCT06079476 for Romosozumab reaches primary completion | [[2025-10-18-unknown-nct06079476-completed]] |
-| 2025-10-14 | Trial NCT05111626 for [[nivolumab]] reaches primary completion | [[2025-10-14-nivolumab-nct05111626-completed]] |
-| 2025-10-06 | Trial NCT06660173 for Maridebart cafraglutide reaches primary completion | [[2025-10-06-unknown-nct06660173-completed]] |
-| 2025-08-06 | Amgen Q2 earnings and pipeline updates | [[2025-08-06-amgen-q2-earnings-pipeline-updates]] |
-| 2025-08-05 | Amgen Q2 2025 financial results and guidance | [[2025-08-05-amgen-q2-2025-earnings]] |
-| 2025-08-05 | Amgen Q2 2025 financial results and guidance | [[2025-08-05-amgen-q2-earnings]] |
-| 2025-07-31 | Trial NCT05633355 for Rocatinlimab reaches primary completion | [[2025-07-31-unknown-nct05633355-completed]] |
-| 2025-07-30 | Trial NCT06229145 for Pegloticase reaches primary completion | [[2025-07-30-unknown-nct06229145-completed]] |
-| 2025-07-25 | Trial NCT03872401 reaches primary completion | [[2025-07-25-unknown-nct03872401-completed]] |
-| 2025-07-16 | Trial NCT05198934 for Sotorasib reaches primary completion | [[2025-07-16-unknown-nct05198934-completed]] |
-| 2025-07-02 | Trial NCT05669014 for Daxdilimab reaches primary completion | [[2025-07-02-unknown-nct05669014-completed]] |
-| 2025-06-20 | Trial NCT05052801 for Bemarituzumab reaches primary completion | [[2025-06-20-unknown-nct05052801-completed]] |
-| 2025-05-27 | Amgen Inc. held its Annual Meeting of Stockholders | [[amgen-annual-meeting-results-2025-05-27]] |
-| 2025-05-27 | Amgen Inc. held its Annual Meeting of Stockholders | [[2025-05-27-amgen-annual-meeting]] |
-| 2025-05-27 | Trial NCT04933695 for Sotorasib reaches primary completion | [[2025-05-27-unknown-nct04933695-completed]] |
-| 2025-05-08 | Trial NCT05591222 for Daxdilimab terminated | [[2025-05-08-unknown-nct05591222-terminated]] |
-| 2025-05-02 | Amgen Q1 earnings, FDA approval, pipeline updates | [[2025-05-02-amgen-2025-q1-earnings-fda-approval-pipeline-updates]] |
-| 2025-03-28 | Trial NCT06502977 for Tarlatamab reaches primary completion | [[2025-03-28-unknown-nct06502977-completed]] |
-| 2025-02-28 | Trial NCT06122649 for Apremilast reaches primary completion | [[2025-02-28-unknown-nct06122649-completed]] |
-| 2025-02-27 | Trial NCT05704738 for Rocatinlimab reaches primary completion | [[2025-02-27-unknown-nct05704738-completed]] |
-| 2025-02-24 | Trial NCT05626751 for Hzn-825 terminated | [[2025-02-24-unknown-nct05626751-terminated]] |
-| 2025-02-24 | Trial NCT04781543 for Hzn-825 terminated | [[2025-02-24-unknown-nct04781543-terminated]] |
-| 2025-01-29 | Trial NCT05740566 for Tarlatamab reaches primary completion | [[2025-01-29-unknown-nct05740566-completed]] |
-| 2024-11-28 | Trial NCT05398445 for Rocatinlimab reaches primary completion | [[2024-11-28-unknown-nct05398445-completed]] |
-| 2024-10-31 | Trial NCT05672199 for Efavaleukin alfa terminated | [[2024-10-31-unknown-nct05672199-terminated]] |
-| 2024-10-22 | Trial NCT04987307 for Efavaleukin alfa terminated | [[2024-10-22-unknown-nct04987307-terminated]] |
-| 2024-10-08 | Trial NCT05669599 for Maridebart cafraglutide completed | [[2024-10-08-unknown-nct05669599-completed]] |
-| 2024-09-15 | Trial NCT05724199 for Rocatinlimab reaches primary completion | [[2024-09-15-unknown-nct05724199-completed]] |
-| 2024-08-26 | Trial NCT05899816 for Rocatinlimab reaches primary completion | [[2024-08-26-unknown-nct05899816-completed]] |
-| 2024-07-22 | Trial NCT05032066 for Hzn-825 terminated | [[2024-07-22-unknown-nct05032066-terminated]] |
-| 2024-07-04 | Trial NCT04506086 for Blinatumomab terminated | [[2024-07-04-unknown-nct04506086-terminated]] |
-| 2024-05-28 | Trial NCT04524273 for Inebilizumab reaches primary completion | [[2024-05-28-unknown-nct04524273-completed]] |
-| 2024-04-23 | Erenumab Phase 3 trial update for pediatric episodic migraine (NCT03836040) | [[2024-04-23-amgen-erenumab-trial-update]] |
-| 2024-04-09 | Trial NCT04540497 for Inebilizumab reaches primary completion | [[2024-04-09-unknown-nct04540497-completed]] |
-| 2024-01-25 | Trial NCT03362177 completed primary completion. | [[2024-01-25-unknown-nct03362177-completed]] |
-| 2024-01-18 | Trial NCT04511702 for Pegloticase completed | [[2024-01-18-unknown-nct04511702-completed]] |
-| 2023-10-26 | Trial NCT04252742 for Erenumab completed | [[2023-10-26-unknown-nct04252742-completed]] |
-| 2023-10-23 | Trial NCT04631601 for Acapatamab terminated | [[2023-10-23-unknown-nct04631601-terminated]] |
-| 2023-08-19 | Trial NCT05174065 for Apremilast completed | [[2023-08-19-unknown-nct05174065-completed]] |
-| 2023-05-18 | Trial NCT04762498 for Pegloticase completed | [[2023-05-18-unknown-nct04762498-completed]] |
-| 2022-12-20 | Trial NCT04833855 for Tezepelumab completed | [[2022-12-20-unknown-nct04833855-completed]] |
-| 2022-12-01 | Trial NCT03971071 for Erenumab completed | [[2022-12-01-unknown-nct03971071-completed]] |
-| 2022-11-30 | Trial NCT04191616 for Carfilzomib completed | [[2022-11-30-unknown-nct04191616-completed]] |
-| 2022-09-01 | Trial NCT04129164 for Vib4920 completed | [[2022-09-01-unknown-nct04129164-completed]] |
-| 2022-08-02 | Trial NCT04303780 for Amg 510 reaches primary completion | [[2022-08-02-unknown-nct04303780-completed]] |
-| 2022-07-18 | Trial NCT04270747 for Abp 938 completed | [[2022-07-18-unknown-nct04270747-completed]] |
-| 2021-12-27 | Trial NCT04270760 for Olpasiran completed | [[2021-12-27-unknown-nct04270760-completed]] |
-| 2021-02-01 | Trial NCT03774875 completed primary completion. | [[2021-02-01-unknown-nct03774875-completed]] |
-| 2019-07-14 | Phase 3 trial NCT03158688 completed primary completion. | [[2019-07-14-unknown-nct03158688-completed]] |
+| Date | Type | Event | Signal |
+|---| --- |---|---|
+| 2036-12-31 | trial | Trial NCT06072482 for Avacopan reaches primary completion | [[2036-12-31-unknown-nct06072482-completed]] |
+| 2036-03-17 | trial | Trial NCT05767047 for Apremilast reaches primary completion | [[2036-03-17-unknown-nct05767047-completed]] |
+| 2031-10-20 | trial | Trial NCT07136012 for Olpasiran reaches primary completion | [[2031-10-20-unknown-nct07136012-completed]] |
+| 2030-04-20 | trial | Trial NCT06117774 for Tarlatamab reaches primary completion | [[2030-04-20-unknown-nct06117774-completed]] |
+| 2030-03-13 | trial | Trial NCT06987539 for Inebilizumab reaches primary completion | [[2030-03-13-unknown-nct06987539-completed]] |
+| 2030-02-07 | trial | Trial NCT04528082 for Apremilast reaches primary completion | [[2030-02-07-unknown-nct04528082-completed]] |
+| 2030-01-07 | trial | Trial NCT07213674 for Xaluritamig reaches primary completion | [[2030-01-07-unknown-nct07213674-completed]] |
+| 2029-12-11 | trial | Trial NCT06747949 for Dazodalibep reaches primary completion | [[2029-12-11-unknown-nct06747949-completed]] |
+| 2029-09-07 | trial | Trial NCT04994717 for Blinatumomab reaches primary completion | [[2029-09-07-unknown-nct04994717-completed]] |
+| 2029-02-09 | trial | Trial NCT06745323 for Tarlatamab reaches primary completion | [[2029-02-09-unknown-nct06745323-completed]] |
+| 2029-01-31 | trial | Erenumab Phase 3 trial (NCT03633708) for Migraine reaches primary completion | [[2029-01-31-erenumab-nct03633708-trial-completion]] |
+| 2029-01-04 | trial | Trial NCT07005128 for Tarlatamab reaches primary completion | [[2029-01-04-unknown-nct07005128-completed]] |
+| 2029-01-02 | trial | Trial NCT06691984 for Xaluritamig reaches primary completion | [[2029-01-02-unknown-nct06691984-completed]] |
+| 2028-12-05 | trial | Trial NCT07134088 for Blinatumomab reaches primary completion | [[2028-12-05-unknown-nct07134088-completed]] |
+| 2028-09-26 | trial | Trial NCT06321601 for Avacopan reaches primary completion | [[2028-09-26-unknown-nct06321601-completed]] |
+| 2028-07-21 | trial | Trial NCT06570798 for Inebilizumab reaches primary completion | [[2028-07-21-unknown-nct06570798-completed]] |
+| 2028-06-30 | trial | Trial NCT07037459 for Maridebart cafraglutide reaches primary completion | [[2028-06-30-unknown-nct07037459-completed]] |
+| 2028-06-30 | trial | Trial NCT07037433 for Maridebart cafraglutide reaches primary completion | [[2028-06-30-unknown-nct07037433-completed]] |
+| 2028-06-26 | trial | Trial NCT06180278 for Inebilizumab reaches primary completion | [[2028-06-26-unknown-nct06180278-completed]] |
+| 2028-06-15 | trial | Trial NCT07293260 for Olpasiran reaches primary completion | [[2028-06-15-unknown-nct07293260-completed]] |
+| 2028-05-23 | trial | Trial NCT07388498 for Pegloticase reaches primary completion | [[2028-05-23-unknown-nct07388498-completed]] |
+| 2028-03-31 | trial | Trial NCT05581303 for Olpasiran reaches primary completion | [[2028-03-31-unknown-nct05581303-completed]] |
+| 2028-03-21 | trial | Trial NCT04804553 for Apremilast reaches primary completion | [[2028-03-21-unknown-nct04804553-completed]] |
+| 2028-03-07 | trial | Trial NCT04586660 for Xgeva® reaches primary completion | [[2028-03-07-unknown-nct04586660-completed]] |
+| 2028-01-31 | trial | Trial NCT06252649 for Sotorasib reaches primary completion | [[2028-01-31-unknown-nct06252649-completed]] |
+| 2028-01-29 | trial | Trial NCT07438405 for Amg 732 reaches primary completion | [[2028-01-29-unknown-nct07438405-completed]] |
+| 2028-01-25 | trial | Trial NCT06054555 for [[nivolumab]] reaches primary completion | [[2028-01-25-nivolumab-nct06054555-completed]] |
+| 2028-01-10 | trial | Trial NCT06311721 for [[pembrolizumab]] reaches primary completion | [[2028-01-10-pembrolizumab-nct06311721-completed]] |
+| 2028-01-02 | trial | Trial NCT07172919 for Sotorasib reaches primary completion | [[2028-01-02-unknown-nct07172919-completed]] |
+| 2027-11-24 | trial | Trial NCT04521231 for Blinatumomab reaches primary completion | [[2027-11-24-unknown-nct04521231-completed]] |
+| 2027-09-29 | trial | Trial NCT07441252 for Maridebart cafraglutide reaches primary completion | [[2027-09-29-unknown-nct07441252-completed]] |
+| 2027-09-29 | trial | Trial NCT07226765 for Maridebart cafraglutide reaches primary completion | [[2027-09-29-unknown-nct07226765-completed]] |
+| 2027-09-29 | trial | Trial NCT07225686 for Maridebart cafraglutide reaches primary completion | [[2027-09-29-unknown-nct07225686-completed]] |
+| 2027-06-30 | trial | Trial NCT05920356 for [[pembrolizumab]] reaches primary completion | [[2027-06-30-pembrolizumab-nct05920356-completed]] |
+| 2027-06-30 | trial | Trial NCT03969329 for Etelcalcetide reaches primary completion | [[2027-06-30-unknown-nct03969329-completed]] |
+| 2027-06-01 | trial | Romosozumab Phase 3 trial (NCT05972551) reaches primary completion | [[2027-06-01-romosozumab-nct05972551-trial-completion]] |
+| 2027-04-27 | trial | Trial NCT06987695 for Maridebart cafraglutide reaches primary completion | [[2027-04-27-unknown-nct06987695-completed]] |
+| 2027-04-27 | trial | Trial NCT06588153 for Prolia® reaches primary completion | [[2027-04-27-unknown-nct06588153-completed]] |
+| 2027-04-13 | trial | Trial NCT05549258 for Inebilizumab reaches primary completion | [[2027-04-13-unknown-nct05549258-completed]] |
+| 2027-02-22 | trial | Trial NCT06401044 for Amg 732 reaches primary completion | [[2027-02-22-unknown-nct06401044-completed]] |
+| 2027-01-23 | trial | Trial NCT06332014 for Prolia reaches primary completion | [[2027-01-23-unknown-nct06332014-completed]] |
+| 2027-01-21 | trial | Trial NCT06858878 for Maridebart cafraglutide reaches primary completion | [[2027-01-21-unknown-nct06858878-completed]] |
+| 2027-01-21 | trial | Trial NCT06858839 for Maridebart cafraglutide reaches primary completion | [[2027-01-21-unknown-nct06858839-completed]] |
+| 2027-01-15 | trial | Trial NCT06700343 for Ocrelizumab (us) reaches primary completion | [[2027-01-15-unknown-nct06700343-completed]] |
+| 2026-12-30 | trial | Trial NCT05060016 for Tarlatamab reaches primary completion | [[2026-12-30-unknown-nct05060016-completed]] |
+| 2026-12-14 | trial | Trial NCT06430866 for [[pembrolizumab]] reaches primary completion | [[2026-12-14-pembrolizumab-nct06430866-completed]] |
+| 2026-11-30 | trial | Trial NCT05094336 for Anvumetostat reaches primary completion | [[2026-11-30-unknown-nct05094336-completed]] |
+| 2026-10-31 | trial | Trial NCT06593522 for Anvumetostat reaches primary completion | [[2026-10-31-unknown-nct06593522-completed]] |
+| 2026-10-22 | trial | Trial NCT06245408 for Dazodalibep reaches primary completion | [[2026-10-22-unknown-nct06245408-completed]] |
+| 2026-10-19 | trial | Trial NCT06376045 for Rocatinlimab reaches primary completion | [[2026-10-19-unknown-nct06376045-completed]] |
+| 2026-08-19 | trial | Trial NCT06104124 for Dazodalibep reaches primary completion | [[2026-08-19-unknown-nct06104124-completed]] |
+| 2026-08-06 | trial | Trial NCT06088199 for Apremilast reaches primary completion | [[2026-08-06-unknown-nct06088199-completed]] |
+| 2026-06-22 | trial | Trial NCT05882877 for Rocatinlimab reaches primary completion | [[2026-06-22-unknown-nct05882877-completed]] |
+| 2026-05-30 | trial | AMG 520 Phase 1/2 trial (NCT03600883) for Alzheimer's reaches primary completion | [[2026-05-30-amg-520-nct03600883-trial-completion]] |
+| 2026-05-27 | trial | Trial NCT05094336 for Anvumetostat reaches primary completion | [[2026-05-27-unknown-nct05094336-completed]] |
+| 2026-05-20 | trial | Maridebart cafraglutide Phase 3 trial (NCT03937154) for obesity/T2D reaches primary completion | [[2026-05-20-maridebart-cafraglutide-nct03937154-trial-completion]] |
+| 2026-05-20 | sec | Amgen Inc. held its Annual Meeting of Stockholders on May 19, 2026, where stockholders voted on the election of directors, executive compensation, ratification of independent accountants, and a stockholder proposal. | [[2026-05-20-amgen-annual-meeting-results]] |
+| 2026-04-22 | sec | Amgen Inc. announced the retirement of David M. Reese, Executive Vice President and Chief Technology Officer, with his responsibilities being redistributed among other executives. | [[2026-04-22-amgen-executive-retirement]] |
+| 2026-04-17 | trial | Trial NCT06527404 for Rocatinlimab reaches primary completion | [[2026-04-17-unknown-nct06527404-completed]] |
+| 2026-04-12 | research | Tarlatamab plus PD-L1 inhibitor shows promising anticancer activity in NSCLC (Pubmed) | [[2026-04-12-tarlatamab-pubmed-result]] |
+| 2026-04-06 | trial | A Phase 4 study evaluating the safety, tolerability, and efficacy of Kyprolis (Carfilzomib) in relapsed or refractory multiple myeloma has been completed. | [[2026-04-06-kyprolis-carfilzomib-relapsed-refractory-multiple-myeloma-trial-completion]] |
+| 2026-03-19 | trial | Trial NCT06312020 for Hzn-1116 reaches primary completion | [[2026-03-19-unknown-nct06312020-completed]] |
+| 2026-03-10 | trial | Maridebart cafraglutide (AMG 133) Phase 3 trial (NCT03937154) for obesity/T2D reaches primary completion | [[2026-03-10-maridebart-cafraglutide-nct03937154-trial-completion]] |
+| 2026-02-25 | trial | Trial NCT05975073 for Anvumetostat reaches primary completion | [[2026-02-25-unknown-nct05975073-completed]] |
+| 2026-02-19 | sec | Amgen Inc. issued $4 billion in senior notes. | [[2026-02-19-amgen-senior-notes-offering]] |
+| 2026-02-03 | sec | Amgen Q4 2025 financial results and 2026 guidance | [[2026-02-03-amgen-q4-2025-earnings]] |
+| 2026-01-30 | sec | Amgen and Kyowa Kirin terminate collaboration agreement | [[2026-01-30-amgen-kyowa-kirin-agreement-termination]] |
+| 2026-01-28 | trial | Trial NCT05325866 for Bemarituzumab reaches primary completion | [[2026-01-28-unknown-nct05325866-completed]] |
+| 2026-01-14 | trial | Trial NCT06248619 for Teprotumumab reaches primary completion | [[2026-01-14-unknown-nct06248619-completed]] |
+| 2026-01-07 | trial | Erenumab pediatric migraine trial completion (NCT03832998) | [[2026-01-07-erenumab-pediatric-migraine-trial-completion]] |
+| 2026-01-05 | trial | Trial NCT06054113 for Blinatumomab reaches primary completion | [[2026-01-05-unknown-nct06054113-completed]] |
+| 2025-12-19 | trial | Trial NCT05002998 for Teprotumumab reaches primary completion | [[2025-12-19-unknown-nct05002998-completed]] |
+| 2025-11-21 | trial | Trial NCT05322577 for [[nivolumab]] reaches primary completion | [[2025-11-21-nivolumab-nct05322577-completed]] |
+| 2025-11-20 | trial | Trial NCT05565560 for Apremilast reaches primary completion | [[2025-11-20-unknown-nct05565560-completed]] |
+| 2025-11-05 | sec | Amgen Q3 earnings and product updates | [[2025-11-05-amgen-q3-earnings-product-updates]] |
+| 2025-11-04 | sec | Amgen Inc. reported its third quarter 2025 financial results, including GAAP and non-GAAP earnings per share guidance for the full year, and detailed reconciliations of non-GAAP financial measures. | [[amgen-2025-q3-earnings]] |
+| 2025-10-30 | trial | Trial NCT04175613 for Apremilast reaches primary completion | [[2025-10-30-unknown-nct04175613-completed]] |
+| 2025-10-18 | trial | Trial NCT06079476 for Romosozumab reaches primary completion | [[2025-10-18-unknown-nct06079476-completed]] |
+| 2025-10-14 | trial | Trial NCT05111626 for [[nivolumab]] reaches primary completion | [[2025-10-14-nivolumab-nct05111626-completed]] |
+| 2025-10-06 | trial | Trial NCT06660173 for Maridebart cafraglutide reaches primary completion | [[2025-10-06-unknown-nct06660173-completed]] |
+| 2025-08-06 | sec | Amgen Q2 earnings and pipeline updates | [[2025-08-06-amgen-q2-earnings-pipeline-updates]] |
+| 2025-08-05 | sec | Amgen Q2 2025 financial results and guidance | [[2025-08-05-amgen-q2-2025-earnings]] |
+| 2025-08-05 | sec | Amgen Q2 2025 financial results and guidance | [[2025-08-05-amgen-q2-earnings]] |
+| 2025-07-31 | trial | Trial NCT05633355 for Rocatinlimab reaches primary completion | [[2025-07-31-unknown-nct05633355-completed]] |
+| 2025-07-30 | trial | Trial NCT06229145 for Pegloticase reaches primary completion | [[2025-07-30-unknown-nct06229145-completed]] |
+| 2025-07-25 | trial | Trial NCT03872401 reaches primary completion | [[2025-07-25-unknown-nct03872401-completed]] |
+| 2025-07-16 | trial | Trial NCT05198934 for Sotorasib reaches primary completion | [[2025-07-16-unknown-nct05198934-completed]] |
+| 2025-07-02 | trial | Trial NCT05669014 for Daxdilimab reaches primary completion | [[2025-07-02-unknown-nct05669014-completed]] |
+| 2025-06-20 | trial | Trial NCT05052801 for Bemarituzumab reaches primary completion | [[2025-06-20-unknown-nct05052801-completed]] |
+| 2025-05-27 | sec | Amgen Inc. held its Annual Meeting of Stockholders | [[amgen-annual-meeting-results-2025-05-27]] |
+| 2025-05-27 | sec | Amgen Inc. held its Annual Meeting of Stockholders | [[2025-05-27-amgen-annual-meeting]] |
+| 2025-05-27 | trial | Trial NCT04933695 for Sotorasib reaches primary completion | [[2025-05-27-unknown-nct04933695-completed]] |
+| 2025-05-08 | trial | Trial NCT05591222 for Daxdilimab terminated | [[2025-05-08-unknown-nct05591222-terminated]] |
+| 2025-05-02 | sec | Amgen Q1 earnings, FDA approval, pipeline updates | [[2025-05-02-amgen-2025-q1-earnings-fda-approval-pipeline-updates]] |
+| 2025-03-28 | trial | Trial NCT06502977 for Tarlatamab reaches primary completion | [[2025-03-28-unknown-nct06502977-completed]] |
+| 2025-02-28 | trial | Trial NCT06122649 for Apremilast reaches primary completion | [[2025-02-28-unknown-nct06122649-completed]] |
+| 2025-02-27 | trial | Trial NCT05704738 for Rocatinlimab reaches primary completion | [[2025-02-27-unknown-nct05704738-completed]] |
+| 2025-02-24 | trial | Trial NCT05626751 for Hzn-825 terminated | [[2025-02-24-unknown-nct05626751-terminated]] |
+| 2025-02-24 | trial | Trial NCT04781543 for Hzn-825 terminated | [[2025-02-24-unknown-nct04781543-terminated]] |
+| 2025-01-29 | trial | Trial NCT05740566 for Tarlatamab reaches primary completion | [[2025-01-29-unknown-nct05740566-completed]] |
+| 2024-11-28 | trial | Trial NCT05398445 for Rocatinlimab reaches primary completion | [[2024-11-28-unknown-nct05398445-completed]] |
+| 2024-10-31 | trial | Trial NCT05672199 for Efavaleukin alfa terminated | [[2024-10-31-unknown-nct05672199-terminated]] |
+| 2024-10-22 | trial | Trial NCT04987307 for Efavaleukin alfa terminated | [[2024-10-22-unknown-nct04987307-terminated]] |
+| 2024-10-08 | trial | Trial NCT05669599 for Maridebart cafraglutide completed | [[2024-10-08-unknown-nct05669599-completed]] |
+| 2024-09-15 | trial | Trial NCT05724199 for Rocatinlimab reaches primary completion | [[2024-09-15-unknown-nct05724199-completed]] |
+| 2024-08-26 | trial | Trial NCT05899816 for Rocatinlimab reaches primary completion | [[2024-08-26-unknown-nct05899816-completed]] |
+| 2024-07-22 | trial | Trial NCT05032066 for Hzn-825 terminated | [[2024-07-22-unknown-nct05032066-terminated]] |
+| 2024-07-04 | trial | Trial NCT04506086 for Blinatumomab terminated | [[2024-07-04-unknown-nct04506086-terminated]] |
+| 2024-05-28 | trial | Trial NCT04524273 for Inebilizumab reaches primary completion | [[2024-05-28-unknown-nct04524273-completed]] |
+| 2024-04-23 | trial | Erenumab Phase 3 trial update for pediatric episodic migraine (NCT03836040) | [[2024-04-23-amgen-erenumab-trial-update]] |
+| 2024-04-09 | trial | Trial NCT04540497 for Inebilizumab reaches primary completion | [[2024-04-09-unknown-nct04540497-completed]] |
+| 2024-01-25 | trial | Trial NCT03362177 completed primary completion. | [[2024-01-25-unknown-nct03362177-completed]] |
+| 2024-01-18 | trial | Trial NCT04511702 for Pegloticase completed | [[2024-01-18-unknown-nct04511702-completed]] |
+| 2023-10-26 | trial | Trial NCT04252742 for Erenumab completed | [[2023-10-26-unknown-nct04252742-completed]] |
+| 2023-10-23 | trial | Trial NCT04631601 for Acapatamab terminated | [[2023-10-23-unknown-nct04631601-terminated]] |
+| 2023-08-19 | trial | Trial NCT05174065 for Apremilast completed | [[2023-08-19-unknown-nct05174065-completed]] |
+| 2023-05-18 | trial | Trial NCT04762498 for Pegloticase completed | [[2023-05-18-unknown-nct04762498-completed]] |
+| 2022-12-20 | trial | Trial NCT04833855 for Tezepelumab completed | [[2022-12-20-unknown-nct04833855-completed]] |
+| 2022-12-01 | trial | Trial NCT03971071 for Erenumab completed | [[2022-12-01-unknown-nct03971071-completed]] |
+| 2022-11-30 | trial | Trial NCT04191616 for Carfilzomib completed | [[2022-11-30-unknown-nct04191616-completed]] |
+| 2022-09-01 | trial | Trial NCT04129164 for Vib4920 completed | [[2022-09-01-unknown-nct04129164-completed]] |
+| 2022-08-02 | trial | Trial NCT04303780 for Amg 510 reaches primary completion | [[2022-08-02-unknown-nct04303780-completed]] |
+| 2022-07-18 | trial | Trial NCT04270747 for Abp 938 completed | [[2022-07-18-unknown-nct04270747-completed]] |
+| 2021-12-27 | trial | Trial NCT04270760 for Olpasiran completed | [[2021-12-27-unknown-nct04270760-completed]] |
+| 2021-02-01 | trial | Trial NCT03774875 completed primary completion. | [[2021-02-01-unknown-nct03774875-completed]] |
+| 2019-07-14 | trial | Phase 3 trial NCT03158688 completed primary completion. | [[2019-07-14-unknown-nct03158688-completed]] |
 
 ### Sources
 - `raw/edgar/amgen/10Q/2025-Q2-10Q.txt`
@@ -717,3 +761,4 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
 - `raw/ctgov/amgen/2026-05-01/NCT07226765.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07293260.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07441252.json`
+- `raw/ctgov/amgen/2026-06-01/NCT05972551.json`

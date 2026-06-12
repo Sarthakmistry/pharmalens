@@ -5,16 +5,16 @@ company: merck
 indications: [oncology-nsclc, oncology-breast, oncology-crc]
 drug_class: PD-1 inhibitor
 status: approved
-fda_approval_date: 
-patent_expiry: 
+fda_approval_date:
+patent_expiry:
 black_box_warning: false
 blockbuster: true
 management_sentiment: bullish
 sentiment_score: 4/5
 last_earnings_signal: "2026-Q1 — Sales Were $8.0 Billion (12% Growth; 8% Growth ex-FX)"
 reimbursement_flag: true
-latest_event: "2027-06-01 — Trial NCT04379596 for [[pembrolizumab]] initiated Phase 2 and is recruiting (Primary completion: 2027-06-01)."
-trials: [NCT03517449, NCT02504372, NCT02684292, NCT02628067, NCT02853331, NCT02625961, NCT02358031, NCT02362594, NCT02332668, NCT06236438, NCT06772623, NCT05920356, NCT06311721, NCT06430866, NCT04379596]
+latest_event: "2034-08-22 — Trial NCT07513376 for [[pembrolizumab]] in oncology-nsclc is recruiting for Phase 3 (Primary completion: 2034-08-22)."
+trials: [NCT02332668, NCT02358031, NCT02362594, NCT02504372, NCT02625961, NCT02628067, NCT02684292, NCT02853331, NCT02861573, NCT03036488, NCT03040999, NCT03062358, NCT03142334, NCT03179436, NCT03221426, NCT03407144, NCT03485209, NCT03486873, NCT03516981, NCT03517449, NCT03547973, NCT03598608, NCT03615326, NCT03631199, NCT03635567, NCT03675737, NCT03711032, NCT03713593, NCT03715205, NCT03725059, NCT03740165, NCT03765918, NCT03768063, NCT03783078, NCT03786081, NCT03797326, NCT03820986, NCT03829319, NCT03829332, NCT03833167, NCT03834493, NCT03834506, NCT03834519, NCT03867084, NCT03884101, NCT03898180, NCT03899155, NCT03924856, NCT03924869, NCT03924895, NCT03976323, NCT03976362, NCT03976375, NCT04003636, NCT04123366, NCT04165070, NCT04165083, NCT04165096, NCT04191096, NCT04191135, NCT04194944, NCT04199104, NCT04210115, NCT04220866, NCT04221945, NCT04222972, NCT04241185, NCT04246177, NCT04303169, NCT04305041, NCT04305054, NCT04379596, NCT04380636, NCT04428151, NCT04430738, NCT04489888, NCT04609566, NCT04619797, NCT04624204, NCT04626479, NCT04626518, NCT04633278, NCT04634877, NCT04657991, NCT04662710, NCT04696055, NCT04700072, NCT04700124, NCT04704219, NCT04716933, NCT04725188, NCT04736706, NCT04738487, NCT04740307, NCT04776148, NCT04854499, NCT04865289, NCT04875195, NCT04879329, NCT04882241, NCT04889118, NCT04895358, NCT04895722, NCT04924062, NCT04924101, NCT04934722, NCT04938817, NCT04949256, NCT04956640, NCT05005442, NCT05007106, NCT05008224, NCT05064059, NCT05091346, NCT05116189, NCT05173987, NCT05186974, NCT05217446, NCT05224141, NCT05226598, NCT05239728, NCT05239741, NCT05298423, NCT05319730, NCT05342636, NCT05352672, NCT05382286, NCT05446870, NCT05502237, NCT05508867, NCT05523323, NCT05562830, NCT05600309, NCT05608291, NCT05609968, NCT05633654, NCT05665595, NCT05722015, NCT05845814, NCT05899049, NCT05911295, NCT05920356, NCT05926960, NCT05933577, NCT06036836, NCT06041802, NCT06077760, NCT06099782, NCT06119581, NCT06170788, NCT06212752, NCT06236438, NCT06295809, NCT06305767, NCT06307431, NCT06311721, NCT06312137, NCT06312176, NCT06345729, NCT06393374, NCT06422143, NCT06428409, NCT06430866, NCT06452277, NCT06469944, NCT06483334, NCT06504394, NCT06561386, NCT06618287, NCT06623422, NCT06698042, NCT06731907, NCT06758401, NCT06772623, NCT06780111, NCT06788912, NCT06797635, NCT06841354, NCT06843447, NCT06890598, NCT06952504, NCT06961006, NCT06966700, NCT07063745, NCT07190248, NCT07216703, NCT07218380, NCT07221474, NCT07222566, NCT07223047, NCT07232602, NCT07252739, NCT07302347, NCT07361510, NCT07513376]
 last_updated: 2024-07-30
 ---
 
@@ -28,145 +28,96 @@ last_updated: 2024-07-30
 - oncology-crc
 
 ### Pipeline
-- Oncology (unspecified) — Phase 2, NCT04379596, Recruiting (Primary completion: 2027-06-01)
-- oncology-nsclc — Phase 3, NCT06311721, ACTIVE_NOT_RECRUITING (Primary completion: 2028-02-14)
-- oncology-nsclc — Phase 3, NCT06430866, ACTIVE_NOT_RECRUITING (Primary completion: 2026-12-14)
-- oncology-nsclc — Phase 3, NCT05920356, Recruiting (Primary completion: 2027-06-30)
-- Oncology (unspecified) — Phase 1/2, NCT06772623, Recruiting
-- Oncology (unspecified) — Phase 1/2, NCT02332668, Recruiting
-- Oncology (unspecified) — Phase 3, NCT02853331, Completed
-- Endometrial Neoplasms — Phase 3, NCT03517449, Completed
-- oncology-nsclc — Phase 3, NCT02504372, Completed
-- oncology-nsclc — Phase 3, NCT02684292, Completed
-- oncology-nsclc — Phase 3, NCT02358031, Completed
-- oncology-nsclc — Phase 3, NCT02362594, Completed
-- oncology-nsclc — Phase 2/3, NCT06236438, Recruiting
-- Alzheimer's Disease — Phase 2, NCT02628067, ACTIVE_NOT_RECRUITING
-- alzheimers — Phase 2, NCT02625961, Completed
+- Unspecified — Phase 1/2, NCT03786081, TERMINATED (Primary completion: 2026-03-19)
+- Unspecified — Phase 2, NCT02628067, ACTIVE_NOT_RECRUITING
+- Unspecified — Phase 2, NCT04879329, RECRUITING (Primary completion: 2026-12-11)
+- Unspecified — Phase 2, NCT05926960, TERMINATED (Primary completion: 2026-02-02)
+- Unspecified — Phase 3, NCT03768063, ACTIVE_NOT_RECRUITING (Primary completion: 2028-07-05)
+- Unspecified — Phase 3, NCT04657991, ACTIVE_NOT_RECRUITING (Primary completion: 2026-01-12)
+- Unspecified — Phase 3, NCT05352672, ACTIVE_NOT_RECRUITING (Primary completion: 2026-03-12)
+- Unspecified — Phase 3, NCT05608291, ACTIVE_NOT_RECRUITING (Primary completion: 2028-05-16)
+- Unspecified — Phase 3, NCT05911295, ACTIVE_NOT_RECRUITING (Primary completion: 2026-06-30)
+- alzheimers — Phase 1/2, NCT03179436, Completed (Primary completion: 2024-04-08)
+- alzheimers — Phase 1/2, NCT06305767, ACTIVE_NOT_RECRUITING (Primary completion: 2027-04-23)
+- alzheimers — Phase 1/2, NCT06469944, Recruiting (Primary completion: 2029-09-12)
+- alzheimers — Phase 1/2, NCT06483334, ACTIVE_NOT_RECRUITING (Primary completion: 2028-03-31)
+- alzheimers — Phase 1/2, NCT07232602, Recruiting (Primary completion: 2031-07-08)
+- alzheimers — Phase 2, NCT02625961, Completed (Primary completion: 2025-11-05)
+- alzheimers — Phase 2, NCT03485209, ACTIVE_NOT_RECRUITING (Primary completion: 2026-03-20)
+- alzheimers — Phase 2, NCT04220866, Completed (Primary completion: 2022-09-30)
+- alzheimers — Phase 2, NCT04428151, Completed (Primary completion: 2024-05-31)
+- alzheimers — Phase 2, NCT04430738, ACTIVE_NOT_RECRUITING (Primary completion: 2024-07-31)
+- alzheimers — Phase 2, NCT04609566, COMPLETED (Primary completion: 2026-02-03)
+- alzheimers — Phase 2, NCT04633278, TERMINATED (Primary completion: 2024-01-19)
+- alzheimers — Phase 2, NCT04700124, Completed (Primary completion: 2025-10-27)
+- alzheimers — Phase 2, NCT04740307, Completed (Primary completion: 2025-07-29)
+- alzheimers — Phase 2, NCT04854499, TERMINATED (Primary completion: 2024-10-02)
+- alzheimers — Phase 2, NCT05007106, Completed (Primary completion: 2025-08-05)
+- alzheimers — Phase 2, NCT05446870, Completed (Primary completion: 2023-12-20)
+- alzheimers — Phase 3, NCT03040999, Completed (Primary completion: 20
+- alzheimers — Phase 3, NCT04222972, TERMINATED (Primary completion: 2025-01-27)
+- alzheimers — Phase 3, NCT07222566, RECRUITING (Primary completion: 2029-02-27)
+- oncology-crc — Phase 2, NCT03485209, ACTIVE_NOT_RECRUITING (Primary completion: 2026-03-20)
+- oncology-crc — Phase 2, NCT04430738, ACTIVE_NOT_RECRUITING (Primary completion: 2024-07-31)
+- oncology-crc — Phase 2, NCT05217446, ACTIVE_NOT_RECRUITING (Primary completion: 2026-06-01)
+- oncology-nsclc — Phase 2, NCT03485209, ACTIVE_NOT_RECRUITING (Primary completion: 2026-03-20)
+- oncology-nsclc — Phase 2, NCT04609566, COMPLETED (Primary completion: 2026-02-03)
+- oncology-nsclc — Phase 2/3, NCT04619797, COMPLETED (Primary completion: 2024-04-19)
+- oncology-nsclc — Phase 3, NCT04222972, TERMINATED (Primary completion: 2025-01-27)
+- oncology-nsclc — Phase 3, NCT06758401, RECRUITING (Primary completion: 2028-09-05)
+- oncology-nsclc — Phase 3, NCT07222566, RECRUITING (Primary completion: 2029-02-27)
 
 ### Management sentiment
-Merck's management maintains a bullish sentiment for [[pembrolizumab]]. In Q3 2025, KEYTRUDA sales grew 10% to $8.1 Billion (8% excluding foreign exchange impact), contributing to strong overall company performance. This positive trend continued into Q4 2025, with KEYTRUDA sales growing 19% to $7.0 Billion due to continued strong global demand in oncology indications. In Q1 2026, Keytruda sales reached $8.0 billion, representing 12% growth (8% ex-FX), largely driving growth in the oncology franchise. Despite the positive sales trajectory, the company noted that Keytruda is expected to be selected in 2027 for government price setting, effective January 1, 2029.
+{One paragraph summary of how management has discussed this drug in recent 
+earnings calls. Include quarter, directional language, and any guidance changes.}
 
 ### Clinical evidence
-A network meta-analysis published in Farmacia hospitalaria (2026) on perioperative immunotherapies for resectable non-small cell lung cancer (NSCLC) found that [[pembrolizumab]] showed superior progression-free survival for PD-L1 1-49% expression compared to other regimens (except toripalimab). No benefit was observed for PD-L1 <1%, but immunotherapeutic schemes were superior for PD-L1 ≥50%.
-An RCT published in Lung cancer (2025) developed a treatment-related death (TRD) predictive score for advanced NSCLC patients. It found that high-risk patients treated with nivolumab and ipilimumab (NIC) showed a significantly higher TRD incidence (20.0%) compared to those treated with [[pembrolizumab]] plus chemotherapy (PC) (1.9%).
-A systematic review and meta-analysis published in Clinical and experimental medicine (2025) evaluated the safety profiles and hematologic toxicities of various immune checkpoint inhibitors in digestive system tumors. It found that [[pembrolizumab]] was predominantly linked to grade 3-5 neutropenia but ranked third safest for grade 1-5 and grade 3-5 anemia among the ICIs studied (avelumab, nivolumab, sintilimab, camrelizumab, tislelizumab).
-An observational study published in International journal of cancer (2025) involving 60 patients with advanced melanoma found that elevated plasma TNF levels and enriched TNF pathways in T cells were associated with poorer clinical outcomes, suggesting that TNF may dampen ICI efficacy, including that of [[pembrolizumab]].
-A cost-utility analysis published in International journal of clinical pharmacology and therapeutics (2025) for metastatic colorectal cancer in China found that [[pembrolizumab]] alone was the most cost-effective treatment for non-resectable or metastatic MSI-H/dMMR advanced solid tumors CRC. In contrast, the combination of nivolumab and ipilimumab was not considered cost-effective, with an ICER of 8,918,075 ¥/QALYs, significantly exceeding the willingness-to-pay threshold.
-An RCT (JCOG2007) published in Journal of thoracic oncology (2025) involving 270 patients with advanced NSCLC found that gut microbiota composition is associated with overall survival in patients receiving chemoimmunotherapy, including [[pembrolizumab]]. Specific bacterial genera (Fusicatenibacter, Butyricicoccus, Blautia) were enriched in patients with longer OS and lower risk of serious adverse events.
-A phase 1 study (KEYNOTE-011, Part D) published in Respiratory investigation (2025) evaluated [[pembrolizumab]] plus ipilimumab as first-line treatment in 6 Japanese patients with advanced NSCLC. The combination had a manageable safety profile with no dose-limiting toxicities and showed antitumor activity, achieving an objective response rate of 50%.
-A network meta-analysis published in BMC cancer (2025) of 18 RCTs for advanced biliary tract cancer found that [[pembrolizumab]] (HR 0.83, 95% CI 0.72-0.95) combined with gemcitabine and cisplatin (GC) significantly improved overall survival compared to chemotherapy alone. The combination also had comparable serious adverse event rates to chemotherapy alone.
-A prospective, multicentre, single-arm, phase 2 study (Evolution trial WJOG11819L) published in The Lancet. Oncology (2025) evaluated radiotherapy-free [[pembrolizumab]] and chemotherapy in 21 patients with unresectable, locally advanced NSCLC with a PD-L1 TPS of 50% or higher. The study reported a 2-year progression-free survival of 67% (90% CI 46-83) and a manageable safety profile with no treatment-related deaths.
-A meta-analysis published in Frontiers in immunology (2025) on immune-related therapies for advanced squamous non-small cell lung cancer (SqNSCLC) found that for PD-L1 1-49% tumors, [[pembrolizumab]] + chemotherapy achieved the best overall survival. It also noted favorable OS and PFS benefits for [[pembrolizumab]] or [[pembrolizumab]] + chemotherapy in Asian patients and former/current smokers.
-A meta-analysis published in Cancer treatment reviews (2025) comparing FLOT-IO regimens (including [[pembrolizumab]] and [[durvalumab]]) against FLOT-only or Cis/fluoropyrimidine-IO found no significant difference in event-free survival (EFS) between FLOT-durvalumab and FLOT-pembrolizumab arms. However, FLOT-IO regimens showed superior EFS compared to FLOT-only (HR = 0.732) in resectable, locally-advanced gastro-esophageal adenocarcinoma.
-A systematic review published in The Cochrane database of systematic reviews (2026) involving 4341 participants found that combining PD-1 or PD-L1 inhibitors (including [[pembrolizumab]], [[durvalumab]], [[atezolizumab]]) with chemotherapy before breast cancer surgery probably increases pathological complete response rate (RR 1.47, 95% CI 1.15 to 1.86), improves event-free survival (HR 0.64, 95% CI 0.52 to 0.79), and probably improves overall survival (HR 0.56, 95% CI 0.34 to 0.93) in early triple-negative breast cancer (TNBC) compared to chemotherapy alone. However, this combination probably increases immune-related serious adverse events (OR 1.75, 95% CI 1.15 to 2.67). In contrast, the combination of PD-1/PD-L1 inhibitors with chemotherapy after breast cancer surgery may have little to no effect on EFS and OS, while still increasing immune-related SAEs.
-A systematic review and meta-analysis published in Critical reviews in oncology/hematology (2026) evaluated anti-PD-1/PD-L1-containing regimens for advanced non-squamous non-small cell lung cancer (nsNSCLC). The primary outcome was overall (OS) and progression-free (PFS) survival. Regardless of PD-L1 expression, treatments with the highest probability of being the best (SUCRA) by OS are prolgolimab + chemotherapy, [[pembrolizumab]] + chemotherapy and cemiplimab + chemotherapy (SUCRA 0.80-0.94), by PFS [[nivolumab]] + [[bevacizumab]] + chemotherapy and [[atezolizumab]] + [[bevacizumab]] + chemotherapy (SUCRA 0.91-0.96). The hazard ratio for the interaction between PD-L1-negative status and anti-PD-1/PD-L1-containing therapy was 1.09 (95% CrI, 0.95-1.25) for OS and 1.41 (95% CrI, 1.16-1.71) for PFS. For advanced nsNSCLC patients, irrespective of PD-L1 expression, prolgolimab, [[pembrolizumab]] or cemiplimab, each combined with chemotherapy, are most efficacious by OS; [[nivolumab]] or [[atezolizumab]] combined with [[bevacizumab]] and chemotherapy demonstrate the highest PFS. PD-L1 expression does not modify the effect of examined immunotherapy options on OS, though the opposite is true for PFS.
-In a study of 21 patients published in International journal of radiation oncology, biology, physics (2025), the primary outcome was objective response rate measured at the unirradiated target lesion. An objective response at the unirradiated target lesion was observed in 8 patients (38%), meeting the study defined endpoint. The best overall response was a partial response in 5 (24%) and stable disease in 12 (57%) patients. The median duration of response was 8.6 months (95% CI, 4.5-13.6 months). Responses were noted in PD-L1 negative tumors. The most common grade ≥2 toxicities at least possibly attributed to study therapy included lymphopenia (n = 6; 29%), nausea/vomiting (n = 3; 14%), and hyponatremia (n = 3; 14%). In this first trial of SBRT and [[atezolizumab]] in metastatic cervical cancer unselected for PD-L1, combination therapy was well tolerated. Responses were noted in PD-L1 negative tumors. Combination therapy may allow for improved response rates to immune checkpoint inhibition in metastatic cervical cancer particularly in PD-L1 negative tumors.
-A meta-analysis published in Frontiers in immunology (2026) involving 13572 patients compared various first-line therapies for advanced hepatocellular carcinoma (HCC) against sorafenib. In the overall population, regimens with significant OS advantage over sorafenib included sintilimab plus bevacizumab biosimilar (HR = 0.57, 95% CrI 0.43-0.75), camrelizumab plus rivoceranib (HR = 0.62, 0.48-0.79), and [[atezolizumab]] plus bevacizumab (HR = 0.66, 0.51-0.84). For PFS, top-ranked combinations were camrelizumab plus rivoceranib (HR = 0.52, 0.41-0.66), anlotinib plus penpulimab (HR = 0.53, 0.41-0.68), lenvatinib plus [[pembrolizumab]] (HR = 0.55, 0.44-0.68), and sintilimab plus bevacizumab biosimilar (HR = 0.56, 0.45-0.69). ORR was highest with lenvatinib plus [[pembrolizumab]] (RR = 8.00, 4.98-12.86). In HBV-related HCC, sintilimab plus bevacizumab biosimilar and [[atezolizumab]] plus bevacizumab led OS rankings, with PFS favoring cabozantinib plus [[atezolizumab]] and [[atezolizumab]] plus bevacizumab. In HCV-related HCC, only [[atezolizumab]] plus bevacizumab conferred a significant OS benefit (HR = 0.43, 0.25-0.73), while PFS superiority was observed only for cabozantinib plus [[atezolizumab]] (HR = 0.73, 0.54-0.99). In non-viral HCC, the STRIDE regimen (single priming dose tremelimumab plus [[durvalumab]]) was the only regimen to significantly improve OS (HR = 0.75, 0.59-0.96). Regarding safety, tislelizumab (RR = 0.42, 0.33-0.52) and [[nivolumab]] (RR = 0.45, 0.36-0.56) were associated with the lowest incidence of AEs≥3. For first-line therapy in advanced HCC, ICI-based combinations with anti-VEGF/anti-angiogenic agents generally outperform sorafenib, with discernible etiology-specific optima: HBV-related HCC favors sintilimab plus bevacizumab biosimilar or [[atezolizumab]] plus bevacizumab; HCV-related HCC favors [[atezolizumab]] plus bevacizumab; and in non-viral disease, STRIDE demonstrates a unique OS advantage. This etiology-stratified evidence framework may guide individualized first-line decision-making, pending confirmation in head-to-head trials.
-A meta-analysis of 4341 participants published in The Cochrane database of systematic reviews (2026) compared PD-1 or PD-L1 inhibitors plus chemotherapy to chemotherapy alone before breast cancer surgery. The study found that PD-1 or PD-L1 inhibitors plus chemotherapy probably increase pathological complete response rate (RR 1.47, 95% CI 1.15 to 1.86; 6 studies, 1564 participants); improve EFS (HR 0.64, 95% CI 0.52 to 0.79; 4 studies, 1789 participants); and probably improve OS (HR 0.56, 95% CI 0.34 to 0.93; 3 studies, 1681 participants) compared with chemotherapy alone before breast cancer surgery. The addition of PD-1 or PD-L1 inhibitors to chemotherapy probably increases immune-related serious adverse events, both before and after breast cancer surgery. Combining PD-1 or PD-L1 inhibitors with chemotherapy compared to chemotherapy alone before breast cancer surgery improves pathological response, EFS, and OS in early TNBC. In contrast, the combination of PD-1/PD-L1 inhibitors with chemotherapy after breast cancer surgery may have little to no effect on EFS and OS in early-stage TNBC when compared with chemotherapy alone. The addition of PD-1 or PD-L1 inhibitors probably increases immune-related SAEs.
-A meta-analysis involving 7,333 patients assessed immune-related adverse events (irAEs) associated with ICI therapy in bladder cancer, comparing against a control arm (placebo or standard of care). Hypothyroidism (RR: 5.87 (3.23, 10.67)), hyperthyroidism (RR: 11.05 (4.20, 29.03)), pruritus (RR: 4.95 (2.82, 8.70)), rash (RR: 2.92 (1.51, 5.64)), colitis (RR: 2.15 (1.11, 4.15)), pneumonitis (RR: 3.91 (2.18, 7.02)), and nephritis (RR: 4.97 (1.43, 17.33)) were found to be significant irAEs associated with ICI therapy. Bladder cancer patients treated with ICIs are at significant risk of irAEs. These events vary in severity, and appropriate management of these adverse events should be prioritized to improve quality of life. (Urologic oncology, 2025)
-A systematic review and meta-analysis of 3302 patients compared [[pembrolizumab]] to standard therapy or placebo or other immune checkpoint inhibitors. The primary outcome was overall survival (OS) and progression-free survival (PFS). In locally advanced disease, [[pembrolizumab]] added to CCRT showed better OS and PFS results compared to CCRT alone, and SUCRA rankings placed it above the regimen containing [[durvalumab]]. In the advanced disease setting, [[pembrolizumab]] plus chemotherapy improved OS and PFS overall compared to other ICIs, especially in patients receiving [[bevacizumab]]. Subgroup analyses suggested cadonilimab may offer superior outcomes in non-metastatic patients. [[Pembrolizumab]] ranked highest in OS and PFS among patients with locally advanced or advanced cervical cancer. These findings support its preferential use over other ICIs. However, direct head-to-head trials are needed to validate these results and inform optimal ICI selection. (International journal of gynaecology and obstetrics: the official organ of the International Federation of Gynaecology and Obstetrics, 2026)
-A meta-analysis of 488 patients published in Clinical genitourinary cancer (2025) evaluated the safety and efficacy of immune checkpoint inhibitors (ICIs), including [[pembrolizumab]] and [[atezolizumab]], as innovative therapeutic approaches for patients with BCG-unresponsive NMIBC. Complete response (CR) rates were 36% at 3 months, 25% at 6 months, and 18% at twelve months. Treatment-related adverse events (TrAEs) were common, occurring in 67% of patients (grades 1-2) and 15% (grades 3-5). Immune-related adverse events (IrAEs) were noted in 22% of patients (grades 1-2) and 6% (grades 3-5). Serious adverse events occurred in 15% of patients overall, with [[atezolizumab]] showing a higher incidence (21%) than [[pembrolizumab]] (11%). Immune checkpoint inhibitors have shown encouraging effectiveness and safety in treating BCG-unresponsive NMIBC. However, the observed variability in therapeutic response and adverse events highlights the necessity for large-scale RCTs to clarify long-term efficacy and inform patient selection for ICI-based therapies.
-A Systematic Review and Network Meta-Analysis published in Frontiers in immunology (2025) included 25 randomized controlled trials comparing various immune-related therapies against chemotherapy alone for overall survival (OS) and progression-free survival (PFS). Cemiplimab [HR = 0.48, 95% CI: (0.34-0.67)] showed the best OS benefit. Sugemalimab+chemo provided the best PFS benefit [HR = 0.34, 95% CI: (0.24-0.48)]. For PD-L1≥50% tumors, penpulimab showed excellent OS and PFS. For PD-L1 1-49% tumors, [[pembrolizumab]]+chemo and camrelizumab+chemo achieved the best OS and PFS, respectively. For PD-L1≥1% tumors, tislelizumab+chemo and camrelizumab+chemo showed the best OS and PFS results. For tumors with PD-L1 <1%, [[nivolumab]] and serplulimab+chemo provided significant survival benefit. In Asian patients, [[pembrolizumab]] or [[pembrolizumab]] + chemotherapy had favorable OS and PFS benefits. In non-Asian patients, cemiplimab showed favorable OS and PFS benefit. For former/current smokers, [[pembrolizumab]]+chemotherapy and camrelizumab+chemotherapy had significant OS and PFS benefit. Camrelizumab+chemo [OR = 3.5, 95% CI: (2.3-5.3)] had the best overall response rate (ORR) benefit. Ipilimumab+chemo had the highest incidence of adverse events (AEs) [OR = 2.0, 95% CI:(1.5-2.7)].
-A randomized controlled trial (RCT) involving 102 patients compared tobemstomig against [[nivolumab]] plus ipilimumab for resectable stage III melanoma. The primary outcome, pathological response by independent pathological review, showed that tobemstomig had a similar pathological response rate (pRR) versus [[nivolumab]] plus ipilimumab (80.0% (32/40) versus 77.3% (17/22)). Major pathological responses were less frequent with tobemstomig versus [[nivolumab]] plus ipilimumab (62.5% (25/40) versus 72.7% (16/22)). Tobemstomig plus tiragolumab showed a lower pRR versus [[nivolumab]] plus ipilimumab (60.0% (12/20) versus 77.3% (17/22)), and [[atezolizumab]] plus tiragolumab showed a lower pRR versus [[nivolumab]] plus ipilimumab (45.0% (9/20) versus 77.3% (17/22)). Tobemstomig demonstrated improved safety versus [[nivolumab]] plus ipilimumab, with 2.5% (1/40) and 22.7% (5/22) of patients experiencing grade 3 or higher treatment-related adverse events (TRAEs), respectively, and 0% (0/40) and 13.6% (3/22) of patients discontinuing treatment due to TRAEs, respectively. Grade 3 or higher TRAEs were reported by 15% (3/20) of patients in the tobemstomig plus tiragolumab arm and by no patients in the [[atezolizumab]] plus tiragolumab arm. In conclusion, in the Morpheus-Melanoma study, tobemstomig demonstrated a similar pathological response and improved safety profile versus [[nivolumab]] plus ipilimumab in patients with resectable stage III melanoma. (Nature medicine, 2025)
-A meta-analysis published in Targeted Oncology (2025) compared [[pembrolizumab]] + lenvatinib against other immune checkpoint inhibitors (ICI) combination therapies for overall survival (OS), progression-free survival (PFS), and objective response rate (ORR) in first-line advanced renal cell carcinoma. [[Pembrolizumab]] + lenvatinib demonstrated statistically significant improvement in PFS compared with [[nivolumab]] + ipilimumab (HR = 0.53; 95% credible interval (CrI): 0.40-0.71), avelumab + axitinib (HR = 0.71; 95% Crl: 0.53-0.94), [[atezolizumab]] + [[bevacizumab]] (HR = 0.54; 95% Crl: 0.40-0.73), and [[pembrolizumab]] + axitinib (HR = 0.69; 95% CrI: 0.51-0.91). A statistically significant higher ORR was shown for [[pembrolizumab]] + lenvatinib compared with [[nivolumab]] + ipilimumab (odd ratio (OR) = 3.29; 95% Crl: 2.21-4.93), [[pembrolizumab]] + axitinib (OR = 1.92; 95% CrI: 1.27-2.94), [[atezolizumab]] + [[bevacizumab]] (OR = 4.05; 95% Crl: 2.71-6.05), bempegaldesleukin + [[nivolumab]] (OR = 6.20; 95% CrI: 3.69-10.48), and [[nivolumab]] (OR = 5.92; 95% Crl: 2.70-13.24). No statistically significant difference was observed for OS. The overall population analysis indicated that [[pembrolizumab]] + lenvatinib improves PFS and ORR compared with other approved ICI combination therapies in first-line aRCC. No significant differences in OS were observed between [[pembrolizumab]] + lenvatinib and other combination immune checkpoint inhibitor-based therapies.
-A completed industry-sponsored randomized controlled trial (RCT) (NCT03517449) enrolled 827 participants to compare lenvatinib in combination with [[pembrolizumab]] against treatment of physician's choice (doxorubicin or paclitaxel) for advanced endometrial cancer. The primary outcomes measured were Progression Free Survival (PFS) Per Response Evaluation Criteria for Solid Tumors Version 1.1 (RECIST 1.1) Based on Blinded Independent Central Review (BICR) in Mismatch Repair Proficient (pMMR) Participants, PFS Per Response Evaluation Criteria for Solid Tumors Version 1.1 (RECIST 1.1) Based on BICR in All-comer Participants, Overall Survival (OS) in pMMR Participants, and OS in All-comer Participants. The primary results and conclusions from this study are not yet available.
+{If this document contains PubMed results: write one paragraph summarizing 
+the key finding, effect size, and study design from this specific paper.
+If existing page already has clinical evidence: APPEND the new finding 
+as a new sentence — do not erase existing evidence.
+Never write "no evidence available" — leave the section blank if this 
+document contains no clinical data.}
 
 ### Competitive position
-One paragraph on how this drug sits relative to others in its indication class.
-Which drugs compete directly? What is the differentiation?
+{One paragraph on how this drug sits relative to others in its indication class.
+Which drugs compete directly? What is the differentiation?}
 
 ### Timeline
 | Date | Event | Type |
 |---|---|---|
-| 2027-06-01 | Trial NCT04379596 for [[pembrolizumab]] initiated Phase 2 and is recruiting (Primary completion: 2027-06-01). | pipeline_update |
-| 2026-05-01 | Trial NCT05920356 for [[pembrolizumab]] in oncology-nsclc updated primary completion date to 2027-06-30. | pipeline_update |
-| 2026-05-01 | Trial NCT06311721 for [[pembrolizumab]] in oncology-nsclc updated primary completion date to 2028-02-14. | pipeline_update |
-| 2026-04-12 | A network meta-analysis published in Farmacia hospitalaria (2026) found that [[pembrolizumab]] showed superior progression-free survival for PD-L1 1-49% expression in resectable NSCLC. | pubmed_result |
-| 2025-06-01 | An RCT published in Lung cancer (2025) developed a treatment-related death predictive score for advanced NSCLC patients, finding that high-risk patients on nivolumab and ipilimumab had significantly higher TRD incidence compared to those on [[pembrolizumab]] with chemotherapy. | pubmed_result |
-| 2025-04-12 | A systematic review and meta-analysis published in Clinical and experimental medicine (2025) found that [[pembrolizumab]] was predominantly linked to grade 3-5 neutropenia but ranked third safest for anemia among various ICIs in digestive system tumors. | pubmed_result |
-| 2025-04-12 | An observational study published in International journal of cancer (2025) found that elevated plasma TNF is associated with poorer clinical outcomes in patients with advanced melanoma treated with ICIs, including [[pembrolizumab]]. | pubmed_result |
-| 2025-04-12 | A cost-utility analysis published in International journal of clinical pharmacology and therapeutics (2025) found that [[pembrolizumab]] alone was the most cost-effective treatment for MSI-H/dMMR advanced solid tumors CRC in the Chinese population. | pubmed_result |
-| 2025-04-12 | An RCT published in Journal of thoracic oncology (2025) found that gut microbiota composition is associated with overall survival in advanced NSCLC patients receiving chemoimmunotherapy, including [[pembrolizumab]]. | pubmed_result |
-| 2025-04-12 | A phase 1 study published in Respiratory investigation (2025) found that [[pembrolizumab]] plus ipilimumab had a manageable safety profile and showed antitumor activity (ORR 50%) in Japanese patients with advanced NSCLC. | pubmed_result |
-| 2025-04-12 | A network meta-analysis published in BMC cancer (2025) found that [[pembrolizumab]] combined with gemcitabine and cisplatin significantly improved overall survival in advanced biliary tract cancer. | pubmed_result |
-| 2025-04-12 | A phase 2 study published in The Lancet. Oncology (2025) found that radiotherapy-free [[pembrolizumab]] and chemotherapy showed a 2-year progression-free survival of 67% in unresectable, locally advanced NSCLC. | pubmed_result |
-| 2025-04-12 | A meta-analysis published in Frontiers in immunology (2025) found that [[pembrolizumab]] + chemotherapy achieved the best OS for PD-L1 1-49% tumors in advanced SqNSCLC. | pubmed_result |
-| 2025-04-12 | A meta-analysis published in Cancer treatment reviews (2025) found that FLOT-IO regimens, including [[pembrolizumab]], showed superior event-free survival compared to FLOT-only in resectable, locally-advanced gastro-esophageal adenocarcinoma. | pubmed_result |
-| 2026-05-25 | A systematic review published in The Cochrane database of systematic reviews (2026) found that combining PD-1 or PD-L1 inhibitors with chemotherapy before breast cancer surgery improves pathological response, EFS, and OS in early TNBC. | pubmed_result |
-| 2026-05-04 | A systematic review and meta-analysis published in Critical reviews in oncology/hematology (2026) found that [[pembrolizumab]] + chemotherapy was among the most efficacious treatments for OS in advanced nsNSCLC. | pubmed_result |
-| 2026-05-04 | A study published in International journal of radiation oncology, biology, physics (2025) found that combination therapy of SBRT and [[atezolizumab]] was well tolerated and showed responses in metastatic cervical cancer. | pubmed_result |
-| 2026-04-12 | A meta-analysis published in Frontiers in immunology (2026) found that ICI-based combinations generally outperform sorafenib for first-line advanced HCC. | pubmed_result |
-| 2026-04-12 | A meta-analysis published in The Cochrane database of systematic reviews (2026) found that combining PD-1 or PD-L1 inhibitors with chemotherapy before breast cancer surgery improves pathological response, EFS, and OS in early TNBC. | pubmed_result |
-| 2026-04-12 | A meta-analysis published in Urologic oncology (2025) found that bladder cancer patients treated with ICIs are at significant risk of irAEs. | pubmed_result |
-| 2026-04-12 | A systematic review and meta-analysis published in International journal of gynaecology and obstetrics (2026) found that [[pembrolizumab]] ranked highest in OS and PFS among patients with locally advanced or advanced cervical cancer. | pubmed_result |
-| 2026-04-12 | A meta-analysis published in Clinical genitourinary cancer (2025) evaluated the safety and efficacy of immune checkpoint inhibitors, including [[pembrolizumab]], for BCG-unresponsive NMIBC. | pubmed_result |
-| 2025-01-01 | A Systematic Review and Network Meta-Analysis in Frontiers in immunology (2025) provided clinical findings on immune-related therapies for NSCLC. | pubmed_result |
-| 2025-11-01 | A randomized controlled trial published in Nature medicine (2025) found that tobemstomig demonstrated a similar pathological response and improved safety profile versus [[nivolumab]] plus ipilimumab in patients with resectable stage III melanoma. | pubmed_result |
-| 2026-04-12 | A meta-analysis published in Targeted Oncology (2025) indicated that [[pembrolizumab]] + lenvatinib improves PFS and ORR compared with other approved ICI combination therapies in first-line aRCC. | pubmed_result |
-| 2026-04-30 | Merck & Co., Inc. announced its first-quarter 2026 financial results, highlighting strong sales growth driven by oncology and animal health products, alongside significant regulatory approvals and clinical milestones. | [[2026-04-30-merck-q1-2026-earnings-acquisitions]] |
-| 2026-02-03 | Merck announced its fourth-quarter and full-year 2025 financial results, highlighting strong performance in oncology and animal health, and significant uptake for new products WINREVAIR and CAPVAXIVE, while facing declines in older products due to generic and biosimilar competition. | [[2026-02-03-merck-q4-2025-earnings]] |
-| 2025-10-30 | Merck reported Q3 2025 earnings, highlighting strong sales growth for Keytruda. | [[2025-10-30-merck-q3-2025-earnings]] |
-| 2026-04-07 | Trial NCT02332668 for [[pembrolizumab]] in Oncology (unspecified) is recruiting for Phase 1/2. | pipeline_update |
-| 2018-01-08 | Clinical trial NCT02362594, studying [[pembrolizumab]] for oncology-nsclc, has reached primary completion. | [[2018-01-08-pembrolizumab-nct02362594-completed]] |
-| 2019-02-25 | Clinical trial NCT02358031, studying [[pembrolizumab]] for oncology-nsclc, has reached primary completion. | [[2019-02-25-pembrolizumab-nct02358031-completed]] |
-| 2025-11-05 | Clinical trial NCT02625961, studying [[pembrolizumab]] for alzheimers, has reached primary completion. | [[2025-11-05-pembrolizumab-nct02625961-completed]] |
-| 2018-10-18 | Clinical trial NCT02853331, studying [[pembrolizumab]], has reached primary completion. | [[2018-10-18-pembrolizumab-nct02853331-completed]] |
-| 2026-04-06 | Trial NCT02628067 for pembrolizumab in Alzheimer's Disease information updated. | pipeline_update |
-| 2026-01-14 | Clinical trial NCT02684292, studying [[pembrolizumab]] for oncology-nsclc, has reached primary completion. | [[2026-01-14-pembrolizumab-nct02684292-completed]] |
-| 2023-01-24 | Clinical trial NCT02504372, studying [[pembrolizumab]] for non-small cell lung cancer, has reached primary completion. | [[2023-01-24-pembrolizumab-nct02504372-completed]] |
-| 2025-06-30 | Merck reported Q2 2025 earnings, with Keytruda sales growing 7% in H1 2025, and noted its eligibility for IRA price negotiation in 2027. | [[2025-06-30-merck-q2-earnings-business-development]] |
-| 2025-05-02 | Merck reported Q1 2025 earnings, with Keytruda sales growing 4% in Q1 2025. | [[2025-05-02-merck-q1-2025-earnings]] |
-| 2022-03-01 | Clinical trial NCT03517449, studying lenvatinib in combination with pembrolizumab for advanced endometrial cancer, has been completed. | [[2022-03-01-lenvatinib-pembrolizumab-endometrial-cancer-trial-completion]] |
+| 2026-03-19 | Trial NCT03786081 for [[pembrolizumab]] terminated Phase 1/2. | [[2026-03-19-pembrolizumab-nct03786081-terminated]] |
+| 2026-02-03 | Trial NCT04609566 for [[pembrolizumab]] in oncology-nsclc, alzheimers completed Phase 2. | [[2026-02-03-pembrolizumab-nct04609566-completed]] |
+| 2026-02-02 | Trial NCT05926960 for [[pembrolizumab]] terminated Phase 2. | [[2026-02-02-pembrolizumab-nct05926960-terminated]] |
+| 2025-01-27 | Trial NCT04222972 for [[pembrolizumab]] in oncology-nsclc, alzheimers terminated Phase 3. | [[2025-01-27-pembrolizumab-nct04222972-terminated]] |
+| 2024-04-19 | Trial NCT04619797 for [[pembrolizumab]] in oncology-nsclc completed Phase 2/3. | [[2024-04-19-pembrolizumab-nct04619797-completed]] |
+| 2024-01-19 | Trial NCT04633278 for [[pembrolizumab]] in alzheimers terminated Phase 2. | [[2024-01-19-pembrolizumab-nct04633278-terminated]] |
 
 ### Sources
-- `raw/edgar/merck/10Q/2025-Q1-10Q.txt`
-- `raw/edgar/merck/10Q/2025-Q2-10Q.txt`
-- `raw/ctgov/eisai/2026-04-07/NCT03517449.json`
-- `raw/edgar/merck/10Q/2026-Q1-10Q.txt`
-- `raw/ctgov/merck/2026-04-06/NCT02504372.json`
-- `raw/ctgov/merck/2026-04-06/NCT02684292.json`
-- `raw/ctgov/merck/2026-04-06/NCT02628067.json`
-- `raw/ctgov/merck/2026-04-06/NCT02853331.json`
-- `raw/ctgov/merck/2026-04-06/NCT02625961.json`
-- `raw/ctgov/merck/2026-04-07/NCT02358031.json`
-- `raw/ctgov/merck/2026-04-07/NCT02362594.json`
-- `raw/ctgov/merck/2026-04-07/NCT02332668.json`
-- `raw/edgar/merck/8K/2025-10-30-8K--25-103974.txt`
-- `raw/edgar/merck/8K/2026-02-03-8K--26-009495.txt`
-- `raw/edgar/merck/8K/2026-04-30-8K--26-052081.txt`
-- `raw/pubmed/atezolizumab/2026-04-12/abstract-40329046.json`
-- `raw/pubmed/atezolizumab/2026-04-12/abstract-40993242.json`
-- `raw/pubmed/atezolizumab/2026-04-12/abstract-41035637.json`
-- `raw/pubmed/atezolizumab/2026-04-12/abstract-41139553.json`
-- `raw/pubmed/atezolizumab/2026-04-12/abstract-41239828.json`
-- `raw/pubmed/atezolizumab/2026-04-12/abstract-41381258.json`
-- `raw/pubmed/atezolizumab/2026-04-12/abstract-41670015.json`
-- `raw/pubmed/atezolizumab/2026-04-12/abstract-41694404.json`
-- `raw/pubmed/atezolizumab/2026-05-04/abstract-40379142.json`
-- `raw/pubmed/atezolizumab/2026-05-04/abstract-41720325.json`
-- `raw/ctgov/abbvie/2026-04-07/NCT06236438.json`
-- `raw/ctgov/abbvie/2026-04-07/NCT06772623.json`
-- `raw/ctgov/amgen/2026-04-07/NCT05920356.json`
-- `raw/pubmed/atezolizumab/2026-05-25/abstract-42165290.json`
-- `raw/ctgov/amgen/2026-04-07/NCT06311721.json`
-- `raw/ctgov/amgen/2026-04-07/NCT06430866.json`
-- `raw/ctgov/amgen/2026-05-01/NCT05920356.json`
-- `raw/pubmed/durvalumab/2026-04-12/abstract-40779895.json`
-- `raw/ctgov/amgen/2026-05-01/NCT06311721.json`
-- `raw/pubmed/durvalumab/2026-04-12/abstract-41035637.json`
-- `raw/pubmed/durvalumab/2026-04-12/abstract-41082893.json`
-- `raw/pubmed/durvalumab/2026-04-12/abstract-41188103.json`
-- `raw/pubmed/durvalumab/2026-04-12/abstract-41239828.json`
-- `raw/pubmed/durvalumab/2026-04-12/abstract-41340108.json`
-- `raw/pubmed/durvalumab/2026-04-12/abstract-41670015.json`
-- `raw/pubmed/durvalumab/2026-04-12/abstract-41694404.json`
-- `raw/pubmed/durvalumab/2026-05-25/abstract-42165290.json`
-- `raw/pubmed/ipilimumab/2026-04-12/abstract-40036983.json`
-- `raw/pubmed/ipilimumab/2026-04-12/abstract-40058642.json`
-- `raw/pubmed/ipilimumab/2026-04-12/abstract-40063980.json`
-- `raw/pubmed/ipilimumab/2026-04-12/abstract-40098565.json`
-- `raw/pubmed/ipilimumab/2026-04-12/abstract-40329046.json`
-- `raw/ctgov/astrazeneca/2026-04-07/NCT04379596.json`
-- `raw/pubmed/ipilimumab/2026-04-12/abstract-40360867.json`
-- `raw/pubmed/ipilimumab/2026-04-12/abstract-40409025.json`
+- `raw/ctgov/pfizer/2026-04-07/NCT03485209.json`
+- `raw/ctgov/pfizer/2026-04-07/NCT03786081.json`
+- `raw/ctgov/pfizer/2026-04-07/NCT04430738.json`
+- `raw/ctgov/pfizer/2026-04-07/NCT04609566.json`
+- `raw/ctgov/pfizer/2026-04-07/NCT04657991.json`
+- `raw/ctgov/pfizer/2026-04-07/NCT04879329.json`
+- `raw/ctgov/pfizer/2026-04-07/NCT05217446.json`
+- `raw/ctgov/pfizer/2026-04-07/NCT05911295.json`
+- `raw/ctgov/pfizer/2026-04-07/NCT05926960.json`
+- `raw/ctgov/pfizer/2026-04-07/NCT06758401.json`
+- `raw/ctgov/pfizer/2026-04-07/NCT07222566.json`
+- `raw/ctgov/pfizer/2026-05-01/NCT03485209.json`
+- `raw/ctgov/pfizer/2026-05-01/NCT03786081.json`
+- `raw/ctgov/pfizer/2026-05-01/NCT04657991.json`
+- `raw/ctgov/pfizer/2026-05-01/NCT04879329.json`
+- `raw/ctgov/pfizer/2026-05-01/NCT05217446.json`
+- `raw/ctgov/pfizer/2026-05-01/NCT05911295.json`
+- `raw/ctgov/pfizer/2026-05-01/NCT06758401.json`
+- `raw/ctgov/pfizer/2026-05-01/NCT07222566.json`
+- `raw/ctgov/pfizer/2026-06-01/NCT07222566.json`
+- `raw/ctgov/regeneron/2026-04-07/NCT04633278.json`
+- `raw/ctgov/regeneron/2026-04-07/NCT05352672.json`
+- `raw/ctgov/regeneron/2026-04-07/NCT05608291.json`
+- `raw/ctgov/regeneron/2026-05-01/NCT05352672.json`
+- `raw/ctgov/roche/2026-04-07/NCT03768063.json`
+- `raw/ctgov/roche/2026-04-07/NCT04222972.json`
+- `raw/ctgov/roche/2026-04-07/NCT04619797.json`

@@ -5,22 +5,22 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis's LNA043 Phase 2 Trial (NCT03275064) Completed Primary Endpoint
+headline: Novartis's Lna043 Phase 2 Trial (NCT03275064) Completed
 last_updated: 2022-09-06
 ---
 
-## Novartis's LNA043 Phase 2 Trial (NCT03275064) Completed Primary Endpoint
+## Novartis's Lna043 Phase 2 Trial (NCT03275064) Completed
 
 **Date:** 2022-09-06 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT03275064) sponsored by Novartis, investigating the drug LNA043, reached its primary completion date on September 6, 2022. The trial enrolled 142 participants and has reported results.
+A Phase 2 clinical trial (NCT03275064) for Lna043, sponsored by [[novartis]], reached its primary completion date on September 6, 2022. The trial enrolled 142 participants and has reported results.
 
 ### Market implication
-The completion of this Phase 2 trial for LNA043 by Novartis is a standard procedural step in drug development, with market implications awaiting the release and analysis of the trial results.
+The completion of a Phase 2 trial is a standard development and is considered neutral until specific results are released and analyzed for their clinical and commercial implications.
 
 ### Affected entities
-- Drug: LNA043
+- Drug: Lna043
 - Company: [[novartis]]
 
 ### Sources

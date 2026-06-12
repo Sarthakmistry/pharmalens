@@ -5,23 +5,24 @@ drugs: []
 companies: [pfizer]
 indications: []
 signal: neutral
-headline: Pfizer's Elranatamab trial NCT05014412 completes primary phase
-last_updated: 2026-04-07
+headline: Pfizer's Phase 2 Elranatamab Trial (NCT05014412) Completes Primary Completion
+last_updated: 2023-06-15
 ---
 
-## Pfizer's Elranatamab trial NCT05014412 completes primary phase
+## Pfizer's Phase 2 Elranatamab Trial (NCT05014412) Completes Primary Completion
 
 **Date:** 2023-06-15 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT05014412) for Elranatamab, sponsored by [[pfizer]], reached its primary completion on June 15, 2023. The trial enrolled 86 participants and has reported results.
+Pfizer's Phase 2 clinical trial (NCT05014412) for Elranatamab has reached its primary completion date on June 15, 2023. The study, which enrolled 86 participants, is now complete, and results are available. This marks a significant step in the development of Elranatamab.
 
 ### Market implication
-The completion of this Phase 2 trial provides an update on [[pfizer]]'s pipeline development for Elranatamab.
+The completion of this Phase 2 trial for Elranatamab provides a step forward in its development, with results expected to inform its future clinical path.
 
 ### Affected entities
 - Drug: Elranatamab
 - Company: [[pfizer]]
+- Indication:
 
 ### Sources
 - `raw/ctgov/pfizer/2026-04-07/NCT05014412.json`

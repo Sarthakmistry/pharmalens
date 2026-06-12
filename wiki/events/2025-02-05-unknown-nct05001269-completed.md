@@ -5,24 +5,23 @@ drugs: []
 companies: ["novo-nordisk"]
 indications: []
 signal: neutral
-headline: Novo Nordisk's Phase 2 Trial NCT05001269 Completed Primary Completion
+headline: Novo Nordisk's Phase 2 Trial for Nedosiran (NCT05001269) Reaches Primary Completion
 last_updated: 2026-05-01
 ---
 
-## Novo Nordisk's Phase 2 Trial NCT05001269 Completed Primary Completion
+## Novo Nordisk's Phase 2 Trial for Nedosiran (NCT05001269) Reaches Primary Completion
 
 **Date:** 2025-02-05 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novo Nordisk's Phase 2 clinical trial, NCT05001269, reached its primary completion date on February 5, 2025. This trial, which involved 27 participants, has completed its data collection for the primary outcome measures. Results for this trial are available.
+The Phase 2 clinical trial NCT05001269, sponsored by [[novo-nordisk]], for the drug Nedosiran, reached its primary completion date on February 5, 2025. This trial had an actual enrollment of 27 participants and has reported that results are available.
 
 ### Market implication
-The completion of this Phase 2 trial for an untracked drug (Nedosiran) by Novo Nordisk is a neutral event, as specific results or implications for the company's pipeline have not been detailed.
+The completion of this Phase 2 trial is a neutral event, as the results are not yet publicly available to assess the drug's potential impact for [[novo-nordisk]].
 
 ### Affected entities
 - Drug: Nedosiran
 - Company: [[novo-nordisk]]
-- Indication: N/A
 
 ### Sources
 - `raw/ctgov/novo-nordisk/2026-05-01/NCT05001269.json`

@@ -5,19 +5,19 @@ drugs: [nivolumab]
 companies: [bristol-myers-squibb]
 indications: [oncology-nsclc]
 signal: neutral
-headline: Nivolumab Phase 2 trial NCT04702880 for NSCLC completes primary endpoint
+headline: Nivolumab Phase 2 Trial NCT04702880 for NSCLC Completed Primary Data Collection
 last_updated: 2026-05-01
 ---
 
-## Nivolumab Phase 2 trial NCT04702880 for NSCLC completes primary endpoint
+## Nivolumab Phase 2 Trial NCT04702880 for NSCLC Completed Primary Data Collection
 
 **Date:** 2025-05-22 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT04702880) investigating nivolumab in combination with BMS-986012, carboplatin, and etoposide for non-small cell lung cancer (NSCLC) has completed its primary endpoint. The trial, sponsored by Bristol-Myers Squibb, enrolled 135 participants and reached primary completion on May 22, 2025. Results from this trial are not yet available.
+Bristol-Myers Squibb's Phase 2 clinical trial (NCT04702880) investigating nivolumab in combination with BMS-986012, carboplatin, and etoposide for the treatment of non-small cell lung cancer (NSCLC) has completed its primary data collection. The trial enrolled 135 participants and reached its primary completion date on May 22, 2025, indicating that all primary outcome data has been collected.
 
 ### Market implication
-The completion of this Phase 2 trial marks a development milestone for nivolumab in NSCLC, with market impact awaiting future data release.
+The completion of primary data collection is a procedural milestone for the trial and does not carry an immediate market implication without the release of results.
 
 ### Affected entities
 - Drug: [[nivolumab]]

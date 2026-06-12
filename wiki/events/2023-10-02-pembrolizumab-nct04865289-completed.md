@@ -1,28 +1,28 @@
 ---
 event_type: trial_completion
 date: 2023-10-02
-drugs: [pembrolizumab]
-companies: [merck]
-indications: []
+drugs: ["semaglutide"]
+companies: ["novo-nordisk"]
+indications: ["glp1-obesity"]
 signal: neutral
-headline: Pembrolizumab Trial NCT04865289 for Endometrial Carcinoma Reaches Primary Completion
+headline: Novo Nordisk's Semaglutide (Wegovy) Trial for Obesity in Adolescents Completed
 last_updated: 2023-10-02
 ---
 
-## Pembrolizumab Trial NCT04865289 for Endometrial Carcinoma Reaches Primary Completion
+## Novo Nordisk's Semaglutide (Wegovy) Trial for Obesity in Adolescents Completed
 
 **Date:** 2023-10-02 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 3 clinical trial, NCT04865289, investigating [[pembrolizumab]] in combination with Lenvatinib versus Paclitaxel plus Carboplatin in patients with advanced or recurrent endometrial carcinoma, reached its primary completion date on October 2, 2023. The trial enrolled 130 participants.
+A Phase 3 clinical trial (NCT04865289) investigating semaglutide (Wegovy) for the treatment of obesity in adolescents completed its primary phase on October 2, 2023. The trial, sponsored by Novo Nordisk, enrolled 130 participants and has reported results.
 
 ### Market implication
-This event marks a procedural milestone for the trial, with market implications awaiting the release of study results.
+The completion of this trial marks a step forward in the development pipeline for semaglutide, with results now available for evaluation regarding its potential use in adolescent obesity.
 
 ### Affected entities
-- Drug: [[pembrolizumab]]
-- Company: [[merck]]
-- Indication: 
+- Drug: [[semaglutide]]
+- Company: [[novo-nordisk]]
+- Indication: [[glp1-obesity/_index]]
 
 ### Sources
-- `raw/ctgov/merck/2026-04-07/NCT04865289.json`
+- `raw/ctgov/novo-nordisk/2026-04-07/NCT04865289.json`

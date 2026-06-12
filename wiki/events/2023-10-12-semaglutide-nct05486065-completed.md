@@ -5,18 +5,19 @@ drugs: [semaglutide]
 companies: [novo-nordisk]
 indications: [type2-diabetes]
 signal: neutral
-headline: Novo Nordisk's Phase 2 Trial for Semaglutide in Type 2 Diabetes Completes Primary Endpoint
+headline: Semaglutide Phase 2 Trial (NCT05486065) for Type 2 Diabetes Completed
 last_updated: 2023-10-12
 ---
-## Novo Nordisk's Phase 2 Trial for Semaglutide in Type 2 Diabetes Completes Primary Endpoint
+
+## Semaglutide Phase 2 Trial (NCT05486065) for Type 2 Diabetes Completed
 
 **Date:** 2023-10-12 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novo Nordisk's Phase 2 clinical trial (NCT05486065) investigating semaglutide for type 2 diabetes has reached its primary completion date on October 12, 2023. The trial, which enrolled 245 participants, is now officially completed and results are available. This marks a significant step in the development and data collection for semaglutide in this indication.
+A Phase 2 clinical trial (NCT05486065) investigating semaglutide for the treatment of Type 2 Diabetes, sponsored by Novo Nordisk, reached its primary completion date on October 12, 2023. The study enrolled 245 participants and has reported that results are available.
 
 ### Market implication
-The completion of this Phase 2 trial for semaglutide provides further data for Novo Nordisk's established drug in type 2 diabetes, supporting its continued development and market position.
+The completion of this Phase 2 trial marks a progression in the development pipeline for semaglutide, providing data that will inform future clinical decisions for Novo Nordisk.
 
 ### Affected entities
 - Drug: [[semaglutide]]

@@ -2,26 +2,26 @@
 event_type: trial_completion
 date: 2024-07-02
 drugs: []
-companies: ["pfizer"]
+companies: [pfizer]
 indications: []
 signal: neutral
-headline: Pfizer's Rimegepant Trial NCT05207865 Completes
+headline: Pfizer's Rimegepant Phase 4 Trial (NCT05207865) Completed
 last_updated: 2024-07-02
 ---
-## Pfizer's Rimegepant Trial NCT05207865 Completes
+
+## Pfizer's Rimegepant Phase 4 Trial (NCT05207865) Completed
 
 **Date:** 2024-07-02 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Clinical trial NCT05207865, sponsored by [[pfizer]] and investigating Rimegepant, has reached its primary completion date on July 2, 2024. This Phase 4 trial, which enrolled 441 participants, is now complete and has results available.
+Pfizer has announced the completion of its Phase 4 clinical trial (NCT05207865) for Rimegepant, which enrolled 441 participants. The trial reached its primary completion date on July 2, 2024, and results are available.
 
 ### Market implication
-The completion of this Phase 4 trial for Rimegepant is a standard operational update for [[pfizer]], with no immediate direct market impact without specific results.
+The completion of this Phase 4 trial for Rimegepant is a neutral event for [[pfizer]], as specific results or their implications have not been detailed.
 
 ### Affected entities
 - Drug: Rimegepant
 - Company: [[pfizer]]
-- Indication: 
 
 ### Sources
 - `raw/ctgov/pfizer/2026-04-07/NCT05207865.json`

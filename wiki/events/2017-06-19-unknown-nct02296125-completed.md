@@ -3,21 +3,21 @@ event_type: trial_completion
 date: 2017-06-19
 drugs: []
 companies: [astrazeneca]
-indications: [alzheimers, oncology-nsclc]
+indications: [oncology-nsclc]
 signal: neutral
-headline: AstraZeneca's Phase 3 trial NCT02296125 for Erlotinib and Gefitinib in NSCLC completes primary phase
+headline: AstraZeneca's Phase 3 trial NCT02296125 for Erlotinib and Gefitinib in NSCLC completed primary phase
 last_updated: 2026-05-01
 ---
 
-## AstraZeneca's Phase 3 trial NCT02296125 for Erlotinib and Gefitinib in NSCLC completes primary phase
+## AstraZeneca's Phase 3 trial NCT02296125 for Erlotinib and Gefitinib in NSCLC completed primary phase
 
 **Date:** 2017-06-19 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-AstraZeneca's Phase 3 clinical trial, NCT02296125, investigating Erlotinib 150/100 mg and Gefitinib 250 mg for non-small cell lung cancer (NSCLC), reached its primary completion date on June 19, 2017. The trial enrolled 674 participants and has reported results.
+A Phase 3 clinical trial (NCT02296125) sponsored by [[astrazeneca]], investigating Erlotinib and Gefitinib for non-small cell lung cancer (NSCLC), reached its primary completion date on June 19, 2017. The trial enrolled 674 participants and has reported results.
 
 ### Market implication
-The completion of the primary phase of this trial is a neutral event, as no specific efficacy or safety results have been disclosed in this update.
+The completion of this trial provides data for further evaluation of these treatments in NSCLC, with potential implications for future market positioning.
 
 ### Affected entities
 - Drug: Erlotinib, Gefitinib

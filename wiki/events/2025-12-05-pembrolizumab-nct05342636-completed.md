@@ -1,27 +1,33 @@
 ---
 event_type: trial_completion
 date: 2025-12-05
-drugs: [pembrolizumab]
-companies: [merck]
-indications: []
+drugs:
+  - pembrolizumab
+companies:
+  - merck
+indications:
+  - oncology-nsclc
+  - oncology-breast
+  - oncology-crc
 signal: neutral
-headline: Merck's Pembrolizumab Trial NCT05342636 Reaches Primary Completion
-last_updated: 2025-12-05
+headline: Pembrolizumab Trial NCT05342636 Reaches Primary Completion
+last_updated: 2026-04-07
 ---
 
-## Merck's Pembrolizumab Trial NCT05342636 Reaches Primary Completion
+## Pembrolizumab Trial NCT05342636 Reaches Primary Completion
 
 **Date:** 2025-12-05 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 1/2 clinical trial, NCT05342636, which investigated pembrolizumab, reached its primary completion on December 5, 2025. The study enrolled 90 participants and has not yet reported results.
+Clinical trial NCT05342636, evaluating pembrolizumab (Keytruda) by Merck, reached its primary completion date on December 5, 2025. This milestone indicates that data collection for the primary outcome measures is complete, and results are expected to follow. The trial was a Phase 1/2 study with an actual enrollment of 90 participants.
 
 ### Market implication
-The completion of this trial is a standard procedural step in drug development, and its market implication is neutral pending the release of clinical results.
+The completion of this trial is a neutral event, as results are not yet available to assess the drug's efficacy or safety profile.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]
 - Company: [[merck]]
+- Indication: [[oncology-nsclc/_index]], [[oncology-breast/_index]], [[oncology-crc/_index]]
 
 ### Sources
 - `raw/ctgov/merck/2026-04-07/NCT05342636.json`

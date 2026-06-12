@@ -3,26 +3,24 @@ event_type: trial_completion
 date: 2023-02-13
 drugs: [atezolizumab]
 companies: [roche]
-indications: [oncology-nsclc]
 signal: neutral
-headline: Atezolizumab (Tecentriq) Phase 3 Trial NCT04540211 Completed for Non-Small Cell Lung Cancer
+headline: Atezolizumab Phase 3 Trial NCT04540211 Completed Primary Endpoint
 last_updated: 2023-02-13
 ---
 
-## Atezolizumab (Tecentriq) Phase 3 Trial NCT04540211 Completed for Non-Small Cell Lung Cancer
+## Atezolizumab Phase 3 Trial NCT04540211 Completed Primary Endpoint
 
 **Date:** 2023-02-13 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-The Phase 3 clinical trial NCT04540211, evaluating atezolizumab in combination with tiragolumab, paclitaxel, and cisplatin for the treatment of non-small cell lung cancer, reached its primary completion date on February 13, 2023. The study, sponsored by Roche, enrolled 461 participants. Results from this trial are now available.
+Roche's Phase 3 clinical trial (NCT04540211) investigating atezolizumab reached its primary completion date on February 13, 2023. This trial, which enrolled 461 participants, evaluated atezolizumab in combination with Tiragolumab, Paclitaxel, and Cisplatin. The completion signifies the end of data collection for the primary outcome, with results expected to follow.
 
 ### Market implication
-The completion of this Phase 3 trial marks a step forward in the development process for atezolizumab in NSCLC, with market impact pending the release and analysis of the trial results.
+The completion of this Phase 3 trial is a standard procedural step, and its market impact is neutral until specific efficacy or safety data are released.
 
 ### Affected entities
 - Drug: [[atezolizumab]]
 - Company: [[roche]]
-- Indication: [[oncology-nsclc/_index]]
 
 ### Sources
-- `raw/ctgov/roche/2026-05-01/NCT04540211.json`
+- `raw/ctgov/roche/2026-04-07/NCT04540211.json`

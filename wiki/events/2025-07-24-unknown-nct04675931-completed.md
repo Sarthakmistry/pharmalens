@@ -5,22 +5,21 @@ drugs: []
 companies: ["novartis"]
 indications: []
 signal: neutral
-headline: Novartis Completes Phase 2 Trial (NCT04675931) for Cipargamin
+headline: Novartis's Phase 2 Trial (NCT04675931) for Malaria Treatment Completed
 last_updated: 2026-05-01
 ---
 
-## Novartis Completes Phase 2 Trial (NCT04675931) for Cipargamin
+## Novartis's Phase 2 Trial (NCT04675931) for Malaria Treatment Completed
 
 **Date:** 2025-07-24 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis has completed its Phase 2 clinical trial (NCT04675931) for Cipargamin, an investigational drug. The study, which enrolled 254 participants, reached its primary completion date on July 24, 2025, and results are now available, marking a significant step in the drug's development.
+Novartis's Phase 2 clinical trial NCT04675931, investigating Cipargamin, Iv artesunate, and Coartem for the treatment of uncomplicated malaria due to Plasmodium Falciparum or Plasmodium Vivax, reached its primary completion date on July 24, 2025. The trial enrolled 254 participants and has results available, though specific findings are not detailed in this update.
 
 ### Market implication
-The completion of this Phase 2 trial and the availability of results for Cipargamin by Novartis will inform the drug's future development path and potential market entry.
+The completion of this Phase 2 trial is a standard step in drug development, with market implications dependent on the eventual release and interpretation of the study results.
 
 ### Affected entities
-- Drug: Cipargamin
 - Company: [[novartis]]
 
 ### Sources

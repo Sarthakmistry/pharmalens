@@ -6,7 +6,7 @@ exchange: N/A
 indications_active: [hf-htn, type2-diabetes, alzheimers, oncology-nsclc, oncology-breast]
 blockbuster_drugs: [finerenone]
 pipeline_drugs: [finerenone, pembrolizumab]
-last_updated: 2026-06-08
+last_updated: 2026-04-29
 ---
 
 ## Bayer AG
@@ -60,48 +60,48 @@ Bayer AG is a German company listed on the Frankfurt Stock Exchange and does not
 - Regorafenib (Stivarga) - Phase 2 (Primary completion: 2028-04-27)
 
 ### Recent events
-| Date | Event | Signal |
-|---|---|---|
-| 2025-12-31 | A Phase 3 study (NCT05047263) evaluating [[finerenone]], sponsored by Bayer, has completed. | [[2025-12-31-finerenone-nct05047263-completed]] |
-| 2025-12-29 | A Phase 3 study (NCT06422507) evaluating Aflibercept, sponsored by Bayer, has completed. | [[2025-12-29-unknown-nct06422507-completed]] |
-| 2025-10-24 | A Phase 2 study (NCT06522997) evaluating Bay3283142, sponsored by Bayer, has completed. | [[2025-10-24-unknown-nct06522997-completed]] |
-| 2025-10-23 | A Phase 3 study (NCT05686070) evaluating Asundexian, sponsored by Bayer, has completed. | [[2025-10-23-unknown-nct05686070-completed]] |
-| 2025-10-14 | A Phase 4 study (NCT06591598) evaluating Aflibercept, sponsored by Bayer, has completed. | [[2025-10-14-unknown-nct06591598-completed]] |
-| 2025-10-07 | A Phase 2 study (NCT06149520) evaluating Bay3018250, sponsored by Bayer, has completed. | [[2025-10-07-unknown-nct06149520-completed]] |
-| 2025-09-29 | A Phase 2 study (NCT02576431) of Larotrectinib (Vitrakvi) for NTRK-fusion positive solid tumors, sponsored by Bayer, has completed. | [[2025-09-29-bayer-larotrectinib-ntrk-fusion-solid-tumors-phase2-completion]] |
-| 2025-09-19 | A Phase 3 study (NCT04015180) evaluating Eylea (aflibercept) and Laser photocoagulation, sponsored by Bayer, has completed. | [[2025-09-19-unknown-nct04015180-completed]] |
-| 2025-09-15 | Bayer's long-term extension study of Riociguat (Adempas) for pulmonary arterial hypertension has completed. | [[2025-09-15-riociguat-pah-trial-completion]] |
-| 2025-08-20 | A Phase 3 study (NCT05901831) evaluating [[finerenone]], sponsored by Bayer, has completed. | [[2025-08-20-finerenone-nct05901831-completed]] |
-| 2025-07-03 | A Phase 4 study (NCT05705271) evaluating [[finerenone]] for Type 2 Diabetes, sponsored by Bayer, has completed. | [[2025-07-03-finerenone-nct05705271-completed]] |
-| 2024-12-04 | A Phase 2 study (NCT05171387) evaluating Darolutamide and Androgen Deprivation Therapy (ADT), sponsored by Bayer, has completed. | [[2024-12-04-unknown-nct05171387-completed]] |
-| 2024-11-15 | The clinical trial NCT02367040, evaluating Copanlisib and Rituximab in relapsed Indolent B-cell Non-Hodgkin's Lymphoma, has been completed. | [[2024-11-15-copanlisib-rituximab-inhl-trial-completion]] |
-| 2024-11-07 | A Phase 3 study (NCT05850520) evaluating Aflibercept, sponsored by Bayer, has completed. | [[2024-11-07-unknown-nct05850520-completed]] |
-| 2024-09-18 | A Phase 3 study (NCT05915026) evaluating Gadoquatrane, sponsored by Bayer, has completed. | [[2024-09-18-unknown-nct05915026-completed]] |
-| 2024-09-12 | A Phase 4 study (NCT05036278) evaluating Damoctocog alfa-pegol, sponsored by Bayer, has completed. | [[2024-09-12-unknown-nct05036278-completed]] |
-| 2024-08-22 | A Phase 2 study (NCT06112756) evaluating Elinzanetant, sponsored by Bayer, has completed. | [[2024-08-22-unknown-nct06112756-completed]] |
-| 2024-08-20 | A Phase 2 study (NCT05526248) evaluating Darolutamide and Enzalutamide, sponsored by Bayer, has completed. | [[2024-08-20-unknown-nct05526248-completed]] |
-| 2024-07-29 | A Phase 2 study (NCT06195930) evaluating Vericiguat for Heart Failure & Hypertension, sponsored by Bayer, has completed. | [[2024-07-29-unknown-nct06195930-completed]] |
-| 2024-07-20 | Clinical trial NCT02637687, investigating Larotrectinib (Vitrakvi) for Solid Tumors Harboring NTRK Fusion, sponsored by Bayer, has completed its primary endpoint collection. | [[2024-07-20-bayer-larotrectinib-ntrk-fusion-solid-tumors-trial-completion]] |
-| 2024-06-07 | A Phase 3 study (NCT04736199) evaluating Darolutamide and Androgen Deprivation Therapy (ADT), sponsored by Bayer, has completed. | [[2024-06-07-unknown-nct04736199-completed]] |
-| 2024-05-31 | A Phase 3 study (NCT05915728) evaluating Gadoquatrane, Gadobutrol, Gadoterate Meglumine, and Gadoteridol, sponsored by Bayer, has completed. | [[2024-05-31-unknown-nct05915728-completed]] |
-| 2024-05-30 | A Phase 3 study (NCT05915702) evaluating Gadoquatrane, Gadobutrol, Gadoterate Meglumine, and Gadoteridol, sponsored by Bayer, has completed. | [[2024-05-30-unknown-nct05915702-completed]] |
-| 2024-05-15 | A Phase 3 study (NCT04435626) evaluating [[finerenone]], sponsored by Bayer, has completed. | [[2024-05-15-finerenone-nct04435626-completed]] |
-| 2024-04-16 | A Phase 4 study (NCT05511038) evaluating Aflibercept, sponsored by Bayer, has completed. | [[2024-04-16-unknown-nct05511038-completed]] |
-| 2024-03-18 | A Phase 2 study (NCT04722991) evaluating Runcaciguat, sponsored by Bayer, has completed. | [[2024-03-18-unknown-nct04722991-completed]] |
-| 2024-03-15 | A Phase 4 study (NCT04565236) evaluating Recombinant Factor VIII, sponsored by Bayer, has completed. | [[2024-03-15-unknown-nct04565236-completed]] |
-| 2024-01-04 | A Phase 3 study (NCT05147662) evaluating Damoctocog alfa pegol, sponsored by Bayer, has completed. | [[2024-01-04-unknown-nct05147662-completed]] |
-| 2023-07-25 | A Phase 3 study (NCT05042362) evaluating Elinzanetant, sponsored by Bayer, has completed. | [[2023-07-25-unknown-nct05042362-completed]] |
-| 2023-07-19 | A Phase 3 study (NCT05098938) evaluating Acyclovir, sponsored by Bayer, has completed. | [[2023-07-19-unknown-nct05098938-completed]] |
-| 2023-06-13 | A Phase 3 study (NCT05099159) evaluating Elinzanetant, sponsored by Bayer, has completed. | [[2023-06-13-unknown-nct05099159-completed]] |
-| 2023-03-29 | A Phase 3 study (NCT05030584) evaluating Elinzanetant, sponsored by Bayer, has completed. | [[2023-03-29-unknown-nct05030584-completed]] |
-| 2023-03-09 | A Phase 2 study (NCT04704154) evaluating [[nivolumab]] and Regorafenib, sponsored by Bayer, has completed. | [[2023-03-09-nivolumab-nct04704154-completed]] |
-| 2022-07-27 | A Phase 3 study (NCT04423718) evaluating Aflibercept high dose VEGF Trap-Eye and Aflibercept VEGF Trap-Eye, sponsored by Bayer, has completed. | [[2022-07-27-unknown-nct04423718-completed]] |
-| 2022-05-05 | A Phase 2 study (NCT04696055) evaluating [[pembrolizumab]] and Regorafenib, sponsored by Bayer, has completed. | [[2022-05-05-pembrolizumab-nct04696055-completed]] |
-| 2012-06-06 | A Phase 2 study testing Riociguat for pulmonary hypertension associated with left ventricular systolic dysfunction has completed with 202 enrolled patients. | [[2012-06-06-riociguat-pulmonary-hypertension-trial-completion]] |
-| 2026-04-07 | A Phase 2 interventional study (NCT00694850) evaluating Riociguat (Adempas) for safety and tolerability in patients with Interstitial Lung Disease (ILD) Associated Pulmonary Hypertension (PH) has completed. | [[NCT00694850-trial-completion-riociguat-ild-ph]] |
-| 2026-04-06 | The Phase 3 clinical trial (NCT03194646) assessing Vilaprisan for Uterine Fibroids, sponsored by Bayer, was terminated. | [[2026-04-06-vilaprisan-uterine-fibroids-trial-termination]] |
-| 2026-04-06 | Clinical trial NCT02799602, investigating Darolutamide in combination with standard ADT and docetaxel for metastatic hormone-sensitive prostate cancer, has completed with results available. | [[2026-04-06-NCT02799602-darolutamide-prostate-cancer-trial-completion]] |
-| 2026-04-06 | A Phase III study of Radium-223 Dichloride (ALpharadin) in patients with symptomatic hormone refractory prostate cancer with skeletal metastases has completed. | [[2014-02-13-radium-223-dichloride-prostate-cancer-trial-completion]] |
+| Date | Type | Event | Signal |
+|---|---|---|---|
+| 2026-04-07 | trial | A Phase 2 interventional study (NCT00694850) evaluating Riociguat (Adempas) for safety and tolerability in patients with Interstitial Lung Disease (ILD) Associated Pulmonary Hypertension (PH) has completed. | [[NCT00694850-trial-completion-riociguat-ild-ph]] |
+| 2026-04-06 | trial | The Phase 3 clinical trial (NCT03194646) assessing Vilaprisan for Uterine Fibroids, sponsored by Bayer, was terminated. | [[2026-04-06-vilaprisan-uterine-fibroids-trial-termination]] |
+| 2026-04-06 | trial | Clinical trial NCT02799602, investigating Darolutamide in combination with standard ADT and docetaxel for metastatic hormone-sensitive prostate cancer, has completed with results available. | [[2026-04-06-NCT02799602-darolutamide-prostate-cancer-trial-completion]] |
+| 2026-04-06 | trial | A Phase III study of Radium-223 Dichloride (ALpharadin) in patients with symptomatic hormone refractory prostate cancer with skeletal metastases has completed. | [[2014-02-13-radium-223-dichloride-prostate-cancer-trial-completion]] |
+| 2025-12-31 | trial | A Phase 3 study (NCT05047263) evaluating [[finerenone]], sponsored by Bayer, has completed. | [[2025-12-31-finerenone-nct05047263-completed]] |
+| 2025-12-29 | trial | A Phase 3 study (NCT06422507) evaluating Aflibercept, sponsored by Bayer, has completed. | [[2025-12-29-unknown-nct06422507-completed]] |
+| 2025-10-24 | trial | A Phase 2 study (NCT06522997) evaluating Bay3283142, sponsored by Bayer, has completed. | [[2025-10-24-unknown-nct06522997-completed]] |
+| 2025-10-23 | trial | A Phase 3 study (NCT05686070) evaluating Asundexian, sponsored by Bayer, has completed. | [[2025-10-23-unknown-nct05686070-completed]] |
+| 2025-10-14 | trial | A Phase 4 study (NCT06591598) evaluating Aflibercept, sponsored by Bayer, has completed. | [[2025-10-14-unknown-nct06591598-completed]] |
+| 2025-10-07 | trial | A Phase 2 study (NCT06149520) evaluating Bay3018250, sponsored by Bayer, has completed. | [[2025-10-07-unknown-nct06149520-completed]] |
+| 2025-09-29 | trial | A Phase 2 study (NCT02576431) of Larotrectinib (Vitrakvi) for NTRK-fusion positive solid tumors, sponsored by Bayer, has completed. | [[2025-09-29-bayer-larotrectinib-ntrk-fusion-solid-tumors-phase2-completion]] |
+| 2025-09-19 | trial | A Phase 3 study (NCT04015180) evaluating Eylea (aflibercept) and Laser photocoagulation, sponsored by Bayer, has completed. | [[2025-09-19-unknown-nct04015180-completed]] |
+| 2025-09-15 | trial | Bayer's long-term extension study of Riociguat (Adempas) for pulmonary arterial hypertension has completed. | [[2025-09-15-riociguat-pah-trial-completion]] |
+| 2025-08-20 | trial | A Phase 3 study (NCT05901831) evaluating [[finerenone]], sponsored by Bayer, has completed. | [[2025-08-20-finerenone-nct05901831-completed]] |
+| 2025-07-03 | trial | A Phase 4 study (NCT05705271) evaluating [[finerenone]] for Type 2 Diabetes, sponsored by Bayer, has completed. | [[2025-07-03-finerenone-nct05705271-completed]] |
+| 2024-12-04 | trial | A Phase 2 study (NCT05171387) evaluating Darolutamide and Androgen Deprivation Therapy (ADT), sponsored by Bayer, has completed. | [[2024-12-04-unknown-nct05171387-completed]] |
+| 2024-11-15 | trial | The clinical trial NCT02367040, evaluating Copanlisib and Rituximab in relapsed Indolent B-cell Non-Hodgkin's Lymphoma, has been completed. | [[2024-11-15-copanlisib-rituximab-inhl-trial-completion]] |
+| 2024-11-07 | trial | A Phase 3 study (NCT05850520) evaluating Aflibercept, sponsored by Bayer, has completed. | [[2024-11-07-unknown-nct05850520-completed]] |
+| 2024-09-18 | trial | A Phase 3 study (NCT05915026) evaluating Gadoquatrane, sponsored by Bayer, has completed. | [[2024-09-18-unknown-nct05915026-completed]] |
+| 2024-09-12 | trial | A Phase 4 study (NCT05036278) evaluating Damoctocog alfa-pegol, sponsored by Bayer, has completed. | [[2024-09-12-unknown-nct05036278-completed]] |
+| 2024-08-22 | trial | A Phase 2 study (NCT06112756) evaluating Elinzanetant, sponsored by Bayer, has completed. | [[2024-08-22-unknown-nct06112756-completed]] |
+| 2024-08-20 | trial | A Phase 2 study (NCT05526248) evaluating Darolutamide and Enzalutamide, sponsored by Bayer, has completed. | [[2024-08-20-unknown-nct05526248-completed]] |
+| 2024-07-29 | trial | A Phase 2 study (NCT06195930) evaluating Vericiguat for Heart Failure & Hypertension, sponsored by Bayer, has completed. | [[2024-07-29-unknown-nct06195930-completed]] |
+| 2024-07-20 | trial | Clinical trial NCT02637687, investigating Larotrectinib (Vitrakvi) for Solid Tumors Harboring NTRK Fusion, sponsored by Bayer, has completed its primary endpoint collection. | [[2024-07-20-bayer-larotrectinib-ntrk-fusion-solid-tumors-trial-completion]] |
+| 2024-06-07 | trial | A Phase 3 study (NCT04736199) evaluating Darolutamide and Androgen Deprivation Therapy (ADT), sponsored by Bayer, has completed. | [[2024-06-07-unknown-nct04736199-completed]] |
+| 2024-05-31 | trial | A Phase 3 study (NCT05915728) evaluating Gadoquatrane, Gadobutrol, Gadoterate Meglumine, and Gadoteridol, sponsored by Bayer, has completed. | [[2024-05-31-unknown-nct05915728-completed]] |
+| 2024-05-30 | trial | A Phase 3 study (NCT05915702) evaluating Gadoquatrane, Gadobutrol, Gadoterate Meglumine, and Gadoteridol, sponsored by Bayer, has completed. | [[2024-05-30-unknown-nct05915702-completed]] |
+| 2024-05-15 | trial | A Phase 3 study (NCT04435626) evaluating [[finerenone]], sponsored by Bayer, has completed. | [[2024-05-15-finerenone-nct04435626-completed]] |
+| 2024-04-16 | trial | A Phase 4 study (NCT05511038) evaluating Aflibercept, sponsored by Bayer, has completed. | [[2024-04-16-unknown-nct05511038-completed]] |
+| 2024-03-18 | trial | A Phase 2 study (NCT04722991) evaluating Runcaciguat, sponsored by Bayer, has completed. | [[2024-03-18-unknown-nct04722991-completed]] |
+| 2024-03-15 | trial | A Phase 4 study (NCT04565236) evaluating Recombinant Factor VIII, sponsored by Bayer, has completed. | [[2024-03-15-unknown-nct04565236-completed]] |
+| 2024-01-04 | trial | A Phase 3 study (NCT05147662) evaluating Damoctocog alfa pegol, sponsored by Bayer, has completed. | [[2024-01-04-unknown-nct05147662-completed]] |
+| 2023-07-25 | trial | A Phase 3 study (NCT05042362) evaluating Elinzanetant, sponsored by Bayer, has completed. | [[2023-07-25-unknown-nct05042362-completed]] |
+| 2023-07-19 | trial | A Phase 3 study (NCT05098938) evaluating Acyclovir, sponsored by Bayer, has completed. | [[2023-07-19-unknown-nct05098938-completed]] |
+| 2023-06-13 | trial | A Phase 3 study (NCT05099159) evaluating Elinzanetant, sponsored by Bayer, has completed. | [[2023-06-13-unknown-nct05099159-completed]] |
+| 2023-03-29 | trial | A Phase 3 study (NCT05030584) evaluating Elinzanetant, sponsored by Bayer, has completed. | [[2023-03-29-unknown-nct05030584-completed]] |
+| 2023-03-09 | trial | A Phase 2 study (NCT04704154) evaluating [[nivolumab]] and Regorafenib, sponsored by Bayer, has completed. | [[2023-03-09-nivolumab-nct04704154-completed]] |
+| 2022-07-27 | trial | A Phase 3 study (NCT04423718) evaluating Aflibercept high dose VEGF Trap-Eye and Aflibercept VEGF Trap-Eye, sponsored by Bayer, has completed. | [[2022-07-27-unknown-nct04423718-completed]] |
+| 2022-05-05 | trial | A Phase 2 study (NCT04696055) evaluating [[pembrolizumab]] and Regorafenib, sponsored by Bayer, has completed. | [[2022-05-05-pembrolizumab-nct04696055-completed]] |
+| 2012-06-06 | trial | A Phase 2 study testing Riociguat for pulmonary hypertension associated with left ventricular systolic dysfunction has completed with 202 enrolled patients. | [[2012-06-06-riociguat-pulmonary-hypertension-trial-completion]] |
 
 ### Sources
 - `raw/ctgov/bayer/2026-04-06/NCT02799602.json`
@@ -198,4 +198,3 @@ Bayer AG is a German company listed on the Frankfurt Stock Exchange and does not
 - `raw/ctgov/bayer/2026-06-01/NCT07188805.json`
 - `raw/ctgov/bayer/2026-06-01/NCT07450599.json`
 - `raw/ctgov/bayer/2026-06-01/NCT07582328.json`
----

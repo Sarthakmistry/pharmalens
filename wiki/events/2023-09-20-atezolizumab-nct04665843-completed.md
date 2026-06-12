@@ -5,19 +5,19 @@ drugs: [atezolizumab]
 companies: [roche]
 indications: [alzheimers]
 signal: neutral
-headline: Roche's Atezolizumab Trial NCT04665843 for Alzheimer's Disease Completes Primary Completion
+headline: Atezolizumab Trial NCT04665843 for Alzheimer's Disease Completed
 last_updated: 2023-09-20
 ---
 
-## Roche's Atezolizumab Trial NCT04665843 for Alzheimer's Disease Completes Primary Completion
+## Atezolizumab Trial NCT04665843 for Alzheimer's Disease Completed
 
 **Date:** 2023-09-20 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Roche's Phase 2 clinical trial (NCT04665843) investigating atezolizumab in combination with Tiragolumab for Alzheimer's Disease has reached its primary completion date on September 20, 2023. The trial enrolled 123 actual participants and has not yet reported results.
+Roche's Phase 2 clinical trial (NCT04665843) evaluating atezolizumab, in combination with Tiragolumab, for Alzheimer's disease has reached its primary completion date on September 20, 2023. The trial enrolled 123 participants and has not yet reported results.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard procedural step and is considered neutral until results are released.
+The completion of this Phase 2 trial is a standard procedural step, with market implications awaiting the release of clinical data.
 
 ### Affected entities
 - Drug: [[atezolizumab]]

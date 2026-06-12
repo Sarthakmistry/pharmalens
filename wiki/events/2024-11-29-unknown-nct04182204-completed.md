@@ -1,23 +1,21 @@
 ---
 event_type: trial_completion
 date: 2024-11-29
-drugs: []
-companies: ["roche"]
-indications: []
+companies: [roche]
 signal: neutral
-headline: Roche's Trial NCT04182204 for Polatuzumab Vedotin and other agents completes primary completion
-last_updated: 2026-04-07
+headline: Roche's Trial NCT04182204 for Polatuzumab vedotin, Rituximab, Gemcitabine, and Oxaliplatin Reaches Primary Completion
+last_updated: 2024-11-29
 ---
 
-## Roche's Trial NCT04182204 for Polatuzumab Vedotin and other agents completes primary completion
+## Roche's Trial NCT04182204 for Polatuzumab vedotin, Rituximab, Gemcitabine, and Oxaliplatin Reaches Primary Completion
 
 **Date:** 2024-11-29 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Roche's clinical trial NCT04182204, investigating Polatuzumab vedotin in combination with Rituximab, Gemcitabine, and Oxaliplatin, has reached its primary completion date on November 29, 2024. The Phase 3 study enrolled 270 participants and has reported results.
+Trial NCT04182204, sponsored by [[roche]] and investigating Polatuzumab vedotin, Rituximab, Gemcitabine, and Oxaliplatin, has reached its primary completion date on November 29, 2024. This Phase 3 study, which enrolled 270 participants, has reported results.
 
 ### Market implication
-The completion of this Phase 3 trial marks a significant development milestone for Roche, with market impact pending the release and analysis of the study's results.
+The primary completion of this trial is a standard procedural milestone and does not immediately impact market valuation without further data release.
 
 ### Affected entities
 - Drug: Polatuzumab vedotin, Rituximab, Gemcitabine, Oxaliplatin

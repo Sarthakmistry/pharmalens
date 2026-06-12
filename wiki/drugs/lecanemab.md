@@ -13,9 +13,9 @@ management_sentiment: bearish
 sentiment_score: 2/5
 last_earnings_signal: null
 reimbursement_flag: false
-latest_event: "2026-04-20 — A systematic review and meta-analysis concluded that amyloid-beta-targeting monoclonal antibodies, including lecanemab, show trivial to small benefits in cognitive and functional outcomes while increasing ARIA risk."
-trials: [NCT03887455, NCT01767311]
-last_updated: 2026-04-20
+latest_event: "2028-12-21 — Phase 3 trial NCT04468659 for early Alzheimer's disease is active but not recruiting."
+trials: [NCT03887455, NCT01767311, NCT04468659, NCT06602258]
+last_updated: 2028-12-21
 ---
 ## Lecanemab
 
@@ -27,6 +27,8 @@ last_updated: 2026-04-20
 ### Pipeline
 - [[alzheimers]] — Phase 3, NCT03887455, active but not recruiting
 - [[alzheimers]] — Phase 2, NCT01767311, completed
+- [[alzheimers]] — Phase 3, NCT04468659, active but not recruiting
+- [[alzheimers]] — Phase 2, NCT06602258, active but not recruiting
 
 ### Management sentiment
 The effect of amyloid-beta-targeting monoclonal antibodies on cognitive function and dementia severity at 18 months is trivial, while on functional ability, it is small at best. Amyloid-beta-targeting monoclonal antibodies increase the risk of amyloid-related imaging abnormalities.
@@ -47,6 +49,8 @@ A systematic review and meta-analysis of 17 studies involving 20,342 participant
 ### Timeline
 | Date | Event | Type |
 |---|---|---|
+| 2028-12-21 | Phase 3 trial NCT04468659 for early Alzheimer's disease is active but not recruiting. | [[2028-12-21-lecanemab-nct04468659-update]] |
+| 2026-12-03 | Phase 2 trial NCT06602258 for early Alzheimer's disease is active but not recruiting. | [[2026-12-03-lecanemab-nct06602258-update]] |
 | 2026-04-20 | A systematic review and meta-analysis concluded that amyloid-beta-targeting monoclonal antibodies, including lecanemab, show trivial to small benefits in cognitive and functional outcomes while increasing ARIA risk. | [[2026-04-20-lecanemab-amyloid-beta-mab-meta-analysis-pubmed-result]] |
 | 2026-04-12 | A meta-analysis of 5633 patients found that lecanemab and donanemab showed the greatest slowing of cognitive decline in White/Caucasian and ApoE4 non-carriers, with ARIA risk higher in ApoE4 carriers. | [[2026-04-12-lecanemab-donanemab-meta-analysis-pubmed-result]] |
 | 2025-11-01 | Post-hoc analysis of an RCT suggested a treatment benefit of AD04 in early Alzheimer's disease, with observed effect estimates comparable to approved monoclonal antibodies. | [[2025-11-01-ad04-lecanemab-pubmed-result]] |
@@ -72,3 +76,5 @@ A systematic review and meta-analysis of 17 studies involving 20,342 participant
 - `raw/pubmed/donanemab/2026-04-12/abstract-40953123.json`
 - `raw/pubmed/donanemab/2026-04-12/abstract-41352683.json`
 - `raw/pubmed/donanemab/2026-04-20/abstract-41985900.json`
+- `raw/ctgov/eisai/2026-04-07/NCT04468659.json`
+- `raw/ctgov/eisai/2026-04-07/NCT06602258.json`

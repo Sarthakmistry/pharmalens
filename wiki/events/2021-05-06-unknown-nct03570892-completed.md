@@ -5,22 +5,24 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis's Phase 3 Trial NCT03570892 for Tisagenlecleucel Completed Primary Completion
+headline: Novartis Trial NCT03570892 Completed Phase 3 Study
 last_updated: 2021-05-06
 ---
 
-## Novartis's Phase 3 Trial NCT03570892 for Tisagenlecleucel Completed Primary Completion
+## Novartis Trial NCT03570892 Completed Phase 3 Study
 
 **Date:** 2021-05-06 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis's Phase 3 clinical trial, NCT03570892, investigating Tisagenlecleucel after optional bridging and lymphodepleting chemotherapy, reached its primary completion on May 6, 2021. The study enrolled 330 participants and has results available. This trial compared Tisagenlecleucel with platinum-based immunochemotherapy followed by high dose chemotherapy and autologous hematopoietic stem cell transplant (HSCT).
+Novartis's Phase 3 clinical trial, NCT03570892, investigating Tisagenlecleucel after optional bridging and lymphodepleting chemotherapy, and Platinum-based immunochemotherapy, reached its primary completion on May 6, 2021. The study enrolled 330 participants and has reported results.
 
 ### Market implication
-The completion of this Phase 3 trial is a standard procedural step, with market implications dependent on the eventual release and nature of the study results.
+The completion of this Phase 3 trial for Novartis is a standard procedural update, with specific market implications dependent on the eventual publication of its results.
 
 ### Affected entities
 - Company: [[novartis]]
+- Drug: Tisagenlecleucel after optional bridging and lymphodepleting chemotherapy
+- Drug: Platinum-based immunochemotherapy followed in responding patients with high dose chemotherapy and autologous hematopoietic stem cell transplant (hsct)
 
 ### Sources
-- `raw/ctgov/novartis/2026-05-01/NCT03570892.json`
+- `raw/ctgov/novartis/2026-06-01/NCT03570892.json`

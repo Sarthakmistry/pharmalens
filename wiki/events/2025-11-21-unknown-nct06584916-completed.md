@@ -5,19 +5,19 @@ drugs: []
 companies: [eli-lilly]
 indications: [glp1-obesity]
 signal: neutral
-headline: Eli Lilly's Phase 3 Trial (NCT06584916) for Orforglipron in GLP-1 Obesity Completed Primary Endpoint
+headline: Eli Lilly's Orforglipron Phase 3 Trial (NCT06584916) Reaches Primary Completion
 last_updated: 2026-04-07
 ---
 
-## Eli Lilly's Phase 3 Trial (NCT06584916) for Orforglipron in GLP-1 Obesity Completed Primary Endpoint
+## Eli Lilly's Orforglipron Phase 3 Trial (NCT06584916) Reaches Primary Completion
 
 **Date:** 2025-11-21 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Eli Lilly's Phase 3 clinical trial, NCT06584916, investigating Orforglipron for GLP-1 obesity, has completed its primary endpoint as of November 21, 2025. The trial enrolled 376 participants and has not yet published results. This completion signifies a major milestone in the drug's development pathway.
+Eli Lilly's Phase 3 clinical trial, NCT06584916, evaluating Orforglipron for glp1-obesity, reached its primary completion date on November 21, 2025. The study enrolled 376 participants, and results from this trial are not yet publicly available.
 
 ### Market implication
-The completion of this Phase 3 trial for Orforglipron is a procedural step for Eli Lilly, indicating progress in its GLP-1 obesity pipeline, with market impact contingent on future data release.
+The primary completion of this Phase 3 trial is a procedural milestone for Eli Lilly's Orforglipron, with market implications contingent upon the eventual release and interpretation of the clinical data.
 
 ### Affected entities
 - Drug: Orforglipron

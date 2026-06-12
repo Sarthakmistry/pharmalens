@@ -1,21 +1,23 @@
 ---
 event_type: trial_completion
 date: 2024-06-25
-companies: [pfizer]
+drugs: []
+companies: ["pfizer"]
+indications: []
 signal: neutral
-headline: Pfizer's Phase 3 Trial NCT04006457 for Pf-06651600 Completed Primary Completion
-last_updated: 2026-05-01
+headline: Pfizer's Phase 3 Study NCT04006457 for Vaccine Candidates Reaches Primary Completion
+last_updated: 2024-06-25
 ---
 
-## Pfizer's Phase 3 Trial NCT04006457 for Pf-06651600 Completed Primary Completion
+## Pfizer's Phase 3 Study NCT04006457 for Vaccine Candidates Reaches Primary Completion
 
 **Date:** 2024-06-25 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Pfizer's Phase 3 clinical trial, NCT04006457, which investigated Pf-06651600, Tetanus and diphtheria toxoids and acellular pertussis (tdap) vaccine, and Meningococcal (groups a, c, w-135 and y [acwy]) oligosaccharide diphtheria crm197 conjugate vaccine, reached its primary completion date on June 25, 2024. The study enrolled 1057 participants and is now marked as completed with results available.
+Pfizer's Phase 3 clinical trial, NCT04006457, which investigated vaccine candidates Pf-06651600, Tetanus and diphtheria toxoids and acellular pertussis (Tdap) vaccine, and Meningococcal (groups A, C, W-135 and Y [ACWY]) oligosaccharide diphtheria CRM197 conjugate vaccine, has reached its primary completion date on June 25, 2024. The study enrolled 1057 participants and has reported results.
 
 ### Market implication
-The completion of this Phase 3 trial is a standard procedural step for Pfizer, and without specific results, it has a neutral market implication.
+The primary completion of this Phase 3 trial is a standard procedural milestone for Pfizer, with no immediate market impact without the release of specific efficacy or safety data.
 
 ### Affected entities
 - Company: [[pfizer]]

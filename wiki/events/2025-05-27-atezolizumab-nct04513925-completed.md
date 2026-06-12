@@ -5,19 +5,19 @@ drugs: [semaglutide]
 companies: [roche]
 indications: [oncology-nsclc]
 signal: neutral
-headline: Roche's Phase 3 Trial NCT04513925 for Atezolizumab in NSCLC Reaches Primary Completion
+headline: Atezolizumab (Tecentriq) Phase 3 Trial NCT04513925 in NSCLC Reaches Primary Completion
 last_updated: 2026-04-07
 ---
 
-## Roche's Phase 3 Trial NCT04513925 for Atezolizumab in NSCLC Reaches Primary Completion
+## Atezolizumab (Tecentriq) Phase 3 Trial NCT04513925 in NSCLC Reaches Primary Completion
 
 **Date:** 2025-05-27 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-The Phase 3 clinical trial NCT04513925, sponsored by Roche and investigating atezolizumab for non-small cell lung cancer (NSCLC), has reached its primary completion date on May 27, 2025. This trial enrolled 829 participants and evaluated atezolizumab in combination with other therapies. No results have been reported yet.
+The Phase 3 clinical trial NCT04513925, investigating atezolizumab (Tecentriq) in non-small cell lung cancer (NSCLC), reached its primary completion date on May 27, 2025. The trial, sponsored by Roche, enrolled 829 participants. Results from this study are not yet available.
 
 ### Market implication
-The completion of this Phase 3 trial is a standard procedural step in drug development; market impact will depend on the eventual release and nature of the trial results.
+The completion of this Phase 3 trial marks a procedural milestone for Roche's atezolizumab program in NSCLC, with market impact awaiting the release of study results.
 
 ### Affected entities
 - Drug: [[atezolizumab]]

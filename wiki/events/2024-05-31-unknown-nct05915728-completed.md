@@ -5,24 +5,22 @@ drugs: []
 companies: [bayer]
 indications: []
 signal: neutral
-headline: Bayer's Phase 3 Trial NCT05915728 for Gadoquatrane Completes Primary Endpoint
-last_updated: 2024-05-31
+headline: Bayer's Phase 3 Trial (NCT05915728) for Gadoquatrane Completed
+last_updated: 2026-04-07
 ---
 
-## Bayer's Phase 3 Trial NCT05915728 for Gadoquatrane Completes Primary Endpoint
+## Bayer's Phase 3 Trial (NCT05915728) for Gadoquatrane Completed
 
 **Date:** 2024-05-31 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Bayer's Phase 3 clinical trial NCT05915728, investigating Gadoquatrane (bay1747846) for an unspecified indication, has reached its primary completion date on May 31, 2024. The trial enrolled 404 participants and is now completed, though results are not yet available.
+Bayer's Phase 3 clinical trial, NCT05915728, investigating Gadoquatrane (BAY1747846) completed its primary phase on May 31, 2024. The study enrolled 404 participants and evaluated the drug, which is an investigational contrast agent, against other gadolinium-based contrast agents like Gadobutrol, Gadoterate meglumine, and Gadoteridol. No results have been published yet.
 
 ### Market implication
-As results for the completed trial are not yet available, the market implication is neutral.
+The completion of this Phase 3 trial for an investigational contrast agent is a standard procedural step for Bayer, with no immediate market impact until results are announced.
 
 ### Affected entities
-- Drug: Gadoquatrane (bay1747846)
 - Company: [[bayer]]
-- Indication: N/A
 
 ### Sources
 - `raw/ctgov/bayer/2026-04-07/NCT05915728.json`

@@ -5,23 +5,24 @@ drugs: []
 companies: [merck]
 indications: []
 signal: neutral
-headline: Merck's Phase 2 Trial for V181 (NCT05507450) Completes
+headline: Merck's Phase 2 Trial NCT05507450 for V181 Reaches Primary Completion
 last_updated: 2023-06-05
 ---
 
-## Merck's Phase 2 Trial for V181 (NCT05507450) Completes
+## Merck's Phase 2 Trial NCT05507450 for V181 Reaches Primary Completion
 
 **Date:** 2023-06-05 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 2 clinical trial, NCT05507450, investigating V181 (high-, mid-, and low-potency levels), reached its primary completion date on June 5, 2023. The study enrolled 1271 participants and has reported results.
+A Phase 2 clinical trial (NCT05507450) sponsored by [[merck]], investigating the investigational drug V181, has reached its primary completion date on June 5, 2023. The trial enrolled 1271 participants and has indicated that results are available. This milestone signifies the completion of data collection for the primary outcome.
 
 ### Market implication
-This event is a standard procedural milestone, with market impact contingent upon the eventual disclosure and nature of the trial results.
+The primary completion of this Phase 2 trial is a standard procedural step in drug development and is considered a neutral event for [[merck]]'s valuation until results are publicly disclosed.
 
 ### Affected entities
-- Drug: V181 high-potency level, V181 mid-potency level, V181 low-potency level
+- Drug: V181
 - Company: [[merck]]
+- Indication: N/A
 
 ### Sources
 - `raw/ctgov/merck/2026-04-07/NCT05507450.json`

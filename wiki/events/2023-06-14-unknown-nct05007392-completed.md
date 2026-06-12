@@ -5,22 +5,22 @@ drugs: []
 companies: [eisai]
 indications: []
 signal: neutral
-headline: Eisai's Phase 3 trial for Dotinurad/Febuxostat (NCT05007392) completes
+headline: Eisai's Phase 3 Trial NCT05007392 Completed Primary Data Collection
 last_updated: 2023-06-14
 ---
+```
 
-## Eisai's Phase 3 trial for Dotinurad/Febuxostat (NCT05007392) completes
+## Eisai's Phase 3 Trial NCT05007392 Completed Primary Data Collection
 
 **Date:** 2023-06-14 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Eisai's Phase 3 clinical trial, NCT05007392, investigating Dotinurad and Febuxostat, reached its primary completion date on June 14, 2023. The trial enrolled 451 participants and has reported results.
+Eisai's Phase 3 clinical trial, NCT05007392, which investigated Dotinurad and Febuxostat, completed its primary data collection on June 14, 2023. The trial enrolled 451 participants and has reported that results are available. This marks a significant milestone in the drug development process for these compounds.
 
 ### Market implication
-The completion of this Phase 3 trial marks a development milestone for Eisai, with market implications dependent on the eventual release and nature of the trial results.
+The completion of primary data collection for this Phase 3 trial is a neutral development, indicating progress in Eisai's pipeline without immediate impact on valuation until results are disclosed.
 
 ### Affected entities
-- Drug: Dotinurad, Febuxostat
 - Company: [[eisai]]
 
 ### Sources

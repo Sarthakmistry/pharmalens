@@ -5,24 +5,23 @@ drugs: []
 companies: [gilead]
 indications: []
 signal: neutral
-headline: Gilead's Trial NCT04880434 for Brexucabtagene autoleucel Completes Primary Phase
+headline: Gilead's Phase 2 Trial NCT04880434 Reaches Primary Completion
 last_updated: 2026-04-07
 ---
+```
 
-## Gilead's Trial NCT04880434 for Brexucabtagene autoleucel Completes Primary Phase
+## Gilead's Phase 2 Trial NCT04880434 Reaches Primary Completion
 
 **Date:** 2025-06-17 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Gilead's Phase 2 clinical trial, NCT04880434, investigating Brexucabtagene autoleucel in combination with Fludarabine and Cyclophosphamide, reached its primary completion date on June 17, 2025. The trial enrolled 95 participants. No results have been reported yet.
+Gilead's Phase 2 clinical trial NCT04880434, which involved Fludarabine, Cyclophosphamide, and Brexucabtagene autoleucel, reached its primary completion date on June 17, 2025. The trial enrolled 95 participants, and results are not yet available.
 
 ### Market implication
-The completion of the primary phase is a standard procedural step; market implications are neutral until trial results are released.
+This event marks a procedural milestone for the trial, with market impact awaiting the release of study results.
 
 ### Affected entities
-- Drug: Fludarabine, Cyclophosphamide, Brexucabtagene autoleucel
 - Company: [[gilead]]
-- Indication: 
 
 ### Sources
 - `raw/ctgov/gilead/2026-04-07/NCT04880434.json`

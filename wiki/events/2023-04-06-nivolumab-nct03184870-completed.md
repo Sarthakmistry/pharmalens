@@ -5,19 +5,19 @@ drugs: [nivolumab]
 companies: [bristol-myers-squibb]
 indications: [oncology-crc]
 signal: neutral
-headline: Bristol-Myers Squibb's Nivolumab Trial NCT03184870 for Colorectal Cancer Reaches Primary Completion
+headline: Bristol-Myers Squibb's Nivolumab (NCT03184870) trial for colorectal cancer completes primary endpoint
 last_updated: 2023-04-06
 ---
 
-## Bristol-Myers Squibb's Nivolumab Trial NCT03184870 for Colorectal Cancer Reaches Primary Completion
+## Bristol-Myers Squibb's Nivolumab (NCT03184870) trial for colorectal cancer completes primary endpoint
 
 **Date:** 2023-04-06 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 1/2 clinical trial (NCT03184870) investigating nivolumab, sponsored by Bristol-Myers Squibb, reached its primary completion date on April 6, 2023. The study, which enrolled 332 participants, focused on colorectal cancer. Results from this trial are now available.
+A Phase 1/2 clinical trial (NCT03184870) sponsored by Bristol-Myers Squibb, investigating nivolumab for colorectal cancer, reached its primary completion date on April 6, 2023. The study enrolled 332 participants and has reported that results are available. This marks a significant milestone in the trial's progression.
 
 ### Market implication
-The completion of this trial indicates that data analysis will proceed, potentially leading to publication of results that could inform future development strategies or regulatory submissions for nivolumab in colorectal cancer.
+The completion of the primary endpoint for this trial provides updated data for Bristol-Myers Squibb's nivolumab in colorectal cancer, with further analysis of results expected.
 
 ### Affected entities
 - Drug: [[nivolumab]]

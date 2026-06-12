@@ -2,22 +2,22 @@
 event_type: trial_completion
 date: 2024-11-07
 drugs: []
-companies: ["novartis"]
-indications: ["oncology-nsclc"]
+companies: [novartis]
+indications: [oncology-nsclc]
 signal: neutral
-headline: Novartis Completes Phase 2 Trial of Dabrafenib and Trametinib in NSCLC
+headline: Novartis's Phase 2 Trial (NCT04452877) for Dabrafenib and Trametinib in NSCLC Completes Primary Endpoint
 last_updated: 2024-11-07
 ---
 
-## Novartis Completes Phase 2 Trial of Dabrafenib and Trametinib in NSCLC
+## Novartis's Phase 2 Trial (NCT04452877) for Dabrafenib and Trametinib in NSCLC Completes Primary Endpoint
 
 **Date:** 2024-11-07 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis has completed its Phase 2 clinical trial (NCT04452877) evaluating Dabrafenib and Trametinib for non-small cell lung cancer (NSCLC). The trial enrolled 40 participants and reached its primary completion date on November 7, 2024. Results for this study are available.
+Novartis has announced the primary completion of its Phase 2 clinical trial, NCT04452877, investigating Dabrafenib and Trametinib for non-small cell lung cancer (NSCLC). The trial, which enrolled 40 participants, reached its primary completion date on November 7, 2024, and results are now available.
 
 ### Market implication
-The completion of this Phase 2 trial provides an update on Novartis's pipeline, with market implications dependent on the eventual release of detailed results.
+The primary completion of a Phase 2 trial is a standard development in the drug development process, with market implications pending the release and analysis of the trial's results.
 
 ### Affected entities
 - Company: [[novartis]]

@@ -5,24 +5,24 @@ drugs: []
 companies: [pfizer]
 indications: []
 signal: neutral
-headline: Pfizer's Phase 4 trial for Rimegepant (NCT05518123) completes primary endpoint
-last_updated: 2026-04-07
+headline: Pfizer's Phase 4 trial NCT05518123 for Rimegepant completes primary endpoint
+last_updated: 2026-06-01
 ---
 
-## Pfizer's Phase 4 trial for Rimegepant (NCT05518123) completes primary endpoint
+## Pfizer's Phase 4 trial NCT05518123 for Rimegepant completes primary endpoint
 
 **Date:** 2025-03-31 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Pfizer's Phase 4 clinical trial (NCT05518123) investigating Rimegepant, with an actual enrollment of 658 participants, reached its primary completion date on March 31, 2025. The trial status is now completed, but results have not yet been released.
+Pfizer's Phase 4 clinical trial (NCT05518123) investigating Rimegepant has reached its primary completion date on March 31, 2025. The trial, which enrolled 962 participants, is now complete, and results are expected to be available.
 
 ### Market implication
-The completion of this Phase 4 trial is a neutral event as no results have been released to assess the drug's efficacy or safety.
+The completion of this Phase 4 trial is a standard procedural step for Rimegepant, with no immediate market impact until results are published and analyzed.
 
 ### Affected entities
 - Drug: Rimegepant
 - Company: [[pfizer]]
-- Indication: N/A
+- Indication:
 
 ### Sources
-- `raw/ctgov/pfizer/2026-04-07/NCT05518123.json`
+- `raw/ctgov/pfizer/2026-06-01/NCT05518123.json`

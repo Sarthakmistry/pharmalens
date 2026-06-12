@@ -5,19 +5,19 @@ drugs: [semaglutide]
 companies: [novo-nordisk]
 indications: []
 signal: neutral
-headline: Semaglutide (NCT05891496) Phase 3 Trial Reaches Primary Completion
+headline: Novo Nordisk's Semaglutide Trial NCT05891496 for Type 2 Diabetes Completed
 last_updated: 2024-08-19
 ---
 
-## Semaglutide (NCT05891496) Phase 3 Trial Reaches Primary Completion
+## Novo Nordisk's Semaglutide Trial NCT05891496 for Type 2 Diabetes Completed
 
 **Date:** 2024-08-19 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT05891496) evaluating semaglutide, developed by Novo Nordisk, has completed its primary endpoint. The trial, with an actual enrollment of 23 participants, reached primary completion on August 19, 2024, and results are now available.
+A Phase 3 clinical trial (NCT05891496) sponsored by Novo Nordisk, investigating semaglutide for Type 2 Diabetes, has reached its primary completion date on August 19, 2024. The trial enrolled 23 participants and has reported that results are available.
 
 ### Market implication
-This event is neutral for Novo Nordisk and semaglutide, as the market awaits the release of the trial's results.
+The completion of this trial marks a procedural milestone for semaglutide, with market implications pending the release and analysis of the study results.
 
 ### Affected entities
 - Drug: [[semaglutide]]

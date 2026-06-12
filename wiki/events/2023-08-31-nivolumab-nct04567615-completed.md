@@ -5,19 +5,20 @@ drugs: [nivolumab]
 companies: [bristol-myers-squibb]
 indications: [alzheimers]
 signal: neutral
-headline: Bristol-Myers Squibb's Nivolumab Trial (NCT04567615) for Alzheimer's Completes Primary Endpoint
+headline: Nivolumab Trial NCT04567615 Completed
 last_updated: 2023-08-31
 ---
+```
 
-## Bristol-Myers Squibb's Nivolumab Trial (NCT04567615) for Alzheimer's Completes Primary Endpoint
+## Nivolumab Trial NCT04567615 Completed
 
 **Date:** 2023-08-31 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT04567615) sponsored by Bristol-Myers Squibb, investigating [[nivolumab]] for Alzheimer's disease, has reached its primary completion date on August 31, 2023. The trial enrolled 266 participants and has reported that results are available, though specific findings are not detailed in this update.
+Clinical trial NCT04567615, a Phase 2 study investigating [[nivolumab]], reached its primary completion date on August 31, 2023. The trial, sponsored by [[bristol-myers-squibb]], enrolled 266 participants and has reported results.
 
 ### Market implication
-The completion of this trial is a neutral event, as no specific results or future development plans have been announced.
+The completion of this Phase 2 trial is a neutral event, awaiting the release of detailed results to assess potential market impact for [[nivolumab]] and [[bristol-myers-squibb]].
 
 ### Affected entities
 - Drug: [[nivolumab]]

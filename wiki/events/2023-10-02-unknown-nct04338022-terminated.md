@@ -5,24 +5,24 @@ drugs: []
 companies: [merck]
 indications: []
 signal: bearish
-headline: Merck terminates Phase 3 trial NCT04338022 involving Teriflunomide and Evobrutinib
+headline: Merck terminates Phase 3 trial (NCT04338022) for Evobrutinib and Teriflunomide
 last_updated: 2023-10-02
 ---
 
-## Merck terminates Phase 3 trial NCT04338022 involving Teriflunomide and Evobrutinib
+## Merck terminates Phase 3 trial (NCT04338022) for Evobrutinib and Teriflunomide
 
 **Date:** 2023-10-02 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-Merck's Phase 3 clinical trial (NCT04338022), which was investigating Teriflunomide and Evobrutinib, has been terminated. The trial had enrolled 1124 participants and reached its primary completion on October 2, 2023, with results now available, indicating a strategic decision or outcome that led to its discontinuation.
+On October 2, 2023, Merck terminated its Phase 3 clinical trial (NCT04338022) investigating Evobrutinib and Teriflunomide. The trial had an actual enrollment of 1124 participants and reached its primary completion date on the same day it was terminated. The termination of a Phase 3 trial indicates a significant setback for the development of these drugs.
 
 ### Market implication
-The termination of a late-stage clinical trial, even with results available, typically signals a setback for the sponsoring company's pipeline, potentially impacting future development plans or market expectations for the involved compounds.
+This trial termination represents a bearish signal for Merck's pipeline, as it indicates a discontinuation of a late-stage asset.
 
 ### Affected entities
-- Drug: Teriflunomide, Evobrutinib
+- Drug: Evobrutinib, Teriflunomide
 - Company: [[merck]]
-- Indication: 
+- Indication:
 
 ### Sources
 - `raw/ctgov/merck/2026-04-07/NCT04338022.json`

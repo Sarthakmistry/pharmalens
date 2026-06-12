@@ -2,25 +2,24 @@
 event_type: trial_completion
 date: 2022-06-16
 drugs: []
-companies: [novo-nordisk]
-indications: [type2-diabetes]
+companies: ["novo-nordisk"]
+indications: ["type2-diabetes"]
 signal: neutral
-headline: Novo Nordisk's Phase 3 Trial for Insulin Icodec in Type 2 Diabetes Reaches Primary Completion
-last_updated: 2022-06-16
+headline: Novo Nordisk's Phase 3 Trial (NCT04880850) for Insulin Icodec in Type 2 Diabetes Completed Primary Endpoint
+last_updated: 2026-04-07
 ---
 
-## Novo Nordisk's Phase 3 Trial for Insulin Icodec in Type 2 Diabetes Reaches Primary Completion
+## Novo Nordisk's Phase 3 Trial (NCT04880850) for Insulin Icodec in Type 2 Diabetes Completed Primary Endpoint
 
 **Date:** 2022-06-16 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novo Nordisk's Phase 3 clinical trial, NCT04880850, evaluating Insulin icodec for the treatment of Type 2 Diabetes, reached its primary completion date on June 16, 2022. The study, which enrolled 582 participants, has reported results.
+A Phase 3 clinical trial (NCT04880850) sponsored by [[novo-nordisk]] for Insulin icodec, comparing it to Insulin glargine and Insulin aspart in patients with type 2 diabetes, reached its primary completion date on June 16, 2022. The trial, which enrolled 582 participants, has completed its primary endpoint, marking a key procedural milestone in the development of this once-weekly insulin.
 
 ### Market implication
-The completion of this Phase 3 trial is a standard procedural milestone for Novo Nordisk's pipeline, with future market impact contingent on the detailed results.
+The completion of this Phase 3 trial represents a procedural step in the drug development process for Novo Nordisk's Insulin icodec, with market implications dependent on future data release.
 
 ### Affected entities
-- Drug: Insulin icodec
 - Company: [[novo-nordisk]]
 - Indication: [[type2-diabetes/_index]]
 

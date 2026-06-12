@@ -4,25 +4,23 @@ date: 2023-04-20
 drugs: []
 companies: [novartis]
 indications: []
-signal: bearish
-headline: Novartis terminates Phase 2 trial NCT03781414 for Cfz533 and Tacrolimus - mmf - corticosteroids
-last_updated: 2026-04-07
+signal: neutral
+headline: Novartis terminates Phase 2 trial NCT03781414
+last_updated: 2023-04-20
 ---
 
-## Novartis terminates Phase 2 trial NCT03781414 for Cfz533 and Tacrolimus - mmf - corticosteroids
+## Novartis terminates Phase 2 trial NCT03781414
 
-**Date:** 2023-04-20 | **Type:** trial_termination | **Signal:** bearish
+**Date:** 2023-04-20 | **Type:** trial_termination | **Signal:** neutral
 
 ### Summary
-Novartis has terminated its Phase 2 clinical trial (NCT03781414) investigating Cfz533 and Tacrolimus - mmf - corticosteroids. The trial, which had an actual enrollment of 129 participants, reached its primary completion date on April 20, 2023, before being terminated. This decision halts further development of these compounds within the scope of this specific study.
+Novartis has terminated its Phase 2 clinical trial, NCT03781414, which reached its primary completion date on April 20, 2023. The trial had an actual enrollment of 129 participants and has reported results. The specific reason for termination is not detailed in the available information.
 
 ### Market implication
-This trial termination represents a bearish signal for Novartis's pipeline, indicating a setback in the development of the involved compounds.
+The termination of this Phase 2 trial for an untracked drug is likely to have a neutral or minor market implication for Novartis, given the lack of specific details regarding the termination reason or the drug's strategic importance.
 
 ### Affected entities
-- Drug: Cfz533, Tacrolimus - mmf - corticosteroids
 - Company: [[novartis]]
-- Indication: None
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT03781414.json`

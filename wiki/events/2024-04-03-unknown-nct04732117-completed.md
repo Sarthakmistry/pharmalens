@@ -5,19 +5,19 @@ drugs: []
 companies: [novartis]
 indications: [alzheimers]
 signal: neutral
-headline: Novartis's Secukinumab trial NCT04732117 for Alzheimer's disease completed primary endpoint
+headline: Novartis's NCT04732117 Trial for Secukinumab in Alzheimer's Disease Completes Primary Phase
 last_updated: 2024-04-03
 ---
 
-## Novartis's Secukinumab trial NCT04732117 for Alzheimer's disease completed primary endpoint
+## Novartis's NCT04732117 Trial for Secukinumab in Alzheimer's Disease Completes Primary Phase
 
 **Date:** 2024-04-03 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Clinical trial NCT04732117, sponsored by [[novartis]], investigating Secukinumab for Alzheimer's disease, reached its primary completion date on April 3, 2024. This Phase 3 study enrolled 137 participants and has reported results.
+On April 3, 2024, Novartis's clinical trial NCT04732117, investigating Secukinumab for Alzheimer's disease, reached its primary completion. This Phase 3 study enrolled 137 participants and has reported results.
 
 ### Market implication
-The completion of this trial for Secukinumab in [[alzheimers/_index]] has a neutral market implication for [[novartis]] at this stage, pending the release of detailed results for this untracked drug.
+The completion of this trial is a standard procedural step, with market implications dependent on the eventual disclosure of its results.
 
 ### Affected entities
 - Drug: Secukinumab

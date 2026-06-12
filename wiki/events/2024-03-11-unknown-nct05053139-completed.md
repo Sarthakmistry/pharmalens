@@ -2,22 +2,22 @@
 event_type: trial_completion
 date: 2024-03-11
 drugs: []
-companies: ["novo-nordisk"]
+companies: [novo-nordisk]
 indications: []
 signal: neutral
-headline: Novo Nordisk's Phase 3 Trial NCT05053139 for Nnc0365-3769 (mim8) Completes Primary Endpoint
+headline: Novo Nordisk's Nnc0365-3769 (mim8) Phase 3 Trial (NCT05053139) Reaches Primary Completion
 last_updated: 2024-03-11
 ---
 
-## Novo Nordisk's Phase 3 Trial NCT05053139 for Nnc0365-3769 (mim8) Completes Primary Endpoint
+## Novo Nordisk's Nnc0365-3769 (mim8) Phase 3 Trial (NCT05053139) Reaches Primary Completion
 
 **Date:** 2024-03-11 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novo Nordisk's Phase 3 clinical trial, NCT05053139, investigating Nnc0365-3769 (mim8), reached its primary completion date on March 11, 2024. The trial enrolled 281 participants and has now concluded the data collection for its primary outcome measures. No results have been published yet.
+A Phase 3 clinical trial (NCT05053139) sponsored by Novo Nordisk, investigating the drug Nnc0365-3769 (mim8), has reached its primary completion date on March 11, 2024. The trial enrolled 281 participants and is now moving towards data analysis. No results have been published yet.
 
 ### Market implication
-The completion of the primary endpoint for this Phase 3 trial is a standard procedural step, and its market implication is neutral until results are announced.
+The primary completion of this Phase 3 trial is a neutral event, as it signifies progress in the development pipeline but does not yet provide efficacy or safety data.
 
 ### Affected entities
 - Drug: Nnc0365-3769 (mim8)

@@ -14,10 +14,10 @@ last_updated: 2026-04-07
 **Date:** 2025-07-24 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novo Nordisk's Phase 2 clinical trial, NCT05405114, investigating Ndec - oral decitabine-tetrahydrouridine and Hu - hydroxyurea, reached its primary completion on July 24, 2025. The trial enrolled 96 participants and is now awaiting results.
+Novo Nordisk's Phase 2 clinical trial, NCT05405114, which investigated Ndec - oral decitabine-tetrahydrouridine and Hu - hydroxyurea, reached its primary completion date on July 24, 2025. The trial enrolled 96 participants and is now completed, though results have not yet been posted.
 
 ### Market implication
-This procedural milestone for Novo Nordisk has a neutral market implication as the trial results have not yet been released.
+This event represents a procedural milestone for Novo Nordisk's clinical pipeline, with market implications pending the future release and analysis of the trial's results.
 
 ### Affected entities
 - Company: [[novo-nordisk]]

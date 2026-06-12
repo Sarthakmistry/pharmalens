@@ -5,19 +5,19 @@ drugs: []
 companies: ["eli-lilly"]
 indications: ["alzheimers"]
 signal: neutral
-headline: Eli Lilly's Ly3372689 Phase 2 trial for Alzheimer's disease completes primary endpoint
-last_updated: 2024-07-09
+headline: Eli Lilly's Phase 2 Trial (NCT05063539) for Ly3372689 in Alzheimer's Disease Completes Primary Endpoint
+last_updated: 2026-04-07
 ---
 
-## Eli Lilly's Ly3372689 Phase 2 trial for Alzheimer's disease completes primary endpoint
+## Eli Lilly's Phase 2 Trial (NCT05063539) for Ly3372689 in Alzheimer's Disease Completes Primary Endpoint
 
 **Date:** 2024-07-09 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Eli Lilly's Phase 2 clinical trial (NCT05063539) for Ly3372689 in Alzheimer's disease has reached its primary completion date on July 9, 2024. The study, which enrolled 327 participants, is now completed and has results available. Ly3372689 is an investigational drug for Alzheimer's disease.
+Eli Lilly's Phase 2 clinical trial (NCT05063539) for the investigational drug Ly3372689, aimed at treating Alzheimer's disease, reached its primary completion date on July 9, 2024. The trial successfully enrolled 327 participants and has indicated that results are available.
 
 ### Market implication
-The completion of this Phase 2 trial for Ly3372689 is a neutral event, as results are available but not yet publicly disclosed, preventing immediate market reaction.
+The completion of this Phase 2 trial marks a procedural milestone for Eli Lilly's Alzheimer's pipeline, with market impact dependent on the eventual release and nature of the trial results.
 
 ### Affected entities
 - Drug: Ly3372689

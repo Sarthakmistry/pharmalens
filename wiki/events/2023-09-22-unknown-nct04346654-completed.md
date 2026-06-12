@@ -5,22 +5,21 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis's Phase 2 Trial NCT04346654 for Eltrombopag and Dexamethasone Completed Primary Completion
+headline: Novartis's Phase 2 Trial NCT04346654 for Eltrombopag and Dexamethasone Completes Primary Completion
 last_updated: 2023-09-22
 ---
 
-## Novartis's Phase 2 Trial NCT04346654 for Eltrombopag and Dexamethasone Completed Primary Completion
+## Novartis's Phase 2 Trial NCT04346654 for Eltrombopag and Dexamethasone Completes Primary Completion
 
 **Date:** 2023-09-22 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis's Phase 2 clinical trial (NCT04346654), which investigated Eltrombopag and Dexamethasone, reached its primary completion date on September 22, 2023. The trial enrolled 26 participants and has results available. This milestone indicates the completion of the primary data collection for the study.
+Novartis's Phase 2 clinical trial (NCT04346654) investigating Eltrombopag and Dexamethasone has reached its primary completion date on September 22, 2023. This trial, which enrolled 26 participants, has also reported having results available.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard procedural step and does not immediately imply significant market changes without the release of detailed efficacy or safety data.
+The completion of this Phase 2 trial provides an update on Novartis's pipeline, with further details pending the release of full study results.
 
 ### Affected entities
-- Drug: Eltrombopag, Dexamethasone
 - Company: [[novartis]]
 
 ### Sources

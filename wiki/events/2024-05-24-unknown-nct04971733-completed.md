@@ -5,19 +5,19 @@ drugs: []
 companies: [eisai]
 indications: [alzheimers]
 signal: neutral
-headline: Eisai's E2814 Phase 1/2 Trial for Alzheimer's Disease Completed
+headline: Eisai's Phase 1/2 trial for E2814 in Alzheimer's disease completed.
 last_updated: 2024-05-24
 ---
 
-## Eisai's E2814 Phase 1/2 Trial for Alzheimer's Disease Completed
+## Eisai's Phase 1/2 trial for E2814 in Alzheimer's disease completed
 
 **Date:** 2024-05-24 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 1/2 clinical trial (NCT04971733) for Eisai's investigational drug E2814, targeting Alzheimer's Disease, has reached primary completion on May 24, 2024. The study, which enrolled 8 participants, has results available. This marks a progression in the development pathway for E2814.
+A Phase 1/2 clinical trial (NCT04971733) for E2814, sponsored by [[eisai]], in patients with Alzheimer's disease has reached its primary completion date on May 24, 2024. The trial enrolled 8 participants and has results available. This early-phase study aimed to evaluate the safety and preliminary efficacy of E2814.
 
 ### Market implication
-The completion of this early-phase trial for E2814 provides an update on Eisai's pipeline, with further details on the results expected to inform future development.
+The completion of this early-phase trial provides initial data for Eisai's E2814, which will inform future development decisions in the Alzheimer's space, though specific results are not yet detailed.
 
 ### Affected entities
 - Drug: E2814

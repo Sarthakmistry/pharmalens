@@ -2,22 +2,22 @@
 event_type: trial_completion
 date: 2022-11-17
 drugs: []
-companies: ["merck"]
+companies: [merck]
 indications: []
 signal: neutral
-headline: Merck's Phase 3 Trial NCT04233879 for HIV Treatment Completed Primary Endpoint
+headline: Merck's Phase 3 trial NCT04233879 completed primary endpoint
 last_updated: 2022-11-17
 ---
 
-## Merck's Phase 3 Trial NCT04233879 for HIV Treatment Completed Primary Endpoint
+## Merck's Phase 3 trial NCT04233879 completed primary endpoint
 
 **Date:** 2022-11-17 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 3 clinical trial, NCT04233879, investigating the safety and efficacy of Doravirine/Islatravir (Dor/isl) and Bictegravir/Emtricitabine/Tenofovir Alafenamide (Bic/ftc/taf) for HIV treatment, reached its primary completion date on November 17, 2022. The trial enrolled 599 participants and has reported results.
+The Phase 3 clinical trial NCT04233879, sponsored by [[merck]], reached its primary completion date on November 17, 2022. This trial, which enrolled 599 participants, has reported results. The trial investigated Dor/isl and Bic/ftc/taf.
 
 ### Market implication
-The completion of this Phase 3 trial by Merck is a standard procedural step in drug development and has a neutral market implication without specific efficacy or safety data.
+The completion of this trial is a neutral event, awaiting the release and analysis of its full results to determine any potential impact on Merck.
 
 ### Affected entities
 - Company: [[merck]]

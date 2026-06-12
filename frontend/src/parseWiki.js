@@ -47,14 +47,35 @@ export function parseDrugsTable(wikiBody) {
   })).filter(r => r.drug)
 }
 
-// Parse "Recent events" table → [{date, event, signal}], sorted newest first
+// Derive event type from keywords when the Type column is absent (legacy pages)
+function inferType(event) {
+  const t = event.toLowerCase()
+  if (t.includes('nct') || t.includes('phase') || t.includes('trial') || t.includes('clinical'))
+    return 'trial'
+  if (t.includes('pubmed') || t.includes('meta-analysis') || t.includes('published'))
+    return 'research'
+  return 'sec'
+}
+
+// Parse "Recent events" table → [{date, type, event, signal}], sorted newest first
+// Pages written before the Type column existed fall back to keyword inference.
 export function parseEventsTable(wikiBody) {
   const lines = sectionLines(wikiBody, 'Recent events')
-  return parseTable(lines).map(r => ({
-    date:   r['Date'] ?? '',
-    event:  stripLinks(r['Event'] ?? ''),
-    signal: stripLinks(r['Signal'] ?? ''),
-  })).filter(r => r.event)
+  const hasTypeCol = lines.some(l => l.includes('| Type |') || l.includes('|Type|'))
+  return parseTable(lines).map(r => {
+    const event = stripLinks(r['Event'] ?? '')
+    const rawType = (r['Type'] ?? '').toLowerCase().trim()
+    const type = ['sec', 'trial', 'research'].includes(rawType)
+      ? rawType
+      : inferType(event)
+    return {
+      date:   r['Date'] ?? '',
+      type,
+      event,
+      signal: stripLinks(r['Signal'] ?? ''),
+    }
+  }).filter(r => r.event)
+    .filter(r => !r.date || r.date <= new Date().toISOString().slice(0, 10))
     .sort((a, b) => b.date.localeCompare(a.date))
 }
 

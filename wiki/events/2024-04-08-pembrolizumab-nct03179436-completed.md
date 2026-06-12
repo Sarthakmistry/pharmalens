@@ -5,19 +5,19 @@ drugs: [pembrolizumab]
 companies: [merck]
 indications: [oncology-nsclc, oncology-breast, oncology-crc]
 signal: neutral
-headline: Merck's Phase 1/2 trial of Pembrolizumab and Quavonlimab (NCT03179436) for advanced solid tumors completes
+headline: Pembrolizumab Trial NCT03179436 Completes Primary Completion
 last_updated: 2024-04-08
 ---
 
-## Merck's Phase 1/2 trial of Pembrolizumab and Quavonlimab (NCT03179436) for advanced solid tumors completes
+## Pembrolizumab Trial NCT03179436 Completes Primary Completion
 
 **Date:** 2024-04-08 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 1/2 clinical trial (NCT03179436) investigating [[pembrolizumab]] in combination with Quavonlimab for advanced solid tumors has reached its primary completion date on April 8, 2024. The study, which enrolled 415 participants, has completed its data collection for the primary outcome measures. Results are now available, marking a significant milestone in the development of this combination therapy for oncology indications.
+The Phase 1/2 clinical trial NCT03179436, investigating [[pembrolizumab]] in combination with Quavonlimab for advanced solid tumors, reached its primary completion date on April 8, 2024. The study, sponsored by [[merck]], enrolled 415 participants and has reported that results are available.
 
 ### Market implication
-The completion of this trial and availability of results provide critical data for [[merck]]'s pipeline in oncology, with potential implications for future development decisions.
+The primary completion of a clinical trial is a standard development milestone. Without specific results, this event is considered neutral for the affected entities.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

@@ -5,19 +5,18 @@ drugs: [pembrolizumab]
 companies: [merck]
 indications: [oncology-nsclc]
 signal: neutral
-headline: Merck's Pembrolizumab (Keytruda) Phase 4 Trial (NCT03715205) for NSCLC Completes Primary Endpoint
+headline: Merck's Pembrolizumab (Keytruda) Trial NCT03715205 for NSCLC Completed
 last_updated: 2024-08-21
 ---
-
-## Merck's Pembrolizumab (Keytruda) Phase 4 Trial (NCT03715205) for NSCLC Completes Primary Endpoint
+## Merck's Pembrolizumab (Keytruda) Trial NCT03715205 for NSCLC Completed
 
 **Date:** 2024-08-21 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 4 clinical trial (NCT03715205) sponsored by Merck, investigating pembrolizumab for non-small cell lung cancer (NSCLC), reached its primary completion date on August 21, 2024. The trial enrolled 150 participants and has reported that results are available. This marks a significant milestone in the study of pembrolizumab's efficacy and safety in a real-world setting for NSCLC patients.
+The Phase 4 clinical trial NCT03715205, investigating pembrolizumab (Keytruda) for non-small cell lung cancer (NSCLC), has reached its primary completion date on August 21, 2024. The study enrolled 150 participants and has reported that results are available.
 
 ### Market implication
-The completion of this Phase 4 trial provides further data for pembrolizumab in NSCLC, which could reinforce its market position once results are published.
+The completion of this Phase 4 trial and the availability of results provide further data for pembrolizumab in NSCLC, which could support future publications or label discussions, maintaining its market position.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

@@ -5,19 +5,19 @@ drugs: [inclisiran]
 companies: [novartis]
 indications: [hf-htn]
 signal: neutral
-headline: Novartis's Phase 3 Trial (NCT04873934) for Inclisiran Reaches Primary Completion
+headline: Inclisiran Phase 3 Trial NCT04873934 Completed
 last_updated: 2024-08-07
 ---
 
-## Novartis's Phase 3 Trial (NCT04873934) for Inclisiran Reaches Primary Completion
+## Inclisiran Phase 3 Trial NCT04873934 Completed
 
 **Date:** 2024-08-07 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis's Phase 3 clinical trial NCT04873934, investigating [[inclisiran]] for an unspecified indication, reached its primary completion date on August 7, 2024. The trial enrolled 400 participants and has reported results, though specific findings are not detailed in the completion notice.
+Novartis's Phase 3 clinical trial NCT04873934, investigating [[inclisiran]], reached its primary completion date on August 7, 2024. This study, which enrolled 400 participants, has now concluded its primary data collection phase, indicating that results are expected to be analyzed and potentially published.
 
 ### Market implication
-The completion of this Phase 3 trial marks a procedural step in the development of inclisiran, with results now available for internal analysis and potential future disclosure, which could inform its market position.
+The completion of this Phase 3 trial is a standard procedural step, with market impact contingent on the eventual release and significance of the trial results.
 
 ### Affected entities
 - Drug: [[inclisiran]]

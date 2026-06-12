@@ -1,28 +1,28 @@
 ---
 event_type: trial_completion
 date: 2023-08-11
-drugs: [semaglutide]
-companies: [novo-nordisk]
-indications: [glp1-obesity]
-signal: neutral
-headline: Novo Nordisk's Semaglutide (Wegovy) Phase 3 Trial NCT04701691 for Obesity Reaches Primary Completion
+drugs: [pembrolizumab]
+companies: [merck]
+indications: [oncology-nsclc]
+signal: bullish
+headline: Pembrolizumab (Keytruda) Phase 3 Trial (NCT03976375) for NSCLC Completed
 last_updated: 2023-08-11
 ---
 
-## Novo Nordisk's Semaglutide (Wegovy) Phase 3 Trial NCT04701691 for Obesity Reaches Primary Completion
+## Pembrolizumab (Keytruda) Phase 3 Trial (NCT03976375) for NSCLC Completed
 
-**Date:** 2023-08-11 | **Type:** trial_completion | **Signal:** neutral
+**Date:** 2023-08-11 | **Type:** trial_completion | **Signal:** bullish
 
 ### Summary
-Novo Nordisk's Phase 3 clinical trial (NCT04701691) investigating semaglutide (Wegovy) for obesity has reached its primary completion date on August 11, 2023. The trial, which enrolled 100 participants, has reported that results are available.
+A Phase 3 clinical trial (NCT03976375) investigating [[pembrolizumab]] in combination with Lenvatinib and Docetaxel for non-small cell lung cancer (NSCLC) has reached its primary completion date. The trial, sponsored by [[merck]], enrolled 422 participants and has reported that results are available.
 
 ### Market implication
-The primary completion of this Phase 3 trial for semaglutide represents a procedural milestone, with market implications dependent on the future release and interpretation of the trial's results.
+The completion of this Phase 3 trial with available results is a positive signal for [[merck]] and [[pembrolizumab]], indicating progress towards potential new treatment options for [[oncology-nsclc/_index]].
 
 ### Affected entities
-- Drug: [[semaglutide]]
-- Company: [[novo-nordisk]]
-- Indication: [[glp1-obesity/_index]]
+- Drug: [[pembrolizumab]]
+- Company: [[merck]]
+- Indication: [[oncology-nsclc/_index]]
 
 ### Sources
-- `raw/ctgov/novo-nordisk/2024-02-01/NCT04701691.json`
+- `raw/ctgov/merck/2026-04-07/NCT03976375.json`

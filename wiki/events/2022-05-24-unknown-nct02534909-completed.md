@@ -5,24 +5,22 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis completes Phase 2 trial NCT02534909 for Lfg316 and Lnp023
-last_updated: 2022-05-24
+headline: Novartis completes Phase 2 trial (NCT02534909) for Lfg316 and Lnp023
+last_updated: 2026-04-07
 ---
 
-## Novartis completes Phase 2 trial NCT02534909 for Lfg316 and Lnp023
+## Novartis completes Phase 2 trial (NCT02534909) for Lfg316 and Lnp023
 
 **Date:** 2022-05-24 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis has completed its Phase 2 clinical trial, NCT02534909, investigating Lfg316 and Lnp023. The trial, which enrolled 10 participants, reached its primary completion date on May 24, 2022, and results are now available.
+Novartis has completed its Phase 2 clinical trial (NCT02534909) investigating the drugs Lfg316 and Lnp023. The trial, which enrolled 10 participants, reached its primary completion date on May 24, 2022. While the trial is marked as having results, specific findings are not detailed in this event.
 
 ### Market implication
-The completion of this Phase 2 trial is a neutral event, as specific results and their implications for the drugs' development pathway are not yet publicly known.
+This event is neutral as it reports the completion of a Phase 2 trial without providing specific results or significant new information regarding the drugs' efficacy or safety.
 
 ### Affected entities
-- Drug: Lfg316, Lnp023
 - Company: [[novartis]]
-- Indication: None
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT02534909.json`

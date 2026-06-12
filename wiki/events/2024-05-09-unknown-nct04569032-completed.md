@@ -5,22 +5,24 @@ drugs: []
 companies: [eli-lilly]
 indications: []
 signal: neutral
-headline: Eli Lilly's Phase 2 Clinical Trial NCT04569032 Reaches Primary Completion
+headline: Clinical trial NCT04569032 completed, sponsored by Eli Lilly
 last_updated: 2024-05-09
 ---
 
-## Eli Lilly's Phase 2 Clinical Trial NCT04569032 Reaches Primary Completion
+## Clinical trial NCT04569032 completed, sponsored by Eli Lilly
 
 **Date:** 2024-05-09 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Eli Lilly's Phase 2 clinical trial NCT04569032, investigating Brentuximab vedotin, Cyclophosphamide, Doxorubicin, and Prednisone, reached its primary completion date on May 9, 2024. The trial enrolled 82 participants and has reported results.
+Clinical trial NCT04569032, sponsored by Eli Lilly, reached its primary completion on May 9, 2024. This Phase 2 study, which enrolled 82 participants, has reported results. The trial investigated Brentuximab vedotin, Cyclophosphamide, Doxorubicin, and Prednisone.
 
 ### Market implication
-The completion of this Phase 2 trial is a neutral event, awaiting the release and analysis of its results.
+The completion of this trial provides new data for Eli Lilly, which could inform future research or strategic decisions, though the direct market impact is likely limited given the nature of the drugs involved.
 
 ### Affected entities
+- Drug: Brentuximab vedotin, Cyclophosphamide, Doxorubicin, Prednisone
 - Company: [[eli-lilly]]
+- Indication: 
 
 ### Sources
 - `raw/ctgov/pfizer/2026-04-07/NCT04569032.json`

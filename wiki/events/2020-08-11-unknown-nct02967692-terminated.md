@@ -5,24 +5,25 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis terminates Phase 3 trial NCT02967692 involving Spartalizumab, Dabrafenib, and Trametinib
-last_updated: 2026-04-07
+headline: Novartis Terminates Phase 3 Trial NCT02967692 for Untracked Drugs
+last_updated: 2020-08-11
 ---
+```
 
-## Novartis terminates Phase 3 trial NCT02967692 involving Spartalizumab, Dabrafenib, and Trametinib
+## Novartis Terminates Phase 3 Trial NCT02967692 for Untracked Drugs
 
 **Date:** 2020-08-11 | **Type:** trial_termination | **Signal:** neutral
 
 ### Summary
-Novartis terminated its Phase 3 clinical trial (NCT02967692) on August 11, 2020. This trial, which had an actual enrollment of 568 participants, was investigating Spartalizumab, Dabrafenib, and Trametinib. The primary completion date for the study was also August 11, 2020, and results are available.
+Novartis terminated its Phase 3 clinical trial NCT02967692, which investigated Spartalizumab, Dabrafenib, and Trametinib. The trial, with an actual enrollment of 568 participants, reached primary completion on August 11, 2020, and results are available. This termination pertains to drugs not currently tracked by PharmaLens.
 
 ### Market implication
-The termination of this Phase 3 trial by Novartis is a neutral event, as the specific reasons for termination are not detailed, and results are available.
+This event has a neutral market implication as the drugs involved are not currently tracked by PharmaLens.
 
 ### Affected entities
 - Drug: Spartalizumab, Dabrafenib, Trametinib
 - Company: [[novartis]]
-- Indication:
+- Indication: None
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT02967692.json`

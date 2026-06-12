@@ -5,24 +5,24 @@ drugs: []
 companies: [astrazeneca]
 indications: []
 signal: neutral
-headline: AstraZeneca's Anifrolumab Phase 3 Trial (NCT04931563) Reaches Primary Completion
-last_updated: 2025-04-07
+headline: AstraZeneca's Phase 3 trial NCT04931563 for Anifrolumab completes primary endpoint
+last_updated: 2026-06-01
 ---
+```
 
-## AstraZeneca's Anifrolumab Phase 3 Trial (NCT04931563) Reaches Primary Completion
+## AstraZeneca's Phase 3 trial NCT04931563 for Anifrolumab completes primary endpoint
 
 **Date:** 2025-04-07 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-AstraZeneca's Phase 3 clinical trial, NCT04931563, investigating Anifrolumab, has reached its primary completion date on April 7, 2025. The trial enrolled 277 participants and is now completed, though results have not yet been posted.
+AstraZeneca's Phase 3 clinical trial, NCT04931563, investigating Anifrolumab, reached its primary completion date on April 7, 2025. The trial enrolled 277 participants and has indicated that results are available. This marks a significant procedural milestone for the drug's development.
 
 ### Market implication
-The completion of this Phase 3 trial is a neutral event for AstraZeneca, as no efficacy or safety results have been disclosed at this time.
+The completion of this Phase 3 trial marks a procedural milestone for AstraZeneca, with market impact awaiting the release of trial results.
 
 ### Affected entities
 - Drug: Anifrolumab
 - Company: [[astrazeneca]]
-- Indication:
 
 ### Sources
-- `raw/ctgov/astrazeneca/2026-04-07/NCT04931563.json`
+- `raw/ctgov/astrazeneca/2026-06-01/NCT04931563.json`

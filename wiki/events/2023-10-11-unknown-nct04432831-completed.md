@@ -2,22 +2,22 @@
 event_type: trial_completion
 date: 2023-10-11
 drugs: []
-companies: [roche]
+companies: ["roche"]
 indications: []
 signal: neutral
-headline: Roche's Phase 3 trial for Faricimab (NCT04432831) reaches primary completion
+headline: Roche's Phase 3 Trial (NCT04432831) for Faricimab Completed
 last_updated: 2023-10-11
 ---
 
-## Roche's Phase 3 trial for Faricimab (NCT04432831) reaches primary completion
+## Roche's Phase 3 Trial (NCT04432831) for Faricimab Completed
 
 **Date:** 2023-10-11 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Roche's Phase 3 clinical trial (NCT04432831) for Faricimab has reached its primary completion date on October 11, 2023. The trial, which enrolled 1479 participants, is now complete, and results are expected to be available.
+A Phase 3 clinical trial (NCT04432831) sponsored by Roche, investigating Faricimab, reached its primary completion date on October 11, 2023. The trial enrolled 1479 participants and has reported having results.
 
 ### Market implication
-This marks a procedural step in the drug's development, with market impact dependent on the eventual disclosure of trial results.
+The completion of this Phase 3 trial is a neutral event, as specific results are not yet available to assess the potential impact on Faricimab's market position or Roche's valuation.
 
 ### Affected entities
 - Drug: Faricimab

@@ -5,19 +5,19 @@ drugs: [tirzepatide]
 companies: [novo-nordisk]
 indications: [glp1-obesity]
 signal: neutral
-headline: Novo Nordisk's Tirzepatide Trial NCT06326060 for GLP-1 Obesity Completed
+headline: Novo Nordisk-sponsored Phase 2 Trial (NCT06326060) of Eli Lilly's Tirzepatide for Obesity Completed
 last_updated: 2025-04-10
 ---
 
-## Novo Nordisk's Tirzepatide Trial NCT06326060 for GLP-1 Obesity Completed
+## Novo Nordisk-sponsored Phase 2 Trial (NCT06326060) of Eli Lilly's Tirzepatide for Obesity Completed
 
 **Date:** 2025-04-10 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novo Nordisk announced the completion of its Phase 2 clinical trial, NCT06326060, for tirzepatide in GLP-1 obesity. The trial, which enrolled 354 participants, reached its primary completion date on April 10, 2025, with results not yet available.
+A Novo Nordisk-sponsored Phase 2 clinical trial (NCT06326060) evaluating Eli Lilly's drug, [[tirzepatide]], for the treatment of obesity or overweight, reached its primary completion date on April 10, 2025. The study, which enrolled 354 participants, has completed its primary data collection, but no results have been reported yet.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard procedural step, and its market impact remains neutral until results are disclosed.
+This event is neutral as it marks a procedural milestone for the trial without the release of efficacy or safety data, thus having no immediate impact on market valuation for either [[novo-nordisk]] or [[eli-lilly]].
 
 ### Affected entities
 - Drug: [[tirzepatide]]

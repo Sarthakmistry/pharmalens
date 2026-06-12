@@ -2,26 +2,26 @@
 event_type: trial_termination
 date: 2024-07-22
 drugs: [nivolumab]
-companies: [bristol-myers-squibb, regeneron]
+companies: [regeneron]
 indications: [alzheimers]
 signal: bearish
-headline: Bristol-Myers Squibb's Nivolumab Trial (NCT04695977) for Alzheimer's Terminated
-last_updated: 2026-04-07
+headline: Regeneron terminates Phase 2/3 trial (NCT04695977) of nivolumab for Alzheimer's disease
+last_updated: 2024-07-22
 ---
 
-## Bristol-Myers Squibb's Nivolumab Trial (NCT04695977) for Alzheimer's Terminated
+## Regeneron terminates Phase 2/3 trial (NCT04695977) of nivolumab for Alzheimer's disease
 
 **Date:** 2024-07-22 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-A Phase 2/3 clinical trial (NCT04695977) evaluating nivolumab, developed by Bristol-Myers Squibb and sponsored by Regeneron, for Alzheimer's disease was terminated. The trial, which had an actual enrollment of 20 participants, reached its primary completion date on July 22, 2024, and results are available. The termination indicates a halt in the development of nivolumab for this specific indication.
+A Phase 2/3 clinical trial (NCT04695977) investigating [[nivolumab]] for Alzheimer's disease, sponsored by Regeneron, was terminated on July 22, 2024. The trial had an actual enrollment of 20 participants and reached its primary completion date on the same day it was terminated.
 
 ### Market implication
-The termination of this Phase 2/3 trial for nivolumab in Alzheimer's disease is a bearish signal for Bristol-Myers Squibb, indicating a halt in its pipeline expansion efforts for this drug into a new therapeutic area.
+The termination of a Phase 2/3 trial represents a setback for Regeneron's pipeline in Alzheimer's disease and for nivolumab's potential expansion into this indication.
 
 ### Affected entities
 - Drug: [[nivolumab]]
-- Company: [[bristol-myers-squibb]], [[regeneron]]
+- Company: [[regeneron]]
 - Indication: [[alzheimers/_index]]
 
 ### Sources

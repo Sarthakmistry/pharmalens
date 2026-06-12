@@ -5,22 +5,24 @@ drugs: []
 companies: [merck]
 indications: []
 signal: neutral
-headline: Merck's Phase 2 trial NCT04624243 for Elpipodect and Risperidone completes primary endpoint
-last_updated: 2024-06-21
+headline: Merck's Phase 2 Trial (NCT04624243) for Elpipodect Completed Primary Endpoint
+last_updated: 2026-05-01
 ---
 
-## Merck's Phase 2 trial NCT04624243 for Elpipodect and Risperidone completes primary endpoint
+## Merck's Phase 2 Trial (NCT04624243) for Elpipodect Completed Primary Endpoint
 
 **Date:** 2024-06-21 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT04624243) sponsored by Merck, investigating Elpipodect and Risperidone, reached its primary completion date on June 21, 2024. The trial enrolled 499 participants and has results available.
+Merck's Phase 2 clinical trial, NCT04624243, investigating the drug Elpipodect, reached its primary completion date on June 21, 2024. The study enrolled 499 participants and has reported having results, though they are not yet publicly available. This milestone signifies the conclusion of data collection for the trial's primary outcome.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard procedural step and does not immediately convey new market-moving information without disclosed results.
+The completion of this Phase 2 trial is a procedural step, with market implications dependent on the eventual release and interpretation of the clinical results.
 
 ### Affected entities
+- Drug: Elpipodect, Risperidone
 - Company: [[merck]]
+- Indication:
 
 ### Sources
 - `raw/ctgov/merck/2026-05-01/NCT04624243.json`

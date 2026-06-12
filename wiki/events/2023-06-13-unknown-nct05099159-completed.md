@@ -2,27 +2,27 @@
 event_type: trial_completion
 date: 2023-06-13
 drugs: []
-companies: [bayer]
+companies: ["bayer"]
 indications: []
 signal: neutral
-headline: Bayer's Phase 3 Trial of Elinzanetant (NCT05099159) Completes Primary Endpoint
-last_updated: 2026-04-07
+headline: Bayer's Elinzanetant Phase 3 Trial (NCT05099159) Completes Primary Completion
+last_updated: 2023-06-13
 ---
 
-## Bayer's Phase 3 Trial of Elinzanetant (NCT05099159) Completes Primary Endpoint
+## Bayer's Elinzanetant Phase 3 Trial (NCT05099159) Completes Primary Completion
 
 **Date:** 2023-06-13 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-On June 13, 2023, Bayer's Phase 3 clinical trial (NCT05099159) evaluating Elinzanetant (bay3427080) for postmenopausal women with moderate-to-severe vasomotor symptoms reached its primary completion date. The trial enrolled 400 participants, and results are now available, indicating the primary endpoint data collection is complete.
+Bayer's Phase 3 clinical trial (NCT05099159) for Elinzanetant (bay3427080) reached its primary completion on June 13, 2023. The trial enrolled 400 participants and has results available, marking a key milestone in the drug's development.
 
 ### Market implication
-This event is neutral as no specific trial results have been disclosed, and Elinzanetant is not a tracked drug.
+The primary completion of this Phase 3 trial is a standard development step and has a neutral market implication until results are announced.
 
 ### Affected entities
 - Drug: Elinzanetant (bay3427080)
 - Company: [[bayer]]
-- Indication: Vasomotor symptoms
+- Indication: N/A
 
 ### Sources
 - `raw/ctgov/bayer/2026-04-07/NCT05099159.json`

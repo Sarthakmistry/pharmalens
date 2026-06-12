@@ -5,19 +5,18 @@ drugs: [atezolizumab]
 companies: [roche]
 indications: [oncology-breast]
 signal: neutral
-headline: Atezolizumab Phase 1/2 Trial (NCT03280563) for Breast Cancer Completed
+headline: Roche's Atezolizumab Trial NCT03280563 for Breast Cancer Reaches Primary Completion
 last_updated: 2024-09-26
 ---
-
-## Atezolizumab Phase 1/2 Trial (NCT03280563) for Breast Cancer Completed
+## Roche's Atezolizumab Trial NCT03280563 for Breast Cancer Reaches Primary Completion
 
 **Date:** 2024-09-26 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 1/2 clinical trial (NCT03280563) investigating atezolizumab in combination with various agents for breast cancer has reached its primary completion on September 26, 2024. The trial, sponsored by Roche, enrolled 144 participants, and results are now available.
+Roche's Phase 1/2 clinical trial (NCT03280563) investigating atezolizumab in combination with other agents for breast cancer reached its primary completion date on September 26, 2024. The study enrolled 144 participants and has reported having results, which are pending release. This milestone signifies the conclusion of data collection for the primary outcome measures.
 
 ### Market implication
-The completion of this Phase 1/2 trial marks a development milestone for atezolizumab in breast cancer, with results now available for analysis.
+The market will await the release of the trial results to assess the potential impact on atezolizumab's competitive position and future development in the breast cancer landscape.
 
 ### Affected entities
 - Drug: [[atezolizumab]]

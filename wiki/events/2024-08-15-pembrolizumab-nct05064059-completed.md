@@ -5,19 +5,19 @@ drugs: [pembrolizumab]
 companies: [merck]
 indications: [oncology-crc]
 signal: neutral
-headline: Merck's Pembrolizumab (Keytruda) Trial NCT05064059 for Colorectal Cancer Reaches Primary Completion
+headline: Pembrolizumab Trial NCT05064059 for Colorectal Cancer Completed
 last_updated: 2024-08-15
 ---
 
-## Merck's Pembrolizumab (Keytruda) Trial NCT05064059 for Colorectal Cancer Reaches Primary Completion
+## Pembrolizumab Trial NCT05064059 for Colorectal Cancer Completed
 
 **Date:** 2024-08-15 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT05064059) evaluating pembrolizumab in combination with chemotherapy for colorectal cancer has reached its primary completion date on August 15, 2024. The study, sponsored by Merck, enrolled 441 participants and has indicated that results are available.
+Merck's Phase 3 clinical trial, NCT05064059, investigating pembrolizumab in combination with Regorafenib and Tas-102 for colorectal cancer, has reached its primary completion date on August 15, 2024. The study enrolled 441 participants and has indicated that results are available.
 
 ### Market implication
-The completion of this Phase 3 trial is a standard procedural step, and the market impact will depend on the eventual release and interpretation of the study's results.
+The completion of this Phase 3 trial marks a procedural milestone for Merck's pembrolizumab, with market implications awaiting the release and analysis of the trial's results.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]
@@ -25,4 +25,4 @@ The completion of this Phase 3 trial is a standard procedural step, and the mark
 - Indication: [[oncology-crc/_index]]
 
 ### Sources
-- `raw/ctgov/merck/2026-04-07/NCT05064059.json`
+- `raw/ctgov/merck/2026-06-01/NCT05064059.json`

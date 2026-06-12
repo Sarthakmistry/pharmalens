@@ -1,28 +1,28 @@
 ---
 event_type: trial_completion
 date: 2024-10-28
-drugs: [pembrolizumab]
+drugs: [semaglutide, tirzepatide, retatrutide, liraglutide, dulaglutide, empagliflozin, dapagliflozin, canagliflozin, sitagliptin, saxagliptin, sacubitril-valsartan, inclisiran, finerenone, pembrolizumab, nivolumab, osimertinib, atezolizumab, durvalumab, palbociclib, ribociclib, abemaciclib, trastuzumab deruxtecan, olaparib, bevacizumab, cetuximab, lecanemab, donanemab]
 companies: [merck]
-indications: [oncology-breast, oncology-crc]
+indications: [alzheimers, oncology-breast, oncology-crc]
 signal: neutral
-headline: Merck's Phase 2 Trial (NCT03797326) of Pembrolizumab with Lenvatinib for Advanced Solid Tumors Completes Primary Study
+headline: Merck's Pembrolizumab (Keytruda) Trial NCT03797326 Completes Primary Endpoint
 last_updated: 2024-10-28
 ---
 
-## Merck's Phase 2 Trial (NCT03797326) of Pembrolizumab with Lenvatinib for Advanced Solid Tumors Completes Primary Study
+## Merck's Pembrolizumab (Keytruda) Trial NCT03797326 Completes Primary Endpoint
 
 **Date:** 2024-10-28 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 2 clinical trial (NCT03797326), investigating the combination of [[pembrolizumab]] and Lenvatinib in patients with advanced solid tumors, reached its primary completion date on October 28, 2024. The study successfully enrolled 611 participants and has reported results.
+Merck's Phase 2 clinical trial NCT03797326, investigating pembrolizumab, reached its primary completion date on October 28, 2024. The trial enrolled 611 participants and has reported that results are available.
 
 ### Market implication
-The completion of this Phase 2 trial provides an update on Merck's oncology pipeline, with further market implications dependent on the detailed results.
+The market impact is neutral pending the release and analysis of the trial's results.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]
 - Company: [[merck]]
-- Indication: [[oncology-breast/_index]], [[oncology-crc/_index]]
+- Indication: [[alzheimers/_index]], [[oncology-breast/_index]], [[oncology-crc/_index]]
 
 ### Sources
-- `raw/ctgov/merck/2026-04-07/NCT03797326.json`
+- `raw/ctgov/merck/2026-06-01/NCT03797326.json`

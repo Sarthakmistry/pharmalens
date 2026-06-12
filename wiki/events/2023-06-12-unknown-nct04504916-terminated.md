@@ -5,19 +5,19 @@ drugs: []
 companies: [merck]
 indications: [oncology-breast, oncology-nsclc]
 signal: bearish
-headline: Merck's Phase 2 trial NCT04504916 for Zilovertamab vedotin in oncology indications terminated
-last_updated: 2023-06-12
+headline: Merck Terminates Phase 2 Trial (NCT04504916) for Zilovertamab Vedotin
+last_updated: 2026-04-07
 ---
 
-## Merck's Phase 2 trial NCT04504916 for Zilovertamab vedotin in oncology indications terminated
+## Merck Terminates Phase 2 Trial (NCT04504916) for Zilovertamab Vedotin
 
 **Date:** 2023-06-12 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-Merck's Phase 2 clinical trial (NCT04504916) investigating Zilovertamab vedotin for oncology indications, specifically breast cancer and non-small cell lung cancer, has been terminated. The trial, which had an actual enrollment of 102 participants, reached its primary completion on June 12, 2023, and results are available.
+The Phase 2 clinical trial NCT04504916 for Zilovertamab Vedotin, sponsored by Merck, was terminated on June 12, 2023. This study was investigating the drug for oncology indications, specifically breast cancer and non-small cell lung cancer, and had enrolled 102 participants. The trial reached its primary completion on the termination date.
 
 ### Market implication
-The termination of a Phase 2 trial typically signals a setback in the development of the drug and could negatively impact Merck's pipeline prospects in the targeted oncology areas.
+The termination of a Phase 2 trial represents a setback for Merck's oncology pipeline and the development of Zilovertamab Vedotin, potentially impacting future revenue projections for the company.
 
 ### Affected entities
 - Drug: Zilovertamab vedotin

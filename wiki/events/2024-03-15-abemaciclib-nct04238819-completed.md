@@ -5,19 +5,19 @@ drugs: ["abemaciclib"]
 companies: ["eli-lilly"]
 indications: ["oncology-breast"]
 signal: neutral
-headline: Eli Lilly's Abemaciclib (NCT04238819) Phase 1/2 Trial Completed
+headline: Eli Lilly's Abemaciclib Trial NCT04238819 Completed
 last_updated: 2024-03-15
 ---
 
-## Eli Lilly's Abemaciclib (NCT04238819) Phase 1/2 Trial Completed
+## Eli Lilly's Abemaciclib Trial NCT04238819 Completed
 
 **Date:** 2024-03-15 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 1/2 clinical trial (NCT04238819) evaluating [[abemaciclib]] in combination with Irinotecan, Temozolomide, Dinutuximab, and GM-CSF for pediatric patients with recurrent or refractory solid tumors, including neuroblastoma, has completed its primary phase. The trial, sponsored by [[eli-lilly]], enrolled 47 participants and reached its primary completion date on March 15, 2024, with results now available.
+A Phase 1/2 clinical trial (NCT04238819) investigating [[abemaciclib]], sponsored by [[eli-lilly]], has reached its primary completion date on March 15, 2024. The trial, which enrolled 47 participants, has reported results. The study explored abemaciclib in combination with Irinotecan, Temozolomide, Dinutuximab, and Gm-csf.
 
 ### Market implication
-The completion of this Phase 1/2 trial for abemaciclib is a standard development milestone for Eli Lilly, with a neutral market implication as no specific efficacy or safety data has been released yet.
+The completion of this trial provides updated data for [[abemaciclib]], potentially informing future development or label expansions for [[eli-lilly]].
 
 ### Affected entities
 - Drug: [[abemaciclib]]

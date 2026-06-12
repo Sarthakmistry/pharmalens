@@ -2,23 +2,22 @@
 event_type: trial_completion
 date: 2021-02-02
 drugs: []
-companies: [eli-lilly]
+companies: ["eli-lilly"]
 indications: []
 signal: neutral
-headline: Eli Lilly's Baricitinib Trial NCT03570749 Completes Phase 2/3 Study
+headline: Eli Lilly's Baricitinib Phase 2/3 Trial (NCT03570749) Completed
 last_updated: 2021-02-02
 ---
-```
 
-## Eli Lilly's Baricitinib Trial NCT03570749 Completes Phase 2/3 Study
+## Eli Lilly's Baricitinib Phase 2/3 Trial (NCT03570749) Completed
 
 **Date:** 2021-02-02 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2/3 clinical trial (NCT03570749) sponsored by Eli Lilly, investigating Baricitinib, reached its primary completion on February 2, 2021. The study enrolled 784 participants and has reported results.
+Eli Lilly's Phase 2/3 clinical trial (NCT03570749) for Baricitinib, with an actual enrollment of 784 participants, reached its primary completion date on February 2, 2021. The trial has reported that results are available.
 
 ### Market implication
-The completion of this trial provides further data for Baricitinib, contributing to Eli Lilly's clinical development pipeline.
+The completion of this trial marks a step forward in the development of Baricitinib, with results now available for further analysis.
 
 ### Affected entities
 - Drug: Baricitinib

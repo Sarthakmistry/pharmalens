@@ -3,26 +3,25 @@ event_type: trial_completion
 date: 2024-02-16
 drugs: [pembrolizumab]
 companies: [merck]
-indications: [oncology-crc]
+indications: []
 signal: neutral
-headline: Pembrolizumab (KEYNOTE-859) Phase 3 Trial Completed
+headline: Pembrolizumab (NCT04882241) Phase 3 Trial Completed
 last_updated: 2024-02-16
 ---
 
-## Pembrolizumab (KEYNOTE-859) Phase 3 Trial Completed
+## Pembrolizumab (NCT04882241) Phase 3 Trial Completed
 
 **Date:** 2024-02-16 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 3 clinical trial, KEYNOTE-859 (NCT04882241), investigating pembrolizumab in combination with chemotherapy for advanced gastric or gastroesophageal junction adenocarcinoma, reached its primary completion date on February 16, 2024. The study enrolled 120 participants and has results available, though specific outcomes are not detailed in this update.
+A Phase 3 clinical trial (NCT04882241) investigating [[pembrolizumab]], sponsored by [[merck]], reached its primary completion date on February 16, 2024. The trial enrolled 120 participants and has reported results.
 
 ### Market implication
-The completion of this Phase 3 trial marks a procedural milestone for pembrolizumab in a new oncology indication; market impact will depend on the eventual release and interpretation of the trial's results.
+The completion of this Phase 3 trial is a neutral event, as the specific results and their implications for [[pembrolizumab]]'s market position are not detailed in this update.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]
 - Company: [[merck]]
-- Indication: [[oncology-crc/_index]]
 
 ### Sources
 - `raw/ctgov/merck/2026-04-07/NCT04882241.json`

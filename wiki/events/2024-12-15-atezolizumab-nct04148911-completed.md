@@ -5,19 +5,19 @@ drugs: [atezolizumab]
 companies: [roche]
 indications: [oncology-breast]
 signal: neutral
-headline: Atezolizumab (Roche) Phase 3 trial NCT04148911 for breast cancer completes primary endpoint
+headline: Atezolizumab Phase 3 trial NCT04148911 for breast cancer completed
 last_updated: 2024-12-15
 ---
 
-## Atezolizumab (Roche) Phase 3 trial NCT04148911 for breast cancer completes primary endpoint
+## Atezolizumab Phase 3 trial NCT04148911 for breast cancer completed
 
 **Date:** 2024-12-15 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT04148911) evaluating [[atezolizumab]] in combination with Nab-paclitaxel for breast cancer has reached its primary completion date on December 15, 2024. The trial, sponsored by [[roche]], enrolled 184 participants and has reported that results are available.
+The Phase 3 clinical trial NCT04148911, evaluating atezolizumab in combination with Nab-paclitaxel for breast cancer, reached its primary completion date on December 15, 2024. The study enrolled 184 participants and has indicated that results are available.
 
 ### Market implication
-The completion of the primary endpoint for this Phase 3 trial marks a procedural milestone for [[atezolizumab]] in breast cancer, with market implications awaiting the release of detailed results.
+The completion of this Phase 3 trial marks a step forward in the development of atezolizumab for breast cancer, with market implications pending the release and analysis of the trial results.
 
 ### Affected entities
 - Drug: [[atezolizumab]]

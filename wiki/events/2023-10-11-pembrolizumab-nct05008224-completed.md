@@ -5,19 +5,19 @@ drugs: [pembrolizumab]
 companies: [merck]
 indications: []
 signal: neutral
-headline: Pembrolizumab Trial NCT05008224 for Hodgkin Lymphoma Completes Primary Endpoint
+headline: Merck's Phase 2 Trial of Pembrolizumab (NCT05008224) for Hodgkin Lymphoma Completed
 last_updated: 2023-10-11
 ---
 
-## Pembrolizumab Trial NCT05008224 for Hodgkin Lymphoma Completes Primary Endpoint
+## Merck's Phase 2 Trial of Pembrolizumab (NCT05008224) for Hodgkin Lymphoma Completed
 
 **Date:** 2023-10-11 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Clinical trial NCT05008224, evaluating [[pembrolizumab]] in combination with chemotherapy for Hodgkin Lymphoma, has reached its primary completion date on October 11, 2023. The Phase 2 study, sponsored by [[merck]], enrolled 146 participants. The completion of the primary endpoint marks a significant step in the trial's progression, with results expected to follow.
+Merck has announced the primary completion of its Phase 2 clinical trial (NCT05008224) evaluating pembrolizumab in combination with chemotherapy for patients with Hodgkin Lymphoma. The trial, which enrolled 146 participants, reached its primary completion on October 11, 2023, and has reported having results.
 
 ### Market implication
-The completion of the primary endpoint for this Phase 2 trial provides a neutral signal, awaiting the release of detailed results.
+The completion of this Phase 2 trial is a neutral event, as no specific efficacy or safety results have been released yet.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

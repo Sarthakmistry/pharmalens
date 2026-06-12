@@ -5,19 +5,19 @@ drugs: [pembrolizumab]
 companies: [merck]
 indications: [oncology-nsclc]
 signal: neutral
-headline: Merck's Pembrolizumab (Keytruda) Phase 2 Trial NCT05446870 for NSCLC Reaches Primary Completion
+headline: Merck's Pembrolizumab Trial NCT05446870 for Metastatic NSCLC Reaches Primary Completion
 last_updated: 2023-12-20
 ---
 
-## Merck's Pembrolizumab (Keytruda) Phase 2 Trial NCT05446870 for NSCLC Reaches Primary Completion
+## Merck's Pembrolizumab Trial NCT05446870 for Metastatic NSCLC Reaches Primary Completion
 
 **Date:** 2023-12-20 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT05446870) sponsored by Merck, investigating pembrolizumab in combination with bevacizumab, paclitaxel, and carboplatin for metastatic non-small cell lung cancer (NSCLC), has reached its primary completion date. The trial enrolled 160 participants and has reported that results are available.
+A Phase 2 clinical trial (NCT05446870) sponsored by [[merck]], investigating [[pembrolizumab]] in combination with bevacizumab, paclitaxel, and carboplatin for participants with metastatic non-squamous non-small cell lung cancer (NSCLC), reached its primary completion date on December 20, 2023. The study enrolled 160 participants and has results available.
 
 ### Market implication
-The primary completion of this Phase 2 trial is a standard procedural milestone, and its market implication is neutral pending the release and analysis of the study results.
+The primary completion of this Phase 2 trial indicates progress in the clinical development of [[pembrolizumab]] for NSCLC, with future data releases expected to inform its potential market impact.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

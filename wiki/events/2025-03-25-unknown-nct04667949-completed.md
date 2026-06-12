@@ -2,25 +2,27 @@
 event_type: trial_completion
 date: 2025-03-25
 drugs: []
-companies: ["novartis"]
+companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis Completes Phase 4 Trial NCT04667949
+headline: Novartis's Trial NCT04667949 for Fingolimod Completed Primary Endpoint
 last_updated: 2026-04-07
 ---
 
-## Novartis Completes Phase 4 Trial NCT04667949
+## Novartis's Trial NCT04667949 for Fingolimod Completed Primary Endpoint
 
 **Date:** 2025-03-25 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis has completed its Phase 4 clinical trial, NCT04667949, which enrolled 98 participants. The trial, investigating Fingolimod 0.5mg, reached its primary completion date on March 25, 2025, and results are available.
+Clinical trial NCT04667949, sponsored by [[novartis]], reached its primary completion date on March 25, 2025. This Phase 4 study, which enrolled 98 participants, investigated Fingolimod 0.5mg and has reported results.
 
 ### Market implication
-The completion of this trial is a standard procedural step and does not immediately impact Novartis's market valuation without disclosed results.
+The completion of this Phase 4 trial marks a procedural milestone for Novartis, with further implications dependent on the published results.
 
 ### Affected entities
+- Drug: Fingolimod 0.5mg
 - Company: [[novartis]]
+- Indication: N/A
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT04667949.json`

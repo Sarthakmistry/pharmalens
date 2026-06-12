@@ -2,25 +2,24 @@
 event_type: trial_completion
 date: 2022-06-02
 drugs: []
-companies: ["regeneron"]
+companies: [regeneron]
 indications: []
 signal: neutral
-headline: Regeneron's Phase 3 Trial NCT04394351 for Dupilumab Completed Primary Endpoint
+headline: Regeneron's Phase 3 Trial NCT04394351 Completed
 last_updated: 2026-04-07
 ---
 
-## Regeneron's Phase 3 Trial NCT04394351 for Dupilumab Completed Primary Endpoint
+## Regeneron's Phase 3 Trial NCT04394351 Completed
 
 **Date:** 2022-06-02 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Regeneron's Phase 3 clinical trial NCT04394351, investigating Dupilumab, completed its primary endpoint on June 2, 2022. The trial enrolled 102 participants and has reported results.
+Regeneron's Phase 3 clinical trial, NCT04394351, reached its primary completion on June 2, 2022. This trial, which involved the drug Dupilumab, enrolled 102 participants and has reported results.
 
 ### Market implication
-The completion of this trial provides an update on Regeneron's pipeline, with further implications dependent on the trial's results.
+The completion of this Phase 3 trial for an untracked drug has a neutral market implication for Regeneron, as no specific results or impact on its pipeline of tracked drugs are detailed.
 
 ### Affected entities
-- Drug: Dupilumab
 - Company: [[regeneron]]
 
 ### Sources

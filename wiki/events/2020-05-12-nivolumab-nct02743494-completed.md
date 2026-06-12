@@ -5,19 +5,19 @@ drugs: [nivolumab]
 companies: [bristol-myers-squibb]
 indications: [alzheimers]
 signal: neutral
-headline: Nivolumab (Opdivo) Phase 3 trial NCT02743494 for Alzheimer's disease completes primary endpoint
-last_updated: 2020-05-12
+headline: Phase 3 trial NCT02743494 for nivolumab in Alzheimer's disease completed
+last_updated: 2026-04-07
 ---
 
-## Nivolumab (Opdivo) Phase 3 trial NCT02743494 for Alzheimer's disease completes primary endpoint
+## Phase 3 trial NCT02743494 for nivolumab in Alzheimer's disease completed
 
 **Date:** 2020-05-12 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT02743494) evaluating [[nivolumab]] for Alzheimer's disease, sponsored by [[bristol-myers-squibb]], reached its primary completion date on May 12, 2020. The trial, which enrolled 794 participants, has completed its primary endpoint, indicating that results are now available.
+A Phase 3 clinical trial (NCT02743494) for [[nivolumab]], sponsored by [[bristol-myers-squibb]], targeting [[alzheimers]] disease, reached its primary completion on May 12, 2020. The trial enrolled 794 participants and has reported results.
 
 ### Market implication
-The completion of this trial provides updated data for nivolumab in Alzheimer's disease, with market impact dependent on the eventual disclosure of results.
+The completion of this Phase 3 trial provides critical data for the evaluation of [[nivolumab]]'s efficacy and safety in Alzheimer's disease, potentially influencing its development pathway.
 
 ### Affected entities
 - Drug: [[nivolumab]]

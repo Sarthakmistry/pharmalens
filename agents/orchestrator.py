@@ -274,6 +274,7 @@ def run_daily_pipeline(limit: int | None = None) -> None:
             len(v) for buf in (company_buffer, trial_buffer, drug_buffer, indication_buffer)
             for v in buf.values()
         )
+        flush_ok = True
         if total_signals:
             logger.info(
                 f"ORCHESTRATOR | Flushing — "
@@ -281,16 +282,23 @@ def run_daily_pipeline(limit: int | None = None) -> None:
                 f"drug={len(drug_buffer)}, indication={len(indication_buffer)} "
                 f"({total_signals} total signals)"
             )
-            flush_buffered_pages(
+            written = flush_buffered_pages(
                 company_buffer, trial_buffer, drug_buffer, indication_buffer, template_caches,
             )
+            if not written:
+                flush_ok = False
+                logger.warning(
+                    f"ORCHESTRATOR | Flush wrote 0 pages — skipping success marking "
+                    f"for {len(pending_success)} file(s) so they retry next run"
+                )
 
-        # flush succeeded — now safe to mark all compiled files as processed
-        for file_path, doc_type, company, drug in pending_success:
-            mark_file_processed(file_path, doc_type, "success", company, drug)
-            append_log(file_path, "success", doc_type)
-        if pending_success:
-            logger.info(f"ORCHESTRATOR | Marked {len(pending_success)} file(s) as processed")
+        # only mark files as processed if flush actually wrote pages (or there were no signals)
+        if flush_ok:
+            for file_path, doc_type, company, drug in pending_success:
+                mark_file_processed(file_path, doc_type, "success", company, drug)
+                append_log(file_path, "success", doc_type)
+            if pending_success:
+                logger.info(f"ORCHESTRATOR | Marked {len(pending_success)} file(s) as processed")
     else:
         logger.info("ORCHESTRATOR | No new files — skipping cache build")
 

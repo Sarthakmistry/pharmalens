@@ -5,22 +5,21 @@ drugs: []
 companies: [novo-nordisk]
 indications: [type2-diabetes]
 signal: neutral
-headline: Novo Nordisk's Phase 3 trial (NCT04588259) for type 2 diabetes completes primary endpoint
+headline: Novo Nordisk's Trial NCT04588259 for Type 2 Diabetes Reaches Primary Completion
 last_updated: 2026-04-07
 ---
 
-## Novo Nordisk's Phase 3 trial (NCT04588259) for type 2 diabetes completes primary endpoint
+## Novo Nordisk's Trial NCT04588259 for Type 2 Diabetes Reaches Primary Completion
 
 **Date:** 2022-07-05 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novo Nordisk's Phase 3 clinical trial, NCT04588259, investigating Faster aspart and Insulin degludec for type 2 diabetes, reached its primary completion date on July 5, 2022. The trial, which enrolled 331 participants, has reported that results are available.
+Clinical trial NCT04588259, sponsored by Novo Nordisk, reached its primary completion date on July 5, 2022. This Phase 3 study, which enrolled 331 participants, investigated treatments for type 2 diabetes. The trial has reported results.
 
 ### Market implication
-The completion of this Phase 3 trial provides an update on Novo Nordisk's pipeline, with further implications awaiting the release and analysis of the trial results.
+The completion of this trial marks a procedural milestone for Novo Nordisk's pipeline in type 2 diabetes, with market implications pending the release of detailed results.
 
 ### Affected entities
-- Drug: Faster aspart, Insulin aspart, Insulin degludec
 - Company: [[novo-nordisk]]
 - Indication: [[type2-diabetes/_index]]
 

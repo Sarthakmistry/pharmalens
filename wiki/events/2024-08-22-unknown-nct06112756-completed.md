@@ -2,22 +2,22 @@
 event_type: trial_completion
 date: 2024-08-22
 drugs: []
-companies: [bayer]
+companies: ["bayer"]
 indications: []
 signal: neutral
-headline: Bayer's Phase 2 Trial for Elinzanetant (NCT06112756) Completed Primary Endpoint
+headline: Bayer's Phase 2 Trial (NCT06112756) for Elinzanetant Completes Primary Completion
 last_updated: 2024-08-22
 ---
 
-## Bayer's Phase 2 Trial for Elinzanetant (NCT06112756) Completed Primary Endpoint
+## Bayer's Phase 2 Trial (NCT06112756) for Elinzanetant Completes Primary Completion
 
 **Date:** 2024-08-22 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Bayer's Phase 2 clinical trial (NCT06112756) investigating Elinzanetant has reached its primary completion date on August 22, 2024. The study, which enrolled 110 participants, has completed its primary endpoint assessment, and results are expected to be available.
+A Phase 2 clinical trial (NCT06112756) sponsored by [[bayer]] for the drug Elinzanetant has reached its primary completion date on August 22, 2024. The trial, which enrolled 110 participants, has now completed its primary data collection, and results are available.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard procedural step, and its market implication is neutral until specific efficacy and safety results are publicly disclosed.
+The completion of this Phase 2 trial is a neutral event, as no specific efficacy or safety results have been disclosed yet, but it marks progress in the development of Elinzanetant.
 
 ### Affected entities
 - Drug: Elinzanetant

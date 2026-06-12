@@ -1,28 +1,28 @@
 ---
 event_type: trial_completion
 date: 2023-09-21
-drugs: [semaglutide, tirzepatide, retatrutide, liraglutide, dulaglutide, empagliflozin, dapagliflozin, canagliflozin, sitagliptin, saxagliptin, sacubitril-valsartan, inclisiran, finerenone, pembrolizumab, nivolumab, osimertinib, atezolizumab, durvalumab, palbociclib, ribociclib, abemaciclib, trastuzumab deruxtecan, olaparib, bevacizumab, cetuximab, lecanemab, donanemab]
+drugs: [pembrolizumab, olaparib]
 companies: [merck]
-indications: [oncology-breast]
+indications: [oncology-nsclc]
 signal: neutral
-headline: Merck's Pembrolizumab Trial for Triple-Negative Breast Cancer Completes Phase 3
+headline: Merck's Pembrolizumab and Olaparib Phase 3 Trial for NSCLC Completed
 last_updated: 2023-09-21
 ---
 
-## Merck's Pembrolizumab Trial for Triple-Negative Breast Cancer Completes Phase 3
+## Merck's Pembrolizumab and Olaparib Phase 3 Trial for NSCLC Completed
 
 **Date:** 2023-09-21 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 3 clinical trial (NCT03976362) evaluating [[pembrolizumab]] in combination with chemotherapy for patients with triple-negative breast cancer has reached its primary completion date on September 21, 2023. The trial enrolled 851 participants and has reported that results are available, indicating the primary endpoint has been met and data analysis is underway.
+A Phase 3 clinical trial (NCT03976362) evaluating [[pembrolizumab]] in combination with [[olaparib]] against chemotherapy (Carboplatin, Paclitaxel, Nab-paclitaxel) for metastatic non-small cell lung cancer (NSCLC) has reached its primary completion. The trial, sponsored by [[merck]], enrolled 851 participants and completed on September 21, 2023, with results now available.
 
 ### Market implication
-The completion of this Phase 3 trial is a standard procedural step, with market implications dependent on the eventual release and interpretation of the trial results.
+The completion of this Phase 3 trial is a neutral event, as the market will await the release of the study results to assess the potential impact on Merck's oncology pipeline.
 
 ### Affected entities
-- Drug: [[pembrolizumab]]
+- Drug: [[pembrolizumab]], [[olaparib]]
 - Company: [[merck]]
-- Indication: [[oncology-breast/_index]]
+- Indication: [[oncology-nsclc/_index]]
 
 ### Sources
 - `raw/ctgov/merck/2026-04-07/NCT03976362.json`

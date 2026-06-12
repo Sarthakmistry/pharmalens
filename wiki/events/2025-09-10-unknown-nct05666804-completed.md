@@ -5,19 +5,19 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis's Clinical Trial NCT05666804 Reaches Primary Completion
+headline: Novartis trial NCT05666804 completes Phase 3 study
 last_updated: 2026-04-07
 ---
 
-## Novartis's Clinical Trial NCT05666804 Reaches Primary Completion
+## Novartis trial NCT05666804 completes Phase 3 study
 
 **Date:** 2025-09-10 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis's Phase 3 clinical trial, NCT05666804, investigating Brolucizumab 6mg, reached its primary completion date on September 10, 2025. The trial enrolled 148 participants and has not yet reported results.
+The Phase 3 clinical trial NCT05666804, sponsored by Novartis, reached its primary completion date on September 10, 2025. This study involved an actual enrollment of 148 participants. As of this completion, results for the trial are not yet available.
 
 ### Market implication
-The primary completion of this trial is a neutral event, as no results have been released to indicate potential success or failure of the drug.
+The completion of this Phase 3 trial is a standard procedural step for Novartis, with no immediate market impact as results have not been disclosed.
 
 ### Affected entities
 - Company: [[novartis]]

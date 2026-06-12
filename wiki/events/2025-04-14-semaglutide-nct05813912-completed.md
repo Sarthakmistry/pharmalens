@@ -14,10 +14,10 @@ last_updated: 2026-05-01
 **Date:** 2025-04-14 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT05813912) evaluating [[semaglutide]] for type 2 diabetes, sponsored by [[novo-nordisk]], reached its primary completion date on April 14, 2025. The trial enrolled 148 participants and has not yet reported results.
+A Phase 3 clinical trial (NCT05813912) evaluating [[semaglutide]] for the treatment of [[type2-diabetes]] has reached its primary completion date on April 14, 2025. The study, sponsored by [[novo-nordisk]], enrolled 148 participants, and results are not yet available.
 
 ### Market implication
-The completion of this Phase 3 trial marks a procedural step forward for [[semaglutide]] in [[type2-diabetes]], with market impact pending the release of study results.
+The completion of this Phase 3 trial is a standard procedural step in drug development, and its market impact is neutral until specific results are disclosed.
 
 ### Affected entities
 - Drug: [[semaglutide]]

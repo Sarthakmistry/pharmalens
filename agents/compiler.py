@@ -28,7 +28,7 @@ logger = get_logger("pharmalens.compiler")
 
 load_dotenv()  # must be before genai.Client()
 
-client = genai.Client(http_options=types.HttpOptions(timeout=300))
+client = genai.Client(http_options=types.HttpOptions(timeout=300_000))  # 300s in ms
 
 FLASH_MODEL = "gemini-2.5-flash"
 

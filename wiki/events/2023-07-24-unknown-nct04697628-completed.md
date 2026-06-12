@@ -5,24 +5,21 @@ drugs: []
 companies: ["eli-lilly"]
 indications: []
 signal: neutral
-headline: Eli Lilly-sponsored Clinical Trial NCT04697628 Completes Primary Phase
+headline: Eli Lilly's Phase 3 Trial NCT04697628 for Solid Tumors Completes Primary Phase
 last_updated: 2023-07-24
 ---
-
-## Eli Lilly-sponsored Clinical Trial NCT04697628 Completes Primary Phase
+## Eli Lilly's Phase 3 Trial NCT04697628 for Solid Tumors Completes Primary Phase
 
 **Date:** 2023-07-24 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Clinical trial NCT04697628, sponsored by Eli Lilly, reached its primary completion date on July 24, 2023. This Phase 3 study, which enrolled 502 participants, has now completed its main data collection phase. The trial involved untracked drugs such as Tisotumab vedotin, Topotecan, Vinorelbine, Gemcitabine, Irinotecan, and Pemetrexed.
+Eli Lilly's Phase 3 clinical trial (NCT04697628), investigating Tisotumab vedotin in combination with other agents versus chemotherapy for solid tumors, reached its primary completion date on July 24, 2023. The study successfully enrolled 502 participants and has reported results.
 
 ### Market implication
-The primary completion of this clinical trial is a procedural milestone for Eli Lilly, with no immediate market impact as specific results have not been disclosed and the drugs involved are not tracked.
+The primary completion of this Phase 3 trial is a routine milestone for Eli Lilly, with its market impact contingent upon the future release and interpretation of the study's findings.
 
 ### Affected entities
-- Drug: Tisotumab vedotin, Topotecan, Vinorelbine, Gemcitabine, Irinotecan, Pemetrexed
 - Company: [[eli-lilly]]
-- Indication: 
 
 ### Sources
 - `raw/ctgov/pfizer/2026-04-07/NCT04697628.json`

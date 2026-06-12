@@ -15,10 +15,10 @@ last_updated: 2026-04-07
 **Date:** 2025-10-14 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 1/2 clinical trial (NCT03337698) sponsored by Roche, investigating atezolizumab in combination with bevacizumab and other agents for non-small cell lung cancer (NSCLC), reached its primary completion date on October 14, 2025. The trial enrolled 314 participants and has completed data collection for its primary outcome measures, though results are not yet publicly available.
+The Phase 1/2 clinical trial NCT03337698, sponsored by Roche, investigating atezolizumab in combination with bevacizumab and other agents for non-small cell lung cancer (NSCLC), reached its primary completion date on October 14, 2025. The study enrolled 314 participants, and results from the trial are not yet available.
 
 ### Market implication
-The completion of the primary phase of this trial is a neutral event, as no results have been released to indicate efficacy or safety, and market reaction will depend on future data disclosures.
+The completion of this trial marks a procedural milestone, with market implications pending the release of study results.
 
 ### Affected entities
 - Drug: [[atezolizumab]]

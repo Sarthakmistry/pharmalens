@@ -8,16 +8,15 @@ signal: bearish
 headline: Pembrolizumab Trial NCT05926960 Terminated
 last_updated: 2026-04-07
 ---
-
 ## Pembrolizumab Trial NCT05926960 Terminated
 
 **Date:** 2026-02-02 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-Clinical trial NCT05926960, a Phase 2 study investigating pembrolizumab, was officially terminated on February 2, 2026. The trial, which had an actual enrollment of 38 participants and was sponsored by Pfizer, will not proceed as originally planned.
+A Phase 2 clinical trial (NCT05926960) investigating the use of [[pembrolizumab]] for melanoma, sponsored by [[pfizer]], has been terminated. The trial, which had enrolled 38 participants, reached its primary completion date on February 2, 2026.
 
 ### Market implication
-This termination represents a bearish signal for the specific development pathway of pembrolizumab within this trial, and for Pfizer's investment in this particular study.
+The termination of this trial is a minor bearish signal for [[pfizer]]'s pipeline in melanoma and for [[pembrolizumab]]'s potential expansion into this specific indication.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

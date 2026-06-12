@@ -5,19 +5,19 @@ drugs: []
 companies: [biogen]
 indications: [alzheimers]
 signal: bearish
-headline: Biogen terminates Phase 3 Aducanumab trial (NCT05310071) for early Alzheimer's disease
-last_updated: 2026-04-07
+headline: Biogen terminates Phase 3 trial (NCT05310071) for Aducanumab in Alzheimer's disease
+last_updated: 2024-08-12
 ---
 
-## Biogen terminates Phase 3 Aducanumab trial (NCT05310071) for early Alzheimer's disease
+## Biogen terminates Phase 3 trial (NCT05310071) for Aducanumab in Alzheimer's disease
 
 **Date:** 2024-08-12 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-Biogen has terminated its Phase 3 clinical trial (NCT05310071), "A Study to Evaluate the Efficacy and Safety of Aducanumab in Participants With Early Alzheimer's Disease." The trial, which had enrolled 1027 participants, was terminated on its primary completion date of August 12, 2024.
+Biogen has terminated its Phase 3 clinical trial (NCT05310071) investigating Aducanumab for Alzheimer's disease. The trial, which had an actual enrollment of 1027 participants, reached its primary completion date on August 12, 2024, and results are available. This termination impacts Biogen's development efforts in the Alzheimer's space.
 
 ### Market implication
-The termination of a Phase 3 trial for Aducanumab represents a bearish signal for Biogen, as it removes a potential pathway for the drug in early Alzheimer's disease.
+The termination of a Phase 3 trial for Aducanumab is a bearish signal for Biogen, as it represents a significant investment in a key indication that will not proceed as planned.
 
 ### Affected entities
 - Drug: Aducanumab

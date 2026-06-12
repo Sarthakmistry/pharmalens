@@ -1,23 +1,26 @@
 ---
 event_type: trial_completion
 date: 2025-07-28
-companies: [merck]
+drugs: []
+companies: ["merck"]
+indications: []
 signal: neutral
-headline: Merck's Phase 3 trial for Enlicitide decanoate (NCT05952856) completes primary endpoint
-last_updated: 2026-04-07
+headline: Merck's Enlicitide decanoate Phase 3 Trial (NCT05952856) Reaches Primary Completion
+last_updated: 2025-07-28
 ---
 
-## Merck's Phase 3 trial for Enlicitide decanoate (NCT05952856) completes primary endpoint
+## Merck's Enlicitide decanoate Phase 3 Trial (NCT05952856) Reaches Primary Completion
 
 **Date:** 2025-07-28 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 3 clinical trial (NCT05952856) for Enlicitide decanoate, which enrolled 2912 participants, reached its primary completion date on July 28, 2025. The trial's primary endpoint has been met, but results have not yet been published.
+Merck's Phase 3 clinical trial, NCT05952856, investigating the drug Enlicitide decanoate, has reached its primary completion date on July 28, 2025. The trial successfully enrolled 2912 participants. Results from this study are not yet available.
 
 ### Market implication
-The completion of this large Phase 3 trial is a procedural milestone for Merck, with market impact contingent on the eventual release and interpretation of the trial's results.
+The completion of this large Phase 3 trial marks a significant step in the development of Enlicitide decanoate, with future market impact dependent on the eventual release and outcome of its results.
 
 ### Affected entities
+- Drug: Enlicitide decanoate
 - Company: [[merck]]
 
 ### Sources

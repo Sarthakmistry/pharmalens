@@ -1,26 +1,25 @@
 ---
 event_type: trial_completion
 date: 2025-07-05
-drugs: ["nivolumab"]
-companies: ["bristol-myers-squibb"]
-indications: []
+drugs: [nivolumab, bevacizumab]
+companies: [bristol-myers-squibb]
 signal: neutral
-headline: Bristol Myers Squibb's Nivolumab Trial NCT05337137 Reaches Primary Completion
+headline: Nivolumab Trial NCT05337137 Reaches Primary Completion
 last_updated: 2026-04-07
 ---
 
-## Bristol Myers Squibb's Nivolumab Trial NCT05337137 Reaches Primary Completion
+## Nivolumab Trial NCT05337137 Reaches Primary Completion
 
 **Date:** 2025-07-05 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 1/2 clinical trial (NCT05337137) sponsored by Bristol Myers Squibb, investigating nivolumab in combination with bevacizumab and relatlimab, reached its primary completion date on July 5, 2025. The trial enrolled 83 participants and has not yet reported results.
+A Phase 1/2 clinical trial (NCT05337137) investigating [[nivolumab]] in combination with [[bevacizumab]] has reached its primary completion date on July 5, 2025. The study, sponsored by [[bristol-myers-squibb]], enrolled 83 participants. No results have been reported yet for this trial.
 
 ### Market implication
-The primary completion of this trial is a neutral event as no results have been released yet, and it represents a standard progression in the drug development pipeline for Bristol Myers Squibb.
+The completion of this trial is a standard procedural step, and its market impact will depend on future data readouts.
 
 ### Affected entities
-- Drug: [[nivolumab]]
+- Drug: [[nivolumab]], [[bevacizumab]]
 - Company: [[bristol-myers-squibb]]
 
 ### Sources

@@ -5,22 +5,21 @@ drugs: []
 companies: [novartis]
 indications: [oncology-breast]
 signal: neutral
-headline: Novartis completes Phase 4 trial (NCT05631795) for Alpelisib and Fulvestrant in advanced breast cancer
+headline: Novartis's NCT05631795 Phase 4 Trial for Breast Cancer Completes Primary Completion
 last_updated: 2026-05-01
 ---
 
-## Novartis completes Phase 4 trial (NCT05631795) for Alpelisib and Fulvestrant in advanced breast cancer
+## Novartis's NCT05631795 Phase 4 Trial for Breast Cancer Completes Primary Completion
 
 **Date:** 2025-06-12 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis has announced the completion of its Phase 4 clinical trial (NCT05631795) investigating Alpelisib and Fulvestrant for the treatment of HR+/HER2- advanced breast cancer. The study enrolled 40 participants and reached its primary completion date on June 12, 2025. Results from this trial are not yet available.
+Novartis's Phase 4 clinical trial, NCT05631795, investigating Alpelisib and Fulvestrant for breast cancer, reached its primary completion date on June 12, 2025. The study enrolled 40 participants and is now completed, though results are not yet available.
 
 ### Market implication
-The completion of this Phase 4 trial is a standard procedural step for [[novartis]], with market impact awaiting the release of study results.
+The completion of this Phase 4 trial is a standard procedural update for Novartis, with no immediate market impact as results are not yet published.
 
 ### Affected entities
-- Drug: Alpelisib, Fulvestrant
 - Company: [[novartis]]
 - Indication: [[oncology-breast/_index]]
 

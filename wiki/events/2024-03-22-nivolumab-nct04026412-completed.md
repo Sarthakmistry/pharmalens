@@ -5,19 +5,19 @@ drugs: [nivolumab]
 companies: [bristol-myers-squibb]
 indications: [oncology-nsclc]
 signal: neutral
-headline: Nivolumab (NCT04026412) Phase 3 trial for NSCLC reaches primary completion
+headline: Nivolumab trial NCT04026412 for NSCLC reaches primary completion
 last_updated: 2024-03-22
 ---
 
-## Nivolumab (NCT04026412) Phase 3 trial for NSCLC reaches primary completion
+## Nivolumab trial NCT04026412 for NSCLC reaches primary completion
 
 **Date:** 2024-03-22 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT04026412) evaluating nivolumab, sponsored by Bristol-Myers Squibb, for non-small cell lung cancer (NSCLC) has reached its primary completion date on March 22, 2024. The trial enrolled 925 participants and has reported that results are available.
+A Phase 3 clinical trial (NCT04026412) investigating [[nivolumab]] for non-small cell lung cancer (NSCLC) has reached its primary completion date on March 22, 2024. The trial, sponsored by [[bristol-myers-squibb]], enrolled 925 participants and has reported results.
 
 ### Market implication
-The primary completion of this Phase 3 trial indicates progress in the development pipeline for nivolumab in NSCLC, with potential future data releases impacting market perception.
+The completion of this Phase 3 trial marks a significant step in the development of nivolumab for NSCLC, with results now available for evaluation.
 
 ### Affected entities
 - Drug: [[nivolumab]]

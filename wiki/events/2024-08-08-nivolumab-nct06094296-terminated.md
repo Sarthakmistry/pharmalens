@@ -5,20 +5,19 @@ drugs: [nivolumab]
 companies: [bristol-myers-squibb]
 indications: [oncology-nsclc]
 signal: bearish
-headline: Bristol Myers Squibb Terminates Phase 2 Nivolumab Trial (NCT06094296) for NSCLC
+headline: Bristol-Myers Squibb Terminates Phase 2 Nivolumab Combination Trial (NCT06094296) in NSCLC
 last_updated: 2024-08-08
 ---
-```
 
-## Bristol Myers Squibb Terminates Phase 2 Nivolumab Trial (NCT06094296) for NSCLC
+## Bristol-Myers Squibb Terminates Phase 2 Nivolumab Combination Trial (NCT06094296) in NSCLC
 
 **Date:** 2024-08-08 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-Bristol Myers Squibb has terminated its Phase 2 clinical trial (NCT06094296) evaluating nivolumab (Opdivo) in combination with BMS-986315 and chemotherapy for non-small cell lung cancer (NSCLC). The trial, which had an actual enrollment of only one participant, reached its primary completion date on the same day it was terminated, indicating an early discontinuation.
+Bristol-Myers Squibb has terminated the Phase 2 clinical trial NCT06094296, which was evaluating [[nivolumab]] in combination with BMS-986315 for non-small cell lung cancer (NSCLC). The trial, which had a primary completion date of August 8, 2024, was terminated with only one participant enrolled, indicating an early cessation of the study.
 
 ### Market implication
-The early termination of a Phase 2 trial for nivolumab, especially with minimal enrollment, represents a negative signal for the drug's pipeline expansion in NSCLC and for Bristol Myers Squibb.
+The early termination of this Phase 2 trial for a nivolumab combination in NSCLC, especially with minimal enrollment, represents a minor setback for Bristol-Myers Squibb's pipeline in this indication, suggesting a bearish signal for the specific program.
 
 ### Affected entities
 - Drug: [[nivolumab]]

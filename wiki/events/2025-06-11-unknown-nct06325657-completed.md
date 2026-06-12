@@ -1,24 +1,25 @@
 ---
 event_type: trial_completion
 date: 2025-06-11
+drugs: []
 companies: [pfizer]
+indications: []
 signal: neutral
-headline: Pfizer's RSVpref Vaccine Trial NCT06325657 Completes Primary Endpoint
+headline: Pfizer's RSVpref Vaccine Trial NCT06325657 Reaches Primary Completion
 last_updated: 2026-04-07
 ---
 
-## Pfizer's RSVpref Vaccine Trial NCT06325657 Completes Primary Endpoint
+## Pfizer's RSVpref Vaccine Trial NCT06325657 Reaches Primary Completion
 
 **Date:** 2025-06-11 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT06325657) for an RSVpref vaccine, sponsored by Pfizer, reached its primary completion date on June 11, 2025. The trial enrolled 648 participants and has not yet released its results.
+A Phase 3 clinical trial (NCT06325657) for Pfizer's RSVpref vaccine, comparing it against a placebo, reached its primary completion date on June 11, 2025. The study enrolled 648 participants and has not yet reported results.
 
 ### Market implication
-The completion of this Phase 3 trial marks a step forward in the development of Pfizer's RSVpref vaccine, with market implications pending the release of study results.
+The primary completion of this Phase 3 trial is a standard procedural step, with market implications awaiting the release of study results.
 
 ### Affected entities
-- Drug: Rsvpref vaccine
 - Company: [[pfizer]]
 
 ### Sources

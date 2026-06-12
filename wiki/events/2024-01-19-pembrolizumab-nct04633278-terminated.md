@@ -5,19 +5,19 @@ drugs: [pembrolizumab]
 companies: [regeneron]
 indications: [alzheimers]
 signal: bearish
-headline: Regeneron's Phase 2 Trial of Pembrolizumab for Alzheimer's Disease (NCT04633278) Terminated
+headline: Pembrolizumab Trial NCT04633278 Terminated
 last_updated: 2026-04-07
 ---
 
-## Regeneron's Phase 2 Trial of Pembrolizumab for Alzheimer's Disease (NCT04633278) Terminated
+## Pembrolizumab Trial NCT04633278 Terminated
 
 **Date:** 2024-01-19 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-The Phase 2 clinical trial NCT04633278, investigating the use of [[pembrolizumab]] for Alzheimer's disease, was officially terminated on January 19, 2024. Sponsored by [[regeneron]], the trial had an actual enrollment of 24 participants and has reported results.
+The Phase 2 clinical trial NCT04633278, investigating pembrolizumab for Alzheimer's disease, was officially terminated on January 19, 2024. Sponsored by Regeneron, the trial had an actual enrollment of 24 participants and has reported results. This termination indicates that the study was stopped early, likely due to futility, safety concerns, or business reasons.
 
 ### Market implication
-This termination represents a setback for [[pembrolizumab]]'s potential expansion into the [[alzheimers]] indication, though it is not a primary therapeutic area for the drug.
+This termination represents a negative signal for Regeneron's efforts to expand pembrolizumab into the Alzheimer's indication, potentially impacting its pipeline diversification strategy.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

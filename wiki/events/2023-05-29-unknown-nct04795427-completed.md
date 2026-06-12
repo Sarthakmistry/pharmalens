@@ -5,21 +5,22 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis's Asciminib Trial NCT04795427 Completes Primary Completion
+headline: Novartis's Phase 2 trial NCT04795427 for Asciminib completes primary phase
 last_updated: 2023-05-29
 ---
 
-## Novartis's Asciminib Trial NCT04795427 Completes Primary Completion
+## Novartis's Phase 2 trial NCT04795427 for Asciminib completes primary phase
 
 **Date:** 2023-05-29 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT04795427) sponsored by [[novartis]], investigating Asciminib, reached its primary completion on May 29, 2023. The study enrolled 84 participants and has not yet reported results.
+Novartis's Phase 2 clinical trial (NCT04795427), which investigated Asciminib, reached its primary completion on May 29, 2023. The study enrolled 84 participants to evaluate the drug against best available treatment. Results from this trial are not yet available.
 
 ### Market implication
-The completion of this trial marks a step in the development process for Asciminib, with market implications pending the release of results.
+The completion of this Phase 2 trial is a standard procedural step for Novartis; market impact is neutral pending the release of trial results.
 
 ### Affected entities
+- Drug: Asciminib
 - Company: [[novartis]]
 
 ### Sources

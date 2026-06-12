@@ -3,25 +3,26 @@ event_type: trial_completion
 date: 2025-10-09
 drugs: [atezolizumab]
 companies: [roche]
-indications: []
+indications: [oncology-nsclc, oncology-breast, oncology-crc]
 signal: neutral
-headline: Atezolizumab Phase 1/2 Trial NCT03281369 Completed by Roche
+headline: Atezolizumab Trial NCT03281369 Reaches Primary Completion
 last_updated: 2026-04-07
 ---
 
-## Atezolizumab Phase 1/2 Trial NCT03281369 Completed by Roche
+## Atezolizumab Trial NCT03281369 Reaches Primary Completion
 
 **Date:** 2025-10-09 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 1/2 clinical trial (NCT03281369) investigating atezolizumab in combination with 5-fluorouracil, leucovorin, and oxaliplatin (FOLFOX) for previously untreated locally advanced or metastatic gastric, esophageal, or gastroesophageal junction adenocarcinoma, sponsored by Roche, reached its primary completion on October 9, 2025. The trial enrolled 214 participants, and results are not yet available.
+The Phase 1/2 clinical trial NCT03281369, investigating atezolizumab in combination with cobimetinib for advanced solid tumors, reached its primary completion date on October 9, 2025. The study enrolled 214 participants and has not yet reported results.
 
 ### Market implication
-The completion of this Phase 1/2 trial is a standard procedural step, and with no results yet published, it has a neutral market implication for Roche and atezolizumab.
+This event is neutral as it signifies a procedural milestone in the trial's lifecycle, with no results or new data released at this time to impact market sentiment.
 
 ### Affected entities
 - Drug: [[atezolizumab]]
 - Company: [[roche]]
+- Indication: [[oncology-nsclc/_index]], [[oncology-breast/_index]], [[oncology-crc/_index]]
 
 ### Sources
 - `raw/ctgov/roche/2026-04-07/NCT03281369.json`

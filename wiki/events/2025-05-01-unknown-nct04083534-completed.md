@@ -5,20 +5,20 @@ drugs: []
 companies: [regeneron]
 indications: []
 signal: neutral
-headline: Regeneron's Regn5459 Phase 1/2 Trial (NCT04083534) Completes Primary Completion
-last_updated: 2026-04-07
+headline: Regeneron's Regn5459 Trial NCT04083534 Completes Primary Phase 1/2 Study
+last_updated: 2026-06-01
 ---
 ```
 
-## Regeneron's Regn5459 Phase 1/2 Trial (NCT04083534) Completes Primary Completion
+## Regeneron's Regn5459 Trial NCT04083534 Completes Primary Phase 1/2 Study
 
 **Date:** 2025-05-01 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 1/2 clinical trial (NCT04083534) sponsored by Regeneron Pharmaceuticals, investigating the drug Regn5459, reached its primary completion date on May 1, 2025. The study, which enrolled 43 participants, has completed its data collection for the primary outcome measures. No results have been posted yet.
+A Phase 1/2 clinical trial (NCT04083534) investigating Regn5459, sponsored by [[regeneron]], has reached its primary completion date on May 1, 2025. The study enrolled 43 participants to evaluate the drug, and results have not yet been posted.
 
 ### Market implication
-The primary completion of this early-phase trial for Regn5459 is a standard procedural milestone for Regeneron, with no immediate market implication as results are not yet available.
+The completion of this early-phase trial is a standard development and does not immediately impact [[regeneron]]'s market valuation without disclosed results.
 
 ### Affected entities
 - Drug: Regn5459
@@ -26,4 +26,4 @@ The primary completion of this early-phase trial for Regn5459 is a standard proc
 - Indication: 
 
 ### Sources
-- `raw/ctgov/regeneron/2026-04-07/NCT04083534.json`
+- `raw/ctgov/regeneron/2026-06-01/NCT04083534.json`

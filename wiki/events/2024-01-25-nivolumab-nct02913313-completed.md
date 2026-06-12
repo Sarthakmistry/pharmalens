@@ -5,19 +5,19 @@ drugs: [nivolumab]
 companies: [bristol-myers-squibb]
 indications: [alzheimers]
 signal: neutral
-headline: Nivolumab Phase 1/2 Trial (NCT02913313) Completed
+headline: Bristol-Myers Squibb's Nivolumab Trial NCT02913313 for Alzheimer's Disease Completed
 last_updated: 2024-01-25
 ---
 
-## Nivolumab Phase 1/2 Trial (NCT02913313) Completed
+## Bristol-Myers Squibb's Nivolumab Trial NCT02913313 for Alzheimer's Disease Completed
 
 **Date:** 2024-01-25 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-The Phase 1/2 trial NCT02913313, investigating nivolumab, completed its primary phase on January 25, 2024. This trial, which enrolled 101 participants, explored nivolumab in the context of Alzheimer's disease. The trial has reported that results are available.
+A Phase 1/2 clinical trial (NCT02913313) investigating nivolumab, sponsored by Bristol-Myers Squibb, has reached its primary completion date on January 25, 2024. The trial, which enrolled 101 participants, has reported that results are available.
 
 ### Market implication
-The completion of this Phase 1/2 trial for nivolumab in Alzheimer's disease is a neutral signal, as specific results have not been disclosed.
+The completion of this trial is a neutral event for Bristol-Myers Squibb and nivolumab, as specific results or their implications for the Alzheimer's disease indication have not yet been disclosed.
 
 ### Affected entities
 - Drug: [[nivolumab]]

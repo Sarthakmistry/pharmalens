@@ -5,19 +5,19 @@ drugs: [pembrolizumab]
 companies: [merck]
 indications: [alzheimers]
 signal: neutral
-headline: Merck's Pembrolizumab Trial NCT04220866 for Alzheimer's Disease Completed
+headline: Merck's Pembrolizumab Phase 2 Trial (NCT04220866) for Alzheimer's Disease Completed
 last_updated: 2022-09-30
 ---
 
-## Merck's Pembrolizumab Trial NCT04220866 for Alzheimer's Disease Completed
+## Merck's Pembrolizumab Phase 2 Trial (NCT04220866) for Alzheimer's Disease Completed
 
 **Date:** 2022-09-30 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT04220866) investigating [[pembrolizumab]] by [[merck]] for the treatment of [[alzheimers/_index]] disease reached its primary completion on September 30, 2022. The trial enrolled 18 participants and has reported that results are available.
+Merck's Phase 2 clinical trial (NCT04220866) investigating [[pembrolizumab]] for Alzheimer's disease has reached primary completion on September 30, 2022. The trial enrolled 18 participants and has reported results.
 
 ### Market implication
-The completion of this Phase 2 trial for an Alzheimer's indication represents a standard progression in the drug development pipeline for Merck, with market impact dependent on future results.
+The completion of this early-stage trial provides an update on Merck's pipeline diversification efforts, with further analysis awaiting the detailed results.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

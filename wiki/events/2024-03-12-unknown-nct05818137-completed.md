@@ -5,19 +5,19 @@ drugs: []
 companies: [merck]
 indications: [hf-htn]
 signal: neutral
-headline: Merck's Sotatercept Phase 3 Trial NCT05818137 for Heart Failure Completed
+headline: Merck's Sotatercept Phase 3 Trial (NCT05818137) for Heart Failure Completed Primary Endpoint
 last_updated: 2024-03-12
 ---
 
-## Merck's Sotatercept Phase 3 Trial NCT05818137 for Heart Failure Completed
+## Merck's Sotatercept Phase 3 Trial (NCT05818137) for Heart Failure Completed Primary Endpoint
 
 **Date:** 2024-03-12 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT05818137) sponsored by Merck, investigating Sotatercept for heart failure, reached its primary completion date on March 12, 2024. The trial enrolled 46 participants and has reported that results are available.
+Merck's Phase 3 clinical trial, NCT05818137, investigating Sotatercept for heart failure, has reached its primary completion date on March 12, 2024. The trial enrolled 46 participants and is now listed as 'COMPLETED' with results available. This marks a significant milestone in the development of Sotatercept.
 
 ### Market implication
-The completion of this Phase 3 trial is a neutral event, as specific results and their implications for Sotatercept's market potential are not yet disclosed.
+The completion of this Phase 3 trial indicates progress in the development of Sotatercept, with future data readouts expected to provide more definitive market signals for Merck.
 
 ### Affected entities
 - Drug: Sotatercept

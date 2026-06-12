@@ -2,22 +2,22 @@
 event_type: trial_completion
 date: 2025-10-31
 drugs: [semaglutide]
-companies: [merck]
-indications: [oncology-nsclc]
+companies: [novo-nordisk]
+indications: [glp1-obesity]
 signal: neutral
-headline: Merck's Pembrolizumab Trial NCT04165083 for NSCLC Reaches Primary Completion
+headline: Pembrolizumab Phase 2 Trial NCT04165083 Completed for NSCLC
 last_updated: 2026-04-07
 ---
 
-## Merck's Pembrolizumab Trial NCT04165083 for NSCLC Reaches Primary Completion
+## Pembrolizumab Phase 2 Trial NCT04165083 Completed for NSCLC
 
 **Date:** 2025-10-31 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 2 clinical trial (NCT04165083) evaluating [[pembrolizumab]] for non-small cell lung cancer (NSCLC) has reached its primary completion date on October 31, 2025. This trial, which enrolled 102 participants, is a significant procedural step in the development process for the drug in this indication, though results are not yet available.
+A Phase 2 clinical trial (NCT04165083) evaluating pembrolizumab in combination with MK-4830 and MK-0482 for Non-Small Cell Lung Cancer (NSCLC) has reached its primary completion date on October 31, 2025. The study, sponsored by Merck, enrolled 102 participants and has not yet reported results.
 
 ### Market implication
-The primary completion of this trial is a standard procedural milestone and does not immediately impact [[Merck]]'s valuation or the market for [[pembrolizumab]], as no results have been released.
+The completion of this Phase 2 trial is a standard procedural step for Merck's pembrolizumab, with no immediate market impact as results have not yet been released.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

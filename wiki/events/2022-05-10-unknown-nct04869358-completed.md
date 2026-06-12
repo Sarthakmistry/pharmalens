@@ -5,25 +5,24 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis completes Phase 4 trial NCT04869358 for Ofatumumab
+headline: Novartis's Phase 4 Ofatumumab trial (NCT04869358) for Relapsing Multiple Sclerosis completed.
 last_updated: 2026-04-07
 ---
-```
 
-## Novartis completes Phase 4 trial NCT04869358 for Ofatumumab
+## Novartis's Phase 4 Ofatumumab trial (NCT04869358) for Relapsing Multiple Sclerosis completed.
 
 **Date:** 2022-05-10 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis has completed a Phase 4 clinical trial (NCT04869358) for Ofatumumab. The trial, which enrolled 34 participants, reached its primary completion date on May 10, 2022, and results are now available.
+Novartis announced the completion of its Phase 4 clinical trial (NCT04869358) for Ofatumumab on May 10, 2022. This study, which enrolled 34 participants, evaluated the efficacy and safety of Ofatumumab in patients with Relapsing Multiple Sclerosis who were not adequately controlled with their current disease-modifying therapy. The trial has completed its primary endpoint and results are available.
 
 ### Market implication
-Completion of this Phase 4 trial provides additional data for Ofatumumab, with results now available.
+The completion of this Phase 4 trial provides further data on Ofatumumab's profile in Relapsing Multiple Sclerosis, potentially reinforcing its market position.
 
 ### Affected entities
 - Drug: Ofatumumab
 - Company: [[novartis]]
-- Indication: 
+- Indication: Multiple Sclerosis
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT04869358.json`

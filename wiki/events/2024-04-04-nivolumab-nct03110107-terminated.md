@@ -5,19 +5,19 @@ drugs: [nivolumab]
 companies: [bristol-myers-squibb]
 indications: [alzheimers]
 signal: bearish
-headline: Bristol-Myers Squibb Terminates Phase 1/2 Trial (NCT03110107) for Nivolumab in Alzheimer's Disease
+headline: Bristol-Myers Squibb terminates Phase 1/2 trial NCT03110107 for nivolumab in Alzheimer's disease
 last_updated: 2024-04-04
 ---
 
-## Bristol-Myers Squibb Terminates Phase 1/2 Trial (NCT03110107) for Nivolumab in Alzheimer's Disease
+## Bristol-Myers Squibb terminates Phase 1/2 trial NCT03110107 for nivolumab in Alzheimer's disease
 
 **Date:** 2024-04-04 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-Bristol-Myers Squibb has terminated its Phase 1/2 clinical trial (NCT03110107) investigating nivolumab, Ipilimumab, and Bms-986218 for Alzheimer's disease. The trial had an actual enrollment of 376 participants and reached its primary completion date on April 4, 2024, with results now available.
+Bristol-Myers Squibb has terminated its Phase 1/2 clinical trial (NCT03110107) investigating nivolumab, alone and in combination with ipilimumab or BMS-986218, for Alzheimer's disease. The trial, which enrolled 376 participants, reached its primary completion on April 4, 2024, with results now available.
 
 ### Market implication
-The termination of a Phase 1/2 trial for nivolumab in Alzheimer's disease removes a potential pipeline asset for Bristol-Myers Squibb in this indication, which could be viewed as a minor bearish signal for the company's long-term pipeline diversification.
+The termination of a Phase 1/2 trial for nivolumab in Alzheimer's disease suggests a setback for Bristol-Myers Squibb's pipeline expansion into this indication, potentially limiting future revenue opportunities in this therapeutic area.
 
 ### Affected entities
 - Drug: [[nivolumab]]

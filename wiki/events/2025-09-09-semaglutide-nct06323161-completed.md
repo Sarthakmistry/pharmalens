@@ -5,19 +5,19 @@ drugs: [semaglutide]
 companies: [novo-nordisk]
 indications: [type2-diabetes]
 signal: neutral
-headline: Novo Nordisk's Semaglutide (NCT06323161) Phase 3 Trial for Type 2 Diabetes Completed
+headline: Novo Nordisk's Semaglutide Phase 3 Trial (NCT06323161) for Type 2 Diabetes Completed Primary Completion
 last_updated: 2025-09-09
 ---
 
-## Novo Nordisk's Semaglutide (NCT06323161) Phase 3 Trial for Type 2 Diabetes Completed
+## Novo Nordisk's Semaglutide Phase 3 Trial (NCT06323161) for Type 2 Diabetes Completed Primary Completion
 
 **Date:** 2025-09-09 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT06323161) sponsored by Novo Nordisk, investigating semaglutide for the treatment of type 2 diabetes, has reached its primary completion date. The study enrolled 274 participants and has not yet reported results. This marks a significant milestone in the development pathway for semaglutide in this indication.
+A Phase 3 clinical trial (NCT06323161) sponsored by Novo Nordisk, investigating semaglutide for Type 2 Diabetes, has reached its primary completion date on September 9, 2025. The trial enrolled 274 participants and has not yet reported results. This marks a significant milestone in the trial's progression.
 
 ### Market implication
-The completion of this Phase 3 trial is a standard procedural step in drug development for Novo Nordisk's semaglutide, with market implications awaiting the release of trial results.
+The completion of the primary endpoint collection for this Phase 3 trial is a standard procedural step and does not immediately impact market valuation, pending the release of results.
 
 ### Affected entities
 - Drug: [[semaglutide]]

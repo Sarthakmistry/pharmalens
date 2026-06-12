@@ -1,23 +1,23 @@
 ---
 event_type: trial_termination
 date: 2024-06-11
-drugs: [pembrolizumab]
+drugs: [semaglutide]
 companies: [merck]
 indications: [oncology-nsclc]
 signal: bearish
-headline: Merck's Phase 3 trial (NCT03924869) for pembrolizumab in NSCLC terminated
+headline: Merck's Pembrolizumab (Keytruda) Phase 3 Trial NCT03924869 Terminated
 last_updated: 2024-06-11
 ---
 
-## Merck's Phase 3 trial (NCT03924869) for pembrolizumab in NSCLC terminated
+## Merck's Pembrolizumab (Keytruda) Phase 3 Trial NCT03924869 Terminated
 
 **Date:** 2024-06-11 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-The Phase 3 clinical trial NCT03924869, sponsored by Merck, investigating [[pembrolizumab]] in combination with stereotactic body radiotherapy (SBRT) for patients with unresectable Stage III non-small cell lung cancer (NSCLC), has been terminated. The trial reached its primary completion on June 11, 2024, with an actual enrollment of 448 participants.
+The Phase 3 clinical trial NCT03924869, evaluating [[pembrolizumab]] in combination with stereotactic body radiotherapy (SBRT) for non-small cell lung cancer (NSCLC), was terminated on June 11, 2024. The trial, sponsored by [[merck]], had an actual enrollment of 448 participants and has reported results.
 
 ### Market implication
-The termination of this Phase 3 trial for [[pembrolizumab]] in [[oncology-nsclc]] represents a minor setback for [[merck]]'s pipeline in this specific combination therapy, though [[pembrolizumab]] is already widely approved for various oncology indications.
+The termination of a Phase 3 trial for [[pembrolizumab]] could be a minor negative signal for [[merck]], although [[pembrolizumab]] is already a well-established drug with numerous approved indications.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

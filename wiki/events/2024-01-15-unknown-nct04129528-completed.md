@@ -2,27 +2,28 @@
 event_type: trial_completion
 date: 2024-01-15
 drugs: []
-companies: ["novartis"]
+companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis Completes Phase 2 Trial for Cfz533 (NCT04129528)
+headline: Novartis's Cfz533 Phase 2 Trial (NCT04129528) Completes Primary Endpoint
 last_updated: 2024-01-15
 ---
+```
 
-## Novartis Completes Phase 2 Trial for Cfz533 (NCT04129528)
+## Novartis's Cfz533 Phase 2 Trial (NCT04129528) Completes Primary Endpoint
 
 **Date:** 2024-01-15 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis has completed its Phase 2 clinical trial (NCT04129528) for the drug Cfz533. The trial, which enrolled 44 participants, reached its primary completion date on January 15, 2024, and results are indicated as available.
+Novartis's Phase 2 clinical trial, NCT04129528, investigating Cfz533, reached its primary completion date on January 15, 2024. The trial, which enrolled 44 participants, has now completed its primary data collection, and results are available.
 
 ### Market implication
-The completion of a Phase 2 trial for Cfz533 represents a standard progression in Novartis's pipeline, with further details pending the release of trial results.
+The completion of this Phase 2 trial for Cfz533 by Novartis is a standard procedural step, and its market implication is neutral pending the release and analysis of the trial results.
 
 ### Affected entities
 - Drug: Cfz533
 - Company: [[novartis]]
-- Indication: N/A
+- Indication: 
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT04129528.json`

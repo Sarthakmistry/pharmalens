@@ -5,19 +5,19 @@ drugs: [nivolumab]
 companies: [bristol-myers-squibb]
 indications: []
 signal: neutral
-headline: Nivolumab Phase 2 Trial (NCT03338790) Completed
+headline: Bristol-Myers Squibb's Nivolumab Trial NCT03338790 for Prostate Cancer Reaches Primary Completion
 last_updated: 2021-01-13
 ---
 
-## Nivolumab Phase 2 Trial (NCT03338790) Completed
+## Bristol-Myers Squibb's Nivolumab Trial NCT03338790 for Prostate Cancer Reaches Primary Completion
 
 **Date:** 2021-01-13 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT03338790) investigating [[nivolumab]], sponsored by [[bristol-myers-squibb]], reached its primary completion date on January 13, 2021. The trial enrolled 292 participants and has reported results. This completion marks a significant step in the data collection phase for this study.
+A Phase 2 clinical trial (NCT03338790) for Bristol-Myers Squibb's nivolumab, investigating its use in prostate cancer, reached its primary completion date on January 13, 2021. The study enrolled 292 participants and has reported results.
 
 ### Market implication
-The completion of this Phase 2 trial provides data that will inform future development decisions for nivolumab, potentially impacting its market position.
+The completion of this Phase 2 trial indicates that data analysis is underway, which could inform future development strategies for nivolumab in prostate cancer.
 
 ### Affected entities
 - Drug: [[nivolumab]]

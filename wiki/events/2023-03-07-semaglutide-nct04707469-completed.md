@@ -8,16 +8,17 @@ signal: neutral
 headline: Semaglutide Phase 3 Trial (NCT04707469) for Type 2 Diabetes Completed
 last_updated: 2023-03-07
 ---
+```
 
 ## Semaglutide Phase 3 Trial (NCT04707469) for Type 2 Diabetes Completed
 
 **Date:** 2023-03-07 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT04707469) investigating semaglutide for the treatment of type 2 diabetes, sponsored by Novo Nordisk, reached its primary completion date on March 7, 2023. The trial enrolled 1606 participants and has reported that results are available.
+A Phase 3 clinical trial (NCT04707469) investigating semaglutide for the treatment of Type 2 Diabetes, sponsored by Novo Nordisk, reached its primary completion date on March 7, 2023. The trial enrolled 1606 participants and has reported having results available.
 
 ### Market implication
-The completion of this Phase 3 trial marks a procedural milestone for semaglutide in type 2 diabetes, with market impact pending the release and analysis of the trial results.
+The completion of this Phase 3 trial marks a procedural milestone for semaglutide in Type 2 Diabetes, with market impact contingent on the eventual release and nature of the trial results.
 
 ### Affected entities
 - Drug: [[semaglutide]]

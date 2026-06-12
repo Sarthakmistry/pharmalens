@@ -5,19 +5,19 @@ drugs: [pembrolizumab]
 companies: [merck]
 indications: []
 signal: neutral
-headline: Trial NCT06295809 for Pembrolizumab completed
+headline: Pembrolizumab (Keytruda) Phase 2/3 Trial (NCT06295809) Completed Primary Endpoint
 last_updated: 2026-04-07
 ---
 
-## Trial NCT06295809 for Pembrolizumab completed
+## Pembrolizumab (Keytruda) Phase 2/3 Trial (NCT06295809) Completed Primary Endpoint
 
 **Date:** 2026-03-05 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2/3 clinical trial (NCT06295809) evaluating [[pembrolizumab]] has reached its primary completion date. The trial, sponsored by [[merck]], enrolled 46 participants and concluded on March 5, 2026. No results have been reported yet.
+A Phase 2/3 clinical trial (NCT06295809) evaluating [[pembrolizumab]], sponsored by [[merck]], has reached its primary completion date on March 5, 2026. The trial enrolled 46 participants. Results from this study have not yet been reported.
 
 ### Market implication
-The completion of this trial is a neutral event as no results have been released yet.
+The completion of this trial is a standard procedural step, and market impact will depend on the eventual release and nature of the study results.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

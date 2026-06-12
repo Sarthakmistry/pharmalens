@@ -2,25 +2,25 @@
 event_type: trial_completion
 date: 2024-07-02
 drugs: []
-companies: ["novartis"]
-indications: ["hf-htn"]
+companies: [novartis]
+indications: [hf-htn]
 signal: neutral
-headline: Novartis Completes Phase 2 Trial (NCT05562934) for Xxb750 Drug in Heart Failure
+headline: Novartis's investigational drug XXB750 Phase 2 trial (NCT05562934) for heart failure completes primary endpoint
 last_updated: 2024-07-02
 ---
 
-## Novartis Completes Phase 2 Trial (NCT05562934) for Xxb750 Drug in Heart Failure
+## Novartis's investigational drug XXB750 Phase 2 trial (NCT05562934) for heart failure completes primary endpoint
 
 **Date:** 2024-07-02 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis has completed its Phase 2 clinical trial (NCT05562934) investigating the Xxb750 drug for heart failure. The study, which enrolled 189 participants, reached its primary completion date on July 2, 2024, and results are now available.
+A Phase 2 clinical trial (NCT05562934) sponsored by Novartis, investigating the drug XXB750 for heart failure (hf-htn), has reached its primary completion date on July 2, 2024. The trial enrolled 189 participants and has reported having results.
 
 ### Market implication
-The completion of this Phase 2 trial provides data for future development decisions, with market implications dependent on the trial's full results.
+The completion of this Phase 2 trial marks a development milestone for Novartis, with market implications awaiting the release of detailed results.
 
 ### Affected entities
-- Drug: Xxb750 drug
+- Drug: XXB750 drug
 - Company: [[novartis]]
 - Indication: [[hf-htn/_index]]
 

@@ -2,27 +2,27 @@
 event_type: trial_completion
 date: 2024-05-31
 drugs: []
-companies: [regeneron]
+companies: ["regeneron"]
 indications: []
 signal: neutral
-headline: Regeneron's Aflibercept 8 mg trial NCT05989126 completes Phase 3
+headline: Regeneron's Phase 3 Trial NCT05989126 for Aflibercept 8 mg Pfs Completes Primary Data Collection
 last_updated: 2024-05-31
 ---
 
-## Regeneron's Aflibercept 8 mg trial NCT05989126 completes Phase 3
+## Regeneron's Phase 3 Trial NCT05989126 for Aflibercept 8 mg Pfs Completes Primary Data Collection
 
 **Date:** 2024-05-31 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT05989126) sponsored by Regeneron, investigating Aflibercept 8 mg pfs, has reached its primary completion date on May 31, 2024. The trial enrolled 35 participants and has not yet reported results.
+Regeneron's Phase 3 clinical trial, NCT05989126, investigating Aflibercept 8 mg Pfs, has reached its primary completion date on May 31, 2024. The trial enrolled 35 participants and has reported results.
 
 ### Market implication
-The completion of this trial is a standard procedural step and has a neutral market implication until results are announced.
+This marks a procedural milestone for Regeneron as the trial concludes its primary data collection phase.
 
 ### Affected entities
 - Drug: Aflibercept 8 mg pfs
 - Company: [[regeneron]]
-- Indication: N/A
+- Indication: 
 
 ### Sources
-- `raw/ctgov/regeneron/2026-04-07/NCT05989126.json`
+- `raw/ctgov/regeneron/2026-06-01/NCT05989126.json`

@@ -1,26 +1,23 @@
 ---
 event_type: trial_termination
 date: 2025-01-27
-drugs:
-  - pembrolizumab
-companies:
-  - roche
-indications:
-  - oncology-nsclc
+drugs: [pembrolizumab]
+companies: [roche]
+indications: [oncology-nsclc]
 signal: bearish
-headline: Roche Terminates Phase 3 Trial (NCT04222972) of Pembrolizumab in NSCLC
+headline: Phase 3 Trial NCT04222972 for Pembrolizumab in NSCLC Terminated
 last_updated: 2026-04-07
 ---
 
-## Roche Terminates Phase 3 Trial (NCT04222972) of Pembrolizumab in NSCLC
+## Phase 3 Trial NCT04222972 for Pembrolizumab in NSCLC Terminated
 
 **Date:** 2025-01-27 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-A Phase 3 clinical trial (NCT04222972) sponsored by Roche, investigating pembrolizumab for non-small cell lung cancer (NSCLC), was terminated on January 27, 2025. The trial had enrolled 223 participants and has reported results.
+A Phase 3 clinical trial (NCT04222972) investigating pembrolizumab for non-small cell lung cancer (NSCLC) was terminated. The trial, sponsored by Roche, had an actual enrollment of 223 participants and reached its primary completion date on January 27, 2025, with results now available.
 
 ### Market implication
-The termination of this Phase 3 trial by Roche could signal a strategic shift or challenges in their development efforts within the NSCLC landscape, potentially impacting their pipeline in this area.
+The termination of this Phase 3 trial, even with results available, could be viewed as a minor negative signal for Merck's pembrolizumab in the NSCLC indication, and for Roche's pipeline strategy if the termination was due to futility or safety.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

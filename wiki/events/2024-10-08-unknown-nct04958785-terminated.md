@@ -4,20 +4,20 @@ date: 2024-10-08
 drugs: []
 companies: [gilead]
 indications: [oncology-breast]
-signal: bearish
-headline: Gilead's Breast Cancer Trial NCT04958785 Terminated
+signal: neutral
+headline: Gilead's Phase 2 trial NCT04958785 for Magrolimab in breast cancer terminated
 last_updated: 2024-10-08
 ---
 
-## Gilead's Breast Cancer Trial NCT04958785 Terminated
+## Gilead's Phase 2 trial NCT04958785 for Magrolimab in breast cancer terminated
 
-**Date:** 2024-10-08 | **Type:** trial_termination | **Signal:** bearish
+**Date:** 2024-10-08 | **Type:** trial_termination | **Signal:** neutral
 
 ### Summary
-Clinical trial NCT04958785, sponsored by Gilead, investigating Magrolimab, Nab-paclitaxel, Paclitaxel, and Sacituzumab govitecan-hziy for breast cancer, was officially terminated on October 8, 2024. The Phase 2 study had enrolled 92 participants and reached its primary completion date, with results now available.
+Gilead's Phase 2 clinical trial, NCT04958785, investigating Magrolimab in combination with Nab-paclitaxel, Paclitaxel, or Sacituzumab govitecan-hziy for metastatic breast cancer, was terminated on October 8, 2024. The trial had an actual enrollment of 92 participants and has reported results. The specific reason for termination was not detailed in the available information.
 
 ### Market implication
-The termination of this Phase 2 trial represents a setback for Gilead's oncology pipeline, potentially impacting its development strategy in breast cancer.
+The termination of this Phase 2 trial for Magrolimab in breast cancer is likely to have a neutral market implication for Gilead, given that Magrolimab is not a primary focus for the company in this indication and the trial has reported results.
 
 ### Affected entities
 - Drug: Magrolimab, Nab-paclitaxel, Paclitaxel, Sacituzumab govitecan-hziy

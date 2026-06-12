@@ -5,19 +5,20 @@ drugs: []
 companies: [eli-lilly]
 indications: [glp1-obesity, type2-diabetes]
 signal: neutral
-headline: Eli Lilly's Phase 2 trial for Met097 injection in GLP-1 related indications completes primary endpoint
+headline: Eli Lilly's Met097 injection trial (NCT06897202) for GLP-1 obesity and type 2 diabetes completes Phase 2
 last_updated: 2026-05-01
 ---
+```
 
-## Eli Lilly's Phase 2 trial for Met097 injection in GLP-1 related indications completes primary endpoint
+## Eli Lilly's Met097 injection trial (NCT06897202) for GLP-1 obesity and type 2 diabetes completes Phase 2
 
 **Date:** 2026-01-02 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Eli Lilly's Phase 2 clinical trial (NCT06897202) evaluating Met097 injection for indications including GLP-1 obesity and type 2 diabetes has reached its primary completion date on January 2, 2026. The trial enrolled 133 participants. This milestone indicates the collection of primary outcome data is complete, though results are not yet available.
+Eli Lilly's Phase 2 clinical trial (NCT06897202) for Met097 injection, targeting GLP-1 obesity and type 2 diabetes, reached its primary completion date on January 2, 2026. The trial enrolled 133 participants. No results have been reported yet.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard development step for Eli Lilly's pipeline, with market impact contingent on future data readouts.
+The completion of this Phase 2 trial for an early-stage asset is a neutral event, as no data has been released to indicate future potential.
 
 ### Affected entities
 - Drug: Met097 injection

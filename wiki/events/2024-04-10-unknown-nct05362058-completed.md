@@ -1,24 +1,27 @@
 ---
 event_type: trial_completion
 date: 2024-04-10
-companies: [eli-lilly]
-indications: [type2-diabetes]
+drugs: []
+companies: ["eli-lilly"]
+indications: ["type2-diabetes"]
 signal: neutral
-headline: Eli Lilly's Phase 3 Trial for Type 2 Diabetes (NCT05362058) Reaches Primary Completion
+headline: Eli Lilly's Phase 3 Trial for Insulin Efsitora Alfa and Insulin Degludec in Type 2 Diabetes Completes Primary Endpoint
 last_updated: 2024-04-10
 ---
+```
 
-## Eli Lilly's Phase 3 Trial for Type 2 Diabetes (NCT05362058) Reaches Primary Completion
+## Eli Lilly's Phase 3 Trial for Insulin Efsitora Alfa and Insulin Degludec in Type 2 Diabetes Completes Primary Endpoint
 
 **Date:** 2024-04-10 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Eli Lilly's Phase 3 clinical trial (NCT05362058), investigating Insulin efsitora alfa and Insulin degludec for the treatment of type 2 diabetes, reached its primary completion date on April 10, 2024. The study enrolled 928 participants and has reported results.
+Eli Lilly announced the primary completion of its Phase 3 clinical trial (NCT05362058) investigating Insulin efsitora alfa and Insulin degludec for Type 2 Diabetes. The trial, which enrolled 928 participants, reached its primary completion date on April 10, 2024, and results are now available.
 
 ### Market implication
-The completion of this Phase 3 trial marks a development milestone for Eli Lilly's diabetes pipeline, with market implications pending the release of trial results.
+The completion of this Phase 3 trial marks a procedural step, with market impact contingent upon the eventual release and interpretation of the study's results.
 
 ### Affected entities
+- Drug: Insulin efsitora alfa, Insulin degludec
 - Company: [[eli-lilly]]
 - Indication: [[type2-diabetes/_index]]
 

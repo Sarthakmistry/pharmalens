@@ -5,25 +5,23 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis completes Phase 2 trial (NCT05432388) for Remibrutinib
-last_updated: 2026-04-07
+headline: Novartis's Remibrutinib Phase 2 trial (NCT05432388) completes
+last_updated: 2025-03-11
 ---
-```
 
-## Novartis completes Phase 2 trial (NCT05432388) for Remibrutinib
+## Novartis's Remibrutinib Phase 2 trial (NCT05432388) completes
 
 **Date:** 2025-03-11 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis has completed its Phase 2 clinical trial, NCT05432388, for the drug Remibrutinib. The trial reached its primary completion date on March 11, 2025, with an actual enrollment of 76 participants. No results have been posted yet.
+A Phase 2 clinical trial (NCT05432388) for Remibrutinib, sponsored by Novartis, reached its primary completion date on March 11, 2025. The trial enrolled 76 participants. No results have been reported yet.
 
 ### Market implication
-As no results have been released, the market implication for Novartis and Remibrutinib remains neutral at this time.
+The completion of this Phase 2 trial marks a development milestone for Novartis's Remibrutinib, with future market implications dependent on the eventual release of trial results.
 
 ### Affected entities
 - Drug: Remibrutinib
 - Company: [[novartis]]
-- Indication: N/A
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT05432388.json`

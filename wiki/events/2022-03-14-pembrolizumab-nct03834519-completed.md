@@ -1,23 +1,23 @@
 ---
 event_type: trial_completion
 date: 2022-03-14
-drugs: [pembrolizumab, olaparib]
-companies: [merck]
+drugs: ["pembrolizumab", "olaparib"]
+companies: ["merck"]
 indications: []
 signal: neutral
-headline: Merck's Pembrolizumab and Olaparib Trial NCT03834519 for Prostate Cancer Reaches Primary Completion
-last_updated: 2026-04-07
+headline: Merck's Phase 3 Trial of Pembrolizumab and Olaparib (NCT03834519) Completes Primary Endpoint
+last_updated: 2022-03-14
 ---
 
-## Merck's Pembrolizumab and Olaparib Trial NCT03834519 for Prostate Cancer Reaches Primary Completion
+## Merck's Phase 3 Trial of Pembrolizumab and Olaparib (NCT03834519) Completes Primary Endpoint
 
 **Date:** 2022-03-14 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-The Phase 3 clinical trial NCT03834519, evaluating the combination of [[pembrolizumab]] and [[olaparib]] for metastatic castration-resistant prostate cancer, reached its primary completion date on March 14, 2022. The study enrolled 793 participants and has reported results.
+Merck's Phase 3 clinical trial NCT03834519, investigating [[pembrolizumab]] in combination with [[olaparib]], reached its primary completion date on March 14, 2022. The trial enrolled 793 participants and has reported results.
 
 ### Market implication
-This event is neutral as it marks a procedural milestone for a trial in an untracked indication, with no specific efficacy or safety data released in this update.
+The completion of this Phase 3 trial indicates that primary outcome data is available for analysis, which could inform future development and regulatory decisions for [[pembrolizumab]] and [[olaparib]].
 
 ### Affected entities
 - Drug: [[pembrolizumab]], [[olaparib]]

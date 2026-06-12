@@ -5,25 +5,22 @@ drugs: []
 companies: [eli-lilly]
 indications: []
 signal: neutral
-headline: Eli Lilly's Phase 4 Trial NCT03915964 for Baricitinib Completes Primary Data Collection
+headline: Eli Lilly's Phase 4 Trial NCT03915964 Reaches Primary Completion
 last_updated: 2026-04-07
 ---
-```
 
-## Eli Lilly's Phase 4 Trial NCT03915964 for Baricitinib Completes Primary Data Collection
+## Eli Lilly's Phase 4 Trial NCT03915964 Reaches Primary Completion
 
 **Date:** 2025-05-28 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Eli Lilly's Phase 4 clinical trial, NCT03915964, investigating Baricitinib, has completed its primary data collection as of May 28, 2025. The trial enrolled 2663 participants and has not yet reported results. This marks a significant milestone in the trial's progression.
+Eli Lilly's Phase 4 clinical trial, NCT03915964, reached its primary completion on May 28, 2025. The trial, which enrolled 2663 participants, has not yet posted its results. This trial investigated Baricitinib and Tnf inhibitor.
 
 ### Market implication
-As primary completion does not include results, the market implication is neutral at this time.
+The completion of a clinical trial is a standard procedural step and has a neutral market implication until results are released.
 
 ### Affected entities
-- Drug: Baricitinib
 - Company: [[eli-lilly]]
-- Indication: None
 
 ### Sources
 - `raw/ctgov/eli-lilly/2026-04-07/NCT03915964.json`

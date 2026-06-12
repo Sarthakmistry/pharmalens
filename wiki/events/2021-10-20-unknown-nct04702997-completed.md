@@ -5,24 +5,23 @@ drugs: []
 companies: [biogen]
 indications: []
 signal: neutral
-headline: Biogen's Bardoxolone methyl trial NCT04702997 completes Phase 2
+headline: Biogen's Phase 2 trial of Bardoxolone methyl (NCT04702997) completes
 last_updated: 2021-10-20
 ---
 
-## Biogen's Bardoxolone methyl trial NCT04702997 completes Phase 2
+## Biogen's Phase 2 trial of Bardoxolone methyl (NCT04702997) completes
 
 **Date:** 2021-10-20 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Biogen's Phase 2 clinical trial (NCT04702997) for Bardoxolone methyl oral capsule has reached primary completion on October 20, 2021. The trial enrolled 81 participants and has reported results, marking a significant milestone in the drug's development.
+Biogen's Phase 2 clinical trial (NCT04702997) investigating Bardoxolone methyl oral capsule has reached its primary completion date on October 20, 2021. The trial enrolled 81 participants and has results available. This marks a procedural milestone in the development of the drug.
 
 ### Market implication
-The completion of this Phase 2 trial provides an update on the development timeline for Bardoxolone methyl within Biogen's pipeline.
+The completion of this Phase 2 trial is a standard procedural step and does not immediately impact Biogen's valuation without the release of study results.
 
 ### Affected entities
 - Drug: Bardoxolone methyl oral capsule
 - Company: [[biogen]]
-- Indication: 
 
 ### Sources
 - `raw/ctgov/biogen/2026-04-07/NCT04702997.json`

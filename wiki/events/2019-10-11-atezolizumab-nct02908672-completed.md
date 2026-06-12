@@ -3,21 +3,20 @@ event_type: trial_completion
 date: 2019-10-11
 drugs: [atezolizumab]
 companies: [roche]
-indications: []
 signal: neutral
-headline: Atezolizumab Phase 3 Trial NCT02908672 Reaches Primary Completion
+headline: Atezolizumab (NCT02908672) Phase 3 Trial Completed
 last_updated: 2019-10-11
 ---
 
-## Atezolizumab Phase 3 Trial NCT02908672 Reaches Primary Completion
+## Atezolizumab (NCT02908672) Phase 3 Trial Completed
 
 **Date:** 2019-10-11 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-The Phase 3 clinical trial NCT02908672, investigating [[atezolizumab]] (developed by [[roche]]), reached its primary completion on October 11, 2019. The trial, which enrolled 514 participants, has completed data collection for its primary outcome measures, moving it closer to results analysis and potential publication.
+A Phase 3 clinical trial (NCT02908672) investigating atezolizumab in combination with Cobimetinib and Vemurafenib reached its primary completion on October 11, 2019. The trial successfully enrolled 514 participants and has reported results.
 
 ### Market implication
-The completion of this Phase 3 trial marks a significant step towards potential regulatory submissions or further development for atezolizumab, impacting Roche's oncology pipeline.
+The completion of this Phase 3 trial provides updated data for atezolizumab, which will inform its clinical profile and potential future applications.
 
 ### Affected entities
 - Drug: [[atezolizumab]]

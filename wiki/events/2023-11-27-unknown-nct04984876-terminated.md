@@ -14,15 +14,14 @@ last_updated: 2023-11-27
 **Date:** 2023-11-27 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-Novartis has terminated its Phase 3 clinical trial (NCT04984876) for Ligelizumab. The trial, which had an actual enrollment of 211 participants, reached its primary completion date on November 27, 2023. The specific reason for termination was not detailed in the available information.
+Novartis has terminated its Phase 3 clinical trial, NCT04984876, which was investigating Ligelizumab. The trial, with an actual enrollment of 211 participants, reached its primary completion date on November 27, 2023, and results are available. The termination of a late-stage trial often signals concerns regarding efficacy, safety, or a shift in development strategy.
 
 ### Market implication
-The termination of a Phase 3 trial for Ligelizumab represents a setback for Novartis's pipeline, potentially impacting the company's future development strategy for this asset.
+This termination represents a setback for Novartis's pipeline in the area Ligelizumab was targeting, potentially impacting future revenue projections for the asset.
 
 ### Affected entities
 - Drug: Ligelizumab
 - Company: [[novartis]]
-- Indication: Not specified
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT04984876.json`

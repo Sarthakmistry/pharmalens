@@ -5,19 +5,19 @@ drugs: [inclisiran]
 companies: [novartis]
 indications: [hf-htn]
 signal: neutral
-headline: Novartis' Inclisiran Trial NCT05763875 Reaches Primary Completion
+headline: Inclisiran Trial NCT05763875 Completed
 last_updated: 2024-06-20
 ---
 
-## Novartis' Inclisiran Trial NCT05763875 Reaches Primary Completion
+## Inclisiran Trial NCT05763875 Completed
 
 **Date:** 2024-06-20 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis' Phase 3 clinical trial, NCT05763875, investigating inclisiran, has reached its primary completion date on June 20, 2024. The trial, which enrolled 350 participants, has reported that results are available. Inclisiran is a small interfering RNA (siRNA) therapeutic for cardiovascular risk reduction.
+The Phase 3 clinical trial NCT05763875, investigating inclisiran, has reached its primary completion date on June 20, 2024. Sponsored by Novartis, the study enrolled 350 participants and has results available.
 
 ### Market implication
-The primary completion of this Phase 3 trial for inclisiran indicates progress in its clinical development, with the next step being the release and analysis of the trial results.
+The completion of this Phase 3 trial for inclisiran marks a step forward in its development, potentially leading to further data analysis and regulatory submissions.
 
 ### Affected entities
 - Drug: [[inclisiran]]

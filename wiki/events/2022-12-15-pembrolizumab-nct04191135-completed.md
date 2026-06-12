@@ -4,21 +4,21 @@ date: 2022-12-15
 drugs: ["pembrolizumab", "olaparib"]
 companies: ["merck"]
 indications: ["oncology-breast"]
-signal: bullish
-headline: Pembrolizumab and Olaparib Phase 2 Trial (NCT04191135) for Breast Cancer Completed
+signal: neutral
+headline: Merck's Trial NCT04191135 of Pembrolizumab and Olaparib in Breast Cancer Completed
 last_updated: 2026-04-07
 ---
 ```
 
-## Pembrolizumab and Olaparib Phase 2 Trial (NCT04191135) for Breast Cancer Completed
+## Merck's Trial NCT04191135 of Pembrolizumab and Olaparib in Breast Cancer Completed
 
-**Date:** 2022-12-15 | **Type:** trial_completion | **Signal:** bullish
+**Date:** 2022-12-15 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT04191135) evaluating the combination of [[pembrolizumab]] and [[olaparib]] with carboplatin and gemcitabine for the treatment of metastatic triple-negative breast cancer reached its primary completion date on December 15, 2022. The trial enrolled 462 participants and has reported results, indicating progress in the development of this therapeutic approach.
+Merck's Phase 2 clinical trial (NCT04191135) investigating [[pembrolizumab]] in combination with [[olaparib]], carboplatin, and gemcitabine for breast cancer reached primary completion on December 15, 2022. The trial enrolled 462 participants and has results available.
 
 ### Market implication
-The completion of this Phase 2 trial and the availability of results provide important data for Merck and AstraZeneca, potentially informing future development decisions and offering a positive signal for the breast cancer pipeline.
+The completion of this Phase 2 trial marks a progression in the development of [[pembrolizumab]] and [[olaparib]] for breast cancer, with results now available for evaluation.
 
 ### Affected entities
 - Drug: [[pembrolizumab]], [[olaparib]]

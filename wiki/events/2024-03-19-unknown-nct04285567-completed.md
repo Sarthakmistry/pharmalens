@@ -5,19 +5,19 @@ drugs: []
 companies: [roche]
 indications: []
 signal: neutral
-headline: Roche's Trial NCT04285567 Reaches Primary Completion
+headline: Roche's NCT04285567 Trial Completed Primary Completion
 last_updated: 2024-03-19
 ---
 
-## Roche's Trial NCT04285567 Reaches Primary Completion
+## Roche's NCT04285567 Trial Completed Primary Completion
 
 **Date:** 2024-03-19 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-The Phase 3 clinical trial NCT04285567, sponsored by Roche, reached its primary completion on March 19, 2024. This study, which investigated Obinutuzumab, Venetoclax, Fludarabine, Cyclophosphamide, Rituximab, and Bendamustine, enrolled 166 participants and has reported results.
+The Phase 3 clinical trial NCT04285567, sponsored by Roche, reached its primary completion date on March 19, 2024. This study, which enrolled 166 participants, investigated Obinutuzumab, Venetoclax, Fludarabine, Cyclophosphamide, Rituximab, and Bendamustine. The trial now has results available.
 
 ### Market implication
-This event marks a procedural milestone for the trial, with market implications dependent on future data release.
+The primary completion of this Phase 3 trial indicates progress in Roche's clinical development pipeline, with results now available for further analysis.
 
 ### Affected entities
 - Company: [[roche]]

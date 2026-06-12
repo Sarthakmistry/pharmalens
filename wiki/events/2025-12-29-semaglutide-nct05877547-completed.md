@@ -14,10 +14,10 @@ last_updated: 2026-04-07
 **Date:** 2025-12-29 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT05877547) investigating semaglutide, sponsored by Merck, has reached its primary completion date on December 29, 2025. The trial enrolled 381 participants, and results are not yet available.
+A Phase 2 clinical trial (NCT05877547) investigating semaglutide, sponsored by Merck, has reached its primary completion date on December 29, 2025. The trial enrolled 381 participants and has not yet reported results.
 
 ### Market implication
-The completion of this Phase 2 trial marks a step forward in the development of semaglutide by Merck, with market implications pending the release of trial results.
+The completion of this Phase 2 trial represents a standard progression in the drug development pipeline for semaglutide, with market implications awaiting the release of trial results.
 
 ### Affected entities
 - Drug: [[semaglutide]]

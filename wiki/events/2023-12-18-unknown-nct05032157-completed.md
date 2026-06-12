@@ -5,21 +5,22 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis completes Phase 3 trial for investigational drug Lou064 (NCT05032157)
+headline: Novartis's Phase 3 Trial NCT05032157 for Lou064 Completed Primary Endpoint
 last_updated: 2023-12-18
 ---
 
-## Novartis completes Phase 3 trial for investigational drug Lou064 (NCT05032157)
+## Novartis's Phase 3 Trial NCT05032157 for Lou064 Completed Primary Endpoint
 
 **Date:** 2023-12-18 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis has completed its Phase 3 clinical trial, NCT05032157, for the investigational drug Lou064. The trial, which enrolled 455 participants, reached its primary completion on December 18, 2023, and has reported results. The study investigated Lou064 (blinded) and Lou064 (open-label).
+Novartis's Phase 3 clinical trial NCT05032157, investigating Lou064 (blinded and open-label formulations), reached its primary completion date on December 18, 2023. The study enrolled 455 participants and has reported that results are available.
 
 ### Market implication
-The completion of this Phase 3 trial means that data analysis can proceed, potentially leading to future regulatory submissions or further development decisions for Lou064.
+The completion of this Phase 3 trial allows Novartis to proceed with data analysis, which will inform future development decisions for Lou064.
 
 ### Affected entities
+- Drug: Lou064
 - Company: [[novartis]]
 
 ### Sources

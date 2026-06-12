@@ -1,23 +1,23 @@
 ---
 event_type: trial_completion
 date: 2025-10-17
-drugs: [pembrolizumab]
+drugs: [semaglutide, tirzepatide, retatrutide, liraglutide, dulaglutide, empagliflozin, dapagliflozin, canagliflozin, sitagliptin, saxagliptin, sacubitril-valsartan, inclisiran, finerenone, pembrolizumab, nivolumab, osimertinib, atezolizumab, durvalumab, palbociclib, ribociclib, abemaciclib, trastuzumab deruxtecan, olaparib, bevacizumab, cetuximab, lecanemab, donanemab]
 companies: [merck]
 indications: [oncology-nsclc, oncology-breast, oncology-crc]
 signal: neutral
-headline: Pembrolizumab Trial NCT04700072 Completed
+headline: Merck's Pembrolizumab Trial NCT04700072 Reaches Primary Completion
 last_updated: 2026-04-07
 ---
 
-## Pembrolizumab Trial NCT04700072 Completed
+## Merck's Pembrolizumab Trial NCT04700072 Reaches Primary Completion
 
 **Date:** 2025-10-17 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 1/2 clinical trial (NCT04700072) investigating pembrolizumab in combination with Pembrolizumab/quavonlimab and Lenvatinib for solid tumors reached its primary completion date on October 17, 2025. The trial, sponsored by Merck, enrolled 56 participants and has not yet reported results.
+Merck's Phase 1/2 clinical trial (NCT04700072) investigating [[pembrolizumab]] in combination with quavonlimab and lenvatinib for advanced solid tumors reached its primary completion date on October 17, 2025. The trial enrolled 56 participants and has not yet reported results.
 
 ### Market implication
-The completion of this trial is a standard procedural step and does not carry immediate market implications without the release of study results.
+The completion of this trial marks a step forward in the development process for [[pembrolizumab]] in advanced solid tumors, with market implications pending the release of results.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

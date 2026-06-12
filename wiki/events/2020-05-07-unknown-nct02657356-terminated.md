@@ -14,10 +14,10 @@ last_updated: 2026-04-07
 **Date:** 2020-05-07 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-A Phase 3 clinical trial (NCT02657356) for Bardoxolone methyl capsules, sponsored by Biogen, was terminated on May 7, 2020. The trial had an actual enrollment of 202 participants and had reached primary completion.
+Biogen has terminated its Phase 3 clinical trial (NCT02657356) investigating Bardoxolone methyl capsules for heart failure and hypertension. The trial reached primary completion on May 7, 2020, with 202 actual participants, and results are available. This termination indicates a halt in development for this specific indication.
 
 ### Market implication
-The termination of a Phase 3 trial for Bardoxolone methyl capsules represents a setback for Biogen's pipeline in the heart failure and hypertension indication.
+The termination of a Phase 3 trial for Bardoxolone methyl capsules is a bearish signal for Biogen's pipeline in the HF-HTN indication, potentially removing a future revenue stream.
 
 ### Affected entities
 - Drug: Bardoxolone methyl capsules

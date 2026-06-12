@@ -5,22 +5,21 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis's Onasemnogene Abeparvovec-xioi Phase 3 Trial (NCT03306277) Completed
+headline: Novartis completes Phase 3 trial NCT03306277 for Onasemnogene abeparvovec-xioi
 last_updated: 2019-11-12
 ---
 
-## Novartis's Onasemnogene Abeparvovec-xioi Phase 3 Trial (NCT03306277) Completed
+## Novartis completes Phase 3 trial NCT03306277 for Onasemnogene abeparvovec-xioi
 
 **Date:** 2019-11-12 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis announced the primary completion of its Phase 3 clinical trial, NCT03306277, for Onasemnogene abeparvovec-xioi on November 12, 2019. The trial enrolled 22 participants and has reported results, though specific findings are not detailed in this event. This marks a significant milestone in the development of the therapy.
+Novartis has completed its Phase 3 clinical trial, NCT03306277, which investigated Onasemnogene abeparvovec-xioi. The trial enrolled 22 participants and reached its primary completion date on November 12, 2019, with results available.
 
 ### Market implication
-The completion of a Phase 3 trial is a standard development step; market implications will depend on the eventual publication and nature of the trial results.
+The completion of this Phase 3 trial for Onasemnogene abeparvovec-xioi by Novartis is a standard procedural update and has a neutral market implication without specific efficacy or safety data.
 
 ### Affected entities
-- Drug: Onasemnogene abeparvovec-xioi
 - Company: [[novartis]]
 
 ### Sources

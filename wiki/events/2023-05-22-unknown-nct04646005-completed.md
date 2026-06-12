@@ -5,23 +5,21 @@ drugs: []
 companies: [regeneron]
 indications: []
 signal: neutral
-headline: Regeneron completes Phase 2 trial NCT04646005 for Cemiplimab and Isa101b
+headline: Regeneron's Trial NCT04646005 for Cemiplimab and Isa101b Completed
 last_updated: 2023-05-22
 ---
-```
 
-## Regeneron completes Phase 2 trial NCT04646005 for Cemiplimab and Isa101b
+## Regeneron's Trial NCT04646005 for Cemiplimab and Isa101b Completed
 
 **Date:** 2023-05-22 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Regeneron has completed its Phase 2 clinical trial (NCT04646005) for Cemiplimab and Isa101b on May 22, 2023. The trial enrolled 113 participants and has reported that results are available.
+Clinical trial NCT04646005, sponsored by [[regeneron]] and investigating Cemiplimab and Isa101b, reached its primary completion on May 22, 2023. This Phase 2 study enrolled 113 participants and has reported results.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard procedural step, with market impact dependent on the eventual release and nature of the study results.
+The completion of the trial is a neutral event, pending the release and analysis of the study results.
 
 ### Affected entities
-- Drug: Cemiplimab, Isa101b
 - Company: [[regeneron]]
 
 ### Sources

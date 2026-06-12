@@ -5,24 +5,24 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: bearish
-headline: Novartis terminates Phase 2/3 trial (NCT04828161) for Ensovibep
+headline: Novartis terminates Phase 2/3 clinical trial for Ensovibep (NCT04828161)
 last_updated: 2021-11-18
 ---
+```
 
-## Novartis terminates Phase 2/3 trial (NCT04828161) for Ensovibep
+## Novartis terminates Phase 2/3 clinical trial for Ensovibep (NCT04828161)
 
 **Date:** 2021-11-18 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-Novartis terminated its Phase 2/3 clinical trial (NCT04828161) for the drug Ensovibep on November 18, 2021. The trial had an actual enrollment of 407 participants and reached its primary completion date on the same day it was terminated. The specific reason for the termination was not detailed in the provided information.
+Novartis terminated its Phase 2/3 clinical trial (NCT04828161) for the drug Ensovibep. The trial, which had an actual enrollment of 407 participants, reached its primary completion date on November 18, 2021, prior to its termination.
 
 ### Market implication
-The termination of a late-stage clinical trial for Ensovibep represents a setback for Novartis's pipeline, potentially impacting the company's future prospects for this specific therapeutic area.
+The termination of a late-stage clinical trial for Ensovibep represents a setback for Novartis's pipeline, indicating a potential failure or strategic shift, which is a bearish signal for the company.
 
 ### Affected entities
 - Drug: Ensovibep
 - Company: [[novartis]]
-- Indication: 
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT04828161.json`

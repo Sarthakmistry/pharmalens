@@ -1,23 +1,23 @@
 ---
 event_type: trial_completion
 date: 2021-05-19
-drugs: [semaglutide]
+drugs: [pembrolizumab]
 companies: [merck]
 indications: [oncology-nsclc]
 signal: neutral
-headline: Pembrolizumab Phase 3 Trial NCT03829332 Completed for Non-Small Cell Lung Cancer
+headline: Merck's Pembrolizumab (Keytruda) Phase 3 Trial NCT03829332 for NSCLC Completed
 last_updated: 2021-05-19
 ---
 
-## Pembrolizumab Phase 3 Trial NCT03829332 Completed for Non-Small Cell Lung Cancer
+## Merck's Pembrolizumab (Keytruda) Phase 3 Trial NCT03829332 for NSCLC Completed
 
 **Date:** 2021-05-19 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 3 clinical trial (NCT03829332) investigating [[pembrolizumab]] for non-small cell lung cancer (NSCLC) reached its primary completion date on May 19, 2021. The trial, which enrolled 623 participants, has reported results.
+Merck's Phase 3 clinical trial NCT03829332, investigating [[pembrolizumab]] in combination with Lenvatinib for non-small cell lung cancer (NSCLC), reached its primary completion date on May 19, 2021. The trial enrolled 623 participants and has reported having results.
 
 ### Market implication
-The completion of this Phase 3 trial represents a procedural milestone for [[merck]] in the development of [[pembrolizumab]] for [[oncology-nsclc/_index]], indicating progress towards potential regulatory submissions or label expansions.
+The completion of this Phase 3 trial is a standard procedural step, and its market implication is neutral until results are publicly disclosed and analyzed.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

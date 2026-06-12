@@ -5,24 +5,24 @@ drugs: []
 companies: [pfizer]
 indications: []
 signal: neutral
-headline: Pfizer's Rimegepant Phase 3 Trial (NCT05399485) Reaches Primary Completion
+headline: Pfizer's Phase 3 Trial for Rimegepant (NCT05399485) Reaches Primary Completion
 last_updated: 2024-01-18
 ---
+```
 
-## Pfizer's Rimegepant Phase 3 Trial (NCT05399485) Reaches Primary Completion
+## Pfizer's Phase 3 Trial for Rimegepant (NCT05399485) Reaches Primary Completion
 
 **Date:** 2024-01-18 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT05399485) for Rimegepant, sponsored by Pfizer, reached its primary completion on January 18, 2024. The trial enrolled 496 participants and has reported that results are available. This marks a significant procedural milestone for the drug's development.
+A Phase 3 clinical trial (NCT05399485) investigating Rimegepant, sponsored by Pfizer, officially reached its primary completion date on January 18, 2024. The study enrolled 496 participants and has completed the assessment of its primary endpoint, indicating the trial has concluded its data collection phase for key outcomes.
 
 ### Market implication
-The primary completion of this Phase 3 trial marks a procedural milestone, with market implications dependent on the eventual release and nature of the trial results.
+The completion of this Phase 3 trial is a procedural milestone for Rimegepant, moving it closer to potential data readout and subsequent regulatory submissions.
 
 ### Affected entities
 - Drug: Rimegepant
 - Company: [[pfizer]]
-- Indication: None specified
 
 ### Sources
 - `raw/ctgov/pfizer/2026-04-07/NCT05399485.json`

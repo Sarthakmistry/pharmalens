@@ -6,7 +6,7 @@ companies: [pfizer]
 indications: []
 signal: neutral
 headline: Pfizer's Phase 2 Trial NCT04821310 Reaches Primary Completion
-last_updated: 2026-04-07
+last_updated: 2025-12-16
 ---
 
 ## Pfizer's Phase 2 Trial NCT04821310 Reaches Primary Completion
@@ -14,10 +14,10 @@ last_updated: 2026-04-07
 **Date:** 2025-12-16 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Pfizer's Phase 2 clinical trial, NCT04821310, has reached its primary completion date on December 16, 2025. The trial, which enrolled 43 participants, is now completed, though results have not yet been posted.
+Pfizer's Phase 2 clinical trial, NCT04821310, has reached its primary completion date on December 16, 2025. The trial enrolled 43 participants and its status is now listed as completed. No results have been published yet.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard procedural step for Pfizer, with no immediate market impact until results are released.
+The primary completion of this Phase 2 trial is a standard procedural step and does not carry immediate market implications without disclosed results.
 
 ### Affected entities
 - Company: [[pfizer]]

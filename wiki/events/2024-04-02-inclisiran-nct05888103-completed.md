@@ -5,19 +5,18 @@ drugs: [inclisiran]
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Inclisiran Trial NCT05888103 Completed Primary Endpoint
+headline: Inclisiran Trial NCT05888103 Reaches Primary Completion
 last_updated: 2024-04-02
 ---
-
-## Inclisiran Trial NCT05888103 Completed Primary Endpoint
+## Inclisiran Trial NCT05888103 Reaches Primary Completion
 
 **Date:** 2024-04-02 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT05888103) for [[inclisiran]], sponsored by [[novartis]], has reached its primary completion date on April 2, 2024. The trial enrolled 207 participants and has indicated that results are available.
+Clinical trial NCT05888103, investigating [[inclisiran]] by [[novartis]], has reached its primary completion date on April 2, 2024. This Phase 3 study enrolled 207 participants, and results are now available.
 
 ### Market implication
-The completion of this Phase 3 trial for inclisiran is a neutral event, as no specific results or outcomes have been announced yet.
+The completion of this Phase 3 trial is a standard procedural step for [[novartis]]'s [[inclisiran]], with market impact dependent on the eventual disclosure of results.
 
 ### Affected entities
 - Drug: [[inclisiran]]

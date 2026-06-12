@@ -5,19 +5,19 @@ drugs: [dapagliflozin]
 companies: [eli-lilly]
 indications: [type2-diabetes]
 signal: neutral
-headline: Phase 3 Trial of Dapagliflozin (NCT06192108) for Type 2 Diabetes Reaches Primary Completion
+headline: Eli Lilly's Phase 3 Orforglipron Trial (NCT06192108) with Dapagliflozin Comparator Completes Primary Endpoint
 last_updated: 2026-04-07
 ---
 
-## Phase 3 Trial of Dapagliflozin (NCT06192108) for Type 2 Diabetes Reaches Primary Completion
+## Eli Lilly's Phase 3 Orforglipron Trial (NCT06192108) with Dapagliflozin Comparator Completes Primary Endpoint
 
 **Date:** 2025-09-26 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT06192108) investigating dapagliflozin for Type 2 Diabetes, sponsored by Eli Lilly, reached its primary completion date on September 26, 2025. The trial enrolled 962 participants and has completed data collection for its primary outcome measures. Results from this trial are not yet available.
+Eli Lilly's Phase 3 clinical trial (NCT06192108) investigating Orforglipron for Type 2 Diabetes Mellitus has reached its primary completion date on September 26, 2025. The study, which enrolled 962 participants, included [[dapagliflozin]] as an active comparator. This completion marks a significant step towards potential data readout for Orforglipron.
 
 ### Market implication
-The completion of this Phase 3 trial represents a standard progression in the drug development lifecycle for dapagliflozin, with market implications pending the release and analysis of the study results.
+The completion of this Phase 3 trial for Eli Lilly's Orforglipron is a neutral signal, as results are not yet available, but it moves the drug closer to potential market entry.
 
 ### Affected entities
 - Drug: [[dapagliflozin]]

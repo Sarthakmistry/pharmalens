@@ -14,10 +14,10 @@ last_updated: 2026-04-07
 **Date:** 2025-05-30 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Eli Lilly's Phase 2 clinical trial (NCT06230523) for the investigational drug Ly3841136, targeting GLP-1 obesity, has completed its primary endpoint on May 30, 2025. The trial enrolled 263 participants and has not yet reported results. This marks a significant milestone in the drug's development pathway.
+Eli Lilly's Phase 2 clinical trial (NCT06230523) investigating Ly3841136 for GLP-1 obesity has reached its primary completion date on May 30, 2025. The study, which enrolled 263 participants, has completed data collection for its primary outcome measures, though results have not yet been published.
 
 ### Market implication
-The completion of the primary endpoint for this Phase 2 trial is a standard development step and does not carry immediate market implications without disclosed results.
+This trial completion represents a procedural step in Eli Lilly's GLP-1 obesity pipeline, with market impact contingent upon the future disclosure of efficacy and safety data.
 
 ### Affected entities
 - Drug: Ly3841136

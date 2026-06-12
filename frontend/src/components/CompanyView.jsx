@@ -19,6 +19,8 @@ export default function CompanyView({ slug, onSelectIndication }) {
 
   const { meta, wiki, stock, drug_indications = {} } = data
   const events = parseEventsTable(wiki)
+  const secEvents   = events.filter(e => e.type === 'sec')
+  const trialEvents = events.filter(e => e.type === 'trial' || e.type === 'research')
 
   const changePct = stock?.change_pct
   const priceClass = changePct > 0 ? 'price-pos' : changePct < 0 ? 'price-neg' : 'price-neu'
@@ -74,16 +76,15 @@ export default function CompanyView({ slug, onSelectIndication }) {
         </>
       )}
 
-      {/* Events + indications */}
-      <div className="bottom-grid">
-        {/* Events */}
+      {/* SEC events + Clinical trials side by side */}
+      <div className="bottom-grid" style={{ marginBottom: 16 }}>
         <div className="card">
-          <p className="sec-label" style={{ marginBottom: 12 }}>Recent events</p>
+          <p className="sec-label" style={{ marginBottom: 12 }}>Earnings &amp; regulatory</p>
           <div className="event-list">
-            {events.length === 0 && (
-              <p style={{ fontSize: 13, color: '#888780' }}>No events found in wiki</p>
+            {secEvents.length === 0 && (
+              <p style={{ fontSize: 13, color: '#888780' }}>No SEC filings in wiki</p>
             )}
-            {events.slice(0, 10).map((e, i) => (
+            {secEvents.slice(0, 8).map((e, i) => (
               <div key={i} className="event-row">
                 <span className="evt-dot" style={{ background: eventColor(e.event) }} />
                 <div>
@@ -95,7 +96,27 @@ export default function CompanyView({ slug, onSelectIndication }) {
           </div>
         </div>
 
-        {/* Active indications */}
+        <div className="card">
+          <p className="sec-label" style={{ marginBottom: 12 }}>Clinical trials</p>
+          <div className="event-list">
+            {trialEvents.length === 0 && (
+              <p style={{ fontSize: 13, color: '#888780' }}>No trial events in wiki</p>
+            )}
+            {trialEvents.slice(0, 8).map((e, i) => (
+              <div key={i} className="event-row">
+                <span className="evt-dot" style={{ background: eventColor(e.event) }} />
+                <div>
+                  <div className="evt-date">{e.date}</div>
+                  <div className="evt-text">{e.event}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Active indications */}
+      <div className="bottom-grid">
         <div className="card">
           <p className="sec-label" style={{ marginBottom: 12 }}>Active indications</p>
           <div className="co-list">

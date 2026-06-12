@@ -5,19 +5,18 @@ drugs: [nivolumab]
 companies: [bristol-myers-squibb]
 indications: []
 signal: neutral
-headline: Nivolumab (Opdivo) Phase 3 Trial (NCT02667587) Completed
+headline: Nivolumab (Opdivo) Phase 3 Trial NCT02667587 for Glioblastoma Completed
 last_updated: 2020-12-22
 ---
-
-## Nivolumab (Opdivo) Phase 3 Trial (NCT02667587) Completed
+## Nivolumab (Opdivo) Phase 3 Trial NCT02667587 for Glioblastoma Completed
 
 **Date:** 2020-12-22 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT02667587) sponsored by [[bristol-myers-squibb]], investigating [[nivolumab]] in combination with Temozolomide and Radiotherapy, reached its primary completion date on December 22, 2020. The study, which enrolled 716 participants, has reported results.
+The Phase 3 clinical trial NCT02667587, evaluating nivolumab in combination with temozolomide and radiotherapy for newly diagnosed glioblastoma, reached its primary completion date on December 22, 2020. This trial, sponsored by Bristol-Myers Squibb, enrolled 716 participants and has reported results.
 
 ### Market implication
-The completion of this Phase 3 trial is a standard development, and its market impact will depend on the eventual publication and nature of the trial results.
+The completion of this Phase 3 trial allows for the analysis of data, which will inform future development and potential regulatory submissions for nivolumab in glioblastoma.
 
 ### Affected entities
 - Drug: [[nivolumab]]

@@ -1,27 +1,27 @@
 ---
 event_type: trial_completion
 date: 2024-03-06
-drugs: [semaglutide]
+drugs: [pembrolizumab]
 companies: [merck]
-indications: []
+indications: [oncology-nsclc]
 signal: neutral
-headline: Merck's Pembrolizumab (NCT05665595) Phase 3 Trial Completes Primary Endpoint
+headline: Pembrolizumab (Keytruda) Phase 3 Trial NCT05665595 Completed
 last_updated: 2024-03-06
 ---
-
-## Merck's Pembrolizumab (NCT05665595) Phase 3 Trial Completes Primary Endpoint
+## Pembrolizumab (Keytruda) Phase 3 Trial NCT05665595 Completed
 
 **Date:** 2024-03-06 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT05665595) for [[pembrolizumab]], sponsored by [[merck]], has completed its primary endpoint on March 6, 2024. The trial enrolled 1594 participants and has indicated that results are available.
+A Phase 3 clinical trial (NCT05665595) investigating [[pembrolizumab]], sponsored by [[merck]], has reached its primary completion date on March 6, 2024. The trial enrolled 1594 participants and has reported that results are available. This trial is likely focused on an oncology indication, given pembrolizumab's profile.
 
 ### Market implication
-The completion of a trial's primary endpoint is a standard procedural step and is generally neutral for market valuation until the trial results are publicly announced.
+The completion of this Phase 3 trial is a standard procedural step, indicating that data collection for the primary endpoint is finished and analysis can now proceed, which is a neutral development for Merck.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]
 - Company: [[merck]]
+- Indication: [[oncology-nsclc/_index]]
 
 ### Sources
 - `raw/ctgov/merck/2026-04-07/NCT05665595.json`

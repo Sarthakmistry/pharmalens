@@ -2,22 +2,22 @@
 event_type: trial_termination
 date: 2024-10-17
 drugs: []
-companies: [novartis]
+companies: ["novartis"]
 indications: []
-signal: neutral
-headline: Novartis's Phase 3 Trial for Secukinumab (NCT05758415) Terminated
+signal: bearish
+headline: Novartis terminates Phase 3 trial NCT05758415 for Secukinumab
 last_updated: 2024-10-17
 ---
 
-## Novartis's Phase 3 Trial for Secukinumab (NCT05758415) Terminated
+## Novartis terminates Phase 3 trial NCT05758415 for Secukinumab
 
-**Date:** 2024-10-17 | **Type:** trial_termination | **Signal:** neutral
+**Date:** 2024-10-17 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-A Phase 3 clinical trial (NCT05758415) sponsored by Novartis, investigating Secukinumab, was terminated on October 17, 2024. The trial had an actual enrollment of 60 participants and reached its primary completion date on the same day. The reason for termination was not specified in the available information.
+Novartis has terminated its Phase 3 clinical trial, NCT05758415, which involved the drug Secukinumab. The trial, which had an actual enrollment of 60 participants, reached its primary completion on October 17, 2024, and results are available.
 
 ### Market implication
-The termination of this trial for Secukinumab, an untracked drug in this system, is unlikely to have a significant market impact on Novartis or the broader pharmaceutical landscape.
+The termination of a Phase 3 trial for Secukinumab could be viewed as a setback for Novartis's pipeline, potentially impacting future revenue expectations for the drug in the specific indication.
 
 ### Affected entities
 - Drug: Secukinumab

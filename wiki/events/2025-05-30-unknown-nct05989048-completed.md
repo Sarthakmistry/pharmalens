@@ -5,23 +5,24 @@ drugs: []
 companies: [pfizer]
 indications: []
 signal: neutral
-headline: Pfizer's Zavegepant Trial NCT05989048 Reaches Primary Completion
-last_updated: 2026-04-07
+headline: Pfizer's Zavegepant Phase 3 Trial (NCT05989048) Completes Primary Endpoint
+last_updated: 2025-05-30
 ---
 
-## Pfizer's Zavegepant Trial NCT05989048 Reaches Primary Completion
+## Pfizer's Zavegepant Phase 3 Trial (NCT05989048) Completes Primary Endpoint
 
 **Date:** 2025-05-30 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT05989048) sponsored by Pfizer, investigating Zavegepant, has reached its primary completion date on May 30, 2025. The trial enrolled 1414 participants and its status is now listed as COMPLETED, though results are not yet available.
+Pfizer's Phase 3 trial (NCT05989048) for Zavegepant, with an actual enrollment of 1414 participants, reached its primary completion on May 30, 2025. The trial has results available, indicating it has met its primary endpoint.
 
 ### Market implication
-The completion of this Phase 3 trial marks a procedural milestone for Pfizer's Zavegepant, with market impact pending the release and analysis of the trial results.
+As a trial completion without specific results details, the market implication is currently neutral, awaiting data release.
 
 ### Affected entities
 - Drug: Zavegepant
 - Company: [[pfizer]]
+- Indication:
 
 ### Sources
-- `raw/ctgov/pfizer/2026-04-07/NCT05989048.json`
+- `raw/ctgov/pfizer/2026-06-01/NCT05989048.json`

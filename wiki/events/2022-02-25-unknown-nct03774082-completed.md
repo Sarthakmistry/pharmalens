@@ -14,15 +14,14 @@ last_updated: 2022-02-25
 **Date:** 2022-02-25 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis completed a Phase 2 clinical trial (NCT03774082) for its drug Inc424 on February 25, 2022. The trial enrolled 46 participants and has results available.
+Novartis has completed a Phase 2 clinical trial (NCT03774082) for the drug Inc424. The trial, which enrolled 46 participants, reached its primary completion date on February 25, 2022, and results are available.
 
 ### Market implication
-The market implication is neutral pending the release and analysis of the trial results.
+The completion of a Phase 2 trial is a standard procedural step and typically has a neutral market implication unless specific results are announced.
 
 ### Affected entities
 - Drug: Inc424
 - Company: [[novartis]]
-- Indication:
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT03774082.json`

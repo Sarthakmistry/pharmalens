@@ -4,9 +4,9 @@ display_name: Type 2 Diabetes
 icd10: [E11, E11.0, E11.9, E11.65]
 drugs_approved: [canagliflozin, dapagliflozin, dulaglutide, empagliflozin, liraglutide, saxagliptin, semaglutide, sitagliptin, tirzepatide]
 drugs_pipeline: [retatrutide]
-companies_active: [amgen, astrazeneca, bayer, boehringer-ingelheim, eli-lilly, johnson-and-johnson, merck, novo-nordisk]
-active_trials: 8
-last_updated: 2024-10-09
+companies_active: [amgen, astrazeneca, boehringer-ingelheim, eli-lilly, johnson-and-johnson, merck, novo-nordisk, pfizer, regeneron]
+active_trials: 18
+last_updated: 2024-05-17
 ---
 
 ## Type 2 Diabetes
@@ -16,12 +16,12 @@ last_updated: 2024-10-09
 |---|---|---|---|---|
 | [[canagliflozin]] | [[johnson-and-johnson]] | Approved | Neutral | JNJ |
 | [[dapagliflozin]] | [[astrazeneca]] | Approved | Bullish | AZN |
-| [[dulaglutide]] | [[eli-lilly]] | Approved | Bullish | LLY |
+| [[dulaglutide]] | [[eli-lilly]] | Approved | Neutral | LLY |
 | [[empagliflozin]] | [[boehringer-ingelheim]] | Approved | Bullish | |
-| [[liraglutide]] | [[novo-nordisk]] | Approved | Bullish | NVO |
+| [[liraglutide]] | [[novo-nordisk]] | Approved | Neutral | NVO |
 | [[retatrutide]] | [[eli-lilly]] | Pipeline | Bullish | LLY |
 | [[saxagliptin]] | [[astrazeneca]] | Approved | Bullish | AZN |
-| [[semaglutide]] | [[novo-nordisk]] | Approved | Bullish | NVO |
+| [[semaglutide]] | [[novo-nordisk]] | Approved | Bearish | NVO |
 | [[sitagliptin]] | [[merck]] | Approved | Bullish | MRK |
 | [[tirzepatide]] | [[eli-lilly]] | Approved | Bullish | LLY |
 
@@ -31,23 +31,31 @@ last_updated: 2024-10-09
 | [[amgen]] | | 2024-10-08 | Amgen's Maridebart cafraglutide Phase 2 trial (NCT05669599) completed for GLP-1 / Obesity and Type 2 Diabetes |
 | [[astrazeneca]] | dapagliflozin, saxagliptin | 2026-05-04 | Tozorakimab fails to reduce UACR in DKD patients with type 2 diabetes |
 | [[boehringer-ingelheim]] | empagliflozin | |
-| [[eli-lilly]] | tirzepatide, dulaglutide, retatrutide | 2026-04-30 | Eli Lilly Q1 earnings and Orforglipron FDA approval |
+| [[eli-lilly]] | tirzepatide, dulaglutide, retatrutide | 2026-04-15 | Tirzepatide Phase 4 trial (NCT06635057) completed for Type 2 Diabetes |
 | [[johnson-and-johnson]] | canagliflozin | 2026-01-21 | Johnson & Johnson Q4 2025 Earnings |
-| [[merck]] | sitagliptin | 2026-04-12 | Triple FDC of DAPA + SITA + MET IR demonstrated superior efficacy in T2DM |
-| [[novo-nordisk]] | semaglutide, liraglutide | 2026-04-12 | SGLT2 inhibitors and GLP-1 RAs show renal protection in T2DM and CKD |
+| [[merck]] | sitagliptin | 2025-04-11 | Unknown drug Phase 3 trial (NCT04029480) completed for Type 2 Diabetes |
+| [[novo-nordisk]] | semaglutide, liraglutide | 2026-04-12 | Oral semaglutide reduced MACE in T2D with ASCVD/CKD |
+| [[pfizer]] | | 2025-12-29 | Met097 injection Phase 2 trial (NCT06897202) completed for GLP-1 / Obesity and Type 2 Diabetes |
+| [[regeneron]] | | 2022-05-30 | Aflibercept Phase 2 | PHASE3 trial (NCT04429503) completed for Type 2 Diabetes |
 
 ### Recent events
 | Date | Event | Signal |
 |---|---|---|
-| 2024-10-08 | Amgen's Maridebart cafraglutide Phase 2 trial (NCT05669599) completed for GLP-1 / Obesity and Type 2 Diabetes | [[2024-10-08-unknown-nct05669599-completed]] |
 | 2026-05-04 | Tozorakimab fails to reduce UACR in DKD patients with type 2 diabetes | [[2026-05-04-tozorakimab-dkd-uacr-failure]] |
+| 2026-04-30 | Eli Lilly Q1 earnings and Orforglipron FDA approval | [[2026-04-30-eli-lilly-q1-earnings-orforglipron-fda-approval]] |
+| 2026-04-15 | Tirzepatide Phase 4 trial (NCT06635057) completed for Type 2 Diabetes | [[2026-04-15-tirzepatide-nct06635057-completed]] |
+| 2026-04-12 | Retatrutide, Tirzepatide, Semaglutide efficacy in T2DM | [[2026-04-12-retatrutide-tirzepatide-semaglutide-t2dm-efficacy]] |
+| 2026-04-12 | Retatrutide significantly reduces fat mass in T2D | [[2026-04-12-retatrutide-fat-mass-reduction-t2d]] |
+| 2026-04-12 | Retatrutide reduces hunger and overeating in T2D | [[2026-04-12-retatrutide-appetite-reduction-t2d]] |
+| 2026-04-12 | Retatrutide and survodutide show favorable efficacy in obesity/T2DM | [[2026-04-12-retatrutide-survodutide-efficacy-t2dm]] |
+| 2026-04-12 | Oral semaglutide reduced MACE in T2D with ASCVD/CKD | [[2026-04-12-semaglutide-mace-reduction-t2d-ascvd-ckd]] |
+| 2026-04-12 | Semaglutide generally cost-effective for T2D | [[2026-04-12-semaglutide-cost-effective-t2d]] |
 | 2026-04-12 | Dapagliflozin combined with intensive insulin pump therapy shows promise in T2DM | [[2026-04-12-dapagliflozin-metformin-t2dm-pubmed]] |
 | 2026-04-12 | SGLT2i maintain favorable benefit-risk profile in older adults with T2D | [[2026-04-12-sglt2i-older-adults-t2d-pubmed]] |
 | 2026-04-12 | SGLT2 inhibitors associated with lower dementia risk in T2DM | [[2026-04-12-sglt2-inhibitors-dementia-risk-t2dm-pubmed]] |
 | 2026-04-12 | Oral quadruple therapy shows superior glycemic and metabolic improvement in T2D | [[2026-04-12-oral-quadruple-therapy-t2d-pubmed]] |
 | 2026-04-12 | Dapagliflozin reduces liver fat in T2D patients | [[2026-04-12-dapagliflozin-reduces-liver-fat-t2d-pubmed]] |
 | 2026-04-12 | Adjunctive nutritional intervention enhances dapagliflozin benefits in DN | [[2026-04-12-dapagliflozin-nutritional-intervention-dn-pubmed]] |
-| 2026-04-01 | Dapagliflozin well tolerated in kidney transplant recipients | [[2026-04-01-dapagliflozin-kidney-transplant-pubmed]] |
 | 2026-04-12 | Pioglitazone non-inferior to dapagliflozin in T2D | [[2026-04-12-pioglitazone-noninferior-dapagliflozin-t2d-pubmed]] |
 | 2026-04-12 | Meta-analysis on GLP-1 RAs and SGLT2 inhibitors for neuropsychiatric outcomes | [[2026-04-12-glp1-sglt2-neuropsychiatric-meta-analysis-pubmed]] |
 | 2026-04-12 | Dapagliflozin decreases vascular arterial stiffness | [[2026-04-12-dapagliflozin-vascular-stiffness-pubmed]] |
@@ -59,13 +67,43 @@ last_updated: 2024-10-09
 | 2026-04-12 | Triple FDC of DAPA + SITA + MET IR demonstrated superior efficacy in T2DM | [[2026-04-12-triple-fdc-dapa-sita-met-ir-t2dm-pubmed]] |
 | 2026-04-12 | Dapagliflozin improves cardiac function in post-MI patients | [[2026-04-12-dapagliflozin-cardiac-function-pubmed]] |
 | 2026-04-12 | Dapagliflozin shows MASH improvement in T2D patients | [[2026-04-12-dapagliflozin-mash-results-pubmed]] |
+| 2026-03-04 | Semaglutide, Tirzepatide Phase 3 trial (NCT06221969) completed for Type 2 Diabetes | [[2026-03-04-semaglutide-nct06221969-completed]] |
+| 2026-01-02 | Met097 injection Phase 2 trial (NCT06897202) completed for GLP-1 / Obesity and Type 2 Diabetes | [[2026-01-02-unknown-nct06897202-completed]] |
 | 2026-01-01 | SMARTEST trial interim results for dapagliflozin and metformin | [[2026-01-01-smartest-trial-dapagliflozin-metformin-interim-results-pubmed]] |
-| 2026-04-30 | Eli Lilly Q1 earnings and Orforglipron FDA approval | [[2026-04-30-eli-lilly-q1-earnings-orforglipron-fda-approval]] |
-| 2026-01-21 | Johnson & Johnson Q4 2025 Earnings | [[2026-01-21-johnson-and-johnson-q4-2025-earnings]] |
+| 2025-12-29 | Met097 injection Phase 2 trial (NCT06897202) completed for GLP-1 / Obesity and Type 2 Diabetes | [[2025-12-29-unknown-nct06897202-completed]] |
+| 2025-12-19 | AstraZeneca's semaglutide Phase 2 trial (NCT06579105) completed for Type 2 Diabetes | [[2025-12-19-semaglutide-nct06579105-completed]] |
+| 2025-11-19 | Semaglutide Phase 3 trial (NCT06065540) completed for Type 2 Diabetes | [[2025-11-19-semaglutide-nct06065540-completed]] |
+| 2025-10-01 | Retatrutide reduces ANGPTL3/8, TG, and LDL-C in T2D/obesity | [[2025-10-01-retatrutide-lipid-reduction-t2d-obesity]] |
+| 2025-10-01 | Semaglutide Phase 3 trial (NCT06323174) completed for Type 2 Diabetes | [[2025-10-01-semaglutide-nct06323174-completed]] |
+| 2025-10-01 | Unknown drug Phase 2 trial (NCT06542874) completed for Type 2 Diabetes | [[2025-10-01-unknown-nct06542874-completed]] |
+| 2025-09-24 | Semaglutide Phase 2 trial (NCT06131372) completed for Type 2 Diabetes and GLP-1 / Obesity | [[2025-09-24-semaglutide-nct06131372-completed]] |
+| 2025-09-19 | Unknown drug Phase 2 trial (NCT06326047) completed for Type 2 Diabetes | [[2025-09-19-unknown-nct06326047-completed]] |
+| 2025-09-09 | Semaglutide Phase 3 trial (NCT06323161) completed for Type 2 Diabetes | [[2025-09-09-semaglutide-nct06323161-completed]] |
 | 2025-09-05 | Dapagliflozin improves cognitive function in T2DM | [[2025-09-05-dapagliflozin-cognitive-function-pubmed]] |
+| 2025-09-01 | GLP-1 RAs and risk of pancreatitis/pancreatic cancer | [[2025-09-01-glp1-ras-pancreatitis-risk]] |
+| 2025-09-01 | Semaglutide improves functional outcomes in PAD and T2D | [[2025-09-01-semaglutide-pad-t2d-functional-outcomes]] |
 | 2025-09-01 | Dapagliflozin and exenatide improve β-cell function and insulin sensitivity | [[2025-09-01-dapagliflozin-exenatide-bcf-insulin-sensitivity-pubmed]] |
 | 2025-08-05 | Dapagliflozin reduces new-onset T2DM and heart failure symptoms post-MI | [[2025-08-05-dapagliflozin-t2dm-hf-post-mi-pubmed]] |
+| 2025-08-01 | GLP-1RAs reduce SBP in obesity/T2D | [[2025-08-01-glp1-ras-sbp-reduction-obesity-t2d]] |
+| 2025-07-01 | Once-weekly IcoSema non-inferior to BBT for HbA1c in T2D | [[2025-07-01-icosema-noninferior-bbt-t2d]] |
+| 2025-07-01 | Once-weekly IcoSema superior to icodec alone in T2D | [[2025-07-01-icosema-superior-icodec-t2d]] |
+| 2025-06-18 | Semaglutide Phase 4 trial (NCT05035082) completed for Type 2 Diabetes | [[2025-06-18-semaglutide-nct05035082-completed]] |
+| 2025-06-01 | Retatrutide most effective for weight loss, Tirzepatide for glycemic control | [[2025-06-01-retatrutide-tirzepatide-weight-glycemic-control]] |
+| 2025-05-27 | Unknown drug Phase 3 trial (NCT06269107) completed for Type 2 Diabetes | [[2025-05-27-unknown-nct06269107-completed]] |
+| 2025-05-01 | Long-acting GLP-1RAs reduce MACE, HHF, kidney events, all-cause mortality in T2D | [[2025-05-01-glp1-ras-cv-renal-mortality-t2d]] |
+| 2025-04-29 | Semaglutide Phase 3 trial (NCT04596631) completed for Type 2 Diabetes | [[2025-04-29-semaglutide-nct04596631-completed]] |
+| 2025-04-14 | Semaglutide Phase 3 trial (NCT05813912) completed for Type 2 Diabetes | [[2025-04-14-semaglutide-nct05813912-completed]] |
+| 2025-04-11 | Unknown drug Phase 3 trial (NCT04029480) completed for Type 2 Diabetes | [[2025-04-11-unknown-nct04029480-completed]] |
+| 2025-03-05 | Semaglutide Phase 3 trial (NCT05514535) completed for Type 2 Diabetes and GLP-1 / Obesity | [[2025-03-05-semaglutide-nct05514535-completed]] |
+| 2025-01-28 | Semaglutide Phase 3 trial (NCT05394519) completed for GLP-1 / Obesity and Type 2 Diabetes | [[2025-01-28-semaglutide-nct05394519-completed]] |
 | 2025-01-01 | Systematic Review and Network Meta-Analysis on T2D drugs for cardiovascular and metabolic outcomes | [[2025-01-01-pubmed-type2-diabetes-nm-analysis]] |
+| 2025-00-00 | Tirzepatide vs Semaglutide for weight/HbA1c in obesity/T2D | [[2025-00-00-tirzepatide-semaglutide-weight-hba1c-comparison]] |
+| 2025-00-00 | Tirzepatide vs Semaglutide for glycaemic control and weight reduction | [[2025-00-00-tirzepatide-semaglutide-glycaemic-weight-comparison]] |
+| 2025-00-00 | Semaglutide vs Empagliflozin for diabetic retinopathy | [[2025-00-00-semaglutide-empagliflozin-diabetic-retinopathy]] |
+| 2025-00-00 | Semaglutide improves fatty liver in T2D | [[2025-00-00-semaglutide-fatty-liver-t2d]] |
+| 2025-00-00 | Cotadutide improves UACR, UALB, body weight in CKD/T2DM | [[2025-00-00-cotadutide-ckd-t2dm-improvements]] |
+| 2025-00-00 | Semaglutide effect on carotid plaque inflammation in T2D/CVD | [[2025-00-00-semaglutide-carotid-plaque-inflammation]] |
+| 2025-00-00 | Semaglutide, Dulaglutide, Exenatide efficacy in T2DM | [[2025-00-00-semaglutide-dulaglutide-exenatide-t2dm-efficacy]] |
 | 2025-00-00 | SGLT2 inhibition enhances renal BCAA catabolism | [[2025-00-00-sglt2i-bcaa-catabolism-pubmed]] |
 | 2025-00-00 | Balcinrenone + dapagliflozin superior to dapagliflozin alone in reducing albuminuria in CKD | [[2025-00-00-balcinrenone-dapagliflozin-ckd-pubmed]] |
 | 2025-00-00 | Dapagliflozin DapaTAVI trial win ratio analysis published | [[2025-00-00-dapagliflozin-dapatavi-win-ratio-pubmed]] |
@@ -77,6 +115,27 @@ last_updated: 2024-10-09
 | 2025-00-00 | Dapagliflozin reduces blood pressure in T2D/CKD without increasing natriuresis | [[2025-pubmed-dapagliflozin-bp-natriuresis]] |
 | 2025-00-00 | Meta-analysis on SGLT2i effects in HF and T2DM published | [[2025-pubmed-sglt2i-hf-t2dm]] |
 | 2025-00-00 | Dapagliflozin shrinks EAT and LV mass in T2D patients | [[2025-00-00-dapagliflozin-eats-lv-mass-t2d-pubmed]] |
+| 2024-11-21 | Semaglutide Phase 3 trial (NCT04865770) completed for Type 2 Diabetes | [[2024-11-21-semaglutide-nct04865770-completed]] |
+| 2024-10-28 | Semaglutide Phase 3 trial (NCT05649137) completed for GLP-1 / Obesity and Type 2 Diabetes | [[2024-10-28-semaglutide-nct05649137-completed]] |
+| 2024-10-08 | Amgen's Maridebart cafraglutide Phase 2 trial (NCT05669599) completed for GLP-1 / Obesity and Type 2 Diabetes | [[2024-10-08-unknown-nct05669599-completed]] |
+| 2024-06-05 | Semaglutide Phase 3 trial (NCT04560998) completed for Type 2 Diabetes | [[2024-06-05-semaglutide-nct04560998-completed]] |
+| 2024-03-19 | Unknown drug Phase 3 trial (NCT05352815) completed for Type 2 Diabetes | [[2024-03-19-unknown-nct05352815-completed]] |
+| 2024-03-06 | Unknown drug Phase 3 trial (NCT05823948) completed for Type 2 Diabetes | [[2024-03-06-unknown-nct05823948-completed]] |
+| 2024-01-18 | Semaglutide Phase 4 trial (NCT05533632) completed for Type 2 Diabetes | [[2024-01-18-semaglutide-nct05533632-completed]] |
+| 2023-11-14 | Unknown drug Phase 3 trial (NCT05013229) completed for Type 2 Diabetes | [[2023-11-14-unknown-nct05013229-completed]] |
+| 2023-10-12 | Semaglutide Phase 2 trial (NCT05486065) completed for Type 2 Diabetes | [[2023-10-12-semaglutide-nct05486065-completed]] |
+| 2023-10-11 | Semaglutide Phase 3 trial (NCT04916470) completed for Type 2 Diabetes and HF-HTN | [[2023-10-11-semaglutide-nct04916470-completed]] |
+| 2023-08-09 | Semaglutide Phase 3 trial (NCT05478252) completed for Type 2 Diabetes | [[2023-08-09-semaglutide-nct05478252-completed]] |
+| 2023-03-07 | Semaglutide Phase 3 trial (NCT04707469) completed for Type 2 Diabetes | [[2023-03-07-semaglutide-nct04707469-completed]] |
+| 2023-02-13 | Semaglutide Phase 2 trial (NCT05144984) completed for Type 2 Diabetes | [[2023-02-13-semaglutide-nct05144984-completed]] |
+| 2022-08-23 | Semaglutide Phase 3 trial (NCT04251156) completed for GLP-1 / Obesity and Type 2 Diabetes | [[2022-08-23-semaglutide-nct04251156-completed]] |
+| 2022-08-12 | Unknown drug Phase 3 trial (NCT04760626) completed for Type 2 Diabetes | [[2022-08-12-unknown-nct04760626-completed]] |
+| 2022-07-07 | Semaglutide Phase 2 trial (NCT04982575) completed for Type 2 Diabetes | [[2022-07-07-semaglutide-nct04982575-completed]] |
+| 2022-07-05 | Unknown drug Phase 3 trial (NCT04588259) completed for Type 2 Diabetes | [[2022-07-05-unknown-nct04588259-completed]] |
+| 2022-06-16 | Unknown drug Phase 3 trial (NCT04880850) completed for Type 2 Diabetes | [[2022-06-16-unknown-nct04880850-completed]] |
+| 2022-05-30 | Aflibercept Phase 2 | PHASE3 trial (NCT04429503) completed for Type 2 Diabetes | [[2022-05-30-unknown-nct04429503-completed]] |
+| 2022-05-29 | Unknown drug Phase 3 trial (NCT04460885) completed for Type 2 Diabetes | [[2022-05-29-unknown-nct04460885-completed]] |
+| 2022-01-27 | Unknown drug Phase 3 trial (NCT04770532) completed for Type 2 Diabetes | [[2022-01-27-unknown-nct04770532-completed]] |
 | 2012-10-31 | NCT01351675 (unknown drug) Phase 3 trial terminated | [[2012-10-31-unknown-nct01351675-terminated]] |
 | 2010-12-31 | NCT01053936 (unknown drug) Phase 2 trial completed | [[2010-12-31-unknown-nct01053936-completed]] |
 | 2010-05-31 | NCT00811889 (unknown drug) Phase 2 trial completed | [[2010-05-31-unknown-nct01053936-completed]] |
@@ -84,14 +143,24 @@ last_updated: 2024-10-09
 ### Active trials
 | Trial | Drug | Phase | Status |
 |---|---|---|---|
-| [[NCT06858878]] | Maridebart cafraglutide | 3 | ACTIVE_NOT_RECRUITING |
-| [[NCT06660173]] | Maridebart cafraglutide | 2 | ACTIVE_NOT_RECRUITING |
-| NCT04170543 | tozorakimab | | |
-| [[NCT03782259]] | [[dapagliflozin]] | | |
-| [[NCT04965935]] | [[dapagliflozin]] | | |
-| [[NCT04258371]] | [[dapagliflozin]] | | |
+| [[NCT07564414]] | [[semaglutide]] | 3 | RECRUITING |
+| [[NCT07438444]] | [[tirzepatide]] | 4 | RECRUITING |
+| [[NCT07415954]] | [[semaglutide]] | 2 | RECRUITING |
+| [[NCT07400653]] | unknown | 3 | RECRUITING |
+| [[NCT07271251]] | [[semaglutide]] | 3 | ACTIVE_NOT_RECRUITING |
+| [[NCT07220759]] | unknown | 3 | ACTIVE_NOT_RECRUITING |
+| [[NCT07215559]] | unknown | 2 | RECRUITING |
+| [[NCT07215312]] | unknown | 2 | RECRUITING |
+| [[NCT07112339]] | unknown | 4 | RECRUITING |
+| [[NCT06897475]] | unknown | 2 | RECRUITING |
+| [[NCT06858878]] | unknown | 3 | ACTIVE_NOT_RECRUITING |
+| [[NCT06797869]] | [[semaglutide]] | 2 | ACTIVE_NOT_RECRUITING |
+| [[NCT06739122]] | [[dulaglutide]] | 3 | RECRUITING |
+| [[NCT06660173]] | unknown | 2 | ACTIVE_NOT_RECRUITING |
+| [[NCT06534411]] | [[semaglutide]], [[tirzepatide]] | 3 | ACTIVE_NOT_RECRUITING |
+| [[NCT06221969]] | [[semaglutide]], [[tirzepatide]] | 3 | ACTIVE_NOT_RECRUITING |
+| [[NCT05536804]] | [[tirzepatide]] | 2 | ACTIVE_NOT_RECRUITING |
 | [[NCT03982381]] | [[dapagliflozin]] | | Active |
-| NCT05296044 | pioglitazone | | |
 
 ### Clinical Evidence: SGLT2 inhibitors and appetite regulation in T2DM
 *Source: Journal of Korean medical science, 2026*
@@ -724,7 +793,7 @@ last_updated: 2024-10-09
 **Primary Outcome:** the mean change of HbA1c from baseline to 24 weeks treatment
 **Primary Result:** The HbA1c after 24 weeks treatment reduced from 7.8%±0.8% to 7.0%±0.6% (P<0.0001) in the pioglitazone group.
 **Secondary Results:**
-*   The proportions of patients who achieved HbA1c less than 7.0% at 24 weeks were significantly higher in pioglitazone add-on group (51.61% in pioglitazone vs. 22.95% in placebo, P<0.0001).
+*   The proportions of patients who achieved HbA1c less than 7.0% at 24 weeks were significantly higher in pioglitazone add-on group (51.61% in pioglitazone vs. 22.95% in placebo, P<0001).
 *   The proportions of patients who achieved HbA1c less than 6.5% at 24 weeks were significantly higher in pioglitazone add-on group (21.77% in pioglitazone vs. 2.46% in placebo, P<0001).
 *   Body weight gain was 2.0 kg at 24 weeks with pioglitazone 30 mg/day and -0.6 kg at 24 weeks with placebo.
 **Safety:** effective glucose lowering efficacy without significant hypoglycemia and good tolerability with low prevalence of edema in spite of modest weight gain.
@@ -737,7 +806,7 @@ last_updated: 2024-10-09
 **Sample Size:** None
 **Comparator:** hydrochlorothiazide 12.5 mg/day
 **Primary Outcome:** changes in plasma metabolomic/lipidomic profile and urinary excretion of metabolites
-**Primary Result:** Compared to hydrochlorothiazide, [[dapagliflozin]] significantly increased plasma isoleucine, methionine, citrate, β-hydroxybutyrate and decreased lactate. [[dapagliflozin]] induced plasma lipid remodeling towards a significant raise in free fatty acids (FFAs) and some sphingomyelins and lysophosphatidylcholines containing these fatty acids. A significant change was observed in plasma medium- and short-chain acylcarnitines, positively correlated with changes in plasma FFAs and β-hydroxybutyrate. In addition, [[dapagliflozin]], but not hydrochlorothiazide, significantly increased 24-h urinary excretion of several amino-acids, lactate, TCA cycle metabolites, β-hydroxybutyrate and electrolytes, except for a decrease in malate excretion.
+**Primary Result:** Compared to hydrochlorothiazide, [[dapagliflozin]] significantly increased plasma isoleucine, methionine, citrate, β-hydroxybutyrate and decreased lactate. [[dapagliflozin]] induced plasma lipid remodeling towards a significant raise in free fatty acids (FFAs) and some sphingomyelins and lysophosphatidylcholines containing these fatty acids. A significant change was observed in plasma medium- and short-chain acylcarnitines, positively correlated with changes in plasma FFAs and β-hydroxybutyrate. A significant change was observed in plasma medium- and short-chain acylcarnitines, positively correlated with changes in plasma FFAs and β-hydroxybutyrate. In addition, [[dapagliflozin]], but not hydrochlorothiazide, significantly increased 24-h urinary excretion of several amino-acids, lactate, TCA cycle metabolites, β-hydroxybutyrate and electrolytes, except for a decrease in malate excretion.
 **Secondary Results:** []
 **Safety:** None
 **Conclusions:** DAPA treatment has major effects on the plasma lipidomic and the urine metabolomic profiles, with significant increased renal excretion of several metabolites, especially amino-acids, independently of increased diuresis. These data offer insights into the complex metabolic pathways leading to kidney protection by SGLT2 inhibitors.
@@ -755,7 +824,424 @@ last_updated: 2024-10-09
 **Safety:** None
 **Conclusions:** SGLT2 inhibitors effectively reduce body weight primarily through fat loss in older adults. Although muscle mass declined modestly, the predominance of fat loss suggests weight reduction occurs through favorable metabolic changes. Given the slight muscle mass changes and study heterogeneity, careful monitoring in older adults is warranted, and further studies in diverse populations are needed.
 
+### Clinical Evidence: Retatrutide most effective for weight loss, Tirzepatide for glycemic control
+*Source: Diabetes technology & therapeutics, 2025*
+
+**Study Design:** meta-analysis
+**Sample Size:** 56,683 patients
+**Comparator:** competitor drug
+**Primary Outcome:** Δ body weight, ΔHbA1c
+**Primary Result:** Retatrutide (12 mg qw) was the most effective treatment for Δ body weight (mean difference = -26.56% [95% confidence interval: -43.89% to -3.01%]). Tirzepatide (10 mg qw) and oral orforglipron (10 mg qd) were the most effective drugs for ΔHbA1c, respectively.
+**Secondary Results:**
+*   Tirzepatide (15 mg qw) demonstrated good weight loss ability in ΔBW-NDOOG (-22.76% [-26.45% to -18.50%]), ΔBW-T2DCG (-11.09% [-12.39% to -9.44%])), and ΔBW-T2DAG (-4.97% [-5.84% to -4.12%]).
+**Safety:** None
+**Conclusions:** GLP-1RAs demonstrated effective weight management in both nondiabetic and T2D populations. Retatrutide achieved the most pronounced weight reduction, followed by tirzepatide. GLP-1RAs also significantly improved glycemic control for patients with T2D, with tirzepatide performing the best for glycemic control.
+
+### Clinical Evidence: Retatrutide, Tirzepatide, Semaglutide efficacy in T2DM
+*Source: Acta diabetologica, 2025*
+
+**Study Design:** systematic review | meta-analysis
+**Sample Size:** None
+**Comparator:** standard therapies
+**Primary Outcome:** weight, HbA1c, FBG, AEs, and SAEs
+**Primary Result:** Tirzepatide was most effective in lowering HbA1c (-1.88; 95% CrIs: -2.15 to -1.64) and FBG (MD: -57.30; 95% CrIs: -65.41 to -48.9).
+**Secondary Results:**
+*   Retatrutide achieved the greatest weight reduction (MD: -8.601; 95% CrI: -11.20 to -5.95).
+*   Tirzepatide increased AEs (RR 1.15; 95% Crls: 1.04-1.33).
+*   Cotadutide increased AEs (1.38; 95% Crls: 1.16-1.68).
+*   Semaglutide reduced SAEs (0.35; 95% Crls: 0.13-0.78).
+**Safety:** Tirzepatide and Cotadutide increased AEs, while Semaglutide reduced SAEs.
+**Conclusions:** Receptor-specific targeting optimizes T2DM treatment, with Semaglutide supporting glycemic control, Tirzepatide enhancing weight loss and glucose regulation, and Retatrutide potentially offering broader metabolic benefits, advancing receptor-targeted, personalized therapy.
+
+### Clinical Evidence: Retatrutide significantly reduces fat mass in T2D
+*Source: The lancet. Diabetes & endocrinology, 2025*
+
+**Study Design:** RCT
+**Sample Size:** 189 participants
+**Comparator:** placebo | dulaglutide
+**Primary Outcome:** percent change from baseline to week 36 in total fat mass, as measured by dual-energy X-ray absorptiometry (DXA)
+**Primary Result:** Percent reduction from baseline in total fat mass was 26.1% (SE 2.5%) with retatrutide 8 mg (pooled). Least squares mean change from baseline in total fat mass compared to placebo was -21.6 (95% CI -27.1 to -16.1, p<0.0001) with retatrutide 8 mg (pooled).
+**Secondary Results:**
+*   Percent reduction from baseline in total fat mass was 4.9% (SE 1.4%) with retatrutide 0.5 mg, 15.2% (3.2%) with retatrutide 4 mg (pooled), 23.2% (3.0%) with retatrutide 12 mg, 2.6% (1.6%) with dulaglutide, and 4.5% (1.2%) with placebo.
+*   Least squares mean change from baseline in total fat mass compared to placebo was -0.4 (95% CI -4.0 to 3.2, p=0.83) with retatrutide 0.5 mg, -10.7 (-17.2 to -4.2, p=0.0013) with retatrutide 4 mg (pooled), and -18.7 (-25.1 to -12.3, p<0.0001) with retatrutide 12 mg.
+**Safety:** Adverse events were similar between groups. Serious adverse events occurred in two (7%) of 29 participants in the placebo group, two (6%) of 32 participants in the retatrutide 0.5 mg group, zero of 31 participants in the retatrutide 4 mg group, three (9%) of 33 participants in the retatrutide 8 mg group, one (3%) of 30 participants in the retatrutide 12 mg group, and zero of 34 participants in the dulaglutide group. Gastrointestinal events were the most frequently reported adverse events, and no deaths were reported.
+**Conclusions:** In adults with type 2 diabetes, retatrutide significantly improved total body fat mass reduction compared with placebo and dulaglutide. The proportion of lean mass loss to weight loss was similar to other obesity treatments. These findings could provide reassurance that a greater proportion of lean mass is not lost with retatrutide despite the overall increased weight loss.
+
+### Clinical Evidence: Retatrutide reduces ANGPTL3/8, TG, and LDL-C in T2D/obesity
+*Source: Diabetes, obesity & metabolism, 2025*
+
+**Study Design:** RCT
+**Sample Size:** None
+**Comparator:** None
+**Primary Outcome:** Percent changes from baseline in ANGPTL3/8, ANGPTL4/8, ANGPTL3, and ANGPTL4 concentrations, and their correlations with lipid and metabolic parameters.
+**Primary Result:** ANGPTL3/8 reductions were observed with 8 and 12 mg retatrutide doses in participants with type 2 diabetes, and with 1, 4, 8 and 12 mg retatrutide doses in participants with obesity or overweight but without diabetes. In both cases, ANGPTL3/8 decreases paralleled retatrutide-induced reductions in triglyceride (TG) and low-density lipoprotein cholesterol (LDL-C).
+**Secondary Results:**
+*   In primary human hepatocytes, both glucagon and retatrutide decreased ANGPTL3/8 secretion, and these reductions were blocked with the GCGR antagonist antibody.
+**Safety:** None
+**Conclusions:** Together, these results suggest that the GCGR agonism of retatrutide could lead to reduced circulating ANGPTL3/8 concentrations, which may then contribute to decreases in TG and LDL-C levels.
+
+### Clinical Evidence: Retatrutide reduces hunger and overeating in T2D
+*Source: Diabetes, obesity & metabolism, 2025*
+
+**Study Design:** RCT
+**Sample Size:** 275 adults with T2D
+**Comparator:** placebo, dulaglutide 1.5 mg
+**Primary Outcome:** changes from baseline in Appetite Visual Analogue Scale (VAS) and Eating Inventory (EI) scores
+**Primary Result:** Compared with placebo, participants who received retatrutide ≥4 mg reported greater reductions from baseline in overall appetite, hunger, and prospective food consumption (all p <0.05)).
+**Secondary Results:**
+*   Improvements from baseline versus placebo in EI Perceived Hunger and Disinhibition were greater in participants who received retatrutide 8 and 12 mg at Weeks 24 and 36.
+*   Dietary Restraint increased from baseline versus placebo only in participants who received retatrutide 12 mg at Week 36 (all p <0.05).
+*   Reductions in Perceived Hunger and Disinhibition, and increases in Dietary Restraint were significantly correlated with reductions in body weight at Week 36 (r = 0.28, r = 0.36, and r = 0.31, respectively).
+**Safety:** None
+**Conclusions:** Perceived hunger and tendency to overeat (disinhibition) were reduced with higher doses of retatrutide, compared with placebo. Greater weight reduction was associated with decreased perceived hunger and disinhibition and increased dietary restraint.
+
+### Clinical Evidence: GLP-1 RAs and risk of pancreatitis/pancreatic cancer
+*Source: Endocrinology, diabetes & metabolism, 2025*
+
+**Study Design:** meta-analysis
+**Sample Size:** 66,232 patients
+**Comparator:** control groups
+**Primary Outcome:** rates of pancreatitis/pancreatic cancer among glucagon-like peptide-1 receptor agonists (GLP-1 RAs)
+**Primary Result:** significantly increased risk of pancreatitis (RR: 1.44, 95% CI 1.09-1.89, p = 0.009)
+**Secondary Results:**
+*   Pancreatitis risk not significant when stratified by background medications (RR: 1.28, 95% CI 0.87-1.87)
+*   Pancreatitis risk not significant without background medications (RR: 1.37, 95% CI 0.91-2.05)
+*   Pancreatic cancer and GLP-1 RA use showed no significant association (RR: 1.30, 95% CI 0.86-1.97)
+*   Significant increase in pancreatic cancer risk with background medications (RR: 1.85, 95% CI 1.05-3.26, p = 0.03)
+*   Pancreatic cancer risk not significant without background medications (RR: 0.81, 95% CI 0.43-1.55)
+**Safety:** GLP-1 RAs carry a slightly increased risk of pancreatitis, which is not significant when stratified by background medication use. Overall risk for pancreatic cancer was not observed, but a slight association was found when stratified with background medications, though this difference is likely minimal.
+**Conclusions:** GLP-1 RAs carry a slightly increased risk of pancreatitis, which is not significant when stratified by background medication use. Overall risk for pancreatic cancer was not observed, but a slight association was found when stratified with background medications. However, this difference is likely minimal, given the numerous studies excluded from the meta-analysis where both treatment arms had zero events.
+
+### Clinical Evidence: Retatrutide and survodutide show favorable efficacy in obesity/T2DM
+*Source: Endocrinology, diabetes & metabolism, 2026*
+
+**Study Design:** meta-analysis
+**Sample Size:** Fourteen randomised controlled trials
+**Comparator:** placebo
+**Primary Outcome:** weight change, HbA1c, adverse events, and discontinuation due to adverse events
+**Primary Result:** Retatrutide demonstrated the greatest weight reduction versus placebo (MD -13.44 kg; 95% CI [-18.38, -8.51])
+**Secondary Results:**
+*   survodutide (MD -10.74 kg; 95% CI [-15.68, -5.80])
+*   mazdutide (MD -6.47 kg; 95% CI [-10.71, -2.24])
+*   cotadutide showed the smallest and nonsignificant effect (MD -3.41 kg; 95% CI [-11.63, 4.81])
+*   Regarding HbA1c reduction, retatrutide showed the largest effect, followed by survodutide, mazdutide, and cotadutide; however, only the effect of retatrutide reached statistical significance.
+**Safety:** In terms of safety, mazdutide demonstrated the most favourable tolerability profile, whereas retatrutide and cotadutide were associated with comparatively lower tolerability.
+**Conclusions:** Retatrutide and survodutide exhibit the most favourable efficacy profiles for obesity and T2DM, with acceptable safety. These findings support their potential clinical use and highlight the need for future head-to-head trials.
+
+### Clinical Evidence: Tirzepatide vs Semaglutide for glycaemic control and weight reduction
+*Source: Diabetes, obesity & metabolism, 2025*
+
+**Study Design:** RCT
+**Sample Size:** 6246 participants
+**Comparator:** once weekly placebo, once weekly semaglutide 1mg, insulin degludec or insulin glargine
+**Primary Outcome:** Continuous time spent with HbA1c < 7.0% (53 mmol/mol), ≤6.5% (48 mmol/mol) and ≥5% body weight reduction and combined HbA1c ≤ 6.5% (48 mmol/mol) with a ≥5% body weight reduction
+**Primary Result:** Median time spent with HbA1c < 7.0% (53 mmol/mol) was 80% (tirzepatide) versus 70% (semaglutide) and 0% (placebo) of the treatment duration in 40-week studies, and 77%-85% (tirzepatide) versus 62% (insulin degludec) and 23% (insulin glargine) of the treatment duration in 52-week studies (p < 0.001).
+**Secondary Results:**
+*   Dose-dependent increases in time spent with ≥5% body weight reduction were observed with tirzepatide (median time spent: 20%-77% with tirzepatide versus 25% with semaglutide 1mg) (p < 0.001).
+*   Tirzepatide-treated participants experienced longer time spent with HbA1c ≤ 6.5% (48 mmol/mol) and ≥5% body weight reduction versus semaglutide (median: 35%-60% vs. 7%) (p < 0.001).
+**Safety:** None
+**Conclusions:** In this post hoc analysis, people with T2D experienced substantially longer continuous time in glycaemic control and more sustained body weight reductions with tirzepatide versus placebo and active comparators.
+
+### Clinical Evidence: Semaglutide reduces MACE in T2D with ASCVD/CKD
+*Source: Circulation, 2025*
+
+**Study Design:** Randomized Controlled Trial
+**Sample Size:** 9650 participants
+**Comparator:** placebo
+**Primary Outcome:** time to first major adverse cardiovascular event, defined as cardiovascular death, nonfatal myocardial infarction, or nonfatal stroke
+**Primary Result:** Over a mean follow-up of 47.5±10.9 months, the risk of the primary outcome in the overall trial population was 14% lower for oral semaglutide versus placebo (hazard ratio, 0.86; 95% CI, 0.77-0.96).
+**Secondary Results:**
+*   In those taking SGLT2i at baseline, there were 143 of 1296 (semaglutide) versus 158 of 1300 (placebo) primary outcome events (hazard ratio, 0.89; 95% CI, 0.71-1.11).
+*   In participants not taking SGLT2i at baseline, there were 436 of 3529 (semaglutide) versus 510 of 3525 (placebo) primary outcome events (hazard ratio, 0.84; 95% CI, 0.74-0.95; P-interaction, 0.66).
+*   An analysis of major adverse cardiovascular events by any in-trial SGLT2i use versus no use also showed no evidence of heterogeneity in the effects of oral semaglutide.
+**Safety:** The adverse event profiles of oral semaglutide with or without concomitant SGLT2i were similar.
+**Conclusions:** Oral semaglutide reduced major adverse cardiovascular event outcomes independently of concomitant SGLT2i treatment, and this combination appeared to be safe.
+
+### Clinical Evidence: Long-acting GLP-1RAs reduce MACE, HHF, kidney events, all-cause mortality in T2D
+*Source: Diabetes care, 2025*
+
+**Study Design:** meta-analysis
+**Sample Size:** 71,351 individuals
+**Comparator:** placebo
+**Primary Outcome:** incidence rate of major adverse cardiovascular events (MACE)
+**Primary Result:** reduced incidence rate of MACE by 14% (HR 0.86 [95% CI 0.81, 0.90]; I2 = 27.6%)
+**Secondary Results:**
+*   HHF by 14% (0.86 [0.79, 0.93]; I2 = 2.1%)
+*   composite kidney outcome by 17% (0.83 [0.75, 0.92]; I2 = 20.4%)
+*   all-cause mortality by 12% (0.88 [0.82, 0.93]; I2 = 17.5%)
+*   A consistent 14% reduction was seen for all MACE components.
+**Safety:** There were no increased risks of severe hypoglycemia, retinopathy, or pancreatic events.
+**Conclusions:** As a group, long-acting GLP-1RA, including both injectable and oral formulations, reduce incidence of MACE, HHF, and kidney events and all-cause mortality in T2D.
+
+### Clinical Evidence: Oral semaglutide reduced MACE in T2D with ASCVD/CKD
+*Source: The New England journal of medicine, 2025*
+
+**Study Design:** Randomized Controlled Trial
+**Sample Size:** 9650 participants
+**Comparator:** placebo
+**Primary Outcome:** major adverse cardiovascular events (a composite of death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke)
+**Primary Result:** A primary-outcome event occurred in 579 of the 4825 participants (12.0%; incidence, 3.1 events per 100 person-years) in the oral semaglutide group, as compared with 668 of the 4825 participants (13.8%; incidence, 3.7 events per 100 person-years) in the placebo group (hazard ratio, 0.86; 95% confidence interval, 0.77 to 0.96; P = 0.006).
+**Secondary Results:**
+*   The results for the confirmatory secondary outcomes, including major kidney disease events, did not differ significantly between the two groups.
+**Safety:** The incidence of serious adverse events was 47.9% in the oral semaglutide group and 50.3% in the placebo group; the incidence of gastrointestinal disorders was 5.0% and 4.4%, respectively. Oral semaglutide did not increase the incidence of serious adverse events.
+**Conclusions:** Among persons with type 2 diabetes and atherosclerotic cardiovascular disease, chronic kidney disease, or both, the use of oral semaglutide was associated with a significantly lower risk of major adverse cardiovascular events than placebo, without an increase in the incidence of serious adverse events. (Funded by Novo Nordisk; SOUL ClinicalTrials.gov number, NCT03914326.).
+
+### Clinical Evidence: Tirzepatide vs Semaglutide for weight loss in T2DM
+*Source: Endocrinology, diabetes & metabolism, 2025*
+
+**Study Design:** Systematic Review and Meta-Analysis
+**Sample Size:** 28,827 patients across four studies
+**Comparator:** semaglutide
+**Primary Outcome:** weight loss outcomes
+**Primary Result:** Mean difference of -4.84 kg (95% CI: -6.21 to -3.47), favouring tirzepatide.
+**Secondary Results:**
+*   Most common AEs were minor and moderate-severity gastrointestinal (GI) AEs.
+**Safety:** The most common AEs were minor and moderate-severity gastrointestinal (GI) AEs.
+**Conclusions:** Current literature supports tirzepatide demonstrating a higher impact on weight loss than semaglutide, with both demonstrating high rates of minimal- to moderate-severity AEs. Further research with comparative head-to-head trials will better elucidate these weight loss effects and safety profiles.
+
+### Clinical Evidence: Incretin mimetics efficacy and safety in T2DM
+*Source: Diabetes, obesity & metabolism, 2025*
+
+**Study Design:** meta-analysis
+**Sample Size:** 16660 individuals
+**Comparator:** placebo
+**Primary Outcome:** Changes in HbA1c, fasting plasma glucose and body weight and the proportion of GI AEs (nausea, vomiting or diarrhoea)
+**Primary Result:** HbA1c reductions ranged from -0.63% (lixisenatide, 20 μg q.d.) to -1.79% (tirzepatide, 15 mg q.w.; p < 0.0001).
+**Secondary Results:**
+*   Weight reductions ranged from -0.75 ± 0.10 kg to -9.65 ± 0.56 kg.
+*   ORs for GI AEs were similar across compounds/preparations despite the high variability in therapeutic efficacy.
+**Safety:** ORs for GI AEs were similar across compounds/preparations. Larger therapeutic efficacy was not systematically associated with higher GI AE or drug discontinuation rates, indicating better tolerability of the more effective agents/preparations.
+**Conclusions:** The magnitude of efficacy for intended therapeutic actions (HbA1c and body weight reduction) varied widely between incretin mimetic glucose-lowering agents. However, larger therapeutic efficacy was not systematically associated with higher GI AE or drug discontinuation rates, indicating better tolerability of the more effective agents/preparations.
+
+### Clinical Evidence: Semaglutide vs Empagliflozin for diabetic retinopathy
+*Source: Journal of diabetes and its complications, 2025*
+
+**Study Design:** RCT
+**Sample Size:** 40 participants
+**Comparator:** placebo
+**Primary Outcome:** Central retinal thickness (CRT)
+**Primary Result:** In the 10 individuals treated with semaglutide, CRT increased ~1% (3.76 µm, 95%CI [-0.32; 7.85], p = 0.065) compared to placebo.
+**Secondary Results:**
+*   Increase in CRT with semaglutide was attenuated with adjustment for TIR (p = 0.21).
+*   Independently of the four interventions, increased TIR remained associated with increased CRT (0.07 µm, 95%CI[0.03; 0.12]µm, p = 0.002).
+**Safety:** None
+**Conclusions:** Semaglutide treatment did not impact CRT beyond what could be explained by changes in glycaemia. Across all interventions, increased TIR was associated with increases in CRT, thus supporting the link between rapid improved glycemia and DR.
+
+### Clinical Evidence: GLP-1RAs reduce SBP in obesity/T2D
+*Source: Clinical obesity, 2025*
+
+**Study Design:** Systematic Review | Network Meta-Analysis
+**Sample Size:** None
+**Comparator:** None
+**Primary Outcome:** compare the effect of different drug-dose combinations of GLP-1RAs on SBP
+**Primary Result:** GLP-1RAs significantly lowered SBP for all patients (MD = -3.14 [-3.60; -2.68]).
+**Secondary Results:**
+*   Subgroup analysis showed a significantly greater difference in SBP reduction for patients without diabetes (-3.80 [-4.24; -3.37]) when compared with patients with diabetes (-2.13 [-3.27; -1.00]).
+*   Among patients with diabetes, liraglutide < 2 mg OD showed the greatest reduction in SBP (-3.78 [-6.27; -1.28]).
+*   Efpeglenatide ≤ 6 mg QW showed the greatest reduction in SBP (-6.00 [-9.89; -2.11]) in patients without diabetes.
+**Safety:** None
+**Conclusions:** GLP-1RAs result in mild reductions in SBP in patients with obesity. The change in SBP varies only slightly by the drug-dose combination and appears to be related to the amount of weight loss.
+
+### Clinical Evidence: Semaglutide improves fatty liver in T2D
+*Source: Nutrition, metabolism, and cardiovascular diseases : NMCD, 2025*
+
+**Study Design:** RCT
+**Sample Size:** 114 individuals
+**Comparator:** placebo
+**Primary Outcome:** liver fat attenuation
+**Primary Result:** average liver attenuation measures improved by 4.4 HU in the semaglutide group when compared to the placebo group (p = 0.002)
+**Secondary Results:**
+*   The average of three liver measures over 12 months showed an improvement in the semaglutide group of 1.4 ± 9.0 mean HU, versus a worsening in the placebo group of 1.9 ± 9.5 mean HU.
+**Safety:** None
+**Conclusions:** In type 2 diabetes patients with hepatic steatosis, treatment with semaglutide resulted in a significant improvement in fatty liver reduction when compared to placebo.
+
+### Clinical Evidence: Tirzepatide vs Semaglutide for weight/HbA1c in obesity/T2D
+*Source: Diabetes, obesity & metabolism, 2025*
+
+**Study Design:** Comparative Study
+**Sample Size:** None
+**Comparator:** semaglutide 2.4 mg
+**Primary Outcome:** Mean percent change in weight from baseline, weight reduction ≥5% and mean change in glycated haemoglobin (HbA1c [%])
+**Primary Result:** Tirzepatide 10 and 15 mg were associated with significantly greater mean percent weight reductions versus semaglutide (mean difference, 10 mg: 2.57%; 15 mg: 4.79%, p < 0.01). Both tirzepatide doses were associated with significantly greater reductions in HbA1c (%) levels (mean difference, 10 mg: 0.47%; 15 mg: 0.56%, p < 0.001) than semaglutide.
+**Secondary Results:**
+*   Tirzepatide 15 mg had significantly higher odds of achieving ≥5% weight reduction (odds ratio 15 mg: 1.76, 95% CI 1.04-2.97, p = 0.035; odds ratio 10 mg: 1.24, 95% CI 0.75-2.04, p = 0.407).
+*   Sensitivity analyses were generally consistent with the primary analysis, exceptions including when power was reduced in the matching-adjusted indirect comparison analyses and in the categorical weight reduction outcome.
+**Safety:** None
+**Conclusions:** This analysis suggested greater reductions in bodyweight and HbA1c (%) levels associated with tirzepatide 10 and 15 mg than with semaglutide 2.4 mg in people with obesity or overweight and T2D.
+
+### Clinical Evidence: Cotadutide improves UACR, UALB, body weight in CKD/T2DM
+*Source: British journal of clinical pharmacology, 2025*
+
+**Study Design:** Randomized Controlled Trial
+**Sample Size:** 247 participants
+**Comparator:** 1mg semaglutide or placebo
+**Primary Outcome:** urine albumin-to-creatinine ratio (UACR), urinary albumin (UALB), and body weight
+**Primary Result:** Model-predicted relative change from placebo in UACR, UALB and body weight after 26 weeks of 600 µg cotadutide treatment were -45.6% (-52.4%, -38.7%), -47.2% (-56.0%, -39.9%) and -5.3% (-7.6%, -4.1%), respectively.
+**Secondary Results:**
+*   Baseline mean blood pressure affected reductions in UACR.
+*   Baseline UALB affected reductions in UALB.
+**Safety:** None
+**Conclusions:** This modelling assessment was successfully applied for cotadutide to understand the relationship between cotadutide dosing regimen and the response in UACR, UALB and body weight. These models have general application in analysing and interpreting data from CKD/diabetic kidney disease (DKD) studies.
+
+### Clinical Evidence: Semaglutide effect on carotid plaque inflammation in T2D/CVD
+*Source: American heart journal, 2025*
+
+**Study Design:** RCT
+**Sample Size:** 101 patients
+**Comparator:** placebo
+**Primary Outcome:** change from baseline to week 26 in plaque inflammation in the segments of the carotid arteries that were determined to be the most diseased and where plaque inflammation was quantified by the maximum target-to-background ratio (TBRmax) of the tracers.
+**Primary Result:** No significant treatment differences were observed between semaglutide and placebo for change in plaque inflammation at week 26 with either tracer; TBRmax of FDG (estimated treatment difference [ETD]: 0.033, 95% confidence interval [CI]: -0.118;0.184) and [68Ga]DOTATATE (ETD: 0.045, 95% CI: -0.314;0.404).
+**Secondary Results:** []
+**Safety:** None
+**Conclusions:** This trial explored the feasibility of following plaque inflammation with PET-MRI using [18F]FDG and [68Ga]DOTATATE. A significant effect of semaglutide versus placebo on carotid plaque inflammation could not be detected through the methodology used in this trial, likely due to minimal baseline inflammation. However, this does not exclude an effect of semaglutide on inflammation seen in previous preclinical and clinical studies.
+
+### Clinical Evidence: Semaglutide generally cost-effective for T2D
+*Source: Diabetes care, 2025*
+
+**Study Design:** meta-analysis
+**Sample Size:** 45 articles (with 119 comparisons)
+**Comparator:** other T2D medications
+**Primary Outcome:** Cost-effectiveness (dominant, cost-effective, not cost-effective)
+**Primary Result:** Overall, semaglutide was dominant/cost-effective in 73.9% of all comparisons.
+**Secondary Results:**
+*   Semaglutide was found to be dominant/cost-effective in all comparisons sponsored by Novo Nordisk versus in 50.0% of these funded by nonindustry sponsors and in none funded by other industry sponsors.
+*   Semaglutide was more cost-effective in high-income countries and in studies with adoption of a broader perspective, longer horizon, and lower discount rates.
+**Safety:** None
+**Conclusions:** Semaglutide is generally cost-effective compared with other glucose-lowering medications in evaluation against within-study willingness-to-pay thresholds; however, results varied by study sponsor type, region, and model assumptions, highlighting the need for transparent and context-sensitive economic evaluations.
+
+### Clinical Evidence: Semaglutide, Dulaglutide, Exenatide efficacy in T2DM
+*Source: Hormone and metabolic research = Hormon- und Stoffwechelforschung = Hormones et metabolisme, 2025*
+
+**Study Design:** meta-analysis
+**Sample Size:** None
+**Comparator:** competitor drug
+**Primary Outcome:** changes in HbA1c and body weight
+**Primary Result:** Semaglutide demonstrated superior efficacy with mean HbA1c reduction of 1.45% and weight loss of 1.44 kg.
+**Secondary Results:**
+*   Dulaglutide showed consistent reductions in HbA1c (1.1%) and weight (1.2 kg).
+*   Exenatide exhibited moderate effects.
+*   Meta-analysis revealed a significant pooled effect estimate favoring GLP-1 receptor agonists, with a mean HbA1c difference of -0.81 (95% CI: -0.92 to -0.70).
+**Safety:** Gastrointestinal side effects were most common, with Semaglutide showing the highest incidence.
+**Conclusions:** This meta-analysis establishes Semaglutide as the most effective GLP-1 receptor agonist for glycemic control and weight reduction, while Dulaglutide and Exenatide offer viable alternatives with fewer side effects. These findings support evidence-based decision-making in T2DM management and highlight the potential broader therapeutic applications of GLP-1 receptor agonists beyond diabetes care.
+
+### Clinical Evidence: Once-weekly IcoSema non-inferior to BBT for HbA1c in T2D
+*Source: The lancet. Diabetes & endocrinology, 2025*
+
+**Study Design:** RCT
+**Sample Size:** 679 participants
+**Comparator:** basal-bolus therapy (BBT)
+**Primary Outcome:** change in HbA1c from baseline to week 52
+**Primary Result:** At week 52, estimated mean change in HbA1c was -1.47 percentage points (SE 0.05) with IcoSema and -1.40 percentage points (0.06) with BBT, confirming non-inferiority of IcoSema versus BBT (estimated treatment difference [ETD]: -0.06 percentage points [95% CI -0.22 to 0.09]; p<0.0001).
+**Secondary Results:**
+*   Superiority for change in bodyweight from baseline to week 52 (ETD -6.72 kg [95% CI -7.58 to -5.86]; p<0.0001).
+*   Superiority for weekly total insulin dose during weeks 50-52 (ETD -270 U [-303 to -236]; p<0.0001).
+*   Superiority for overall rate of clinically significant or severe hypoglycaemia from baseline to week 57 (0.21 vs 2.23 episodes per person-year of exposure; estimated rate ratio 0.12 [0.08 to 0.17]; p<0.0001).
+**Safety:** The most frequently reported adverse events were gastrointestinal disorders with IcoSema (44% of participants) and infections and infestations with BBT (35% of participants).
+**Conclusions:** Once-weekly IcoSema achieved non-inferior HbA1c reduction and superiority in change in bodyweight, weekly total insulin dose, and hypoglycaemia rates versus daily BBT, suggesting that there is a potentially beneficial treatment intensification option for adults with type 2 diabetes.
+
+### Clinical Evidence: Once-weekly IcoSema superior to icodec alone in T2D
+*Source: The lancet. Diabetes & endocrinology, 2025*
+
+**Study Design:** RCT
+**Sample Size:** 1291 participants
+**Comparator:** once-weekly insulin icodec alone
+**Primary Outcome:** change in HbA1c from baseline to week 52
+**Primary Result:** At week 52, from a baseline value of 8.22% (SD 0.83; 66.3 mmol/mol [9.1]), estimated mean change in HbA1c was -1.55 percentage points (SE 0.03; -16.9 mmol/mol [0.4]) with IcoSema and -0.89 percentage points (SE 0.03]; -9.7 mmol/mol [0.4]) with icodec (estimated treatment difference [ETD] -0.66 percentages points [95% CI -0.76 to -0.57]; -7.3 mmol/mol [-8.3 to -6.2]; p<0.0001; superiority confirmed).
+**Secondary Results:**
+*   The rate of combined clinically significant or severe hypoglycaemia from baseline to week 57 was significantly lower with IcoSema than with icodec (0.14 vs 0.63 episodes per person-year of exposure; estimated rate ratio 0.22 [95% CI 0.14 to 0.36]; p<0.0001; superiority confirmed).
+**Safety:** The most frequently reported adverse events were within the system organ class of gastrointestinal disorders in the IcoSema group (303 [47%] of 644 participants had 1033 events during the trial) and infections and infestations in the icodec group (275 [43%] of 644 participants had 466 events. 59 (9%) participants in the IcoSema group and 69 (11%) participants in the icodec group had a serious adverse event. No treatment-related deaths occurred.
+**Conclusions:** In adults with inadequately controlled type 2 diabetes on daily basal insulin therapy, once‑weekly IcoSema showed superiority to once-weekly icodec alone in changes in HbA1c and in overall lower rate of combined clinically significant or severe hypoglycaemia. IcoSema might provide an option for insulin therapy intensification in adults with type 2 diabetes.
+
+### Clinical Evidence: Tirzepatide vs Semaglutide for weight/BMI/HbA1c in obesity/T2D
+*Source: Diabetes, obesity & metabolism, 2025*
+
+**Study Design:** meta-analysis
+**Sample Size:** None
+**Comparator:** competitor drug
+**Primary Outcome:** reductions in weight, BMI and HbA1c
+**Primary Result:** Tirzepatide 10 and 15 mg were associated with statistically significant greater reductions in weight, BMI and HbA1c versus semaglutide.
+**Secondary Results:**
+*   Tirzepatide 15 mg was associated with statistically significant greater odds versus semaglutide of ≥5% and ≥15% weight reduction
+*   Tirzepatide 15 mg was associated with statistically significant improvements in several cardiometabolic risk factors, including waist circumference, fasting plasma glucose and triglycerides
+*   Both tirzepatide doses showed non-significant trends of greater improvements in high-density lipoprotein, low-density lipoprotein, systolic blood pressure and diastolic blood pressure versus semaglutide
+**Safety:** Both tirzepatide doses also had a generally similar safety profile to semaglutide.
+**Conclusions:** In this ITC versus semaglutide 2.4 mg, tirzepatide 10 and 15 mg were associated with statistically significant greater weight, BMI and HbA1c reduction and tirzepatide 15 mg with statistically significant improvements in multiple cardiometabolic risk factors crucial in managing obesity or overweight among patients with T2D. Both tirzepatide doses also had a generally similar safety profile to semaglutide.
+
+### Clinical Evidence: Semaglutide improves functional outcomes in PAD and T2D
+*Source: Diabetes care, 2025*
+
+**Study Design:** RCT
+**Sample Size:** 792 participants
+**Comparator:** placebo
+**Primary Outcome:** ratio to baseline (ETR) in maximum walking distance (MWD)
+**Primary Result:** Semaglutide significantly improved MWD regardless of diabetes duration (ETR of 1.15 vs. 1.13 for <10 vs. ≥10 years, P = 0.80), BMI (1.12 vs. 1.16 for <30 vs. ≥30 kg/m2, P = 0.58), HbA1c (1.13 for <7% and ≥7%, P = 0.99), or medication use.
+**Secondary Results:**
+*   Semaglutide improved pain-free walking distance (PFWD) across subgroups (P > 0.1 for all interactions).
+**Safety:** Safety outcomes were consistent across subgroups.
+**Conclusions:** Semaglutide improved walking function in people with PAD and type 2 diabetes, including individuals without obesity and those with well-controlled HbA1c. Benefits were consistent across BMI and HbA1c categories, supporting effectiveness beyond weight or glycemic changes.
+
 ## Sources
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04251156.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04460885.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04560998.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04588259.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04596631.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04707469.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04760626.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04770532.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04865770.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04880850.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04916470.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04982575.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05013229.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05035082.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05144984.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05259033.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05352815.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05394519.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05478252.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05486065.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05514535.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05533632.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05649137.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05813912.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05823948.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06065540.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06131372.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06221969.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06269107.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06323161.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06323174.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06326047.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06534411.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06542874.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06797869.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07112339.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07220759.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07271251.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05144984.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05649137.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05813912.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05823948.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06131372.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06221969.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06269107.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06323174.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06534411.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT07112339.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT07220759.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT05514535.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT06269107.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT06534411.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT07415954.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT07564414.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06897202.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07400653.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06897202.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07400653.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06897202.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07400653.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04429503.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-04-07/NCT05669599.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/dapagliflozin/2026-05-18/abstract-42117145.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/dapagliflozin/2026-05-04/abstract-41563367.json
@@ -808,3 +1294,37 @@ last_updated: 2024-10-09
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/dapagliflozin/2026-04-12/abstract-40563136.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-04-07/NCT06660173.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-04-07/NCT06858878.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06579105.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-39911047.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-40471293.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-40609566.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-40726454.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-40916752.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-40988099.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-41787737.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40083081.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40156843.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40156846.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40162642.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40184508.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40212008.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40239470.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40265328.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40287313.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40321113.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40344607.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40345413.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40392993.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40409279.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40482670.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40482671.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40537987.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40543068.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT05536804.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06635057.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06739122.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06897475.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07215312.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07215559.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07438444.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04029480.json

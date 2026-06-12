@@ -14,10 +14,10 @@ last_updated: 2026-04-07
 **Date:** 2025-06-05 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Eli Lilly announced the primary completion of its Phase 3 trial (NCT06010004) for Orforglipron in patients with type 2 diabetes on June 5, 2025. The trial enrolled 466 participants and has reached its primary completion date, indicating that data collection for the primary outcome measure is finished. Results from this trial are not yet available.
+Eli Lilly's Phase 3 clinical trial (NCT06010004) investigating Orforglipron for the treatment of Type 2 Diabetes has reached its primary completion date on June 5, 2025. The trial successfully enrolled 466 participants. As of this update, no results from the trial have been publicly reported.
 
 ### Market implication
-The completion of the primary endpoint marks a procedural step in the drug's development, with market impact pending the release of trial results.
+The completion of this Phase 3 trial marks a development milestone for Eli Lilly's Orforglipron, with market impact pending the release of trial results.
 
 ### Affected entities
 - Drug: Orforglipron

@@ -5,22 +5,25 @@ drugs: []
 companies: ["astrazeneca"]
 indications: []
 signal: neutral
-headline: AstraZeneca's Nirsevimab Phase 3 Trial (NCT06042049) Completes Primary Endpoint
+headline: AstraZeneca's Nirsevimab trial NCT06042049 completes primary endpoint
 last_updated: 2026-05-01
 ---
-## AstraZeneca's Nirsevimab Phase 3 Trial (NCT06042049) Completes Primary Endpoint
+```
+
+## AstraZeneca's Nirsevimab trial NCT06042049 completes primary endpoint
 
 **Date:** 2025-07-24 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT06042049) investigating Nirsevimab, sponsored by AstraZeneca, reached its primary completion date on July 24, 2025. The trial enrolled 33 participants and has results available, indicating the completion of data collection for its primary outcome.
+A Phase 3 clinical trial (NCT06042049) for Nirsevimab, sponsored by AstraZeneca, has reached its primary completion date on July 24, 2025. The trial, which enrolled 33 participants, has completed its primary data collection.
 
 ### Market implication
-This event is neutral as no specific results or outcomes from the trial have been disclosed yet, making its impact on market valuation currently indeterminate.
+The completion of the trial is a standard procedural step, and without disclosed results, it has a neutral market implication.
 
 ### Affected entities
 - Drug: Nirsevimab
 - Company: [[astrazeneca]]
+- Indication: None
 
 ### Sources
 - `raw/ctgov/astrazeneca/2026-05-01/NCT06042049.json`

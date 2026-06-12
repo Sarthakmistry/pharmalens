@@ -2,22 +2,22 @@
 event_type: trial_completion
 date: 2018-05-11
 drugs: []
-companies: ["novartis"]
+companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis' Phase 3 Trial for Omalizumab (NCT03369704) Reaches Primary Completion
-last_updated: 2018-05-11
+headline: Novartis completes Phase 3 trial NCT03369704 for Omalizumab
+last_updated: 2026-04-07
 ---
 
-## Novartis' Phase 3 Trial for Omalizumab (NCT03369704) Reaches Primary Completion
+## Novartis completes Phase 3 trial NCT03369704 for Omalizumab
 
 **Date:** 2018-05-11 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT03369704) investigating Omalizumab, sponsored by Novartis, reached its primary completion on May 11, 2018. The trial enrolled 337 participants and has reported results.
+Novartis completed its Phase 3 clinical trial, NCT03369704, for Omalizumab on May 11, 2018. The trial, which enrolled 337 participants, has reported results.
 
 ### Market implication
-The completion of this Phase 3 trial is a standard procedural step, and without specific results or further context, the market implication remains neutral.
+The completion of a Phase 3 trial is a standard step in drug development and is generally a neutral signal unless specific results are announced.
 
 ### Affected entities
 - Drug: Omalizumab

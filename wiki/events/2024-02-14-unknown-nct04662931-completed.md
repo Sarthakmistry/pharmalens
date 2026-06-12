@@ -5,22 +5,24 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis's Phase 4 Crizanlizumab trial (NCT04662931) completes.
+headline: Novartis's Crizanlizumab Trial NCT04662931 Completed
 last_updated: 2026-04-07
 ---
-## Novartis's Phase 4 Crizanlizumab trial (NCT04662931) completes.
+
+## Novartis's Crizanlizumab Trial NCT04662931 Completed
 
 **Date:** 2024-02-14 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis's Phase 4 clinical trial NCT04662931, evaluating Crizanlizumab for sickle cell disease, reached its primary completion on February 14, 2024. The trial enrolled 140 participants and has reported results. This completion marks a significant step in understanding the drug's real-world effectiveness.
+A Phase 4 clinical trial (NCT04662931) sponsored by Novartis, investigating Crizanlizumab, reached its primary completion date on February 14, 2024. The trial enrolled 140 participants and has reported results.
 
 ### Market implication
-The completion of this Phase 4 trial provides further data on Crizanlizumab, which could inform its use, but is unlikely to significantly impact Novartis's valuation given it's a post-marketing study for an established drug.
+The completion of this Phase 4 trial for Crizanlizumab by Novartis is a neutral event, as specific results or their implications are not yet detailed.
 
 ### Affected entities
 - Drug: Crizanlizumab
 - Company: [[novartis]]
+- Indication:
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT04662931.json`

@@ -5,19 +5,19 @@ drugs: [inclisiran]
 companies: [novartis]
 indications: [hf-htn]
 signal: neutral
-headline: Inclisiran Trial NCT06431763 Reaches Primary Completion
+headline: Inclisiran Trial NCT06431763 Completed
 last_updated: 2026-04-07
 ---
 
-## Inclisiran Trial NCT06431763 Reaches Primary Completion
+## Inclisiran Trial NCT06431763 Completed
 
 **Date:** 2025-12-01 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 4 clinical trial (NCT06431763) investigating inclisiran, sponsored by Novartis, reached its primary completion date on December 1, 2025. The study enrolled 402 participants and focused on the drug's effects, though specific results are not yet available.
+Novartis's Phase 4 clinical trial, NCT06431763, investigating inclisiran, has reached its primary completion date on December 1, 2025. The trial enrolled 402 participants and is focused on heart failure and hypertension. No results have been published yet.
 
 ### Market implication
-This event marks a procedural milestone for inclisiran, with market implications awaiting the release of trial results.
+The completion of this Phase 4 trial for inclisiran is a standard procedural step in drug development and does not carry immediate market implications without the release of trial results.
 
 ### Affected entities
 - Drug: [[inclisiran]]

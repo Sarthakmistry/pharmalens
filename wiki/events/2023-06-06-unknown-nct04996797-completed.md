@@ -2,24 +2,25 @@
 event_type: trial_completion
 date: 2023-06-06
 drugs: []
-companies: [merck]
+companies: ["merck"]
 indications: []
 signal: neutral
-headline: Merck's Phase 2 trial for Tulisokibart (NCT04996797) completed primary endpoint
+headline: Merck's Phase 2 Trial NCT04996797 Completes Primary Completion
 last_updated: 2023-06-06
 ---
-## Merck's Phase 2 trial for Tulisokibart (NCT04996797) completed primary endpoint
+
+## Merck's Phase 2 Trial NCT04996797 Completes Primary Completion
 
 **Date:** 2023-06-06 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 2 clinical trial (NCT04996797) for Tulisokibart reached its primary completion date on June 6, 2023. The trial, which enrolled 178 participants, has results available. This marks a significant milestone in the development of Tulisokibart.
+Merck's Phase 2 clinical trial NCT04996797, investigating Tulisokibart, reached its primary completion date on June 6, 2023. The study enrolled 178 participants and has results available. This marks a significant milestone in the development of the drug.
 
 ### Market implication
-The completion of this Phase 2 trial provides an update on Merck's pipeline, with results now available for further analysis, which could influence future development decisions.
+The completion of this Phase 2 trial is a standard step in drug development, with market implications dependent on the eventual disclosure and nature of the trial results.
 
 ### Affected entities
-- Drug: Tulisokibart
+- Drug: Tulisokibart, Companion diagnostic (cdx) testing
 - Company: [[merck]]
 - Indication: None
 

@@ -5,19 +5,19 @@ drugs: []
 companies: [bayer]
 indications: [hf-htn]
 signal: neutral
-headline: Bayer's Phase 2 trial (NCT06195930) for heart failure/hypertension completed primary data collection
+headline: Bayer's Phase 2 Trial (NCT06195930) for Vericiguat in HF-HTN Completed
 last_updated: 2024-07-29
 ---
 
-## Bayer's Phase 2 trial (NCT06195930) for heart failure/hypertension completed primary data collection
+## Bayer's Phase 2 Trial (NCT06195930) for Vericiguat in HF-HTN Completed
 
 **Date:** 2024-07-29 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT06195930) sponsored by [[bayer]], investigating Vericiguat (bay1021189) 5 mg for heart failure/hypertension, completed its primary data collection on July 29, 2024. The study enrolled 106 participants and has indicated that results are available.
+Bayer's Phase 2 clinical trial (NCT06195930) investigating Vericiguat (bay1021189) 5 mg for heart failure and hypertension (HF-HTN) reached its primary completion date on July 29, 2024. The study enrolled 106 participants and has reported that results are available.
 
 ### Market implication
-The completion of primary data collection is a standard procedural step and does not immediately impact [[bayer]]'s valuation without disclosed results.
+The completion of this Phase 2 trial marks a development milestone for Bayer's Vericiguat program, with future market implications dependent on the eventual disclosure and interpretation of the trial results.
 
 ### Affected entities
 - Drug: Vericiguat (bay1021189)

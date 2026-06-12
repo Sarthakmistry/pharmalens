@@ -14,15 +14,15 @@ last_updated: 2020-10-23
 **Date:** 2020-10-23 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis has completed a Phase 2 clinical trial (NCT03437278) for its drug Ligelizumab. The trial, which enrolled 49 participants, reached its primary completion date on October 23, 2020, and results are available.
+Novartis has completed a Phase 2 clinical trial (NCT03437278) for Ligelizumab, reaching its primary completion date on October 23, 2020. The trial enrolled 49 participants and has reported results.
 
 ### Market implication
-This trial completion is a standard development for Novartis's pipeline, with no immediate market impact given the drug's status and lack of specific results.
+The completion of this Phase 2 trial for Ligelizumab by Novartis is a neutral event, as specific results or their implications for the drug's development pathway are not detailed in this update.
 
 ### Affected entities
 - Drug: Ligelizumab
 - Company: [[novartis]]
-- Indication: None
+- Indication: N/A
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT03437278.json`

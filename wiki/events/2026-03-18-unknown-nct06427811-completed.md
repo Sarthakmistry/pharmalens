@@ -5,19 +5,19 @@ drugs: []
 companies: [novartis]
 indications: [alzheimers]
 signal: neutral
-headline: Novartis's Asciminib Trial NCT06427811 for Alzheimer's Disease Reaches Primary Completion
+headline: Novartis's trial NCT06427811 for Asciminib in Alzheimer's disease completed primary data collection
 last_updated: 2026-05-01
 ---
 
-## Novartis's Asciminib Trial NCT06427811 for Alzheimer's Disease Reaches Primary Completion
+## Novartis's trial NCT06427811 for Asciminib in Alzheimer's disease completed primary data collection
 
 **Date:** 2026-03-18 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 4 clinical trial (NCT06427811) sponsored by Novartis, investigating Asciminib for Alzheimer's disease, reached its primary completion on March 18, 2026. The trial enrolled 85 participants and has not yet reported results.
+Novartis's Phase 4 clinical trial (NCT06427811) investigating Asciminib for Alzheimer's disease has completed its primary data collection as of March 18, 2026. The trial enrolled 85 participants and has not yet reported results.
 
 ### Market implication
-This event marks a procedural milestone for the trial, with no immediate market implications as results have not been released.
+The completion of primary data collection is a standard procedural step; market impact will depend on the eventual release of trial results.
 
 ### Affected entities
 - Drug: Asciminib

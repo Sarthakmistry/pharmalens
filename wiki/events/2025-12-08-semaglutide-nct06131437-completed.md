@@ -5,19 +5,19 @@ drugs: [semaglutide]
 companies: [novo-nordisk]
 indications: [glp1-obesity]
 signal: neutral
-headline: Novo Nordisk's Phase 3 Trial (NCT06131437) for Semaglutide in GLP-1 Obesity Completed
+headline: Semaglutide Phase 3 Trial (NCT06131437) for GLP-1 Obesity Completed
 last_updated: 2026-04-07
 ---
 
-## Novo Nordisk's Phase 3 Trial (NCT06131437) for Semaglutide in GLP-1 Obesity Completed
+## Semaglutide Phase 3 Trial (NCT06131437) for GLP-1 Obesity Completed
 
 **Date:** 2025-12-08 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novo Nordisk's Phase 3 clinical trial, NCT06131437, investigating semaglutide for GLP-1 obesity, reached its primary completion date on December 8, 2025. The trial successfully enrolled 809 participants. Results from this study have not yet been released.
+A Phase 3 clinical trial (NCT06131437) for semaglutide, sponsored by Novo Nordisk, investigating its use in GLP-1 obesity, reached its primary completion date on December 8, 2025. The trial enrolled 809 participants and has not yet released results.
 
 ### Market implication
-The completion of this Phase 3 trial indicates progress in Novo Nordisk's development pipeline for semaglutide in obesity, setting the stage for future data readouts that could impact its market position.
+This event marks a procedural milestone for Novo Nordisk's semaglutide, with market impact awaiting the release of trial results.
 
 ### Affected entities
 - Drug: [[semaglutide]]

@@ -1,23 +1,23 @@
 ---
 event_type: trial_completion
 date: 2025-03-16
-drugs: [sacubitril-valsartan]
-companies: [novartis]
-indications: [hf-htn]
+drugs: ["sacubitril-valsartan"]
+companies: ["novartis"]
+indications: ["hf-htn"]
 signal: neutral
-headline: Novartis's Sacubitril-Valsartan Trial (NCT04023227) for Heart Failure Completes Primary Data Collection
-last_updated: 2026-04-07
+headline: Novartis's Sacubitril-valsartan Trial NCT04023227 Completed with Results
+last_updated: 2026-06-01
 ---
 
-## Novartis's Sacubitril-Valsartan Trial (NCT04023227) for Heart Failure Completes Primary Data Collection
+## Novartis's Sacubitril-valsartan Trial NCT04023227 Completed with Results
 
 **Date:** 2025-03-16 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Clinical trial NCT04023227, sponsored by [[novartis]] and investigating [[sacubitril-valsartan]] for heart failure, has reached its primary completion date on March 16, 2025. This Phase 4 study, which enrolled 918 participants, has completed data collection for its primary outcome, though results are not yet available. The trial compares Sacubitril/valsartan with Enalapril in patients with heart failure.
+Clinical trial NCT04023227, a Phase 4 study evaluating Sacubitril/valsartan (Entresto) versus Enalapril in patients with heart failure, has reached its primary completion date on March 16, 2025. The trial, sponsored by Novartis, enrolled 922 participants and has reported that results are available.
 
 ### Market implication
-The completion of this trial's primary endpoint data collection is a standard procedural step and has a neutral market implication until results are announced.
+The completion of this Phase 4 trial for Sacubitril-valsartan is a standard procedural step, and the availability of results will be key to understanding any potential impact on the drug's market position or label.
 
 ### Affected entities
 - Drug: [[sacubitril-valsartan]]
@@ -25,4 +25,4 @@ The completion of this trial's primary endpoint data collection is a standard pr
 - Indication: [[hf-htn/_index]]
 
 ### Sources
-- `raw/ctgov/novartis/2026-04-07/NCT04023227.json`
+- `raw/ctgov/novartis/2026-06-01/NCT04023227.json`

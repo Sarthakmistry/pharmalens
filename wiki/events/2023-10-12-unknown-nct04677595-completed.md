@@ -5,19 +5,19 @@ drugs: []
 companies: [novartis]
 indications: [oncology-nsclc]
 signal: neutral
-headline: Novartis's Capmatinib Phase 2 Trial (NCT04677595) for NSCLC Completed
-last_updated: 2023-10-12
+headline: Novartis completes Phase 2 trial (NCT04677595) for Capmatinib in oncology-NSCLC
+last_updated: 2026-04-07
 ---
 
-## Novartis's Capmatinib Phase 2 Trial (NCT04677595) for NSCLC Completed
+## Novartis completes Phase 2 trial (NCT04677595) for Capmatinib in oncology-NSCLC
 
 **Date:** 2023-10-12 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT04677595) sponsored by [[novartis]] investigating Capmatinib for the treatment of non-small cell lung cancer ([[oncology-nsclc/_index]]) reached its primary completion date on October 12, 2023. The trial enrolled 36 participants and has reported having results available. This marks a significant milestone in the development pathway for Capmatinib in this indication.
+Novartis announced the primary completion of its Phase 2 clinical trial (NCT04677595) for Capmatinib, an investigational drug for oncology-NSCLC, on October 12, 2023. The trial enrolled 36 participants and has reported results.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard progression in drug development for Capmatinib, with market impact dependent on the eventual release and interpretation of the trial results.
+This completion marks a standard progression in Novartis's oncology pipeline, with results now available for review.
 
 ### Affected entities
 - Drug: Capmatinib

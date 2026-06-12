@@ -3,26 +3,24 @@ event_type: trial_completion
 date: 2022-10-03
 drugs: [pembrolizumab]
 companies: [merck]
-indications: [oncology-nsclc]
 signal: neutral
-headline: Pembrolizumab (KEYNOTE-921) Phase 3 Trial Completes Primary Completion
-last_updated: 2022-10-03
+headline: Merck's pembrolizumab trial NCT03635567 completes primary endpoint
+last_updated: 2026-04-07
 ---
 
-## Pembrolizumab (KEYNOTE-921) Phase 3 Trial Completes Primary Completion
+## Merck's pembrolizumab trial NCT03635567 completes primary endpoint
 
 **Date:** 2022-10-03 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-The Phase 3 KEYNOTE-921 clinical trial (NCT03635567), investigating [[pembrolizumab]] plus chemotherapy with or without [[bevacizumab]] in participants with metastatic non-squamous non-small cell lung cancer (NSCLC), reached its primary completion date on October 3, 2022. The trial enrolled 617 participants and has indicated that results are available.
+Clinical trial NCT03635567, sponsored by Merck and investigating [[pembrolizumab]], reached its primary completion date on October 3, 2022. This Phase 3 study, which enrolled 617 participants, has indicated that results are now available.
 
 ### Market implication
-This marks a significant milestone for the trial, moving it closer to potential data readout and regulatory submissions, with a neutral immediate market impact as specific results are not yet disclosed.
+The completion of the primary endpoint is a standard procedural step for clinical trials, and its market implication is neutral until specific results regarding efficacy and safety are disclosed.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]
 - Company: [[merck]]
-- Indication: [[oncology-nsclc/_index]]
 
 ### Sources
 - `raw/ctgov/merck/2026-04-07/NCT03635567.json`

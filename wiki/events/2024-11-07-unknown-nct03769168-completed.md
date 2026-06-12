@@ -2,25 +2,24 @@
 event_type: trial_completion
 date: 2024-11-07
 drugs: []
-companies: ["novartis"]
+companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis's Secukinumab Phase 3 Trial (NCT03769168) Reaches Primary Completion
+headline: Novartis's Trial NCT03769168 for Secukinumab Reaches Primary Completion
 last_updated: 2024-11-07
 ---
 
-## Novartis's Secukinumab Phase 3 Trial (NCT03769168) Reaches Primary Completion
+## Novartis's Trial NCT03769168 for Secukinumab Reaches Primary Completion
 
 **Date:** 2024-11-07 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis's Phase 3 clinical trial (NCT03769168) for Secukinumab, which enrolled 55 participants, reached its primary completion on November 7, 2024. This trial has reported that results are available.
+Novartis's Phase 3 clinical trial, NCT03769168, investigating Secukinumab, has reached its primary completion date on November 7, 2024. The trial enrolled 55 participants and has reported results.
 
 ### Market implication
-This event represents a procedural milestone for Novartis's Secukinumab, with market implications contingent on the eventual release and interpretation of the trial results.
+The primary completion of this trial is a neutral event, as no specific results or outcomes have been detailed to indicate a market impact.
 
 ### Affected entities
-- Drug: Secukinumab
 - Company: [[novartis]]
 
 ### Sources

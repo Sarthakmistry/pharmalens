@@ -14,10 +14,10 @@ last_updated: 2026-04-07
 **Date:** 2026-02-05 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT05583526) sponsored by Pfizer, investigating Ritlecitinib, reached its primary completion date on February 5, 2026. The trial enrolled 607 participants and has not yet reported results.
+A Phase 3 clinical trial (NCT05583526) for Ritlecitinib, sponsored by Pfizer, reached its primary completion date on February 5, 2026. The trial enrolled 607 participants and is evaluating the drug for an unspecified indication. No results have been reported yet.
 
 ### Market implication
-The primary completion of this Phase 3 trial for Ritlecitinib is a neutral event, as no results have been released to indicate efficacy or safety.
+The primary completion of this Phase 3 trial marks a procedural milestone, with market impact pending the release of trial results.
 
 ### Affected entities
 - Drug: Ritlecitinib

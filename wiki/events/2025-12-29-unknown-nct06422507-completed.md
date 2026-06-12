@@ -2,25 +2,25 @@
 event_type: trial_completion
 date: 2025-12-29
 drugs: []
-companies: ["bayer"]
+companies: [bayer]
 indications: []
 signal: neutral
-headline: Bayer's Phase 3 Trial for Aflibercept (NCT06422507) Reaches Primary Completion
+headline: Bayer's Aflibercept Trial NCT06422507 Completes Primary Endpoint
 last_updated: 2026-04-07
 ---
 
-## Bayer's Phase 3 Trial for Aflibercept (NCT06422507) Reaches Primary Completion
+## Bayer's Aflibercept Trial NCT06422507 Completes Primary Endpoint
 
 **Date:** 2025-12-29 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Bayer's Phase 3 clinical trial, NCT06422507, investigating 8 mg aflibercept (BAY 86-5321) and 2 mg aflibercept (Eylea, BAY 86-5321), reached its primary completion date on December 29, 2025. The study enrolled 333 participants and has not yet reported results.
+A Phase 3 clinical trial (NCT06422507) investigating 8 mg aflibercept (BAY 86-5321) and 2 mg aflibercept (Eylea, BAY 86-5321) has completed its primary endpoint. The trial, sponsored by Bayer, enrolled 333 participants. Results are not yet available.
 
 ### Market implication
-This event marks a procedural milestone for Bayer's aflibercept program, with market impact pending the release of trial results.
+The completion of this trial marks a step forward in the development of aflibercept, with results anticipated to inform future market positioning.
 
 ### Affected entities
-- Drug: aflibercept
+- Drug: 8 mg aflibercept (bay 86-5321) (high dose), 2 mg aflibercept (eylea, bay 86-5321)
 - Company: [[bayer]]
 - Indication: None
 

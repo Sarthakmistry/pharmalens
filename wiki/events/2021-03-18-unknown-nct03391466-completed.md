@@ -5,21 +5,22 @@ drugs: []
 companies: [gilead]
 indications: []
 signal: neutral
-headline: Gilead's Phase 3 Trial NCT03391466 Completed Primary Completion
+headline: Gilead's Trial NCT03391466 for Axicabtagene ciloleucel Completed Primary Endpoint
 last_updated: 2026-04-07
 ---
 
-## Gilead's Phase 3 Trial NCT03391466 Completed Primary Completion
+## Gilead's Trial NCT03391466 for Axicabtagene ciloleucel Completed Primary Endpoint
 
 **Date:** 2021-03-18 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Gilead's Phase 3 clinical trial, NCT03391466, reached its primary completion date on March 18, 2021. The study, which enrolled 359 participants, has results available. This marks a significant milestone in the development process for the therapies investigated.
+Gilead's Phase 3 clinical trial NCT03391466, investigating Axicabtagene ciloleucel, reached its primary completion date on March 18, 2021. The trial enrolled 359 participants and has reported results. This marks a significant milestone in the development of the therapy.
 
 ### Market implication
-The completion of a Phase 3 trial is a standard procedural milestone and is considered neutral for Gilead's market valuation without specific results being announced.
+The completion of this Phase 3 trial indicates progress in Gilead's pipeline, moving closer to potential regulatory filings or further development stages.
 
 ### Affected entities
+- Drug: Axicabtagene ciloleucel
 - Company: [[gilead]]
 
 ### Sources

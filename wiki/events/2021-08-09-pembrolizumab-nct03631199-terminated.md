@@ -2,26 +2,26 @@
 event_type: trial_termination
 date: 2021-08-09
 drugs: [pembrolizumab]
-companies: [novartis]
+companies: [merck, novartis]
 indications: [oncology-nsclc]
 signal: bearish
-headline: Phase 3 Trial of Pembrolizumab (NCT03631199) Terminated
+headline: Phase 3 Trial (NCT03631199) of Pembrolizumab Terminated
 last_updated: 2021-08-09
 ---
 
-## Phase 3 Trial of Pembrolizumab (NCT03631199) Terminated
+## Phase 3 Trial (NCT03631199) of Pembrolizumab Terminated
 
 **Date:** 2021-08-09 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-A Phase 3 clinical trial (NCT03631199) sponsored by [[novartis]], investigating the combination of Canakinumab, [[pembrolizumab]], and chemotherapy for Stage IIIB/IV Non-Small Cell Lung Cancer (NSCLC), was terminated on August 9, 2021. The trial had enrolled 673 participants and had reached its primary completion date. This termination indicates a halt in the development of this specific combination therapy for NSCLC.
+The Phase 3 clinical trial NCT03631199, investigating [[pembrolizumab]] for non-small cell lung cancer, was terminated on August 9, 2021. This trial, sponsored by [[novartis]], had an actual enrollment of 673 participants and reached its primary completion date on the same day. The termination of a late-stage trial can indicate issues with efficacy, safety, or strategic shifts in development.
 
 ### Market implication
-The termination of this Phase 3 trial suggests a setback for [[novartis]]'s specific combination therapy strategy in NSCLC, potentially impacting the future development of Canakinumab in this indication.
+The termination of a Phase 3 trial for [[pembrolizumab]], a key asset for [[merck]], could be a bearish signal for its development in non-small cell lung cancer, potentially impacting future revenue projections.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]
-- Company: [[novartis]]
+- Company: [[merck]], [[novartis]]
 - Indication: [[oncology-nsclc/_index]]
 
 ### Sources

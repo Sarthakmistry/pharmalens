@@ -3,26 +3,25 @@ event_type: trial_completion
 date: 2023-10-02
 drugs: [pembrolizumab]
 companies: [merck]
-indications: [oncology-nsclc, oncology-breast, oncology-crc]
+indications: []
 signal: neutral
-headline: Merck's Pembrolizumab (Keytruda) Phase 3 Trial NCT03884101 Reaches Primary Completion
+headline: Merck's Phase 3 trial NCT03884101 for pembrolizumab completes primary endpoint
 last_updated: 2023-10-02
 ---
 
-## Merck's Pembrolizumab (Keytruda) Phase 3 Trial NCT03884101 Reaches Primary Completion
+## Merck's Phase 3 trial NCT03884101 for pembrolizumab completes primary endpoint
 
 **Date:** 2023-10-02 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 3 clinical trial NCT03884101, investigating [[pembrolizumab]], has reached its primary completion date on October 2, 2023. The trial, which enrolled 842 participants, has completed its primary data collection, and results are expected to be available.
+Merck's Phase 3 clinical trial NCT03884101, investigating [[pembrolizumab]], has reached its primary completion date on October 2, 2023. The trial enrolled 842 participants and has results available, indicating the conclusion of the primary data collection phase.
 
 ### Market implication
-The primary completion of this Phase 3 trial for [[pembrolizumab]] indicates progress in its clinical development, with future data readouts anticipated to provide further insights into its potential efficacy and safety.
+The completion of this Phase 3 trial marks a significant step towards potential regulatory submissions and provides data for future analysis of pembrolizumab's efficacy.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]
 - Company: [[merck]]
-- Indication: [[oncology-nsclc/_index]], [[oncology-breast/_index]], [[oncology-crc/_index]]
 
 ### Sources
 - `raw/ctgov/merck/2026-04-07/NCT03884101.json`

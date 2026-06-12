@@ -5,19 +5,19 @@ drugs: []
 companies: [merck]
 indications: []
 signal: neutral
-headline: Merck's Phase 2/3 Trial NCT03969901 for Imi/rel and Oral Switch Completed Primary Completion
-last_updated: 2026-04-07
+headline: Merck's Phase 2/3 trial NCT03969901 completed primary endpoint
+last_updated: 2024-05-07
 ---
 
-## Merck's Phase 2/3 Trial NCT03969901 for Imi/rel and Oral Switch Completed Primary Completion
+## Merck's Phase 2/3 trial NCT03969901 completed primary endpoint
 
 **Date:** 2024-05-07 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 2/3 clinical trial, NCT03969901, investigating Imi/rel and Oral switch, reached its primary completion date on May 7, 2024. The trial enrolled 115 participants and has reported that results are available.
+Merck's Phase 2/3 clinical trial, NCT03969901, which enrolled 115 participants, reached its primary completion date on May 7, 2024. The trial has been marked as completed and results are available. The trial investigated "Imi/rel" and "Oral switch".
 
 ### Market implication
-The completion of the primary endpoint for this trial is a standard procedural step and does not immediately indicate a significant market shift without the release of detailed results.
+This event is neutral as it marks the completion of a trial, but no specific results or outcomes have been announced that would impact market valuation.
 
 ### Affected entities
 - Company: [[merck]]

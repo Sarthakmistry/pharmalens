@@ -2,25 +2,25 @@
 event_type: trial_termination
 date: 2024-04-29
 drugs: []
-companies: [pfizer]
+companies: ["pfizer"]
 indications: []
 signal: bearish
-headline: Pfizer terminates Phase 2/3 clinical trial NCT05732454 for Etrasimod
+headline: Pfizer terminates Phase 2/3 trial NCT05732454 for Etrasimod
 last_updated: 2024-04-29
 ---
-```
 
-## Pfizer terminates Phase 2/3 clinical trial NCT05732454 for Etrasimod
+## Pfizer terminates Phase 2/3 trial NCT05732454 for Etrasimod
 
 **Date:** 2024-04-29 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-Pfizer has terminated its Phase 2/3 clinical trial, NCT05732454, which was investigating Etrasimod. The trial, which had an actual enrollment of 58 participants, reached its primary completion date on April 29, 2024, and results are available.
+Pfizer's Phase 2/3 clinical trial (NCT05732454) investigating Etrasimod was terminated on April 29, 2024. The trial had enrolled 58 participants and has reported results.
 
 ### Market implication
-The termination of a Phase 2/3 trial for Etrasimod represents a negative development for Pfizer's pipeline in this specific area, potentially impacting future revenue projections for the drug.
+The termination of a Phase 2/3 trial for Etrasimod represents a setback for Pfizer's pipeline in this specific area, potentially impacting future revenue expectations for the drug.
 
 ### Affected entities
+- Drug: Etrasimod
 - Company: [[pfizer]]
 
 ### Sources

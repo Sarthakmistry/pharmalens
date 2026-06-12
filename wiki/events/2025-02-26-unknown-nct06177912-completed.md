@@ -5,22 +5,24 @@ drugs: []
 companies: [merck]
 indications: []
 signal: neutral
-headline: Merck's Phase 3 Trial (NCT06177912) for V116 and Ppsv23 Completes Primary Endpoint
+headline: Merck's Phase 3 trial NCT06177912 for V116 and Ppsv23 completes primary endpoint
 last_updated: 2026-04-07
 ---
 
-## Merck's Phase 3 Trial (NCT06177912) for V116 and Ppsv23 Completes Primary Endpoint
+## Merck's Phase 3 trial NCT06177912 for V116 and Ppsv23 completes primary endpoint
 
 **Date:** 2025-02-26 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 3 clinical trial, NCT06177912, evaluating V116 and Ppsv23, has reached its primary completion date on February 26, 2025. The study successfully enrolled 882 participants and has reported that results are available. This milestone indicates the completion of data collection for the primary outcome measures of the vaccine candidates.
+Merck's Phase 3 clinical trial (NCT06177912) investigating V116 and Ppsv23 has reached its primary completion date on February 26, 2025. The study, which enrolled 882 participants, is now completed, indicating that data collection for the primary outcome measure has concluded.
 
 ### Market implication
-The completion of this Phase 3 trial signifies progress in Merck's vaccine development pipeline, with results now available for evaluation, which is a standard step in bringing new therapies to market.
+The completion of this Phase 3 trial is a standard procedural step for Merck's pipeline. Market impact will depend on the eventual release and nature of the trial results, which are not yet available.
 
 ### Affected entities
+- Drug: V116, Ppsv23
 - Company: [[merck]]
+- Indication: 
 
 ### Sources
 - `raw/ctgov/merck/2026-04-07/NCT06177912.json`

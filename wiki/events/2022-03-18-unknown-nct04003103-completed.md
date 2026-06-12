@@ -5,23 +5,25 @@ drugs: []
 companies: [merck]
 indications: []
 signal: neutral
-headline: Merck's Islatravir Phase 2 Trial (NCT04003103) Completes Primary Endpoint
+headline: Merck's Phase 2 Trial of Islatravir (NCT04003103) Completed Primary Endpoint
 last_updated: 2022-03-18
 ---
+```
 
-## Merck's Islatravir Phase 2 Trial (NCT04003103) Completes Primary Endpoint
+## Merck's Phase 2 Trial of Islatravir (NCT04003103) Completed Primary Endpoint
 
 **Date:** 2022-03-18 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT04003103) sponsored by [[merck]], investigating Islatravir, reached its primary completion on March 18, 2022. The trial enrolled 242 participants and has reported that results are available.
+Merck's Phase 2 clinical trial (NCT04003103) investigating Islatravir for an unspecified indication reached its primary completion date on March 18, 2022. The trial enrolled 242 participants and has reported that results are available.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard development step for Islatravir, with market implications dependent on the eventual release and nature of the trial results.
+The completion of this Phase 2 trial for Islatravir by Merck is a standard procedural step, with market implications dependent on the eventual disclosure of the trial results.
 
 ### Affected entities
 - Drug: Islatravir
 - Company: [[merck]]
+- Indication: 
 
 ### Sources
 - `raw/ctgov/merck/2026-04-07/NCT04003103.json`

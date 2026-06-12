@@ -5,22 +5,21 @@ drugs: []
 companies: [regeneron, sanofi, bayer]
 indications: []
 signal: bullish
-headline: Regeneron Reports Strong Q3 2025 Results Driven by Dupixent and Libtayo Approval, Despite EYLEA Decline
+headline: Regeneron Reports Strong Q3 2025 Financial Results with Increased Revenue and Net Income
 last_updated: 2025-10-28
 ---
-
-## Regeneron Reports Strong Q3 2025 Results Driven by Dupixent and Libtayo Approval, Despite EYLEA Decline
+## Regeneron Reports Strong Q3 2025 Financial Results with Increased Revenue and Net Income
 
 **Date:** 2025-10-28 | **Type:** earnings_signal | **Signal:** bullish
 
 ### Summary
-Regeneron Pharmaceuticals reported its third quarter 2025 financial results, with total revenues increasing 1% to $3.75 billion. This growth was primarily fueled by a 27% increase in Dupixent global net sales to $4.86 billion and the FDA approval of Libtayo for high-risk adjuvant cutaneous squamous cell carcinoma (CSCC). However, total EYLEA sales experienced a significant decrease of 33.6% to $1.28 billion, impacting overall EYLEA and EYLEA HD combined sales which fell 20% to $1.97 billion. The company also highlighted positive Phase 3 results for several pipeline candidates.
+Regeneron reported strong Q3 2025 financial results with total revenue of $10,458.6M and net income of $3,660.3M for the nine months ended September 30, 2025. This performance was primarily driven by significant product sales from EYLEA, EYLEA HD, and Libtayo, indicating robust growth across key franchises.
 
 ### Market implication
-The strong performance of Dupixent and the new Libtayo approval, alongside positive pipeline updates, indicate a bullish outlook for Regeneron, despite the continued decline in EYLEA sales.
+The increased revenues and net income for both the three and nine months ended September 30, 2025, compared to the same periods in 2024, suggest a positive outlook for Regeneron's stock and valuation.
 
 ### Affected entities
-- Company: [[regeneron]], [[sanofi]], [[bayer]]
+- Company: [[regeneron]]
 
 ### Sources
-- `raw/edgar/regeneron/8K/2025-10-28-8K--25-000026.txt`
+- `raw/edgar/regeneron/10Q/2025-Q3-10Q.txt`

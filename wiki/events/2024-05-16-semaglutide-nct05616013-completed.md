@@ -5,19 +5,19 @@ drugs: [semaglutide]
 companies: [eli-lilly]
 indications: [glp1-obesity]
 signal: neutral
-headline: Phase 2 trial NCT05616013, studying Bimagrumab in combination with semaglutide for obesity, completed.
+headline: Phase 2 Trial Combining Bimagrumab and Semaglutide for Obesity Completed
 last_updated: 2024-05-16
 ---
 
-## Phase 2 trial NCT05616013, studying Bimagrumab in combination with semaglutide for obesity, completed.
+## Phase 2 Trial Combining Bimagrumab and Semaglutide for Obesity Completed
 
 **Date:** 2024-05-16 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-The Phase 2 clinical trial NCT05616013, sponsored by [[eli-lilly]], has reached its primary completion date on May 16, 2024. This study evaluated Bimagrumab in combination with [[semaglutide]] in 507 adults with overweight or obesity. The trial is now completed and results are available.
+A Phase 2 clinical trial (NCT05616013) investigating the combination of Bimagrumab and [[semaglutide]] in adults with overweight or obesity has reached primary completion on May 16, 2024. The study, sponsored by [[eli-lilly]], enrolled 507 participants and has results available. This trial explores a potential new therapeutic approach in the competitive glp1-obesity market.
 
 ### Market implication
-The completion of this Phase 2 trial provides additional clinical data on [[semaglutide]]'s performance in combination therapy for obesity, which could further inform its therapeutic profile.
+The completion of this Phase 2 trial provides data for Eli Lilly's potential combination therapy in the competitive obesity market, which could influence future development decisions.
 
 ### Affected entities
 - Drug: [[semaglutide]]

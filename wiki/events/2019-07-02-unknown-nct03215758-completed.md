@@ -5,24 +5,23 @@ drugs: []
 companies: ["novartis"]
 indications: []
 signal: neutral
-headline: Novartis's Qaw039 Phase 3 Trial (NCT03215758) Completes Primary Completion
+headline: Novartis Trial NCT03215758 for Qaw039 Reaches Primary Completion
 last_updated: 2026-04-07
 ---
 
-## Novartis's Qaw039 Phase 3 Trial (NCT03215758) Completes Primary Completion
+## Novartis Trial NCT03215758 for Qaw039 Reaches Primary Completion
 
 **Date:** 2019-07-02 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT03215758) sponsored by Novartis, investigating the drug Qaw039, reached its primary completion date on July 2, 2019. The trial enrolled 675 participants and has reported results. This marks a significant milestone in the development timeline for Qaw039.
+Novartis's Phase 3 clinical trial, NCT03215758, investigating the drug Qaw039, reached its primary completion date on July 2, 2019. The trial enrolled 675 participants and has reported results. This marks a significant milestone in the development timeline for Qaw039.
 
 ### Market implication
-The primary completion of this Phase 3 trial for Qaw039 by Novartis is a neutral event, indicating progress in the drug's development pipeline.
+This event signifies a standard progression in Novartis's clinical development pipeline for Qaw039, with no immediate market impact indicated without specific trial results.
 
 ### Affected entities
 - Drug: Qaw039
 - Company: [[novartis]]
-- Indication:
 
 ### Sources
 - `raw/ctgov/novartis/2026-04-07/NCT03215758.json`

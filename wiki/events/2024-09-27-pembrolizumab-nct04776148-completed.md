@@ -5,19 +5,19 @@ drugs: [pembrolizumab]
 companies: [merck]
 indications: [oncology-crc]
 signal: neutral
-headline: Merck's Pembrolizumab Phase 3 Trial (NCT04776148) for Colorectal Cancer Completed Primary Endpoint
+headline: Merck's Phase 3 Trial of Pembrolizumab for Colorectal Cancer Reaches Primary Completion
 last_updated: 2024-09-27
 ---
 
-## Merck's Pembrolizumab Phase 3 Trial (NCT04776148) for Colorectal Cancer Completed Primary Endpoint
+## Merck's Phase 3 Trial of Pembrolizumab for Colorectal Cancer Reaches Primary Completion
 
 **Date:** 2024-09-27 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT04776148) evaluating Merck's [[pembrolizumab]] for colorectal cancer has reached its primary completion date on September 27, 2024. The trial enrolled 563 participants and has reported that results are available.
+The Phase 3 clinical trial NCT04776148, sponsored by Merck, investigating pembrolizumab for colorectal cancer, reached its primary completion date on September 27, 2024. The trial enrolled 563 participants, and results are reported as available.
 
 ### Market implication
-The completion of this Phase 3 trial marks a significant step towards potential regulatory submission, with market implications dependent on the eventual disclosure of the trial's results.
+The completion of this pivotal Phase 3 trial marks a key development milestone for pembrolizumab in colorectal cancer, with market attention now shifting to the anticipated release and interpretation of the trial's results.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

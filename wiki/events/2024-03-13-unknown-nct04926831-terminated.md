@@ -14,12 +14,13 @@ last_updated: 2024-03-13
 **Date:** 2024-03-13 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-Novartis has terminated its Phase 2 clinical trial (NCT04926831) investigating Capmatinib for non-small cell lung cancer (NSCLC). The trial, which had an actual enrollment of only 4 participants, reached its primary completion date on March 13, 2024, with a status of "TERMINATED".
+Novartis has terminated its Phase 2 clinical trial (NCT04926831) investigating Capmatinib for non-small cell lung cancer (NSCLC). The trial, which had an actual enrollment of 4 participants, reached its primary completion on March 13, 2024, and has results available.
 
 ### Market implication
-The termination of this Phase 2 trial for Capmatinib in NSCLC represents a setback for Novartis's pipeline in this indication, potentially impacting future revenue projections for the drug.
+The termination of a Phase 2 trial for Capmatinib in NSCLC represents a negative signal for Novartis's pipeline in this indication, potentially indicating issues with efficacy, safety, or strategic reprioritization.
 
 ### Affected entities
+- Drug: Capmatinib
 - Company: [[novartis]]
 - Indication: [[oncology-nsclc/_index]]
 

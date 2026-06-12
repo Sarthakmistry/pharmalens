@@ -1,23 +1,23 @@
 ---
 event_type: trial_termination
 date: 2024-06-26
-drugs: [abemaciclib]
+drugs: [semaglutide]
 companies: [eli-lilly]
 indications: [oncology-breast]
 signal: bearish
-headline: Eli Lilly's Phase 3 abemaciclib trial NCT04752332 for breast cancer terminated
+headline: Eli Lilly terminates Phase 3 trial (NCT04752332) of abemaciclib for breast cancer.
 last_updated: 2024-06-26
 ---
 
-## Eli Lilly's Phase 3 abemaciclib trial NCT04752332 for breast cancer terminated
+## Eli Lilly terminates Phase 3 trial (NCT04752332) of abemaciclib for breast cancer.
 
 **Date:** 2024-06-26 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-Eli Lilly's Phase 3 clinical trial (NCT04752332) investigating abemaciclib in combination with standard adjuvant endocrine therapy for breast cancer was terminated. The trial, which had an actual enrollment of 111 participants, reached its primary completion on June 26, 2024, and results are available.
+Eli Lilly has terminated its Phase 3 clinical trial (NCT04752332) investigating abemaciclib in combination with standard adjuvant endocrine therapy for breast cancer. The trial, which had an actual enrollment of 111 participants, reached its primary completion on June 26, 2024, and results are available.
 
 ### Market implication
-The termination of this Phase 3 trial may have a minor negative impact on Eli Lilly's pipeline expectations for abemaciclib in this specific indication.
+The termination of a Phase 3 trial, even with results, could indicate a strategic shift or lack of sufficient benefit for abemaciclib in this specific breast cancer setting, potentially limiting future label expansion opportunities for Eli Lilly.
 
 ### Affected entities
 - Drug: [[abemaciclib]]

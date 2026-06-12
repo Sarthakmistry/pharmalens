@@ -2,27 +2,27 @@
 event_type: trial_completion
 date: 2026-03-27
 drugs: []
-companies: [novartis]
+companies: ["novartis"]
 indications: []
 signal: neutral
-headline: Novartis's Phase 4 trial NCT04230148 for Egaten (triclabendazole) completes primary endpoint
+headline: Novartis's NCT04230148 trial for Egaten (triclabendazole) completes primary phase
 last_updated: 2026-05-01
 ---
 
-## Novartis's Phase 4 trial NCT04230148 for Egaten (triclabendazole) completes primary endpoint
+## Novartis's NCT04230148 trial for Egaten (triclabendazole) completes primary phase
 
 **Date:** 2026-03-27 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis's Phase 4 clinical trial, NCT04230148, investigating Egaten (triclabendazole) for an unspecified indication, reached its primary completion date on March 27, 2026. The trial enrolled 301 participants and has not yet reported results.
+The clinical trial NCT04230148, sponsored by [[novartis]], reached its primary completion date on March 27, 2026. This Phase 4 study, which enrolled 301 participants, investigated Egaten (triclabendazole). No results have been posted yet.
 
 ### Market implication
-As no results have been reported, the market implication for Novartis and Egaten (triclabendazole) remains neutral at this time.
+The completion of the primary phase of this trial is a standard procedural step and does not carry immediate market implications without disclosed results.
 
 ### Affected entities
 - Drug: Egaten (triclabendazole)
 - Company: [[novartis]]
-- Indication: N/A
+- Indication: 
 
 ### Sources
 - `raw/ctgov/novartis/2026-05-01/NCT04230148.json`

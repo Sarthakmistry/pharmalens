@@ -2,26 +2,27 @@
 event_type: trial_completion
 date: 2025-03-24
 drugs: []
-companies: ["merck"]
+companies: [merck]
 indications: []
 signal: neutral
-headline: Merck's Phase 2 trial (NCT05558696) for Bomedemstat completed primary endpoint
-last_updated: 2026-04-07
+headline: Clinical Trial NCT05558696 for Bomedemstat Completed
+last_updated: 2026-06-01
 ---
 
-## Merck's Phase 2 trial (NCT05558696) for Bomedemstat completed primary endpoint
+## Clinical Trial NCT05558696 for Bomedemstat Completed
 
 **Date:** 2025-03-24 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 2 clinical trial, NCT05558696, investigating Bomedemstat, reached its primary completion date on March 24, 2025. The trial enrolled 20 participants and has not yet reported results.
+The Phase 2 clinical trial NCT05558696, investigating Bomedemstat, has officially completed its primary phase as of March 24, 2025. Sponsored by Merck, the trial enrolled 20 participants and results are now available.
 
 ### Market implication
-The completion of the primary endpoint for this Phase 2 trial is a standard procedural step and has a neutral market implication without disclosed results.
+The completion of this Phase 2 trial for Bomedemstat by Merck marks a development milestone, with market implications awaiting the release and analysis of the trial results.
 
 ### Affected entities
 - Drug: Bomedemstat
 - Company: [[merck]]
+- Indication: None
 
 ### Sources
-- `raw/ctgov/merck/2026-04-07/NCT05558696.json`
+- `raw/ctgov/merck/2026-06-01/NCT05558696.json`

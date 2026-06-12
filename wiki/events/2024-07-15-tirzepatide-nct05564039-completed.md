@@ -5,19 +5,19 @@ drugs: [tirzepatide]
 companies: [eli-lilly]
 indications: [type2-diabetes]
 signal: neutral
-headline: Eli Lilly's Tirzepatide (NCT05564039) Phase 4 Trial for Type 2 Diabetes Reaches Primary Completion
+headline: Tirzepatide (NCT05564039) Phase 4 Trial for Type 2 Diabetes Completed
 last_updated: 2024-07-15
 ---
 
-## Eli Lilly's Tirzepatide (NCT05564039) Phase 4 Trial for Type 2 Diabetes Reaches Primary Completion
+## Tirzepatide (NCT05564039) Phase 4 Trial for Type 2 Diabetes Completed
 
 **Date:** 2024-07-15 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 4 clinical trial (NCT05564039) sponsored by Eli Lilly, investigating [[tirzepatide]] for the treatment of [[type2-diabetes]], has reached its primary completion date on July 15, 2024. The trial, which enrolled 282 participants, has now concluded its primary data collection, indicating that results are expected to be available.
+A Phase 4 clinical trial (NCT05564039) sponsored by Eli Lilly, investigating tirzepatide for type 2 diabetes, reached its primary completion date on July 15, 2024. The study, which enrolled 282 participants, is now complete and has results available.
 
 ### Market implication
-The primary completion of this Phase 4 trial is a standard procedural step and is considered a neutral event for Eli Lilly and tirzepatide, pending the release of specific trial results.
+The completion of this Phase 4 trial for an already approved drug like tirzepatide is a standard procedural update and is expected to have a neutral market implication without specific results being released.
 
 ### Affected entities
 - Drug: [[tirzepatide]]

@@ -5,19 +5,19 @@ drugs: []
 companies: [novartis]
 indications: []
 signal: neutral
-headline: Novartis's Phase 2 Trial for Ianalumab (NCT05124925) Reaches Primary Completion
-last_updated: 2024-06-26
+headline: Novartis's Ianalumab Phase 2 Trial (NCT05124925) Completes Primary Completion
+last_updated: 2026-04-07
 ---
 
-## Novartis's Phase 2 Trial for Ianalumab (NCT05124925) Reaches Primary Completion
+## Novartis's Ianalumab Phase 2 Trial (NCT05124925) Completes Primary Completion
 
 **Date:** 2024-06-26 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis's Phase 2 clinical trial, NCT05124925, investigating Ianalumab, reached its primary completion date on June 26, 2024. The study, which enrolled 21 participants, is now complete, though results have not yet been published.
+Novartis's Phase 2 trial NCT05124925, investigating the drug Ianalumab, reached its primary completion date on June 26, 2024. The trial enrolled 21 participants and has not yet posted results. This milestone indicates the completion of data collection for the primary outcome measures.
 
 ### Market implication
-The completion of this Phase 2 trial is a procedural milestone for Novartis and Ianalumab, with market impact contingent upon the eventual disclosure of study results.
+The completion of this Phase 2 trial is a neutral development for Novartis, as results are not yet available to assess the drug's efficacy or safety.
 
 ### Affected entities
 - Drug: Ianalumab

@@ -1,23 +1,23 @@
 ---
 event_type: trial_completion
 date: 2022-06-20
-drugs: [pembrolizumab]
+drugs: [semaglutide, tirzepatide, retatrutide, liraglutide, dulaglutide, empagliflozin, dapagliflozin, canagliflozin, sitagliptin, saxagliptin, sacubitril-valsartan, inclisiran, finerenone, pembrolizumab, nivolumab, osimertinib, atezolizumab, durvalumab, palbociclib, ribociclib, abemaciclib, trastuzumab deruxtecan, olaparib, bevacizumab, cetuximab, lecanemab, donanemab]
 companies: [merck]
 indications: [oncology-nsclc]
-signal: bullish
-headline: Merck's Pembrolizumab (Keytruda) Phase 3 NSCLC Trial (NCT03834506) Completes Primary Endpoint
-last_updated: 2026-04-07
+signal: neutral
+headline: Pembrolizumab (Keytruda) Phase 3 Trial NCT03834506 for NSCLC Reaches Primary Completion
+last_updated: 2022-06-20
 ---
 
-## Merck's Pembrolizumab (Keytruda) Phase 3 NSCLC Trial (NCT03834506) Completes Primary Endpoint
+## Pembrolizumab (Keytruda) Phase 3 Trial NCT03834506 for NSCLC Reaches Primary Completion
 
-**Date:** 2022-06-20 | **Type:** trial_completion | **Signal:** bullish
+**Date:** 2022-06-20 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 3 clinical trial (NCT03834506) investigating pembrolizumab (Keytruda) versus placebo in participants with resected Stage IB, II, or IIIA non-small cell lung cancer (NSCLC) reached its primary completion date on June 20, 2022. The trial enrolled 1030 participants and has reported results, indicating progress towards potential regulatory submissions or further data analysis.
+The Phase 3 clinical trial NCT03834506, evaluating pembrolizumab (Keytruda) for non-small cell lung cancer (NSCLC), reached its primary completion date on June 20, 2022. This trial enrolled 1030 participants and has indicated that results are available. The completion of this phase signifies that the primary data collection for the study has concluded.
 
 ### Market implication
-The completion of this Phase 3 trial for pembrolizumab in NSCLC is a positive signal, suggesting that data is available for evaluation and potentially supporting future label expansions or market positioning for Merck.
+The market awaits the publication of the trial results to assess the full impact on pembrolizumab's competitive position and future revenue potential in the NSCLC indication.
 
 ### Affected entities
 - Drug: [[pembrolizumab]]

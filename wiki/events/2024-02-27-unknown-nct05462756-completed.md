@@ -1,25 +1,25 @@
 ---
 event_type: trial_completion
 date: 2024-02-27
-companies: [eli-lilly]
-indications: [type2-diabetes]
+drugs: []
+companies: ["eli-lilly"]
+indications: ["type2-diabetes"]
 signal: neutral
-headline: Eli Lilly's Phase 3 Trial for Insulin Efsitora Alfa in Type 2 Diabetes Completes
+headline: Eli Lilly's Phase 3 trial for Type 2 Diabetes (NCT05462756) reaches primary completion
 last_updated: 2024-02-27
 ---
 
-## Eli Lilly's Phase 3 Trial for Insulin Efsitora Alfa in Type 2 Diabetes Completes
+## Eli Lilly's Phase 3 trial for Type 2 Diabetes (NCT05462756) reaches primary completion
 
 **Date:** 2024-02-27 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Eli Lilly's Phase 3 clinical trial (NCT05462756) investigating Insulin efsitora alfa for the treatment of Type 2 Diabetes has reached its primary completion on February 27, 2024. The study enrolled 730 participants and has reported that results are available, marking a significant step in the drug's development.
+Eli Lilly's Phase 3 clinical trial (NCT05462756), which investigated an unspecified intervention for Type 2 Diabetes, reached its primary completion date on February 27, 2024. The study enrolled 730 participants and has indicated that results are available. The trial involved drugs such as Insulin efsitora alfa, Insulin lispro (u100), and Insulin glargine (u100).
 
 ### Market implication
-The completion of this Phase 3 trial is a standard progression in drug development, with market impact dependent on the eventual release and nature of the trial results.
+The primary completion of this Phase 3 trial marks a procedural milestone for Eli Lilly, with market impact dependent on future disclosure of results.
 
 ### Affected entities
-- Drug: Insulin efsitora alfa
 - Company: [[eli-lilly]]
 - Indication: [[type2-diabetes/_index]]
 

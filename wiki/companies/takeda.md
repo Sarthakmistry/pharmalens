@@ -21,18 +21,19 @@ last_updated: 2026-04-12
 ### Pipeline
 
 ### Recent events
-| Date | Event | Signal |
-|---|---|---|
-| 2026-11-30 | Trial NCT03173092 primary completion date set. | [[2026-11-30-trial-completion-nct03173092]] |
-| 2018-07-11 | Trial NCT02747927 primary completion date reached. | [[2018-07-11-unknown-nct02747927-completed]] |
-| 2027-10-31 | Trial NCT02616302 primary completion date set. | [[2027-10-31-trial-completion-nct02616302]] |
-| 2020-05-05 | Trial NCT02979522 primary completion date reached. | [[2020-05-05-trial-completion-nct02979522]] |
-| 2026-10-31 | Trial NCT02716116 primary completion date set. | [[2026-10-31-trial-completion-nct02716116]] |
-| 2020-04-29 | Trial NCT02467270 completed primary data collection. | [[2020-04-29-unknown-nct02467270-completed]] |
-| 2017-04-20 | Trial NCT01712490 completed primary data collection. | [[2017-04-20-unknown-nct01712490-completed]] |
-| 2027-10-31 | Trial NCT02615184 primary completion date set. | [[2027-10-31-trial-completion-nct02615184]] |
-| 2024-04-30 | Trial NCT01506141 completed primary data collection. | [[2024-04-30-unknown-nct01506141-completed]] |
-| 2021-05-04 | Trial NCT01909934 completed primary data collection. | [[2021-05-04-unknown-nct01909934-completed]] |
+| Date | Type | Event | Signal |
+|---| --- |---|---|
+| 2026-04-12 | research | Pubmed result: Sitagliptin showed higher incidence of serious adverse events (SAEs). | [[2026-04-12-pubmed-result-sitagliptin-sae]] |
+| 2026-11-30 | trial | Trial NCT03173092 primary completion date set. | [[2026-11-30-trial-completion-nct03173092]] |
+| 2018-07-11 | trial | Trial NCT02747927 primary completion date reached. | [[2018-07-11-unknown-nct02747927-completed]] |
+| 2027-10-31 | trial | Trial NCT02616302 primary completion date set. | [[2027-10-31-trial-completion-nct02616302]] |
+| 2020-05-05 | trial | Trial NCT02979522 primary completion date reached. | [[2020-05-05-trial-completion-nct02979522]] |
+| 2026-10-31 | trial | Trial NCT02716116 primary completion date set. | [[2026-10-31-trial-completion-nct02716116]] |
+| 2020-04-29 | trial | Trial NCT02467270 completed primary data collection. | [[2020-04-29-unknown-nct02467270-completed]] |
+| 2017-04-20 | trial | Trial NCT01712490 completed primary data collection. | [[2017-04-20-unknown-nct01712490-completed]] |
+| 2027-10-31 | trial | Trial NCT02615184 primary completion date set. | [[2027-10-31-trial-completion-nct02615184]] |
+| 2024-04-30 | trial | Trial NCT01506141 completed primary data collection. | [[2024-04-30-unknown-nct01506141-completed]] |
+| 2021-05-04 | trial | Trial NCT01909934 completed primary data collection. | [[2021-05-04-unknown-nct01909934-completed]] |
 
 ### Sources
 - `raw/edgar/{company-slug}/`
@@ -47,3 +48,4 @@ last_updated: 2026-04-12
 - `raw/ctgov/takeda/2026-04-07/NCT02616302.json`
 - `raw/ctgov/takeda/2026-04-07/NCT03173092.json`
 - `raw/pubmed/atezolizumab/2026-04-12/abstract-40523369.json`
+- `raw/pubmed/semaglutide/2026-04-12/abstract-41715123.json`

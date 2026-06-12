@@ -5,19 +5,19 @@ drugs: [nivolumab]
 companies: [bristol-myers-squibb]
 indications: [oncology-crc]
 signal: neutral
-headline: Nivolumab (Opdivo) Phase 1/2 Trial NCT03377361 for Colorectal Cancer Completes Primary Completion
+headline: Nivolumab (Opdivo) Phase 1/2 Trial (NCT03377361) in Colorectal Cancer Completed
 last_updated: 2024-11-04
 ---
 
-## Nivolumab (Opdivo) Phase 1/2 Trial NCT03377361 for Colorectal Cancer Completes Primary Completion
+## Nivolumab (Opdivo) Phase 1/2 Trial (NCT03377361) in Colorectal Cancer Completed
 
 **Date:** 2024-11-04 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 1/2 clinical trial (NCT03377361) investigating nivolumab in combination with other agents for advanced or metastatic colorectal cancer has reached its primary completion date on November 4, 2024. The trial, sponsored by Bristol-Myers Squibb, enrolled 325 participants and has reported results.
+The Phase 1/2 clinical trial NCT03377361, investigating [[nivolumab]] for the treatment of colorectal cancer, reached its primary completion date on November 4, 2024. The study enrolled 325 participants and has reported that results are available. This milestone signifies the conclusion of the primary data collection for this early-phase trial.
 
 ### Market implication
-The completion of this Phase 1/2 trial for nivolumab in colorectal cancer is a standard procedural step. The market impact will depend on the published results, which are now available and will inform future development decisions.
+The completion of this Phase 1/2 trial for [[nivolumab]] in colorectal cancer provides further data for [[bristol-myers-squibb]]'s oncology pipeline, potentially informing future development decisions for the drug in this indication.
 
 ### Affected entities
 - Drug: [[nivolumab]]

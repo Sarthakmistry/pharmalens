@@ -1,28 +1,28 @@
 ---
 event_type: trial_completion
 date: 2023-06-01
-drugs: [nivolumab]
-companies: [bristol-myers-squibb]
-indications: [oncology-nsclc]
+drugs: ["nivolumab"]
+companies: ["bristol-myers-squibb"]
+indications: ["oncology-nsclc", "oncology-breast", "oncology-crc"]
 signal: neutral
-headline: Nivolumab (Opdivo) Phase 3 Trial NCT04100018 for NSCLC Completes Primary Completion
+headline: Nivolumab (NCT04100018) Phase 3 Trial Completed
 last_updated: 2023-06-01
 ---
 
-## Nivolumab (Opdivo) Phase 3 Trial NCT04100018 for NSCLC Completes Primary Completion
+## Nivolumab (NCT04100018) Phase 3 Trial Completed
 
 **Date:** 2023-06-01 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT04100018) evaluating [[nivolumab]], sponsored by [[bristol-myers-squibb]], reached its primary completion on June 1, 2023. The trial, which enrolled 1030 participants, investigated nivolumab for non-small cell lung cancer (NSCLC). The trial has reported that results are available.
+A Phase 3 clinical trial (NCT04100018) for the drug nivolumab, sponsored by Bristol-Myers Squibb, reached its primary completion on June 1, 2023. The study enrolled 1030 participants and has reported that results are available. This marks a significant milestone in the development pathway for nivolumab.
 
 ### Market implication
-The primary completion of this large Phase 3 trial for nivolumab in NSCLC indicates progress towards potential data readouts, which could inform future regulatory submissions and reinforce its market position.
+The completion of this Phase 3 trial is a standard procedural step in drug development, indicating progress towards potential regulatory submissions if the results are favorable.
 
 ### Affected entities
 - Drug: [[nivolumab]]
 - Company: [[bristol-myers-squibb]]
-- Indication: [[oncology-nsclc/_index]]
+- Indication: [[oncology-nsclc/_index]], [[oncology-breast/_index]], [[oncology-crc/_index]]
 
 ### Sources
 - `raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04100018.json`

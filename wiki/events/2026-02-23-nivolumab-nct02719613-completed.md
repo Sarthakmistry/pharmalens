@@ -7,16 +7,15 @@ signal: neutral
 headline: Nivolumab (NCT02719613) Phase 2 Trial Completed
 last_updated: 2026-05-01
 ---
-
 ## Nivolumab (NCT02719613) Phase 2 Trial Completed
 
 **Date:** 2026-02-23 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT02719613) investigating nivolumab, sponsored by Bristol-Myers Squibb, has reached its primary completion date on February 23, 2026. The trial enrolled 67 participants.
+A Phase 2 clinical trial (NCT02719613) evaluating [[nivolumab]], sponsored by [[bristol-myers-squibb]], reached its primary completion date on February 23, 2026. The trial enrolled 67 participants and has not yet released results.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard procedural step, with its market impact contingent upon the eventual disclosure of trial results.
+The completion of this Phase 2 trial marks a development milestone for nivolumab, with market implications pending the release of trial results.
 
 ### Affected entities
 - Drug: [[nivolumab]]

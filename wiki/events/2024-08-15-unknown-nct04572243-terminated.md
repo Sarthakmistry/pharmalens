@@ -4,25 +4,23 @@ date: 2024-08-15
 drugs: []
 companies: [eisai]
 indications: []
-signal: neutral
-headline: Eisai's Phase 3 trial for Lorcaserin (NCT04572243) terminated
+signal: bearish
+headline: Eisai's Phase 3 Trial NCT04572243 for Lorcaserin Terminated
 last_updated: 2026-04-07
 ---
 
-## Eisai's Phase 3 trial for Lorcaserin (NCT04572243) terminated
+## Eisai's Phase 3 Trial NCT04572243 for Lorcaserin Terminated
 
-**Date:** 2024-08-15 | **Type:** trial_termination | **Signal:** neutral
+**Date:** 2024-08-15 | **Type:** trial_termination | **Signal:** bearish
 
 ### Summary
-Eisai's Phase 3 clinical trial (NCT04572243) investigating Lorcaserin, an untracked drug, was terminated on August 15, 2024. The trial, which had an actual enrollment of 22 participants, reached its primary completion date on the same day it was terminated. The termination indicates that the trial will not proceed as originally planned, though the specific reasons for termination are not detailed in the available information.
+Eisai's Phase 3 clinical trial NCT04572243, investigating Lorcaserin, was officially terminated on August 15, 2024. The trial had an actual enrollment of 22 participants and has reported results. The termination of a Phase 3 trial typically indicates a strategic shift, lack of efficacy, or safety concerns, preventing further development of the drug in this context.
 
 ### Market implication
-The termination of this Phase 3 trial for an untracked drug is unlikely to have a significant direct impact on Eisai's valuation, as Lorcaserin is not a core asset in the current PharmaLens tracking scope.
+The termination of a Phase 3 trial for Lorcaserin could be a minor negative signal for [[eisai]]'s pipeline, as it suggests a setback for this particular asset, though Lorcaserin is not a tracked drug in the PharmaLens system.
 
 ### Affected entities
-- Drug: Lorcaserin
 - Company: [[eisai]]
-- Indication: Not specified
 
 ### Sources
 - `raw/ctgov/eisai/2026-04-07/NCT04572243.json`

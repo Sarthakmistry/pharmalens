@@ -14,10 +14,10 @@ last_updated: 2024-07-01
 **Date:** 2024-07-01 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT05691712) for [[tirzepatide]], sponsored by [[eli-lilly]], has reached its primary completion date on July 1, 2024. The trial, which enrolled 257 participants, has also indicated that results are available.
+Clinical trial NCT05691712, a Phase 3 study evaluating tirzepatide, has reached its primary completion date on July 1, 2024. The trial, sponsored by Eli Lilly, enrolled 257 participants and has indicated that results are available.
 
 ### Market implication
-The completion of this Phase 3 trial for tirzepatide is a standard procedural step in drug development and is neutral for Eli Lilly's valuation until specific results are publicly disclosed.
+The completion of this Phase 3 trial marks a procedural milestone for Eli Lilly's [[tirzepatide]], with future data release anticipated.
 
 ### Affected entities
 - Drug: [[tirzepatide]]

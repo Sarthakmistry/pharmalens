@@ -5,18 +5,19 @@ drugs: []
 companies: ["pfizer"]
 indications: []
 signal: neutral
-headline: Pfizer's Trial NCT03587116 Reaches Primary Completion
+headline: Pfizer's Phase 3 Trial NCT03587116 Reaches Primary Completion
 last_updated: 2026-04-07
 ---
-## Pfizer's Trial NCT03587116 Reaches Primary Completion
+
+## Pfizer's Phase 3 Trial NCT03587116 Reaches Primary Completion
 
 **Date:** 2024-12-13 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT03587116) sponsored by Pfizer has reached its primary completion date on December 13, 2024. The trial enrolled 212 participants and has results available, indicating a procedural milestone in its clinical development.
+Pfizer's Phase 3 clinical trial NCT03587116, which enrolled 212 participants, reached its primary completion date on December 13, 2024. The trial status is now COMPLETED, and results are available.
 
 ### Market implication
-This event marks a procedural milestone for Pfizer's clinical development pipeline, with potential future implications pending the release of trial results.
+The completion of this Phase 3 trial marks a milestone for Pfizer, with results now available for analysis.
 
 ### Affected entities
 - Company: [[pfizer]]

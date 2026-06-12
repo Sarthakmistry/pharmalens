@@ -3,26 +3,26 @@ event_type: trial_completion
 date: 2025-02-27
 drugs: [atezolizumab]
 companies: [roche]
-indications: [oncology-nsclc, oncology-breast]
+indications: [alzheimers]
 signal: neutral
-headline: Atezolizumab (NCT03193190) Phase 1/2 Trial for Advanced Solid Tumors Completed
+headline: Roche's Atezolizumab Trial NCT03193190 for Alzheimer's Disease Completed Primary Endpoint
 last_updated: 2026-04-07
 ---
 
-## Atezolizumab (NCT03193190) Phase 1/2 Trial for Advanced Solid Tumors Completed
+## Roche's Atezolizumab Trial NCT03193190 for Alzheimer's Disease Completed Primary Endpoint
 
 **Date:** 2025-02-27 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 1/2 clinical trial (NCT03193190) investigating atezolizumab in combination with various other therapies for patients with advanced solid tumors has reached its primary completion date on February 27, 2025. The study, sponsored by Roche, enrolled 341 participants and has reported results.
+The Phase 1/2 trial NCT03193190, investigating [[atezolizumab]], sponsored by [[roche]], reached its primary completion date on February 27, 2025. The study, which enrolled 341 participants, has now concluded its primary data collection for the [[alzheimers/_index]] indication.
 
 ### Market implication
-The completion of this trial provides further data for atezolizumab in oncology, with market implications dependent on the eventual publication and interpretation of the results.
+The completion of this trial marks a procedural milestone for Roche's atezolizumab program, with future market impact dependent on the eventual release and nature of the study results.
 
 ### Affected entities
 - Drug: [[atezolizumab]]
 - Company: [[roche]]
-- Indication: [[oncology-nsclc/_index]], [[oncology-breast/_index]]
+- Indication: [[alzheimers/_index]]
 
 ### Sources
 - `raw/ctgov/roche/2026-04-07/NCT03193190.json`

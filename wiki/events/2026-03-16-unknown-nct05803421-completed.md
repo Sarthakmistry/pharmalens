@@ -2,22 +2,22 @@
 event_type: trial_completion
 date: 2026-03-16
 drugs: []
-companies: ["eli-lilly"]
-indications: ["type2-diabetes", "glp1-obesity"]
+companies: [eli-lilly]
+indications: [type2-diabetes, glp1-obesity]
 signal: neutral
-headline: Eli Lilly's Phase 3 Trial (NCT05803421) for Orforglipron in Type 2 Diabetes and Obesity Completes Primary Study
+headline: Eli Lilly's Phase 3 Trial for Orforglipron in Type 2 Diabetes and Obesity Reaches Primary Completion
 last_updated: 2026-05-01
 ---
 
-## Eli Lilly's Phase 3 Trial (NCT05803421) for Orforglipron in Type 2 Diabetes and Obesity Completes Primary Study
+## Eli Lilly's Phase 3 Trial for Orforglipron in Type 2 Diabetes and Obesity Reaches Primary Completion
 
 **Date:** 2026-03-16 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Eli Lilly's Phase 3 clinical trial (NCT05803421) investigating Orforglipron for the treatment of Type 2 Diabetes and obesity has reached its primary completion date on March 16, 2026. The study, which enrolled 2749 participants, has concluded its data collection for the primary outcome measures. This trial also involved Insulin glargine as a comparator.
+Eli Lilly's Phase 3 trial (NCT05803421), evaluating Orforglipron in participants with Type 2 Diabetes and Obesity, reached its primary completion date on March 16, 2026. The study, which also involved Insulin glargine, enrolled 2749 participants. While the trial is now completed, results have not yet been posted.
 
 ### Market implication
-The completion of this large Phase 3 trial is a procedural milestone, with market impact contingent upon the eventual release and nature of the study results for Orforglipron.
+The completion of this large Phase 3 trial for Orforglipron marks a procedural milestone for Eli Lilly, indicating progress in its pipeline, though market reaction will depend on future data readouts.
 
 ### Affected entities
 - Drug: Orforglipron, Insulin glargine

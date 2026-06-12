@@ -5,19 +5,19 @@ drugs: [sacubitril-valsartan]
 companies: [novartis]
 indications: [hf-htn]
 signal: neutral
-headline: Novartis's Sacubitril-valsartan (Entresto) Phase 3 trial NCT03785405 for heart failure completed primary endpoint
-last_updated: 2026-04-07
+headline: Novartis's Sacubitril-valsartan Trial NCT03785405 for Heart Failure Completed
+last_updated: 2023-12-29
 ---
 
-## Novartis's Sacubitril-valsartan (Entresto) Phase 3 trial NCT03785405 for heart failure completed primary endpoint
+## Novartis's Sacubitril-valsartan Trial NCT03785405 for Heart Failure Completed
 
 **Date:** 2023-12-29 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novartis announced the primary completion of its Phase 3 clinical trial, NCT03785405, investigating sacubitril-valsartan for heart failure. The trial, which enrolled 216 participants, reached its primary completion date on December 29, 2023, and results are now available.
+A Phase 3 clinical trial (NCT03785405) sponsored by Novartis, investigating sacubitril-valsartan for heart failure, reached its primary completion on December 29, 2023. The trial enrolled 216 participants and has reported results.
 
 ### Market implication
-The completion of this trial provides further data for sacubitril-valsartan in heart failure, with market implications dependent on the eventual publication and interpretation of its results.
+The completion of this Phase 3 trial is a standard procedural step for Novartis's sacubitril-valsartan, with market implications dependent on the eventual publication and interpretation of its results.
 
 ### Affected entities
 - Drug: [[sacubitril-valsartan]]

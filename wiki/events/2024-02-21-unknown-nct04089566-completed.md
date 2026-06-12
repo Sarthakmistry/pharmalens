@@ -5,19 +5,19 @@ drugs: []
 companies: [biogen]
 indications: []
 signal: neutral
-headline: Biogen's Nusinersen Trial NCT04089566 Reaches Primary Completion
+headline: Biogen's Phase 3 Trial NCT04089566 for Nusinersen Reaches Primary Completion
 last_updated: 2026-04-07
 ---
 
-## Biogen's Nusinersen Trial NCT04089566 Reaches Primary Completion
+## Biogen's Phase 3 Trial NCT04089566 for Nusinersen Reaches Primary Completion
 
 **Date:** 2024-02-21 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-The Phase 3 clinical trial NCT04089566, sponsored by Biogen and investigating Nusinersen, reached its primary completion on February 21, 2024. This study enrolled 145 participants and has reported that results are available.
+Biogen's Phase 3 clinical trial, NCT04089566, which investigated Nusinersen, reached its primary completion date on February 21, 2024. The study enrolled 145 participants and has reported that results are available. This marks a significant milestone in the trial's progression.
 
 ### Market implication
-The primary completion of a Phase 3 trial is a standard development milestone, and without specific results or further context, it carries a neutral market implication.
+The primary completion of this Phase 3 trial is a standard procedural update and does not immediately convey specific market implications without the release of detailed results.
 
 ### Affected entities
 - Company: [[biogen]]

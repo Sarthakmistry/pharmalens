@@ -5,19 +5,18 @@ drugs: []
 companies: ["merck"]
 indications: []
 signal: neutral
-headline: Merck's Phase 3 Trial for Enlicitide (NCT06450366) Reaches Primary Completion
-last_updated: 2026-04-07
+headline: Merck's Phase 3 Trial for Enlicitide, Ezetimibe, and Bempedoic Acid Reaches Primary Completion
+last_updated: 2025-02-14
 ---
-
-## Merck's Phase 3 Trial for Enlicitide (NCT06450366) Reaches Primary Completion
+## Merck's Phase 3 Trial for Enlicitide, Ezetimibe, and Bempedoic Acid Reaches Primary Completion
 
 **Date:** 2025-02-14 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Merck's Phase 3 clinical trial (NCT06450366), investigating Enlicitide in combination with Ezetimibe and Bempedoic acid, has reached its primary completion date on February 14, 2025. The trial enrolled 301 participants and has results available, though specific findings are not detailed in this update.
+Merck's Phase 3 clinical trial (NCT06450366) investigating Enlicitide, Ezetimibe, and Bempedoic acid has reached its primary completion date on February 14, 2025. The trial enrolled 301 participants and has results available, though not detailed in this update. This marks a significant milestone in the drug development process.
 
 ### Market implication
-The market will await the release of the trial results to assess the potential impact on [[merck]]'s pipeline and future revenue.
+The completion of a Phase 3 trial is a procedural step; market implications will depend on the eventual release and nature of the trial results.
 
 ### Affected entities
 - Drug: Enlicitide, Ezetimibe, Bempedoic acid

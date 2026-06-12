@@ -5,20 +5,20 @@ drugs: []
 companies: [biogen]
 indications: []
 signal: neutral
-headline: Biogen's Phase 2 Trial NCT05798520 Completed Primary Data Collection
+headline: Biogen's Phase 2 Trial NCT05798520 Completed Primary Endpoint
 last_updated: 2026-04-07
 ---
 ```
 
-## Biogen's Phase 2 Trial NCT05798520 Completed Primary Data Collection
+## Biogen's Phase 2 Trial NCT05798520 Completed Primary Endpoint
 
 **Date:** 2026-02-10 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Biogen's Phase 2 clinical trial, NCT05798520, which enrolled 127 participants, completed its primary data collection on February 10, 2026. The trial's status is now listed as completed, though no results have been published yet.
+Biogen's Phase 2 clinical trial, NCT05798520, reached its primary completion date on February 10, 2026. The trial, which involved 127 actual participants, has concluded its primary data collection. No specific results have been reported yet.
 
 ### Market implication
-The completion of primary data collection for this Phase 2 trial is a standard procedural step and has a neutral market implication until results are announced.
+The completion of this Phase 2 trial is a standard procedural step for Biogen, with no immediate market impact given the absence of reported results.
 
 ### Affected entities
 - Company: [[biogen]]

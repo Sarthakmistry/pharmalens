@@ -3,21 +3,20 @@ event_type: trial_completion
 date: 2021-12-08
 drugs: [atezolizumab]
 companies: [roche]
-indications: []
 signal: neutral
-headline: Roche's Phase 2 trial (NCT04300647) for Atezolizumab completed
+headline: Roche's Atezolizumab Trial NCT04300647 Completed
 last_updated: 2021-12-08
 ---
 
-## Roche's Phase 2 trial (NCT04300647) for Atezolizumab completed
+## Roche's Atezolizumab Trial NCT04300647 Completed
 
 **Date:** 2021-12-08 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT04300647) for [[atezolizumab]], sponsored by [[roche]], reached its primary completion on December 8, 2021. The trial, which enrolled 172 participants, has reported results. This marks a procedural milestone in the drug's development.
+Roche's Phase 2 clinical trial (NCT04300647), investigating atezolizumab in combination with Tiragolumab, reached its primary completion on December 8, 2021. The trial enrolled 172 participants and has reported results.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard procedural step, with market implications dependent on the eventual publication and nature of the trial results.
+The completion of this Phase 2 trial is a procedural milestone, with market impact contingent on the future disclosure and significance of its results.
 
 ### Affected entities
 - Drug: [[atezolizumab]]

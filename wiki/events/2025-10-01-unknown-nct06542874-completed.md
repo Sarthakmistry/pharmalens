@@ -2,24 +2,25 @@
 event_type: trial_completion
 date: 2025-10-01
 drugs: []
-companies: ["novo-nordisk"]
-indications: ["type2-diabetes"]
+companies: [novo-nordisk]
+indications: [type2-diabetes]
 signal: neutral
-headline: Novo Nordisk Completes Phase 2 Trial (NCT06542874) for Nnc0487-0111 in Type 2 Diabetes
+headline: Novo Nordisk's Phase 2 trial for Nnc0487-0111 in Type 2 Diabetes reaches primary completion
 last_updated: 2026-04-07
 ---
 
-## Novo Nordisk Completes Phase 2 Trial (NCT06542874) for Nnc0487-0111 in Type 2 Diabetes
+## Novo Nordisk's Phase 2 trial for Nnc0487-0111 in Type 2 Diabetes reaches primary completion
 
 **Date:** 2025-10-01 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-Novo Nordisk has completed its Phase 2 clinical trial (NCT06542874) evaluating Nnc0487-0111 (subcutaneous and oral formulations) for Type 2 Diabetes. The trial enrolled 448 participants and reached its primary completion date on October 1, 2025. Results from this study are not yet available.
+Novo Nordisk's Phase 2 clinical trial (NCT06542874) investigating Nnc0487-0111 (subcutaneous and oral formulations) for Type 2 Diabetes has reached its primary completion date on October 1, 2025. The trial enrolled 448 participants to evaluate the drug's efficacy and safety.
 
 ### Market implication
-The completion of this Phase 2 trial is a standard procedural step, with market impact pending the release of trial results.
+This marks a milestone in the development of Nnc0487-0111, with results anticipated to inform future development decisions for Novo Nordisk.
 
 ### Affected entities
+- Drug: Nnc0487-0111 subcutanous, Nnc0487-0111 oral
 - Company: [[novo-nordisk]]
 - Indication: [[type2-diabetes/_index]]
 

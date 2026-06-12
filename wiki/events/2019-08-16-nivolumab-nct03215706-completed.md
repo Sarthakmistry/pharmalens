@@ -5,19 +5,19 @@ drugs: [nivolumab]
 companies: [bristol-myers-squibb]
 indications: [oncology-nsclc]
 signal: neutral
-headline: Nivolumab (Opdivo) Phase 3 Trial NCT03215706 Completed for Non-Small Cell Lung Cancer
+headline: Nivolumab (Opdivo) Phase 3 Trial NCT03215706 for NSCLC Reaches Primary Completion
 last_updated: 2019-08-16
 ---
 
-## Nivolumab (Opdivo) Phase 3 Trial NCT03215706 Completed for Non-Small Cell Lung Cancer
+## Nivolumab (Opdivo) Phase 3 Trial NCT03215706 for NSCLC Reaches Primary Completion
 
 **Date:** 2019-08-16 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 3 clinical trial (NCT03215706) investigating [[nivolumab]], sponsored by [[bristol-myers-squibb]], for non-small cell lung cancer (NSCLC) reached its primary completion on August 16, 2019. The trial enrolled 719 participants and has reported results.
+A Phase 3 clinical trial (NCT03215706) evaluating nivolumab, sponsored by Bristol Myers Squibb, for non-small cell lung cancer (NSCLC) reached its primary completion date on August 16, 2019. The trial, which enrolled 719 participants, has reported results.
 
 ### Market implication
-The completion of this Phase 3 trial for nivolumab in NSCLC provides further data for the drug's profile in this indication, with results now available for review.
+The completion of this Phase 3 trial marks a procedural milestone for Bristol Myers Squibb's nivolumab in NSCLC, with market implications awaiting the release and analysis of its results.
 
 ### Affected entities
 - Drug: [[nivolumab]]

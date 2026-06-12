@@ -5,19 +5,19 @@ drugs: [finerenone]
 companies: [bayer]
 indications: [hf-htn]
 signal: neutral
-headline: Bayer's Phase 3 trial NCT05047263 for finerenone completes primary completion
+headline: Bayer's finerenone Phase 3 trial (NCT05047263) completes primary endpoint
 last_updated: 2026-04-07
 ---
 
-## Bayer's Phase 3 trial NCT05047263 for finerenone completes primary completion
+## Bayer's finerenone Phase 3 trial (NCT05047263) completes primary endpoint
 
 **Date:** 2025-12-31 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-The Phase 3 clinical trial NCT05047263, investigating finerenone for heart failure, sponsored by Bayer, reached its primary completion date on December 31, 2025. The trial successfully enrolled 1584 participants. No results have been published yet.
+The Phase 3 clinical trial NCT05047263, investigating finerenone for heart failure with preserved ejection fraction (HFpEF), reached its primary completion date on December 31, 2025. This trial, sponsored by Bayer, enrolled 1584 participants and marks a significant milestone in the drug's development for this indication.
 
 ### Market implication
-The completion of this Phase 3 trial is a procedural milestone for finerenone, moving it closer to potential data readout and regulatory submission, with market implications dependent on the eventual trial results.
+The completion of this Phase 3 trial is a standard development milestone for Bayer's finerenone, indicating progress in its clinical program for heart failure.
 
 ### Affected entities
 - Drug: [[finerenone]]

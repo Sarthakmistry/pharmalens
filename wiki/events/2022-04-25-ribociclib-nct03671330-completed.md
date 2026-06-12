@@ -5,19 +5,19 @@ drugs: [ribociclib]
 companies: [novartis]
 indications: [oncology-breast]
 signal: neutral
-headline: Ribociclib (NCT03671330) Phase 2 Trial Completed
+headline: Novartis's Ribociclib (NCT03671330) Phase 2 Trial for Breast Cancer Reaches Primary Completion
 last_updated: 2022-04-25
 ---
 
-## Ribociclib (NCT03671330) Phase 2 Trial Completed
+## Novartis's Ribociclib (NCT03671330) Phase 2 Trial for Breast Cancer Reaches Primary Completion
 
 **Date:** 2022-04-25 | **Type:** trial_completion | **Signal:** neutral
 
 ### Summary
-A Phase 2 clinical trial (NCT03671330) investigating [[ribociclib]] in combination with NSAI (letrozole or anastrazole) and goserelin for patients with hormone receptor-positive, HER2-negative advanced breast cancer completed its primary phase on April 25, 2022. The trial, sponsored by [[novartis]], enrolled 327 participants. No results have been reported yet.
+Novartis's Phase 2 clinical trial (NCT03671330) investigating ribociclib for breast cancer reached its primary completion date on April 25, 2022. The trial, which enrolled 327 participants, has completed its primary data collection, but results have not yet been published.
 
 ### Market implication
-The completion of this Phase 2 trial for [[ribociclib]] is a standard procedural step and has a neutral market implication until results are released.
+The primary completion of this Phase 2 trial for ribociclib is a standard procedural milestone and is considered neutral until results are released.
 
 ### Affected entities
 - Drug: [[ribociclib]]
