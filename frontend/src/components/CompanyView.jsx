@@ -76,8 +76,14 @@ export default function CompanyView({ slug, onSelectIndication }) {
         </>
       )}
 
-      {/* SEC events + Clinical trials side by side */}
-      <div className="bottom-grid" style={{ marginBottom: 16 }}>
+      {/* Events + indications in one row */}
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: meta.indications_active?.length > 0 ? '1fr 1fr 1fr' : '1fr 1fr',
+        gap: 10,
+        marginBottom: 20,
+        alignItems: 'start',
+      }}>
         <div className="card">
           <p className="sec-label" style={{ marginBottom: 12 }}>Earnings &amp; regulatory</p>
           <div className="event-list">
@@ -113,33 +119,27 @@ export default function CompanyView({ slug, onSelectIndication }) {
             ))}
           </div>
         </div>
-      </div>
 
-      {/* Active indications */}
-      <div className="bottom-grid">
-        <div className="card">
-          <p className="sec-label" style={{ marginBottom: 12 }}>Active indications</p>
-          <div className="co-list">
-            {(meta.indications_active ?? []).map((ind, i) => (
-              <div key={ind}>
-                {i > 0 && <hr className="divider" style={{ margin: 0 }} />}
-                <div
-                  className="co-row"
-                  style={{ cursor: onSelectIndication ? 'pointer' : 'default' }}
-                  onClick={() => onSelectIndication?.(ind)}
-                >
-                  <div>
-                    <div className="co-name">{ind.replace(/-/g, ' ')}</div>
+        {meta.indications_active?.length > 0 && (
+          <div className="card">
+            <p className="sec-label" style={{ marginBottom: 12 }}>Active indications</p>
+            <div className="co-list">
+              {meta.indications_active.map((ind, i) => (
+                <div key={ind}>
+                  {i > 0 && <hr className="divider" style={{ margin: 0 }} />}
+                  <div
+                    className="co-row"
+                    style={{ cursor: onSelectIndication ? 'pointer' : 'default' }}
+                    onClick={() => onSelectIndication?.(ind)}
+                  >
+                    <div className="co-name">{fmtIndication(ind)}</div>
+                    <span className="badge badge-approved" style={{ fontSize: 11 }}>Active</span>
                   </div>
-                  <span className="badge badge-approved" style={{ fontSize: 11 }}>Active</span>
                 </div>
-              </div>
-            ))}
-            {!meta.indications_active?.length && (
-              <p style={{ fontSize: 13, color: '#888780' }}>No active indications listed</p>
-            )}
+              ))}
+            </div>
           </div>
-        </div>
+        )}
       </div>
 
       {/* AI bar */}
