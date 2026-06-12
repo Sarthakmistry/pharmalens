@@ -47,7 +47,7 @@ export function parseDrugsTable(wikiBody) {
   })).filter(r => r.drug)
 }
 
-// Parse "Recent events" table → [{date, event, signal}]
+// Parse "Recent events" table → [{date, event, signal}], sorted newest first
 export function parseEventsTable(wikiBody) {
   const lines = sectionLines(wikiBody, 'Recent events')
   return parseTable(lines).map(r => ({
@@ -55,6 +55,7 @@ export function parseEventsTable(wikiBody) {
     event:  stripLinks(r['Event'] ?? ''),
     signal: stripLinks(r['Signal'] ?? ''),
   })).filter(r => r.event)
+    .sort((a, b) => b.date.localeCompare(a.date))
 }
 
 // Map sentiment string → integer 1-5 for dot display

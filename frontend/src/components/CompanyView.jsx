@@ -83,7 +83,7 @@ export default function CompanyView({ slug, onSelectIndication }) {
             {events.length === 0 && (
               <p style={{ fontSize: 13, color: '#888780' }}>No events found in wiki</p>
             )}
-            {events.slice(0, 6).map((e, i) => (
+            {events.slice(0, 10).map((e, i) => (
               <div key={i} className="event-row">
                 <span className="evt-dot" style={{ background: eventColor(e.event) }} />
                 <div>
