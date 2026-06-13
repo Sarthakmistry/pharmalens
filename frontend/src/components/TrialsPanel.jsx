@@ -9,12 +9,12 @@ function StatCard({ label, value }) {
   return (
     <div style={{
       background: '#f5f4f0',
-      borderRadius: 10,
-      padding: '14px 18px',
+      borderRadius: 8,
+      padding: '10px 12px',
       flex: 1,
     }}>
-      <div style={{ fontSize: 12, color: '#888', marginBottom: 6 }}>{label}</div>
-      <div style={{ fontSize: 28, fontWeight: 700, color: '#1a1a18', lineHeight: 1 }}>{value}</div>
+      <div style={{ fontSize: 11, color: '#888', marginBottom: 4 }}>{label}</div>
+      <div style={{ fontSize: 22, fontWeight: 700, color: '#1a1a18', lineHeight: 1 }}>{value}</div>
     </div>
   )
 }
@@ -22,55 +22,53 @@ function StatCard({ label, value }) {
 function PhaseChart({ phases }) {
   if (!phases.length) return null
 
-  const maxVal = Math.max(...phases.flatMap(p => [p.active, p.completed]), 1)
-  const BAR_H   = 14
-  const GAP     = 5
-  const ROW_H   = BAR_H * 2 + GAP + 16  // two bars + gap + phase label spacing
-  const LABEL_W = 110
-  const CHART_W = 260
+  const maxVal  = Math.max(...phases.flatMap(p => [p.active, p.completed]), 1)
+  const BAR_H   = 8
+  const GAP     = 3
+  const ROW_H   = BAR_H * 2 + GAP + 10
+  const LABEL_W = 72
+  const CHART_W = 160
+  const COUNT_W = 24
+  const TOTAL_W = LABEL_W + CHART_W + COUNT_W
   const totalH  = phases.length * ROW_H
 
   return (
-    <div style={{ marginTop: 14 }}>
-      <div style={{ display: 'flex', gap: 16, marginBottom: 10, fontSize: 11, color: '#666' }}>
-        <span style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
-          <span style={{ width: 10, height: 10, borderRadius: 2, background: ACTIVE_COLOR, display: 'inline-block' }} />
+    <div style={{ marginTop: 10 }}>
+      <div style={{ display: 'flex', gap: 12, marginBottom: 8, fontSize: 10, color: '#888' }}>
+        <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+          <span style={{ width: 8, height: 8, borderRadius: 2, background: ACTIVE_COLOR, display: 'inline-block' }} />
           Active / recruiting
         </span>
-        <span style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
-          <span style={{ width: 10, height: 10, borderRadius: 2, background: COMPLETED_COLOR, display: 'inline-block' }} />
+        <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+          <span style={{ width: 8, height: 8, borderRadius: 2, background: COMPLETED_COLOR, display: 'inline-block' }} />
           Reached primary completion
         </span>
       </div>
 
-      <svg width="100%" viewBox={`0 0 ${LABEL_W + CHART_W} ${totalH}`} style={{ overflow: 'visible' }}>
+      <svg width="100%" viewBox={`0 0 ${TOTAL_W} ${totalH}`}>
         {phases.map((p, i) => {
-          const y        = i * ROW_H
-          const activeW  = (p.active    / maxVal) * CHART_W
-          const compW    = (p.completed / maxVal) * CHART_W
+          const y       = i * ROW_H
+          const activeW = (p.active    / maxVal) * CHART_W
+          const compW   = (p.completed / maxVal) * CHART_W
 
           return (
             <g key={p.phase}>
-              <text x={LABEL_W - 8} y={y + BAR_H - 2} textAnchor="end" fontSize={11} fill="#666">
+              <text x={LABEL_W - 6} y={y + BAR_H - 1} textAnchor="end" fontSize={10} fill="#777">
                 {p.phase}
               </text>
 
-              {/* active bar */}
               {p.active > 0 && (
-                <rect x={LABEL_W} y={y} width={activeW} height={BAR_H} rx={3} fill={ACTIVE_COLOR} />
-              )}
-
-              {/* completed bar */}
-              {p.completed > 0 && (
-                <rect x={LABEL_W} y={y + BAR_H + GAP} width={compW} height={BAR_H} rx={3} fill={COMPLETED_COLOR} />
-              )}
-
-              {/* count labels */}
-              {p.active > 0 && (
-                <text x={LABEL_W + activeW + 5} y={y + BAR_H - 2} fontSize={10} fill="#555">{p.active}</text>
+                <rect x={LABEL_W} y={y} width={activeW} height={BAR_H} rx={2} fill={ACTIVE_COLOR} />
               )}
               {p.completed > 0 && (
-                <text x={LABEL_W + compW + 5} y={y + BAR_H + GAP + BAR_H - 2} fontSize={10} fill="#555">{p.completed}</text>
+                <rect x={LABEL_W} y={y + BAR_H + GAP} width={compW} height={BAR_H} rx={2} fill={COMPLETED_COLOR} />
+              )}
+
+              {p.active > 0 && (
+                <text x={LABEL_W + activeW + 4} y={y + BAR_H - 1} fontSize={9} fill="#555">{p.active}</text>
+              )}
+              {p.completed > 0 && (
+                <text x={LABEL_W + compW + 4} y={y + BAR_H + GAP + BAR_H - 1} fontSize={9} fill="#555">{p.completed}</text>
               )}
             </g>
           )
