@@ -2,22 +2,22 @@
 event_type: earnings_signal
 date: 2025-10-06
 drugs: []
-companies: [regeneron]
+companies: ["regeneron"]
 indications: []
 signal: bearish
-headline: Regeneron expects $83 million pre-tax IPR&D charge for Q3 2025 due to Hansoh Pharmaceuticals upfront payment
+headline: Regeneron expects Q3 2025 IPR&D charge of $83 million, impacting EPS by $0.68
 last_updated: 2025-10-06
 ---
 
-## Regeneron expects $83 million pre-tax IPR&D charge for Q3 2025 due to Hansoh Pharmaceuticals upfront payment
+## Regeneron expects Q3 2025 IPR&D charge of $83 million, impacting EPS by $0.68
 
 **Date:** 2025-10-06 | **Type:** earnings_signal | **Signal:** bearish
 
 ### Summary
-Regeneron Pharmaceuticals expects a pre-tax acquired in-process research and development (IPR&D) charge of approximately $83 million for the third quarter of 2025. This charge is primarily due to an $80 million upfront payment to Hansoh Pharmaceuticals under a 2025 license agreement. The company anticipates this will negatively impact net income per diluted share by approximately $0.68.
+Regeneron Pharmaceuticals expects to report an acquired in-process research and development (IPR&D) charge of approximately $83 million for Q3 2025. This charge primarily stems from an $80 million upfront payment to Hansoh Pharmaceuticals under a 2025 license agreement. The IPR&D charge is anticipated to negatively impact the company's earnings per share.
 
 ### Market implication
-The expected acquired IPR&D charge will negatively impact Regeneron's GAAP and non-GAAP net income per diluted share for Q3 2025, indicating a bearish short-term financial outlook.
+This expected IPR&D charge will negatively impact Regeneron's GAAP and non-GAAP net income per diluted share for the third quarter 2025 by approximately $0.68, indicating a bearish signal for short-term earnings.
 
 ### Affected entities
 - Company: [[regeneron]]

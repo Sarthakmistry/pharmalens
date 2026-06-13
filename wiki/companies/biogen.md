@@ -24,7 +24,7 @@ One paragraph per drug with notable management language.}
 - **[[lecanemab]]**: A Phase 2 study (NCT01767311) for early [[alzheimers]] has completed. This multinational, multicenter, double-blind, placebo-controlled, parallel-group study enrolled 856 participants and evaluated lecanemab at various doses. Primary outcomes included change in Alzheimer's Disease Composite Score (ADCOMS) at Month 12 and safety. Biogen is a collaborator with Eisai Inc. on this Phase 3 interventional trial (NCT03887455) for early [[alzheimers]]. The trial is active but not recruiting, with a projected primary completion date of June 30, 2029. Primary outcome measures include change from baseline in CDR-SB at 18 months and adverse events in the extension phase.
 - **suzetrigine**: Rapid advancement of suzetrigine in DPN through pivotal development.
 - **zimislecel**: Rapid advancement of zimislecel in T1D through pivotal development.
-- **povetacicept**: Rapid advancement of povetacicept in IgAN and pMN through pivotal development.
+- **povetacicept**: Vertex Pharmaceuticals has completed the submission of its rolling Biologics Licensing Application (BLA) to the FDA for potential accelerated approval for the treatment of immunoglobulin A nephropathy (IgAN) in adults, utilizing a priority review voucher.
 - **inaxaplin**: Rapid advancement of inaxaplin in AMKD through pivotal development.
 - **VX**: VX as a treatment for acute pain.
 - **Felzartamab**: Phase 3 trials (NCT06962800, NCT06935357, NCT06685757) are recruiting with primary completion dates ranging from 2026 to 2028. A Phase 2 trial (NCT07219043) is recruiting with a primary completion date of 2028-02-10. An earlier Phase 2 trial (NCT05065970) completed in 2023.
@@ -34,7 +34,7 @@ One paragraph per drug with notable management language.}
 - **Nusinersen**: Phase 3 trials (NCT04729907, NCT05067790) are active not recruiting with primary completion dates in 2026 and 2027 respectively. A Phase 4 trial (NCT04488133) completed in 2025. Earlier Phase 2 (NCT02386553) and Phase 3 (NCT04089566) trials completed in 2024.
 - **Omaveloxolone**: Phase 3 trial (NCT06953583) is recruiting with a primary completion date of 2027-11-16. Earlier Phase 2 trials (NCT02255422, NCT02255435) completed in 2017 and 2019 respectively. A Phase 1/2 trial (NCT02259231) completed in 2018.
 - **Biib080**: Phase 2 trial (NCT05399888) for [[alzheimers]] is active not recruiting with a primary completion date of 2026-05-14.
-- **Biib017 (peginterferon beta-1a)**: Phase 3 trial (NCT03958877) is active not recruiting with a primary completion date of 2027-05-20.
+- **Biib017 (peginterferon beta-1a)**: Phase 3 trial (NCT03958877) is active not recruiting with 152 actual participants.
 - **Biib122**: Phase 2 trial (NCT05348785) completed in 2026.
 - **Diroximel fumarate**: Phase 2 trial (NCT05798520) completed in 2026. A Phase 3 trial (NCT05083923) completed in 2024.
 - **Dimethyl fumarate**: Phase 3 trial (NCT02283853) completed in 2025. A Phase 4 trial (NCT05658484) completed in 2025.
@@ -48,7 +48,8 @@ One paragraph per drug with notable management language.}
 
 ### Recent events
 | Date | Type | Event | Signal |
-|---| --- |---|---|
+|---|---|---|---|
+| 2026-03-31 | sec | Vertex Pharmaceuticals submitted a rolling Biologics Licensing Application (BLA) for povetacicept to the FDA for potential accelerated approval for the treatment of IgAN, utilizing a priority review voucher. | [[2026-03-31-vertex-povetacicept-bla-submission]] |
 | 2028-12-29 | trial | Phase 3 trial NCT06962800 for Felzartamab and Tacrolimus is recruiting with 180 estimated participants. | [[2028-12-29-unknown-nct06962800-recruiting]] |
 | 2028-11-28 | trial | Phase 3 trial NCT07221669 for Salanersen is recruiting with 30 estimated participants. | [[2028-11-28-unknown-nct07221669-recruiting]] |
 | 2028-06-23 | trial | Phase 3 trial NCT07444476 for Salanersen is recruiting with 90 estimated participants. | [[2028-06-23-unknown-nct07444476-recruiting]] |
@@ -158,4 +159,4 @@ One paragraph per drug with notable management language.}
 - `raw/ctgov/biogen/2026-05-01/NCT05065970.json`
 - `raw/ctgov/biogen/2026-05-01/NCT07444476.json`
 - `raw/ctgov/biogen/2026-06-01/NCT05348785.json`
----
+- `raw/edgar/biogen/8k/2026-03-31-8K--26-000147.txt`

@@ -28,6 +28,7 @@ last_updated: 2026-05-22
 - [[pembrolizumab]] (Keytruda)
 
 ### Earnings intelligence
+Merck announced its first-quarter 2025 financial results, reporting total worldwide sales of $15.5 billion, a 2% decrease from the prior year but a 1% increase excluding foreign exchange impact, driven by strong growth in KEYTRUDA and Animal Health sales. [[pembrolizumab]] (KEYTRUDA) sales grew 4% to $7.2 billion, with a 6% increase excluding foreign exchange impact, demonstrating continued strong performance. WINREVAIR sales were $280 million. [[sitagliptin]] (Januvia) sales were $549 million, showing a significant increase of 31%. Janumet sales were $247 million, a decrease of 2%.
 Merck & Co., Inc. announced strong third-quarter 2025 financial results with total worldwide sales of $17.3 billion, an increase of 4% from Third Quarter 2024. This growth was primarily driven by significant performance from KEYTRUDA and WINREVAIR.
 
 [[pembrolizumab]] (KEYTRUDA) sales grew 10% to $8.1 billion, demonstrating continued strong performance. sotatercept (WINREVAIR) sales were $360 million, showing remarkable growth of 141%. In the diabetes portfolio, [[sitagliptin]] (Januvia) sales were $382 million, a decrease of 5.7% from Q3 2024, while sitagliptin/metformin (Janumet) sales increased by 19.1% to $243 million. selumetinib (Koselugo) alliance revenue saw a significant increase to $214 million, up from $39 million in Q3 2024.
@@ -37,25 +38,26 @@ Merck & Co., Inc. announced strong third-quarter 2025 financial results with tot
 
 ### Recent events
 | Date | Type | Event | Signal |
-|---| --- |---|---|
+|---|---|---|---|
+| 2025-04-24 | sec | Merck announced its first-quarter 2025 financial results, reporting total worldwide sales of $15.5 billion, a 2% decrease from the prior year but a 1% increase excluding foreign exchange impact, driven by strong growth in KEYTRUDA and Animal Health sales. | [[2025-04-24-merck-q1-2025-earnings]] |
 | 2027-10-25 | trial | [[pembrolizumab]] (NCT02332668) Phase 1/2 Trial Completion | [[2027-10-25-pembrolizumab-nct02332668-completed]] |
 | 2027-05-04 | trial | [[pembrolizumab]] (NCT02628067) Phase 2 Trial Completion | [[2027-05-04-pembrolizumab-nct02628067-completed]] |
 | 2026-05-22 | sec | Merck & Co., Inc. closed an underwritten public offering of $6 billion aggregate principal amount of various notes, including Floating Rate Notes due 2028 and fixed-rate notes with maturities ranging from 2028 to 2056. | [[2026-05-22-merck-debt-offering-close]] |
-| 2026-04-12 | research | Meta-analysis showed [[sitagliptin]] had higher incidence of serious adverse events compared to other anti-prediabetic drugs. | [[2026-04-12-sitagliptin-saes-meta-analysis-pubmed]] | pubmed_result |
-| 2026-04-12 | research | [[semaglutide]] showed pleiotropic metabolic benefits over [[sitagliptin]] in T2DM. | [[2026-04-12-semaglutide-sitagliptin-t2dm-benefits-pubmed]] | pubmed_result |
-| 2026-04-12 | research | Vibostolimab coformulated with [[pembrolizumab]] had limited antitumor activity in mCRPC. | [[2026-04-12-vibostolimab-pembrolizumab-mcpr-pubmed]] | pubmed_result |
-| 2026-04-12 | research | EDP1503 plus [[pembrolizumab]] had manageable safety but limited clinical activity. | [[2026-04-12-edp1503-pembrolizumab-limited-activity-pubmed]] | pubmed_result |
-| 2026-04-12 | research | Lenvatinib combined with [[pembrolizumab]] showed potential for B3 thymoma and thymic carcinoma. | [[2026-04-12-lenvatinib-pembrolizumab-thymoma-pubmed]] | pubmed_result |
-| 2026-04-12 | research | [[pembrolizumab]] combined with platinum-based chemotherapy showed promising alternative for NSCLC. | [[2026-04-12-pembrolizumab-chemo-nsclc-pubmed]] | pubmed_result |
-| 2026-04-12 | research | Mixed results for novel combinations with [[pembrolizumab]] and lenvatinib in ccRCC. | [[2026-04-12-pembrolizumab-lenvatinib-ccrcc-pubmed]] | pubmed_result |
-| 2026-04-12 | research | Neoadjuvant [[pembrolizumab]] plus chemotherapy showed improved efficacy in TNBC. | [[2026-04-12-pembrolizumab-tnbc-pubmed]] | pubmed_result |
-| 2026-04-12 | research | [[pembrolizumab]] plus lenvatinib showed promising anti-tumour activity in recurrent gynaecological clear cell carcinoma. | [[2026-04-12-pembrolizumab-lenvatinib-ccgc-pubmed]] | pubmed_result |
-| 2026-04-12 | research | Vibostolimab coformulated with [[pembrolizumab]] did not provide additional clinical benefit in melanoma (futility). | [[2026-04-12-vibostolimab-pembrolizumab-melanoma-futility-pubmed]] | pubmed_result |
-| 2026-04-12 | research | Perioperative enfortumab vedotin plus [[pembrolizumab]] and surgery led to significantly better outcomes in bladder cancer. | [[2026-04-12-enfortumab-vedotin-pembrolizumab-bladder-cancer-pubmed]] | pubmed_result |
-| 2026-04-12 | research | Favezelimab plus pembrolizumab showed higher response rate in Hodgkin lymphoma. | [[2026-04-12-favezelimab-pembrolizumab-hodgkin-lymphoma-pubmed]] | pubmed_result |
-| 2026-04-12 | research | Pembrolizumab with dual anti-HER2 therapy in HER2-enriched early breast cancer (WSG-KEYRICHED-1 trial). | [[2026-04-12-pembrolizumab-her2-breast-cancer-pubmed]] | pubmed_result |
-| 2026-04-12 | research | Pembrolizumab plus ipilimumab showed manageable safety and antitumor activity in advanced NSCLC. | [[2026-04-12-pembrolizumab-ipilimumab-nsclc-pubmed]] | pubmed_result |
-| 2026-04-01 | research | Multicycle [177Lu]Lu-PSMA-617 and [[pembrolizumab]] showed encouraging activity in prostate cancer. | [[2026-04-01-lu-psma-617-pembrolizumab-prostate-cancer-pubmed]] | pubmed_result |
+| 2026-04-12 | research | Meta-analysis showed [[sitagliptin]] had higher incidence of serious adverse events compared to other anti-prediabetic drugs. | [[2026-04-12-sitagliptin-saes-meta-analysis-pubmed]] |
+| 2026-04-12 | research | [[semaglutide]] showed pleiotropic metabolic benefits over [[sitagliptin]] in T2DM. | [[2026-04-12-semaglutide-sitagliptin-t2dm-benefits-pubmed]] |
+| 2026-04-12 | research | Vibostolimab coformulated with [[pembrolizumab]] had limited antitumor activity in mCRPC. | [[2026-04-12-vibostolimab-pembrolizumab-mcpr-pubmed]] |
+| 2026-04-12 | research | EDP1503 plus [[pembrolizumab]] had manageable safety but limited clinical activity. | [[2026-04-12-edp1503-pembrolizumab-limited-activity-pubmed]] |
+| 2026-04-12 | research | Lenvatinib combined with [[pembrolizumab]] showed potential for B3 thymoma and thymic carcinoma. | [[2026-04-12-lenvatinib-pembrolizumab-thymoma-pubmed]] |
+| 2026-04-12 | research | [[pembrolizumab]] combined with platinum-based chemotherapy showed promising alternative for NSCLC. | [[2026-04-12-pembrolizumab-chemo-nsclc-pubmed]] |
+| 2026-04-12 | research | Mixed results for novel combinations with [[pembrolizumab]] and lenvatinib in ccRCC. | [[2026-04-12-pembrolizumab-lenvatinib-ccrcc-pubmed]] |
+| 2026-04-12 | research | Neoadjuvant [[pembrolizumab]] plus chemotherapy showed improved efficacy in TNBC. | [[2026-04-12-pembrolizumab-tnbc-pubmed]] |
+| 2026-04-12 | research | [[pembrolizumab]] plus lenvatinib showed promising anti-tumour activity in recurrent gynaecological clear cell carcinoma. | [[2026-04-12-pembrolizumab-lenvatinib-ccgc-pubmed]] |
+| 2026-04-12 | research | Vibostolimab coformulated with [[pembrolizumab]] did not provide additional clinical benefit in melanoma (futility). | [[2026-04-12-vibostolimab-pembrolizumab-melanoma-futility-pubmed]] |
+| 2026-04-12 | research | Perioperative enfortumab vedotin plus [[pembrolizumab]] and surgery led to significantly better outcomes in bladder cancer. | [[2026-04-12-enfortumab-vedotin-pembrolizumab-bladder-cancer-pubmed]] |
+| 2026-04-12 | research | Favezelimab plus pembrolizumab showed higher response rate in Hodgkin lymphoma. | [[2026-04-12-favezelimab-pembrolizumab-hodgkin-lymphoma-pubmed]] |
+| 2026-04-12 | research | Pembrolizumab with dual anti-HER2 therapy in HER2-enriched early breast cancer (WSG-KEYRICHED-1 trial). | [[2026-04-12-pembrolizumab-her2-breast-cancer-pubmed]] |
+| 2026-04-12 | research | Pembrolizumab plus ipilimumab showed manageable safety and antitumor activity in advanced NSCLC. | [[2026-04-12-pembrolizumab-ipilimumab-nsclc-pubmed]] |
+| 2026-04-01 | research | Multicycle [177Lu]Lu-PSMA-617 and [[pembrolizumab]] showed encouraging activity in prostate cancer. | [[2026-04-01-lu-psma-617-pembrolizumab-prostate-cancer-pubmed]] |
 | 2026-01-14 | trial | [[pembrolizumab]] (NCT02684292) Phase 3 Trial Completion | [[2026-01-14-pembrolizumab-nct02684292-completed]] |
 | 2025-12-31 | research | Enfortumab vedotin plus pembrolizumab improved survival and QOL in urothelial cancer (EV-302 trial). | [[2025-12-31-enfortumab-vedotin-pembrolizumab-urothelial-cancer-pubmed]] |
 | 2025-12-04 | sec | Merck Debt Offering Close | [[2025-12-04-merck-debt-offering-close]] |
@@ -106,3 +108,4 @@ Merck & Co., Inc. announced strong third-quarter 2025 financial results with tot
 - `raw/pubmed/pembrolizumab/2026-04-12/abstract-41926961.json`
 - `raw/pubmed/semaglutide/2026-04-12/abstract-40649729.json`
 - `raw/pubmed/semaglutide/2026-04-12/abstract-41715123.json`
+- `raw/edgar/merck/8k/2025-04-24-8K--25-038301.txt`

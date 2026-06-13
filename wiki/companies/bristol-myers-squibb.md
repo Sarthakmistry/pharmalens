@@ -35,6 +35,8 @@ last_updated: 2031-10-14
 Bristol-Myers Squibb reported mixed financial results for the first quarter of 2026. GAAP diluted EPS increased to $1.31 from $1.20 in Q1 2025, and GAAP net earnings rose to $2,677 million from $2,456 million. However, Non-GAAP diluted EPS decreased to $1.58 from $1.80, and Non-GAAP net earnings fell to $3,237 million from $3,668 million, indicating a neutral overall financial performance.
 Bristol-Myers Squibb reported strong financial results for the fourth quarter and full year 2025. Non-GAAP diluted EPS for the full year 2025 increased significantly to $6.15 from $1.15 in 2024, with Non-GAAP net earnings attributable to BMS rising to $12,545 million from $2,340 million. The company also improved its net debt position to $(34,043) million.
 Bristol-Myers Squibb reported its fourth quarter and full-year 2025 financial results, with total revenues increasing 1% to $45.0 billion for the full year and significant Non-GAAP EPS growth. Eliquis sales increased by 1.67% to $10,879 million in full-year 2025. [[nivolumab]] (Opdivo) sales grew by 10.43% to $4,638 million in full-year 2025. Revlimid sales increased by 1.82% to $4,073 million in full-year 2025. Pomalyst/Imnovid sales saw a slight increase of 0.96% to $2,423 million in full-year 2025. Orencia sales grew by 9.28% to $3,497 million in full-year 2025. Yervoy sales increased by 3.87% to $2,389 million in full-year 2025. Reblozyl sales surged by 48.63% to $1,189 million in full-year 2025, achieving blockbuster status. Abecma sales increased by 49.5% to $598 million in full-year 2025. Breyanzi sales increased by 32.67% to $398 million in full-year 2025. Zeposia sales increased by 32.67% to $398 million in full-year 2025. Sotyktu sales increased by 32.67% to $398 million in full-year 2025. Camzyos sales increased by 32.67% to $398 million in full-year 2025. Inrebic sales experienced a slight decline of 0.5% to $199 million in full-year 2025. Onureg sales experienced a slight decline of 0.5% to $199 million in full-year 2025. [[nivolumab]] (Opdualag) sales experienced a slight decline of 0.5% to $199 million in full-year 2025. Augtyro generated initial sales of $199 million in full-year 2025 as a newly launched product. Krazati generated initial sales of $199 million in full-year 2025 as a newly launched product.
+Bristol-Myers Squibb Company reported its second quarter 2025 financial results, with GAAP diluted EPS decreasing to $0.64 from $0.83 in Q2 2024, and Non-GAAP diluted EPS decreasing to $1.46 from $2.07. The net debt position as of June 30, 2025, was $(35,235) million, indicating a bearish financial performance for the quarter.
+Bristol-Myers Squibb Company announced its financial results for the first quarter of 2025, reporting a significant turnaround from a net loss in the prior year to net earnings. GAAP diluted EPS was $1.20 and Non-GAAP diluted EPS was $1.80 for Q1 2025, a substantial improvement from Q1 2024. The net debt position as of March 31, 2025, was $(37,584) million, indicating a bullish financial performance.
 
 ### Pipeline
 - BMS-813160 (CCR2/5 dual antagonist) in combination with chemotherapy or [[nivolumab]] for advanced pancreatic or colorectal cancer. In first-line pancreatic ductal adenocarcinoma, BMS-813160 + gemcitabine/nab-paclitaxel + [[nivolumab]] achieved an ORR of 37% and a median DOR of 45 weeks. (Phase 1/2)
@@ -76,7 +78,7 @@ Bristol-Myers Squibb reported its fourth quarter and full-year 2025 financial re
 
 ### Recent events
 | Date | Type | Event | Signal |
-|---| --- |---|---|
+|---|---|---|---|
 | 2026-05-08 | sec | Bristol-Myers Squibb Company reported the results of its Annual Meeting of Shareholders held on May 5, 2026, including the election of directors, approval of executive compensation and stock award plan, and ratification of its accounting firm. | [[2026-05-08-bristol-myers-squibb-annual-meeting-results]] |
 | 2026-04-30 | sec | Bristol Myers Squibb reported Q1 2026 net product sales of $11.168 billion and total revenue of $11.489 billion. | [[2026-04-30-bristol-myers-squibb-10q-q1-2026]] |
 | 2026-04-30 | sec | Bristol-Myers Squibb Company announced its financial results for the first quarter of 2026, including GAAP diluted EPS of $1.31 and Non-GAAP diluted EPS of $1.58. | [[2026-04-30-bristol-myers-squibb-q1-2026-earnings]] |
@@ -106,12 +108,15 @@ Bristol-Myers Squibb reported its fourth quarter and full-year 2025 financial re
 | 2025-09-30 | sec | Bristol Myers Squibb reported Q3 2025 financials with Total Revenue of $35,692.0M and Net Income of $5,967.0M, driven by strong product sales from Eliquis, Opdivo, and Orencia. | [[2025-09-30-bristol-myers-squibb-q3-earnings]] |
 | 2025-09-01 | trial | Phase 1/2 trial (NCT05134948) for BMS-986213 completed primary endpoint with 24 patients. | [[2025-09-01-unknown-nct05134948-completed]] |
 | 2025-08-01 | sec | Study characterized apixaban PK variability and confirmed fixed-dose weight-tiered regimen target exposures in pediatric ALL/LL patients. | [[2025-08-01-apixaban-pediatric-pk-pd-study]] |
+| 2025-07-31 | sec | Bristol-Myers Squibb Company reported its second quarter 2025 financial results, with diluted earnings per share decreasing compared to the prior year. | [[2025-07-31-bristol-myers-squibb-q2-earnings]] |
 | 2025-07-31 | sec | Bristol Myers Squibb reported Q2 2025 financial results with total revenue of $23,470.0M, net product sales of $22,794.0M, and key product revenues including Eliquis at $7,245.0M and Opdivo at $4,824.0M. | [[2025-07-31-bristol-myers-squibb-q2-earnings]] |
 | 2025-07-14 | trial | Phase 3 trial (NCT05328908) for [[nivolumab]] terminated with 770 patients. | [[2025-07-14-nivolumab-nct05328908-terminated]] |
 | 2025-07-05 | trial | Phase 1/2 trial (NCT05337137) for [[nivolumab]] completed primary endpoint with 83 patients. | [[2025-07-05-nivolumab-nct05337137-completed]] |
 | 2025-05-22 | trial | Phase 2 trial (NCT04702880) for [[nivolumab]] completed primary endpoint with 135 patients. | [[2025-05-22-nivolumab-nct04702880-completed]] |
 | 2025-05-13 | research | Positive results for [[nivolumab]] plus ipilimumab in hypermutated HER2-negative metastatic breast cancer. | [[2025-05-13-nivolumab-ipilimumab-her2-negative-breast-cancer-pubmed]] |
+| 2025-05-07 | sec | Bristol-Myers Squibb Company held its Annual Meeting on May 6, 2025, where shareholders elected 11 director nominees, approved executive compensation, and ratified the appointment of Deloitte & Touche LLP as the independent auditor. | |
 | 2025-04-25 | trial | Phase 4 trial (NCT06042920) for Deucravacitinib terminated with 130 patients. | [[2025-04-25-unknown-nct06042920-terminated]] |
+| 2025-04-24 | sec | Bristol-Myers Squibb Company announced its financial results for the first quarter of 2025, reporting a significant turnaround from a net loss in the prior year to net earnings. | [[2025-04-24-bristol-myers-squibb-q1-earnings]] |
 | 2025-04-24 | sec | Bristol Myers Squibb reported Q1 2025 financial results, including total revenue of $11,201.0M and net product sales of $10,886.0M. | [[2025-04-24-bristol-myers-squibb-q1-earnings]] |
 | 2025-03-21 | trial | Phase 2 trial (NCT03920267) for BMS-986165 completed primary endpoint with 261 patients. | [[2025-03-21-unknown-nct03920267-completed]] |
 | 2025-03-06 | trial | Phase 3 trial (NCT05582395) for Mavacamten completed primary endpoint with 580 patients. | [[2025-03-06-unknown-nct05582395-completed]] |
@@ -450,3 +455,7 @@ Bristol-Myers Squibb reported its fourth quarter and full-year 2025 financial re
 - `raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07335562.json`
 - `raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07361497.json`
 - `raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07361510.json`
+- `raw/edgar/bristol-myers-squibb/8k/2025-04-24-8K--25-000089.txt`
+- `raw/edgar/bristol-myers-squibb/8k/2025-07-31-8K--25-000129.txt`
+- `raw/edgar/bristol-myers-squibb/8k/2025-05-07-8K--25-017742.txt`
+- `raw/edgar/bristol-myers-squibb/8K/2025-07-31-8K--25-000129.txt`

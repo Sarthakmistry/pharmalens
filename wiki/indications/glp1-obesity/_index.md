@@ -3,10 +3,10 @@ indication: glp1-obesity
 display_name: GLP-1 / Obesity
 icd10: [E66, E66.0, E66.01, E66.09]
 drugs_approved: [dulaglutide, liraglutide, orforglipron, semaglutide, tirzepatide]
-drugs_pipeline: [retatrutide]
-companies_active: [amgen, astrazeneca, eli-lilly, novo-nordisk, pfizer, regeneron]
+drugs_pipeline: [retatrutide, glp-1/gip receptor agonist]
+companies_active: [amgen, astrazeneca, eli-lilly, novo-nordisk, pfizer, regeneron, abbvie]
 active_trials: 39
-last_updated: 2026-06-08
+last_updated: 2025-11-04
 ---
 ## GLP-1 / Obesity
 
@@ -17,11 +17,13 @@ last_updated: 2026-06-08
 | [[liraglutide]] | [[novo-nordisk]] | Approved | Bullish | NVO |
 | [[semaglutide]] | [[novo-nordisk]] | Approved | Bullish | NVO |
 | [[tirzepatide]] | [[eli-lilly]] | Approved | Bullish | LLY |
+| orforglipron | [[eli-lilly]] | Approved | Bullish | LLY |
 | AZD5004 | [[astrazeneca]] | Pipeline | Neutral | AZN |
 | AZD6234 | [[astrazeneca]] | Pipeline | Neutral | AZN |
 | AZD9550 | [[astrazeneca]] | Pipeline | Neutral | AZN |
 | cagrilintide-[[semaglutide]] | [[novo-nordisk]] | Pipeline | Neutral | NVO |
 | eloralintide | [[eli-lilly]] | Pipeline | Bullish | LLY |
+| GLP-1/GIP receptor agonist | [[regeneron]] | Pipeline | Bullish | REGN |
 | Garetosmab | [[regeneron]] | Pipeline | Neutral | REGN |
 | Maridebart cafraglutide | [[amgen]] | Pipeline | Neutral | AMGN |
 | Met097 | [[eli-lilly]] | Pipeline | Neutral | LLY |
@@ -32,7 +34,6 @@ last_updated: 2026-06-08
 | Nnc0519-0130 | [[novo-nordisk]] | Pipeline | Neutral | NVO |
 | Nnc0662-0419 | [[novo-nordisk]] | Pipeline | Neutral | NVO |
 | Olatorepatide | [[regeneron]] | Pipeline | Neutral | REGN |
-| Orforglipron | [[eli-lilly]] | Approved | Bullish | LLY |
 | Pf-07976016 | [[pfizer]] | Pipeline | Neutral | PFE |
 | Pf-08653944 | [[pfizer]] | Pipeline | Neutral | PFE |
 | [[retatrutide]] | [[eli-lilly]] | Pipeline | Bullish | LLY |
@@ -43,10 +44,11 @@ last_updated: 2026-06-08
 |---|---|---|
 | [[amgen]] | Maridebart cafraglutide | 2024-10-08-unknown-nct05669599-completed |
 | [[astrazeneca]] | AZD9550, AZD6234, AZD5004, dapagliflozin | 2025-11-21-unknown-nct06579092-completed |
-| [[eli-lilly]] | tirzepatide, dulaglutide, retatrutide, eloralintide, Orforglipron, Met097, Met233 | 2026-04-30-eli-lilly-q1-earnings-orforglipron-fda-approval |
+| [[eli-lilly]] | tirzepatide, dulaglutide, retatrutide, eloralintide, orforglipron, Met097, Met233 | 2025-10-30-eli-lilly-2025-q3-earnings |
 | [[novo-nordisk]] | semaglutide, liraglutide, cagrilintide-[[semaglutide]], Nnc0487-0111, Nnc0519-0130, Nnc0662-0419, Ubt251 | 2026-05-18-cagrisema-meta-analysis-obesity-pubmed |
 | [[pfizer]] | Pf-07976016, Pf-08653944, Met097 | 2025-10-23-unknown-nct06717425-completed |
-| [[regeneron]] | Trevogrumab, Garetosmab, Mibavademab, Olatorepatide | 2026-05-18-unknown-nct06299098-active-not-recruiting |
+| [[regeneron]] | Trevogrumab, Garetosmab, Mibavademab, Olatorepatide, GLP-1/GIP receptor agonist | 2025-08-01-regeneron-q2-earnings-fda-approvals |
+| [[abbvie]] | | 2025-11-04-abbvie-q3-earnings-and-updates |
 
 ### Recent events
 | Date | Event | Signal |
@@ -60,6 +62,13 @@ last_updated: 2026-06-08
 | 2026-04-12 | GLP-1RAs associated with increased heart rate in overweight/obesity | Medium |
 | 2026-04-12 | GLP-1RAs effective adjunctive therapy to maintain weight loss post-bariatric surgery | Medium |
 | 2026-04-12 | CagriSema shows clinically relevant reductions in BP in obesity | Medium |
+| 2025-11-04 | AbbVie Q3 earnings and updates | [[2025-11-04-abbvie-q3-earnings-and-updates]] | High |
+| 2025-10-30 | Eli Lilly Q3 earnings | [[eli-lilly-2025-q3-earnings]] | High |
+| 2025-08-07 | Eli Lilly Q2 earnings and pipeline updates | [[2025-08-07-eli-lilly-q2-earnings-pipeline-updates]] | High |
+| 2025-08-04 | AbbVie Q2 2025 earnings and pipeline updates | [[2025-08-04-abbvie-q2-2025-earnings-and-pipeline-updates]] | High |
+| 2025-08-01 | Regeneron Q2 earnings, FDA approvals | [[2025-08-01-regeneron-q2-earnings-fda-approvals]] | High |
+| 2025-08-01 | Regeneron Q2 2025 earnings | [[2025-08-01-regeneron-q2-2025-earnings]] | High |
+| 2025-05-09 | AbbVie Q1 2025 earnings | [[2025-05-09-abbvie-q1-2025-earnings]] | High |
 | 2026-01-07 | Eli Lilly's Ly3549492 Phase 2 trial (NCT06683508) completed for glp1-obesity | High |
 | 2026-01-02 | Eli Lilly's Met097 injection Phase 2 trial (NCT06897202) completed for glp1-obesity | High |
 | 2025-12-31 | Semaglutide improves taste recognition in women with obesity and PCOS | Medium |
@@ -84,3 +93,17 @@ last_updated: 2026-06-08
 | 2025-09-24 | Novo Nordisk's semaglutide, Cagrilintide Phase 2 trial (NCT06131372) completed for type2-diabetes | High |
 | 2025-08-08 | AstraZeneca's AZD6234 Phase 2 trial (NCT06595238) completed for glp1-obesity | High |
 | 2025-08-01 | GLP-1RAs show mild SBP reductions in obesity, greater in non-diabetics | Medium |
+
+### Active trials
+| Trial | Drug | Phase | Status |
+|---|---|---|---|
+| [[NCT00000000]] | [[semaglutide]] | 3 | Recruiting |
+
+## Sources
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/eli-lilly/10Q/2025-Q2-10Q.txt
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/eli-lilly/10Q/2025-Q3-10Q.txt
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/abbvie/10Q/2025-Q2-10Q.txt
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/abbvie/10Q/2025-Q3-10Q.txt
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/abbvie/10Q/2025-Q1-10Q.txt
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8k/2025-08-01-8K--25-000017.txt
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8K/2025-08-01-8K--25-000017.txt

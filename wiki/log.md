@@ -42574,3 +42574,311 @@ pages_checked: 1520
 structural_issues: 0
 semantic_issues: 8
 status: success
+
+## [2026-06-13T10:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8K/2026-01-12-8K--26-002691.txt
+doc_type: edgar_8k
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/pfizer/8k/2025-04-28-8K--25-000109.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/pfizer/8k/2025-05-19-8K--25-122480.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/pfizer/8k/2025-11-21-8K--25-291406.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/vertex/10Q/2025-Q2-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/vertex/10Q/2025-Q3-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/vertex/10Q/2025-Q1-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/vertex/8k/2026-03-31-8K--26-000147.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/vertex/8k/2026-02-12-8K--26-000034.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/eli-lilly/10Q/2025-Q2-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/eli-lilly/10Q/2025-Q3-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/eli-lilly/10Q/2025-Q1-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/eli-lilly/8k/2025-08-20-8K--25-184093.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/abbvie/10Q/2025-Q2-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/abbvie/10Q/2025-Q3-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/abbvie/10Q/2025-Q1-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/abbvie/8k/2025-05-13-8K--25-047402.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/abbvie/8k/2025-07-03-8K--25-000034.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/johnson-and-johnson/10Q/2025-Q2-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/johnson-and-johnson/10Q/2025-Q3-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/johnson-and-johnson/10Q/2025-Q1-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/johnson-and-johnson/8k/2025-06-10-8K--25-000152.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/johnson-and-johnson/8k/2025-04-30-8K--25-000141.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/gilead/10Q/2025-Q4-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/gilead/10Q/2025-Q2-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/gilead/10Q/2025-Q1-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/gilead/8k/2026-03-31-8K--26-000053.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/gilead/8k/2025-05-09-8K--25-000028.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/gilead/8k/2025-05-05-8K--25-112839.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/gilead/8k/2026-01-20-8K--26-000007.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/gilead/8k/2025-10-28-8K--25-000044.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/gilead/8k/2025-05-05-8K--25-112166.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/amgen/8k/2025-05-01-8K--25-000018.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/biogen/10Q/2025-Q2-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/biogen/10Q/2025-Q1-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/biogen/8k/2026-03-31-8K--26-000147.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/biogen/8k/2025-05-14-8K--25-000194.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/10Q/2025-Q2-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/10Q/2025-Q1-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8k/2026-01-30-8K--26-000004.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8k/2025-08-01-8K--25-000017.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8k/2025-04-29-8K--25-000020.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8k/2026-04-08-8K--26-040661.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8k/2025-10-28-8K--25-000026.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/merck/10Q/2025-Q2-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/merck/10Q/2025-Q3-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/merck/10Q/2025-Q1-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/merck/8k/2025-04-24-8K--25-038301.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/merck/8k/2025-09-09-8K--25-000047.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/merck/8k/2026-02-03-8K--26-009495.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/bristol-myers-squibb/8k/2025-04-24-8K--25-000089.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/bristol-myers-squibb/8k/2026-01-12-8K--26-000929.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/bristol-myers-squibb/8k/2025-07-31-8K--25-000129.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/bristol-myers-squibb/8k/2025-05-07-8K--25-017742.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/bristol-myers-squibb/8k/2025-07-25-8K--25-027350.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/abbvie/8K/2025-07-03-8K--25-000034.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/biogen/8K/2026-03-31-8K--26-000147.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/bristol-myers-squibb/8K/2025-07-25-8K--25-027350.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/bristol-myers-squibb/8K/2025-07-31-8K--25-000129.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/bristol-myers-squibb/8K/2026-01-12-8K--26-000929.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/eli-lilly/8K/2025-08-20-8K--25-184093.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/gilead/8K/2025-10-28-8K--25-000044.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/gilead/8K/2026-01-20-8K--26-000007.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/gilead/8K/2026-03-31-8K--26-000053.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/johnson-and-johnson/8K/2025-06-10-8K--25-000152.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/merck/8K/2025-09-09-8K--25-000047.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/merck/8K/2026-02-03-8K--26-009495.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/pfizer/8K/2025-11-21-8K--25-291406.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8K/2025-06-18-8K--25-060637.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8K/2025-08-01-8K--25-000017.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8K/2025-10-06-8K--25-096921.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8K/2025-10-28-8K--25-000026.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8K/2026-01-30-8K--26-000004.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8K/2026-04-08-8K--26-040661.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8K/2026-04-29-8K--26-000014.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/vertex/8K/2026-02-12-8K--26-000034.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-13T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/vertex/8K/2026-03-31-8K--26-000147.txt
+doc_type: edgar_8k
+status: success

@@ -45,7 +45,9 @@ last_updated: 2035-11-02
 
 ### Earnings intelligence
 
-Regeneron reported strong first quarter 2026 financial results with 19% revenue growth, reaching $3.6 billion, driven by robust performance from Dupixent and EYLEA HD. Dupixent global net sales increased 33% to $4.9 billion, demonstrating significant growth and bullish sentiment. Recent pubmed results further bolster the positive outlook for dupilumab, showing it reduced type 2 inflammatory biomarkers and exacerbation risk in COPD patients with type 2 inflammation, and was superior to omalizumab in patients with severe Chronic Rhinosinusitis with Nasal Polyps (CRSwNP) and coexisting asthma. EYLEA HD U.S. net sales saw a 52% increase to $468 million, contributing positively, although total EYLEA and EYLEA HD U.S. net sales decreased by 10% to $941 million, indicating a shift towards the newer formulation. Libtayo global net sales increased 54% to $438.2 million, Praluent global net sales increased 27% to $245.7 million, and Kevzara global net sales increased 24% to $144.8 million, all showing strong growth. The company also announced multiple new drug approvals, including Otarmeni (lunsotogene parvec) by the FDA as the first and only gene therapy for genetic hearing loss, EYLEA HD for extended dosing intervals in wet age-related macular degeneration (wAMD) and diabetic macular edema (DME), and Dupixent for chronic spontaneous urticaria (CSU) in young children and allergic fungal rhinosinusitis (AFRS). These approvals and strong sales figures reflect a bullish outlook for Regeneron.
+Regeneron reported strong first quarter 2026 financial results with 19% revenue growth, reaching $3.6 billion, driven by robust performance from Dupixent and EYLEA HD. Dupixent global net sales increased 33% to $4.9 billion, demonstrating significant growth and bullish sentiment. Recent pubmed results further bolster the positive outlook for dupilumab, showing it reduced type 2 inflammatory biomarkers and exacerbation risk in COPD patients with type 2 inflammation, and was superior to omalizumab in patients with severe Chronic Rhinosinusitis with Nasal Polyps (CRSwNP) and coexisting asthma. EYLEA HD U.S. net sales saw a 52% increase to $468 million, contributing positively, although total EYLEA and EYLEA HD U.S. net sales decreased by 10% to $941 million, indicating a shift towards the newer formulation. Libtayo global net sales increased 54% to $438.2 million, Praluent global net sales increased 27% to $245.7 million, and Kevzara global net sales increased 24% to $144.8 million, all showing strong growth. The company also announced multiple new drug approvals, including Otarmeni (lunsotogene parvec) by the FDA as the first and only gene therapy for genetic hearing loss, EYLEA HD for extended dosing intervals in wet age-related macular degeneration (wAMD) and diabetic macular edema (DME), and Dupixent for chronic spontaneous urticaria (CSU) in young children and allergic fungal rhinosinusitis (AFRS). These approvals and strong sales figures reflect a bullish outlook for Regeneron. However, the company also expects an acquired in-process research and development (IPR&D) charge of approximately $102 million in Q1 2026, negatively impacting diluted EPS by $0.81, indicating a bearish signal for profitability.
+
+For Q2 2025, Regeneron reported increased total revenue of $6,704.3 million and net income of $2,200.3 million for the six months ended June 30, 2025, driven by significant product sales from EYLEA, EYLEA HD, and Libtayo, alongside collaboration revenue. This performance indicates a bullish outlook for the company's financial health.
 
 ### Pipeline
 - Linvoseltamab (Phase 1/2) for multiple myeloma - Recruiting, estimated primary completion 2035-11-02 (NCT05828511).
@@ -119,6 +121,9 @@ Regeneron reported strong first quarter 2026 financial results with 19% revenue 
 ### Recent events
 | Date | Type | Event | Signal |
 |---|---|---|---|
+| 2026-04-08 | sec | Regeneron Pharmaceuticals, Inc. expects to report an acquired in-process research and development (IPR&D) charge of approximately $102 million pre-tax for the first quarter of 2026, negatively impacting diluted EPS by $0.81. | [[regeneron-q1-2026-iprd-charge]] |
+| 2025-08-01 | sec | Regeneron reported Q2 2025 financial results with increased total revenue and net income for the six months ended June 30, 2025, alongside significant product sales and collaboration revenue. | [[regeneron-2025-q2-earnings]] |
+| 2025-06-18 | sec | Regeneron Pharmaceuticals, Inc. announced the voting results from its 2025 Annual Meeting of Shareholders, where proposals including the election of directors, ratification of auditors, executive compensation, and certain amendments to the Certificate of Incorporation were voted upon. | [[2025-06-18-regeneron-annual-meeting-results]] |
 | 2025-06-13 | sec | Regeneron Pharmaceuticals, Inc. held its 2025 Annual Meeting of Shareholders, where directors were elected, the independent registered public accounting firm was ratified, executive compensation was approved on an advisory basis, and an amendment to declassify the Board of Directors was approved, while two amendments to eliminate supermajority vote requirements were not approved. | [[2025-06-13-regeneron-shareholder-meeting-results]] |
 | 2025-10-28 | sec | Regeneron reported strong Q3 2025 financial results with total revenue of $10,458.6M and net income of $3,660.3M for the nine months ended September 30, 2025, driven by significant product sales from EYLEA, EYLEA HD, and Libtayo. | [[2025-10-28-regeneron-q3-earnings]] |
 | 2035-11-02 | trial | Phase 1/2 trial (NCT05828511) for Linvoseltamab is recruiting with 149 participants. | [[2035-11-02-unknown-nct05828511-completion]] |
@@ -187,7 +192,6 @@ Regeneron reported strong first quarter 2026 financial results with 19% revenue 
 | 2026-04-13 | trial | Phase 2 trial (NCT06593600) for Regn7544 is active not recruiting with 82 participants. | [[2026-04-13-unknown-nct06593600-completion]] |
 | 2026-04-12 | research | Pubmed result: Dupilumab superior to omalizumab in severe CRSwNP and coexisting asthma. | [[2026-04-12-dupilumab-vs-omalizumab-crswmp-pubmed]] |
 | 2026-04-12 | research | Pubmed result: Dupilumab reduced type 2 inflammatory biomarkers and exacerbation risk in COPD patients with type 2 inflammation. | [[2026-04-12-dupilumab-copd-biomarkers-pubmed]] |
-| 2026-04-08 | sec | Regeneron expects an acquired in-process research and development (IPR&D) charge of approximately $102 million in Q1 2026, negatively impacting diluted EPS by $0.81. | [[2026-04-08-regeneron-iprd-charge-q1-2026]] |
 | 2026-03-27 | trial | Phase 2 trial (NCT06299111) for Regn9933 and Regn7508 completed primary completion with 195 participants. | [[2026-03-27-unknown-nct06299111-completed]] |
 | 2026-03-16 | trial | Phase 3 trial (NCT05352672) for [[pembrolizumab]], Fianlimab, Cemiplimab is active not recruiting with 1546 participants. | [[2026-03-16-pembrolizumab-nct05352672-completion]] |
 | 2026-02-18 | trial | Phase 2 trial (NCT05831176) for Dupilumab is active not recruiting with 22 participants. | [[2026-02-18-unknown-nct05831176-completion]] |
@@ -199,7 +203,6 @@ Regeneron reported strong first quarter 2026 financial results with 19% revenue 
 | 2025-08-26 | trial | Phase 3 trial (NCT06491914) for Aflibercept 8 mg is active not recruiting with 1118 participants. | [[2025-08-26-unknown-nct06491914-completion]] |
 | 2025-07-17 | trial | Phase 3 trial (NCT05394116) for Garetosmab is active not recruiting with 63 participants. | [[2025-07-17-unknown-nct05394116-completion]] |
 | 2025-07-08 | trial | Phase 3 trial (NCT05070858) for Pozelimab + cemdisiran, Cemdisiran, Pozelimab is active not recruiting with 288 participants. | [[2025-07-08-unknown-nct05070858-completion]] |
-| 2025-06-18 | sec | Regeneron Pharmaceuticals, Inc. announced the results of its 2025 Annual Meeting of Shareholders, including the election of directors, ratification of auditors, advisory approval of executive compensation, and votes on amendments to the Certificate of Incorporation. | [[2025-06-18-regeneron-annual-shareholder-meeting-results]] |
 | 2025-06-02 | trial | Phase 2 trial (NCT05353166) for Regn5381 for [[hf-htn]] completed primary completion with 59 participants. | [[2025-06-02-unknown-nct05353166-completed]] |
 | 2025-05-10 | trial | Phase 3 trial (NCT06602726) for Regn1908 and Regn1909 completed primary completion with 64 participants. | [[2025-05-10-unknown-nct06602726-completed]] |
 | 2025-05-01 | trial | Phase 1/2 trial (NCT04083534) for Regn5459 completed primary completion with 43 participants. | [[2025-05-01-unknown-nct04083534-completed]] |
@@ -428,7 +431,6 @@ Regeneron reported strong first quarter 2026 financial results with 19% revenue 
 - `raw/ctgov/regeneron/2026-06-01/NCT07154290.json`
 - `raw/ctgov/regeneron/2026-06-01/NCT07154745.json`
 - `raw/ctgov/regeneron/2026-06-01/NCT07175428.json`
-- `raw/ctgov/regeneron/2026-06-01/NCT07213778.json`
 - `raw/ctgov/regeneron/2026-06-01/NCT07220785.json`
 - `raw/ctgov/regeneron/2026-06-01/NCT07222761.json`
 - `raw/ctgov/regeneron/2026-06-01/NCT07235917.json`
@@ -438,4 +440,6 @@ Regeneron reported strong first quarter 2026 financial results with 19% revenue 
 - `raw/ctgov/regeneron/2026-06-01/NCT07410117.json`
 - `raw/ctgov/regeneron/2026-06-01/NCT07430956.json`
 - `raw/ctgov/regeneron/2026-06-01/NCT07493304.json`
-- `raw/edgar/regeneron/8k/2025-06-18-8K--25-060637.txt`
+- `raw/edgar/regeneron/10Q/2025-Q2-10Q.txt`
+- `raw/edgar/regeneron/8K/2025-06-18-8K--25-060637.txt`
+- `raw/edgar/regeneron/8K/2026-04-08-8K--26-040661.txt`

@@ -5,19 +5,20 @@ drugs: []
 companies: [pfizer]
 indications: []
 signal: neutral
-headline: Pfizer Annual Shareholder Meeting Results
+headline: Pfizer Announces Results of 2025 Annual Shareholder Meeting
 last_updated: 2025-04-28
 ---
+```
 
-## Pfizer Annual Shareholder Meeting Results
+## Pfizer Announces Results of 2025 Annual Shareholder Meeting
 
 **Date:** 2025-04-24 | **Type:** news | **Signal:** neutral
 
 ### Summary
-Pfizer Inc. held its Annual Meeting of Shareholders on April 24, 2025, where shareholders voted on the election of directors, ratification of auditors, executive compensation, and several shareholder proposals. Shareholders elected directors, ratified KPMG LLP as independent auditors, and approved executive compensation. Shareholder proposals concerning golden parachutes and religious discrimination against employees were not approved.
+Pfizer Inc. announced the results of its Annual Meeting of Shareholders held on April 24, 2025, detailing the election of directors and votes on various proposals. Shareholders voted on the election of directors, the ratification of the independent registered public accounting firm, and an advisory vote on executive compensation. Shareholder proposals regarding golden parachutes and a report evaluating risks related to religious discrimination against employees were not approved.
 
 ### Market implication
-This event reports routine corporate governance activities and does not indicate a direct impact on Pfizer's stock or valuation.
+This routine corporate governance update is not expected to have a direct market impact on Pfizer's valuation.
 
 ### Affected entities
 - Company: [[pfizer]]

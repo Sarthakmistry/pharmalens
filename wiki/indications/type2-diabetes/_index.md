@@ -3,10 +3,10 @@ indication: type2-diabetes
 display_name: Type 2 Diabetes
 icd10: [E11, E11.0, E11.9, E11.65]
 drugs_approved: [canagliflozin, dapagliflozin, dulaglutide, empagliflozin, liraglutide, saxagliptin, semaglutide, sitagliptin, tirzepatide]
-drugs_pipeline: [retatrutide]
+drugs_pipeline: [retatrutide, insulin efsitora alfa, orforglipron]
 companies_active: [amgen, astrazeneca, boehringer-ingelheim, eli-lilly, johnson-and-johnson, merck, novo-nordisk, pfizer, regeneron]
 active_trials: 18
-last_updated: 2024-05-17
+last_updated: 2024-05-18
 ---
 
 ## Type 2 Diabetes
@@ -17,8 +17,10 @@ last_updated: 2024-05-17
 | [[canagliflozin]] | [[johnson-and-johnson]] | Approved | Neutral | JNJ |
 | [[dapagliflozin]] | [[astrazeneca]] | Approved | Bullish | AZN |
 | [[dulaglutide]] | [[eli-lilly]] | Approved | Neutral | LLY |
-| [[empagliflozin]] | [[boehringer-ingelheim]] | Approved | Bullish | |
+| [[empagliflozin]] | [[boehringer-ingelheim]] | Approved | Bearish | |
+| [[insulin efsitora alfa]] | [[eli-lilly]] | Pipeline | Bullish | LLY |
 | [[liraglutide]] | [[novo-nordisk]] | Approved | Neutral | NVO |
+| [[orforglipron]] | [[eli-lilly]] | Pipeline | Bullish | LLY |
 | [[retatrutide]] | [[eli-lilly]] | Pipeline | Bullish | LLY |
 | [[saxagliptin]] | [[astrazeneca]] | Approved | Bullish | AZN |
 | [[semaglutide]] | [[novo-nordisk]] | Approved | Bearish | NVO |
@@ -31,7 +33,7 @@ last_updated: 2024-05-17
 | [[amgen]] | | 2024-10-08 | Amgen's Maridebart cafraglutide Phase 2 trial (NCT05669599) completed for GLP-1 / Obesity and Type 2 Diabetes |
 | [[astrazeneca]] | dapagliflozin, saxagliptin | 2026-05-04 | Tozorakimab fails to reduce UACR in DKD patients with type 2 diabetes |
 | [[boehringer-ingelheim]] | empagliflozin | |
-| [[eli-lilly]] | tirzepatide, dulaglutide, retatrutide | 2026-04-15 | Tirzepatide Phase 4 trial (NCT06635057) completed for Type 2 Diabetes |
+| [[eli-lilly]] | tirzepatide, dulaglutide, retatrutide, insulin efsitora alfa, orforglipron | 2025-10-30 | Eli Lilly 2025 Q3 Earnings |
 | [[johnson-and-johnson]] | canagliflozin | 2026-01-21 | Johnson & Johnson Q4 2025 Earnings |
 | [[merck]] | sitagliptin | 2025-04-11 | Unknown drug Phase 3 trial (NCT04029480) completed for Type 2 Diabetes |
 | [[novo-nordisk]] | semaglutide, liraglutide | 2026-04-12 | Oral semaglutide reduced MACE in T2D with ASCVD/CKD |
@@ -73,6 +75,7 @@ last_updated: 2024-05-17
 | 2025-12-29 | Met097 injection Phase 2 trial (NCT06897202) completed for GLP-1 / Obesity and Type 2 Diabetes | [[2025-12-29-unknown-nct06897202-completed]] |
 | 2025-12-19 | AstraZeneca's semaglutide Phase 2 trial (NCT06579105) completed for Type 2 Diabetes | [[2025-12-19-semaglutide-nct06579105-completed]] |
 | 2025-11-19 | Semaglutide Phase 3 trial (NCT06065540) completed for Type 2 Diabetes | [[2025-11-19-semaglutide-nct06065540-completed]] |
+| 2025-10-30 | Eli Lilly 2025 Q3 Earnings | [[eli-lilly-2025-q3-earnings]] |
 | 2025-10-01 | Retatrutide reduces ANGPTL3/8, TG, and LDL-C in T2D/obesity | [[2025-10-01-retatrutide-lipid-reduction-t2d-obesity]] |
 | 2025-10-01 | Semaglutide Phase 3 trial (NCT06323174) completed for Type 2 Diabetes | [[2025-10-01-semaglutide-nct06323174-completed]] |
 | 2025-10-01 | Unknown drug Phase 2 trial (NCT06542874) completed for Type 2 Diabetes | [[2025-10-01-unknown-nct06542874-completed]] |
@@ -83,6 +86,7 @@ last_updated: 2024-05-17
 | 2025-09-01 | GLP-1 RAs and risk of pancreatitis/pancreatic cancer | [[2025-09-01-glp1-ras-pancreatitis-risk]] |
 | 2025-09-01 | Semaglutide improves functional outcomes in PAD and T2D | [[2025-09-01-semaglutide-pad-t2d-functional-outcomes]] |
 | 2025-09-01 | Dapagliflozin and exenatide improve β-cell function and insulin sensitivity | [[2025-09-01-dapagliflozin-exenatide-bcf-insulin-sensitivity-pubmed]] |
+| 2025-08-07 | Eli Lilly Q2 earnings and pipeline updates | [[2025-08-07-eli-lilly-q2-earnings-pipeline-updates]] |
 | 2025-08-05 | Dapagliflozin reduces new-onset T2DM and heart failure symptoms post-MI | [[2025-08-05-dapagliflozin-t2dm-hf-post-mi-pubmed]] |
 | 2025-08-01 | GLP-1RAs reduce SBP in obesity/T2D | [[2025-08-01-glp1-ras-sbp-reduction-obesity-t2d]] |
 | 2025-07-01 | Once-weekly IcoSema non-inferior to BBT for HbA1c in T2D | [[2025-07-01-icosema-noninferior-bbt-t2d]] |
@@ -90,6 +94,7 @@ last_updated: 2024-05-17
 | 2025-06-18 | Semaglutide Phase 4 trial (NCT05035082) completed for Type 2 Diabetes | [[2025-06-18-semaglutide-nct05035082-completed]] |
 | 2025-06-01 | Retatrutide most effective for weight loss, Tirzepatide for glycemic control | [[2025-06-01-retatrutide-tirzepatide-weight-glycemic-control]] |
 | 2025-05-27 | Unknown drug Phase 3 trial (NCT06269107) completed for Type 2 Diabetes | [[2025-05-27-unknown-nct06269107-completed]] |
+| 2025-05-01 | Eli Lilly Q1 earnings | [[2025-05-01-eli-lilly-q1-earnings]] |
 | 2025-05-01 | Long-acting GLP-1RAs reduce MACE, HHF, kidney events, all-cause mortality in T2D | [[2025-05-01-glp1-ras-cv-renal-mortality-t2d]] |
 | 2025-04-29 | Semaglutide Phase 3 trial (NCT04596631) completed for Type 2 Diabetes | [[2025-04-29-semaglutide-nct04596631-completed]] |
 | 2025-04-14 | Semaglutide Phase 3 trial (NCT05813912) completed for Type 2 Diabetes | [[2025-04-14-semaglutide-nct05813912-completed]] |
@@ -463,7 +468,7 @@ last_updated: 2024-05-17
 **Primary Outcome:** sustained ≥40% decrease in estimated glomerular filtration rate (eGFR) to <60 mL/min, new end-stage kidney disease or adjudicated kidney-related death
 **Primary Result:** [[dapagliflozin]] significantly reduced the relative risk of the Kidney-EP across quartiles of baseline Gal-3 [overall HR 0.45 (95% CI 0.23, 0.85), P < 0.0001; P interaction = 0.87].
 **Secondary Results:**
-*   Gal-3 was weakly associated with urine albumin creatinine ratio (r = 0.098, P < 0.0001) and eGFR (r = -0.27, P < 0.001) at baseline.
+*   Gal-3 was weakly associated with urine albumin creatinine ratio (r = 0.098, P < 0.0001) and eGFR (r = -0.27, P = 0.001) at baseline.
 *   Gal-3 was independently associated with the Kidney-EP: adj hazard ratio (HR) 1.15 [95% confidence interval (CI) 1.03, 1.28] per 1-SD log (Gal-3), P = 0.013.
 *   A greater risk difference was observed with [[dapagliflozin]] in patients with higher Gal-3, in whom a higher absolute risk at baseline was observed [absolute risk reduction (ARR) Q4 1.9 (95% CI 0.6, 3.2) vs. Q1 0.6% (-0.1, 1.3), ARR P trend 0.048].
 **Safety:** None
@@ -1328,3 +1333,6 @@ last_updated: 2024-05-17
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07215559.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07438444.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04029480.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/eli-lilly/10Q/2025-Q2-10Q.txt
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/eli-lilly/10Q/2025-Q3-10Q.txt
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/eli-lilly/10Q/2025-Q1-10Q.txt

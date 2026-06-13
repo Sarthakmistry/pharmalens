@@ -44,6 +44,8 @@ Amgen Inc. reported its third quarter 2025 financial results on November 4, 2025
 
 Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on February 3, 2026, and provided 2026 guidance. For the full year 2025, GAAP Net Income was $7,711 million and EBITDA was $16,898 million. Free Cash Flow for 2025 was $8,100 million, a decrease from $10,394 million in 2024. The company provided 2026 GAAP diluted EPS guidance of $15.45 to $16.94 and Non-GAAP diluted EPS guidance of $21.60 to $23.00. The debt leverage ratio as of December 31, 2025, was 3.2.
 
+Amgen Inc. reported its First Quarter 2025 financial results and provided full-year 2025 GAAP and non-GAAP guidance, including a significant increase in free cash flow. Net cash provided by operating activities for the three months ended March 31, 2025, was $1,391 million. Free cash flow for the same period was $980 million, an increase from $459 million in the prior year period. Full-year 2025 GAAP diluted EPS guidance is $12.21 to $13.46, and Non-GAAP diluted EPS guidance is $20.00 to $21.20. Non-GAAP adjustments include acquisition-related expenses, impairment of intangible assets (including [[Otezla]]), net gains from equity investments, and other items, with a related tax impact of approximately $1.77 per share. Full-year 2025 GAAP tax rate guidance is 11.0% to 12.5%, while Non-GAAP tax rate guidance is 14.5% to 16.0%.
+
 ### Pipeline
 - **Maridebart cafraglutide (MariTide)**: Phase 3, [[glp1-obesity]], [[type2-diabetes]], [[hf-htn]].
     - Initiated two Phase 3 studies for chronic weight management.
@@ -478,7 +480,7 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
 
 ### Recent events
 | Date | Type | Event | Signal |
-|---| --- |---|---|
+|---|---|---|---|
 | 2036-12-31 | trial | Trial NCT06072482 for Avacopan reaches primary completion | [[2036-12-31-unknown-nct06072482-completed]] |
 | 2036-03-17 | trial | Trial NCT05767047 for Apremilast reaches primary completion | [[2036-03-17-unknown-nct05767047-completed]] |
 | 2031-10-20 | trial | Trial NCT07136012 for Olpasiran reaches primary completion | [[2031-10-20-unknown-nct07136012-completed]] |
@@ -533,7 +535,7 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
 | 2026-08-06 | trial | Trial NCT06088199 for Apremilast reaches primary completion | [[2026-08-06-unknown-nct06088199-completed]] |
 | 2026-06-22 | trial | Trial NCT05882877 for Rocatinlimab reaches primary completion | [[2026-06-22-unknown-nct05882877-completed]] |
 | 2026-05-30 | trial | AMG 520 Phase 1/2 trial (NCT03600883) for Alzheimer's reaches primary completion | [[2026-05-30-amg-520-nct03600883-trial-completion]] |
-| 2026-05-27 | trial | Trial NCT05094336 for Anvumetostat reaches primary completion | [[2026-05-27-unknown-nct05094336-completed]] |
+| 2026-05-27 | sec | Amgen Inc. held its Annual Meeting of Stockholders on May 19, 2026, where stockholders voted on the election of directors, executive compensation, ratification of independent accountants, and a stockholder proposal. | [[2026-05-20-amgen-annual-meeting-results]] |
 | 2026-05-20 | trial | Maridebart cafraglutide Phase 3 trial (NCT03937154) for obesity/T2D reaches primary completion | [[2026-05-20-maridebart-cafraglutide-nct03937154-trial-completion]] |
 | 2026-05-20 | sec | Amgen Inc. held its Annual Meeting of Stockholders on May 19, 2026, where stockholders voted on the election of directors, executive compensation, ratification of independent accountants, and a stockholder proposal. | [[2026-05-20-amgen-annual-meeting-results]] |
 | 2026-04-22 | sec | Amgen Inc. announced the retirement of David M. Reese, Executive Vice President and Chief Technology Officer, with his responsibilities being redistributed among other executives. | [[2026-04-22-amgen-executive-retirement]] |
@@ -573,6 +575,7 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
 | 2025-05-27 | trial | Trial NCT04933695 for Sotorasib reaches primary completion | [[2025-05-27-unknown-nct04933695-completed]] |
 | 2025-05-08 | trial | Trial NCT05591222 for Daxdilimab terminated | [[2025-05-08-unknown-nct05591222-terminated]] |
 | 2025-05-02 | sec | Amgen Q1 earnings, FDA approval, pipeline updates | [[2025-05-02-amgen-2025-q1-earnings-fda-approval-pipeline-updates]] |
+| 2025-05-01 | sec | Amgen Inc. reported its First Quarter 2025 financial results and provided full-year 2025 GAAP and non-GAAP guidance, including a significant increase in free cash flow. | [[2025-05-01-amgen-q1-earnings]] |
 | 2025-03-28 | trial | Trial NCT06502977 for Tarlatamab reaches primary completion | [[2025-03-28-unknown-nct06502977-completed]] |
 | 2025-02-28 | trial | Trial NCT06122649 for Apremilast reaches primary completion | [[2025-02-28-unknown-nct06122649-completed]] |
 | 2025-02-27 | trial | Trial NCT05704738 for Rocatinlimab reaches primary completion | [[2025-02-27-unknown-nct05704738-completed]] |
@@ -762,3 +765,4 @@ Amgen Inc. reported its Fourth Quarter and Full Year 2025 financial results on F
 - `raw/ctgov/amgen/2026-05-01/NCT07293260.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07441252.json`
 - `raw/ctgov/amgen/2026-06-01/NCT05972551.json`
+- `raw/edgar/amgen/8k/2025-05-01-8K--25-000018.txt`

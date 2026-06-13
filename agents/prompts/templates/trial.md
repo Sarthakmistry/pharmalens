@@ -7,7 +7,7 @@ phase: 2 | 3 | 4
 status: recruiting | active | completed | terminated | withdrawn
 primary_sponsor: {company-slug}
 co_sponsors: [{other-slug}]
-drugs: [{inn}]
+drugs: [{inn-or-name}]
 indications: [{indication-slug}]
 enrollment: 0000
 primary_endpoint: One sentence description

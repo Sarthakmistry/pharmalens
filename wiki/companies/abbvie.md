@@ -6,8 +6,8 @@ exchange: NYSE
 indications_active: [alzheimers, oncology-nsclc, oncology-crc, hf-htn]
 blockbuster_drugs: []
 pipeline_drugs: []
-last_earnings_date: 2026-05-08
-last_updated: 2042-01
+last_earnings_date: 2025-07-03
+last_updated: 2025-07-03
 ---
 
 ## AbbVie Inc.
@@ -18,6 +18,8 @@ last_updated: 2042-01
 No tracked drugs found for this company in the reference data.
 
 ### Earnings intelligence
+AbbVie updated its Q2 and full-year 2025 adjusted diluted EPS guidance downwards due to an unexpected $823 million acquired IPR&D and milestones expense in the second quarter. This expense had an unfavorable impact of $0.42 per share, leading to a revised full-year 2025 adjusted diluted EPS guidance range of $11.67 - $11.87 (down from $12.09 - $12.29 previously). This update carries a bearish sentiment.
+
 AbbVie updated its 2026 adjusted diluted EPS guidance to $13.96 - $14.16, and Q1 2026 guidance to $2.56 - $2.60, reflecting an unfavorable impact of $0.41 per share from $744 million in acquired IPR&D and milestones expense. This update carries a bearish sentiment as it represents a lower guidance range compared to previously announced figures.
 
 AbbVie updated its Q4 2025 and full-year 2025 adjusted diluted EPS guidance, reflecting an unexpected $1.3 billion pre-tax acquired IPR&D and milestones expense. This expense represents an unfavorable impact of $0.71 to both GAAP and adjusted non-GAAP diluted earnings per share for Q4 2025, leading to a reduction in previously announced guidance ranges. The revised Q4 2025 adjusted diluted EPS guidance range is $2.61 - $2.65, and the full-year 2025 range is $9.90 - $9.94. This update carries a bearish sentiment due to the significant reduction in guidance.
@@ -70,7 +72,7 @@ AbbVie reported third-quarter 2025 financial results, with diluted EPS of $0.10 
 - [[pembrolizumab]], Telisotuzumab Adizutecan, Budigalimab, Carboplatin, Pemetrexed, Cisplatin (Phase 1/2 for unspecified indication): Study NCT06772623 is a Phase 1/2 trial, currently 'RECRUITING', with an estimated enrollment of 252 participants and an estimated primary completion in 2027-11. Results are not yet available.
 - Lutikizumab (Phase 2 for unspecified indication): Study NCT06718101 is a Phase 2 trial, currently 'ACTIVE_NOT_RECRUITING', with an actual enrollment of 83 participants and an estimated primary completion in 2027-05. Results are not yet available.
 - Upadacitinib (Phase 3 for unspecified indication): Study NCT06701331 is a Phase 3 trial, currently 'ACTIVE_NOT_RECRUITING', with an actual enrollment of 99 participants and an estimated primary completion in 2027-01. Results are not yet available.
-- Icalcaprant (Phase 2 for unspecified indication): Study NCT06696755 is a Phase 2 trial, currently 'RECRUITING', with an estimated enrollment of 195 participants and an estimated primary completion in 2027-11. Results are not yet available.
+- Icalcaprant (Phase 2 for unspecified indication): Study NCT06696755 is a Phase 2 trial, currently 'RECRUITING', with an estimated enrollment = 195 participants and an estimated primary completion in 2027-11. Results are not yet available.
 - Mirvetuximab soravtansine (Phase 2 for alzheimers): Study NCT06682988 is a Phase 2 trial, currently 'RECRUITING', with an estimated enrollment of 110 participants and an estimated primary completion in 2026-07. Results are not yet available.
 - Livmoniplimab, Budigalimab, Docetaxel, Paclitaxel, Gemcitabine (Phase 2 for unspecified indication): Study NCT06632951 is a Phase 2 trial, currently 'ACTIVE_NOT_RECRUITING', with an estimated enrollment of 150 participants and an estimated primary completion in 2027-03. Results are not yet available.
 - Telisotuzumab Adizutecan, Budigalimab, Fluorouracil, Leucovorin, Oxaliplatin (Phase 2 for alzheimers): Study NCT06628310 is a Phase 2 trial, currently 'RECRUITING', with an estimated enrollment of 180 participants and an estimated primary completion in 2030-10. Results are not yet available.
@@ -212,6 +214,7 @@ AbbVie reported third-quarter 2025 financial results, with diluted EPS of $0.10 
 ### Recent events
 | Date | Type | Event | Signal |
 |---| --- |---|---|
+| 2025-07-03 | sec | AbbVie updated its Q2 and full-year 2025 adjusted diluted EPS guidance downwards due to an unexpected $823 million acquired IPR&D and milestones expense in the second quarter. | [[2025-07-03-abbvie-q2-2025-eps-guidance-update]] |
 | 2042-01 | trial | A Phase 2/3 trial (NCT07095452) for Etentamig, Lenalidomide, Daratumumab, Dexamethasone is expected to reach primary completion. | [[2042-01-abbvie-etentamig-lenalidomide-daratumumab-dexamethasone-unspecified-trial-completion-nct07095452]] |
 | 2034-07 | trial | A Phase 3 trial (NCT07071519) for Risankizumab is expected to reach primary completion. | [[2034-07-abbvie-risankizumab-unspecified-trial-completion-nct07071519]] |
 | 2033-03 | trial | A Phase 3 trial (NCT07007065) for Surabgene Lomparvovec (ABBV-RGX-314) is expected to reach primary completion. | [[2033-03-abbvie-surabgene-lomparvovec-abbv-rgx-314-unspecified-trial-completion-nct07007065]] |
@@ -322,14 +325,14 @@ AbbVie reported third-quarter 2025 financial results, with diluted EPS of $0.10 
 | 2024-04-18 | trial | A Phase 2 trial (NCT04309474) completed primary completion. | [[2024-04-18-unknown-nct04309474-completed]] |
 | 2024-02-12 | trial | A Phase 3 trial (NCT04435600) completed primary completion. | [[2024-02-12-unknown-nct04435600-completed]] |
 | 2024-02-06 | trial | A Phase 3 trial (NCT03725202) completed primary completion. | [[2024-02-06-unknown-nct03725202-completed]] |
-| 2023-04-13 | trial | A Phase 3 trial (NCT04472598) completed primary completion. | [[2023-04-13-abbvie-unspecified-drug-trial-completion-nct04472598]] |
+| 2023-04-13 | trial | A Phase 3 trial (NCT04472598) for an unspecified drug completed primary completion. | [[2023-04-13-abbvie-unspecified-drug-trial-completion-nct04472598]] |
 | 2023-03-06 | trial | A Phase 3 trial (NCT04209855) completed primary completion. | [[2023-03-06-unknown-nct04209855-completed]] |
 | 2023-02-01 | trial | A Phase 3 trial (NCT05248880) completed primary completion. | [[2023-02-01-unknown-nct05248880-completed]] |
 | 2022-11-10 | trial | A Phase 3 trial (NCT04073303) for an unspecified drug completed primary completion. | [[2022-11-10-unknown-nct04073303-completed]] |
 | 2022-09-29 | trial | A Phase 3 trial (NCT04102020) for Venetoclax, Azacitidine completed primary completion. | [[2022-09-29-unknown-nct04102020-completed]] |
 | 2022-03-28 | trial | A Phase 2 trial (NCT03222609) completed primary completion. | [[2022-03-28-unknown-nct03222609-completed]] |
 | 2022-03-18 | trial | A Phase 1/2 trial (NCT04030962) for an unspecified drug completed primary completion. | [[2022-03-18-unknown-nct04030962-completed]] |
-| 2022-02-09 | trial | A Phase 2 trial (NCT04477486) completed primary completion. | [[2022-02-09-unknown-nct04477486-completed]] |
+| 2022-02-09 | trial | A Phase 2 trial (NCT04477486) for an unspecified drug completed primary completion. | [[2022-02-09-unknown-nct04477486-completed]] |
 | 2021-09-02 | trial | A Phase 3 trial (NCT04169373) for an unspecified drug completed primary completion. | [[2021-09-02-unknown-nct04169373-completed]] |
 | 2021-03-11 | trial | A Phase 3 trial (NCT03607422) completed primary completion. | [[2021-03-11-unknown-nct03607422-completed]] |
 | 2021-02-28 | trial | A Phase 3 trial (NCT03568318) for an unspecified drug reached primary completion. | [[2021-02-28-abbvie-unspecified-drug-trial-completion-nct03568318]] |
@@ -550,4 +553,4 @@ AbbVie reported third-quarter 2025 financial results, with diluted EPS of $0.10 
 - `raw/ctgov/abbvie/2026-05-01/NCT06428019.json`
 - `raw/ctgov/abbvie/2026-05-01/NCT06461897.json`
 - `raw/ctgov/abbvie/2026-05-01/NCT04777357.json`
----
+- `raw/edgar/abbvie/8k/2025-07-03-8K--25-000034.txt`

@@ -71,7 +71,8 @@ Eli Lilly and Company reported strong financial results for the fourth quarter a
 
 ### Recent events
 | Date | Type | Event | Signal |
-|---| --- |---|---|
+|---|---|---|---|
+| 2025-08-20 | sec | Eli Lilly and Company entered into an underwriting agreement for the issuance and sale of $7.75 billion aggregate principal amount of various notes, including Floating Rate Notes and Fixed Rate Notes. | [[2025-08-20-eli-lilly-debt-offering]] |
 | 2026-05-20 | sec | Eli Lilly and Company completed a debt offering, raising approximately $8.94 billion in net proceeds through the issuance of Floating Rate Notes and Fixed Rate Notes. | [[2026-05-20-eli-lilly-debt-offering]] |
 | 2026-05-07 | sec | Eli Lilly and Company held its annual meeting of shareholders on May 4, 2026, where directors were elected, executive compensation and auditor appointment were approved, and several corporate governance proposals failed to pass. | [[2026-05-07-eli-lilly-annual-shareholder-meeting-results]] |
 | 2026-04-30 | sec | Eli Lilly and Company announced its financial results for the quarter ended March 31, 2026, via a press release furnished as Exhibit 99.1 to this 8-K filing. | [[2026-04-30-eli-lilly-q1-2026-earnings]] |
@@ -269,3 +270,4 @@ Eli Lilly and Company reported strong financial results for the fourth quarter a
 - `raw/ctgov/pfizer/2026-05-01/NCT07311850.json`
 - `raw/ctgov/pfizer/2026-06-01/NCT06012435.json`
 - `raw/ctgov/pfizer/2026-06-01/NCT06157892.json`
+- `raw/edgar/eli-lilly/8K/2025-08-20-8K--25-184093.txt`

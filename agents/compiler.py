@@ -366,7 +366,12 @@ def extract_ctgov_python(preprocessed: dict) -> dict:
         or preprocessed.get("completion_date")
         or ""
     )[:10]
-    drug_slug = matched_drugs[0] if matched_drugs else "unknown"
+    if matched_drugs:
+        drug_slug = matched_drugs[0]
+    elif untracked_names:
+        drug_slug = untracked_names[0].lower().replace(" ", "-")
+    else:
+        drug_slug = "unknown"
     slug = (
         f"{date}-{drug_slug}-{(nct_id or '').lower()}-{status.lower()}"
         if requires_event else None
@@ -384,8 +389,8 @@ def extract_ctgov_python(preprocessed: dict) -> dict:
 
     return {
         "all_drugs_mentioned": (
-            [{"name": inn} for inn in matched_drugs] +
-            [{"name": name} for name in untracked_names]
+            [{"name": inn, "is_tracked": True} for inn in matched_drugs] +
+            [{"name": name, "is_tracked": False} for name in untracked_names]
         ),
         "companies_mentioned":     [company] if company else [],
         "indications_mentioned":   matched_indications,
@@ -843,8 +848,9 @@ Rules:
 - If new page: write complete page from scratch
 - Timeline section is append-only — add new rows at the top, never delete existing rows
 - End with a ## Sources section listing the raw file path
-- For all_drugs_mentioned in the extracted signals: drugs with is_tracked=true have canonical wiki
-  pages — use [[drug_name]] link syntax for those only. Write is_tracked=false drugs as plain text.
+- For all_drugs_mentioned in the extracted signals: include ALL entries (both is_tracked=true and
+  is_tracked=false) in the drugs frontmatter field. Use [[drug_name]] link syntax in body text for
+  is_tracked=true drugs only. Write is_tracked=false drugs as plain text in the body.
 - last_updated: always use the source document date, never a date from within the document body
 - Write ONLY the markdown content — no preamble, no explanation
 """

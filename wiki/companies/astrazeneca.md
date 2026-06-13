@@ -111,7 +111,7 @@ last_updated: 2030-06-10
 
 ### Recent events
 | Date | Type | Event | Signal |
-|---| --- |---|---|
+|---|---|---|---|
 | 2030-06-10 | research | Bullish pubmed result for Trastuzumab Deruxtecan in HER2-positive metastatic breast cancer. | [[2030-06-10-trastuzumab-deruxtecan-breast-cancer-pubmed-result]] |
 | 2026-01-01 | research | Bullish pubmed result for [[dapagliflozin]] in MASH. | [[2026-01-01-dapagliflozin-mash-pubmed-result]] |
 | 2025-07-24 | research | Bullish pubmed result for [[trastuzumab deruxtecan]] in HER2-positive metastatic gastric cancer. | [[2025-07-24-trastuzumab-deruxtecan-gastric-cancer-pubmed-result]] |

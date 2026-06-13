@@ -5,23 +5,19 @@ drugs: []
 companies: []
 indications: []
 signal: bullish
-headline: D.R. Horton, Inc. Reports Strong Q4 2025 Earnings and Increases Dividend
+headline: D.R. Horton, Inc. Reports Strong Q4 and Fiscal Year 2025 Earnings, Increases Quarterly Dividend
 last_updated: 2025-10-28
 ---
-## D.R. Horton, Inc. Reports Strong Q4 2025 Earnings and Increases Dividend
+
+## D.R. Horton, Inc. Reports Strong Q4 and Fiscal Year 2025 Earnings, Increases Quarterly Dividend
 
 **Date:** 2025-10-28 | **Type:** earnings_signal | **Signal:** bullish
 
 ### Summary
-D.R. Horton, Inc. reported fourth quarter and fiscal year 2025 earnings, with net income of $905.3 million and diluted EPS of $3.04. The company also announced a significant 50% increase in its quarterly dividend to $0.45 per share. Consolidated revenues for the quarter were $9.7 billion, including home sales revenues of $8.5 billion, with a pre-tax profit margin of 12.4%.
+D.R. Horton, Inc. reported its fourth quarter and fiscal year 2025 earnings, including $905.3 million in net income, and announced an increase in its quarterly dividend to $0.45 per share. The company achieved consolidated revenues of $9.7 billion for the quarter and closed 23,368 homes.
 
 ### Market implication
-The company's stable net income and diluted EPS, coupled with an improved pre-tax profit margin and a substantial dividend increase, indicate strong financial health and a positive outlook for investors.
-
-### Affected entities
-- Drug:
-- Company:
-- Indication:
+The reported strong financial results, including significant net income and revenue, coupled with an increased quarterly dividend, are expected to generate positive investor sentiment and potentially boost the company's stock performance.
 
 ### Sources
-- `raw/edgar/gilead/8K/2025-10-28-8K--25-000044.txt`
+- `raw/edgar/gilead/8k/2025-10-28-8K--25-000044.txt`

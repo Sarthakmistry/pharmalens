@@ -7,7 +7,7 @@ indications_active: [alzheimers, glp1-obesity, hf-htn, oncology-breast, oncology
 blockbuster_drugs: [palbociclib]
 pipeline_drugs: [LGX818, MEK162, MET-097i, MET-233i, Etrasimod, Elranatamab, Rimegepant, Ritlecitinib, Ponsegromab, Vepdegestrant, Pf-08653944, Pf-08634404, Pf-07055480]
 last_earnings_date: 2026-05-05
-last_updated: 2033-10-31
+last_updated: 2025-11-21
 ---
 
 ## Pfizer Inc.
@@ -108,7 +108,10 @@ On 2025-04-29, Pfizer announced approximately $1.2 billion of additional anticip
 
 ### Recent events
 | Date | Type | Event | Signal |
-|---| --- |---|---|
+|---|---|---|---|
+| 2025-11-21 | sec | Pfizer Inc. completed a public offering of $6,000,000,000 aggregate principal amount of various Notes, including Floating Rate Notes and fixed-rate Notes with maturities ranging from 2027 to 2065. | |
+| 2025-05-19 | sec | Pfizer Netherlands International Finance B.V., a wholly-owned subsidiary of Pfizer Inc., completed a public offering of €3.3 billion aggregate principal amount of notes due 2029, 2032, 2037, and 2045, fully and unconditionally guaranteed by Pfizer Inc. | [[2025-05-19-pfizer-debt-offering]] |
+| 2025-04-24 | sec | Pfizer Inc. announced the results of its Annual Meeting of Shareholders held on April 24, 2025, detailing the election of directors and votes on various proposals. | [[2025-04-24-pfizer-annual-shareholder-meeting-results]] |
 | 2026-05-05 | sec | Pfizer Inc. announced its financial results for the first quarter of 2026 via an 8-K filing and an accompanying press release. | [[2026-05-05-pfizer-q1-2026-earnings]] |
 | 2026-04-27 | sec | Pfizer Inc. reported the results of its Annual Meeting of Shareholders held on April 23, 2026, including the election of directors, ratification of auditors, approval of executive compensation, and the rejection of a shareholder proposal for an independent chair policy. | [[2026-04-27-pfizer-annual-meeting-results]] |
 | 2026-04-12 | research | Phase 2a study of zanidatamab plus [[palbociclib]] and fulvestrant shows promising antitumour activity and safety in HR-positive, HER2-positive metastatic breast cancer. | [[2026-04-12-zanidatamab-palbociclib-breast-cancer-pubmed]] |
@@ -207,6 +210,9 @@ On 2025-04-29, Pfizer announced approximately $1.2 billion of additional anticip
 | 2009-12-31 | trial | Pfizer completed a Phase 3 study evaluating on-demand treatment of Xyntha in Chinese subjects with Hemophilia A. | [[2009-12-31-xyntha-hemophilia-a-trial-completion]] |
 
 ### Sources
+- `raw/edgar/pfizer/8K/2025-11-21-8K--25-291406.txt`
+- `raw/edgar/pfizer/8K/2025-05-19-8K--25-122480.txt`
+- `raw/edgar/pfizer/8k/2025-04-28-8K--25-000109.txt`
 - `raw/edgar/pfizer/8K/2026-02-03-8K--26-000005.txt`
 - `raw/edgar/pfizer/8K/2025-12-16-8K--25-000167.txt`
 - `raw/edgar/pfizer/8K/2025-11-13-8K--25-000159.txt`

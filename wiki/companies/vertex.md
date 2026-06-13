@@ -23,6 +23,8 @@ Vertex Pharmaceuticals reported strong first-quarter 2026 financial results with
 **TRIKAFTA**: label expansion of eligible U.S. patient populations for TRIKAFTA.
 **CASGEVY**: completion of U.S. regulatory submission for approval of CASGEVY in children ages 5 to less than 12 years old with SCD or TDT.
 
+Vertex Pharmaceuticals also reported strong fourth quarter and full year 2025 financial results with significant revenue growth and provided optimistic 2026 guidance, driven by its CF franchise and emerging non-CF products. The company is continuing to launch JOURNAVX and bringing CASGEVY to more patients globally. It is also on track to complete BLA filing for U.S. accelerated approval of povetacicept in IgAN in the first half of 2026.
+
 ### Pipeline
 - suzetrigine (DPN) - pivotal development
 - zimislecel (T1D) - Phase 3 program to complete dosing this quarter, setting up potential filings in 2026.
@@ -31,7 +33,8 @@ Vertex Pharmaceuticals reported strong first-quarter 2026 financial results with
 
 ### Recent events
 | Date | Type | Event | Signal |
-|---| --- |---|---|
+|---|---|---|---|
+| 2026-02-12 | sec | Vertex Pharmaceuticals reported strong fourth quarter and full year 2025 financial results with significant revenue growth and provided optimistic 2026 guidance, driven by its CF franchise and emerging non-CF products. | [[2026-02-12-vertex-q4-2025-earnings]] |
 | 2026-05-04 | sec | Vertex Pharmaceuticals reported strong Q1 2026 financial results with an 8% revenue increase and significant pipeline progress, including a BLA submission for povetacicept and regulatory submission for CASGEVY in children. | [[2026-05-04-vertex-q1-2026-earnings-pipeline-update]] |
 | 2025-11-03 | sec | Vertex reported strong Q3 2025 financial results, refined full-year guidance, and highlighted pipeline progress for povetacicept and momentum for CASGEVY and JOURNAVX. | [[2025-11-03-vertex-q3-earnings]] |
 | 2026-04-06 | trial | Phase 2 trial for ALPN-101 (Acazicolcept) in Systemic Lupus Erythematosus has been completed. | [[2026-04-06-alpn-101-sle-trial-completion]] |
@@ -50,4 +53,4 @@ Vertex Pharmaceuticals reported strong first-quarter 2026 financial results with
 - `raw/edgar/vertex/8k/2025-05-05-8K--25-000171.txt`
 - `raw/ctgov/vertex/2026-04-07/NCT03525574.json`
 - `raw/edgar/vertex/8K/2026-05-04-8K--26-000171.txt`
----
+- `raw/edgar/vertex/8k/2026-02-12-8K--26-000034.txt`

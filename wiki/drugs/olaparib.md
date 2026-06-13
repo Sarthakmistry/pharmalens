@@ -11,7 +11,7 @@ black_box_warning: false
 blockbuster: true
 management_sentiment: bullish
 sentiment_score: 4/5
-last_earnings_signal: "2026-Q1 — Alliance revenue for Lynparza was $341.0M, contributing to oncology franchise growth."
+last_earnings_signal: "2025-Q2 — Alliance revenue from Lynparza grew 12% in the first six months of 2025."
 reimbursement_flag: false
 latest_event: "2043-08-04 — Phase 3 trial (NCT03486873) of olaparib in combination with pembrolizumab has estimated primary completion."
 trials: [ACTRN12618000686202, NCT01078662, NCT01081951, NCT02000622, NCT02032823, NCT02264678, NCT02484404, NCT02734004, NCT02861573, NCT03330847, NCT03334617, NCT03459846, NCT03486873, NCT03534453, NCT03732820, NCT03737643, NCT03740165, NCT03742895, NCT03775486, NCT03834519, NCT03976323, NCT03976362, NCT04015739, NCT04053322, NCT04123366, NCT04191135, NCT04269200, NCT04380636, NCT04421963, NCT04624204, NCT04729387, NCT04884360, NCT05171816, NCT05457257, NCT05498155, NCT06112379, NCT06353386, NCT06746116, NCT06797635, NCT06966700, NCT07024784, NCT03498521]
@@ -73,7 +73,7 @@ last_updated: 2024-07-30
 - Metastatic Castration-Resistant Prostate Cancer (in combination with [[durvalumab]]) — results published
 
 ### Management sentiment
-Merck's Q1 2026 earnings report highlighted Lynparza's strong performance, with alliance revenue reaching $341.0M, contributing positively to the oncology franchise's growth. This follows consistent growth in previous quarters, indicating a bullish outlook for the drug.
+Merck's Q1 2026 earnings report highlighted Lynparza's strong performance, with alliance revenue reaching $341.0M, contributing positively to the oncology franchise's growth. This follows consistent growth in previous quarters, indicating a bullish outlook for the drug. Alliance revenue from Lynparza grew 12% in the first six months of 2025, further contributing to the oncology franchise's growth.
 
 ### Clinical evidence
 The phase 2 KEYLYNK-009 study (NCT04191135) evaluated pembrolizumab plus olaparib versus pembrolizumab plus chemotherapy as postinduction therapy for triple-negative breast cancer (TNBC) in 271 participants. The primary endpoint of progression-free survival (PFS) and overall survival (OS) was not met, with median PFS of 5.5 months in the pembrolizumab plus olaparib group versus 5.6 months in the pembrolizumab plus chemotherapy group (HR, 0.98; 95% CI, 0.72-1.33; P = 0.4556). Median OS was 25.1 months versus 23.4 months, respectively (HR, 0.95; 95% CI, 0.64-1.40). However, in participants with tumor BRCA1/BRCA2 mutations (tBRCAm), HRs for PFS (HR, 0.70; 95% CI, 0.33-1.48) and OS (0.81; 95% CI, 0.28-2.37) favored pembrolizumab plus olaparib, suggesting a potential nonchemotherapy strategy for maintaining clinical benefit in this subgroup. No new safety signals were identified.
@@ -97,6 +97,7 @@ Which drugs compete directly? What is the differentiation?}
 ### Timeline
 | Date | Event | Type |
 |---|---|---|
+| 2025-08-05 | Merck reported Q2 2025 earnings, noting alliance revenue from Lynparza grew 12% in the first six months of 2025. | [[2025-08-05-merck-q2-earnings]] |
 | 2043-08-04 | Phase 3 trial (NCT03486873) of olaparib in combination with pembrolizumab has estimated primary completion. | [[2043-08-04-olaparib-pembrolizumab-nct03486873-primary-completion]] |
 | 2033-03-23 | Phase 3 trial (NCT06966700) of olaparib in combination with pembrolizumab for oncology-breast has estimated primary completion. | [[2033-03-23-olaparib-pembrolizumab-breast-cancer-nct06966700-primary-completion]] |
 | 2029-12-31 | Phase 2 trial (NCT06797635) of olaparib in combination with pembrolizumab for oncology-breast has estimated primary completion. | [[2029-12-31-olaparib-pembrolizumab-breast-cancer-nct06797635-primary-completion]] |

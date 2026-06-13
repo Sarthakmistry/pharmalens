@@ -6,7 +6,7 @@ drugs_approved: [abemaciclib, atezolizumab, bevacizumab, nivolumab, olaparib, pa
 drugs_pipeline: []
 companies_active: [astrazeneca, bayer, biogen, bristol-myers-squibb, eisai, eli-lilly, gilead, merck, novartis, novo-nordisk, pfizer, roche, regeneron]
 active_trials: 95
-last_updated: 2026-06-01
+last_updated: 2025-05-02
 ---
 
 ## Breast Cancer
@@ -35,7 +35,7 @@ last_updated: 2026-06-01
 | [[eisai]] | | 2026-03-18 | Trial NCT06188559 completed by Eisai. |
 | [[eli-lilly]] | abemaciclib, palbociclib, ribociclib, trastuzumab deruxtecan | 2024-07-15 | Trial NCT04539938 for trastuzumab deruxtecan by Eli Lilly completed primary completion. |
 | [[gilead]] | pembrolizumab | 2024-10-08 | Trial NCT04958785 for unknown by Gilead terminated. |
-| [[merck]] | pembrolizumab, olaparib, bevacizumab, trastuzumab deruxtecan | 2026-06-01 | Clinical trial results for pembrolizumab in TNBC published, showing no adverse impact on surgical outcomes. |
+| [[merck]] | pembrolizumab, olaparib, bevacizumab, trastuzumab deruxtecan | 2025-05-02 | Merck's Q1 2025 total revenue decreased 2% to $15.53 billion (up 1% ex-FX), driven by strong oncology performance from Keytruda and Welireg, offset by declines in vaccines and virology, and facing significant pricing pressure from the IRA and tariffs. |
 | [[novartis]] | ribociclib | 2025-06-12 | Trial NCT05631795 for unknown by Novartis completed primary completion. |
 | [[novo-nordisk]] | semaglutide, liraglutide | 2026-04-12 | GLP-1RAs may have little or no effect on risk for obesity-related cancers, including breast cancer. |
 | [[pfizer]] | palbociclib, cetuximab, abemaciclib, ribociclib | 2025-07-10 | Trial NCT06465368 for unknown by Pfizer completed primary completion. |
@@ -56,6 +56,7 @@ last_updated: 2026-06-01
 | 2025-07-10 | Trial NCT06465368 for unknown by Pfizer completed primary completion. | [[2025-07-10-unknown-nct06465368-completed]] |
 | 2025-06-12 | Trial NCT05631795 for unknown by Novartis completed primary completion. | [[2025-06-12-unknown-nct05631795-completed]] |
 | 2025-05-15 | Clinical trial results for pembrolizumab in TNBC published. | [[2025-05-15-pembrolizumab-tnbc-pubmed-result]] |
+| 2025-05-02 | Merck's Q1 2025 total revenue decreased 2% to $15.53 billion (up 1% ex-FX), driven by strong oncology performance from Keytruda and Welireg, offset by declines in vaccines and virology, and facing significant pricing pressure from the IRA and tariffs. | [[2025-05-02-merck-q1-earnings]] |
 | 2025-04-12 | Low-dose sacubitril/valsartan may prevent CTRCD in treatment-naïve patients with early breast cancer. | [[2025-04-12-sacubitril-valsartan-ctrcd-prevention-pubmed-result]] |
 | 2025-04-12 | Sacubitril/valsartan did not significantly attenuate LVEF reduction in anthracycline-treated early breast cancer patients. | [[2025-04-12-sacubitril-valsartan-lvef-reduction-pubmed-result]] |
 | 2025-04-12 | Meta-analysis shows trastuzumab deruxtecan prolongs survival in HER2-positive/low breast cancer but has notable adverse events. | [[2025-04-12-trastuzumab-deruxtecan-her2-breast-cancer-meta-analysis-pubmed-result]] |
@@ -68,6 +69,7 @@ last_updated: 2026-06-01
 | 2024-09-26 | Trial NCT03280563 for atezolizumab by Roche completed primary completion. | [[2024-09-26-atezolizumab-nct03280563-completed]] |
 | 2024-07-15 | Trial NCT04539938 for trastuzumab deruxtecan by Eli Lilly completed primary completion. | [[2024-07-15-trastuzumab deruxtecan-nct04539938-completed]] |
 | 2024-06-26 | Trial NCT04752332 for abemaciclib terminated by Eli Lilly. | [[2024-06-26-abemaciclib-nct04752332-terminated]] |
+| 2024-06-01 | FDA issued a CRL for the BLA for patritumab deruxtecan. | [[2024-06-01-patritumab-deruxtecan-crl-fda-rejection]] |
 | 2024-02-08 | Trial NCT04739761 for trastuzumab deruxtecan completed by AstraZeneca. | [[2024-02-08-astrazeneca-nct04739761-completion]] |
 | 2024-01-29 | Trial NCT05587296 for Elinzanetant (bay3427080) by Bayer completed primary completion. | [[2024-01-29-elinzanetant-nct05587296-completion]] |
 | 2023-11-07 | Trial NCT05460273 completed by AstraZeneca. | [[2023-11-07-astrazeneca-nct05460273-completion]] |
@@ -399,3 +401,4 @@ last_updated: 2026-06-01
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04191499.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04546009.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04576455.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/merck/10Q/2025-Q1-10Q.txt

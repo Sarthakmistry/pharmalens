@@ -3,26 +3,21 @@ company: sanofi
 full_name: Sanofi S.A.
 ticker: SNY
 exchange: NYSE
-indications_active: [hf-htn, oncology-nsclc, glp1-obesity, oncology-crc]
-blockbuster_drugs: [dupilumab, cemiplimab]
-pipeline_drugs: [SAR422459, avalglucosidase-alfa, SAR421869]
-last_earnings_date: 2026-04-29
-last_updated: 2026-04-29
+indications_active: []
+blockbuster_drugs: []
+pipeline_drugs: []
 ---
 
 ## Sanofi S.A.
 
+**Ticker:** SNY | **Exchange:** NYSE
+
 ### Drug portfolio by indication
 Sanofi commercializes several drugs, including key collaboration products with Regeneron.
-*   [[dupilumab]] (Dupixent): Commercialized in collaboration with Regeneron for multiple indications including atopic dermatitis, asthma, chronic rhinosinusitis with nasal polyps, bullous pemphigoid, chronic spontaneous urticaria (CSU), and allergic fungal rhinosinusitis (AFRS). Global net sales increased 33% to $4.9 billion in Q1 2026 versus Q1 2025.
-*   cemiplimab (Libtayo): Commercialized in collaboration with Regeneron. FDA approved for high-risk adjuvant cutaneous squamous cell carcinoma (CSCC). Global net sales increased 54% to $438.2 million in Q1 2026.
-*   alirocumab (Praluent): Sanofi handles commercialization outside the United States for hypercholesterolemia. Global net sales increased 27% to $245.7 million in Q1 2026.
-*   sarilumab (Kevzara): For Systemic Juvenile Idiopathic Arthritis (sJIA). Global net sales increased 24% to $144.8 million in Q1 2026.
-
-### Earnings intelligence
-Sanofi's key collaboration drugs reported strong Q1 2026 performance. Dupixent global net sales increased 33% to $4.9 billion. Libtayo grew 54% to $438.2 million, bolstered by FDA approval for adjuvant CSCC. Praluent grew 27% to $245.7 million and Kevzara grew 24% to $144.8 million.
-
-Note: Revenue figures above are sourced from Regeneron's Q1 2026 earnings call (collaboration partner). Sanofi's own 20-F/6-K filings have not yet been processed.
+*   dupilumab (Dupixent): Commercialized in collaboration with Regeneron for multiple indications including atopic dermatitis, asthma, chronic rhinosinusitis with nasal polyps, bullous pemphigoid, chronic spontaneous urticaria (CSU), and allergic fungal rhinosinusitis (AFRS).
+*   cemiplimab (Libtayo): Commercialized in collaboration with Regeneron. FDA approved for high-risk adjuvant cutaneous squamous cell carcinoma (CSCC).
+*   alirocumab (Praluent): Sanofi handles commercialization outside the United States for hypercholesterolemia.
+*   sarilumab (Kevzara): For Systemic Juvenile Idiopathic Arthritis (sJIA).
 
 ### Pipeline
 - SAR422459: Phase I/II long-term follow-up study (NCT01736592) for Stargardt's Macular Degeneration. Active but not recruiting. Expected to complete August 2033.
@@ -32,10 +27,10 @@ Note: Revenue figures above are sourced from Regeneron's Q1 2026 earnings call (
 ### Recent events
 | Date | Type | Event | Signal |
 |---|---|---|---|
-| 2025-12-31 | research | [[dupilumab]] demonstrated superiority over omalizumab in patients with severe CRSwNP and coexisting asthma. | [[2025-12-31-dupilumab-crswnp-vs-omalizumab-pubmed]] |
-| 2025-12-31 | research | [[dupilumab]] reduced type 2 inflammatory biomarkers and exacerbation risk in COPD patients with type 2 inflammation. | [[2025-12-31-dupilumab-copd-biomarkers-pubmed]] |
-| 2025-12-31 | research | A semi-mechanistic population PK/PD model for [[dupilumab]] in uncontrolled moderate-to-severe asthma predicted near-maximum FEV1 response. | [[2025-12-31-dupilumab-asthma-pkpd-pubmed]] |
-| 2025-07-01 | research | [[dupilumab]] showed significant improvements in signs, symptoms, and quality of life in young children with moderate-to-severe Atopic Dermatitis. | [[2025-07-01-dupilumab-atopic-dermatitis-pubmed]] |
+| 2025-12-31 | research | dupilumab demonstrated superiority over omalizumab in patients with severe CRSwNP and coexisting asthma. | [[2025-12-31-dupilumab-crswnp-vs-omalizumab-pubmed]] |
+| 2025-12-31 | research | dupilumab reduced type 2 inflammatory biomarkers and exacerbation risk in COPD patients with type 2 inflammation. | [[2025-12-31-dupilumab-copd-biomarkers-pubmed]] |
+| 2025-12-31 | research | A semi-mechanistic population PK/PD model for dupilumab in uncontrolled moderate-to-severe asthma predicted near-maximum FEV1 response. | [[2025-12-31-dupilumab-asthma-pkpd-pubmed]] |
+| 2025-07-01 | research | dupilumab showed significant improvements in signs, symptoms, and quality of life in young children with moderate-to-severe Atopic Dermatitis. | [[2025-07-01-dupilumab-atopic-dermatitis-pubmed]] |
 | 2026-04-07 | trial | Update on Phase I/II long-term follow-up study for SAR422459 in Stargardt's Macular Degeneration (NCT01736592). | [[2026-04-07-sanofi-sar422459-stargardts-disease-trial-update]] |
 | 2026-04-06 | trial | Clinical trial update for avalglucosidase alfa (NCT03019406) | [[2026-04-06-sanofi-avalglucosidase-alfa-trial-update]] |
 | 2026-04-06 | trial | Phase 2 trial initiated for Sarilumab in Systemic Juvenile Idiopathic Arthritis (sJIA). | [[2026-04-06-sanofi-sarilumab-sjia-trial-initiation]] |
