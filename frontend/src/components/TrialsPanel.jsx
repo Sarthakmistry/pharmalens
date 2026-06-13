@@ -80,7 +80,7 @@ function PhaseChart({ phases }) {
   )
 }
 
-export default function TrialsPanel({ slug, researchEvents }) {
+export default function TrialsPanel({ slug, researchEvents, recentCompletions }) {
   const [trialsData, setTrialsData] = useState(null)
 
   useEffect(() => {
@@ -91,6 +91,10 @@ export default function TrialsPanel({ slug, researchEvents }) {
   if (!trialsData) return null
 
   const { stats, phases } = trialsData
+  // Supplement trials-wiki completed count with event-table completions
+  // (completed trials aren't always in the trials wiki if they were only
+  //  captured as events during pipeline processing)
+  const completedCount = Math.max(stats.completed_90d, recentCompletions ?? 0)
   const hasTrialData  = phases.length > 0
   const hasResearch   = researchEvents.length > 0
 
@@ -105,8 +109,8 @@ export default function TrialsPanel({ slug, researchEvents }) {
           {/* Stat cards */}
           <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
             <StatCard label="Active trials"           value={stats.active} />
-            <StatCard label="Reached completion (1y)"  value={stats.completed_90d} />
-            <StatCard label="With published results"   value={stats.with_results} />
+            <StatCard label="Reached completion (1y)" value={completedCount} />
+            <StatCard label="With published results"  value={stats.with_results} />
           </div>
 
           {/* Phase chart */}

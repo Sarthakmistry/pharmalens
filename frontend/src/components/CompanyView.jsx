@@ -19,8 +19,11 @@ export default function CompanyView({ slug, onSelectIndication }) {
 
   const { meta, wiki, stock, drug_indications = {} } = data
   const events = parseEventsTable(wiki)
-  const secEvents      = events.filter(e => e.type === 'sec')
-  const researchEvents = events.filter(e => e.type === 'research')
+  const secEvents         = events.filter(e => e.type === 'sec')
+  const researchEvents    = events.filter(e => e.type === 'research')
+  const oneYearAgo        = new Date(); oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1)
+  const cutoff            = oneYearAgo.toISOString().slice(0, 10)
+  const recentCompletions = events.filter(e => e.type === 'trial' && e.date >= cutoff).length
 
   const changePct = stock?.change_pct
   const priceClass = changePct > 0 ? 'price-pos' : changePct < 0 ? 'price-neg' : 'price-neu'
@@ -102,7 +105,7 @@ export default function CompanyView({ slug, onSelectIndication }) {
         marginBottom: 20,
         alignItems: 'start',
       }}>
-        <TrialsPanel slug={slug} researchEvents={researchEvents} />
+        <TrialsPanel slug={slug} researchEvents={researchEvents} recentCompletions={recentCompletions} />
 
         {meta.indications_active?.length > 0 && (
           <div className="card">
