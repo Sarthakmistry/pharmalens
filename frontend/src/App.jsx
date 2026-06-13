@@ -27,11 +27,14 @@ export default function App() {
     })
 
   useEffect(() => {
-    fetchIndications().then(data => {
-      setIndications(data)
-      if (data.length) setActiveIndication(data[0].slug)
+    fetchIndications().then(setIndications)
+    fetchCompanies().then(data => {
+      setCompanies(data)
+      if (data.length) {
+        const sorted = [...data].sort((a, b) => a.full_name.localeCompare(b.full_name))
+        setActiveCompany(sorted[0].slug)
+      }
     })
-    fetchCompanies().then(setCompanies)
     loadStocks()
 
     // Refresh stock prices every 60 s

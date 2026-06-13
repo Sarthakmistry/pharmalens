@@ -33,28 +33,28 @@ export default function Sidebar({
         />
       </div>
 
-      <div className="nav-label">Indications</div>
-      {filteredIndications.map(ind => (
+      <div className="nav-label">Companies</div>
+      {filteredCompanies.map(co => (
         <div
-          key={ind.slug}
-          className={`nav-item ${activeIndication === ind.slug ? 'active' : ''}`}
-          onClick={() => onSelectIndication(ind.slug)}
+          key={co.slug}
+          className={`nav-item ${activeCompany === co.slug ? 'active' : ''}`}
+          onClick={() => onSelectCompany(co.slug)}
         >
-          <span className="nav-dot" />
-          {ind.display_name}
+          {co.full_name}
         </div>
       ))}
 
-      {filteredCompanies.length > 0 && (
+      {filteredIndications.length > 0 && (
         <div className="nav-section">
-          <div className="nav-label">Companies</div>
-          {filteredCompanies.map(co => (
+          <div className="nav-label">Indications</div>
+          {filteredIndications.map(ind => (
             <div
-              key={co.slug}
-              className={`nav-item ${activeCompany === co.slug ? 'active' : ''}`}
-              onClick={() => onSelectCompany(co.slug)}
+              key={ind.slug}
+              className={`nav-item ${activeIndication === ind.slug ? 'active' : ''}`}
+              onClick={() => onSelectIndication(ind.slug)}
             >
-              {co.full_name}
+              <span className="nav-dot" />
+              {ind.display_name}
             </div>
           ))}
         </div>
