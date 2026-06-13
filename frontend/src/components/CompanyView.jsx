@@ -127,26 +127,23 @@ export default function CompanyView({ slug, onSelectIndication }) {
                 {researchEvents.length > 0 && (
                   <p className="sec-label" style={{ marginBottom: 8 }}>Completed trials</p>
                 )}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                   {completionGroups.map((g, i) => (
-                    <div key={i} style={{
-                      display: 'grid',
-                      gridTemplateColumns: '72px 1fr auto',
-                      alignItems: 'center',
-                      gap: 8,
-                      fontSize: 12,
-                      color: '#3d3d3a',
-                    }}>
-                      <span style={{ fontWeight: 600, color: '#555' }}>Phase {g.phase}</span>
-                      <span style={{ color: '#666' }}>{g.drug}</span>
-                      <span style={{
-                        background: '#eee',
-                        borderRadius: 10,
-                        padding: '1px 7px',
-                        fontSize: 11,
-                        color: '#555',
-                        whiteSpace: 'nowrap',
-                      }}>{g.count} trial{g.count !== 1 ? 's' : ''}</span>
+                    <div key={i}>
+                      <div style={{ fontSize: 11, fontWeight: 600, color: '#888', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: 4 }}>
+                        Phase {g.phase}
+                      </div>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+                        {g.events.map((e, j) => (
+                          <div key={j} className="event-row">
+                            <span className="evt-dot" style={{ background: '#378ADD' }} />
+                            <div>
+                              <div className="evt-date">{e.date}</div>
+                              <div className="evt-text">{e.event}</div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   ))}
                 </div>
