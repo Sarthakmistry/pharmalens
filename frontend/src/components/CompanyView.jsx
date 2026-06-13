@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { fetchCompany } from '../api'
 import { parseEventsTable, eventColor } from '../parseWiki'
-import AIBar from './AIBar'
 import TrialsPanel from './TrialsPanel'
 
 
@@ -126,8 +125,6 @@ export default function CompanyView({ slug, onSelectIndication }) {
         )}
       </div>
 
-      {/* AI bar */}
-      <AIBar company={slug} displayName={meta.full_name} />
     </div>
   )
 }

@@ -78,64 +78,76 @@ export default function AIBar({ indication, company, displayName }) {
     `Key pipeline risks?`,
   ]
 
+  const contextLabel = displayName
+    ? `Asking about ${displayName}`
+    : 'Ask about any pharma topic'
+
   return (
-    <div className="ai-section">
-      {/* Conversation history */}
-      {history.length > 0 && (
-        <div className="ai-history">
-          {history.map((entry, i) => (
-            <div key={i} className="ai-exchange">
-              {/* Question bubble */}
-              <div className="ai-question">{entry.question}</div>
-
-              {/* Response */}
-              <div className="ai-response">
-                {entry.toolCalls.length > 0 && (
-                  <div className="tool-chips">
-                    {entry.toolCalls.map((t, j) => (
-                      <span key={j} className={`tool-chip ${t.done ? 'done' : ''}`}>
-                        {t.done ? '✓' : '⟳'} {toolLabel(t.name, t.input)}
-                      </span>
-                    ))}
-                  </div>
-                )}
-                {entry.streaming && !entry.answer && (
-                  <div className="ai-thinking">Thinking…</div>
-                )}
-                {entry.answer && <div className="ai-text">{entry.answer}</div>}
-              </div>
-            </div>
-          ))}
-          <div ref={bottomRef} />
-        </div>
-      )}
-
-      {/* Input bar */}
-      <div className="ai-bar" onClick={() => inputRef.current?.focus()}>
-        <SparkIcon />
-        <input
-          ref={inputRef}
-          className="ai-input"
-          type="text"
-          placeholder={`Ask about ${displayName ?? 'this indication'}…`}
-          value={question}
-          onChange={e => setQuestion(e.target.value)}
-          onKeyDown={e => e.key === 'Enter' && submit(question)}
-          disabled={streaming}
-        />
-        {streaming
-          ? <span className="ai-spinner" />
-          : <span className="ai-hint">↵</span>
-        }
+    <div className="ai-panel">
+      <div className="ai-panel-header">
+        <div className="ai-panel-title">Research</div>
+        <div className="ai-panel-context">{contextLabel}</div>
       </div>
 
-      {/* Suggestion chips */}
-      <div className="chip-row">
-        {suggestions.map((s, i) => (
-          <span key={i} className="q-chip" onClick={() => submit(s)}>
-            {s}
-          </span>
-        ))}
+      <div className="ai-section">
+        {/* Conversation history — grows to fill available space */}
+        {history.length > 0 ? (
+          <div className="ai-history">
+            {history.map((entry, i) => (
+              <div key={i} className="ai-exchange">
+                <div className="ai-question">{entry.question}</div>
+                <div className="ai-response">
+                  {entry.toolCalls.length > 0 && (
+                    <div className="tool-chips">
+                      {entry.toolCalls.map((t, j) => (
+                        <span key={j} className={`tool-chip ${t.done ? 'done' : ''}`}>
+                          {t.done ? '✓' : '⟳'} {toolLabel(t.name, t.input)}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                  {entry.streaming && !entry.answer && (
+                    <div className="ai-thinking">Thinking…</div>
+                  )}
+                  {entry.answer && <div className="ai-text">{entry.answer}</div>}
+                </div>
+              </div>
+            ))}
+            <div ref={bottomRef} />
+          </div>
+        ) : (
+          /* Empty state — suggested questions float to the bottom */
+          <div className="ai-empty">
+            <div className="ai-empty-label">Try asking</div>
+            {suggestions.map((s, i) => (
+              <div key={i} className="ai-suggestion" onClick={() => submit(s)}>
+                <span>{s}</span>
+                <span style={{ color: '#b4b2a9', fontSize: 14 }}>↗</span>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Input + chips — always pinned to bottom */}
+        <div className="ai-footer">
+          <div className="ai-bar" onClick={() => inputRef.current?.focus()}>
+            <SparkIcon />
+            <input
+              ref={inputRef}
+              className="ai-input"
+              type="text"
+              placeholder="Ask anything…"
+              value={question}
+              onChange={e => setQuestion(e.target.value)}
+              onKeyDown={e => e.key === 'Enter' && submit(question)}
+              disabled={streaming}
+            />
+            {streaming
+              ? <span className="ai-spinner" />
+              : <span className="ai-hint">↵</span>
+            }
+          </div>
+        </div>
       </div>
     </div>
   )

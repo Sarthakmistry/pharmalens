@@ -4,6 +4,7 @@ import TickerBar from './components/TickerBar'
 import Sidebar from './components/Sidebar'
 import IndicationHub from './components/IndicationHub'
 import CompanyView from './components/CompanyView'
+import AIBar from './components/AIBar'
 
 export default function App() {
   const [indications, setIndications] = useState([])
@@ -11,6 +12,12 @@ export default function App() {
   const [stocks, setStocks] = useState({}) // keyed by ticker
   const [activeIndication, setActiveIndication] = useState(null)
   const [activeCompany, setActiveCompany] = useState(null)
+
+  const aiDisplayName = activeCompany
+    ? companies.find(c => c.slug === activeCompany)?.full_name ?? activeCompany
+    : activeIndication
+      ? indications.find(i => i.slug === activeIndication)?.display_name ?? activeIndication
+      : null
 
   const loadStocks = () =>
     fetchStocks().then(data => {
@@ -63,6 +70,11 @@ export default function App() {
             />
           )}
         </main>
+        <AIBar
+          indication={activeIndication}
+          company={activeCompany}
+          displayName={aiDisplayName}
+        />
       </div>
     </div>
   )

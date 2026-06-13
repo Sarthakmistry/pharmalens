@@ -4,7 +4,6 @@ import { parseDrugsTable, parseEventsTable } from '../parseWiki'
 import DrugCard from './DrugCard'
 import EventList from './EventList'
 import CompanyPanel from './CompanyPanel'
-import AIBar from './AIBar'
 
 
 export default function IndicationHub({ slug, stocks, companies, onSelectCompany }) {
@@ -81,8 +80,6 @@ export default function IndicationHub({ slug, stocks, companies, onSelectCompany
         <CompanyPanel companies={activeCompanies} onSelectCompany={onSelectCompany} />
       </div>
 
-      {/* Embedded AI bar */}
-      <AIBar indication={slug} displayName={displayName} />
     </div>
   )
 }
