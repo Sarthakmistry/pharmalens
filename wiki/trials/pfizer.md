@@ -6,399 +6,56 @@
 
 | NCT ID | Drug | Indication | Phase | Status | Primary Completion |
 |---|---|---|---|---|---|
-| NCT01500551 | Tofacitinib | Juvenile Idiopathic Arthritis | 2/3 | Completed | 2025-02-12 |
-| NCT02007512 | Enzalutamide, Exemestane | oncology-breast | 2 | Completed | N/A |
-| NCT02003924 | Enzalutamide | | 3 | Completed | 2025-11-28 |
-| NCT02297438 | [[palbociclib]] | oncology-breast | 3 | Completed | 2023-09-29 |
-| NCT03000439 | Tofacitinib | Systemic Juvenile Idiopathic Arthritis | 3 | Completed | 2024-03-27 |
-| NCT02684006 | Avelumab, Axitinib, Sunitinib | Renal Cell Cancer | 3 | Completed | 2018-05-01 |
 | NCT00868530 | Xyntha | Hemophilia A | 3 | Completed | 2009-12-31 |
+| NCT01500551 | Tofacitinib | Juvenile Idiopathic Arthritis | 2/3 | Completed | 2025-02-12 |
 | NCT01909453 | LGX818, MEK162, Vemurafenib | Melanoma | 3 | Completed | 2024-09-03 |
-| NCT04168203 | apixaban | Venous Thromboembolism | 3 | Completed | N/A |
+| NCT02003924 | Enzalutamide | | 3 | Completed | 2025-11-28 |
+| NCT02007512 | Enzalutamide, Exemestane | oncology-breast | 2 | Completed | N/A |
+| NCT02297438 | [[palbociclib]] | oncology-breast | 3 | Completed | 2023-09-29 |
 | NCT02319837 | Enzalutamide, Leuprolide | Hormone Sensitive Prostate Cancer, Prostate Cancer, Cancer of the Prostate | 3 | Active | N/A |
+| NCT02684006 | | | 3 | Completed | 2018-05-01 |
 | NCT02850406 | Voxelotor | Sickle Cell Disease | 2 | Terminated | N/A |
-
-## Completed Trials
-
-### NCT01500551: A Long-term Safety Study of Tofacitinib in Patients With Juvenile Idiopathic Arthritis
-
----
-trial_id: NCT01500551
-title: A Long-term Safety Study of Tofacitinib in Patients With Juvenile Idiopathic Arthritis
-phase: 2/3
-status: completed
-primary_sponsor: pfizer
-co_sponsors: []
-drugs: ["tofacitinib"]
-indications: ["Juvenile Idiopathic Arthritis"]
-enrollment: 302
-primary_endpoint: Number of Participants With Laboratory Test Abnormalities | Number of Participants With Treatment-Emergent Adverse Events (TEAEs) | Absolute Values of Body Weight at Baseline | Absolute Value of Body Weight at Month 12 and Its Change From Baseline at Month 12 | Absolute Value of Body Weight at Month 24 and Its Change From Baseline at Month 24 | Absolute Value of Body Weight at Month 36 and Its Change From Baseline at Month 36 | Absolute Value of Body Weight at Month 48 and Its Change From Baseline at Month 48 | Absolute Value of Body Weight at Month 60 and Its Change From Baseline at Month 60 | Absolute Value of Body Weight at Month 72 and Its Change From Baseline at Month 72 | Absolute Value of Body Weight at Month 84 and Its Change From Baseline at Month 84 | Absolute Value of Height at Baseline | Absolute Value of Height at Month 12 and Its Change From Baseline at Month 12 | Absolute Value of Height at Month 24 and Its Change From Baseline at Month 24 | Absolute Value of Height at Month 36 and Its Change From Baseline at Month 36 | Absolute Value of Height at Month 48 and Its Change From Baseline at Month 48 | Absolute Value of Height at Month 60 and Its Change From Baseline at Month 60 | Absolute Value of Height at Month 72 and Its Change From Baseline at Month 72 | Absolute Value of Height at Month 84 | Number of Participants According to Tanner Stage at Baseline | Number of Participants With Shift in Tanner Stage From Baseline to Month 12 | Number of Participants With Shift in Tanner Stage From Baseline to Month 24 | Number of Participants With Shift in Tanner Stage From Baseline to Month 36 | Number of Participants With Shift in Tanner Stage From Baseline to Month 48 | Number of Participants With Shift in Tanner Stage From Baseline to Month 60 | Number of Participants With Shift in Tanner Stage From Baseline to Month 72 | Number of Participants With Shift in Tanner Stage From Baseline to Month 84
-primary_completion_date: 2025-02-12
-has_results: false
-primary_result_value: null
-last_updated: 2026-04-07
----
-
-## A Long-term Safety Study of Tofacitinib in Patients With Juvenile Idiopathic Arthritis
-
-**Phase:** 2/3 | **Status:** completed | **Sponsor:** [[pfizer]]
-
-### Design
-This was a Phase 2/3 study involving 302 participants, studying tofacitinib in patients with Juvenile Idiopathic Arthritis. There was no comparator.
-
-### Primary endpoint
-Number of Participants With Laboratory Test Abnormalities | Number of Participants With Treatment-Emergent Adverse Events (TEAEs) | Absolute Values of Body Weight at Baseline | Absolute Value of Body Weight at Month 12 and Its Change From Baseline at Month 12 | Absolute Value of Body Weight at Month 24 and Its Change From Baseline at Month 24 | Absolute Value of Body Weight at Month 36 and Its Change From Baseline at Month 36 | Absolute Value of Body Weight at Month 48 and Its Change From Baseline at Month 48 | Absolute Value of Body Weight at Month 60 and Its Change From Baseline at Month 60 | Absolute Value of Body Weight at Month 72 and Its Change From Baseline at Month 72 | Absolute Value of Body Weight at Month 84 and Its Change From Baseline at Month 84 | Absolute Value of Height at Baseline | Absolute Value of Height at Month 12 and Its Change From Baseline at Month 12 | Absolute Value of Height at Month 24 and Its Change From Baseline at Month 24 | Absolute Value of Height at Month 36 and Its Change From Baseline at Month 36 | Absolute Value of Height at Month 48 and Its Change From Baseline at Month 48 | Absolute Value of Height at Month 60 and Its Change From Baseline at Month 60 | Absolute Value of Height at Month 72 and Its Change From Baseline at Month 72 | Absolute Value of Height at Month 84 | Number of Participants According to Tanner Stage at Baseline | Number of Participants With Shift in Tanner Stage From Baseline to Month 12 | Number of Participants With Shift in Tanner Stage From Baseline to Month 24 | Number of Participants With Shift in Tanner Stage From Baseline to Month 36 | Number of Participants With Shift in Tanner Stage From Baseline to Month 48 | Number of Participants With Shift in Tanner Stage From Baseline to Month 60 | Number of Participants With Shift in Tanner Stage From Baseline to Month 72 | Number of Participants With Shift in Tanner Stage From Baseline to Month 84.
-
-### Results summary
-
-### Sources
-- `raw/ctgov/pfizer/2026-04-07/NCT01500551.json`
-
-### NCT02007512: Efficacy and Safety Study of Enzalutamide in Combination With Exemestane in Patients With Advanced Breast Cancer
-
----
-trial_id: NCT02007512
-title: Efficacy and Safety Study of Enzalutamide in Combination With Exemestane in Patients With Advanced Breast Cancer
-phase: 2
-status: completed
-primary_sponsor: pfizer
-co_sponsors: []
-drugs: ["Enzalutamide", "Exemestane"]
-indications: ["oncology-breast"]
-enrollment: 247
-primary_endpoint: Progression Free Survival (PFS): Intent-to-Treat (ITT) Population By Interactive Web Recognition System (IWRS) | Progression Free Survival (PFS): Diagnostic Positive (DX+) Population By Interactive Web Recognition System (IWRS)
-primary_completion_date: null
-has_results: false
-primary_result_value: null
-last_updated: 2026-04-07
----
-
-## Efficacy and Safety Study of Enzalutamide in Combination With Exemestane in Patients With Advanced Breast Cancer
-
-**Phase:** 2 | **Status:** completed | **Sponsor:** [[pfizer]]
-
-### Design
-This was a Phase 2 study involving 247 patients, studying Enzalutamide in combination with Exemestane in patients with advanced breast cancer. There was no comparator.
-
-### Primary endpoint
-Progression Free Survival (PFS): Intent-to-Treat (ITT) Population By Interactive Web Recognition System (IWRS) | Progression Free Survival (PFS): Diagnostic Positive (DX+) Population By Interactive Web Recognition System (IWRS). Result: None.
-
-### Results summary
-
-### Sources
-- `raw/ctgov/pfizer/2026-04-07/NCT02007512.json`
-
-### NCT02003924: A Study of Enzalutamide in Patients With Nonmetastatic Castration-Resistant Prostate Cancer
-
----
-trial_id: NCT02003924
-title: A Study of Enzalutamide in Patients With Nonmetastatic Castration-Resistant Prostate Cancer
-phase: 3
-status: completed
-primary_sponsor: pfizer
-co_sponsors: []
-drugs: ["Enzalutamide"]
-indications: []
-enrollment: 1401
-primary_endpoint: Metastasis Free Survival (MFS)
-primary_completion_date: 2025-11-28
-has_results: true
-primary_result_value: "None"
-last_updated: 2026-04-07
----
-
-## A Study of Enzalutamide in Patients With Nonmetastatic Castration-Resistant Prostate Cancer
-
-**Phase:** 3 | **Status:** completed | **Sponsor:** [[pfizer]]
-
-### Design
-This was a Phase 3 study involving 1401 patients, studying Enzalutamide in patients with nonmetastatic castration-resistant prostate cancer.
-
-### Primary endpoint
-Metastasis Free Survival (MFS). Result: None.
-
-### Results summary
-None
-
-### Sources
-- `raw/ctgov/pfizer/2026-04-07/NCT02003924.json`
-
-### NCT02297438: A Study of Palbociclib (PD-0332991) in Combination With Letrozole Compared With Placebo Plus Letrozole for the Treatment of Postmenopausal Women With ER+/HER2- Advanced Breast Cancer Who Are Candidates for Endocrine Therapy (PALOMA-4)
-
----
-trial_id: NCT02297438
-title: A Study of Palbociclib (PD-0332991) in Combination With Letrozole Compared With Placebo Plus Letrozole for the Treatment of Postmenopausal Women With ER+/HER2- Advanced Breast Cancer Who Are Candidates for Endocrine Therapy (PALOMA-4)
-phase: 3
-status: completed
-primary_sponsor: pfizer
-co_sponsors: []
-drugs: ["palbociclib"]
-indications: ["oncology-breast"]
-enrollment: 340
-primary_endpoint: Progression-Free Survival (PFS) Based on Investigator's Assessment
-primary_completion_date: 2023-09-29
-has_results: true
-primary_result_value: "None"
-last_updated: 2026-04-06
----
-
-## A Study of Palbociclib (PD-0332991) in Combination With Letrozole Compared With Placebo Plus Letrozole for the Treatment of Postmenopausal Women With ER+/HER2- Advanced Breast Cancer Who Are Candidates for Endocrine Therapy (PALOMA-4)
-
-**Phase:** 3 | **Status:** completed | **Sponsor:** [[pfizer]]
-
-### Design
-This was a Phase 3 randomized controlled trial (RCT) involving 340 patients, comparing [[palbociclib]] in combination with Letrozole against Placebo+ Letrozole for the treatment of postmenopausal women with ER+/HER2- advanced breast cancer.
-
-### Primary endpoint
-Progression-Free Survival (PFS) Based on Investigator's Assessment. Result: None.
-
-### Results summary
-None
-
-### Sources
-- `raw/ctgov/pfizer/2026-04-06/NCT02297438.json`
-
-### NCT03000439: A Phase 3 Randomized Withdrawal Study of Tofacitinib in Pediatric Patients With Systemic Juvenile Idiopathic Arthritis (sJIA)
-
----
-trial_id: NCT03000439
-title: A Phase 3 Randomized Withdrawal Study of Tofacitinib in Pediatric Patients With Systemic Juvenile Idiopathic Arthritis (sJIA)
-phase: 3
-status: completed
-primary_sponsor: pfizer
-co_sponsors: []
-drugs: []
-indications: []
-enrollment: 100
-primary_endpoint: Time to Systemic Juvenile Idiopathic Arthritis (sJIA) Disease Flare: Double-Blind Phase
-primary_completion_date: 2024-03-27
-has_results: true
-primary_result_value: "None"
-last_updated: 2026-04-06
----
-
-## A Phase 3 Randomized Withdrawal Study of Tofacitinib in Pediatric Patients With Systemic Juvenile Idiopathic Arthritis (sJIA)
-
-**Phase:** 3 | **Status:** completed | **Sponsor:** [[pfizer]]
-
-### Design
-This was a Phase 3 randomized withdrawal study (RCT) involving 100 patients, comparing tofacitinib against placebo to evaluate the time to Systemic Juvenile Idiopathic Arthritis (sJIA) disease flare.
-
-### Primary endpoint
-Time to Systemic Juvenile Idiopathic Arthritis (sJIA) Disease Flare: Double-Blind Phase. Result: None.
-
-### Results summary
-None
-
-### Sources
-- `raw/ctgov/pfizer/2026-04-06/NCT03000439.json`
-
-### NCT02684006: Avelumab With Axitinib Versus Sunitinib in Advanced Renal Cell Carcinoma (JAVELIN Renal 101)
-
----
-trial_id: NCT02684006
-title: Avelumab With Axitinib Versus Sunitinib in Advanced Renal Cell Carcinoma (JAVELIN Renal 101)
-phase: 3
-status: completed
-primary_sponsor: pfizer
-co_sponsors: []
-drugs: []
-indications: []
-enrollment: 886
-primary_endpoint: Progression Free Survival (PFS) as Assessed by Blinded Independent Central Review (BICR) in Programmed Death-Ligand 1 (PD-L1) Positive Participants | Overall Survival (OS) in PD-L1 Positive Participants
-primary_completion_date: 2018-05-01
-has_results: true
-primary_result_value: "None"
-last_updated: 2026-04-06
----
-
-## Avelumab With Axitinib Versus Sunitinib in Advanced Renal Cell Carcinoma (JAVELIN Renal 101)
-
-**Phase:** 3 | **Status:** completed | **Sponsor:** [[pfizer]]
-
-### Design
-This was a Phase 3 randomized trial (RCT) involving 886 patients, comparing avelumab with axitinib versus sunitinib monotherapy as first-line treatment in patients with advanced renal cell carcinoma.
-
-### Primary endpoint
-Progression Free Survival (PFS) as Assessed by Blinded Independent Central Review (BICR) in Programmed Death-Ligand 1 (PD-L1) Positive Participants | Overall Survival (OS) in PD-L1 Positive Participants. Result: None.
-
-### Results summary
-
-### Sources
-- `raw/ctgov/pfizer/2026-04-06/NCT02684006.json`
-
-### NCT00868530: A Phase 3 Study to Evaluate the Efficacy and Safety of Xyntha (Recombinant Antihemophilic Factor, Plasma/Albumin-Free) for On-Demand Treatment in Chinese Subjects With Hemophilia A
-
----
-trial_id: NCT00868530
-title: A Phase 3 Study to Evaluate the Efficacy and Safety of Xyntha (Recombinant Antihemophilic Factor, Plasma/Albumin-Free) for On-Demand Treatment in Chinese Subjects With Hemophilia A
-phase: 3
-status: completed
-primary_sponsor: pfizer
-co_sponsors: []
-drugs: ["Xyntha"]
-indications: ["Hemophilia A"]
-enrollment: 53
-primary_endpoint: Investigator Hemostatic Efficacy Assessment 8 Hours Post Infusion | Investigator Hemostatic Efficacy Assessment 24 Hours Post Infusion | Number of Participants With Factor VIII (FVIII) Inhibitor Development
-primary_completion_date: 2009-12-31
-has_results: false
-primary_result_value: null
-last_updated: 2026-04-07
----
-
-## A Phase 3 Study to Evaluate the Efficacy and Safety of Xyntha (Recombinant Antihemophilic Factor, Plasma/Albumin-Free) for On-Demand Treatment in Chinese Subjects With Hemophilia A
-
-**Phase:** 3 | **Status:** completed | **Sponsor:** [[pfizer]]
-
-### Design
-This was a Phase 3 study evaluating the efficacy and safety of Xyntha (Recombinant Antihemophilic Factor, Plasma/Albumin-Free) for on-demand treatment in Chinese subjects with Hemophilia A.
-
-### Primary endpoint
-Investigator Hemostatic Efficacy Assessment 8 Hours Post Infusion | Investigator Hemostatic Efficacy Assessment 24 Hours Post Infusion | Number of Participants With Factor VIII (FVIII) Inhibitor Development. Result: None.
-
-### Results summary
-
-### Sources
-- `raw/ctgov/pfizer/2026-04-07/NCT00868530.json`
-
-### NCT01909453: A Study of LGX818 Plus MEK162 Versus Vemurafenib and LGX818 Monotherapy in BRAF Mutant Melanoma
-
----
-trial_id: NCT01909453
-title: A Study of LGX818 Plus MEK162 Versus Vemurafenib and LGX818 Monotherapy in BRAF Mutant Melanoma
-phase: 3
-status: completed
-primary_sponsor: pfizer
-co_sponsors: []
-drugs: ["LGX818", "MEK162", "Vemurafenib"]
-indications: ["Melanoma"]
-enrollment: 921
-primary_endpoint: Part 1: Progression Free Survival (PFS) by BIRC in Combo 450 Group as Compared to Vemurafenib Group | Part 1: PFS by BIRC in Combo 450 Group as Compared to LGX818 Group
-primary_completion_date: 2024-09-03
-has_results: false
-primary_result_value: null
-last_updated: 2026-04-07
----
-
-## A Study of LGX818 Plus MEK162 Versus Vemurafenib and LGX818 Monotherapy in BRAF Mutant Melanoma
-
-**Phase:** 3 | **Status:** completed | **Sponsor:** [[pfizer]]
-
-### Design
-This was an RCT study involving 921 patients, comparing LGX818 plus MEK162 versus Vemurafenib and LGX818 monotherapy.
-
-### Primary endpoint
-Part 1: Progression Free Survival (PFS) by BIRC in Combo 450 Group as Compared to Vemurafenib Group | Part 1: PFS by BIRC in Combo 450 Group as Compared to LGX818 Group. Result: None.
-
-### Results summary
-
-### Sources
-- `raw/ctgov/pfizer/2026-04-07/NCT01909453.json`
-
-### NCT04168203: Apixaban for the Prevention of Recurrent Venous Thromboembolism (HI-PRO)
-
----
-trial_id: NCT04168203
-title: Apixaban for the Prevention of Recurrent Venous Thromboembolism (HI-PRO)
-phase: 3
-status: completed
-primary_sponsor: pfizer
-co_sponsors: ["bristol-myers-squibb"]
-drugs: ["apixaban"]
-indications: ["Venous Thromboembolism"]
-enrollment: 600
-primary_endpoint: the first symptomatic recurrent VTE
-primary_completion_date: N/A
-has_results: true
-primary_result_value: "Symptomatic recurrent VTE occurred in 4 of the 300 patients (1.3%) in the apixaban group and in 30 of the 300 patients (10.0%) in the placebo group (hazard ratio, 0.13; 95% confidence interval [CI], 0.04 to 0.36; P<0.001)."
-last_updated: 2026-04-12
----
-
-## Apixaban for the Prevention of Recurrent Venous Thromboembolism (HI-PRO)
-
-**Phase:** 3 | **Status:** completed | **Sponsor:** [[pfizer]]
-
-### Design
-This was an RCT study involving 600 patients, comparing apixaban against placebo for the prevention of recurrent venous thromboembolism in patients with provoked VTE and enduring risk factors.
-
-### Primary endpoint
-the first symptomatic recurrent VTE. Result: Symptomatic recurrent VTE occurred in 4 of the 300 patients (1.3%) in the apixaban group and in 30 of the 300 patients (10.0%) in the placebo group (hazard ratio, 0.13; 95% confidence interval [CI], 0.04 to 0.36; P<0.001).
-
-### Results summary
-Symptomatic recurrent VTE occurred in 4 of the 300 patients (1.3%) in the apixaban group and in 30 of the 300 patients (10.0%) in the placebo group (hazard ratio, 0.13; 95% confidence interval [CI], 0.04 to 0.36; P<0.001). Major bleeding occurred in 1 patient in the apixaban group and none in the placebo group. Clinically relevant nonmajor bleeding was observed in 14 of 294 patients (4.8%) in the apixaban group and in 5 of 294 patients (1.7%) in the placebo group (hazard ratio, 2.68; 95% CI, 0.96 to 7.43; P=0.06). Among patients with provoked VTE and enduring risk factors, low-intensity therapy with apixaban for 12 months resulted in a lower risk of symptomatic recurrent VTE than placebo, with a low risk of major bleeding. (Funded by Bristol-Myers Squibb-Pfizer Alliance; HI-PRO ClinicalTrials.gov number, NCT04168203.).
-
-### Sources
-- `raw/pubmed/apixaban/2026-04-12/abstract-40888734.json`
-
-## Active Trials
-
-### NCT02319837: A Study of Enzalutamide Plus Leuprolide Versus Placebo Plus Leuprolide in Patients With High-Risk Nonmetastatic Prostate Cancer (EMBARK)
-
----
-trial_id: NCT02319837
-title: A Study of Enzalutamide Plus Leuprolide Versus Placebo Plus Leuprolide in Patients With High-Risk Nonmetastatic Prostate Cancer (EMBARK)
-phase: 3
-status: active
-primary_sponsor: pfizer
-co_sponsors: []
-drugs: ["Enzalutamide", "Leuprolide"]
-indications: ["Hormone Sensitive Prostate Cancer", "Prostate Cancer", "Cancer of the Prostate"]
-enrollment: 1068
-primary_endpoint: Metastasis-free Survival (MFS) Compared Between Enzalutamide Plus Leuprolide and Placebo Plus Leuprolide
-primary_completion_date: null
-has_results: true
-primary_result_value: "None"
-last_updated: 2026-04-06
----
-
-## A Study of Enzalutamide Plus Leuprolide Versus Placebo Plus Leuprolide in Patients With High-Risk Nonmetastatic Prostate Cancer (EMBARK)
-
-**Phase:** 3 | **Status:** active | **Sponsor:** [[pfizer]]
-
-### Design
-This was an RCT study involving 1068 patients, comparing Enzalutamide Plus Leuprolide against Placebo Plus Leuprolide for high-risk nonmetastatic prostate cancer.
-
-### Primary endpoint
-Metastasis-free Survival (MFS) Compared Between Enzalutamide Plus Leuprolide and Placebo Plus Leuprolide. Result: None.
-
-### Results summary
-The randomized and blinded portion of the study has been completed, and primary endpoint analyses have occurred.
-
-### Sources
-- `raw/ctgov/pfizer/2026-04-06/NCT02319837.json`
-
-## Terminated Trials
-
-### NCT02850406: A Study to Evaluate the Effect of GBT440 in Pediatric Participants With Sickle Cell Disease
-
----
-trial_id: NCT02850406
-title: A Study to Evaluate the Effect of GBT440 in Pediatric Participants With Sickle Cell Disease
-phase: 2
-status: terminated
-primary_sponsor: pfizer
-co_sponsors: []
-drugs: ["Voxelotor"]
-indications: ["Sickle Cell Disease"]
-enrollment: 147
-primary_endpoint: Part A: Maximum Concentration (Cmax) of Voxelotor in Whole Blood | Part A: Area Under the Concentration-Time Curve (AUC) From Time 0 to the Time of the Last Quantifiable Concentration (AUC0-last) of Voxelotor in Whole Blood | Part A: Area Under the Concentration-Time Curve (AUC) From Time 0 Extrapolated to Infinity (AUC0-inf) of Voxelotor in Whole Blood | Part B: Change From Baseline to Week 24 in Hemoglobin Level | Part C: Change From Baseline to Week 48 in Cerebral Blood Flow | Part D: Number of Participants With Treatment Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)
-primary_completion_date: null
-has_results: false
-primary_result_value: null
-last_updated: 2026-04-06
----
-
-## A Study to Evaluate the Effect of GBT440 in Pediatric Participants With Sickle Cell Disease
-
-**Phase:** 2 | **Status:** terminated | **Sponsor:** [[pfizer]]
-
-### Design
-This was a Phase 2, interventional drug study sponsored by Pfizer, evaluating the effect of Voxelotor (GBT440) in pediatric participants with Sickle Cell Disease across various age groups (6 months to 17 years).
-
-### Primary endpoint
-Part A: Maximum Concentration (Cmax) of Voxelotor in Whole Blood | Part A: Area Under the Concentration-Time Curve (AUC) From Time 0 to the Time of the Last Quantifiable Concentration (AUC0-last) of Voxelotor in Whole Blood | Part A: Area Under the Concentration-Time Curve (AUC) From Time 0 Extrapolated to Infinity (AUC0-inf) of Voxelotor in Whole Blood | Part B: Change From Baseline to Week 24 in Hemoglobin Level | Part C: Change From Baseline to Week 48 in Cerebral Blood Flow | Part D: Number of Participants With Treatment Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs). Result: None.
-
-### Results summary
-
-### Sources
-- `raw/ctgov/pfizer/2026-04-06/NCT02850406.json`
+| NCT03000439 | | | 3 | Completed | 2024-03-27 |
+| NCT03052608 | Lorlatinib, Crizotinib | oncology-nsclc | 3 | Active | 2020-03-20 |
+| NCT03061201 | Sb-525 (pf-07055480) | Hemophilia A | 2 | Completed | 2024-07-16 |
+| NCT03258502 | Rv521 | | 2 | Completed | 2017-10-31 |
+| NCT03307980 | Pf-06838435 (formerly spk-9001) | Hemophilia B | 2 | Active | 2029-05-29 |
+| NCT03395197 | Talazoparib with enzalutamide, Enzalutamide | Prostate Cancer | 3 | Active | 2022-10-03 |
+| NCT03422822 | Abrocitinib 100 mg, Abrocitinib 200 mg | Atopic Dermatitis | 3 | Completed | 2025-12-22 |
+| NCT03519178 | Pf-06873600, Endocrine therapy 1, Endocrine therapy 2 | oncology-breast | 1/2 | Terminated | 2023-04-05 |
+| NCT03573882 | Voxelotor | Sickle Cell Disease | 3 | Terminated | 2024-11-12 |
+| NCT03587116 | | Influenza | 3 | Completed | 2024-12-13 |
+| NCT03765073 | Multivalent group b streptococcus vaccine | Group B Streptococcus Infection | 2 | Completed | 2024-03-04 |
+| NCT03861273 | Pf-06838435/ fidanacogene elaparvovec | Hemophilia B | 3 | Active | 2022-11-16 |
+| NCT03909971 | Lorlatinib | oncology-nsclc | 2 | Completed | 2020-08-10 |
+| NCT03915951 | Encorafenib, Binimetinib | oncology-nsclc | 2 | Completed | 2022-09-22 |
+| NCT03938792 | Pf-06741086 | Atopic Dermatitis | 3 | Completed | 2025-04-29 |
+| NCT03950232 | Etrasimod | Ulcerative Colitis | 3 | Active | 2029-06-19 |
+| NCT04006457 | Pf-06651600, Tetanus and diphtheria toxoids and acellular pertussis (tdap) vaccine, Meningococcal (groups a, c, w-135 and y [acwy]) oligosaccharide diphtheria crm197 conjugate vaccine | Vaccine-Preventable Diseases | 3 | Completed | 2024-06-25 |
+| NCT04165317 | Pf-06801591, Bacillus calmette-guerin | alzheimers | 3 | Active | 2024-12-02 |
+| NCT04168203 | apixaban | Venous Thromboembolism | 3 | Completed | N/A |
+| NCT04173273 | Etrasimod | Crohn's Disease | 3 | Terminated | 2025-04-23 |
+| NCT04181788 | Pf-06801591 | oncology-nsclc | 1/2 | Active | 2022-03-03 |
+| NCT04188509 | Voxelotor | Sickle Cell Disease | 3 | Terminated | 2024-11-01 |
+| NCT04218084 | Voxelotor | Sickle Cell Disease | 3 | Terminated | 2024-01-18 |
+| NCT04223856 | [[pembrolizumab]] | urothelial cancer | 3 | Completed | N/A |
+| NCT04224272 | [[palbociclib]] | oncology-breast | 2 | Completed | N/A |
+| NCT04362072 | Lorlatinib | oncology-nsclc | 4 | Completed | 2024-05-29 |
+| NCT04370054 | Pf-07055480 (giroctocogene fitelparovec): recombinant aav2/6 human factor viii gene therapy | Hemophilia A | 3 | Active | 2024-06-17 |
+| NCT04517864 | Pf-06651600 | Systemic Lupus Erythematosus | 2 | Terminated | 2022-01-04 |
+| NCT04553133 | [[palbociclib]], Pf-07104091 monotherapy dose escalation, Pf-07104091 + palbociclib + letrozole, Pf-07104091 monotherapy dose expansion (ovarian), Pf-07104091 monotherapy dose expansion (sclc), Pf-07104091 + fulvestrant (post cdk4/6), Pf-0704091 + fulvestrant (post cdk4/6) | oncology-nsclc, oncology-breast, Ovarian Cancer, Small Cell Lung Cancer | 2 | Active | 2026-12-31 |
+| NCT04557449 | Pf-07220060, Letrozole, Fulvestrant, Midazolam, Enzalutamide | oncology-breast | 2 | Active | 2026-09-23 |
+| NCT04585815 | Sasanlimab prefilled syringe, Encorafenib, Binimetinib, Sasanlimab, Axitinib, Sea-tgt | oncology-nsclc, Colorectal Cancer, Melanoma, Renal Cell Carcinoma | 1/2 | Terminated | 2023-05-17 |
+| NCT04606446 | [[palbociclib]], Pf-07248144, Fulvestrant, Letrozole, Pf-07220060, Pf-07850327, arv-471, vepdegestrant | oncology-breast | 2 | Recruiting | 2029-07-13 |
+| NCT04607421 | [[bevacizumab]], [[cetuximab]], Encorafenib, Oxaliplatin, Irinotecan, Leucovorin, 5-fu, Capecitabine | oncology-crc | 3 | Active | 2025-12-08 |
+| NCT04607837 | Etrasimod | Atopic Dermatitis | 2 | Completed | 2024-06-19 |
+| NCT04624230 | Tofacitinib | Ankylosing Spondylitis | 3 | Active | 2027-04-28 |
+| NCT04649242 | Rimegepant/bhv3000 | Migraine | 3 | Recruiting | 2029-01-09 |
+| NCT04649359 | Elranatamab (pf-06863135) | Multiple Myeloma | 2 | Active | 2022-06-17 |
+| NCT04657991 | [[pembrolizumab]], Encorafenib, Binimetinib | Melanoma | 3 | Active | 2026-01-12 |
+| NCT04697381 | Somatropin - gh na\u00efve pediatric cohort, Somatropin - gh treated cohort, Somatropin - adult cohort | Growth Hormone Deficiency | 3 | Completed | 2022-12-06 |
+| NCT04721977 | Tucatinib, Trastuzumab, Capecitabine | oncology-breast | 2 | Active | 2023-07-17 |
+| NCT04743141 | Rimegepant (pf-07899801) | Migraine | 3 | Recruiting | 2030-07-31 |
+| NCT04801420 | Vla15 | Lyme Disease | 2 | Completed | 2022-03-25 |
+| NCT04821310 | | oncology-nsclc | 2 | Terminated | 2025-12-16 |
+| NCT04821622 | Talazoparib plus enzalutamide | Prostate Cancer | 3 |

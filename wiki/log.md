@@ -26070,3 +26070,16507 @@ status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resou
 ## [2026-06-01T12:27] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40549043.json
 doc_type: pubmed
 status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40550568.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40586719.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40588371.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40605718.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40608313.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40614118.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40618725.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40627813.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40632415.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40638872.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40645179.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40645660.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40660433.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40664454.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40676560.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40690099.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40691143.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40702361.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40706069.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40716631.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40720716.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40742583.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40758471.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40762801.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40775055.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40779733.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40789510.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40809194.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40833777.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40844778.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40882637.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40905153.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40905435.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40918459.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40921804.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40934711.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40935764.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40940136.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40947345.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40972843.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:46] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40990036.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40993242.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40997059.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-40998092.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41015742.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41016926.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41027815.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41029573.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41035637.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41045401.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT03844048.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT04401748.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT04499248.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT04777357.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT04928846.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT05125302.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT05445778.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT05609630.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT05711394.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT05782907.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT05995353.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06012240.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06100744.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06158841.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06158854.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06241313.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06332534.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06389136.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06417775.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06468228.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06548542.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06602479.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06614192.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06682988.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06696755.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06734351.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06772623.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06806293.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06810505.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06820463.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06822738.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06880744.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06890338.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06972446.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07005102.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07007065.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07023289.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07024784.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07044687.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07071519.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07095452.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07155174.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07196644.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07226791.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07276997.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07387471.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07592273.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT04521231.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT04524273.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:47] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT04994717.json
+doc_type: ctgov
+status: success
+
+## [2026-06-01T23:48] lint | weekly pass
+pages_checked: 1481
+structural_issues: 4
+semantic_issues: 16
+status: success
+
+## [2026-06-02T10:24] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41052885.json
+doc_type: pubmed
+status: error: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELL
+
+## [2026-06-02T10:24] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41053075.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-02T10:29] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT03844048.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:29] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41062829.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:29] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT04401748.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:29] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41065506.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:29] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT04499248.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:37] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41314029.json
+doc_type: pubmed
+status: error: Step 1 JSON parse failed for /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT04777357.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41076560.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT04928846.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41104574.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT05125302.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41109920.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT05445778.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41110694.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT05609630.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41115454.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT05711394.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41117857.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT05782907.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41120126.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT05995353.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41124198.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06012240.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41138165.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06100744.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41145919.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06158841.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41163586.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06158854.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41173664.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06241313.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41175449.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06332534.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41182348.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06389136.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41188103.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06417775.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41197381.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06468228.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41231502.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06548542.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41237182.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06602479.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41263691.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06614192.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41286513.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06682988.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41290625.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06696755.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41308680.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06734351.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06772623.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41330615.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06806293.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41342548.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06810505.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41365069.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06820463.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41367262.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06822738.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41369826.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06880744.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41381258.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06890338.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41389771.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT06972446.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41392152.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07005102.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41406937.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07007065.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41407398.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07023289.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41407417.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07024784.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41422917.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07044687.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41423268.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07071519.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41431434.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07095452.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41448222.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07155174.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41449150.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07196644.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41456496.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07226791.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41460964.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07276997.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41478278.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07387471.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41486797.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-06-01/NCT07592273.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41490885.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT04521231.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41499716.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT04524273.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41507539.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT04994717.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41512237.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT05094336.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41521502.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT05882877.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41524570.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT05920356.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T10:49] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41537692.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T11:29] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-06-01/abstract-41720427.json
+doc_type: pubmed
+status: error: 'NoneType' object is not iterable
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-05-01/NCT04777357.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41543348.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT05972551.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41555735.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT06072482.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41567215.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT06311721.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41570275.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT06321601.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41571299.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT06401044.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41575641.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT06527404.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41591474.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT06570798.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41606118.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT06588153.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41611341.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT06593522.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41617393.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT06691984.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41617395.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT06700343.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41620440.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT06987539.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41652222.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07005128.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41667470.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07037433.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41672597.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07037459.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41677907.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07134088.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41690301.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07136012.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41691771.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07172919.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41693026.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07213674.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41694404.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07225686.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41702354.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07226765.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41705252.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07366086.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41708895.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07388498.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41719220.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07438405.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41725391.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-06-01/NCT07441252.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41731117.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04711252.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41734361.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04739761.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41747587.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04745689.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41760643.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04765059.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41781018.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04784715.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41781908.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04862663.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41785896.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04877691.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41824279.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04884360.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41836677.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04924608.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41871875.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04931654.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-12/abstract-41892875.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04960709.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-13/abstract-41460964.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04964934.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-20/abstract-41604598.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04995523.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-20/abstract-41627171.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT04999969.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-27/abstract-41604598.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05043090.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-04-27/abstract-41774886.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05048797.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-05-04/abstract-41439745.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05057494.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-05-04/abstract-41662628.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05061134.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-05-04/abstract-41720325.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05061550.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-05-04/abstract-41862680.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05104866.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-05-11/abstract-42082271.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05113251.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-05-25/abstract-42168914.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05120349.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-06-01/abstract-41687718.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05123482.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05138133.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-06-01/abstract-41862024.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05158387.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/nivolumab/2026-06-01/abstract-41916446.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05166889.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-39732365.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05171816.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-39755169.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05211895.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-39755170.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05219162.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-39805351.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05221840.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-39864547.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05246514.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-39929334.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05261399.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40097663.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05267613.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40162917.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05309668.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40234867.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05367440.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40300278.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05374512.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40421698.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05374603.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40454705.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05417594.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40461383.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05440097.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40466026.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05450692.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40500614.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05460273.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40555063.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05489211.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40593014.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05498155.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40617394.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05526755.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40637621.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05546866.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40730077.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05555290.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40742292.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05583227.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40885102.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05624450.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40897431.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05629234.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40923797.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05629585.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40923969.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05687266.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40957291.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05692180.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40973606.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05702229.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-40974872.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05742802.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41039677.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05771480.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41104938.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05774951.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41139066.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05775159.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41139117.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05797168.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41235190.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05801029.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41239252.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05835310.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41308232.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05850234.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41326340.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05883644.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41371099.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05925530.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41462168.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05925803.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41530133.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05941897.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41544603.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05943106.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41544643.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05951959.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41558224.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05952024.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41689889.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05952557.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41723914.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT05984277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41785639.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06005493.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-04-12/abstract-41801573.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06008093.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-05-04/abstract-41785639.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06015737.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/osimertinib/2026-06-01/abstract-41780641.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06023589.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-38926066.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06040086.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-39134652.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06040099.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-39174409.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06042049.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-39402420.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06079671.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-39938593.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06084884.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40023464.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06087835.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40036983.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06097728.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40043230.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06103864.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40044930.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06106945.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40048689.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06109779.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40053697.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06112379.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40058642.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06120491.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40063980.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06129864.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40064573.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06130553.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40079916.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06137118.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40094417.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06137144.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40098565.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06151964.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40100100.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06179511.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40121391.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06188520.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40131366.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06194448.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40154210.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06194825.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40154623.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06219941.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40157574.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06267729.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40168999.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06268873.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40169866.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06271837.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40172662.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06283966.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40188291.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06307652.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40198769.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06307665.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40198940.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06344104.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40203764.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06346392.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40209850.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06350097.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40220758.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06357533.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40229272.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06380751.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40262400.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06417814.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40272712.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06422689.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40277063.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06429761.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40279684.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06448754.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40299829.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06450197.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40307092.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06455449.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40310569.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06465485.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40318646.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06467357.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40329046.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06471257.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40334308.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06473779.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40338159.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06502366.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40347227.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06512883.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40348212.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06526793.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40354680.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06529419.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40356191.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06531798.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40358559.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06535607.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40360867.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06542250.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40374594.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06549595.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40378056.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06563102.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40383193.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06564038.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40383194.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06564844.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40398109.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06579092.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40407381.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06579105.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40409025.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06590740.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40417835.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06594068.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40419140.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06595238.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40424564.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06606847.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40435872.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06610526.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40436854.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06627647.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40448579.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06635447.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40449498.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06644924.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40460988.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06651970.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40466642.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06677060.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40469302.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06681324.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40472658.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06692738.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40473109.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06692764.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40499147.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06706817.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40512324.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06742723.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40518758.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06746116.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40526042.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06749457.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40532178.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06750276.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40532262.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06750289.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40548833.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06764186.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40571546.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06764875.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40577656.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06792695.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40588522.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06795022.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40590325.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06824987.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40592026.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06834932.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40609521.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06851858.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40627445.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06862791.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40640844.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06868277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40643947.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06878261.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40643985.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06883305.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40653807.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06897748.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40668662.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06897930.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40680438.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06921785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40685311.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06921928.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40690099.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06932263.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40690729.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06942910.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40696153.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06943833.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40700855.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06952803.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40707309.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06960577.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40711469.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06989112.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40711475.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06992609.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40713179.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT06996782.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40750932.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07000123.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40750941.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07000136.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T12:17] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40753466.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T12:31] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40905153.json
+doc_type: pubmed
+status: error: 'str' object has no attribute 'get'
+
+## [2026-06-02T13:07] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-18/abstract-41770235.json
+doc_type: pubmed
+status: error: unhashable type: 'dict'
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-05-01/NCT05972551.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40758471.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07000149.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40759440.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07000357.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40759442.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07007793.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40764177.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07017179.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40779895.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07029737.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40795788.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07044336.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40796313.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07069712.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40796417.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07073950.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40808295.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07081633.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40813711.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07082738.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40826400.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07088926.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40829093.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07098338.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40830709.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07109219.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40852760.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07115043.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40885529.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07123454.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07128615.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40907517.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07143604.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40929683.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07155226.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40932352.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07181161.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40935292.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07192614.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40947345.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07205822.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40957773.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07215585.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40965911.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07215702.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40972693.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07218809.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-40993242.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07218900.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41026605.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07221253.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41027671.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07222917.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41029573.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07276581.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41033280.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07285213.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41035637.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07291037.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41045401.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07363642.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41046186.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07391657.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41046201.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07431281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41047324.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-04-07/NCT07446855.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41063998.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT01802632.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41065505.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT02296125.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41082893.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT02516241.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41103419.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT02734004.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41109919.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT03043872.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41109992.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT03091192.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41115468.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT03528694.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41129008.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT03742102.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41139553.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT03778229.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41171165.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT03778957.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41173143.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT03813407.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41173664.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT03833154.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41175805.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT03837899.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41176317.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT03932331.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41188102.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT03953300.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41188103.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT04305496.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41192233.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT04421963.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41203001.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT04482309.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41206673.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT04745689.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41212380.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT04765059.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41237182.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT04862663.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41239828.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT04877691.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41252599.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT04960709.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41259897.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT04964934.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41296842.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT04999969.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41297161.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05120349.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41308680.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05158387.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41309527.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05166889.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41315271.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05211895.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41319864.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05267613.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41340108.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05301842.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41365504.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05450692.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41378685.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05457257.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41381258.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05583227.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41389229.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05687266.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41405563.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05692180.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41427951.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05771480.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41448449.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05774951.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41449287.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05775159.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41454616.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05883644.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41468684.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05925530.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41474069.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05925803.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41479894.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06023589.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41484472.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06042049.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41486797.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06079671.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41494216.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06097728.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41530380.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06103864.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41534900.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06137144.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41536071.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06188520.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41537707.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06194825.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41548565.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06268873.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41555735.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06307652.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41563650.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06344104.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41564397.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06380751.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41567215.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06448754.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41569440.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06450197.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41572830.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06455449.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41575641.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06465485.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41581413.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06467357.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41603643.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06471257.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41611998.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06512883.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41631899.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06531798.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41649630.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06549595.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41653198.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06564038.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41656201.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06594068.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41661417.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06651970.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41667152.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06706817.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41670015.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06742723.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41672594.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06746116.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41680482.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06764186.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41694404.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06764875.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41698381.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06792695.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41701495.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06834932.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41701511.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06862791.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41705252.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06868277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41707170.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06878261.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41714113.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06883305.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41724817.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06897748.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41732954.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06897930.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41747221.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06921928.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41747585.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06932263.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41748622.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06942910.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41757470.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06952803.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41771275.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06960577.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41781832.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06989112.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41785669.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06992609.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41822503.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07000357.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41825453.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07007793.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41844546.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07017179.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41853263.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07029737.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41875364.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07044336.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41878443.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07069712.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41915048.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07073950.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41926961.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07088926.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41939914.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07098338.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-12/abstract-41953009.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07109219.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-27/abstract-41818638.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07115043.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-04-27/abstract-42031429.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07123454.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-04/abstract-40379142.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07155226.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-04/abstract-41439745.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07181161.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-04/abstract-41443410.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07205822.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-04/abstract-41474069.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07215585.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-04/abstract-41520892.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07218900.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-04/abstract-41644920.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07222917.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-04/abstract-41661218.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07285213.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-04/abstract-41671077.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07291037.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-04/abstract-41720325.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07295821.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-11/abstract-42105744.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07363642.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07391657.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-18/abstract-41935492.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07431281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-18/abstract-42114950.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07446855.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-18/abstract-42126144.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT07525375.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-18/abstract-42140743.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT02032823.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-25/abstract-42097144.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT02453282.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-25/abstract-42165290.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT03459846.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-25/abstract-42168914.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT03521154.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-05-25/abstract-42173654.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT03682068.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-06-01/abstract-39692004.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT03706690.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-06-01/abstract-41739398.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT03813407.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/pembrolizumab/2026-06-01/abstract-41980235.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT03875235.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/ravulizumab/2026-04-12/abstract-39835421.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT03953300.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/ravulizumab/2026-04-12/abstract-40285403.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT04157348.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/ravulizumab/2026-04-12/abstract-40447351.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT04379596.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/ravulizumab/2026-04-12/abstract-40775082.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT04493853.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/ravulizumab/2026-04-12/abstract-41782198.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT04550260.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/ravulizumab/2026-04-12/abstract-41925914.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT04739761.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-39911047.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT04784715.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-40471293.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT04862663.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-40489581.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT04877691.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-40609566.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT04931563.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-40685589.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05043090.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-40726454.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05057494.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-40916752.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05061550.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-40988099.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05104866.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-41582189.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05123482.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-04-12/abstract-41787737.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05211895.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/retatrutide/2026-05-18/abstract-40899050.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05221840.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-39315586.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05246514.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-39563094.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05374512.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-39792134.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05374603.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-39828108.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05417594.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-39873282.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05546866.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40063419.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05692180.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40088233.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05702229.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40174692.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05774951.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40250826.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05835310.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40265590.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05850234.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40265602.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05925803.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40268180.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05943106.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40268473.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05952024.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40332748.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT05952557.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40353367.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06079671.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40389107.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06084884.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40412494.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06087835.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40450497.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06106945.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40621831.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06120491.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40637120.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06129864.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40643788.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06130553.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40678912.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06137118.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40728824.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06137144.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40739095.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06151964.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40780448.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06188520.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40796619.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06268873.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40839760.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06271837.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40884047.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06283966.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40884070.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06346392.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40884238.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06350097.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40892548.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06357533.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-40916703.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06380751.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-41089765.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06417814.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-41145713.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06448754.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-41171251.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06455449.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-41230611.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06465485.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-41335448.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06467357.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-41396086.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06471257.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-41630233.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06512883.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-41663960.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06535607.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-41820314.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06549595.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-12/abstract-41940576.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06564038.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/sacubitril-valsartan/2026-04-27/abstract-41493293.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06564844.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40083081.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06594068.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40106161.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06606847.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40156843.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06627647.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40156846.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06651970.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40162642.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06677060.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40169145.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06750289.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40184508.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06764875.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40186344.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06792695.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40212008.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06834932.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40237975.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06868277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40239470.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06878261.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40265328.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06883305.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40279144.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06897930.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40287313.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06921785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40305708.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06921928.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40321113.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06932263.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40325308.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06943833.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40341357.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06952803.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40344607.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06989112.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40345413.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT06992609.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40353578.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07000123.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40382437.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07000136.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40392993.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07029737.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40409279.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07044336.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40418526.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07069712.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40425315.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07073950.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40437949.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07081633.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40452267.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07088926.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40471293.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07098338.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40482670.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07109219.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40482671.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07123454.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40489581.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07155226.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40493329.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07181161.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40506208.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07192614.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40537987.json
+doc_type: pubmed
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07205822.json
+doc_type: ctgov
+status: success
+
+## [2026-06-02T13:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40543068.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T10:57] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40892610.json
+doc_type: pubmed
+status: error: 'str' object has no attribute 'get'
+
+## [2026-06-03T11:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41111360.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-03T11:24] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41183340.json
+doc_type: pubmed
+status: timeout: exceeded 180s
+
+## [2026-06-03T11:28] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41313431.json
+doc_type: pubmed
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-03T12:02] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40353578.json
+doc_type: pubmed
+status: timeout: exceeded 180s
+
+## [2026-06-03T12:08] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40537987.json
+doc_type: pubmed
+status: timeout: exceeded 180s
+
+## [2026-06-03T12:43] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-40441802.json
+doc_type: pubmed
+status: error: 'str' object has no attribute 'get'
+
+## [2026-06-03T12:53] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04847557.json
+doc_type: ctgov
+status: error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again lat
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT04493853.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40544432.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05835310.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40544433.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT05850234.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40550013.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06120491.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40553959.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-05-01/NCT06677060.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40556828.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07215585.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40600452.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07215702.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40613325.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07222917.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40619508.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07276581.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40623630.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07285213.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40629530.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07363642.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40634731.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07427394.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40642833.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07430306.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40649729.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07431281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40665260.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07446855.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40673973.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07520162.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40675357.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07529717.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40685589.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07566195.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40704485.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07571746.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40713699.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07610837.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40730031.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/astrazeneca/2026-06-01/NCT07611110.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40736113.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40746703.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT03588299.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40752805.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT04015180.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40758358.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT04423718.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40804463.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT04435626.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40810985.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT04464226.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40825340.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT04565236.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40835770.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT04597125.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40843773.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT04696055.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40859897.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT04704154.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40886061.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT04722991.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40887719.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT04736199.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40890879.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05030584.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05036278.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40892617.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05042362.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40900607.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05047263.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40933383.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05059236.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40934115.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05098938.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40956259.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05099159.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40960939.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05099172.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40961952.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05147662.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40961953.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05171387.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40962119.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05196035.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40985232.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05348876.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40988099.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05457283.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-40990658.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05511038.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41039116.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05526248.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41045908.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05587296.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41063381.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05686070.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41071055.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05705271.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41093600.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05794906.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05850520.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41117588.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05901831.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41138739.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05915026.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41144928.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05915702.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41147324.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT05915728.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41161683.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT06112756.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41161684.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT06149520.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41161687.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT06195930.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41161770.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT06246643.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41175929.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT06422507.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT06452277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41187971.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT06522997.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41188987.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT06591598.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41212463.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT06760819.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41218611.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT06904274.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41218895.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT06914128.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41272444.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT07023341.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41275083.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT07188805.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41276951.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-04-07/NCT07298044.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41286875.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT03588299.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41290376.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT04464226.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41297885.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT04597125.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT05059236.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41328546.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT05099172.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41334580.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT05196035.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41335431.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT05457283.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41350683.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT05587296.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41359966.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT05794906.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41365841.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT06246643.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41365848.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT06452277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41366934.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT06522997.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41380027.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT06760819.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41392086.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT06904274.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41398448.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT06914128.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41398803.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT07023341.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41419618.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT07188805.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41422027.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT07211685.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41424191.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-05-01/NCT07298044.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41433034.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT03588299.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41451880.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT04597125.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41506923.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT05099172.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41508745.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT05348876.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41513169.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT05457283.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41527269.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT05587296.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41539943.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT05794906.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41553702.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT06246643.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41580006.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT06452277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41582189.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT06760819.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41597327.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT06904274.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41610839.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT06914128.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41618880.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT07023341.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41627802.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT07188805.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41635114.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT07450599.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41644273.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bayer/2026-06-01/NCT07582328.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41645601.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41664890.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT02255422.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41668634.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT02255435.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41702353.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT02259231.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41715123.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT02283853.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41715277.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT02386553.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41765029.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT02657356.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41772149.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT03019185.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41824845.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT03068130.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41850241.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT03070119.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41883191.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT03366337.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-12/abstract-41898482.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT03749447.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-04-27/abstract-42012820.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT03918447.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-04/abstract-41419618.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT03958877.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-04/abstract-41429002.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT04089566.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-04/abstract-41475544.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT04488133.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-04/abstract-41574970.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT04494256.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-04/abstract-41618880.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT04702997.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-04/abstract-41702353.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT04729907.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-04/abstract-41778920.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT04856982.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-04/abstract-41804193.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT04895241.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-04/abstract-41914576.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT04961567.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-04/abstract-42053447.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT05067790.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-04/abstract-42060879.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT05083923.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-04/abstract-42070571.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT05265728.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-18/abstract-41759565.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT05310071.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-05-25/abstract-41098140.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT05348785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-06-01/abstract-41296499.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT05399888.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-06-01/abstract-41692115.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT05531565.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-06-01/abstract-41804851.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT05658484.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-06-01/abstract-41834765.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT05798520.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-06-01/abstract-41862384.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT05895552.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-06-01/abstract-41865758.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT06685757.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-06-01/abstract-41872986.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT06935357.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-06-01/abstract-41877354.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT06953583.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-06-01/abstract-41906858.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT06962800.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-06-01/abstract-42009015.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT07219043.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/semaglutide/2026-06-01/abstract-42060879.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT07221669.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-39800653.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-04-07/NCT07223723.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-39891527.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-05-01/NCT05065970.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-39903735.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-05-01/NCT05531565.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-39911047.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-05-01/NCT06935357.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-39996356.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-05-01/NCT06962800.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40031941.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-05-01/NCT07219043.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40083081.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-05-01/NCT07444476.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40100982.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-06-01/NCT02283853.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40162940.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-06-01/NCT05067790.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40183678.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-06-01/NCT05348785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40184508.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-06-01/NCT06935357.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40186344.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-06-01/NCT06962800.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40203836.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-06-01/NCT07219043.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40212008.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/biogen/2026-06-01/NCT07221669.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40251452.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40318682.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT02667587.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40321113.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT02719613.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40329666.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT02743494.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT02872116.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40365662.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT02913313.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40368575.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT02985957.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40437798.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT02998528.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40471293.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03036098.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40489581.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03110107.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40490415.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03141177.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40510020.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03143153.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03184870.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40550133.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03195478.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40553959.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03215706.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40555748.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03338790.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40556483.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03369223.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40600452.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03377361.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40613325.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03383458.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40619508.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03400332.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40623630.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03446040.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40633089.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03459222.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40633481.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03470922.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40677091.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03656718.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40685589.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03661320.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40685889.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03723655.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40694059.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03873402.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40694530.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03899155.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40701669.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03920267.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40717199.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT03994601.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40746703.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04008030.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40747302.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04025879.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40774158.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04026412.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40804463.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04036435.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40805994.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04039607.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40813122.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04099251.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40858971.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04100018.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40892610.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04149574.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40903131.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04308681.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40903801.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04349072.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40926359.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04349267.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40937960.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04446650.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40954943.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04513522.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40964167.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04567615.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40975112.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04572893.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-40988099.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04623775.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41015578.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04702880.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41017451.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04772079.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41032183.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04810078.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41039116.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04817007.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41063381.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04857034.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41066427.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04877288.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41071055.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04895696.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41100405.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04895709.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41111360.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04908189.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41135142.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT04908202.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41161683.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05002569.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41161687.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05076175.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41167231.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05134948.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41183340.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05136677.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41187013.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05169684.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41187971.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05197426.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41198460.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05255601.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41207615.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05328908.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41264593.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05337137.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41284285.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05369832.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41290555.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05372354.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41297885.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05407675.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41301540.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05413018.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41310711.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05414175.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41313431.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05469737.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41326176.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05470985.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41350683.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05478499.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41359966.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05552976.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41365848.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05556265.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41366934.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05556343.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41391569.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05567458.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41406444.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05577715.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41419618.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05582395.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41424191.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05613088.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41508745.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05617677.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41537305.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05620407.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41539943.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05625399.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41540105.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05664737.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41582189.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05701995.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41612966.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05730725.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41616874.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05827016.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41635114.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05888831.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41664890.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05891249.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41705736.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05946941.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41715123.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT05949684.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41761267.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06003426.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41824845.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06024174.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41833222.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06025578.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41885866.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06035497.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-12/abstract-41912265.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06042920.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-04-27/abstract-42012820.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06045689.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-05-04/abstract-41419618.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06090539.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-05-04/abstract-41725443.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06094296.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-05-04/abstract-41804193.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06101134.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-05-04/abstract-41914576.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06112743.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-05-18/abstract-40899050.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06122779.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-05-25/abstract-41536268.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06140836.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-06-01/abstract-41804851.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06253221.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-06-01/abstract-41862384.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06268886.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-06-01/abstract-41872986.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06297226.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-06-01/abstract-41877354.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06396039.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-06-01/abstract-42009258.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06476834.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/tirzepatide/2026-06-01/abstract-42082865.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06481306.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-39943891.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06561386.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-40040312.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06615479.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-40293658.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06618287.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-40339592.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06646276.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-40349139.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06697197.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06730750.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-40454632.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06855771.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-40466817.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06869551.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-40637410.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06875960.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-40749900.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06882785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-40763319.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06926868.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-40815510.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06929273.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-41062831.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06937229.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-41085054.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06946797.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-41130363.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06951698.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-41160818.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06951711.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-41206886.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06976203.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-41222935.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06976216.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-41239655.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT06979453.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-41268683.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07004972.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-41504632.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07011732.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-04-12/abstract-41620925.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07011745.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-05-04/abstract-41448362.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07015242.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/trastuzumab-deruxtecan/2026-06-01/abstract-41780642.json
+doc_type: pubmed
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07015983.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07063745.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07076121.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07100080.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07106762.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07116967.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07140913.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07160725.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07221149.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07221357.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07221877.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07223047.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07288567.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07291076.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07293351.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07325136.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07361497.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-04-07/NCT07361510.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT02719613.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT03459222.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT03661320.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT03899155.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT04039607.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT04099251.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT04702880.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT04895709.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT04908202.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT05076175.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT05413018.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT05552976.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT05613088.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT05946941.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06025578.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06035497.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06042920.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06090539.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06101134.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06408259.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06561386.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06615479.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06646276.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06855771.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06869551.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06926868.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06929273.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06937229.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06946797.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06947941.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06951698.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06951711.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06976216.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT06979453.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07004972.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07011732.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07011745.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07015983.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07063745.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07076121.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07100080.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07106762.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07116967.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07140913.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07221149.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07221877.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07223047.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07288567.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07291076.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07361497.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-05-01/NCT07361510.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT02231749.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT03899155.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT04817007.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT04895696.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT05076175.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT05949684.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06122779.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06297226.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06561386.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06615479.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06618287.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06646276.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06855771.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06882785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06926868.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06929273.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06937229.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06946797.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06947941.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06976203.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06976216.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT06979453.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07011732.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07011745.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07015983.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07063745.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07100080.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07106762.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07116967.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07140913.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07160725.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07221149.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07221357.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07221877.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07223047.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07288567.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07291076.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07293351.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07325136.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07335562.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07361497.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/bristol-myers-squibb/2026-06-01/NCT07361510.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-04-07/NCT04468659.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-04-07/NCT04572243.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-04-07/NCT04971733.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-04-07/NCT05007392.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-04-07/NCT05091346.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-04-07/NCT05594589.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-04-07/NCT06188559.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-04-07/NCT06602258.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-04-07/NCT06625242.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-04-07/NCT06964113.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-05-01/NCT06964113.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-05-01/NCT07515014.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-06-01/NCT06188559.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-06-01/NCT06625242.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eisai/2026-06-01/NCT07493265.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT02747004.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT02763566.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT03155997.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT03157128.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT03367403.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT03432286.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT03518086.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT03519945.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT03524092.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT03570749.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT03706365.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT03773965.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT03899792.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT03915964.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT03952559.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04086745.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04088396.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04088409.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04145349.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04184622.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04194944.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04232553.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04238819.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04255433.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04280081.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04392154.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04396236.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04396574.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04437511.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04517253.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04527380.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04616326.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04640077.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04647526.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04752332.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04819100.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04844606.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04849416.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04956640.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT04975308.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05026866.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05063539.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05074420.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05169567.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05260021.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05275400.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05288166.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05291689.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05362058.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05369403.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05372419.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05412004.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05433584.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05440786.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05462756.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05463731.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05463744.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05508789.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05509777.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05514054.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05516758.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05536804.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05556512.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05559359.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05564039.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05565742.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05592275.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05611671.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05616013.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05662332.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05691712.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05723198.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05738486.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05767021.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05768139.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05784246.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05803421.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05822830.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05848258.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05855967.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05869903.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05872620.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05882045.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05911841.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05929066.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05929079.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05931367.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05931380.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05936151.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05963022.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05971940.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05986292.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT05999994.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06010004.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06037252.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06045221.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06046729.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06047548.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06074562.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06075667.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06109311.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06119581.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06124807.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06143956.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06176768.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06192108.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06220669.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06226883.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06230523.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06260722.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06280716.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06292013.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06297603.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06338995.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06339008.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06354660.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06370715.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06373146.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06383390.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06413706.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06439277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06444165.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06538116.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06568042.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06584916.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06588283.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06588296.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06598943.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06602219.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06603571.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06635057.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06643728.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06649045.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06653153.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06662383.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06672549.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06672939.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06683508.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06721013.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06739122.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06817356.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06857942.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06859268.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06859294.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06864026.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06876649.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06876662.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06890598.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06897475.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06914895.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06921759.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06937086.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06937099.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06948422.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06948435.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06952530.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06962280.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06972459.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06972472.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT06993792.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07006792.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07030868.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07035093.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07085468.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07142954.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07153471.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07157774.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07162181.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07165028.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07169851.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07174336.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07186101.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07202884.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07213804.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07215312.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07215559.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07218380.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07219173.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07219953.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07219966.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07222137.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07222332.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07223593.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07223840.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07232719.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07241390.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07247084.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07269210.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07282600.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07285018.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07286175.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07321886.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07353931.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07357415.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07369011.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07392190.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07410507.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07412756.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-04-07/NCT07420283.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT03155997.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT03157128.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT03519945.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT03570749.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT03706365.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT03899259.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT03952559.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT04088409.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT04280081.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT04844606.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT05440786.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT05514054.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT05723198.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT05768139.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT05803421.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT05848258.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT05929079.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT05971940.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT05986292.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06119581.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06124807.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06143956.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06220669.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06226883.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06260722.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06292013.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06338995.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06339008.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06383390.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06413706.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06439277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06568042.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06598943.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06662383.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06672549.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06721013.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06739122.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06857942.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06859294.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06890598.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06897475.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06921759.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06937086.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06937099.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06948422.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06948435.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06952530.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06972459.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06972472.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT06993792.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07006792.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07035093.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07153471.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07157774.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07162181.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07165028.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07169851.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07174336.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07186101.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07202884.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07213804.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07215312.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07218341.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07218380.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07219173.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07219953.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07219966.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07222137.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07222332.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07223593.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07223840.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07232719.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07241390.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07247084.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07269210.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07282600.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07286175.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07321886.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07353931.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07357415.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07369011.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07392190.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07410507.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07415044.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07420283.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07438444.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07533006.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-05-01/NCT07533019.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT03524092.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT03773965.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT04145349.json
+doc_type: ctgov
+status: success
+
+## [2026-06-03T13:09] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT04844606.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT04956640.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT05463731.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT05508789.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT05509777.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT05536804.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT05723198.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT05768139.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT05848258.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT05882045.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT05929066.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06119581.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06143956.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06226883.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06292013.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06338995.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06373146.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06413706.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06439277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06588296.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06635057.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06643728.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06672549.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06672939.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06683508.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06721013.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06739122.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06857942.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06890598.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06897475.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06914895.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06937086.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06937099.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06948422.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06948435.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT06952530.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07006792.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07035093.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07142954.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07153471.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07157774.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07165028.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07174336.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07186101.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07202884.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07213804.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07215312.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07215559.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07218341.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07218380.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07219173.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07219953.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07219966.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07222137.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07222332.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07223593.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07223840.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07241390.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07282600.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07286175.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07321886.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07353931.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07357415.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07369011.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07392190.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07410507.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07415044.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07420283.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07438444.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07483073.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07483099.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07533006.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07533019.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07545759.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/eli-lilly/2026-06-01/NCT07545772.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT03105336.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT03301506.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT03391466.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT03547973.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT03852719.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT03964727.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04150068.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04319198.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04454437.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04527991.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04639986.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04827576.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04854499.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04880434.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04891770.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04892446.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04925752.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04958785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04971785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04989803.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT04994509.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05052996.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05089734.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05119907.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05186974.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05281510.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05330429.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05371093.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05382286.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05382299.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05396885.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05459571.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05502237.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05502341.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05537766.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05605899.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05629208.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05633654.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05633667.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05676931.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05729568.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT05840211.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06029972.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06051617.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06060665.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06101329.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06101342.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06104306.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06253663.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06290934.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06333808.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06337032.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06413498.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06486441.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06513312.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06532656.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06544733.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06585150.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06613685.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06630286.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06630299.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06727565.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06749054.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06784973.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06801834.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT06926920.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT07047716.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-04-07/NCT07096193.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT03964727.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT04989803.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT05382299.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT05605899.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT05633654.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT05729568.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT06051617.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT06290934.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT06544733.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT06613685.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT06630286.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT06749054.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT06801834.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-05-01/NCT07096193.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-06-01/NCT03301506.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-06-01/NCT05089734.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-06-01/NCT06051617.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-06-01/NCT06413498.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-06-01/NCT06513312.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-06-01/NCT06630299.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-06-01/NCT06801834.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-06-01/NCT07479797.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gilead/2026-06-01/NCT07546812.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/gsk/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/johnson-and-johnson/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT02861573.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03036488.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03040999.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03062358.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03142334.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03162536.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03176134.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03179436.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03221426.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03407144.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03486873.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03516981.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03598608.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03615326.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03635567.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03675737.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03711032.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03713593.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03715205.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03725059.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03740165.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03742895.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03765918.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03783078.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03797326.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03820986.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03829319.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03829332.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03833167.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03834493.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03834506.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03834519.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03867084.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03884101.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03898180.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03903562.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03909165.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03924856.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03924869.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03924895.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03969901.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03976323.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03976362.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT03976375.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04003103.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04003636.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04029480.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04165070.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04165083.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04165096.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04191096.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04191135.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04193215.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04195750.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04199104.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04220866.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04221945.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04223778.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04223791.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04233879.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04246177.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04303169.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04305041.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04305054.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04338022.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04375800.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04380636.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04428151.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04447755.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04471727.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04489888.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04504916.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04564547.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04583423.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04586231.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04624204.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04624243.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04626479.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04626518.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04634877.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04635423.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04644029.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04662710.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04665037.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04700072.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04700124.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04704219.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04708041.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04716933.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04725188.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04728893.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04732221.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04738487.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04740307.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04767373.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04772534.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04776148.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04776252.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04811092.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04865289.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04875195.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04882241.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04889118.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04895358.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04895722.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04896008.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04924062.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04924075.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04924101.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04934722.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04938817.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04938830.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04945460.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04949256.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT04996797.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05005442.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05007106.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05008224.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05013905.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05027074.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05064059.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05093933.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05116189.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05119855.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05139017.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05144841.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05158140.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05223920.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05224141.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05226598.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05239728.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05239741.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05270668.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05298423.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05319730.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05342636.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05393037.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05446870.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05458297.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05468697.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05507450.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05508867.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05523323.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05526716.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05540327.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05558696.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05559905.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05562830.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05569954.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05587712.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05600309.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05609968.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05612035.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05624554.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05630755.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05631093.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05665595.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05689047.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05696080.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05705349.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05714085.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05722015.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05766501.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05818137.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05845814.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05877547.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05899049.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05933577.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05947851.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05952856.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05952869.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT05974267.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06008756.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06036836.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06041802.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06045507.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06052059.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06074588.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06077760.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06079879.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06099782.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06113328.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06132958.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06136559.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06136624.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06136650.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06161116.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06170788.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06177912.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06212752.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06242691.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06295809.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06305754.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06305767.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06307431.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06312137.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06312176.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06345729.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06351631.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06353386.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06356311.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06393374.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06395103.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06422143.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06428396.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06428409.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06430801.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06445972.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06450366.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06456346.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06459180.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06463587.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06465186.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06469944.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06482112.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06483334.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06492291.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06504394.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06596694.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06623422.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06637423.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06651281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06655883.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06664801.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06667700.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06686394.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06698042.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06717347.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06721156.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06731907.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06780085.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06780098.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06780111.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06780137.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06788912.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06797635.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06814145.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06818643.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06824467.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06833073.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06841354.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06843447.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06863272.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06864169.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06890884.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06891066.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06925737.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06925750.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06941272.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06952504.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06956235.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06961006.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06966700.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06979596.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT06997497.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07013487.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07033494.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07044297.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07049926.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07058077.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07060807.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07071623.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07133633.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07176390.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07190248.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07209111.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07216482.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07216703.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07218029.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07221474.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07222488.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07227402.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07227597.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07232602.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07252739.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07266831.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07286149.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07302347.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07318558.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07340827.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07405164.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07419295.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-04-07/NCT07431827.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT03055338.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT03401788.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT03486873.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT03867084.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT03903562.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04123366.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04191096.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04241185.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04246177.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04305054.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04375800.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04624243.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04662710.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04728893.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04811092.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04924062.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04924075.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04938817.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT04945460.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT05013905.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT05139017.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT05239741.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT05540327.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT05562830.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT05587712.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT05612035.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT05714085.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06008756.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06074588.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06077760.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06079879.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06099782.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06132958.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06136559.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06136624.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06136650.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06170788.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06305754.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06312137.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06312176.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06345729.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06351631.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06353386.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06393374.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06395103.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06422143.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06428396.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06430801.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06445972.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06456346.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06459180.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06463587.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06469944.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06596694.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06623422.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06655883.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06667700.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06698042.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06717347.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06780098.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06780137.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06814145.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06824467.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06833073.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06841354.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06863272.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06864169.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06890884.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06925737.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06941272.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06952504.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06961006.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06966700.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06979596.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT06997497.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07013487.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07033494.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07044297.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07058077.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07060807.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07133633.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07176390.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07190248.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07209111.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07216482.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07216703.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07218029.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07221474.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07222488.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07227402.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07227597.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07232602.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07252739.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07266831.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07286149.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07302347.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07318558.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07405151.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07405164.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07419295.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07431827.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07463183.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07486960.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07489495.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-05-01/NCT07499362.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT02332668.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT03486873.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT03740165.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT03742895.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT03765918.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT03797326.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT03924856.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT03962543.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04165070.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04165096.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04195750.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04199104.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04210115.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04246177.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04254978.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04305054.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04380636.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04586231.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04624204.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04626479.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04626518.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04652700.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04663321.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04728893.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04736706.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04896008.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04924075.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04938817.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT04938830.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05064059.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05139017.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05144841.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05173987.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05239728.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05239741.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05270525.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05270668.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05319730.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05458297.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05558696.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05562830.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05714085.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT05947851.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06074588.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06077760.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06079879.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06136559.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06136624.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06136650.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06170788.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06295809.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06305754.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06312137.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06312176.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06345729.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06353386.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06393374.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06395103.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06422143.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06428396.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06430801.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06445972.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06456346.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06459180.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06463587.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06469944.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06559150.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06623422.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06651281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06655883.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06667700.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06686394.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06717347.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06731907.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06780085.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06780098.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06788912.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06797635.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06814145.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06818643.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06824467.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06833073.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06841354.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06843447.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06863272.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06890884.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06925737.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06941272.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06952504.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06966700.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06979596.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT06997497.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07013487.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07016412.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07033494.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07044297.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07049926.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07058077.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07060807.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07071623.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07133633.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07159763.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07170644.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07176390.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07176689.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07190248.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07209111.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07216482.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07216703.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07218029.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07221474.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07227402.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07227597.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07252739.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07266831.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07286149.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07302347.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07318558.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07405164.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07419295.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07431827.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07463183.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07486960.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07489495.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07499362.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07513376.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07519772.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/merck/2026-06-01/NCT07570173.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT02445222.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT02534909.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT02584933.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT02892344.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT02934568.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT02961218.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT02962414.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT02967692.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03040973.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03056755.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03106779.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03215758.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03217422.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03226392.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03306277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03340506.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03369704.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03374657.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03437278.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03461289.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03474965.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03491215.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03505099.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03551626.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03568461.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03570892.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03578367.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03591510.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03631199.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03650114.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03650400.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03656562.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03663335.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03668613.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03671330.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03701334.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03769168.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03774082.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03781414.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03785405.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03814746.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03822468.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03827798.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03837184.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03867201.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03874858.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03876769.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03906136.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03938454.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03945318.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03946670.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03955445.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03960840.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03975829.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT03988608.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04023227.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04023552.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04042025.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04064242.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04066244.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04094311.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04097379.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04097821.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04104776.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04129528.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04150029.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04164732.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04179175.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04181762.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04208178.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04209205.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04230148.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04251533.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04266301.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04278417.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04300309.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04328727.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04346654.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04353492.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04390763.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04396366.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04417621.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04427072.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04452877.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04480853.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04486716.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04491136.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04516369.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04524000.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04541589.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04544189.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04557462.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04573920.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04578834.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04589650.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04603495.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04623216.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04632927.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04638647.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04641442.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04652726.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04657822.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04659863.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04662931.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04666259.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04667949.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04675931.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04677595.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04679935.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04689828.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04699188.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04717635.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04720157.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04729387.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04732117.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04765657.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04774926.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04788615.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04795427.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04795466.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04797000.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04812548.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04814368.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04817618.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04828161.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04838613.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04838626.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04864392.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04869358.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04873934.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04877522.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04878211.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04878432.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04886258.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04889430.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04925479.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04926818.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04926831.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04929249.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04930094.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04939610.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04940052.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04948333.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04971226.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04980833.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT04984876.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05030311.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05030428.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05032157.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05038735.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05048342.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05084638.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05086744.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05089656.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05090371.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05110196.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05111249.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05114746.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05124925.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05126277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05132075.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05135000.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05142696.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05147220.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05156281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05161195.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05172596.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05192941.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05199571.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05201066.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05222529.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05230537.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05232864.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05252585.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05268289.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05335876.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05349214.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05350072.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05358249.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05360446.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05380453.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05384587.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05386680.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05415072.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05432388.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05445843.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05447663.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05454410.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05456191.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05462990.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05497284.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05507437.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05513001.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05524051.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05562466.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05562934.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05569174.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05592990.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05622708.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05624749.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05630001.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05631795.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05639114.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05646381.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05648968.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05653219.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05653349.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05658003.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05666804.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05670106.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05677451.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05678959.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05682378.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05722522.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05739383.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05750628.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05755386.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05758415.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05763875.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05764265.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05767034.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05795140.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05795153.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05798117.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05803941.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05816395.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05827081.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05834738.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05842954.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05849298.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05852938.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05853458.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05885555.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05888103.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05888493.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05900141.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05935215.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05939414.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05948943.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05959304.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05976243.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05983198.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05985915.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT05996835.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06004661.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06006559.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06031844.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06042478.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06097663.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06133972.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06142383.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06149104.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06236061.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06240741.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06247995.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06254482.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06267560.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06293365.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06331312.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06372925.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06386419.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06388941.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06401356.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06427811.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06431763.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06439082.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06444113.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06462469.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06470048.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06501443.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06514534.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06517758.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06546670.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06581198.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06597006.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06597019.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06617793.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06632600.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06643481.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06649110.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06655896.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06665256.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06675864.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06704269.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06711887.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06726148.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06733922.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06744920.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06780670.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06784752.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06797518.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06799000.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06813911.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06824103.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06840392.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06846281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06855277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06857955.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06858319.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06865651.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06868212.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06868290.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06869785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06875973.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06894511.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06910813.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06934967.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06941792.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06947993.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06991556.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06994845.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT06997588.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07034690.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T19:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07039422.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07047118.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07048197.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07094516.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07102628.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07146906.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07190300.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07203001.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07206056.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07217067.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07220577.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07225504.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07226986.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07235020.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07235033.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07235046.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07249463.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07288359.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07326709.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07431177.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07441642.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-04-07/NCT07467993.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT01682083.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT02934568.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT03275064.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT03340506.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT03440736.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT03570892.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT03578367.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT03591510.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT03814746.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT03876769.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT03945318.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT03955445.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT03960840.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04094311.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04251533.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04353492.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04524000.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04589650.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04657822.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04675931.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04732117.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04737330.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04747613.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04817618.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04925479.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04926818.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04939610.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05030428.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05038735.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05110196.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05132075.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05192941.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05268289.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05358249.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05360446.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05445843.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05631795.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05646381.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05653349.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05677451.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05739383.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05755386.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05827081.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05849298.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05853458.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05885555.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05888493.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05935215.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05939414.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05948943.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05959304.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05983198.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05985915.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT05996835.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06031844.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06097663.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06267560.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06331312.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06372925.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06386419.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06388941.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06427811.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06444113.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06514534.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06546670.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06643481.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06649110.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06726148.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06744920.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06780670.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06784752.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06797518.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06813911.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06846281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06857955.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06869785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06875973.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06894511.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06910813.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06934967.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06991556.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT06997588.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07039422.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07047118.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07102628.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07146906.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07190300.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07203001.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07206056.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07217067.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07220577.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07225504.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07226986.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07235046.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07249463.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07326709.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07354074.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07357727.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07431177.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07441642.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT07517263.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT03570892.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT03650114.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT03656562.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT03814746.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT03905525.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT03975829.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04023227.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04023552.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04230148.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04251533.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04480853.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04546633.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04557462.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04641442.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04720157.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04722666.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04747613.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04877522.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04889430.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04926818.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04935359.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT04940052.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05030428.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05067140.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05090371.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05114746.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05126277.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05142696.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05147220.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05156281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05350072.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05445843.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05456191.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05562466.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05648968.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05653219.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05677451.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05682378.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05795140.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05827081.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05849298.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05939414.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05948943.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT05996835.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06247995.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06267560.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06293365.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06386419.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06388941.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06439082.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06444113.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06517758.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06546670.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06597019.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06617793.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06643481.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06655896.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06665256.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06733922.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06744920.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06780670.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06799000.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06813911.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06824103.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06846281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06858319.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06865651.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06868290.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06869785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06875973.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06910813.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT06941792.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07034690.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07039422.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07048197.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07094516.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07146906.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07190300.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07206056.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07217067.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07220577.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07225504.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07226986.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07235033.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07288359.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07326709.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07354074.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07357727.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07421167.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07431177.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07441642.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07456891.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07467993.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07498426.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07517263.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-06-01/NCT07564401.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04082429.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04083781.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04102189.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04204408.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04251156.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04460885.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04560998.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04580420.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04588259.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04596631.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04707469.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04760626.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04770532.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04775082.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04777396.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04777409.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04788511.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04822181.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04848480.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04865770.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04880850.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04916470.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04969939.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04970654.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04982575.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04992065.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT04998136.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05001269.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05013229.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05016882.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05021835.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05035082.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05035095.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05040971.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05053139.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05064735.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05082116.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05132088.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05135559.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05144984.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05259033.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05306418.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05330325.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05352815.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05365217.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05394519.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05405114.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05442047.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05478252.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05486065.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05514535.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05533632.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05564117.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05567796.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05579249.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05636176.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05646706.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05649137.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05669755.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05685238.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05723835.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05725902.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05726227.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05813912.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05813925.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05823948.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05878938.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05890976.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05891496.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT05996848.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06041217.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06064006.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06065540.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06118281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06131372.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06131437.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06200207.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06221969.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06260709.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06269107.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06323161.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06323174.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06326047.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06326060.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06340854.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06388187.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06409130.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06534411.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06542874.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06571383.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06609226.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06612268.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06717698.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06780449.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06797869.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06979362.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT06979375.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07011667.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07076199.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07112339.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07157423.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07184632.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07207811.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07220642.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07220759.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07253285.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07271251.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07301034.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07339423.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-04-07/NCT07395687.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT04764448.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT04777396.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT04822181.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05001269.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05021835.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05144984.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05330325.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05646706.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05649137.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05685238.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05725902.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05726227.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05813912.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT05823948.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06118281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06131372.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06200207.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06221969.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06269107.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06323174.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06326060.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06340854.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06534411.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT06612268.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT07076199.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT07112339.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT07184632.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT07207811.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT07220642.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT07220759.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT07253285.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT07339423.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT07395687.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT07481630.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-05-01/NCT07533175.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT04626505.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT04775082.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT05035095.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT05514535.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT05567796.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT05669755.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT06041217.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT06269107.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT06388187.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT06534411.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT07184632.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT07207811.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT07339423.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT07415954.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT07481630.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT07503210.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT07509307.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT07533175.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT07564414.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT07571005.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novo-nordisk/2026-06-01/NCT07571109.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03052608.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03061201.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03258502.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03307980.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03395197.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03422822.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03485209.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03519178.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03573882.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03587116.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03765073.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03786081.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03861273.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03909971.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03915951.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03938792.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03950232.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03975647.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04006457.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04165317.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04173273.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04181788.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04188509.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04218084.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04281485.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04362072.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04370054.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04404283.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04430738.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04517864.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04539938.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04553133.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04557449.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04569032.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04579380.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04585815.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04606446.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04607421.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04607837.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04609566.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04624230.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04649242.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04649359.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04657991.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04697381.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04697628.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04721977.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04743141.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04801420.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04821310.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04821622.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04879329.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04935879.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT04960202.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05014412.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05020236.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05035212.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05059522.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05070845.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05090566.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05132582.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05144997.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05145127.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05156398.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05160922.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05203172.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05207865.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05217446.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05217927.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05226871.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05228470.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05253651.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05261139.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05287126.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05295290.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05317416.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05348915.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05399485.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05429372.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05431088.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05477524.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05492500.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05509400.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05512819.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05518123.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05540522.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05546476.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05548127.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05561140.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05568719.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05573555.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05583526.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05611801.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05623020.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05626322.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05630976.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05632354.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05634811.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05639647.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05654623.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05687032.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05689164.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05703607.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05732454.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05748171.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05805826.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05810038.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05842967.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05879718.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05895786.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05896163.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05909397.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05911295.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05926960.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05989048.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT05995964.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06003231.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06012435.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06057402.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06072183.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06079320.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06105632.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06116591.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06125522.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06137742.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06152575.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06157892.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06163326.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06182124.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06206837.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06237049.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06325657.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06436703.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06462235.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06465368.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06473519.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06524414.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06531538.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06551324.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06593587.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06616194.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06629779.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06641466.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06679140.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06698796.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06712836.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06717425.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06758401.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06760637.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06807268.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06807281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06857617.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06866405.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06873945.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06890416.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06897202.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06924320.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06952660.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06966453.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06973720.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06977581.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06989437.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT06991257.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07013474.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07022977.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07028853.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07029711.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07029828.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07062965.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07073820.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07144280.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07160244.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07216027.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07219615.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07222566.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07222800.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07226882.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07226999.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07227012.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07227298.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07227415.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07228390.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07282665.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07311850.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07363694.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07400653.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT07431853.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT03307980.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT03395197.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT03485209.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT03786081.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT03861273.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT03950232.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT04006457.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT04181788.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT04404283.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT04440176.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT04553133.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT04606446.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT04649242.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT04657991.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT04743141.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT04821310.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT04821622.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT04879329.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05059522.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05070845.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05090566.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05132582.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05145127.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05156398.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05203172.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05217446.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05253651.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05317416.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05509400.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05568719.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05623020.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05639647.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05748171.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05805826.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05895786.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT05911295.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06003231.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06057402.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06137742.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06152575.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06163326.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06462235.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06524414.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06551324.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06616194.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06629779.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06641466.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06679140.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06698796.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06712836.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06758401.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06807268.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06807281.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06866405.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06897202.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06952660.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06966453.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06973720.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06989437.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT06991257.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07013474.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07028853.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07029828.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07062965.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07073820.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07144280.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07160244.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07219615.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07222566.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07222800.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07226882.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07226999.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07227012.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07227298.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07227415.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07228390.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07282665.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07311850.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07392892.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07400653.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07421700.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-05-01/NCT07476287.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT03307980.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT03861273.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT03950232.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT04370054.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT04553133.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT04649242.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT04649359.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT04743141.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT04801420.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05020236.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05070845.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05156398.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05287126.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05295290.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05477524.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05518123.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05568719.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05611801.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05623020.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05630976.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05634811.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05639647.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05703607.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05748171.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05895786.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05896163.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05989048.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT05995964.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06012435.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06057402.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06125522.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06137742.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06152575.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06157892.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06462235.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06551324.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06616194.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06629779.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06641466.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06679140.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06698796.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06712836.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06760637.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06807268.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06866405.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06873945.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06897202.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06973720.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06977581.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06989437.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT06991257.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07013474.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07028853.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07062965.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07073820.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07160244.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07216027.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07222566.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07226882.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07227415.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07282665.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07311850.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07400653.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07431853.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07470879.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07500506.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07573462.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT03916627.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT03969004.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT03972657.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04077099.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04083534.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04154943.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04159415.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04206553.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04209634.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04394351.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04429503.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04590326.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04626635.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04633278.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04646005.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04695977.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04698187.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04811716.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04852978.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04888507.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04916002.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT04992273.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05070858.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05074433.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05081388.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05088460.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05092347.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05125016.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05131204.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05133531.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05352672.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05353166.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05394116.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05519475.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05557591.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05590585.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05608291.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05618808.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05730036.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05744921.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05785767.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05788536.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05800015.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05828511.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05831176.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05955508.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT05989126.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06091254.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06091865.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06097364.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06140524.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06149286.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06161441.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06190951.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06230224.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06237309.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06246916.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06292780.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06299098.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06299111.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06351592.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06379789.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06413680.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06421636.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06454630.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06465329.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06491914.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06541704.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06548100.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06572228.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06585410.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06593600.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06602726.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06602739.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06608901.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06669247.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06769698.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06787612.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT06833190.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07015905.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07112378.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07142343.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07154290.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07154745.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07175428.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07187401.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07213778.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07218770.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07220772.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07220785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07222761.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07235917.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07271186.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07309432.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07410117.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-04-07/NCT07431086.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT03409614.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT03761108.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT03916627.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT04626635.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT05092347.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT05133531.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT05352672.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT05519475.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT05648214.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT05955508.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06140524.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06149286.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06230224.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06292780.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06299111.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06379789.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06413680.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06541704.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06548100.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06572228.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06585410.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06602739.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06669247.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06787612.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT06836609.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07015905.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07112378.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07142343.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07154745.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07175428.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07213778.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07218770.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07220785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07222761.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07235917.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07271186.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07318597.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07410117.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07430956.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07431086.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-05-01/NCT07455851.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT02612454.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT03409614.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT03564340.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT04083534.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT05125016.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT05519475.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT05557591.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT05590585.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT05788536.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT05828511.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT05989126.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06091254.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06091865.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06149286.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06161441.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06230224.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06246916.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06299098.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06379789.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06454630.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06541704.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06572228.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06593600.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06602726.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06608901.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06769698.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT06787612.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07015905.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07112378.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07154290.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07154745.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07175428.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07213778.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07220785.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07222761.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07235917.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07271186.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07318597.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07318610.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07410117.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07430956.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/regeneron/2026-06-01/NCT07493304.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/.keep
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT02242942.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT02286089.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT02320435.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT02486718.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT02568267.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT02650401.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT02838420.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT02908672.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03032172.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03037385.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03072238.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03075696.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03100149.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03148418.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03157635.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03178552.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03193190.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03194893.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03274492.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03280563.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03281369.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03315455.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03337698.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03371017.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03424005.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03456063.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03456076.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03498521.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03523858.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03533283.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03599245.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03622580.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03622593.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03677154.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03683251.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03735121.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03768063.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03779334.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03823287.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03823300.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03869190.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT03969212.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04024462.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04035005.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04075266.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04077723.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04090411.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04102098.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04108156.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04140500.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04148911.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04158648.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04182204.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04191499.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04221477.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04222972.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04225715.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04246086.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04256421.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04285567.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04294810.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04300647.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04338269.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04408638.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04431726.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04432584.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04432831.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04434092.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04471428.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04487067.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04503551.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04513925.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04524871.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04540211.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04543617.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04544436.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04544449.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04546009.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04548999.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04567303.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04576455.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04586010.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04586023.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04589845.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04603807.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04619797.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04629248.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04639050.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04654468.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04657289.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04660344.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04661150.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04665843.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04665856.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04712097.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04712643.json
+doc_type: ctgov
+status: success
+
+## [2026-06-07T20:03] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04732286.json
+doc_type: ctgov
+status: success
+
+## [2026-06-08T14:02] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT03975829.json
+doc_type: ctgov
+status: success
+
+## [2026-06-08T14:02] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/10Q/2025-Q2-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-08T14:02] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8k/2026-01-12-8K--26-002691.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-08T14:02] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/apixaban/2026-06-08/abstract-40844745.json
+doc_type: pubmed
+status: success
+
+## [2026-06-08T14:02] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04023552.json
+doc_type: ctgov
+status: success
+
+## [2026-06-08T14:02] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/10Q/2025-Q3-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-08T14:02] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8k/2026-01-30-8K--26-000004.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-08T14:02] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/apixaban/2026-06-08/abstract-41741942.json
+doc_type: pubmed
+status: success
+
+## [2026-06-08T14:02] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04230148.json
+doc_type: ctgov
+status: success
+
+## [2026-06-08T14:02] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/10Q/2025-Q1-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-08T14:02] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8k/2025-10-06-8K--25-096921.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-12T15:07] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04480853.json
+doc_type: ctgov
+status: success
+
+## [2026-06-12T15:07] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/10Q/2026-Q1-10Q.txt
+doc_type: edgar_10q
+status: success
+
+## [2026-06-12T15:07] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/regeneron/8k/2025-06-18-8K--25-060637.txt
+doc_type: edgar_8k
+status: success
+
+## [2026-06-12T15:07] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/atezolizumab/2026-06-08/abstract-41999612.json
+doc_type: pubmed
+status: success
+
+## [2026-06-12T15:07] ingest | /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/novartis/2026-05-01/NCT04889430.json
+doc_type: ctgov
+status: success
+
+## [2026-06-12T15:07] lint | weekly pass
+pages_checked: 1520
+structural_issues: 0
+semantic_issues: 8
+status: success

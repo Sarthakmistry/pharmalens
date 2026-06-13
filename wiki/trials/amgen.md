@@ -1,4 +1,5 @@
 ---
+---
 # Amgen Clinical Trials
 
 ## Summary of Trials
@@ -25,7 +26,7 @@
 | [[NCT04303780]] | A Study of AMG 510 in Combination With Docetaxel in Participants With KRAS G12C-Mutated Advanced Non-Small Cell Lung Cancer | 3 | Active | 2022-08-02 | Yes |
 | [[NCT04506086]] | A Study to Evaluate the Feasibility of a Wearable Health Monitoring System in Patients With B-Cell Acute Lymphoblastic Leukemia Receiving Blinatumomab | 4 | Terminated | 2024-07-04 | Yes |
 | [[NCT04511702]] | A Study to Evaluate the Efficacy and Safety of Pegloticase With Methotrexate in Participants With Uncontrolled Gout | 4 | Completed | 2024-01-18 | Yes |
-| [[NCT04521231]] | A Study of Blinatumomab in Combination With a PD-1 Inhibitor in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia | 1/2 | Recruiting | 2027-11-24 | No |
+| [[NCT04521231]] | A Study of Blinatumomab in Combination With a PD-1 Inhibitor in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia | 1/2 | Active | 2027-11-24 | No |
 | [[NCT04524273]] | A Study to Evaluate the Efficacy and Safety of Inebilizumab in Participants With Neuromyelitis Optica Spectrum Disorder | 3 | Active | 2024-05-28 | True |
 | [[NCT04528082]] | A Study to Evaluate the Efficacy and Safety of Apremilast in Participants With Psoriatic Arthritis | 3 | Recruiting | 2030-02-07 | No |
 | [[NCT04540497]] | A Study to Evaluate the Efficacy and Safety of Inebilizumab in Participants With Neuromyelitis Optica Spectrum Disorder | 3 | Active | 2024-04-09 | True |
@@ -37,19 +38,19 @@
 | [[NCT04833855]] | A Study to Evaluate the Efficacy and Safety of Tezepelumab in Participants With Asthma | 2 | Completed | 2022-12-20 | Yes |
 | [[NCT04933695]] | A Study of Sotorasib in Participants With KRAS G12C-Mutated Advanced Non-Small Cell Lung Cancer | 2 | Completed | 2025-05-27 | No |
 | [[NCT04987307]] | A Study to Evaluate the Efficacy and Safety of Efavaleukin Alfa in Participants With Systemic Lupus Erythematous | 2 | Terminated | 2024-10-22 | Yes |
-| [[NCT04994717]] | A Study of Blinatumomab in Combination With a Low-Intensity Chemotherapy Regimen or a Standard of Care Chemotherapy Regimen in Participants With Relapsed/Refractory B-Cell Precursor Acute Lymphoblastic Leukemia | 3 | Recruiting | 2029-09-07 | No |
+| [[NCT04994717]] | A Study of Blinatumomab in Combination With a Low-Intensity Chemotherapy Regimen or a Standard of Care Chemotherapy Regimen in Participants With Relapsed/Refractory B-Cell Precursor Acute Lymphoblastic Leukemia | 3 | Active | 2029-09-07 | No |
 | [[NCT05002998]] | A Study to Evaluate the Efficacy and Safety of Teprotumumab in Participants With Thyroid Eye Disease | 4 | Completed | 2025-12-19 | No |
 | [[NCT05032066]] | A Study to Evaluate the Efficacy and Safety of HZN-825 in Participants With Pulmonary Fibrosis | 2 | Terminated | 2024-07-22 | Yes |
 | [[NCT05052801]] | A Study of Bemarituzumab in Combination With mFOLFOX6 in Participants With Gastric or Gastroesophageal Junction Adenocarcinoma | 3 | Active | 2025-06-20 | No |
 | [[NCT05060016]] | A Study of Tarlatamab in Participants With Extensive-Stage Small Cell Lung Cancer | 2 | Active | 2026-12-30 | No |
-| [[NCT05094336]] | A Study of Anvumetostat in Combination With Docetaxel in Participants With Advanced Solid Tumors | 1/2 | Active | 2026-05-27 | No |
+| [[NCT05094336]] | A Study of Anvumetostat in Combination With Docetaxel in Participants With Advanced Solid Tumors | 1/2 | Active | 2026-11-30 | No |
 | [[NCT05111626]] | A Study of Nivolumab in Combination With Bemarituzumab and Chemotherapy in Participants With Gastric or Gastroesophageal Junction Adenocarcinoma | 3 | Active | 2025-10-14 | No |
 | [[NCT05174065]] | A Study to Evaluate the Efficacy and Safety of Apremilast in Participants With Psoriatic Arthritis | 3 | Completed | 2023-08-19 | Yes |
 | [[NCT05198934]] | A Study of Sotorasib in Combination With Panitumumab in Participants With KRAS G12C-Mutated Advanced Colorectal Cancer | 3 | Completed | 2025-07-16 | No |
 | [[NCT05284747]] | A Study to Evaluate the Efficacy and Safety of Evolocumab in Participants With Established Cardiovascular Disease | 4 | Active | 2027-05-29 | No |
 | [[NCT05322577]] | A Study of Nivolumab in Combination With Bemarituzumab and Chemotherapy (Capox or Sox) in Participants With Gastric or Gastroesophageal Junction Adenocarcinoma | 1/2 | Active | 2025-11-21 | No |
 | [[NCT05325866]] | A Study of Bemarituzumab in Participants With Gastric or Gastroesophageal Junction Adenocarcinoma | 1/2 | Completed | 2026-01-28 | No |
-| [[NCT05361395]] | A Study of Tarlatamab in Combination With a PD-L1 Inhibitor as Maintenance Therapy in Participants With Extensive-Stage Small-Cell Lung Cancer | 1b | Completed | 2024-12-31 | Yes |
+| [[NCT05361395]] | A Study of Tarlatamab in Combination With a PD-L1 Inhibitor as Maintenance Therapy in Participants With Extensive-Stage Small-Cell Lung Cancer | 1b | Completed | 2024-12-31 | True |
 | [[NCT05398445]] | A Study to Evaluate the Efficacy and Safety of Rocatinlimab in Participants With Moderate to Severe Atopic Dermatitis | 3 | Completed | 2024-11-28 | No |
 | [[NCT05549258]] | A Study to Evaluate the Efficacy and Safety of Inebilizumab in Participants With Myasthenia Gravis | 2 | Recruiting | 2027-04-13 | No |
 | [[NCT05565560]] | A Study to Evaluate the Efficacy and Safety of Apremilast in Participants With Psoriatic Arthritis | 3 | Active | 2025-11-20 | No |
@@ -64,7 +65,7 @@
 | [[NCT05724199]] | A Study to Evaluate the Efficacy and Safety of Rocatinlimab in Participants With Moderate to Severe Atopic Dermatitis | 3 | Completed | 2024-09-15 | No |
 | [[NCT05740566]] | A Study of Tarlatamab in Combination With Lurbinectedin or Topotecan or Amrubicin in Participants With Extensive-Stage Small Cell Lung Cancer | 3 | Active | 2025-01-29 | True |
 | [[NCT05767047]] | A Study to Evaluate the Efficacy and Safety of Apremilast in Participants With Psoriatic Arthritis | 3 | Recruiting | 2036-03-17 | No |
-| [[NCT05882877]] | A Study to Evaluate the Efficacy and Safety of Rocatinlimab in Participants With Moderate to Severe Atopic Dermatitis | 3 | Active | 2027-06-30 | No |
+| [[NCT05882877]] | A Study to Evaluate the Efficacy and Safety of Rocatinlimab in Participants With Moderate to Severe Atopic Dermatitis | 3 | Active | 2026-06-22 | No |
 | [[NCT05899816]] | A Study to Evaluate the Efficacy and Safety of Rocatinlimab in Participants With Moderate to Severe Atopic Dermatitis | 3 | Completed | 2024-08-26 | No |
 | [[NCT05907122]] | A Study to Evaluate the Efficacy and Safety of ABP 206 Compared With EU-Authorized Nivolumab in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer | 3 | Completed | 2025-03-26 | No |
 | [[NCT05920356]] | A Study of Pembrolizumab in Combination With Sotorasib in Participants With KRAS G12C-Mutated Advanced Non-Small Cell Lung Cancer | 3 | Recruiting | 2027-06-30 | No |
@@ -84,7 +85,7 @@
 | [[NCT06245408]] | A Study to Evaluate the Efficacy and Safety of Dazodalibep in Participants With Systemic Lupus Erythematosus | 3 | Active | 2026-10-22 | No |
 | [[NCT06248619]] | A Study to Evaluate the Efficacy and Safety of Teprotumumab in Participants With Thyroid Eye Disease | 3 | Active | 2026-01-14 | No |
 | [[NCT06252649]] | A Study of Sotorasib in Combination With Panitumumab and FOLFIRI or Bevacizumab and FOLFIRI in Participants With KRAS G12C-Mutated Advanced Colorectal Cancer | 3 | Recruiting | 2028-01-31 | No |
-| [[NCT06311721]] | A Study to Evaluate the Efficacy and Safety of ABP 234 Compared With Pembrolizumab in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer | 3 | Active | 2028-02-14 | No |
+| [[NCT06311721]] | A Study to Evaluate the Efficacy and Safety of ABP 234 Compared With Pembrolizumab in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer | 3 | Active | 2028-01-10 | No |
 | [[NCT06312020]] | A Study to Evaluate the Efficacy and Safety of HZN-1116 in Participants With Systemic Lupus Erythematosus | 2 | Active | 2026-03-19 | No |
 | [[NCT06321601]] | A Study to Evaluate the Efficacy and Safety of Avacopan in Participants With ANCA-Associated Vasculitis | 3 | Recruiting | 2028-09-26 | No |
 | [[NCT06332014]] | A Study to Evaluate the Efficacy and Safety of Prolia in Participants With Osteoporosis | 4 | Active | 2027-01-23 | No |
@@ -92,12 +93,12 @@
 | [[NCT06401044]] | A Study of AMG 732 in Participants With Advanced Solid Tumors | 1/2 | Recruiting | 2027-02-22 | No |
 | [[NCT06430866]] | A Study to Evaluate the Efficacy and Safety of ABP 234 Compared With Pembrolizumab in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer | 3 | Active | 2026-12-14 | No |
 | [[NCT06502977]] | A Study of Tarlatamab in Participants With Extensive-Stage Small Cell Lung Cancer | 2 | Active | 2025-03-28 | True |
-| [[NCT06527404]] | A Study to Evaluate the Efficacy and Safety of Rocatinlimab in Participants With Moderate to Severe Atopic Dermatitis | 3 | Active | 2026-10-28 | No |
-| [[NCT06570798]] | A Study of Inebilizumab in Combination With Blinatumomab in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia | 2 | Recruiting | 2028-01-17 | No |
-| [[NCT06588153]] | A Study to Evaluate the Efficacy and Safety of Prolia in Participants With Osteoporosis | 4 | Recruiting | 2027-05-24 | No |
-| [[NCT06593522]] | A Study of AMG 193 in Participants With MTAP-Deleted Non-Small Cell Lung Cancer | 2 | Recruiting | 2028-11-29 | No |
+| [[NCT06527404]] | A Study to Evaluate the Efficacy and Safety of Rocatinlimab in Participants With Moderate to Severe Atopic Dermatitis | 3 | Active | 2026-04-17 | No |
+| [[NCT06570798]] | A Study of Inebilizumab in Combination With Blinatumomab in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia | 2 | Recruiting | 2028-07-21 | No |
+| [[NCT06588153]] | A Study to Evaluate the Efficacy and Safety of Prolia in Participants With Osteoporosis | 4 | Active | 2027-04-27 | No |
+| [[NCT06593522]] | A Study of AMG 193 in Participants With MTAP-Deleted Non-Small Cell Lung Cancer | 2 | Active | 2026-10-31 | No |
 | [[NCT06660173]] | A Study to Evaluate the Efficacy and Safety of Maridebart Cafraglutide in Participants With Type 2 Diabetes Mellitus | 2 | Active | 2025-10-06 | No |
-| [[NCT06691984]] | A Study of Xaluritamig in Combination With Abiraterone or Enzalutamide or Cabazitaxel in Participants With Metastatic Castration-Resistant Prostate Cancer | 3 | Recruiting | 2029-01-02 | No |
+| [[NCT06691984]] | A Study of Xaluritamig in Combination With Abiraterone or Enzalutamide or Cabazitaxel in Participants With Metastatic Castration-Resistant Prostate Cancer | 3 | Active | 2029-01-02 | No |
 | [[NCT06700343]] | A Study to Evaluate the Efficacy and Safety of ABP 692 Compared With Ocrelizumab in Participants With Multiple Sclerosis | 3 | Recruiting | 2027-01-15 | No |
 | [[NCT06745323]] | A Study of Tarlatamab in Participants With Extensive-Stage Small Cell Lung Cancer | 2 | Active | 2029-02-09 | No |
 | [[NCT06747949]] | A Study to Evaluate the Efficacy and Safety of Dazodalibep in Participants With Systemic Lupus Erythematosus | 3 | Recruiting | 2029-12-11 | No |
@@ -108,7 +109,7 @@
 | [[NCT07005128]] | A Study of Tarlatamab in Combination With Carboplatin and Etoposide and Durvalumab in Participants With Extensive-Stage Small Cell Lung Cancer | 3 | Recruiting | 2029-01-04 | No |
 | [[NCT07037433]] | A Study to Evaluate the Efficacy and Safety of Maridebart Cafraglutide in Participants With Obesity | 3 | Recruiting | 2028-06-30 | No |
 | [[NCT07037459]] | A Study to Evaluate the Efficacy and Safety of Maridebart Cafraglutide in Participants With Heart Failure and Obesity | 3 | Recruiting | 2028-06-30 | No |
-| [[NCT07134088]] | A Study of Blinatumomab in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia | 1/2 | Recruiting | 2028-12-05 | No |
+| [[NCT07134088]] | A Study of Blinatumomab in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia | 1/2 | Active | 2028-12-05 | No |
 | [[NCT07136012]] | A Study to Evaluate the Efficacy and Safety of Olpasiran in Participants With Atherosclerotic Cardiovascular Disease | 3 | Recruiting | 2031-10-20 | No |
 | [[NCT07172919]] | A Study of Sotorasib in Combination With Panitumumab in Participants With KRAS G12C-Mutated Advanced Colorectal Cancer | 2 | Recruiting | 2028-01-02 | No |
 | [[NCT07213674]] | A Study of Xaluritamig in Combination With Abiraterone Acetate or Docetaxel or Cabazitaxel in Participants With Metastatic Castration-Resistant Prostate Cancer | 3 | Recruiting | 2030-01-07 | No |
@@ -116,6 +117,7 @@
 | [[NCT07226765]] | A Study to Evaluate the Efficacy and Safety of Maridebart Cafraglutide in Participants With Type 2 Diabetes Mellitus | 3 | Recruiting | 2027-09-29 | No |
 | [[NCT07293260]] | A Study to Evaluate the Efficacy and Safety of Olpasiran in Participants With Atherosclerotic Cardiovascular Disease | 3 | Recruiting | 2028-06-15 | No |
 | [[NCT07388498]] | A Study to Evaluate the Efficacy and Safety of Pegloticase With Methotrexate in Participants With Uncontrolled Gout | 3 | Recruiting | 2028-05-23 | No |
+| [[NCT07438405]] | A Study of AMG 732 in Participants With Advanced Solid Tumors | 2 | Recruiting | 2028-01-29 | No |
 | [[NCT07441252]] | A Study to Evaluate the Efficacy and Safety of Maridebart Cafraglutide in Participants With Obesity | 2 | Recruiting | 2027-09-29 | No |
 
 ## Recruiting Trials
@@ -186,40 +188,6 @@ Change from Baseline in Intact Parathyroid Hormone (iPTH) Levels.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT03969329.json`
 
-### NCT04521231: A Study of Blinatumomab in Combination With a PD-1 Inhibitor in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia
-
----
-trial_id: NCT04521231
-title: A Study of Blinatumomab in Combination With a PD-1 Inhibitor in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia
-phase: 1 | 2
-status: recruiting
-primary_sponsor: amgen
-co_sponsors: []
-drugs: [Blinatumomab]
-indications: []
-enrollment: 281
-primary_endpoint: Not specified in source document.
-primary_completion_date: 2027-11-24
-has_results: false
-primary_result_value: ""
-last_updated: 2026-05-01
----
-
-**Phase:** 1/2 | **Status:** Recruiting | **Sponsor:** [[amgen]]
-
-### Design
-This is a Phase 1/2 study evaluating Blinatumomab in combination with a PD-1 Inhibitor in participants with relapsed/refractory B-Cell Acute Lymphoblastic Leukemia.
-
-### Primary endpoint
-Not specified in source document.
-
-### Results summary
-
-
-### Sources
-- `raw/ctgov/amgen/2026-04-07/NCT04521231.json`
-- `raw/ctgov/amgen/2026-05-01/NCT04521231.json`
-
 ### NCT04528082: A Study to Evaluate the Efficacy and Safety of Apremilast in Participants With Psoriatic Arthritis
 
 ---
@@ -286,40 +254,6 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT04804553.json`
 - `raw/ctgov/amgen/2026-05-01/NCT04804553.json`
-
-### NCT04994717: A Study of Blinatumomab in Combination With a Low-Intensity Chemotherapy Regimen or a Standard of Care Chemotherapy Regimen in Participants With Relapsed/Refractory B-Cell Precursor Acute Lymphoblastic Leukemia
-
----
-trial_id: NCT04994717
-title: A Study of Blinatumomab in Combination With a Low-Intensity Chemotherapy Regimen or a Standard of Care Chemotherapy Regimen in Participants With Relapsed/Refractory B-Cell Precursor Acute Lymphoblastic Leukemia
-phase: 3
-status: recruiting
-primary_sponsor: amgen
-co_sponsors: []
-drugs: [Blinatumomab]
-indications: [alzheimers]
-enrollment: 304
-primary_endpoint: Not specified in source document.
-primary_completion_date: 2029-09-07
-has_results: false
-primary_result_value: ""
-last_updated: 2026-05-01
----
-
-**Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
-
-### Design
-This is a Phase 3 study evaluating Blinatumomab in combination with a low-intensity chemotherapy regimen or a standard of care chemotherapy regimen in participants with relapsed/refractory B-Cell Precursor Acute Lymphoblastic Leukemia and Alzheimer's Disease.
-
-### Primary endpoint
-Not specified in source document.
-
-### Results summary
-
-
-### Sources
-- `raw/ctgov/amgen/2026-04-07/NCT04994717.json`
-- `raw/ctgov/amgen/2026-05-01/NCT04994717.json`
 
 ### NCT05549258: A Study to Evaluate the Efficacy and Safety of Inebilizumab in Participants With Myasthenia Gravis
 
@@ -396,20 +330,20 @@ phase: 3
 status: recruiting
 primary_sponsor: amgen
 co_sponsors: []
-drugs: [pembrolizumab, sotorasib]
+drugs: [pembrolizumab, Sotorasib]
 indications: [oncology-nsclc]
 enrollment: 750
 primary_endpoint: Objective Response Rate (ORR) per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1) by Blinded Independent Central Review (BICR)
 primary_completion_date: 2027-06-30
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
 
 ### Design
-This is a Phase 3 study evaluating [[pembrolizumab]] in combination with [[sotorasib]] in participants with KRAS G12C-Mutated advanced non-small cell lung cancer.
+This is a Phase 3 study evaluating [[pembrolizumab]] in combination with Sotorasib in participants with KRAS G12C-Mutated advanced non-small cell lung cancer.
 
 ### Primary endpoint
 Objective Response Rate (ORR) per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1) by Blinded Independent Central Review (BICR).
@@ -420,6 +354,7 @@ Objective Response Rate (ORR) per Response Evaluation Criteria in Solid Tumors V
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT05920356.json`
 - `raw/ctgov/amgen/2026-05-01/NCT05920356.json`
+- `raw/ctgov/amgen/2026-06-01/NCT05920356.json`
 
 ### NCT05972551: A Study to Evaluate the Efficacy and Safety of Romosozumab in Participants With Osteoporosis
 
@@ -437,7 +372,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2027-06-01
 has_results: false
 primary_result_value: ""
-last_updated: 2026-04-07
+last_updated: 2026-05-01
 ---
 
 **Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -452,7 +387,7 @@ Not specified in source document.
 
 
 ### Sources
-- `raw/ctgov/amgen/2026-04-07/NCT05972551.json`
+- `raw/ctgov/amgen/2026-05-01/NCT05972551.json`
 
 ### NCT06072482: A Study to Evaluate the Efficacy and Safety of Avacopan in Participants With ANCA-Associated Vasculitis
 
@@ -470,7 +405,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2036-12-31
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 4 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -487,40 +422,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT06072482.json`
 - `raw/ctgov/amgen/2026-05-01/NCT06072482.json`
-
-### NCT06117774: A Study of Tarlatamab in Participants With Extensive-Stage Small Cell Lung Cancer
-
----
-trial_id: NCT06117774
-title: A Study of Tarlatamab in Participants With Extensive-Stage Small Cell Lung Cancer
-phase: 3
-status: active
-primary_sponsor: amgen
-co_sponsors: []
-drugs: [Tarlatamab]
-indications: [oncology-nsclc]
-enrollment: 404
-primary_endpoint: Not specified in source document.
-primary_completion_date: 2030-04-20
-has_results: false
-primary_result_value: ""
-last_updated: 2026-05-01
----
-
-**Phase:** 3 | **Status:** Active, not recruiting | **Sponsor:** [[amgen]]
-
-### Design
-This is a Phase 3 study evaluating Tarlatamab in participants with extensive-stage small cell lung cancer.
-
-### Primary endpoint
-Not specified in source document.
-
-### Results summary
-
-
-### Sources
-- `raw/ctgov/amgen/2026-04-07/NCT06117774.json`
-- `raw/ctgov/amgen/2026-05-01/NCT06117774.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06072482.json`
 
 ### NCT06252649: A Study of Sotorasib in Combination With Panitumumab and FOLFIRI or Bevacizumab and FOLFIRI in Participants With KRAS G12C-Mutated Advanced Colorectal Cancer
 
@@ -572,7 +474,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2028-09-26
 has_results: false
 primary_result_value: ""
-last_updated: 2026-04-07
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -588,6 +490,7 @@ Not specified in source document.
 
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT06321601.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06321601.json`
 
 ### NCT06401044: A Study of AMG 732 in Participants With Advanced Solid Tumors
 
@@ -605,7 +508,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2027-02-22
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 1/2 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -622,6 +525,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT06401044.json`
 - `raw/ctgov/amgen/2026-05-01/NCT06401044.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06401044.json`
 
 ### NCT06570798: A Study of Inebilizumab in Combination With Blinatumomab in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia
 
@@ -636,10 +540,10 @@ drugs: [Inebilizumab, Blinatumomab]
 indications: []
 enrollment: 220
 primary_endpoint: Not specified in source document.
-primary_completion_date: 2028-01-17
+primary_completion_date: 2028-07-21
 has_results: false
 primary_result_value: ""
-last_updated: 2026-04-07
+last_updated: 2026-06-01
 ---
 
 **Phase:** 2 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -655,106 +559,7 @@ Not specified in source document.
 
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT06570798.json`
-
-### NCT06588153: A Study to Evaluate the Efficacy and Safety of Prolia in Participants With Osteoporosis
-
----
-trial_id: NCT06588153
-title: A Study to Evaluate the Efficacy and Safety of Prolia in Participants With Osteoporosis
-phase: 4
-status: recruiting
-primary_sponsor: amgen
-co_sponsors: []
-drugs: [Prolia]
-indications: []
-enrollment: 100
-primary_endpoint: Not specified in source document.
-primary_completion_date: 2027-05-24
-has_results: false
-primary_result_value: ""
-last_updated: 2026-04-07
----
-
-**Phase:** 4 | **Status:** Recruiting | **Sponsor:** [[amgen]]
-
-### Design
-This is a Phase 4 study evaluating the efficacy and safety of Prolia in participants with osteoporosis.
-
-### Primary endpoint
-Not specified in source document.
-
-### Results summary
-
-
-### Sources
-- `raw/ctgov/amgen/2026-04-07/NCT06588153.json`
-
-### NCT06593522: A Study of AMG 193 in Participants With MTAP-Deleted Non-Small Cell Lung Cancer
-
----
-trial_id: NCT06593522
-title: A Study of AMG 193 in Participants With MTAP-Deleted Non-Small Cell Lung Cancer
-phase: 2
-status: recruiting
-primary_sponsor: amgen
-co_sponsors: []
-drugs: [Amg 193]
-indications: [oncology-nsclc]
-enrollment: 200
-primary_endpoint: Not specified in source document.
-primary_completion_date: 2028-11-29
-has_results: false
-primary_result_value: ""
-last_updated: 2026-05-01
----
-
-**Phase:** 2 | **Status:** Recruiting | **Sponsor:** [[amgen]]
-
-### Design
-This is a Phase 2 study evaluating AMG 193 in participants with MTAP-Deleted non-small cell lung cancer.
-
-### Primary endpoint
-Not specified in source document.
-
-### Results summary
-
-
-### Sources
-- `raw/ctgov/amgen/2026-04-07/NCT06593522.json`
-- `raw/ctgov/amgen/2026-05-01/NCT06593522.json`
-
-### NCT06691984: A Study of Xaluritamig in Combination With Abiraterone or Enzalutamide or Cabazitaxel in Participants With Metastatic Castration-Resistant Prostate Cancer
-
----
-trial_id: NCT06691984
-title: A Study of Xaluritamig in Combination With Abiraterone or Enzalutamide or Cabazitaxel in Participants With Metastatic Castration-Resistant Prostate Cancer
-phase: 3
-status: recruiting
-primary_sponsor: amgen
-co_sponsors: []
-drugs: [Xaluritamig, Abiraterone, Enzalutamide, Cabazitaxel]
-indications: []
-enrollment: 675
-primary_endpoint: Not specified in source document.
-primary_completion_date: 2029-01-02
-has_results: false
-primary_result_value: ""
-last_updated: 2026-04-07
----
-
-**Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
-
-### Design
-This is a Phase 3 study evaluating Xaluritamig in combination with Abiraterone or Enzalutamide or Cabazitaxel in participants with metastatic castration-resistant prostate cancer.
-
-### Primary endpoint
-Not specified in source document.
-
-### Results summary
-
-
-### Sources
-- `raw/ctgov/amgen/2026-04-07/NCT06691984.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06570798.json`
 
 ### NCT06700343: A Study to Evaluate the Efficacy and Safety of ABP 692 Compared With Ocrelizumab in Participants With Multiple Sclerosis
 
@@ -772,7 +577,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2027-01-15
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -789,6 +594,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT06700343.json`
 - `raw/ctgov/amgen/2026-05-01/NCT06700343.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06700343.json`
 
 ### NCT06747949: A Study to Evaluate the Efficacy and Safety of Dazodalibep in Participants With Systemic Lupus Erythematosus
 
@@ -840,7 +646,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2030-03-13
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 2 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -857,6 +663,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT06987539.json`
 - `raw/ctgov/amgen/2026-05-01/NCT06987539.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06987539.json`
 
 ### NCT07005128: A Study of Tarlatamab in Combination With Carboplatin and Etoposide and Durvalumab in Participants With Extensive-Stage Small Cell Lung Cancer
 
@@ -874,7 +681,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2029-01-04
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -891,6 +698,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT07005128.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07005128.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07005128.json`
 
 ### NCT07037433: A Study to Evaluate the Efficacy and Safety of Maridebart Cafraglutide in Participants With Obesity
 
@@ -908,7 +716,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2028-06-30
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -925,6 +733,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT07037433.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07037433.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07037433.json`
 
 ### NCT07037459: A Study to Evaluate the Efficacy and Safety of Maridebart Cafraglutide in Participants With Heart Failure and Obesity
 
@@ -942,7 +751,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2028-06-30
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -959,40 +768,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT07037459.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07037459.json`
-
-### NCT07134088: A Study of Blinatumomab in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia
-
----
-trial_id: NCT07134088
-title: A Study of Blinatumomab in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia
-phase: 1 | 2
-status: recruiting
-primary_sponsor: amgen
-co_sponsors: []
-drugs: [Blinatumomab]
-indications: []
-enrollment: 104
-primary_endpoint: Not specified in source document.
-primary_completion_date: 2028-12-05
-has_results: false
-primary_result_value: ""
-last_updated: 2026-05-01
----
-
-**Phase:** 1/2 | **Status:** Recruiting | **Sponsor:** [[amgen]]
-
-### Design
-This is a Phase 1/2 study evaluating Blinatumomab in participants with relapsed/refractory B-Cell Acute Lymphoblastic Leukemia.
-
-### Primary endpoint
-Not specified in source document.
-
-### Results summary
-
-
-### Sources
-- `raw/ctgov/amgen/2026-04-07/NCT07134088.json`
-- `raw/ctgov/amgen/2026-05-01/NCT07134088.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07037459.json`
 
 ### NCT07136012: A Study to Evaluate the Efficacy and Safety of Olpasiran in Participants With Atherosclerotic Cardiovascular Disease
 
@@ -1010,7 +786,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2031-10-20
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -1027,6 +803,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT07136012.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07136012.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07136012.json`
 
 ### NCT07172919: A Study of Sotorasib in Combination With Panitumumab in Participants With KRAS G12C-Mutated Advanced Colorectal Cancer
 
@@ -1037,20 +814,20 @@ phase: 2
 status: recruiting
 primary_sponsor: amgen
 co_sponsors: []
-drugs: [sotorasib, Panitumumab]
-indications: [alzheimers]
+drugs: [Sotorasib, Panitumumab]
+indications: [oncology-crc]
 enrollment: 14
 primary_endpoint: Not specified in source document.
 primary_completion_date: 2028-01-02
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 2 | **Status:** Recruiting | **Sponsor:** [[amgen]]
 
 ### Design
-This is a Phase 2 study evaluating [[sotorasib]] in combination with Panitumumab in participants with KRAS G12C-Mutated advanced colorectal cancer.
+This is a Phase 2 study evaluating Sotorasib in combination with Panitumumab in participants with KRAS G12C-Mutated advanced colorectal cancer.
 
 ### Primary endpoint
 Not specified in source document.
@@ -1061,6 +838,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT07172919.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07172919.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07172919.json`
 
 ### NCT07213674: A Study of Xaluritamig in Combination With Abiraterone Acetate or Docetaxel or Cabazitaxel in Participants With Metastatic Castration-Resistant Prostate Cancer
 
@@ -1078,7 +856,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2030-01-07
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -1095,6 +873,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT07213674.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07213674.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07213674.json`
 
 ### NCT07225686: A Study to Evaluate the Efficacy and Safety of Maridebart Cafraglutide in Participants With Obesity
 
@@ -1112,7 +891,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2027-09-29
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -1129,6 +908,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT07225686.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07225686.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07225686.json`
 
 ### NCT07226765: A Study to Evaluate the Efficacy and Safety of Maridebart Cafraglutide in Participants With Type 2 Diabetes Mellitus
 
@@ -1146,7 +926,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2027-09-29
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -1163,6 +943,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT07226765.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07226765.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07226765.json`
 
 ### NCT07293260: A Study to Evaluate the Efficacy and Safety of Olpasiran in Participants With Atherosclerotic Cardiovascular Disease
 
@@ -1213,7 +994,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2028-05-23
 has_results: false
 primary_result_value: ""
-last_updated: 2026-04-07
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -1229,6 +1010,40 @@ Not specified in source document.
 
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT07388498.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07388498.json`
+
+### NCT07438405: A Study of AMG 732 in Participants With Advanced Solid Tumors
+
+---
+trial_id: NCT07438405
+title: A Study of AMG 732 in Participants With Advanced Solid Tumors
+phase: 2
+status: recruiting
+primary_sponsor: amgen
+co_sponsors: []
+drugs: [Amg 732]
+indications: []
+enrollment: 30
+primary_endpoint: Not specified in source document.
+primary_completion_date: 2028-01-29
+has_results: false
+primary_result_value: ""
+last_updated: 2026-06-01
+---
+
+**Phase:** 2 | **Status:** Recruiting | **Sponsor:** [[amgen]]
+
+### Design
+This is a Phase 2 study evaluating AMG 732 in participants with advanced solid tumors.
+
+### Primary endpoint
+Not specified in source document.
+
+### Results summary
+
+
+### Sources
+- `raw/ctgov/amgen/2026-06-01/NCT07438405.json`
 
 ### NCT07441252: A Study to Evaluate the Efficacy and Safety of Maridebart Cafraglutide in Participants With Obesity
 
@@ -1246,7 +1061,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2027-09-29
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 2 | **Status:** Recruiting | **Sponsor:** [[amgen]]
@@ -1263,6 +1078,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT07441252.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07441252.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07441252.json`
 
 ## Active Trials
 
@@ -1413,6 +1229,41 @@ Results are available, but specific findings are not detailed in the provided so
 - `raw/ctgov/amgen/2026-04-07/NCT04303780.json`
 - `raw/ctgov/amgen/2026-05-01/NCT04303780.json`
 
+### NCT04521231: A Study of Blinatumomab in Combination With a PD-1 Inhibitor in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia
+
+---
+trial_id: NCT04521231
+title: A Study of Blinatumomab in Combination With a PD-1 Inhibitor in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia
+phase: 1 | 2
+status: active
+primary_sponsor: amgen
+co_sponsors: []
+drugs: [Blinatumomab]
+indications: []
+enrollment: 181
+primary_endpoint: Not specified in source document.
+primary_completion_date: 2027-11-24
+has_results: false
+primary_result_value: ""
+last_updated: 2026-06-01
+---
+
+**Phase:** 1/2 | **Status:** Active, not recruiting | **Sponsor:** [[amgen]]
+
+### Design
+This is a Phase 1/2 study evaluating Blinatumomab in combination with a PD-1 Inhibitor in participants with relapsed/refractory B-Cell Acute Lymphoblastic Leukemia.
+
+### Primary endpoint
+Not specified in source document.
+
+### Results summary
+
+
+### Sources
+- `raw/ctgov/amgen/2026-04-07/NCT04521231.json`
+- `raw/ctgov/amgen/2026-05-01/NCT04521231.json`
+- `raw/ctgov/amgen/2026-06-01/NCT04521231.json`
+
 ### NCT04524273: A Study to Evaluate the Efficacy and Safety of Inebilizumab in Participants With Neuromyelitis Optica Spectrum Disorder
 
 ---
@@ -1429,7 +1280,7 @@ primary_endpoint: Not specified in source document.
 primary_completion_date: 2024-05-28
 has_results: true
 primary_result_value: ""
-last_updated: 2024-05-28
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Active, not recruiting | **Sponsor:** [[amgen]]
@@ -1445,6 +1296,7 @@ Results are available, but specific findings are not detailed in the provided so
 
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT04524273.json`
+- `raw/ctgov/amgen/2026-06-01/NCT04524273.json`
 
 ### NCT04540497: A Study to Evaluate the Efficacy and Safety of Inebilizumab in Participants With Neuromyelitis Optica Spectrum Disorder
 
@@ -1511,6 +1363,41 @@ Not specified in source document.
 
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT04586660.json`
+
+### NCT04994717: A Study of Blinatumomab in Combination With a Low-Intensity Chemotherapy Regimen or a Standard of Care Chemotherapy Regimen in Participants With Relapsed/Refractory B-Cell Precursor Acute Lymphoblastic Leukemia
+
+---
+trial_id: NCT04994717
+title: A Study of Blinatumomab in Combination With a Low-Intensity Chemotherapy Regimen or a Standard of Care Chemotherapy Regimen in Participants With Relapsed/Refractory B-Cell Precursor Acute Lymphoblastic Leukemia
+phase: 3
+status: active
+primary_sponsor: amgen
+co_sponsors: []
+drugs: [Blinatumomab]
+indications: [alzheimers]
+enrollment: 303
+primary_endpoint: Not specified in source document.
+primary_completion_date: 2029-09-07
+has_results: false
+primary_result_value: ""
+last_updated: 2026-06-01
+---
+
+**Phase:** 3 | **Status:** Active, not recruiting | **Sponsor:** [[amgen]]
+
+### Design
+This is a Phase 3 study evaluating Blinatumomab in combination with a low-intensity chemotherapy regimen or a standard of care chemotherapy regimen in participants with relapsed/refractory B-Cell Precursor Acute Lymphoblastic Leukemia and Alzheimer's Disease.
+
+### Primary endpoint
+Not specified in source document.
+
+### Results summary
+
+
+### Sources
+- `raw/ctgov/amgen/2026-04-07/NCT04994717.json`
+- `raw/ctgov/amgen/2026-05-01/NCT04994717.json`
+- `raw/ctgov/amgen/2026-06-01/NCT04994717.json`
 
 ### NCT05052801: A Study of Bemarituzumab in Combination With mFOLFOX6 in Participants With Gastric or Gastroesophageal Junction Adenocarcinoma
 
@@ -1588,13 +1475,13 @@ status: active
 primary_sponsor: amgen
 co_sponsors: []
 drugs: [Anvumetostat]
-indications: []
+indications: [alzheimers]
 enrollment: 329
 primary_endpoint: Not specified in source document.
-primary_completion_date: 2026-05-27
+primary_completion_date: 2026-11-30
 has_results: false
 primary_result_value: ""
-last_updated: 2026-04-07
+last_updated: 2026-06-01
 ---
 
 **Phase:** 1/2 | **Status:** Active, not recruiting | **Sponsor:** [[amgen]]
@@ -1610,6 +1497,7 @@ Not specified in source document.
 
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT05094336.json`
+- `raw/ctgov/amgen/2026-06-01/NCT05094336.json`
 
 ### NCT05111626: A Study of Nivolumab in Combination With Bemarituzumab and Chemotherapy in Participants With Gastric or Gastroesophageal Junction Adenocarcinoma
 
@@ -1822,10 +1710,10 @@ drugs: [Rocatinlimab]
 indications: []
 enrollment: 2621
 primary_endpoint: Not specified in source document.
-primary_completion_date: 2027-06-30
+primary_completion_date: 2026-06-22
 has_results: false
 primary_result_value: ""
-last_updated: 2026-04-07
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Active, not recruiting | **Sponsor:** [[amgen]]
@@ -1841,40 +1729,7 @@ Not specified in source document.
 
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT05882877.json`
-
-### NCT05975073: A Study of AMG 193 and IDE397 in Participants With MTAP-Deleted Tumors
-
----
-trial_id: NCT05975073
-title: A Study of AMG 193 and IDE397 in Participants With MTAP-Deleted Tumors
-phase: 1 | 2
-status: completed
-primary_sponsor: amgen
-co_sponsors: []
-drugs: [AMG 193, IDE397]
-indications: [oncology-nsclc]
-enrollment: 53
-primary_endpoint: Not specified in source document.
-primary_completion_date: 2026-02-25
-has_results: false
-primary_result_value: ""
-last_updated: 2026-05-01
----
-
-**Phase:** 1/2 | **Status:** Completed | **Sponsor:** [[amgen]]
-
-### Design
-This is a Phase 1/2 study evaluating AMG 193 and IDE397 in participants with MTAP-deleted tumors, including non-small cell lung cancer.
-
-### Primary endpoint
-Not specified in source document.
-
-### Results summary
-
-
-### Sources
-- `raw/ctgov/amgen/2026-04-07/NCT05975073.json`
-- `raw/ctgov/amgen/2026-05-01/NCT05975073.json`
+- `raw/ctgov/amgen/2026-06-01/NCT05882877.json`
 
 ### NCT06054113: A Study of Blinatumomab in Participants With Relapsed/Refractory B-Cell Precursor Acute Lymphoblastic Leukemia
 
@@ -2008,6 +1863,40 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT06104124.json`
 
+### NCT06117774: A Study of Tarlatamab in Participants With Extensive-Stage Small Cell Lung Cancer
+
+---
+trial_id: NCT06117774
+title: A Study of Tarlatamab in Participants With Extensive-Stage Small Cell Lung Cancer
+phase: 3
+status: active
+primary_sponsor: amgen
+co_sponsors: []
+drugs: [Tarlatamab]
+indications: [oncology-nsclc]
+enrollment: 404
+primary_endpoint: Not specified in source document.
+primary_completion_date: 2030-04-20
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+**Phase:** 3 | **Status:** Active, not recruiting | **Sponsor:** [[amgen]]
+
+### Design
+This is a Phase 3 study evaluating Tarlatamab in participants with extensive-stage small cell lung cancer.
+
+### Primary endpoint
+Not specified in source document.
+
+### Results summary
+
+
+### Sources
+- `raw/ctgov/amgen/2026-04-07/NCT06117774.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06117774.json`
+
 ### NCT06180278: A Study to Evaluate the Efficacy and Safety of Inebilizumab in Participants With Neuromyelitis Optica Spectrum Disorder
 
 ---
@@ -2087,40 +1976,6 @@ To evaluate safety and to determine the recommended phase 2 dose or maximum tole
 - `raw/pubmed/atezolizumab/2026-04-12/abstract-40934933.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06211036.json`
 
-### NCT06229145: A Study to Evaluate the Efficacy and Safety of Pegloticase With Methotrexate in Participants With Uncontrolled Gout
-
----
-trial_id: NCT06229145
-title: A Study to Evaluate the Efficacy and Safety of Pegloticase With Methotrexate in Participants With Uncontrolled Gout
-phase: 4
-status: completed
-primary_sponsor: amgen
-co_sponsors: []
-drugs: [Pegloticase, Methotrexate]
-indications: []
-enrollment: 262
-primary_endpoint: Not specified in source document.
-primary_completion_date: 2025-07-30
-has_results: false
-primary_result_value: ""
-last_updated: 2026-05-01
----
-
-**Phase:** 4 | **Status:** Completed | **Sponsor:** [[amgen]]
-
-### Design
-This is a Phase 4 study evaluating the efficacy and safety of Pegloticase with Methotrexate in participants with uncontrolled gout.
-
-### Primary endpoint
-Not specified in source document.
-
-### Results summary
-
-
-### Sources
-- `raw/ctgov/amgen/2026-04-07/NCT06229145.json`
-- `raw/ctgov/amgen/2026-05-01/NCT06229145.json`
-
 ### NCT06245408: A Study to Evaluate the Efficacy and Safety of Dazodalibep in Participants With Systemic Lupus Erythematosus
 
 ---
@@ -2197,13 +2052,13 @@ status: active
 primary_sponsor: amgen
 co_sponsors: []
 drugs: [Abp 234, pembrolizumab]
-indications: [oncology-nsclc, alzheimers]
+indications: [oncology-nsclc]
 enrollment: 315
 primary_endpoint: Not specified in source document.
-primary_completion_date: 2028-02-14
+primary_completion_date: 2028-01-10
 has_results: false
 primary_result_value: ""
-last_updated: 2026-05-01
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Active, not recruiting | **Sponsor:** [[amgen]]
@@ -2220,6 +2075,7 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT06311721.json`
 - `raw/ctgov/amgen/2026-05-01/NCT06311721.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06311721.json`
 
 ### NCT06312020: A Study to Evaluate the Efficacy and Safety of HZN-1116 in Participants With Systemic Lupus Erythematosus
 
@@ -2400,10 +2256,10 @@ drugs: [Rocatinlimab]
 indications: []
 enrollment: 469
 primary_endpoint: Not specified in source document.
-primary_completion_date: 2026-10-28
+primary_completion_date: 2026-04-17
 has_results: false
 primary_result_value: ""
-last_updated: 2026-04-07
+last_updated: 2026-06-01
 ---
 
 **Phase:** 3 | **Status:** Active, not recruiting | **Sponsor:** [[amgen]]
@@ -2419,6 +2275,76 @@ Not specified in source document.
 
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT06527404.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06527404.json`
+
+### NCT06588153: A Study to Evaluate the Efficacy and Safety of Prolia in Participants With Osteoporosis
+
+---
+trial_id: NCT06588153
+title: A Study to Evaluate the Efficacy and Safety of Prolia in Participants With Osteoporosis
+phase: 4
+status: active
+primary_sponsor: amgen
+co_sponsors: []
+drugs: [Prolia®]
+indications: []
+enrollment: 102
+primary_endpoint: Not specified in source document.
+primary_completion_date: 2027-04-27
+has_results: false
+primary_result_value: ""
+last_updated: 2026-06-01
+---
+
+**Phase:** 4 | **Status:** Active, not recruiting | **Sponsor:** [[amgen]]
+
+### Design
+This is a Phase 4 study evaluating the efficacy and safety of Prolia in participants with osteoporosis.
+
+### Primary endpoint
+Not specified in source document.
+
+### Results summary
+
+
+### Sources
+- `raw/ctgov/amgen/2026-04-07/NCT06588153.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06588153.json`
+
+### NCT06593522: A Study of AMG 193 in Participants With MTAP-Deleted Non-Small Cell Lung Cancer
+
+---
+trial_id: NCT06593522
+title: A Study of AMG 193 in Participants With MTAP-Deleted Non-Small Cell Lung Cancer
+phase: 2
+status: active
+primary_sponsor: amgen
+co_sponsors: []
+drugs: [Anvumetostat]
+indications: [oncology-nsclc]
+enrollment: 61
+primary_endpoint: Not specified in source document.
+primary_completion_date: 2026-10-31
+has_results: false
+primary_result_value: ""
+last_updated: 2026-06-01
+---
+
+**Phase:** 2 | **Status:** Active, not recruiting | **Sponsor:** [[amgen]]
+
+### Design
+This is a Phase 2 study evaluating Anvumetostat in participants with MTAP-Deleted non-small cell lung cancer.
+
+### Primary endpoint
+Not specified in source document.
+
+### Results summary
+
+
+### Sources
+- `raw/ctgov/amgen/2026-04-07/NCT06593522.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06593522.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06593522.json`
 
 ### NCT06660173: A Study to Evaluate the Efficacy and Safety of Maridebart Cafraglutide in Participants With Type 2 Diabetes Mellitus
 
@@ -2452,6 +2378,40 @@ Not specified in source document.
 
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT06660173.json`
+
+### NCT06691984: A Study of Xaluritamig in Combination With Abiraterone or Enzalutamide or Cabazitaxel in Participants With Metastatic Castration-Resistant Prostate Cancer
+
+---
+trial_id: NCT06691984
+title: A Study of Xaluritamig in Combination With Abiraterone or Enzalutamide or Cabazitaxel in Participants With Metastatic Castration-Resistant Prostate Cancer
+phase: 3
+status: active
+primary_sponsor: amgen
+co_sponsors: []
+drugs: [Xaluritamig, Abiraterone, Enzalutamide, Cabazitaxel]
+indications: []
+enrollment: 707
+primary_endpoint: Not specified in source document.
+primary_completion_date: 2029-01-02
+has_results: false
+primary_result_value: ""
+last_updated: 2026-06-01
+---
+
+**Phase:** 3 | **Status:** Active, not recruiting | **Sponsor:** [[amgen]]
+
+### Design
+This is a Phase 3 study evaluating Xaluritamig in combination with Abiraterone or Enzalutamide or Cabazitaxel in participants with metastatic castration-resistant prostate cancer.
+
+### Primary endpoint
+Not specified in source document.
+
+### Results summary
+
+
+### Sources
+- `raw/ctgov/amgen/2026-04-07/NCT06691984.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06691984.json`
 
 ### NCT06745323: A Study of Tarlatamab in Participants With Extensive-Stage Small Cell Lung Cancer
 
@@ -2584,6 +2544,41 @@ Not specified in source document.
 
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT06987695.json`
+
+### NCT07134088: A Study of Blinatumomab in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia
+
+---
+trial_id: NCT07134088
+title: A Study of Blinatumomab in Participants With Relapsed/Refractory B-Cell Acute Lymphoblastic Leukemia
+phase: 1 | 2
+status: active
+primary_sponsor: amgen
+co_sponsors: []
+drugs: [Blinatumomab]
+indications: []
+enrollment: 104
+primary_endpoint: Not specified in source document.
+primary_completion_date: 2028-12-05
+has_results: false
+primary_result_value: ""
+last_updated: 2026-06-01
+---
+
+**Phase:** 1/2 | **Status:** Active, not recruiting | **Sponsor:** [[amgen]]
+
+### Design
+This is a Phase 1/2 study evaluating Blinatumomab in participants with relapsed/refractory B-Cell Acute Lymphoblastic Leukemia.
+
+### Primary endpoint
+Not specified in source document.
+
+### Results summary
+
+
+### Sources
+- `raw/ctgov/amgen/2026-04-07/NCT07134088.json`
+- `raw/ctgov/amgen/2026-05-01/NCT07134088.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07134088.json`
 
 ## Completed Trials
 
@@ -3238,7 +3233,7 @@ last_updated: 2026-04-12
 **Phase:** 1b | **Status:** Completed | **Sponsor:** [[amgen]]
 
 ### Design
-This is a multicentre, non-randomised, phase 1b study evaluating tarlatamab in combination with a PD-L1 inhibitor as maintenance after first-line chemo-immunotherapy for extensive-stage small-cell lung cancer.
+This is a multicentre, non-randomised, phase 1b study evaluating tarlatamab in combination with a PD-L1 inhibitor ([[durvalumab]]) as maintenance after first-line chemo-immunotherapy for extensive-stage small-cell lung cancer.
 
 ### Primary endpoint
 To evaluate safety and to determine the recommended phase 2 dose or maximum tolerated dose of tarlatamab in combination with a PD-L1 inhibitor through assessment of dose-limiting toxicities, treatment-emergent adverse events, treatment-related adverse events, and changes in vital signs, electrocardiograms, and clinical laboratory tests.
@@ -3526,6 +3521,40 @@ Not specified in source document.
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT05907122.json`
 
+### NCT05975073: A Study of AMG 193 and IDE397 in Participants With MTAP-Deleted Tumors
+
+---
+trial_id: NCT05975073
+title: A Study of AMG 193 and IDE397 in Participants With MTAP-Deleted Tumors
+phase: 1 | 2
+status: completed
+primary_sponsor: amgen
+co_sponsors: []
+drugs: [AMG 193, IDE397]
+indications: [oncology-nsclc]
+enrollment: 53
+primary_endpoint: Not specified in source document.
+primary_completion_date: 2026-02-25
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+**Phase:** 1/2 | **Status:** Completed | **Sponsor:** [[amgen]]
+
+### Design
+This is a Phase 1/2 study evaluating AMG 193 and IDE397 in participants with MTAP-deleted tumors, including non-small cell lung cancer.
+
+### Primary endpoint
+Not specified in source document.
+
+### Results summary
+
+
+### Sources
+- `raw/ctgov/amgen/2026-04-07/NCT05975073.json`
+- `raw/ctgov/amgen/2026-05-01/NCT05975073.json`
+
 ### NCT06079476: A Study to Evaluate the Efficacy and Safety of Romosozumab in Participants With Osteoporosis
 
 ---
@@ -3591,6 +3620,40 @@ Not specified in source document.
 
 ### Sources
 - `raw/ctgov/amgen/2026-04-07/NCT06122649.json`
+
+### NCT06229145: A Study to Evaluate the Efficacy and Safety of Pegloticase With Methotrexate in Participants With Uncontrolled Gout
+
+---
+trial_id: NCT06229145
+title: A Study to Evaluate the Efficacy and Safety of Pegloticase With Methotrexate in Participants With Uncontrolled Gout
+phase: 4
+status: completed
+primary_sponsor: amgen
+co_sponsors: []
+drugs: [Pegloticase, Methotrexate]
+indications: []
+enrollment: 262
+primary_endpoint: Not specified in source document.
+primary_completion_date: 2025-07-30
+has_results: false
+primary_result_value: ""
+last_updated: 2026-05-01
+---
+
+**Phase:** 4 | **Status:** Completed | **Sponsor:** [[amgen]]
+
+### Design
+This is a Phase 4 study evaluating the efficacy and safety of Pegloticase with Methotrexate in participants with uncontrolled gout.
+
+### Primary endpoint
+Not specified in source document.
+
+### Results summary
+
+
+### Sources
+- `raw/ctgov/amgen/2026-04-07/NCT06229145.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06229145.json`
 
 ## Terminated Trials
 
@@ -3861,60 +3924,66 @@ Not specified in source document.
 ## Sources
 - `raw/ctgov/amgen/2026-04-07/NCT03633708.json`
 - `raw/ctgov/amgen/2026-04-07/NCT03969329.json`
-- `raw/ctgov/amgen/2026-04-07/NCT04521231.json`
-- `raw/ctgov/amgen/2026-05-01/NCT04521231.json`
 - `raw/ctgov/amgen/2026-04-07/NCT04528082.json`
 - `raw/ctgov/amgen/2026-04-07/NCT04804553.json`
 - `raw/ctgov/amgen/2026-05-01/NCT04804553.json`
-- `raw/ctgov/amgen/2026-04-07/NCT04994717.json`
-- `raw/ctgov/amgen/2026-05-01/NCT04994717.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05549258.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05767047.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05920356.json`
 - `raw/ctgov/amgen/2026-05-01/NCT05920356.json`
-- `raw/ctgov/amgen/2026-04-07/NCT05972551.json`
+- `raw/ctgov/amgen/2026-06-01/NCT05920356.json`
+- `raw/ctgov/amgen/2026-05-01/NCT05972551.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06072482.json`
 - `raw/ctgov/amgen/2026-05-01/NCT06072482.json`
-- `raw/ctgov/amgen/2026-04-07/NCT06117774.json`
-- `raw/ctgov/amgen/2026-05-01/NCT06117774.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06072482.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06252649.json`
 - `raw/ctgov/amgen/2026-05-01/NCT06252649.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06321601.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06321601.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06401044.json`
 - `raw/ctgov/amgen/2026-05-01/NCT06401044.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06401044.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06570798.json`
-- `raw/ctgov/amgen/2026-04-07/NCT06588153.json`
-- `raw/ctgov/amgen/2026-04-07/NCT06593522.json`
-- `raw/ctgov/amgen/2026-05-01/NCT06593522.json`
-- `raw/ctgov/amgen/2026-04-07/NCT06691984.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06570798.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06700343.json`
 - `raw/ctgov/amgen/2026-05-01/NCT06700343.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06700343.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06747949.json`
 - `raw/ctgov/amgen/2026-05-01/NCT06747949.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06987539.json`
 - `raw/ctgov/amgen/2026-05-01/NCT06987539.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06987539.json`
 - `raw/ctgov/amgen/2026-04-07/NCT07005128.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07005128.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07005128.json`
 - `raw/ctgov/amgen/2026-04-07/NCT07037433.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07037433.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07037433.json`
 - `raw/ctgov/amgen/2026-04-07/NCT07037459.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07037459.json`
-- `raw/ctgov/amgen/2026-04-07/NCT07134088.json`
-- `raw/ctgov/amgen/2026-05-01/NCT07134088.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07037459.json`
 - `raw/ctgov/amgen/2026-04-07/NCT07136012.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07136012.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07136012.json`
 - `raw/ctgov/amgen/2026-04-07/NCT07172919.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07172919.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07172919.json`
 - `raw/ctgov/amgen/2026-04-07/NCT07213674.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07213674.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07213674.json`
 - `raw/ctgov/amgen/2026-04-07/NCT07225686.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07225686.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07225686.json`
 - `raw/ctgov/amgen/2026-04-07/NCT07226765.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07226765.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07226765.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07293260.json`
 - `raw/ctgov/amgen/2026-04-07/NCT07388498.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07388498.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07438405.json`
 - `raw/ctgov/amgen/2026-04-07/NCT07441252.json`
 - `raw/ctgov/amgen/2026-05-01/NCT07441252.json`
+- `raw/ctgov/amgen/2026-06-01/NCT07441252.json`
 - `raw/ctgov/amgen/2026-04-07/NCT03600883.json`
 - `raw/ctgov/amgen/2026-04-06/NCT03836040.json`
 - `raw/ctgov/amgen/2026-04-06/NCT03937154.json`
@@ -3922,12 +3991,20 @@ Not specified in source document.
 - `raw/ctgov/amgen/2026-04-07/NCT03937154.json`
 - `raw/ctgov/amgen/2026-04-07/NCT04303780.json`
 - `raw/ctgov/amgen/2026-05-01/NCT04303780.json`
+- `raw/ctgov/amgen/2026-04-07/NCT04521231.json`
+- `raw/ctgov/amgen/2026-05-01/NCT04521231.json`
+- `raw/ctgov/amgen/2026-06-01/NCT04521231.json`
 - `raw/ctgov/amgen/2026-04-07/NCT04524273.json`
+- `raw/ctgov/amgen/2026-06-01/NCT04524273.json`
 - `raw/ctgov/amgen/2026-04-07/NCT04540497.json`
 - `raw/ctgov/amgen/2026-04-07/NCT04586660.json`
+- `raw/ctgov/amgen/2026-04-07/NCT04994717.json`
+- `raw/ctgov/amgen/2026-05-01/NCT04994717.json`
+- `raw/ctgov/amgen/2026-06-01/NCT04994717.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05052801.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05060016.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05094336.json`
+- `raw/ctgov/amgen/2026-06-01/NCT05094336.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05111626.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05284747.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05322577.json`
@@ -3935,21 +4012,21 @@ Not specified in source document.
 - `raw/ctgov/amgen/2026-04-07/NCT05581303.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05740566.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05882877.json`
-- `raw/ctgov/amgen/2026-04-07/NCT05975073.json`
-- `raw/ctgov/amgen/2026-05-01/NCT05975073.json`
+- `raw/ctgov/amgen/2026-06-01/NCT05882877.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06054113.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06054555.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06088199.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06104124.json`
+- `raw/ctgov/amgen/2026-04-07/NCT06117774.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06117774.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06180278.json`
 - `raw/pubmed/atezolizumab/2026-04-12/abstract-40934933.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06211036.json`
-- `raw/ctgov/amgen/2026-04-07/NCT06229145.json`
-- `raw/ctgov/amgen/2026-05-01/NCT06229145.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06245408.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06248619.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06311721.json`
 - `raw/ctgov/amgen/2026-05-01/NCT06311721.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06311721.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06312020.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06332014.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06376045.json`
@@ -3957,7 +4034,15 @@ Not specified in source document.
 - `raw/ctgov/amgen/2026-04-07/NCT06502977.json`
 - `raw/ctgov/amgen/2026-05-01/NCT06502977.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06527404.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06527404.json`
+- `raw/ctgov/amgen/2026-04-07/NCT06588153.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06588153.json`
+- `raw/ctgov/amgen/2026-04-07/NCT06593522.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06593522.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06593522.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06660173.json`
+- `raw/ctgov/amgen/2026-04-07/NCT06691984.json`
+- `raw/ctgov/amgen/2026-06-01/NCT06691984.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06745323.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06858839.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06858878.json`
@@ -3980,6 +4065,7 @@ Not specified in source document.
 - `raw/ctgov/amgen/2026-04-07/NCT05002998.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05174065.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05198934.json`
+- `raw/ctgov/amgen/2026-05-01/NCT05198934.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05325866.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05361395.json`
 - `raw/pubmed/durvalumab/2026-04-12/abstract-40934933.json`
@@ -3991,8 +4077,12 @@ Not specified in source document.
 - `raw/ctgov/amgen/2026-04-07/NCT05724199.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05899816.json`
 - `raw/ctgov/amgen/2026-04-07/NCT05907122.json`
+- `raw/ctgov/amgen/2026-04-07/NCT05975073.json`
+- `raw/ctgov/amgen/2026-05-01/NCT05975073.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06079476.json`
 - `raw/ctgov/amgen/2026-04-07/NCT06122649.json`
+- `raw/ctgov/amgen/2026-04-07/NCT06229145.json`
+- `raw/ctgov/amgen/2026-05-01/NCT06229145.json`
 - `raw/ctgov/amgen/2026-04-07/NCT04506086.json`
 - `raw/ctgov/amgen/2026-04-07/NCT04631601.json`
 - `raw/ctgov/amgen/2026-04-07/NCT04781543.json`
