@@ -79,28 +79,27 @@ export default function CompanyView({ slug, onSelectIndication }) {
       {/* Events + indications in one row */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: meta.indications_active?.length > 0 ? '1fr 1fr 1fr' : '1fr 1fr',
+        gridTemplateColumns: `repeat(${[secEvents.length > 0, true, meta.indications_active?.length > 0].filter(Boolean).length}, 1fr)`,
         gap: 10,
         marginBottom: 20,
         alignItems: 'start',
       }}>
-        <div className="card">
-          <p className="sec-label" style={{ marginBottom: 12 }}>Earnings &amp; regulatory</p>
-          <div className="event-list">
-            {secEvents.length === 0 && (
-              <p style={{ fontSize: 13, color: '#888780' }}>No SEC filings in wiki</p>
-            )}
-            {secEvents.slice(0, 8).map((e, i) => (
-              <div key={i} className="event-row">
-                <span className="evt-dot" style={{ background: eventColor(e.event) }} />
-                <div>
-                  <div className="evt-date">{e.date}</div>
-                  <div className="evt-text">{e.event}</div>
+        {secEvents.length > 0 && (
+          <div className="card">
+            <p className="sec-label" style={{ marginBottom: 12 }}>Earnings &amp; regulatory</p>
+            <div className="event-list">
+              {secEvents.slice(0, 8).map((e, i) => (
+                <div key={i} className="event-row">
+                  <span className="evt-dot" style={{ background: eventColor(e.event) }} />
+                  <div>
+                    <div className="evt-date">{e.date}</div>
+                    <div className="evt-text">{e.event}</div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         <div className="card">
           <p className="sec-label" style={{ marginBottom: 12 }}>Clinical trials</p>
