@@ -3,8 +3,8 @@ import { streamAsk } from '../api'
 
 const SparkIcon = () => (
   <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-    <circle cx="8" cy="8" r="6.5" stroke="#888780" strokeWidth="1.2" />
-    <path d="M6 8h4M8 6v4" stroke="#888780" strokeWidth="1.2" strokeLinecap="round" />
+    <circle cx="8" cy="8" r="6.5" stroke="#7a8099" strokeWidth="1.2" />
+    <path d="M6 8h4M8 6v4" stroke="#7a8099" strokeWidth="1.2" strokeLinecap="round" />
   </svg>
 )
 
@@ -122,7 +122,7 @@ export default function AIBar({ indication, company, displayName }) {
             {suggestions.map((s, i) => (
               <div key={i} className="ai-suggestion" onClick={() => submit(s)}>
                 <span>{s}</span>
-                <span style={{ color: '#b4b2a9', fontSize: 14 }}>↗</span>
+                <span style={{ color: '#7a8099', fontSize: 14 }}>↗</span>
               </div>
             ))}
           </div>

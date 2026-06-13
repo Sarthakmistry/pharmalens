@@ -115,7 +115,7 @@ export default function StockChart({ slug }) {
       const y = yScale(prevClose)
       g.append('line')
         .attr('x1', 0).attr('y1', y).attr('x2', iW).attr('y2', y)
-        .attr('stroke', '#ccc').attr('stroke-width', 1).attr('stroke-dasharray', '4 3')
+        .attr('stroke', '#3a4560').attr('stroke-width', 1).attr('stroke-dasharray', '4 3')
     }
 
     // X axis
@@ -132,25 +132,25 @@ export default function StockChart({ slug }) {
           .tickSize(3)
       )
       .call(ax => ax.select('.domain').remove())
-      .call(ax => ax.selectAll('text').attr('font-size', 10).attr('fill', '#888'))
-      .call(ax => ax.selectAll('.tick line').attr('stroke', '#ddd'))
+      .call(ax => ax.selectAll('text').attr('font-size', 10).attr('fill', '#7a8099'))
+      .call(ax => ax.selectAll('.tick line').attr('stroke', '#252b3b'))
 
     // Y axis
     g.append('g')
       .call(d3.axisLeft(yScale).ticks(4).tickFormat(d => `$${d3.format(',.0f')(d)}`).tickSize(3))
       .call(ax => ax.select('.domain').remove())
-      .call(ax => ax.selectAll('text').attr('font-size', 10).attr('fill', '#888'))
-      .call(ax => ax.selectAll('.tick line').attr('stroke', '#ddd'))
+      .call(ax => ax.selectAll('text').attr('font-size', 10).attr('fill', '#7a8099'))
+      .call(ax => ax.selectAll('.tick line').attr('stroke', '#252b3b'))
 
     // Crosshair + tooltip
     const tooltip = g.append('g').attr('display', 'none')
     tooltip.append('line')
       .attr('class', 'xhair')
       .attr('y1', 0).attr('y2', iH)
-      .attr('stroke', '#aaa').attr('stroke-width', 1).attr('stroke-dasharray', '3 2')
+      .attr('stroke', '#7a8099').attr('stroke-width', 1).attr('stroke-dasharray', '3 2')
     const dot = tooltip.append('circle').attr('r', 3).attr('fill', lineColor).attr('stroke', '#fff').attr('stroke-width', 1.5)
     const box = tooltip.append('g')
-    const rect = box.append('rect').attr('fill', '#1a1a18').attr('rx', 4).attr('height', 28).attr('y', -34)
+    const rect = box.append('rect').attr('fill', '#0c0e17').attr('rx', 4).attr('height', 28).attr('y', -34)
     const txt  = box.append('text').attr('fill', '#fff').attr('font-size', 11).attr('y', -16).attr('text-anchor', 'middle')
 
     const bisect = d3.bisector(d => d.t).left
@@ -199,8 +199,8 @@ export default function StockChart({ slug }) {
               padding: '3px 10px',
               fontSize: 12,
               fontWeight: period === p ? 600 : 400,
-              background: period === p ? '#1a1a18' : 'transparent',
-              color: period === p ? '#fff' : '#888',
+              background: period === p ? '#1e2640' : 'transparent',
+              color: period === p ? '#4d9ef7' : '#7a8099',
               border: 'none',
               borderRadius: 6,
               cursor: 'pointer',
@@ -210,7 +210,7 @@ export default function StockChart({ slug }) {
           </button>
         ))}
         {(period === '1mo' || period === '1y') && (
-          <div style={{ display: 'flex', gap: 10, marginLeft: 12, alignItems: 'center', fontSize: 10, color: '#888' }}>
+          <div style={{ display: 'flex', gap: 10, marginLeft: 12, alignItems: 'center', fontSize: 10, color: '#7a8099' }}>
             <span><span style={{ display: 'inline-block', width: 18, borderTop: '1px dashed #BA7517', verticalAlign: 'middle', marginRight: 4 }} />
               {period === '1y' ? '50d MA' : '20d MA'}
             </span>
@@ -223,7 +223,7 @@ export default function StockChart({ slug }) {
 
       {/* Chart */}
       {loading
-        ? <div style={{ height: 200, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 12, color: '#888' }}>Loading…</div>
+        ? <div style={{ height: 200, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 12, color: '#7a8099' }}>Loading…</div>
         : <svg ref={svgRef} style={{ display: 'block' }} />
       }
     </div>

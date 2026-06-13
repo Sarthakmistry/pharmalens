@@ -2,19 +2,19 @@ import { useState, useEffect } from 'react'
 import { fetchCompanyTrials } from '../api'
 import { eventColor } from '../parseWiki'
 
-const ACTIVE_COLOR    = '#1D9E75'
-const COMPLETED_COLOR = '#aaa'
+const ACTIVE_COLOR    = '#4d9ef7'
+const COMPLETED_COLOR = '#3a4560'
 
 function StatCard({ label, value }) {
   return (
     <div style={{
-      background: '#f5f4f0',
+      background: '#1a2035',
       borderRadius: 8,
       padding: '10px 12px',
       flex: 1,
     }}>
-      <div style={{ fontSize: 11, color: '#888', marginBottom: 4 }}>{label}</div>
-      <div style={{ fontSize: 22, fontWeight: 700, color: '#1a1a18', lineHeight: 1 }}>{value}</div>
+      <div style={{ fontSize: 11, color: '#7a8099', marginBottom: 4 }}>{label}</div>
+      <div style={{ fontSize: 22, fontWeight: 700, color: '#dde1f0', lineHeight: 1 }}>{value}</div>
     </div>
   )
 }
@@ -34,7 +34,7 @@ function PhaseChart({ phases }) {
 
   return (
     <div style={{ marginTop: 10 }}>
-      <div style={{ display: 'flex', gap: 12, marginBottom: 8, fontSize: 10, color: '#888' }}>
+      <div style={{ display: 'flex', gap: 12, marginBottom: 8, fontSize: 10, color: '#7a8099' }}>
         <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
           <span style={{ width: 8, height: 8, borderRadius: 2, background: ACTIVE_COLOR, display: 'inline-block' }} />
           Active / recruiting
@@ -53,7 +53,7 @@ function PhaseChart({ phases }) {
 
           return (
             <g key={p.phase}>
-              <text x={LABEL_W - 6} y={y + BAR_H - 1} textAnchor="end" fontSize={11} fill="#666">
+              <text x={LABEL_W - 6} y={y + BAR_H - 1} textAnchor="end" fontSize={11} fill="#9aa3be">
                 {p.phase}
               </text>
 
@@ -65,10 +65,10 @@ function PhaseChart({ phases }) {
               )}
 
               {p.active > 0 && (
-                <text x={LABEL_W + activeW + 5} y={y + BAR_H - 1} fontSize={10} fill="#555">{p.active}</text>
+                <text x={LABEL_W + activeW + 5} y={y + BAR_H - 1} fontSize={10} fill="#9aa3be">{p.active}</text>
               )}
               {p.completed > 0 && (
-                <text x={LABEL_W + compW + 5} y={y + BAR_H + GAP + BAR_H - 1} fontSize={10} fill="#555">{p.completed}</text>
+                <text x={LABEL_W + compW + 5} y={y + BAR_H + GAP + BAR_H - 1} fontSize={10} fill="#9aa3be">{p.completed}</text>
               )}
             </g>
           )
