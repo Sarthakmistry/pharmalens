@@ -105,7 +105,7 @@ export default function TrialsPanel({ slug, researchEvents }) {
           {/* Stat cards */}
           <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
             <StatCard label="Active trials"           value={stats.active} />
-            <StatCard label="Reached completion (90d)" value={stats.completed_90d} />
+            <StatCard label="Reached completion (1y)"  value={stats.completed_90d} />
             <StatCard label="With published results"   value={stats.with_results} />
           </div>
 

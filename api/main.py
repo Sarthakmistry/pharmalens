@@ -217,7 +217,7 @@ def get_company_trials(slug: str) -> dict:
         trials.append(meta)
 
     today = date.today()
-    cutoff = (today - timedelta(days=90)).isoformat()
+    cutoff = (today - timedelta(days=365)).isoformat()
 
     active_trials     = [t for t in trials if t["is_active"]]
     completed_90d     = [t for t in trials if not t["is_active"]

@@ -53,11 +53,29 @@ export default function CompanyView({ slug, onSelectIndication }) {
         </div>
       </div>
 
-      {/* Drug portfolio */}
+      {/* 1. Earnings & regulatory — top, full width (if exists) */}
+      {secEvents.length > 0 && (
+        <div className="card" style={{ marginBottom: 10 }}>
+          <p className="sec-label" style={{ marginBottom: 12 }}>Earnings &amp; regulatory</p>
+          <div className="event-list">
+            {secEvents.slice(0, 8).map((e, i) => (
+              <div key={i} className="event-row">
+                <span className="evt-dot" style={{ background: eventColor(e.event) }} />
+                <div>
+                  <div className="evt-date">{e.date}</div>
+                  <div className="evt-text">{e.event}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* 2. Drug portfolio */}
       {meta.drugs?.length > 0 && (
         <>
           <p className="sec-label" style={{ marginBottom: 10 }}>Drug portfolio</p>
-          <div className="drug-grid" style={{ marginBottom: 20 }}>
+          <div className="drug-grid" style={{ marginBottom: 10 }}>
             {meta.drugs.map((drug, i) => {
               const indications = drug_indications[drug] ?? []
               return (
@@ -76,31 +94,14 @@ export default function CompanyView({ slug, onSelectIndication }) {
         </>
       )}
 
-      {/* Events + clinical evidence + indications */}
+      {/* 3. Clinical evidence + active indications side by side */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: `repeat(${[secEvents.length > 0, true, meta.indications_active?.length > 0].filter(Boolean).length}, 1fr)`,
+        gridTemplateColumns: meta.indications_active?.length > 0 ? '1fr 200px' : '1fr',
         gap: 10,
         marginBottom: 20,
         alignItems: 'start',
       }}>
-        {secEvents.length > 0 && (
-          <div className="card">
-            <p className="sec-label" style={{ marginBottom: 12 }}>Earnings &amp; regulatory</p>
-            <div className="event-list">
-              {secEvents.slice(0, 8).map((e, i) => (
-                <div key={i} className="event-row">
-                  <span className="evt-dot" style={{ background: eventColor(e.event) }} />
-                  <div>
-                    <div className="evt-date">{e.date}</div>
-                    <div className="evt-text">{e.event}</div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
         <TrialsPanel slug={slug} researchEvents={researchEvents} />
 
         {meta.indications_active?.length > 0 && (
