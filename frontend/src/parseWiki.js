@@ -79,6 +79,26 @@ export function parseEventsTable(wikiBody) {
     .sort((a, b) => b.date.localeCompare(a.date))
 }
 
+// Group trial_completion events by (phase, drug) → [{phase, drug, count, nctIds}]
+export function groupTrialCompletions(completionEvents) {
+  const groups = {}
+  for (const e of completionEvents) {
+    const phaseMatch = e.event.match(/Phase\s+([\d/]+)/i)
+    const drugMatch  = e.event.match(/for\s+(?:\[\[)?([a-z][a-z0-9\s-]+?)(?:\]\])?\s+completed/i)
+    const nctMatch   = e.event.match(/NCT\d+/)
+    const phase = phaseMatch ? phaseMatch[1] : '?'
+    const drug  = drugMatch  ? drugMatch[1].trim() : 'unknown'
+    const key   = `${phase}||${drug}`
+    if (!groups[key]) groups[key] = { phase, drug, count: 0, nctIds: [] }
+    groups[key].count++
+    if (nctMatch) groups[key].nctIds.push(nctMatch[0])
+  }
+  return Object.values(groups).sort((a, b) => {
+    const phaseOrder = n => (n === '3' ? 0 : n === '2' ? 1 : n === '1/2' ? 2 : n === '1' ? 3 : 4)
+    return phaseOrder(a.phase) - phaseOrder(b.phase)
+  })
+}
+
 // Map sentiment string → integer 1-5 for dot display
 export function sentimentScore(s) {
   return { Bullish: 5, 'Moderately Bullish': 4, Neutral: 3, 'Moderately Bearish': 2, Bearish: 1 }[s] ?? 3
