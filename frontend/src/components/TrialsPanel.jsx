@@ -23,12 +23,12 @@ function PhaseChart({ phases }) {
   if (!phases.length) return null
 
   const maxVal  = Math.max(...phases.flatMap(p => [p.active, p.completed]), 1)
-  const BAR_H   = 8
-  const GAP     = 3
-  const ROW_H   = BAR_H * 2 + GAP + 10
-  const LABEL_W = 72
-  const CHART_W = 160
-  const COUNT_W = 24
+  const BAR_H   = 10
+  const GAP     = 4
+  const ROW_H   = BAR_H * 2 + GAP + 12
+  const LABEL_W = 80
+  const CHART_W = 220
+  const COUNT_W = 28
   const TOTAL_W = LABEL_W + CHART_W + COUNT_W
   const totalH  = phases.length * ROW_H
 
@@ -53,7 +53,7 @@ function PhaseChart({ phases }) {
 
           return (
             <g key={p.phase}>
-              <text x={LABEL_W - 6} y={y + BAR_H - 1} textAnchor="end" fontSize={10} fill="#777">
+              <text x={LABEL_W - 6} y={y + BAR_H - 1} textAnchor="end" fontSize={11} fill="#666">
                 {p.phase}
               </text>
 
@@ -65,10 +65,10 @@ function PhaseChart({ phases }) {
               )}
 
               {p.active > 0 && (
-                <text x={LABEL_W + activeW + 4} y={y + BAR_H - 1} fontSize={9} fill="#555">{p.active}</text>
+                <text x={LABEL_W + activeW + 5} y={y + BAR_H - 1} fontSize={10} fill="#555">{p.active}</text>
               )}
               {p.completed > 0 && (
-                <text x={LABEL_W + compW + 4} y={y + BAR_H + GAP + BAR_H - 1} fontSize={9} fill="#555">{p.completed}</text>
+                <text x={LABEL_W + compW + 5} y={y + BAR_H + GAP + BAR_H - 1} fontSize={10} fill="#555">{p.completed}</text>
               )}
             </g>
           )
