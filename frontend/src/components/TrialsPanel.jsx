@@ -45,7 +45,7 @@ function PhaseChart({ phases }) {
         </span>
       </div>
 
-      <svg width="100%" viewBox={`0 0 ${TOTAL_W} ${totalH}`}>
+      <svg width={TOTAL_W} viewBox={`0 0 ${TOTAL_W} ${totalH}`}>
         {phases.map((p, i) => {
           const y       = i * ROW_H
           const activeW = (p.active    / maxVal) * CHART_W
