@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
 import { fetchCompany } from '../api'
-import { parseEventsTable, eventColor, groupTrialCompletions } from '../parseWiki'
+import { parseEventsTable, eventColor } from '../parseWiki'
 import AIBar from './AIBar'
+import TrialsPanel from './TrialsPanel'
 
 
 export default function CompanyView({ slug, onSelectIndication }) {
@@ -19,11 +20,8 @@ export default function CompanyView({ slug, onSelectIndication }) {
 
   const { meta, wiki, stock, drug_indications = {} } = data
   const events = parseEventsTable(wiki)
-  const secEvents        = events.filter(e => e.type === 'sec')
-  const researchEvents   = events.filter(e => e.type === 'research')
-  const completionEvents = events.filter(e => e.type === 'trial')
-  const completionGroups = groupTrialCompletions(completionEvents)
-  const hasTrialContent  = researchEvents.length > 0 || completionGroups.length > 0
+  const secEvents      = events.filter(e => e.type === 'sec')
+  const researchEvents = events.filter(e => e.type === 'research')
 
   const changePct = stock?.change_pct
   const priceClass = changePct > 0 ? 'price-pos' : changePct < 0 ? 'price-neg' : 'price-neu'
@@ -79,10 +77,10 @@ export default function CompanyView({ slug, onSelectIndication }) {
         </>
       )}
 
-      {/* Events + indications in one row */}
+      {/* Events + clinical evidence + indications */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: `repeat(${[secEvents.length > 0, hasTrialContent, meta.indications_active?.length > 0].filter(Boolean).length}, 1fr)`,
+        gridTemplateColumns: `repeat(${[secEvents.length > 0, true, meta.indications_active?.length > 0].filter(Boolean).length}, 1fr)`,
         gap: 10,
         marginBottom: 20,
         alignItems: 'start',
@@ -104,57 +102,7 @@ export default function CompanyView({ slug, onSelectIndication }) {
           </div>
         )}
 
-        {hasTrialContent && (
-          <div className="card">
-            <p className="sec-label" style={{ marginBottom: 12 }}>Clinical evidence</p>
-
-            {researchEvents.length > 0 && (
-              <div className="event-list" style={{ marginBottom: completionGroups.length > 0 ? 14 : 0 }}>
-                {researchEvents.slice(0, 5).map((e, i) => (
-                  <div key={i} className="event-row">
-                    <span className="evt-dot" style={{ background: eventColor(e.event) }} />
-                    <div>
-                      <div className="evt-date">{e.date}</div>
-                      <div className="evt-text">{e.event}</div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {completionGroups.length > 0 && (
-              <>
-                {researchEvents.length > 0 && (
-                  <p className="sec-label" style={{ marginBottom: 8 }}>Completed trials</p>
-                )}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-                  {completionGroups.map((g, i) => (
-                    <div key={i}>
-                      <div style={{ fontSize: 11, fontWeight: 600, color: '#888', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: 4 }}>
-                        Phase {g.phase}
-                      </div>
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                        {g.events.map((e, j) => (
-                          <div key={j} className="event-row">
-                            <span className="evt-dot" style={{ background: '#378ADD' }} />
-                            <div>
-                              <div className="evt-date">{e.date}</div>
-                              <div className="evt-text">{e.event}</div>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </>
-            )}
-
-            {!hasTrialContent && (
-              <p style={{ fontSize: 13, color: '#888780' }}>No clinical events in wiki</p>
-            )}
-          </div>
-        )}
+        <TrialsPanel slug={slug} researchEvents={researchEvents} />
 
         {meta.indications_active?.length > 0 && (
           <div className="card">

@@ -181,6 +181,75 @@ def get_company(slug: str) -> dict:
     }
 
 
+@app.get("/api/company/{slug}/trials")
+def get_company_trials(slug: str) -> dict:
+    """
+    Parse the per-company trials wiki and return structured trial data.
+    Includes stats (active, completed 90d, with results) and phase distribution.
+    """
+    import re
+    from datetime import date, timedelta
+
+    if slug not in COMPANIES:
+        raise HTTPException(status_code=404, detail=f"Company '{slug}' not found")
+
+    trial_path = WIKI_DIR / "trials" / f"{slug}.md"
+    if not trial_path.exists():
+        return {"trials": [], "stats": {"active": 0, "completed_90d": 0, "with_results": 0}, "phases": []}
+
+    content = trial_path.read_text()
+    blocks = re.split(r"^---$", content, flags=re.MULTILINE)
+
+    _ACTIVE_STATUSES = {"recruiting", "active", "not yet recruiting", "enrolling by invitation", "approved for marketing"}
+
+    trials = []
+    for block in blocks:
+        try:
+            meta = yaml.safe_load(block.strip())
+        except yaml.YAMLError:
+            continue
+        if not isinstance(meta, dict) or "trial_id" not in meta:
+            continue
+        # normalise phase to a display string
+        raw_phase = str(meta.get("phase") or "?").strip()
+        meta["phase_display"] = f"Phase {raw_phase}" if raw_phase != "?" else "Phase unspecified"
+        meta["is_active"] = str(meta.get("status") or "").lower() in _ACTIVE_STATUSES
+        trials.append(meta)
+
+    today = date.today()
+    cutoff = (today - timedelta(days=90)).isoformat()
+
+    active_trials     = [t for t in trials if t["is_active"]]
+    completed_90d     = [t for t in trials if not t["is_active"]
+                         and str(t.get("primary_completion_date") or "") >= cutoff]
+    with_results      = [t for t in trials if t.get("has_results")]
+
+    # Phase distribution for chart
+    phase_order = {"1": 0, "1/2": 1, "2": 2, "2/3": 3, "3": 4, "4": 5, "?": 6}
+    phase_map: dict[str, dict] = {}
+    for t in trials:
+        pd = t["phase_display"]
+        raw = str(t.get("phase") or "?").strip()
+        if pd not in phase_map:
+            phase_map[pd] = {"phase": pd, "sort": phase_order.get(raw, 7), "active": 0, "completed": 0}
+        if t["is_active"]:
+            phase_map[pd]["active"] += 1
+        else:
+            phase_map[pd]["completed"] += 1
+
+    phases = sorted(phase_map.values(), key=lambda x: x["sort"])
+
+    return {
+        "trials": trials,
+        "stats": {
+            "active":        len(active_trials),
+            "completed_90d": len(completed_90d),
+            "with_results":  len(with_results),
+        },
+        "phases": phases,
+    }
+
+
 # ── Q&A agent (SSE) ───────────────────────────────────────────────────────────
 
 

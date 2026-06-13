@@ -27,6 +27,11 @@ export async function fetchCompany(slug) {
   return r.json()
 }
 
+export async function fetchCompanyTrials(slug) {
+  const r = await fetch(`${BASE}/api/company/${slug}/trials`)
+  return r.json()
+}
+
 // POST /api/ask — returns an async generator of SSE event objects
 export async function* streamAsk(question, indication, company) {
   const response = await fetch(`${BASE}/api/ask`, {
