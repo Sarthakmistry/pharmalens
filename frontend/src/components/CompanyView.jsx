@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { fetchCompany } from '../api'
 import { parseEventsTable, eventColor } from '../parseWiki'
 import TrialsPanel from './TrialsPanel'
+import StockChart from './StockChart'
 
 
 export default function CompanyView({ slug, onSelectIndication }) {
@@ -55,6 +56,13 @@ export default function CompanyView({ slug, onSelectIndication }) {
           )}
         </div>
       </div>
+
+      {/* Stock chart */}
+      {meta.ticker && (
+        <div className="card" style={{ marginBottom: 10 }}>
+          <StockChart slug={slug} />
+        </div>
+      )}
 
       {/* 1. Earnings & regulatory — top, full width (if exists) */}
       {secEvents.length > 0 && (

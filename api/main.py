@@ -181,6 +181,47 @@ def get_company(slug: str) -> dict:
     }
 
 
+@app.get("/api/company/{slug}/stock-history")
+def get_stock_history(slug: str, period: str = "1d") -> dict:
+    """
+    Historical OHLCV data for the company's ticker via yfinance.
+    period: 1d | 5d | 1mo | 1y
+    Returns {ticker, prev_close, candles: [{t,o,h,l,c,v}]}
+    """
+    from .tools import get_stock_price
+    import yfinance as yf
+
+    if slug not in COMPANIES:
+        raise HTTPException(status_code=404, detail=f"Company '{slug}' not found")
+
+    ticker = COMPANIES[slug].get("ticker", "")
+    if not ticker:
+        raise HTTPException(status_code=404, detail="No ticker for this company")
+
+    _INTERVAL = {"1d": "5m", "5d": "30m", "1mo": "1d", "1y": "1d"}
+    interval = _INTERVAL.get(period, "1d")
+
+    try:
+        t   = yf.Ticker(ticker)
+        df  = t.history(period=period, interval=interval)
+        prev_close = t.fast_info.previous_close
+
+        candles = [
+            {
+                "t": str(idx),
+                "o": round(row.Open,  4),
+                "h": round(row.High,  4),
+                "l": round(row.Low,   4),
+                "c": round(row.Close, 4),
+                "v": int(row.Volume),
+            }
+            for idx, row in df.iterrows()
+        ]
+        return {"ticker": ticker, "prev_close": prev_close, "candles": candles}
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=str(e))
+
+
 @app.get("/api/company/{slug}/trials")
 def get_company_trials(slug: str) -> dict:
     """
