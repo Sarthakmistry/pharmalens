@@ -222,6 +222,12 @@ def get_stock_history(slug: str, period: str = "1d") -> dict:
         raise HTTPException(status_code=502, detail=str(e))
 
 
+def _normalize_status(raw: str) -> str:
+    """Canonical form: lowercase, spaces/commas/hyphens → underscore, collapsed."""
+    import re as _re
+    return _re.sub(r"[\s,\-]+", "_", (raw or "").strip().lower()).strip("_")
+
+
 def _count_concluded_trials(trials: list, lookback_days: int = 365) -> int:
     """
     A trial is 'concluded' if:
@@ -237,16 +243,16 @@ def _count_concluded_trials(trials: list, lookback_days: int = 365) -> int:
     count   = 0
 
     for t in trials:
-        status = str(t.get("status") or "").upper().replace(" ", "_")
+        status = _normalize_status(str(t.get("status") or ""))
         pcd    = str(t.get("primary_completion_date") or "")
 
-        if status in ("TERMINATED", "WITHDRAWN"):
+        if status in ("terminated", "withdrawn"):
             count += 1
             continue
 
         is_done = (
-            status == "COMPLETED" or
-            (status == "ACTIVE_NOT_RECRUITING" and pcd and pcd < today)
+            status == "completed" or
+            (status == "active_not_recruiting" and pcd and pcd < today)
         )
 
         if is_done and pcd >= cutoff:
@@ -274,9 +280,9 @@ def get_company_trials(slug: str) -> dict:
     blocks = re.split(r"^---$", content, flags=re.MULTILINE)
 
     _ACTIVE_STATUSES = {
-        "recruiting", "active", "not yet recruiting",
-        "enrolling by invitation", "approved for marketing",
-        "active_not_recruiting", "active, not recruiting",
+        "recruiting", "active", "not_yet_recruiting",
+        "enrolling_by_invitation", "approved_for_marketing",
+        "active_not_recruiting",
     }
 
     trials = []
@@ -289,7 +295,7 @@ def get_company_trials(slug: str) -> dict:
             continue
         raw_phase = str(meta.get("phase") or "?").strip()
         meta["phase_display"] = f"Phase {raw_phase}" if raw_phase != "?" else "Phase unspecified"
-        meta["is_active"] = str(meta.get("status") or "").lower() in _ACTIVE_STATUSES
+        meta["is_active"] = _normalize_status(str(meta.get("status") or "")) in _ACTIVE_STATUSES
         trials.append(meta)
 
     active_trials = [t for t in trials if t["is_active"]]
