@@ -276,6 +276,7 @@ def get_company_trials(slug: str) -> dict:
     _ACTIVE_STATUSES = {
         "recruiting", "active", "not yet recruiting",
         "enrolling by invitation", "approved for marketing",
+        "active_not_recruiting", "active, not recruiting",
     }
 
     trials = []
