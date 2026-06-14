@@ -222,14 +222,46 @@ def get_stock_history(slug: str, period: str = "1d") -> dict:
         raise HTTPException(status_code=502, detail=str(e))
 
 
+def _count_concluded_trials(trials: list, lookback_days: int = 365) -> int:
+    """
+    A trial is 'concluded' if:
+      - TERMINATED or WITHDRAWN: always counted (high-signal regardless of date)
+      - COMPLETED with primary_completion_date in the lookback window
+      - ACTIVE_NOT_RECRUITING that has passed its primary_completion_date,
+        also within the lookback window
+    """
+    from datetime import datetime, timedelta
+
+    cutoff  = (datetime.now() - timedelta(days=lookback_days)).strftime("%Y-%m-%d")
+    today   = datetime.now().strftime("%Y-%m-%d")
+    count   = 0
+
+    for t in trials:
+        status = str(t.get("status") or "").upper().replace(" ", "_")
+        pcd    = str(t.get("primary_completion_date") or "")
+
+        if status in ("TERMINATED", "WITHDRAWN"):
+            count += 1
+            continue
+
+        is_done = (
+            status == "COMPLETED" or
+            (status == "ACTIVE_NOT_RECRUITING" and pcd and pcd < today)
+        )
+
+        if is_done and pcd >= cutoff:
+            count += 1
+
+    return count
+
+
 @app.get("/api/company/{slug}/trials")
 def get_company_trials(slug: str) -> dict:
     """
     Parse the per-company trials wiki and return structured trial data.
-    Includes stats (active, completed 90d, with results) and phase distribution.
+    Includes stats (active, concluded, with results) and phase distribution.
     """
     import re
-    from datetime import date, timedelta
 
     if slug not in COMPANIES:
         raise HTTPException(status_code=404, detail=f"Company '{slug}' not found")
@@ -241,7 +273,10 @@ def get_company_trials(slug: str) -> dict:
     content = trial_path.read_text()
     blocks = re.split(r"^---$", content, flags=re.MULTILINE)
 
-    _ACTIVE_STATUSES = {"recruiting", "active", "not yet recruiting", "enrolling by invitation", "approved for marketing"}
+    _ACTIVE_STATUSES = {
+        "recruiting", "active", "not yet recruiting",
+        "enrolling by invitation", "approved for marketing",
+    }
 
     trials = []
     for block in blocks:
@@ -251,32 +286,27 @@ def get_company_trials(slug: str) -> dict:
             continue
         if not isinstance(meta, dict) or "trial_id" not in meta:
             continue
-        # normalise phase to a display string
         raw_phase = str(meta.get("phase") or "?").strip()
         meta["phase_display"] = f"Phase {raw_phase}" if raw_phase != "?" else "Phase unspecified"
         meta["is_active"] = str(meta.get("status") or "").lower() in _ACTIVE_STATUSES
         trials.append(meta)
 
-    today = date.today()
-    cutoff = (today - timedelta(days=365)).isoformat()
-
-    active_trials     = [t for t in trials if t["is_active"]]
-    completed_90d     = [t for t in trials if not t["is_active"]
-                         and str(t.get("primary_completion_date") or "") >= cutoff]
-    with_results      = [t for t in trials if t.get("has_results")]
+    active_trials = [t for t in trials if t["is_active"]]
+    with_results  = [t for t in trials if t.get("has_results")]
+    concluded     = _count_concluded_trials(trials)
 
     # Phase distribution for chart
     phase_order = {"1": 0, "1/2": 1, "2": 2, "2/3": 3, "3": 4, "4": 5, "?": 6}
     phase_map: dict[str, dict] = {}
     for t in trials:
-        pd = t["phase_display"]
-        raw = str(t.get("phase") or "?").strip()
-        if pd not in phase_map:
-            phase_map[pd] = {"phase": pd, "sort": phase_order.get(raw, 7), "active": 0, "completed": 0}
+        pd_key = t["phase_display"]
+        raw    = str(t.get("phase") or "?").strip()
+        if pd_key not in phase_map:
+            phase_map[pd_key] = {"phase": pd_key, "sort": phase_order.get(raw, 7), "active": 0, "completed": 0}
         if t["is_active"]:
-            phase_map[pd]["active"] += 1
+            phase_map[pd_key]["active"] += 1
         else:
-            phase_map[pd]["completed"] += 1
+            phase_map[pd_key]["completed"] += 1
 
     phases = sorted(phase_map.values(), key=lambda x: x["sort"])
 
@@ -284,7 +314,7 @@ def get_company_trials(slug: str) -> dict:
         "trials": trials,
         "stats": {
             "active":        len(active_trials),
-            "completed_90d": len(completed_90d),
+            "completed_90d": concluded,
             "with_results":  len(with_results),
         },
         "phases": phases,
