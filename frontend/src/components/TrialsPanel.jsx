@@ -1,11 +1,16 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
+import * as d3 from 'd3'
 import { fetchCompanyTrials } from '../api'
 import { eventColor } from '../parseWiki'
 
 const ACTIVE_COLOR    = '#4d9ef7'
 const COMPLETED_COLOR = '#3a4560'
 
-function StatCard({ label, value }) {
+const MARGIN  = { top: 4, right: 36, bottom: 20, left: 72 }
+const BAR_H   = 13
+const BAR_GAP = 8
+
+function StatCard({ label, value, sub }) {
   return (
     <div style={{
       background: '#1a2035',
@@ -14,89 +19,126 @@ function StatCard({ label, value }) {
       flex: 1,
     }}>
       <div style={{ fontSize: 11, color: '#7a8099', marginBottom: 4 }}>{label}</div>
-      <div style={{ fontSize: 22, fontWeight: 700, color: '#dde1f0', lineHeight: 1 }}>{value}</div>
+      <div style={{ fontSize: 22, fontWeight: 500, color: '#dde1f0', lineHeight: 1 }}>{value}</div>
+      {sub && <div style={{ fontSize: 10, color: '#7a8099', marginTop: 3 }}>{sub}</div>}
     </div>
   )
 }
 
 function PhaseChart({ phases }) {
+  const svgRef  = useRef(null)
+  const wrapRef = useRef(null)
+
+  const draw = useCallback(() => {
+    if (!phases.length || !svgRef.current || !wrapRef.current) return
+
+    const W  = wrapRef.current.clientWidth
+    const nR = phases.length
+    const H  = MARGIN.top + nR * (BAR_H + BAR_GAP) - BAR_GAP + MARGIN.bottom
+    const iW = W - MARGIN.left - MARGIN.right
+
+    const maxVal = Math.max(...phases.map(p => p.active + p.completed), 1)
+    const xScale = d3.scaleLinear().domain([0, maxVal]).range([0, iW])
+
+    const svg = d3.select(svgRef.current)
+    svg.selectAll('*').remove()
+    svg.attr('width', W).attr('height', H)
+
+    const g = svg.append('g').attr('transform', `translate(${MARGIN.left},${MARGIN.top})`)
+
+    // X axis
+    g.append('g')
+      .attr('transform', `translate(0,${H - MARGIN.top - MARGIN.bottom})`)
+      .call(d3.axisBottom(xScale).ticks(4).tickSize(-(H - MARGIN.top - MARGIN.bottom)).tickFormat(d3.format('d')))
+      .call(ax => ax.select('.domain').remove())
+      .call(ax => ax.selectAll('text').attr('font-size', 10).attr('fill', '#7a8099'))
+      .call(ax => ax.selectAll('.tick line').attr('stroke', '#252b3b').attr('stroke-dasharray', '3 2'))
+
+    phases.forEach((p, i) => {
+      const y      = i * (BAR_H + BAR_GAP)
+      const aW     = xScale(p.active)
+      const cW     = xScale(p.completed)
+      const total  = p.active + p.completed
+
+      // Phase label
+      g.append('text')
+        .attr('x', -6).attr('y', y + BAR_H / 2 + 4)
+        .attr('text-anchor', 'end')
+        .attr('font-size', 11).attr('fill', '#9aa3be')
+        .text(p.phase)
+
+      // Active segment
+      if (p.active > 0) {
+        g.append('rect')
+          .attr('x', 0).attr('y', y)
+          .attr('width', aW).attr('height', BAR_H)
+          .attr('rx', 2).attr('fill', ACTIVE_COLOR)
+      }
+
+      // Completed segment (stacked)
+      if (p.completed > 0) {
+        g.append('rect')
+          .attr('x', aW).attr('y', y)
+          .attr('width', cW).attr('height', BAR_H)
+          .attr('rx', 2).attr('fill', COMPLETED_COLOR)
+      }
+
+      // Total count at end
+      if (total > 0) {
+        g.append('text')
+          .attr('x', aW + cW + 5).attr('y', y + BAR_H / 2 + 4)
+          .attr('font-size', 10).attr('fill', '#7a8099')
+          .text(total)
+      }
+    })
+  }, [phases])
+
+  useEffect(() => {
+    draw()
+    const ro = new ResizeObserver(draw)
+    if (wrapRef.current) ro.observe(wrapRef.current)
+    return () => ro.disconnect()
+  }, [draw])
+
   if (!phases.length) return null
 
-  const maxVal  = Math.max(...phases.flatMap(p => [p.active, p.completed]), 1)
-  const BAR_H   = 10
-  const GAP     = 4
-  const ROW_H   = BAR_H * 2 + GAP + 12
-  const LABEL_W = 80
-  const CHART_W = 220
-  const COUNT_W = 28
-  const TOTAL_W = LABEL_W + CHART_W + COUNT_W
-  const totalH  = phases.length * ROW_H
-
   return (
-    <div style={{ marginTop: 10 }}>
-      <div style={{ display: 'flex', gap: 12, marginBottom: 8, fontSize: 10, color: '#7a8099' }}>
-        <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+    <div ref={wrapRef} style={{ width: '100%', marginTop: 10 }}>
+      <div style={{ display: 'flex', gap: 14, marginBottom: 8, fontSize: 10, color: '#7a8099' }}>
+        <span style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
           <span style={{ width: 8, height: 8, borderRadius: 2, background: ACTIVE_COLOR, display: 'inline-block' }} />
           Active / recruiting
         </span>
-        <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+        <span style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
           <span style={{ width: 8, height: 8, borderRadius: 2, background: COMPLETED_COLOR, display: 'inline-block' }} />
           Reached primary completion
         </span>
       </div>
-
-      <svg width={TOTAL_W} viewBox={`0 0 ${TOTAL_W} ${totalH}`}>
-        {phases.map((p, i) => {
-          const y       = i * ROW_H
-          const activeW = (p.active    / maxVal) * CHART_W
-          const compW   = (p.completed / maxVal) * CHART_W
-
-          return (
-            <g key={p.phase}>
-              <text x={LABEL_W - 6} y={y + BAR_H - 1} textAnchor="end" fontSize={11} fill="#9aa3be">
-                {p.phase}
-              </text>
-
-              {p.active > 0 && (
-                <rect x={LABEL_W} y={y} width={activeW} height={BAR_H} rx={2} fill={ACTIVE_COLOR} />
-              )}
-              {p.completed > 0 && (
-                <rect x={LABEL_W} y={y + BAR_H + GAP} width={compW} height={BAR_H} rx={2} fill={COMPLETED_COLOR} />
-              )}
-
-              {p.active > 0 && (
-                <text x={LABEL_W + activeW + 5} y={y + BAR_H - 1} fontSize={10} fill="#9aa3be">{p.active}</text>
-              )}
-              {p.completed > 0 && (
-                <text x={LABEL_W + compW + 5} y={y + BAR_H + GAP + BAR_H - 1} fontSize={10} fill="#9aa3be">{p.completed}</text>
-              )}
-            </g>
-          )
-        })}
-      </svg>
+      <svg ref={svgRef} style={{ display: 'block', overflow: 'visible' }} />
     </div>
   )
 }
 
 export default function TrialsPanel({ slug, researchEvents, recentCompletions }) {
   const [trialsData, setTrialsData] = useState(null)
+  const [showAllResults, setShowAllResults] = useState(false)
 
   useEffect(() => {
     setTrialsData(null)
+    setShowAllResults(false)
     fetchCompanyTrials(slug).then(setTrialsData)
   }, [slug])
 
   if (!trialsData) return null
 
   const { stats, phases } = trialsData
-  // Supplement trials-wiki completed count with event-table completions
-  // (completed trials aren't always in the trials wiki if they were only
-  //  captured as events during pipeline processing)
   const completedCount = Math.max(stats.completed_90d, recentCompletions ?? 0)
-  const hasTrialData  = phases.length > 0
-  const hasResearch   = researchEvents.length > 0
+  const hasTrialData   = phases.length > 0
+  const hasResearch    = researchEvents.length > 0
 
   if (!hasTrialData && !hasResearch) return null
+
+  const visibleResults = showAllResults ? researchEvents : researchEvents.slice(0, 1)
 
   return (
     <div className="card">
@@ -104,25 +146,33 @@ export default function TrialsPanel({ slug, researchEvents, recentCompletions })
 
       {hasTrialData && (
         <>
-          {/* Stat cards */}
           <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
-            <StatCard label="Active trials"           value={stats.active} />
-            <StatCard label="Reached completion (1y)" value={completedCount} />
-            <StatCard label="With published results"  value={stats.with_results} />
+            <StatCard label="Active trials"        value={stats.active} />
+            <StatCard label="Reached completion"   value={completedCount} sub="last 12 months" />
+            <StatCard label="Published results"    value={stats.with_results} />
           </div>
-
-          {/* Phase chart */}
           <PhaseChart phases={phases} />
         </>
       )}
 
-      {/* Clinical findings from pubmed */}
       {hasResearch && (
         <>
-          {hasTrialData && <hr className="divider" style={{ margin: '16px 0' }} />}
-          <p className="sec-label" style={{ marginBottom: 10 }}>Published results</p>
+          <hr className="divider" style={{ margin: '14px 0' }} />
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 8 }}>
+            <p className="sec-label" style={{ margin: 0 }}>
+              {showAllResults ? 'Published results' : 'Latest published result'}
+            </p>
+            {researchEvents.length > 1 && (
+              <button
+                onClick={() => setShowAllResults(v => !v)}
+                style={{ fontSize: 11, color: '#4d9ef7', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
+              >
+                {showAllResults ? 'show less' : `+${researchEvents.length - 1} more`}
+              </button>
+            )}
+          </div>
           <div className="event-list">
-            {researchEvents.slice(0, 5).map((e, i) => (
+            {visibleResults.map((e, i) => (
               <div key={i} className="event-row">
                 <span className="evt-dot" style={{ background: eventColor(e.event) }} />
                 <div>
