@@ -105,8 +105,13 @@ export default function CompanyView({ slug, onSelectIndication }) {
         </>
       )}
 
-      {/* 3. Clinical evidence + active indications side by side */}
-      <div style={{
+      {/* 3. Clinical evidence */}
+      <div style={{ marginBottom: 20 }}>
+        <TrialsPanel slug={slug} researchEvents={researchEvents} recentCompletions={recentCompletions} />
+      </div>
+
+      {/* Active indications tile — commented out, restore by un-commenting the grid below */}
+      {/* <div style={{
         display: 'grid',
         gridTemplateColumns: meta.indications_active?.length > 0 ? '1fr 200px' : '1fr',
         gap: 10,
@@ -135,7 +140,7 @@ export default function CompanyView({ slug, onSelectIndication }) {
             </div>
           </div>
         )}
-      </div>
+      </div> */}
 
     </div>
   )
