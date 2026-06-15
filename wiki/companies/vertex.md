@@ -26,7 +26,7 @@ Vertex Pharmaceuticals reported strong first-quarter 2026 financial results with
 Vertex Pharmaceuticals also reported strong fourth quarter and full year 2025 financial results with significant revenue growth and provided optimistic 2026 guidance, driven by its CF franchise and emerging non-CF products. The company is continuing to launch JOURNAVX and bringing CASGEVY to more patients globally. It is also on track to complete BLA filing for U.S. accelerated approval of povetacicept in IgAN in the first half of 2026.
 
 ### Pipeline
-- suzetrigine (DPN) - pivotal development
+- suzetrigine (DPN) - Phase 3 trial completed (NCT05558410)
 - zimislecel (T1D) - Phase 3 program to complete dosing this quarter, setting up potential filings in 2026.
 - povetacicept - Completed rolling BLA submission for U.S. accelerated approval for povetacicept in IgA nephropathy; initiated Phase 3 portion of Phase 2/3 study in primary membranous nephropathy and Phase 2 proof-of-concept study in generalized myasthenia gravis.
 - inaxaplin (AMKD) - Phase 3 IA cohort on track to complete enrollment in the second half of 2025.
@@ -34,6 +34,10 @@ Vertex Pharmaceuticals also reported strong fourth quarter and full year 2025 fi
 ### Recent events
 | Date | Type | Event | Signal |
 |---|---|---|---|
+| 2024-02-24 | trial | Phase 3 trial for Elx/tez/iva (NCT04183790) completed. | [[2024-02-24-elx/tez/iva-nct04183790-completed]] |
+| 2023-08-25 | trial | Phase 3 trial for Suzetrigine (suz) (NCT05558410) completed. | [[2023-08-25-suzetrigine-(suz)-nct05558410-completed]] |
+| 2023-01-09 | trial | Phase 3 trial for Elx/tez/iva (NCT03525574) completed. | [[2023-01-09-elx/tez/iva-nct03525574-completed]] |
+| 2021-11-11 | trial | Phase 2 trial for Vx-147 (NCT04340362) completed. | [[2021-11-11-vx-147-nct04340362-completed]] |
 | 2026-02-12 | sec | Vertex Pharmaceuticals reported strong fourth quarter and full year 2025 financial results with significant revenue growth and provided optimistic 2026 guidance, driven by its CF franchise and emerging non-CF products. | [[2026-02-12-vertex-q4-2025-earnings]] |
 | 2026-05-04 | sec | Vertex Pharmaceuticals reported strong Q1 2026 financial results with an 8% revenue increase and significant pipeline progress, including a BLA submission for povetacicept and regulatory submission for CASGEVY in children. | [[2026-05-04-vertex-q1-2026-earnings-pipeline-update]] |
 | 2025-11-03 | sec | Vertex reported strong Q3 2025 financial results, refined full-year guidance, and highlighted pipeline progress for povetacicept and momentum for CASGEVY and JOURNAVX. | [[2025-11-03-vertex-q3-earnings]] |
@@ -54,3 +58,7 @@ Vertex Pharmaceuticals also reported strong fourth quarter and full year 2025 fi
 - `raw/ctgov/vertex/2026-04-07/NCT03525574.json`
 - `raw/edgar/vertex/8K/2026-05-04-8K--26-000171.txt`
 - `raw/edgar/vertex/8k/2026-02-12-8K--26-000034.txt`
+- `raw/ctgov/vertex/2026-04-07/NCT04183790.json`
+- `raw/ctgov/vertex/2026-04-07/NCT04340362.json`
+- `raw/ctgov/vertex/2026-04-07/NCT05558410.json`
+---

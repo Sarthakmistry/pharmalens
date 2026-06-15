@@ -5,7 +5,7 @@ icd10: [C34, C34.0, C34.1, C34.2, C34.3]
 drugs_approved: [pembrolizumab, nivolumab, osimertinib, atezolizumab, durvalumab, trastuzumab deruxtecan, bevacizumab, cetuximab, olaparib]
 drugs_pipeline: [ribociclib, palbociclib]
 companies_active: [novo-nordisk, eli-lilly, bristol-myers-squibb, merck, pfizer, roche, astrazeneca, novartis, johnson-and-johnson, abbvie, amgen, gilead, biogen, regeneron, vertex, sanofi, gsk, takeda, eisai, bayer]
-active_trials: 162
+active_trials: 161
 last_updated: 2024-05-15
 ---
 
@@ -32,7 +32,7 @@ last_updated: 2024-05-15
 | [[merck]] | pembrolizumab | 2034-08-22: NCT07513376 for pembrolizumab initiated |
 | [[bristol-myers-squibb]] | nivolumab | 2026-02-05: Bristol-Myers Squibb reports strong FY25 earnings |
 | [[astrazeneca]] | osimertinib, durvalumab, trastuzumab deruxtecan, olaparib, bevacizumab | 2029-10-02: NCT07115043 for Azd6750, Rilvegostomig initiated by AstraZeneca |
-| [[roche]] | atezolizumab, bevacizumab | 2028-06-26: NCT04603807 for Entrectinib, Crizotinib initiated |
+| [[roche]] | atezolizumab, bevacizumab | 2029-10-02: NCT07115043 for Azd6750, Rilvegostomig initiated by AstraZeneca |
 | [[eli-lilly]] | cetuximab | 2026-05-31: NCT06003231 for Disitamab vedotin initiated |
 | [[takeda]] | | |
 | [[johnson-and-johnson]] | | 2026-01-21: Johnson & Johnson reported strong Q4 and Full-Year 2025 results, with reported sales growth of 9.1% and 6.0% respectively, driven by pharmaceutical and medtech segments. |
@@ -125,6 +125,7 @@ last_updated: 2024-05-15
 | 2024-03-21 | NCT03037385 for unknown completed primary endpoint | [[2024-03-21-unknown-nct03037385-completed]] | High |
 | 2024-03-13 | NCT04926831 for Capmatinib terminated | [[2024-03-13-unknown-nct04926831-terminated]] | High |
 | 2024-03-13 | NCT05546476 for unknown completed primary endpoint | [[2024-03-13-unknown-nct05546476-completed]] | High |
+| 2023-11-09 | NCT05171777 for atezolizumab completed primary endpoint | [[2023-11-09-atezolizumab-nct05171777-completed]] | High |
 | 2023-11-07 | NCT05460273 for Datopotamab deruxtecan completed primary endpoint | [[2023-11-07-datopotamab-deruxtecan-nct05460273-completed]] | High |
 | 2023-10-12 | NCT04677595 for Capmatinib completed primary endpoint | [[2023-10-12-unknown-nct04677595-completed]] | High |
 | 2023-09-23 | NCT05246514 for trastuzumab deruxtecan completed primary endpoint | [[2023-09-23-trastuzumab-deruxtecan-nct05246514-completed]] | High |
@@ -146,8 +147,8 @@ last_updated: 2024-05-15
 | 2021-05-19 | NCT03829332 for pembrolizumab completed primary endpoint | [[2021-05-19-pembrolizumab-nct03829332-completed]] | High |
 | 2020-08-10 | NCT03909971 for unknown completed primary endpoint | [[2020-08-10-unknown-nct03909971-completed]] | High |
 | 2019-08-16 | NCT03215706 for nivolumab completed primary endpoint | [[2019-08-16-nivolumab-nct03215706-completed]] | High |
+| 2017-02-09 | NCT02075840 for Alectinib completed primary endpoint | [[2017-02-09-alectinib-nct02075840-completed]] | High |
 | 2017-06-19 | NCT02296125 for Erlotinib, Gefitinib completed primary endpoint | [[2017-06-19-unknown-nct02296125-completed]] | High |
-| 2017-02-09 | NCT02075840 for atezolizumab completed primary endpoint | [[2017-02-09-atezolizumab-nct02075840-completed]] | High |
 | 2016-06-03 | NCT02087423 for unknown completed primary endpoint | [[2016-06-03-unknown-nct02087423-completed]] | High |
 | 2016-03-04 | NCT02442349 for unknown completed primary endpoint | [[2016-03-04-unknown-nct02442349-completed]] | High |
 | 2015-05-01 | NCT01802632 for Azd9291 completed primary endpoint | [[2015-05-01-unknown-nct01802632-completed]] | High |
@@ -213,6 +214,7 @@ last_updated: 2024-05-15
 | [[NCT05048797]] | [[pembrolizumab]], [[trastuzumab deruxtecan]] | 3 | ACTIVE_NOT_RECRUITING |
 | [[NCT05059522]] | Unknown | 3 | ACTIVE_NOT_RECRUITING |
 | [[NCT05061550]] | [[durvalumab]], Unknown | 2 | RECRUITING |
+| [[NCT05091567]] | [[atezolizumab]] | 3 | ACTIVE_NOT_RECRUITING |
 | [[NCT05099172]] | Unknown | 1/2 | ACTIVE_NOT_RECRUITING |
 | [[NCT05120349]] | [[osimertinib]] | 3 | ACTIVE_NOT_RECRUITING |
 | [[NCT05123482]] | Unknown | 1/2 | RECRUITING |
@@ -1183,6 +1185,105 @@ last_updated: 2024-05-15
 - **Journal**: Oncoimmunology, 2026
 - **Industry sponsored**: null
 
+#### Atezolizumab plus Cabozantinib vs Docetaxel in NSCLC (NCT04471428)
+- **Study design**: RCT
+- **Sample size**: 366 patients
+- **Comparator**: docetaxel
+- **Primary outcome**: overall survival (OS)
+- **Primary result**: Median OS was 10.7 months (95% CI, 8.8 to 12.3) with atezolizumab plus cabozantinib and 10.5 months (95% CI, 8.6 to 13.0) with docetaxel (stratified hazard ratio [HR], 0.88 [95% CI, 0.68 to 1.16]; P = .3668).
+- **Secondary results**:
+    - Median progression-free survival was 4.6 months (95% CI, 4.1 to 5.6) and 4.0 months (95% CI, 3.1 to 4.4), respectively (stratified HR, 0.74 [95% CI, 0.59 to 0.92]).
+- **Safety**: Serious adverse events (AEs) occurred in 71 (38.4%) patients receiving atezolizumab plus cabozantinib and 58 (34.7%) receiving docetaxel. Grade 3/4 treatment-related AEs occurred in 73 (39.5%) patients receiving atezolizumab plus cabozantinib and 58 (34.7%) receiving docetaxel. Grade 5 AEs occurred in 14 (7.6%) and 10 (6.0%) patients in the atezolizumab plus cabozantinib and docetaxel arms, respectively (treatment-related in four [2.2%] and one [0.6%], respectively). Safety was consistent with known profiles of these agents.
+- **Conclusions**: Atezolizumab plus cabozantinib after disease progression following anti-PD-L1/PD-1 immunotherapy and platinum-containing chemotherapy for metastatic NSCLC did not improve OS compared with docetaxel. Safety was consistent with known profiles of these agents.
+- **Journal**: J Clin Oncol., 2024
+- **Industry sponsored**: null
+
+#### Lurbinectedin plus Atezolizumab vs Atezolizumab in ES-SCLC (NCT05091567)
+- **Study design**: RCT
+- **Sample size**: 483 patients
+- **Comparator**: atezolizumab
+- **Primary outcome**: IRF progression-free survival and overall survival
+- **Primary result**: IRF progression-free survival was longer in the lurbinectedin plus atezolizumab group than the atezolizumab group (stratified hazard ratio [HR] 0·54 [95% CI 0·43-0·67]; p<0·0001)
+- **Secondary results**:
+    - overall survival (stratified HR 0·73 [0·57-0·95]; p=0·017)
+- **Safety**: 92 (38%) of 242 patients in the lurbinectedin plus atezolizumab group and 53 (22%) of 240 patients in the atezolizumab group had grade 3-4 adverse events. Grade 5 adverse events occurred in 12 (5%) of 242 patients in the lurbinectedin plus atezolizumab group and six (3%) of 240 patients in the atezolizumab group. The incidence of myelosuppressive toxicities (eg, neutropenia and leukopenia) was higher in the lurbinectedin plus atezolizumab group than the atezolizumab group.
+- **Conclusions**: IRF progression-free survival and overall survival were longer in the lurbinectedin plus atezolizumab group than the atezolizumab group for patients with ES-SCLC, albeit with a higher incidence of adverse events. Lurbinectedin plus atezolizumab represents a novel therapeutic option for first-line maintenance treatment in this setting.
+- **Journal**: Lancet, 2025
+- **Industry sponsored**: True
+
+#### Atezolizumab SC vs IV in NSCLC (NCT05171777)
+- **Study design**: RCT
+- **Sample size**: 550 patients
+- **Comparator**: atezolizumab IV
+- **Primary outcome**: non-inferior drug exposure at cycle 1 with atezolizumab SC versus atezolizumab IV
+- **Primary result**: demonstrated non-inferior drug exposure at cycle 1 with atezolizumab SC versus atezolizumab IV
+- **Secondary results**:
+    - In IMscin001, median OS was 10.9 months for atezolizumab SC and 10.1 months for atezolizumab IV (hazard ratio: 1.00, 95% CI: 0.78-1.27)
+    - In IMscin002, 65.4% (117/179) of patients had metastatic disease
+    - In IMscin002, ongoing clinical benefit after cycle 16 was observed in 44.7% (80/179) of patients
+    - The combined incidence of treatment-emergent anti-drug antibodies was 20.0% (atezolizumab SC) and 21.1% (atezolizumab IV)
+- **Safety**: No new or unexpected safety signals were identified
+- **Conclusions**: Updated results from IMscin001 (part 2) and IMscin002 show similar efficacy, safety and drug immunogenicity for atezolizumab SC and IV. No new or unexpected safety signals were reported and switching between atezolizumab formulations was well tolerated.
+- **Journal**: Lung Cancer, 2026
+- **Industry sponsored**: True
+
+#### Atezolizumab in NSCLC (NCT02486718)
+- **Study design**: RCT
+- **Sample size**: null
+- **Comparator**: standard of care
+- **Primary outcome**: null
+- **Primary result**: null
+- **Secondary results**: []
+- **Safety**: null
+- **Conclusions**: null
+- **Journal**: Cancer Sci., 2026
+- **Industry sponsored**: True
+
+#### Tiragolumab plus Atezolizumab and Chemotherapy in ES-SCLC (NCT04256421)
+- **Study design**: RCT
+- **Sample size**: 490 patients
+- **Comparator**: atezolizumab plus carboplatin and etoposide (CE)
+- **Primary outcome**: investigator-assessed PFS and OS in patients without history/presence of brain metastases (primary analysis set [PAS])
+- **Primary result**: PFS in the PAS (n = 397) did not reach statistical significance (stratified HR, 1.11; P = .3504; median, 5.4 months tiragolumab v 5.6 months control). Median OS in the PAS at final OS analysis was 13.1 months in both arms (stratified HR, 1.14; P = .2859).
+- **Secondary results**:
+    - Median PFS and OS in the FAS were consistent with the PAS.
+    - The proportion of patients with immune-mediated adverse events (AEs) in the tiragolumab and control arms was 54.4% and 49.2%, respectively (grade 3/4: 7.9% and 7.7%).
+    - AEs leading to treatment withdrawal occurred in 8.4% and 9.3% of tiragolumab- and control-treated patients, respectively.
+- **Safety**: The combination was well tolerated with no new safety signals. The proportion of patients with immune-mediated adverse events (AEs) in the tiragolumab and control arms was 54.4% and 49.2%, respectively (grade 3/4: 7.9% and 7.7%). AEs leading to treatment withdrawal occurred in 8.4% and 9.3% of tiragolumab- and control-treated patients, respectively.
+- **Conclusions**: Tiragolumab did not provide additional benefit over atezolizumab and CE in untreated ES-SCLC. The combination was well tolerated with no new safety signals.
+- **Journal**: J Clin Oncol., 2024
+- **Industry sponsored**: null
+
+#### Alectinib and Weight Gain in ALK-positive NSCLC (NCT02075840)
+- **Study design**: meta-analysis
+- **Sample size**: 302
+- **Comparator**: null
+- **Primary outcome**: progression of actual weight gain over time and its association with baseline characteristics
+- **Primary result**: Time on alectinib was positively associated with weight change (β = .37; 95% CI, 0.24 to 0.51; P < .001), corresponding to an average increase of 4.4% over 1 year. 18% of patients experienced ≥10% weight gain (from median 55.6 kg to 64.1 kg).
+- **Secondary results**:
+    - Actual weight gain of any grade was substantially higher than reported AE rates (49% v 5%)
+    - At baseline, 13.6% of the Japanese population were underweight and 5.0% in the Western population
+    - Baseline BMI was not associated with weight change in J-ALEX (β = -.090 [95% CI, -0.19 to 0.012]; P = .092) and ALUR/ML29453 (β = -.016 [95% CI, -0.077 to 0.044]; P = .59)
+    - Baseline albumin was positively associated with weight change in ALUR/ML29453 (β = .084 [95% CI, 0.027 to 0.14]; P = .0045), although not considered a clinically meaningful predictor
+- **Safety**: Weight gain is under-reported as AE in trials. Actual weights showed ≥10% weight gain in 18% of patients.
+- **Conclusions**: Weight gain is under-reported as AE in trials. Actual weights showed ≥10% weight gain in 18% of patients. Clinicians should be aware of this AE, emphasizing the importance of timely identification and monitoring weight. Identifying predictors for weight gain remains challenging.
+- **Journal**: J Clin Oncol, 2025
+- **Industry sponsored**: null
+
+#### Alectinib in Resected Early-Stage ALK-Positive NSCLC (NCT03456076)
+- **Study design**: RCT
+- **Sample size**: 256 patients
+- **Comparator**: platinum-based chemotherapy
+- **Primary outcome**: investigator-assessed DFS
+- **Primary result**: patients receiving alectinib had longer DFS versus those who received chemotherapy
+- **Secondary results**:
+    - DFS benefit with alectinib was maintained across surgical characteristic subgroups and when re-classifying patients according to the 8th edition of the Cancer Staging Manual
+    - patients receiving alectinib had longer DFS versus those who received chemotherapy, irrespective of disease stage (AJCC/UICC 8th edition), nodal status, tumor size, or other surgical characteristics
+- **Safety**: null
+- **Conclusions**: Alectinib is the first ALK inhibitor to show a consistent DFS benefit over chemotherapy in patients with resected early-stage ALK-positive NSCLC, regardless of disease stage per AJCC/UICC 7th or 8th edition, nodal status, or tumor size.
+- **Journal**: Lung Cancer, 2026
+- **Industry sponsored**: True
+
 ### Sources
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/atezolizumab/2026-04-12/abstract-41500083.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/atezolizumab/2026-04-12/abstract-41173494.json
@@ -1200,7 +1301,6 @@ last_updated: 2024-05-15
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/atezolizumab/2026-04-12/abstract-40706710.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/atezolizumab/2026-04-12/abstract-40880183.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-04-07/NCT04928846.json
-- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/atezolizumab/2026-04-12/abstract-41416818.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-04-07/NCT06236438.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-04-07/NCT06568939.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/abbvie/2026-04-07/NCT07005102.json
@@ -1225,4 +1325,11 @@ last_updated: 2024-05-15
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-04-07/NCT06502977.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/pubmed/durvalumab/2026-04-12/abstract-41005623.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/amgen/2026-04-07/NCT06593522.json
-- /Users/mohitmahajan/Library/CloudStorage/OneDrive
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04471428.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT05091567.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT05171777.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-05-01/NCT02486718.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-05-01/NCT04256421.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-06-01/NCT02075840.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-06-01/NCT03456076.json
+---

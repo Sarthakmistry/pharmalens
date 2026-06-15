@@ -121,6 +121,7 @@ For Q2 2025, Regeneron reported increased total revenue of $6,704.3 million and 
 ### Recent events
 | Date | Type | Event | Signal |
 |---|---|---|---|
+| 2022-11-21 | trial | Phase 2 trial (NCT04852978) for Casirivimab+imdevimab and Moderna mrna-1273 vaccine completed primary completion with 295 participants. | [[2022-11-21-casirivimab+imdevimab-nct04852978-completed]] |
 | 2026-04-08 | sec | Regeneron Pharmaceuticals, Inc. expects to report an acquired in-process research and development (IPR&D) charge of approximately $102 million pre-tax for the first quarter of 2026, negatively impacting diluted EPS by $0.81. | [[regeneron-q1-2026-iprd-charge]] |
 | 2025-08-01 | sec | Regeneron reported Q2 2025 financial results with increased total revenue and net income for the six months ended June 30, 2025, alongside significant product sales and collaboration revenue. | [[regeneron-2025-q2-earnings]] |
 | 2025-06-18 | sec | Regeneron Pharmaceuticals, Inc. announced the voting results from its 2025 Annual Meeting of Shareholders, where proposals including the election of directors, ratification of auditors, executive compensation, and certain amendments to the Certificate of Incorporation were voted upon. | [[2025-06-18-regeneron-annual-meeting-results]] |
@@ -225,7 +226,6 @@ For Q2 2025, Regeneron reported increased total revenue of $6,704.3 million and 
 | 2023-05-22 | trial | Phase 2 trial (NCT04646005) for Cemiplimab and Isa101b completed primary completion with 113 participants. | [[2023-05-22-unknown-nct04646005-completed]] |
 | 2023-05-10 | trial | Phase 1/2 trial (NCT03690869) for Alzheimer's disease was terminated. | [[2023-05-10-unknown-nct03690869-terminated]] |
 | 2023-04-13 | trial | Phase 3 trial (NCT03409744) completed primary completion on 2023-04-13 with 116 participants. | [[2023-04-13-unknown-nct03409744-completed]] |
-| 2022-11-21 | trial | Phase 2 trial (NCT04852978) for Casirivimab+imdevimab and Moderna mrna-1273 vaccine completed primary completion with 295 participants. | [[2022-11-21-unknown-nct04852978-completed]] |
 | 2022-10-25 | trial | Phase 2 trial (NCT04811716) for Pozelimab and Cemdisiran completed primary completion with 24 participants. | [[2022-10-25-unknown-nct04811716-completed]] |
 | 2022-06-30 | trial | Phase 1/2 trial (NCT05081388) for Regn14256, Imdevimab, Casirivimab + imdevimab was terminated. | [[2022-06-30-unknown-nct05081388-terminated]] |
 | 2022-06-02 | trial | Phase 3 trial (NCT04394351) for Dupilumab completed primary completion with 102 participants. | [[2022-06-02-unknown-nct04394351-completed]] |
@@ -247,11 +247,11 @@ For Q2 2025, Regeneron reported increased total revenue of $6,704.3 million and 
 - `raw/edgar/regeneron/8k/2026-01-12-8K--26-002691.txt`
 - `raw/edgar/regeneron/8k/2025-06-18-8K--25-060637.txt`
 - `raw/edgar/regeneron/8k/2026-04-08-8K--26-040661.txt`
-- `raw/ctgov/regeneron/2026-04-06/NCT03409744.json`
-- `raw/ctgov/regeneron/2026-04-06/NCT03564340.json`
-- `raw/ctgov/regeneron/2026-04-06/NCT03888105.json`
-- `raw/ctgov/regeneron/2026-04-06/NCT03690869.json`
-- `raw/ctgov/regeneron/2026-04-06/NCT03761108.json`
+- `raw/ctgov/regeneron/2026-04-07/NCT03409744.json`
+- `raw/ctgov/regeneron/2026-04-07/NCT03564340.json`
+- `raw/ctgov/regeneron/2026-04-07/NCT03888105.json`
+- `raw/ctgov/regeneron/2026-04-07/NCT03690869.json`
+- `raw/ctgov/regeneron/2026-04-07/NCT03761108.json`
 - `raw/ctgov/regeneron/2026-04-07/NCT03132636.json`
 - `raw/ctgov/regeneron/2026-04-07/NCT02760498.json`
 - `raw/ctgov/regeneron/2026-04-07/NCT03257267.json`
@@ -443,3 +443,4 @@ For Q2 2025, Regeneron reported increased total revenue of $6,704.3 million and 
 - `raw/edgar/regeneron/10Q/2025-Q2-10Q.txt`
 - `raw/edgar/regeneron/8K/2025-06-18-8K--25-060637.txt`
 - `raw/edgar/regeneron/8K/2026-04-08-8K--26-040661.txt`
+- `raw/ctgov/regeneron/2026-04-07/NCT04852978.json`

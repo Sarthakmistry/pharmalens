@@ -24,7 +24,7 @@ company_slug: novartis
 | NCT03056755 | A Phase II, Multi-center, Open-label Study to Evaluate the Efficacy and Safety of Alpelisib in Combination With Fulvestrant or Letrozole in Patients With Hormone Receptor-positive, HER2-negative Advanced Breast Cancer | 2 | Completed | Alpelisib, Fulvestrant, Letrozole, Goserelin, Leuprolide | [[oncology-breast]] | 2021-06-14 |
 | NCT03106779 | A Phase III, Randomized, Open-label Study to Evaluate the Efficacy and Safety of Asciminib Versus Bosutinib in Patients With Chronic Myeloid Leukemia (CML) | 3 | Completed | Asciminib, Bosutinib | Chronic Myeloid Leukemia | 2020-05-25 |
 | NCT03215758 | A Phase III, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of QAW039 in Patients With Severe Asthma | 3 | Completed | Qaw039 | Severe Asthma | 2019-07-02 |
-| NCT03217422 | A Phase II/III, Multi-center, Open-label Study to Evaluate the Efficacy and Safety of VAY736 in Patients With Primary Sjogren's Syndrome | 2 | Completed | Vay736 | Primary Sjogren's Syndrome | 2023-12-28 |
+| NCT03217422 | A Phase II/III, Multi-center, Open-label Study to Evaluate the Efficacy and Safety of VAY736 in Patients With Primary Sjogren's Syndrome | 2/3 | Completed | Vay736 | Primary Sjogren's Syndrome | 2023-12-28 |
 | NCT03226392 | A Phase III, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of QAW039 in Patients With Severe Asthma | 3 | Completed | Qaw039 | Severe Asthma | 2019-07-05 |
 | NCT03306277 | A Phase III, Open-label, Single-arm Study to Evaluate the Efficacy and Safety of Onasemnogene Abeparvovec-xioi in Patients With Spinal Muscular Atrophy (SMA) Type 1 | 3 | Completed | Onasemnogene abeparvovec-xioi | Spinal Muscular Atrophy Type 1 | 2019-11-12 |
 | NCT03340506 | A Phase IV, Multi-center, Open-label Study to Evaluate the Safety and Efficacy of Dabrafenib and Trametinib in Patients With BRAF V600-mutated Non-small Cell Lung Cancer (NSCLC) | 4 | Recruiting | Dabrafenib, Trametinib | [[oncology-nsclc]], [[alzheimers]] | 2032-12-28 |
@@ -39,6 +39,7 @@ company_slug: novartis
 | NCT03568461 | A Phase II, Multi-center, Open-label Study to Evaluate the Efficacy and Safety of Tisagenlecleucel in Patients With Relapsed or Refractory Follicular Lymphoma | 2 | Completed | Tisagenlecleucel | Relapsed or Refractory Follicular Lymphoma | 2020-11-24 |
 | NCT03570892 | A Phase III, Randomized, Open-label Study to Evaluate the Efficacy and | 3 | Active, not recruiting | | | |
 | NCT04480853 | A Study to Evaluate the Long-Term Safety and Efficacy of Fingolimod in Patients With Multiple Sclerosis | 4 | Recruiting | Fingolimod | Multiple Sclerosis | 2027-09-30 |
+| NCT04864392 | A Phase II, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of LNA043 in Patients With Acute Kidney Injury | 2 | Terminated | LNA043 | Acute Kidney Injury | 2024-09-29 |
 | NCT04889430 | A Phase III, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of Iptacopan in Patients With C3 Glomerulopathy | 3 | Active, not recruiting | Iptacopan | C3 Glomerulopathy | 2026-07-09 |
 
 ## Active Trials
@@ -476,7 +477,21 @@ Progression-free survival.
 ### Results summary
 
 
-## Sources
+### NCT04864392: A Phase II, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of LNA043 in Patients With Acute Kidney Injury
+
+**Phase:** 2 | **Status:** Terminated | **Sponsor:** [[novartis]]
+
+### Design
+This Phase II, randomized, double-blind, placebo-controlled study evaluated the efficacy and safety of LNA043 in patients with acute kidney injury.
+
+### Primary endpoint
+Change from baseline in estimated glomerular filtration rate (eGFR) at Day 90. The study was terminated early due to business reasons, and no efficacy results were reported.
+
+### Results summary
+The study was terminated early due to business reasons, and no efficacy results were reported. Safety data were consistent with previous findings.
+
+### Sources
 - `raw/ctgov/{date}/{nct_id}.json`
 - `raw/ctgov/novartis/2026-05-01/NCT04480853.json`
 - `raw/ctgov/novartis/2026-05-01/NCT04889430.json`
+- `raw/ctgov/novartis/2026-05-01/NCT04864392.json`

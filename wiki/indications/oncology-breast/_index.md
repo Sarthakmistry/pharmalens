@@ -4,9 +4,9 @@ display_name: Breast Cancer
 icd10: [C50, C50.1, C50.2, C50.9]
 drugs_approved: [abemaciclib, atezolizumab, bevacizumab, nivolumab, olaparib, palbociclib, pembrolizumab, ribociclib, trastuzumab deruxtecan, cetuximab]
 drugs_pipeline: []
-companies_active: [astrazeneca, bayer, biogen, bristol-myers-squibb, eisai, eli-lilly, gilead, merck, novartis, novo-nordisk, pfizer, roche, regeneron]
+companies_active: [astrazeneca, bayer, biogen, bristol-myers-squibb, eisai, eli-lilly, gilead, merck, novartis, novo-nordisk, pfizer, roche, regeneron, sanofi]
 active_trials: 95
-last_updated: 2025-05-02
+last_updated: 2026-06-01
 ---
 
 ## Breast Cancer
@@ -39,8 +39,9 @@ last_updated: 2025-05-02
 | [[novartis]] | ribociclib | 2025-06-12 | Trial NCT05631795 for unknown by Novartis completed primary completion. |
 | [[novo-nordisk]] | semaglutide, liraglutide | 2026-04-12 | GLP-1RAs may have little or no effect on risk for obesity-related cancers, including breast cancer. |
 | [[pfizer]] | palbociclib, cetuximab, abemaciclib, ribociclib | 2025-07-10 | Trial NCT06465368 for unknown by Pfizer completed primary completion. |
-| [[roche]] | atezolizumab, bevacizumab, empagliflozin, palbociclib, ribociclib, abemaciclib, trastuzumab deruxtecan | 2024-12-15 | Trial NCT04148911 for atezolizumab by Roche completed primary completion. |
 | [[regeneron]] | | 2024-10-31 | Trial NCT04916002 for unknown by Regeneron terminated. |
+| [[roche]] | atezolizumab, bevacizumab, empagliflozin, palbociclib, ribociclib, abemaciclib, trastuzumab deruxtecan | 2024-12-15 | Trial NCT04148911 for atezolizumab by Roche completed primary completion. |
+| [[sanofi]] | palbociclib | 2022-06-28 | Trial NCT04478266 for palbociclib by Sanofi terminated. |
 
 ### Recent events
 | Date | Event | Signal |
@@ -77,10 +78,12 @@ last_updated: 2025-05-02
 | 2023-05-31 | Trial NCT04251533 for unknown by Novartis terminated. | [[2023-05-31-unknown-nct04251533-terminated]] |
 | 2023-04-05 | Trial NCT03519178 for unknown by Pfizer terminated. | [[2023-04-05-unknown-nct03519178-terminated]] |
 | 2022-12-15 | Trial NCT04191135 for pembrolizumab by Merck completed primary completion. | [[2022-12-15-pembrolizumab-nct04191135-completed]] |
+| 2022-06-28 | Trial NCT04478266 for palbociclib by Sanofi terminated. | [[2022-06-28-palbociclib-nct04478266-terminated]] |
 | 2022-04-25 | Trial NCT03671330 for ribociclib by Novartis completed primary completion. | [[2022-04-25-ribociclib-nct03671330-completed]] |
 | 2021-12-13 | Trial NCT04024462 for unknown by Roche completed primary completion. | [[2021-12-13-unknown-nct04024462-completed]] |
 | 2021-06-14 | Trial NCT03056755 for unknown by Novartis completed primary completion. | [[2021-06-14-unknown-nct03056755-completed]] |
 | 2021-06-11 | Trial NCT03822468 for ribociclib by Novartis completed primary completion. | [[2021-06-11-ribociclib-nct03822468-completed]] |
+| 2021-04-30 | Trial NCT04191382 for Amcenestrant (sar439859) by Sanofi terminated. | [[2021-04-30-amcenestrant-(sar439859)-nct04191382-terminated]] |
 | 2018-07-25 | Trial NCT01772472 completed by Roche | [[2018-07-25-unknown-nct01772472-completed]] |
 | 2016-12-19 | Trial NCT01358877 completed by Roche | [[2016-12-19-unknown-nct01358877-completed]] |
 | 2015-04-30 | Trial NCT02142959 completed by Biogen | [[2015-04-30-unknown-nct02142959-completed]] |
@@ -402,3 +405,5 @@ last_updated: 2025-05-02
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04546009.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04576455.json
 - /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/edgar/merck/10Q/2025-Q1-10Q.txt
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/sanofi/2026-04-07/NCT04191382.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/sanofi/2026-04-07/NCT04478266.json

@@ -14,8 +14,8 @@ sentiment_score:
 last_earnings_signal: 
 reimbursement_flag: false
 latest_event: "2034-01-14 — Trial NCT07405164 (palbociclib with nivolumab) expected to complete primary endpoint by 2034-01-14."
-trials: [NCT03158389, NCT04711252, NCT04862663, NCT04964934, NCT06188520, NCT06380751, NCT05768139, NCT07174336, NCT05468697, NCT07405164, NCT04553133, NCT04606446, NCT05226871, NCT05909397, NCT06760637, NCT03424005, NCT04191499, NCT04546009]
-last_updated: 2026-06-01
+trials: [NCT03158389, NCT04711252, NCT04862663, NCT04964934, NCT06188520, NCT06380751, NCT05768139, NCT07174336, NCT05468697, NCT07405164, NCT04553133, NCT04606446, NCT05226871, NCT05909397, NCT06760637, NCT03424005, NCT04191499, NCT04546009, NCT04478266]
+last_updated: 2024-05-15
 ---
 # Palbociclib
 
@@ -43,12 +43,13 @@ last_updated: 2026-06-01
 - oncology-breast — Phase 3, NCT06760637, Active, not recruiting, Primary completion: 2029-01-02
 - oncology-breast — Phase 1/2, NCT03424005, Recruiting, Primary completion: 2030-09-30
 - oncology-breast, alzheimers — Phase 3, NCT04546009, Active, not recruiting, Primary completion: 2026-01-30
+- oncology-breast — Phase 3, NCT04478266, Terminated, Primary completion: 2022-06-28
 
 ### Management sentiment
 Management sentiment for palbociclib is mixed. While its subtrial in the N2M2 umbrella study for glioblastoma did not meet its primary endpoint for efficacy, a combination regimen including palbociclib showed promising antitumour activity in heavily pretreated HR-positive, HER2-positive metastatic breast cancer.
 
 ### Clinical evidence
-A multicentre, single-arm, two-part, phase 2a study (NCT04224272) involving 51 heavily pretreated patients with HR-positive, HER2-positive metastatic breast cancer demonstrated that zanidatamab plus palbociclib and fulvestrant was generally safe and showed promising antitumour activity, with a 6-month progression-free survival of 66.7% (95% CI 52.1-79.2). All patients experienced at least one treatment-related adverse event, with diarrhoea being the most common (80%), and grade 3 or 4 events occurring in 67% of patients, primarily neutropenia (51%). No treatment-related deaths occurred. In the N2M2 umbrella trial (NCT03158389), a randomized controlled trial involving 228 patients with newly diagnosed glioblastoma, the palbociclib subtrial did not meet its primary endpoints for efficacy. The study evaluated targeted treatments, and while the [[temsirolimus]] subtrial met its primary endpoint, the palbociclib subtrial did not.
+The AMEERA-5 study (NCT04478266), a randomized controlled trial with 1068 patients, evaluated palbociclib in combination with Sar439859 (amcenestrant) versus palbociclib with Letrozole for progression-free survival (PFS) in oncology-breast. At an interim analysis (median follow-up 8.4 months), the study was stopped for futility as the stratified hazard ratio for PFS was 1.209 (95% CI, 0.939 to 1.557; one-sided P value = .9304). The 6-month PFS rate was 82.7% (95% CI, 79.0 to 85.8) with amcenestrant + palbociclib versus 86.9% (95% CI, 83.5 to 89.6) with Letrozole + palbociclib. No new safety signals were identified, with treatment-emergent adverse events (any grade) occurring in 85.6% versus 85.4% of patients and grade ≥3 events in 46.3% versus 60.8%, respectively. (J Clin Oncol., 2024) A multicentre, single-arm, two-part, phase 2a study (NCT04224272) involving 51 heavily pretreated patients with HR-positive, HER2-positive metastatic breast cancer demonstrated that zanidatamab plus palbociclib and fulvestrant was generally safe and showed promising antitumour activity, with a 6-month progression-free survival of 66.7% (95% CI 52.1-79.2). All patients experienced at least one treatment-related adverse event, with diarrhoea being the most common (80%), and grade 3 or 4 events occurring in 67% of patients, primarily neutropenia (51%). No treatment-related deaths occurred. In the N2M2 umbrella trial (NCT03158389), a randomized controlled trial involving 228 patients with newly diagnosed glioblastoma, the palbociclib subtrial did not meet its primary endpoints for efficacy. The study evaluated targeted treatments, and while the [[temsirolimus]] subtrial met its primary endpoint, the palbociclib subtrial did not.
 
 ### Competitive position
 {One paragraph on how this drug sits relative to others in its indication class.
@@ -57,6 +58,7 @@ Which drugs compete directly? What is the differentiation?}
 ### Timeline
 | Date | Event | Type |
 |---|---|---|
+| 2022-06-28 | Trial NCT04478266 (palbociclib with Sar439859) terminated due to futility. | [[2022-06-28-palbociclib-nct04478266-terminated]] |
 | 2034-01-14 | Trial NCT07405164 (palbociclib with nivolumab) expected to complete primary endpoint by 2034-01-14. | [[2034-01-14-palbociclib-nivolumab-trial-completion]] |
 | 2030-09-30 | Trial NCT03424005 (palbociclib with empagliflozin, atezolizumab, ribociclib, abemaciclib, trastuzumab deruxtecan, bevacizumab) expected to complete primary endpoint by 2030-09-30. | [[2030-09-30-palbociclib-combo-trial-completion-NCT03424005]] |
 | 2029-07-13 | Trial NCT04606446 (palbociclib) expected to complete primary endpoint by 2029-07-13. | [[2029-07-13-palbociclib-trial-completion-NCT04606446]] |
@@ -107,3 +109,4 @@ Which drugs compete directly? What is the differentiation?}
 - `raw/ctgov/roche/2026-04-07/NCT03424005.json`
 - `raw/ctgov/roche/2026-04-07/NCT04191499.json`
 - `raw/ctgov/roche/2026-04-07/NCT04546009.json`
+- `raw/ctgov/sanofi/2026-04-07/NCT04478266.json`

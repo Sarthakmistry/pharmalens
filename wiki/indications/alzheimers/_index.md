@@ -3,9 +3,9 @@ indication: alzheimers
 display_name: Alzheimer's Disease
 icd10: [G30, G30.0, G30.1, G30.8, G30.9]
 drugs_approved: [lecanemab]
-drugs_pipeline: [abemaciclib, atezolizumab, bevacizumab, cetuximab, donanemab, durvalumab, nivolumab, olaparib, osimertinib, palbociclib, pembrolizumab, ribociclib, semaglutide, trastuzumab deruxtecan]
-companies_active: [amgen, astrazeneca, bayer, biogen, bristol-myers-squibb, eisai, eli-lilly, gilead, merck, novo-nordisk, novartis, pfizer, regeneron, roche]
-active_trials: 56
+drugs_pipeline: [donanemab]
+companies_active: [amgen, astrazeneca, bayer, biogen, bristol-myers-squibb, eisai, eli-lilly, gilead, merck, novo-nordisk, novartis, pfizer, regeneron, roche, sanofi, takeda]
+active_trials: 58
 last_updated: 2024-07-30
 ---
 
@@ -15,38 +15,27 @@ last_updated: 2024-07-30
 | Drug | Company | Status | Sentiment | Stock |
 |---|---|---|---|---|
 | [[lecanemab]] | [[eisai]] | Approved | Bullish | ESALY |
-| [[abemaciclib]] | [[eli-lilly]] | Pipeline | Neutral | LLY |
-| [[atezolizumab]] | [[roche]] | Pipeline | Neutral | RHHBY |
-| [[bevacizumab]] | [[roche]] | Pipeline | Neutral | RHHBY |
-| [[cetuximab]] | [[eli-lilly]] | Pipeline | Neutral | LLY |
 | [[donanemab]] | [[eli-lilly]] | Pipeline | Bullish | LLY |
-| [[durvalumab]] | [[astrazeneca]] | Pipeline | Neutral | AZN |
-| [[nivolumab]] | [[bristol-myers-squibb]] | Pipeline | Neutral | BMY |
-| [[olaparib]] | [[astrazeneca]] | Pipeline | Neutral | AZN |
-| [[osimertinib]] | [[astrazeneca]] | Pipeline | Neutral | AZN |
-| [[palbociclib]] | [[pfizer]] | Pipeline | Neutral | PFE |
-| [[pembrolizumab]] | [[merck]] | Pipeline | Neutral | MRK |
-| [[ribociclib]] | [[novartis]] | Pipeline | Neutral | NVS |
-| [[semaglutide]] | [[novo-nordisk]] | Pipeline | Bearish | NVO |
-| [[trastuzumab deruxtecan]] | [[astrazeneca]] | Pipeline | Neutral | AZN |
 
 ### Companies
 | Company | Drugs | Latest event |
 |---|---|---|
 | [[amgen]] | | 2026-05-27 |
-| [[astrazeneca]] | durvalumab, olaparib, osimertinib, trastuzumab deruxtecan | 2025-02-18 |
-| [[bayer]] | pembrolizumab | |
+| [[astrazeneca]] | | 2025-02-18 |
+| [[bayer]] | | |
 | [[biogen]] | | |
-| [[bristol-myers-squibb]] | nivolumab, cetuximab, bevacizumab, pembrolizumab | 2024-08-22 |
+| [[bristol-myers-squibb]] | | 2024-08-22 |
 | [[eisai]] | lecanemab | 2026-04-12 |
-| [[eli-lilly]] | donanemab, cetuximab, abemaciclib, pembrolizumab | 2030-07-01 |
-| [[gilead]] | nivolumab, pembrolizumab | 2030-01-01 |
-| [[merck]] | pembrolizumab | 2031-09-03 |
-| [[novo-nordisk]] | semaglutide | 2026-06-01 |
-| [[novartis]] | ribociclib, osimertinib | 2033-02-23 |
-| [[pfizer]] | palbociclib, pembrolizumab, nivolumab | 2031-07-22 |
-| [[regeneron]] | bevacizumab, nivolumab, pembrolizumab | 2030-06-24 |
-| [[roche]] | atezolizumab, bevacizumab, palbociclib, pembrolizumab | 2027-12-31 |
+| [[eli-lilly]] | donanemab | 2029-07-28 |
+| [[gilead]] | | 2030-01-01 |
+| [[merck]] | | 2031-09-03 |
+| [[novo-nordisk]] | | 2026-06-01 |
+| [[novartis]] | | 2033-02-23 |
+| [[pfizer]] | | 2031-07-22 |
+| [[regeneron]] | | 2030-06-24 |
+| [[roche]] | | 2027-12-31 |
+| [[sanofi]] | | 2024-08-22 |
+| [[takeda]] | | 2024-10-29 |
 
 ### Recent events
 | Date | Event | Signal |
@@ -59,7 +48,7 @@ last_updated: 2024-07-30
 | 2030-03-11 | Trial NCT05785767 for Fianlimab, Cemiplimab (regeneron) reaches primary completion. | None |
 | 2030-02-03 | Trial NCT06413680 for Regn10597, Cemiplimab (regeneron) reaches primary completion. | None |
 | 2029-08-18 | Trial NCT07318610 for Regn7508, Regn9933, Rivaroxaban (regeneron) reaches primary completion. | None |
-| 2029-07-28 | Trial NCT06157892 for Disitamab vedotin, Tucatinib (eli-lilly) reaches primary completion. | None |
+| 2029-07-28 | Trial NCT06157892 for Disitamab vedotin (eli-lilly) reaches primary completion. | None |
 | 2029-07-13 | Trial NCT04606446 for palbociclib, Pf-07248144, Fulvestrant, Letrozole, Pf-07220060, Pf-07850327, arv-471, vepdegestrant (pfizer) reaches primary completion. | None |
 | 2029-03-08 | Trial NCT07227298 for Pf-08634404, Sigvotatug vedotin, Combination agent 1 (pfizer) reaches primary completion. | None |
 | 2029-02-27 | Trial NCT07222566 for pembrolizumab, Pf-08634404, Chemotherapy regimen 1, Chemotherapy regimen 2 (pfizer) reaches primary completion. | None |
@@ -81,4 +70,23 @@ last_updated: 2024-07-30
 | 2026-06-01 | Oral semaglutide was not efficacious in slowing clinical progression in participants with early Alzheimer's disease. | bearish |
 | 2026-05-31 | Trial NCT06003231 for Disitamab vedotin (eli-lilly) reaches primary completion. | None |
 | 2026-05-27 | Trial NCT05094336 for Anvumetostat (Amgen) reaches primary completion. | High |
-| 2026-05-18 | Donanem
+| 2026-05-18 | Donanemab (eli-lilly) | None |
+| 2024-10-29 | Trial NCT04381650 for [[pembrolizumab]] (takeda) reaches primary completion. | [[2024-10-29-pembrolizumab-nct04381650-completed]] |
+| 2024-08-22 | Trial NCT05849922 for Sar442970 (sanofi) reaches primary completion. | [[2024-08-22-sar442970-nct05849922-completed]] |
+| 2024-02-27 | Trial NCT03596866 for Brigatinib (takeda) reaches primary completion. | [[2024-02-27-brigatinib-nct03596866-completed]] |
+
+### Active trials
+| Trial | Drug | Phase | Status |
+|---|---|---|---|
+| [[NCT00000000]] | [[semaglutide]] | 3 | Recruiting |
+| [[NCT04661150]] | [[atezolizumab]] | 2 | ACTIVE_NOT_RECRUITING |
+| [[NCT03589326]] | Ponatinib | 3 | ACTIVE_NOT_RECRUITING |
+
+## Sources
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04576455.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-04-07/NCT04661150.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/roche/2026-05-01/NCT04661150.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/sanofi/2026-04-07/NCT05849922.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/takeda/2026-04-07/NCT03589326.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/takeda/2026-04-07/NCT03596866.json
+- /Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/takeda/2026-04-07/NCT04381650.json

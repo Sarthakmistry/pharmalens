@@ -5,7 +5,7 @@ ticker: NVS
 exchange: NYSE
 indications_active: [hf-htn, oncology-breast, alzheimers, oncology-nsclc, oncology-crc]
 blockbuster_drugs: [sacubitril-valsartan, inclisiran, ribociclib]
-pipeline_drugs: [[177Lu]Lu-PSMA-617, Aaa617, Dii235, Dji136, Edi048, fingolimod, Fwy003, Gia632, Gvv858, Gxv813, iptacopan, Jsb462, Nio752, Pelacarsen, Pkn605, Rapcabtagene autoleucel, Remibrutinib, Tulmimetostat, Vhb937, Zigakibart]
+pipeline_drugs: [[177Lu]Lu-PSMA-617, Aaa617, Dii235, Dji136, Edi048, fingolimod, Fwy003, Gia632, Gvv858, Gxv813, iptacopan, Jsb462, Nio752, Pelacarsen, Pkn605, Rapcabtagene autoleucel, Remibrutinib, Tulmimetostat, Vhb937, Zigakibart, Lna043]
 last_earnings_date: YYYY-MM-DD
 last_updated: 2027-09-30
 ---
@@ -135,10 +135,12 @@ No recent earnings signals.
 - Egaten (triclabendazole) 250 mg tablets (Phase 4, Completed, NCT04230148, primary completion: 2026-03-27)
 - Fingolimod (Phase 4, Recruiting, NCT04480853, primary completion: 2027-09-30)
 - Iptacopan (Phase 3, Active Not Recruiting, NCT04889430, primary completion: 2026-07-09)
+- Lna043 (Phase 2, Terminated, 576 actual participants, primary completion: 2024-09-29)
 
 ### Recent events
 | Date | Type | Event | Signal |
 |---|---|---|---|
+| 2024-09-29 | trial | A Phase 2 trial (NCT04864392) for Lna043 was terminated with 576 actual participants. | High |
 | 2027-09-30 | trial | A Phase 4 trial (NCT04480853) for Fingolimod is recruiting with an estimated enrollment of 30 participants. | news |
 | 2026-07-09 | trial | A Phase 3 trial (NCT04889430) for Iptacopan is active, not recruiting, with 34 actual participants. | news |
 | 2033-07-20 | trial | A Phase 4 trial (NCT05803941) for Aaa617 is recruiting with an estimated enrollment of 700 participants. | news |
@@ -204,7 +206,6 @@ No recent earnings signals.
 | 2024-10-17 | trial | A Phase 3 trial (NCT05758415) for Secukinumab was terminated with 60 actual participants. | news |
 | 2024-10-03 | research | The LOGiC study, a Phase III global trial evaluating lapatinib with chemotherapy in HER2-positive gastric, esophageal, or gastro-esophageal junction cancer, has completed, with results indicating its completion. | High |
 | 2024-10-02 | trial | A Phase 3 trial (NCT04266301) for Sabatolimab and Azacitidine was terminated with 530 actual participants. | news |
-| 2024-09-29 | trial | A Phase 2 trial (NCT04864392) for Lna043 was terminated with 576 actual participants. | news |
 | 2024-08-26 | trial | A Phase 2 trial (NCT05497284) for Ltp001 was terminated with 46 actual participants. | news |
 | 2024-08-22 | trial | A Phase 1/2 trial (NCT04623216) for Sabatolimab and Azacitidine was terminated with 24 actual participants. | news |
 | 2024-08-19 | trial | A Phase 2 trial (NCT04541589) for Iscalimab has completed with 206 actual participants. | news |
@@ -317,3 +318,5 @@ No recent earnings signals.
 - `raw/ctgov/novartis/2026-05-01/NCT04230148.json`
 - `raw/ctgov/novartis/2026-05-01/NCT04480853.json`
 - `raw/ctgov/novartis/2026-05-01/NCT04889430.json`
+- `raw/ctgov/novartis/2026-05-01/NCT04864392.json`
+---

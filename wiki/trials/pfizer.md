@@ -59,3 +59,38 @@
 | NCT04801420 | Vla15 | Lyme Disease | 2 | Completed | 2022-03-25 |
 | NCT04821310 | | oncology-nsclc | 2 | Terminated | 2025-12-16 |
 | NCT04821622 | Talazoparib plus enzalutamide | Prostate Cancer | 3 |
+
+## Detailed Trial Information
+
+### Completed Trials
+
+---
+trial_id: NCT03909971
+title: A Study of Lorlatinib in Chinese Patients With ALK-Positive Non-Small Cell Lung Cancer
+phase: 2
+status: completed
+primary_sponsor: pfizer
+drugs: [Lorlatinib]
+indications: [oncology-nsclc]
+enrollment: 109
+primary_endpoint: Progression-free survival (PFS)
+primary_completion_date: 2020-08-10
+has_results: true
+primary_result_value: "Median PFS (95% CI) per independent central review was 26.3 months (16.6-35.9) in cohort 1 and 5.6 months (2.9-12.4) in cohort 2."
+last_updated: 2020-08-10
+---
+### NCT03909971: Lorlatinib in ALK-Positive NSCLC
+
+**Phase:** 2 | **Status:** Completed | **Sponsor:** [[pfizer]]
+
+#### Design
+This was a phase 2 study investigating lorlatinib in Chinese patients with previously treated ALK-positive non-small cell lung cancer (NSCLC) with or without brain metastases.
+
+#### Primary endpoint
+The primary endpoint was progression-free survival (PFS). Median PFS (95% CI) per independent central review was 26.3 months (16.6-35.9) in cohort 1 and 5.6 months (2.9-12.4) in cohort 2.
+
+#### Results summary
+The long-term data confirmed robust overall and intracranial clinical activity of lorlatinib. Median overall survival (OS) was not reached in cohort 1 and 21.9 months in cohort 2. Median intracranial time to progression was not reached in either cohort. No new safety signals emerged with long-term treatment.
+
+#### Sources
+- `raw/ctgov/pfizer/2026-04-07/NCT03909971.json`

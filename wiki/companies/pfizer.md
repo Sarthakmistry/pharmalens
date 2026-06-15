@@ -204,7 +204,7 @@ On 2025-04-29, Pfizer announced approximately $1.2 billion of additional anticip
 | 2022-03-03 | trial | Pf-06801591 Phase 1|2 trial (NCT04181788) primary completion. | |
 | 2022-01-04 | trial | Pf-06651600 Phase 2 trial (NCT04517864) terminated. | [[2022-01-04-unknown-nct04517864-terminated]] |
 | 2021-12-09 | trial | Pf-07321332 Phase 2|3 trial (NCT04960202) completed. | [[2021-12-09-unknown-nct04960202-completed]] |
-| 2020-08-10 | trial | Lorlatinib Phase 2 trial (NCT03909971) completed. | [[2020-08-10-unknown-nct03909971-completed]] |
+| 2020-08-10 | trial | Lorlatinib Phase 2 trial (NCT03909971) completed. | [[2020-08-10-lorlatinib-nct03909971-completed]] |
 | 2020-03-20 | sec | Lorlatinib, Crizotinib Phase 3 trial (NCT03052608) primary completion. | |
 | 2017-10-31 | trial | Rv521 Phase 2 trial (NCT03258502) completed. | [[2017-10-31-unknown-nct03258502-completed]] |
 | 2009-12-31 | trial | Pfizer completed a Phase 3 study evaluating on-demand treatment of Xyntha in Chinese subjects with Hemophilia A. | [[2009-12-31-xyntha-hemophilia-a-trial-completion]] |
@@ -424,3 +424,5 @@ On 2025-04-29, Pfizer announced approximately $1.2 billion of additional anticip
 - `/Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07470879.json`
 - `/Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07500506.json`
 - `/Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/projects/pharmalens/raw/ctgov/pfizer/2026-06-01/NCT07573462.json`
+- `/Users/mohitmahajan/Library/CloudStorage/OneDrive-Personal/Desktop/IUB/Projects/pharmalens/raw/ctgov/pfizer/2026-04-07/NCT03909971.json`
+---

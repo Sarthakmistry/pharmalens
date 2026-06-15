@@ -164,6 +164,44 @@ Entity resolution rules:
 
 # ── document pre-processors ───────────────────────────────────────────────────
 
+def _compact_pubmed_results(text: str) -> str:
+    """Strip author list, affiliations, and COI from a PubMed MEDLINE string.
+    Returns title + structured abstract sections only (~1–2k chars vs ~10k raw).
+    """
+    paragraphs = [p.strip() for p in re.split(r'\n\n+', text) if p.strip()]
+    citation_line = ""
+    title = ""
+    for i, para in enumerate(paragraphs):
+        if re.match(r'^\d+\.', para):
+            citation_line = para.splitlines()[0].strip()  # first line only (journal + year)
+            if i + 1 < len(paragraphs):
+                title = paragraphs[i + 1]
+            break
+
+    abstract_start = re.search(
+        r'^(BACKGROUND|OBJECTIVE|OBJECTIVES|PURPOSE|AIMS?|METHODS?|DESIGN|SETTING|PARTICIPANTS|FINDINGS|RESULTS|CONCLUSIONS?|INTERPRETATION|SUMMARY):',
+        text, re.MULTILINE,
+    )
+    stop = re.search(
+        r'^(Copyright|DOI:|PMCID:|PMID:|Conflict of interest)',
+        text, re.MULTILINE | re.IGNORECASE,
+    )
+
+    abstract_text = ""
+    if abstract_start:
+        end = stop.start() if stop else len(text)
+        abstract_text = text[abstract_start.start():end].strip()
+
+    parts = []
+    if citation_line:
+        parts.append(f"Citation: {citation_line}")
+    if title:
+        parts.append(f"Title: {title}")
+    if abstract_text:
+        parts.append(abstract_text)
+    return "\n\n".join(parts)
+
+
 def preprocess_ctgov(raw: str) -> str:
     """Parse CT.gov JSON and return only the fields defined in our extraction spec.
     Filters interventions to DRUG and BIOLOGICAL types only.
@@ -197,6 +235,13 @@ def preprocess_ctgov(raw: str) -> str:
         "primary_outcome_timeframe": data.get("PrimaryOutcomeTimeFrame"),
         "has_results":               data.get("HasResults"),
     }
+
+    # attach compacted PubMed abstract when the DE enrichment job has run
+    results_text = data.get("results")
+    if results_text and isinstance(results_text, str):
+        compacted = _compact_pubmed_results(results_text)
+        if compacted:
+            relevant["pubmed_results"] = compacted
 
     # keep interventions only if at least one component is DRUG or BIOLOGICAL.
     # InterventionType is a pipe-delimited string e.g. "DRUG | DRUG | OTHER"
@@ -405,6 +450,45 @@ def extract_ctgov_python(preprocessed: dict) -> dict:
         "suggested_event_slug":    slug,
         "clinical_findings":       None,
     }
+
+
+def _extract_clinical_findings(pubmed_results_text: str) -> dict | None:
+    """Targeted LLM call to extract clinical_findings from a compacted PubMed abstract.
+    Called only when the DE enrichment job has attached a `results` field to a ctgov file.
+    Returns the clinical_findings dict or None on parse failure.
+    """
+    prompt = f"""Extract clinical findings from this PubMed abstract. Return ONLY valid JSON with no markdown fences.
+
+{pubmed_results_text}
+
+{{
+  "study_design": "RCT | meta-analysis | systematic review | observational | null",
+  "sample_size": "N patients or null",
+  "comparator": "placebo | standard of care | competitor drug name | null",
+  "primary_outcome": "exact outcome measure as stated",
+  "primary_result": "exact result with numbers and p-value or hazard ratio",
+  "secondary_results": ["result with numbers", "result with numbers"],
+  "safety_note": "key adverse event finding or null",
+  "conclusions_verbatim": "copy the CONCLUSIONS or INTERPRETATION section exactly",
+  "journal": "journal name",
+  "publication_year": "YYYY",
+  "industry_sponsored": true
+}}"""
+
+    response = client.models.generate_content(
+        model=FLASH_MODEL,
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            temperature=0.1,
+            response_mime_type="application/json",
+        ),
+    )
+    ledger.record(response.usage_metadata)
+    try:
+        return json.loads(response.text)
+    except json.JSONDecodeError:
+        logger.warning(f"_extract_clinical_findings | JSON parse failed: {response.text[:200]}")
+        return None
 
 
 # ── ctgov pre-LLM filter ─────────────────────────────────────────────────────
@@ -1150,6 +1234,12 @@ def compile_document(
     if doc_type == "ctgov":
         extracted = extract_ctgov_python(_parsed_ctgov)
         logger.info(f"STEP1 | PYTHON | {file_name} — LLM call skipped")
+        pubmed_results = _parsed_ctgov.get("pubmed_results")
+        if pubmed_results:
+            findings = _extract_clinical_findings(pubmed_results)
+            if findings:
+                extracted["clinical_findings"] = findings
+                logger.info(f"STEP1 | CLINICAL_FINDINGS | {file_name} — extracted from pubmed_results")
     else:
         cache_name   = extraction_caches.get(doc_type)
         step1_system = cache_name if cache_name else system_prompt
