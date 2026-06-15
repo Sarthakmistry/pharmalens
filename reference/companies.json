@@ -11,8 +11,16 @@
       "Novo"
     ],
     "headquarters": "Bagsvaerd, Denmark",
-    "drugs": ["semaglutide", "liraglutide", "dulaglutide"],
-    "indications_active": ["glp1-obesity", "type2-diabetes", "hf-htn"]
+    "drugs": [
+      "semaglutide",
+      "liraglutide",
+      "dulaglutide"
+    ],
+    "indications_active": [
+      "glp1-obesity",
+      "type2-diabetes",
+      "hf-htn"
+    ]
   },
   "eli-lilly": {
     "full_name": "Eli Lilly and Company",
@@ -26,8 +34,21 @@
       "Eli Lilly and Company"
     ],
     "headquarters": "Indianapolis, Indiana, USA",
-    "drugs": ["tirzepatide", "retatrutide", "dulaglutide", "abemaciclib", "donanemab", "cetuximab"],
-    "indications_active": ["glp1-obesity", "type2-diabetes", "oncology-breast", "oncology-crc", "alzheimers"]
+    "drugs": [
+      "tirzepatide",
+      "retatrutide",
+      "dulaglutide",
+      "abemaciclib",
+      "donanemab",
+      "cetuximab"
+    ],
+    "indications_active": [
+      "glp1-obesity",
+      "type2-diabetes",
+      "oncology-breast",
+      "oncology-crc",
+      "alzheimers"
+    ]
   },
   "bristol-myers-squibb": {
     "full_name": "Bristol-Myers Squibb Company",
@@ -41,8 +62,14 @@
       "Bristol Myers Squibb"
     ],
     "headquarters": "Princeton, New Jersey, USA",
-    "drugs": ["nivolumab"],
-    "indications_active": ["oncology-nsclc", "oncology-breast", "oncology-crc"]
+    "drugs": [
+      "nivolumab"
+    ],
+    "indications_active": [
+      "oncology-nsclc",
+      "oncology-breast",
+      "oncology-crc"
+    ]
   },
   "merck": {
     "full_name": "Merck & Co., Inc.",
@@ -57,8 +84,16 @@
       "MSD"
     ],
     "headquarters": "Rahway, New Jersey, USA",
-    "drugs": ["pembrolizumab", "sitagliptin"],
-    "indications_active": ["oncology-nsclc", "oncology-breast", "oncology-crc", "type2-diabetes"]
+    "drugs": [
+      "pembrolizumab",
+      "sitagliptin"
+    ],
+    "indications_active": [
+      "oncology-nsclc",
+      "oncology-breast",
+      "oncology-crc",
+      "type2-diabetes"
+    ]
   },
   "pfizer": {
     "full_name": "Pfizer Inc.",
@@ -71,8 +106,12 @@
       "Pfizer Inc"
     ],
     "headquarters": "New York, New York, USA",
-    "drugs": ["palbociclib"],
-    "indications_active": ["oncology-breast"]
+    "drugs": [
+      "palbociclib"
+    ],
+    "indications_active": [
+      "oncology-breast"
+    ]
   },
   "roche": {
     "full_name": "Roche Holding AG",
@@ -88,8 +127,15 @@
       "F. Hoffmann-La Roche"
     ],
     "headquarters": "Basel, Switzerland",
-    "drugs": ["bevacizumab", "atezolizumab"],
-    "indications_active": ["oncology-nsclc", "oncology-breast", "oncology-crc"]
+    "drugs": [
+      "bevacizumab",
+      "atezolizumab"
+    ],
+    "indications_active": [
+      "oncology-nsclc",
+      "oncology-breast",
+      "oncology-crc"
+    ]
   },
   "astrazeneca": {
     "full_name": "AstraZeneca PLC",
@@ -103,8 +149,21 @@
       "AstraZeneca PLC"
     ],
     "headquarters": "Cambridge, United Kingdom",
-    "drugs": ["dapagliflozin", "saxagliptin", "osimertinib", "durvalumab", "olaparib", "trastuzumab deruxtecan"],
-    "indications_active": ["type2-diabetes", "hf-htn", "oncology-nsclc", "oncology-breast", "oncology-crc"]
+    "drugs": [
+      "dapagliflozin",
+      "saxagliptin",
+      "osimertinib",
+      "durvalumab",
+      "olaparib",
+      "trastuzumab deruxtecan"
+    ],
+    "indications_active": [
+      "type2-diabetes",
+      "hf-htn",
+      "oncology-nsclc",
+      "oncology-breast",
+      "oncology-crc"
+    ]
   },
   "novartis": {
     "full_name": "Novartis AG",
@@ -118,8 +177,15 @@
       "Novartis Pharmaceuticals"
     ],
     "headquarters": "Basel, Switzerland",
-    "drugs": ["sacubitril-valsartan", "inclisiran", "ribociclib"],
-    "indications_active": ["hf-htn", "oncology-breast"]
+    "drugs": [
+      "sacubitril-valsartan",
+      "inclisiran",
+      "ribociclib"
+    ],
+    "indications_active": [
+      "hf-htn",
+      "oncology-breast"
+    ]
   },
   "johnson-and-johnson": {
     "full_name": "Johnson & Johnson",
@@ -135,8 +201,13 @@
       "Johnson and Johnson"
     ],
     "headquarters": "New Brunswick, New Jersey, USA",
-    "drugs": ["canagliflozin"],
-    "indications_active": ["type2-diabetes", "hf-htn"]
+    "drugs": [
+      "canagliflozin"
+    ],
+    "indications_active": [
+      "type2-diabetes",
+      "hf-htn"
+    ]
   },
   "abbvie": {
     "full_name": "AbbVie Inc.",
@@ -164,7 +235,10 @@
     ],
     "headquarters": "Thousand Oaks, California, USA",
     "drugs": [],
-    "indications_active": ["glp1-obesity", "oncology-crc"]
+    "indications_active": [
+      "glp1-obesity",
+      "oncology-crc"
+    ]
   },
   "gilead": {
     "full_name": "Gilead Sciences, Inc.",
@@ -192,8 +266,12 @@
       "Biogen Idec"
     ],
     "headquarters": "Cambridge, Massachusetts, USA",
-    "drugs": ["lecanemab"],
-    "indications_active": ["alzheimers"]
+    "drugs": [
+      "lecanemab"
+    ],
+    "indications_active": [
+      "alzheimers"
+    ]
   },
   "regeneron": {
     "full_name": "Regeneron Pharmaceuticals, Inc.",
@@ -207,7 +285,9 @@
     ],
     "headquarters": "Tarrytown, New York, USA",
     "drugs": [],
-    "indications_active": ["oncology-crc"]
+    "indications_active": [
+      "oncology-crc"
+    ]
   },
   "vertex": {
     "full_name": "Vertex Pharmaceuticals Incorporated",
@@ -220,7 +300,9 @@
       "Vertex Pharmaceuticals"
     ],
     "headquarters": "Boston, Massachusetts, USA",
-    "drugs": ["ivacaftor-tezacaftor-elexacaftor"],
+    "drugs": [
+      "ivacaftor-tezacaftor-elexacaftor"
+    ],
     "indications_active": []
   },
   "sanofi": {
@@ -268,21 +350,6 @@
     "drugs": [],
     "indications_active": []
   },
-  "eisai": {
-    "full_name": "Eisai Co., Ltd.",
-    "ticker": "ESALY",
-    "exchange": "NYSE",
-    "edgar_cik": "0000049196",
-    "aliases": [
-      "Eisai",
-      "ESALY",
-      "Eisai Co",
-      "Eisai Ltd"
-    ],
-    "headquarters": "Tokyo, Japan",
-    "drugs": ["lecanemab"],
-    "indications_active": ["alzheimers"]
-  },
   "bayer": {
     "full_name": "Bayer AG",
     "ticker": "BAYRY",
@@ -295,7 +362,11 @@
       "Bayer Healthcare"
     ],
     "headquarters": "Leverkusen, Germany",
-    "drugs": ["finerenone"],
-    "indications_active": ["hf-htn"]
+    "drugs": [
+      "finerenone"
+    ],
+    "indications_active": [
+      "hf-htn"
+    ]
   }
 }

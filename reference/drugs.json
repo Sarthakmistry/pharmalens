@@ -2,42 +2,74 @@
   "semaglutide": {
     "inn": "semaglutide",
     "rxcui": "1991302",
-    "brand_names": ["Ozempic", "Rybelsus", "Wegovy"],
+    "brand_names": [
+      "Ozempic",
+      "Rybelsus",
+      "Wegovy"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2017-12-05",
     "patent_expiry": "2032-01-01",
     "black_box_warning": true,
     "black_box_summary": "Thyroid C-cell tumors observed in rodents; contraindicated in patients with personal/family history of medullary thyroid carcinoma or MEN2",
     "company": "novo-nordisk",
-    "indications": ["glp1-obesity", "type2-diabetes", "hf-htn"],
+    "indications": [
+      "glp1-obesity",
+      "type2-diabetes",
+      "hf-htn"
+    ],
     "drug_class": "GLP-1 receptor agonist",
-    "mechanism": "GLP-1 receptor agonist — stimulates glucose-dependent insulin secretion, suppresses glucagon, slows gastric emptying, and reduces appetite via central mechanisms",
-    "administration_routes": ["subcutaneous injection", "oral tablet"],
+    "mechanism": "GLP-1 receptor agonist \u2014 stimulates glucose-dependent insulin secretion, suppresses glucagon, slows gastric emptying, and reduces appetite via central mechanisms",
+    "administration_routes": [
+      "subcutaneous injection",
+      "oral tablet"
+    ],
     "biosimilar_risk": "medium",
-    "biosimilar_note": "Peptide biologic — biosimilars in early development; core patents challenged",
+    "biosimilar_note": "Peptide biologic \u2014 biosimilars in early development; core patents challenged",
     "blockbuster": true,
     "revenue_note": "~$14B+ annual revenue across all formulations (2024); largest revenue drug for Novo Nordisk",
-    "aliases": ["Ozempic", "Rybelsus", "Wegovy", "GLP-1 RA semaglutide", "semaglutide injection", "oral semaglutide"]
+    "aliases": [
+      "Ozempic",
+      "Rybelsus",
+      "Wegovy",
+      "GLP-1 RA semaglutide",
+      "semaglutide injection",
+      "oral semaglutide"
+    ]
   },
   "tirzepatide": {
     "inn": "tirzepatide",
     "rxcui": "2601723",
-    "brand_names": ["Mounjaro", "Zepbound"],
+    "brand_names": [
+      "Mounjaro",
+      "Zepbound"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2022-05-13",
     "patent_expiry": "2036-01-01",
     "black_box_warning": true,
     "black_box_summary": "Thyroid C-cell tumors observed in rodents; contraindicated in patients with personal/family history of medullary thyroid carcinoma or MEN2",
     "company": "eli-lilly",
-    "indications": ["glp1-obesity", "type2-diabetes"],
+    "indications": [
+      "glp1-obesity",
+      "type2-diabetes"
+    ],
     "drug_class": "GIP/GLP-1 dual receptor agonist",
-    "mechanism": "Dual agonist at GIP (glucose-dependent insulinotropic polypeptide) and GLP-1 receptors — reduces blood glucose, body weight, and appetite through complementary incretin pathways",
-    "administration_routes": ["subcutaneous injection"],
+    "mechanism": "Dual agonist at GIP (glucose-dependent insulinotropic polypeptide) and GLP-1 receptors \u2014 reduces blood glucose, body weight, and appetite through complementary incretin pathways",
+    "administration_routes": [
+      "subcutaneous injection"
+    ],
     "biosimilar_risk": "medium",
-    "biosimilar_note": "Novel dual-agonist peptide — more complex to replicate than single GLP-1 agonists",
+    "biosimilar_note": "Novel dual-agonist peptide \u2014 more complex to replicate than single GLP-1 agonists",
     "blockbuster": true,
     "revenue_note": "~$6B+ and growing rapidly (2024); fastest-growing drug in Eli Lilly portfolio",
-    "aliases": ["Mounjaro", "Zepbound", "GIP/GLP-1 dual agonist", "tirzepatide injection", "LY3298176"]
+    "aliases": [
+      "Mounjaro",
+      "Zepbound",
+      "GIP/GLP-1 dual agonist",
+      "tirzepatide injection",
+      "LY3298176"
+    ]
   },
   "retatrutide": {
     "inn": "retatrutide",
@@ -49,60 +81,101 @@
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "eli-lilly",
-    "indications": ["glp1-obesity", "type2-diabetes"],
+    "indications": [
+      "glp1-obesity",
+      "type2-diabetes"
+    ],
     "drug_class": "GIP/GLP-1/glucagon triple receptor agonist",
-    "mechanism": "Triple agonist at GIP, GLP-1, and glucagon receptors — adds glucagon-mediated energy expenditure increase on top of dual incretin activity; shows >20% body weight reduction in Phase 2",
-    "administration_routes": ["subcutaneous injection"],
+    "mechanism": "Triple agonist at GIP, GLP-1, and glucagon receptors \u2014 adds glucagon-mediated energy expenditure increase on top of dual incretin activity; shows >20% body weight reduction in Phase 2",
+    "administration_routes": [
+      "subcutaneous injection"
+    ],
     "biosimilar_risk": "low",
-    "biosimilar_note": "Not yet approved — Phase 3 in progress",
+    "biosimilar_note": "Not yet approved \u2014 Phase 3 in progress",
     "blockbuster": null,
-    "revenue_note": "Phase 3 — not yet approved or generating revenue",
-    "aliases": ["LY3437943", "triple agonist", "GIP/GLP-1/glucagon agonist"]
+    "revenue_note": "Phase 3 \u2014 not yet approved or generating revenue",
+    "aliases": [
+      "LY3437943",
+      "triple agonist",
+      "GIP/GLP-1/glucagon agonist"
+    ]
   },
   "liraglutide": {
     "inn": "liraglutide",
     "rxcui": "475968",
-    "brand_names": ["Saxenda", "Victoza", "Xultophy"],
+    "brand_names": [
+      "Saxenda",
+      "Victoza",
+      "Xultophy"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2010-01-25",
     "patent_expiry": "2023-06-01",
     "black_box_warning": true,
     "black_box_summary": "Thyroid C-cell tumors observed in rodents; contraindicated in patients with personal/family history of medullary thyroid carcinoma or MEN2",
     "company": "novo-nordisk",
-    "indications": ["glp1-obesity", "type2-diabetes", "hf-htn"],
+    "indications": [
+      "glp1-obesity",
+      "type2-diabetes",
+      "hf-htn"
+    ],
     "drug_class": "GLP-1 receptor agonist",
-    "mechanism": "GLP-1 receptor agonist — daily subcutaneous injection; first GLP-1 RA to show CV mortality benefit (LEADER trial)",
-    "administration_routes": ["subcutaneous injection"],
+    "mechanism": "GLP-1 receptor agonist \u2014 daily subcutaneous injection; first GLP-1 RA to show CV mortality benefit (LEADER trial)",
+    "administration_routes": [
+      "subcutaneous injection"
+    ],
     "biosimilar_risk": "high",
     "biosimilar_note": "Core patent expired 2023; biosimilar entries expected imminently, already approved in some markets",
     "blockbuster": false,
-    "revenue_note": "Declining — peak ~$3B, now displaced by semaglutide within Novo Nordisk portfolio",
-    "aliases": ["Saxenda", "Victoza", "Xultophy", "liraglutide injection", "NN2211"]
+    "revenue_note": "Declining \u2014 peak ~$3B, now displaced by semaglutide within Novo Nordisk portfolio",
+    "aliases": [
+      "Saxenda",
+      "Victoza",
+      "Xultophy",
+      "liraglutide injection",
+      "NN2211"
+    ]
   },
   "dulaglutide": {
     "inn": "dulaglutide",
     "rxcui": "1551291",
-    "brand_names": ["Trulicity"],
+    "brand_names": [
+      "Trulicity"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2014-09-18",
     "patent_expiry": "2027-01-01",
     "black_box_warning": true,
     "black_box_summary": "Thyroid C-cell tumors observed in rodents; contraindicated in patients with personal/family history of medullary thyroid carcinoma or MEN2",
     "company": "eli-lilly",
-    "indications": ["glp1-obesity", "type2-diabetes"],
+    "indications": [
+      "glp1-obesity",
+      "type2-diabetes"
+    ],
     "drug_class": "GLP-1 receptor agonist",
-    "mechanism": "GLP-1 receptor agonist — weekly injection using GLP-1 fused to Fc antibody fragment for extended half-life",
-    "administration_routes": ["subcutaneous injection"],
+    "mechanism": "GLP-1 receptor agonist \u2014 weekly injection using GLP-1 fused to Fc antibody fragment for extended half-life",
+    "administration_routes": [
+      "subcutaneous injection"
+    ],
     "biosimilar_risk": "medium",
     "biosimilar_note": "Patent expiry ~2027; losing share rapidly to tirzepatide within Eli Lilly's own portfolio",
     "blockbuster": false,
-    "revenue_note": "Declining — peak ~$5.5B (2022), now falling as tirzepatide displaces it",
-    "aliases": ["Trulicity", "LY2189265", "dulaglutide injection"]
+    "revenue_note": "Declining \u2014 peak ~$5.5B (2022), now falling as tirzepatide displaces it",
+    "aliases": [
+      "Trulicity",
+      "LY2189265",
+      "dulaglutide injection"
+    ]
   },
   "empagliflozin": {
     "inn": "empagliflozin",
     "rxcui": "1545653",
-    "brand_names": ["Jardiance", "Glyxambi", "Synjardy", "Trijardy"],
+    "brand_names": [
+      "Jardiance",
+      "Glyxambi",
+      "Synjardy",
+      "Trijardy"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2014-08-01",
     "patent_expiry": "2025-08-01",
@@ -110,341 +183,546 @@
     "black_box_summary": null,
     "company": "boehringer-ingelheim",
     "company_note": "Co-marketed with Eli Lilly (our tracked NYSE partner); Boehringer Ingelheim is private",
-    "indications": ["type2-diabetes", "hf-htn"],
+    "indications": [
+      "type2-diabetes",
+      "hf-htn"
+    ],
     "drug_class": "SGLT2 inhibitor",
-    "mechanism": "Sodium-glucose cotransporter 2 (SGLT2) inhibitor — blocks glucose reabsorption in proximal renal tubule, promoting glycosuria; also reduces cardiac preload/afterload via osmotic diuresis",
-    "administration_routes": ["oral tablet"],
+    "mechanism": "Sodium-glucose cotransporter 2 (SGLT2) inhibitor \u2014 blocks glucose reabsorption in proximal renal tubule, promoting glycosuria; also reduces cardiac preload/afterload via osmotic diuresis",
+    "administration_routes": [
+      "oral tablet"
+    ],
     "biosimilar_risk": "low",
-    "biosimilar_note": "Small molecule — generic competition expected post-patent expiry ~2025; Eli Lilly will lose co-promotion revenue",
+    "biosimilar_note": "Small molecule \u2014 generic competition expected post-patent expiry ~2025; Eli Lilly will lose co-promotion revenue",
     "blockbuster": true,
     "revenue_note": "~$8B+ annual revenue (2024); largest SGLT2 inhibitor globally",
-    "aliases": ["Jardiance", "BI 10773", "empagliflozin tablet"]
+    "aliases": [
+      "Jardiance",
+      "BI 10773",
+      "empagliflozin tablet"
+    ]
   },
   "dapagliflozin": {
     "inn": "dapagliflozin",
     "rxcui": "1488564",
-    "brand_names": ["Farxiga", "Xigduo", "Qtern"],
+    "brand_names": [
+      "Farxiga",
+      "Xigduo",
+      "Qtern"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2014-01-08",
     "patent_expiry": "2025-10-01",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "astrazeneca",
-    "indications": ["type2-diabetes", "hf-htn"],
+    "indications": [
+      "type2-diabetes",
+      "hf-htn"
+    ],
     "drug_class": "SGLT2 inhibitor",
-    "mechanism": "SGLT2 inhibitor — first SGLT2i approved for heart failure with reduced ejection fraction (HFrEF) regardless of T2D status (DAPA-HF trial)",
-    "administration_routes": ["oral tablet"],
+    "mechanism": "SGLT2 inhibitor \u2014 first SGLT2i approved for heart failure with reduced ejection fraction (HFrEF) regardless of T2D status (DAPA-HF trial)",
+    "administration_routes": [
+      "oral tablet"
+    ],
     "biosimilar_risk": "low",
-    "biosimilar_note": "Small molecule — generic entries expected post-patent expiry",
+    "biosimilar_note": "Small molecule \u2014 generic entries expected post-patent expiry",
     "blockbuster": true,
     "revenue_note": "~$3.5B annual revenue (2024); important growth driver for AstraZeneca",
-    "aliases": ["Farxiga", "Forxiga", "BMS-512148", "dapagliflozin tablet"]
+    "aliases": [
+      "Farxiga",
+      "Forxiga",
+      "BMS-512148",
+      "dapagliflozin tablet"
+    ]
   },
   "canagliflozin": {
     "inn": "canagliflozin",
     "rxcui": "1373458",
-    "brand_names": ["Invokana", "Invokamet"],
+    "brand_names": [
+      "Invokana",
+      "Invokamet"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2013-03-29",
     "patent_expiry": "2026-01-01",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "johnson-and-johnson",
-    "indications": ["type2-diabetes", "hf-htn"],
+    "indications": [
+      "type2-diabetes",
+      "hf-htn"
+    ],
     "drug_class": "SGLT2 inhibitor",
-    "mechanism": "SGLT2 inhibitor — first approved in class (2013); also inhibits SGLT1 at higher doses; showed CV and renal outcomes benefit (CANVAS, CREDENCE trials)",
-    "administration_routes": ["oral tablet"],
+    "mechanism": "SGLT2 inhibitor \u2014 first approved in class (2013); also inhibits SGLT1 at higher doses; showed CV and renal outcomes benefit (CANVAS, CREDENCE trials)",
+    "administration_routes": [
+      "oral tablet"
+    ],
     "biosimilar_risk": "low",
     "biosimilar_note": "Small molecule; losing market share to empagliflozin and dapagliflozin",
     "blockbuster": false,
-    "revenue_note": "Declining — peak ~$1.5B, significantly lower now as class competition intensified",
-    "aliases": ["Invokana", "JNJ-28431754", "canagliflozin tablet"]
+    "revenue_note": "Declining \u2014 peak ~$1.5B, significantly lower now as class competition intensified",
+    "aliases": [
+      "Invokana",
+      "JNJ-28431754",
+      "canagliflozin tablet"
+    ]
   },
   "sitagliptin": {
     "inn": "sitagliptin",
     "rxcui": "2716481",
-    "brand_names": ["Januvia", "Janumet"],
+    "brand_names": [
+      "Januvia",
+      "Janumet"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2006-10-16",
     "patent_expiry": "2022-12-01",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "merck",
-    "indications": ["type2-diabetes"],
+    "indications": [
+      "type2-diabetes"
+    ],
     "drug_class": "DPP-4 inhibitor",
-    "mechanism": "Dipeptidyl peptidase-4 (DPP-4) inhibitor — prevents breakdown of endogenous GLP-1 and GIP, enhancing glucose-dependent insulin release",
-    "administration_routes": ["oral tablet"],
+    "mechanism": "Dipeptidyl peptidase-4 (DPP-4) inhibitor \u2014 prevents breakdown of endogenous GLP-1 and GIP, enhancing glucose-dependent insulin release",
+    "administration_routes": [
+      "oral tablet"
+    ],
     "biosimilar_risk": "high",
-    "biosimilar_note": "Patent expired 2022 — generics now widely available; significant revenue erosion underway for Merck",
+    "biosimilar_note": "Patent expired 2022 \u2014 generics now widely available; significant revenue erosion underway for Merck",
     "blockbuster": false,
-    "revenue_note": "Rapidly declining post-genericization — peak ~$5.7B (2017); generics now dominant",
-    "aliases": ["Januvia", "Janumet", "MK-0431", "sitagliptin phosphate"]
+    "revenue_note": "Rapidly declining post-genericization \u2014 peak ~$5.7B (2017); generics now dominant",
+    "aliases": [
+      "Januvia",
+      "Janumet",
+      "MK-0431",
+      "sitagliptin phosphate"
+    ]
   },
   "saxagliptin": {
     "inn": "saxagliptin",
     "rxcui": "1043560",
-    "brand_names": ["Onglyza", "Kombiglyze"],
+    "brand_names": [
+      "Onglyza",
+      "Kombiglyze"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2009-07-31",
     "patent_expiry": "2022-06-01",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "astrazeneca",
-    "indications": ["type2-diabetes"],
+    "indications": [
+      "type2-diabetes"
+    ],
     "drug_class": "DPP-4 inhibitor",
-    "mechanism": "DPP-4 inhibitor — selective and reversible; SAVOR-TIMI 53 trial showed increased HF hospitalizations, limiting CV label vs SGLT2 inhibitors",
-    "administration_routes": ["oral tablet"],
+    "mechanism": "DPP-4 inhibitor \u2014 selective and reversible; SAVOR-TIMI 53 trial showed increased HF hospitalizations, limiting CV label vs SGLT2 inhibitors",
+    "administration_routes": [
+      "oral tablet"
+    ],
     "biosimilar_risk": "high",
-    "biosimilar_note": "Patent expired — generics available; minimal revenue contribution to AstraZeneca now",
+    "biosimilar_note": "Patent expired \u2014 generics available; minimal revenue contribution to AstraZeneca now",
     "blockbuster": false,
-    "revenue_note": "Negligible — generic competition has effectively ended branded revenue",
-    "aliases": ["Onglyza", "Kombiglyze", "BMS-477118", "saxagliptin hydrochloride"]
+    "revenue_note": "Negligible \u2014 generic competition has effectively ended branded revenue",
+    "aliases": [
+      "Onglyza",
+      "Kombiglyze",
+      "BMS-477118",
+      "saxagliptin hydrochloride"
+    ]
   },
   "sacubitril-valsartan": {
     "inn": "sacubitril-valsartan",
     "rxcui": "1656339",
-    "brand_names": ["Entresto"],
+    "brand_names": [
+      "Entresto"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2015-07-07",
     "patent_expiry": "2025-07-01",
     "black_box_warning": true,
-    "black_box_summary": "Fetal toxicity — discontinue when pregnancy detected; contraindicated in pregnancy due to ARB component (valsartan)",
+    "black_box_summary": "Fetal toxicity \u2014 discontinue when pregnancy detected; contraindicated in pregnancy due to ARB component (valsartan)",
     "company": "novartis",
-    "indications": ["hf-htn"],
+    "indications": [
+      "hf-htn"
+    ],
     "drug_class": "Angiotensin receptor-neprilysin inhibitor (ARNI)",
-    "mechanism": "Fixed-dose combination of neprilysin inhibitor (sacubitril) and ARB (valsartan) — augments natriuretic peptide system while blocking RAAS, reducing cardiac stress and fibrosis in HFrEF",
-    "administration_routes": ["oral tablet"],
+    "mechanism": "Fixed-dose combination of neprilysin inhibitor (sacubitril) and ARB (valsartan) \u2014 augments natriuretic peptide system while blocking RAAS, reducing cardiac stress and fibrosis in HFrEF",
+    "administration_routes": [
+      "oral tablet"
+    ],
     "biosimilar_risk": "low",
-    "biosimilar_note": "Small molecule combination — generic risk after patent expiry ~2025; first generic applications filed",
+    "biosimilar_note": "Small molecule combination \u2014 generic risk after patent expiry ~2025; first generic applications filed",
     "blockbuster": true,
     "revenue_note": "~$5B+ annual revenue (2024); key growth driver for Novartis in cardiovascular",
-    "aliases": ["Entresto", "LCZ696", "valsartan/sacubitril", "sacubitril/valsartan"]
+    "aliases": [
+      "Entresto",
+      "LCZ696",
+      "valsartan/sacubitril",
+      "sacubitril/valsartan"
+    ]
   },
   "inclisiran": {
     "inn": "inclisiran",
     "rxcui": "2588243",
-    "brand_names": ["Leqvio"],
+    "brand_names": [
+      "Leqvio"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2021-12-22",
     "patent_expiry": "2036-01-01",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "novartis",
-    "indications": ["hf-htn"],
+    "indications": [
+      "hf-htn"
+    ],
     "drug_class": "siRNA PCSK9 inhibitor",
-    "mechanism": "Small interfering RNA (siRNA) targeting PCSK9 mRNA in hepatocytes — reduces PCSK9 protein synthesis, upregulates LDL receptors, lowers LDL-C; twice-yearly dosing (unique in class)",
-    "administration_routes": ["subcutaneous injection"],
+    "mechanism": "Small interfering RNA (siRNA) targeting PCSK9 mRNA in hepatocytes \u2014 reduces PCSK9 protein synthesis, upregulates LDL receptors, lowers LDL-C; twice-yearly dosing (unique in class)",
+    "administration_routes": [
+      "subcutaneous injection"
+    ],
     "biosimilar_risk": "low",
-    "biosimilar_note": "RNA therapeutic — highly complex manufacturing, no established biosimilar pathway for siRNA",
+    "biosimilar_note": "RNA therapeutic \u2014 highly complex manufacturing, no established biosimilar pathway for siRNA",
     "blockbuster": false,
     "revenue_note": "~$500M and growing slowly (2024); uptake slower than expected due to payer restrictions",
-    "aliases": ["Leqvio", "ALN-PCSsc", "inclisiran sodium", "PCSK9 siRNA"]
+    "aliases": [
+      "Leqvio",
+      "ALN-PCSsc",
+      "inclisiran sodium",
+      "PCSK9 siRNA"
+    ]
   },
   "finerenone": {
     "inn": "finerenone",
     "rxcui": "2562811",
-    "brand_names": ["Kerendia"],
+    "brand_names": [
+      "Kerendia"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2021-07-09",
     "patent_expiry": "2033-01-01",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "bayer",
-    "indications": ["hf-htn"],
+    "indications": [
+      "hf-htn"
+    ],
     "drug_class": "Non-steroidal mineralocorticoid receptor antagonist (ns-MRA)",
-    "mechanism": "Highly selective non-steroidal MRA — reduces inflammation and fibrosis in kidney and heart by blocking aldosterone/cortisol at mineralocorticoid receptors without progesterone/androgen side effects of steroidal MRAs",
-    "administration_routes": ["oral tablet"],
+    "mechanism": "Highly selective non-steroidal MRA \u2014 reduces inflammation and fibrosis in kidney and heart by blocking aldosterone/cortisol at mineralocorticoid receptors without progesterone/androgen side effects of steroidal MRAs",
+    "administration_routes": [
+      "oral tablet"
+    ],
     "biosimilar_risk": "low",
     "biosimilar_note": "Small molecule with long patent runway; no generic competition for many years",
     "blockbuster": false,
-    "revenue_note": "~$600M and growing (2024); indicated for CKD with T2D — large addressable market",
-    "aliases": ["Kerendia", "BAY 94-8862", "finerenone tablet"]
+    "revenue_note": "~$600M and growing (2024); indicated for CKD with T2D \u2014 large addressable market",
+    "aliases": [
+      "Kerendia",
+      "BAY 94-8862",
+      "finerenone tablet"
+    ]
   },
   "pembrolizumab": {
     "inn": "pembrolizumab",
     "rxcui": "1547545",
-    "brand_names": ["Keytruda", "Keytruda Qlex"],
+    "brand_names": [
+      "Keytruda",
+      "Keytruda Qlex"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2014-09-04",
     "patent_expiry": "2028-07-23",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "merck",
-    "indications": ["oncology-nsclc", "oncology-breast", "oncology-crc"],
+    "indications": [
+      "oncology-nsclc",
+      "oncology-breast",
+      "oncology-crc"
+    ],
     "drug_class": "PD-1 checkpoint inhibitor",
-    "mechanism": "Humanized IgG4 anti-PD-1 monoclonal antibody — blocks interaction between PD-1 on T-cells and PD-L1/PD-L2 on tumor cells, restoring cytotoxic T-cell activity against tumors",
-    "administration_routes": ["intravenous infusion"],
+    "mechanism": "Humanized IgG4 anti-PD-1 monoclonal antibody \u2014 blocks interaction between PD-1 on T-cells and PD-L1/PD-L2 on tumor cells, restoring cytotoxic T-cell activity against tumors",
+    "administration_routes": [
+      "intravenous infusion"
+    ],
     "biosimilar_risk": "high",
-    "biosimilar_note": "Biologic — major patent expires 2028; multiple biosimilar programs in development globally; represents the single largest biosimilar commercial opportunity in history",
+    "biosimilar_note": "Biologic \u2014 major patent expires 2028; multiple biosimilar programs in development globally; represents the single largest biosimilar commercial opportunity in history",
     "blockbuster": true,
-    "revenue_note": "~$25B+ annual revenue (2024) — world's best-selling drug; approved in 40+ tumor types",
-    "aliases": ["Keytruda", "MK-3475", "lambrolizumab", "anti-PD-1"]
+    "revenue_note": "~$25B+ annual revenue (2024) \u2014 world's best-selling drug; approved in 40+ tumor types",
+    "aliases": [
+      "Keytruda",
+      "MK-3475",
+      "lambrolizumab",
+      "anti-PD-1"
+    ]
   },
   "nivolumab": {
     "inn": "nivolumab",
     "rxcui": "1597876",
-    "brand_names": ["Opdivo", "Opdualag", "Opdivo Qvantig"],
+    "brand_names": [
+      "Opdivo",
+      "Opdualag",
+      "Opdivo Qvantig"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2014-12-22",
     "patent_expiry": "2026-12-31",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "bristol-myers-squibb",
-    "indications": ["oncology-nsclc", "oncology-breast", "oncology-crc"],
+    "indications": [
+      "oncology-nsclc",
+      "oncology-breast",
+      "oncology-crc"
+    ],
     "drug_class": "PD-1 checkpoint inhibitor",
     "mechanism": "Fully human IgG4 anti-PD-1 monoclonal antibody; often combined with ipilimumab (CTLA-4 inhibitor) for dual checkpoint blockade (Opdualag adds LAG-3 inhibition)",
-    "administration_routes": ["intravenous infusion", "subcutaneous injection"],
+    "administration_routes": [
+      "intravenous infusion",
+      "subcutaneous injection"
+    ],
     "biosimilar_risk": "high",
-    "biosimilar_note": "Biologic — patents expiring 2026-2028; biosimilar applications already filed; significant revenue risk for BMS",
+    "biosimilar_note": "Biologic \u2014 patents expiring 2026-2028; biosimilar applications already filed; significant revenue risk for BMS",
     "blockbuster": true,
     "revenue_note": "~$9B annual revenue (2024); second-largest IO drug after Keytruda",
-    "aliases": ["Opdivo", "Opdualag", "BMS-936558", "MDX-1106", "anti-PD-1"]
+    "aliases": [
+      "Opdivo",
+      "Opdualag",
+      "BMS-936558",
+      "MDX-1106",
+      "anti-PD-1"
+    ]
   },
   "osimertinib": {
     "inn": "osimertinib",
     "rxcui": "1721559",
-    "brand_names": ["Tagrisso"],
+    "brand_names": [
+      "Tagrisso"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2015-11-13",
     "patent_expiry": "2031-04-01",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "astrazeneca",
-    "indications": ["oncology-nsclc"],
+    "indications": [
+      "oncology-nsclc"
+    ],
     "drug_class": "EGFR tyrosine kinase inhibitor (3rd generation)",
-    "mechanism": "Irreversible, CNS-penetrant EGFR inhibitor — targets T790M resistance mutation and common sensitizing mutations (exon 19 del, L858R); also active in leptomeningeal metastases",
-    "administration_routes": ["oral tablet"],
+    "mechanism": "Irreversible, CNS-penetrant EGFR inhibitor \u2014 targets T790M resistance mutation and common sensitizing mutations (exon 19 del, L858R); also active in leptomeningeal metastases",
+    "administration_routes": [
+      "oral tablet"
+    ],
     "biosimilar_risk": "low",
-    "biosimilar_note": "Small molecule — generic risk post-2031; but LAURA trial adjuvant data extends franchise",
+    "biosimilar_note": "Small molecule \u2014 generic risk post-2031; but LAURA trial adjuvant data extends franchise",
     "blockbuster": true,
     "revenue_note": "~$7B annual revenue (2024); single largest revenue drug for AstraZeneca",
-    "aliases": ["Tagrisso", "AZD9291", "mereletinib", "osimertinib mesylate"]
+    "aliases": [
+      "Tagrisso",
+      "AZD9291",
+      "mereletinib",
+      "osimertinib mesylate"
+    ]
   },
   "atezolizumab": {
     "inn": "atezolizumab",
     "rxcui": "1792776",
-    "brand_names": ["Tecentriq", "Tecentriq Hybreza"],
+    "brand_names": [
+      "Tecentriq",
+      "Tecentriq Hybreza"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2016-05-18",
     "patent_expiry": "2028-01-01",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "roche",
-    "indications": ["oncology-nsclc", "oncology-breast"],
+    "indications": [
+      "oncology-nsclc",
+      "oncology-breast"
+    ],
     "drug_class": "PD-L1 checkpoint inhibitor",
-    "mechanism": "Fc-engineered IgG1 anti-PD-L1 monoclonal antibody — blocks PD-L1 on tumor cells and tumor-infiltrating immune cells; Fc engineering reduces antibody-dependent cytotoxicity against T-cells",
-    "administration_routes": ["intravenous infusion", "subcutaneous injection"],
+    "mechanism": "Fc-engineered IgG1 anti-PD-L1 monoclonal antibody \u2014 blocks PD-L1 on tumor cells and tumor-infiltrating immune cells; Fc engineering reduces antibody-dependent cytotoxicity against T-cells",
+    "administration_routes": [
+      "intravenous infusion",
+      "subcutaneous injection"
+    ],
     "biosimilar_risk": "high",
-    "biosimilar_note": "Biologic — losing significant market share to pembrolizumab; revenue declining; Roche discontinuing some indications",
+    "biosimilar_note": "Biologic \u2014 losing significant market share to pembrolizumab; revenue declining; Roche discontinuing some indications",
     "blockbuster": false,
     "revenue_note": "~$1.5B and declining (2024); Roche withdrew from several US indications in 2023-2024",
-    "aliases": ["Tecentriq", "MPDL3280A", "RG7446", "anti-PD-L1"]
+    "aliases": [
+      "Tecentriq",
+      "MPDL3280A",
+      "RG7446",
+      "anti-PD-L1"
+    ]
   },
   "durvalumab": {
     "inn": "durvalumab",
     "rxcui": "1919503",
-    "brand_names": ["Imfinzi"],
+    "brand_names": [
+      "Imfinzi"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2017-05-01",
     "patent_expiry": "2030-01-01",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "astrazeneca",
-    "indications": ["oncology-nsclc", "oncology-crc"],
+    "indications": [
+      "oncology-nsclc",
+      "oncology-crc"
+    ],
     "drug_class": "PD-L1 checkpoint inhibitor",
-    "mechanism": "Human IgG1 anti-PD-L1 monoclonal antibody; differentiated in unresectable Stage III NSCLC (PACIFIC trial — consolidation after chemoradiation) and biliary tract cancer (TOPAZ-1 trial)",
-    "administration_routes": ["intravenous infusion"],
+    "mechanism": "Human IgG1 anti-PD-L1 monoclonal antibody; differentiated in unresectable Stage III NSCLC (PACIFIC trial \u2014 consolidation after chemoradiation) and biliary tract cancer (TOPAZ-1 trial)",
+    "administration_routes": [
+      "intravenous infusion"
+    ],
     "biosimilar_risk": "medium",
     "biosimilar_note": "Biologic with strong Stage III NSCLC franchise; growing in hepatobiliary indications",
     "blockbuster": false,
     "revenue_note": "~$3.5B and growing (2024); important second IO franchise for AstraZeneca alongside osimertinib",
-    "aliases": ["Imfinzi", "MEDI4736", "anti-PD-L1"]
+    "aliases": [
+      "Imfinzi",
+      "MEDI4736",
+      "anti-PD-L1"
+    ]
   },
   "palbociclib": {
     "inn": "palbociclib",
     "rxcui": "1601374",
-    "brand_names": ["Ibrance"],
+    "brand_names": [
+      "Ibrance"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2015-02-03",
     "patent_expiry": "2027-09-16",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "pfizer",
-    "indications": ["oncology-breast"],
+    "indications": [
+      "oncology-breast"
+    ],
     "drug_class": "CDK4/6 inhibitor",
-    "mechanism": "Cyclin-dependent kinase 4 and 6 (CDK4/6) inhibitor — blocks cell cycle progression from G1 to S phase in HR+/HER2- breast cancer; used with aromatase inhibitors or fulvestrant",
-    "administration_routes": ["oral capsule"],
+    "mechanism": "Cyclin-dependent kinase 4 and 6 (CDK4/6) inhibitor \u2014 blocks cell cycle progression from G1 to S phase in HR+/HER2- breast cancer; used with aromatase inhibitors or fulvestrant",
+    "administration_routes": [
+      "oral capsule"
+    ],
     "biosimilar_risk": "low",
-    "biosimilar_note": "Small molecule — generic competition expected ~2027; first CDK4/6 inhibitor to market (2015)",
+    "biosimilar_note": "Small molecule \u2014 generic competition expected ~2027; first CDK4/6 inhibitor to market (2015)",
     "blockbuster": true,
     "revenue_note": "~$5B annual revenue (2024); declining as abemaciclib and ribociclib gain adjuvant approvals",
-    "aliases": ["Ibrance", "PD-0332991", "palbociclib isethionate"]
+    "aliases": [
+      "Ibrance",
+      "PD-0332991",
+      "palbociclib isethionate"
+    ]
   },
   "ribociclib": {
     "inn": "ribociclib",
     "rxcui": "1873916",
-    "brand_names": ["Kisqali"],
+    "brand_names": [
+      "Kisqali"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2017-03-13",
     "patent_expiry": "2031-01-01",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "novartis",
-    "indications": ["oncology-breast"],
+    "indications": [
+      "oncology-breast"
+    ],
     "drug_class": "CDK4/6 inhibitor",
-    "mechanism": "Selective CDK4/6 inhibitor; MONALEESA trials demonstrated OS benefit in premenopausal women — unique overall survival data differentiating it from palbociclib; used with aromatase inhibitors",
-    "administration_routes": ["oral tablet"],
+    "mechanism": "Selective CDK4/6 inhibitor; MONALEESA trials demonstrated OS benefit in premenopausal women \u2014 unique overall survival data differentiating it from palbociclib; used with aromatase inhibitors",
+    "administration_routes": [
+      "oral tablet"
+    ],
     "biosimilar_risk": "low",
     "biosimilar_note": "Small molecule; gaining share due to OS survival data in premenopausal patients",
     "blockbuster": false,
     "revenue_note": "~$2B and growing (2024); growing faster than palbociclib due to adjuvant data",
-    "aliases": ["Kisqali", "LEE011", "ribociclib succinate"]
+    "aliases": [
+      "Kisqali",
+      "LEE011",
+      "ribociclib succinate"
+    ]
   },
   "abemaciclib": {
     "inn": "abemaciclib",
     "rxcui": "1946825",
-    "brand_names": ["Verzenio"],
+    "brand_names": [
+      "Verzenio"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2017-09-28",
     "patent_expiry": "2030-06-01",
     "black_box_warning": false,
     "black_box_summary": null,
     "company": "eli-lilly",
-    "indications": ["oncology-breast"],
+    "indications": [
+      "oncology-breast"
+    ],
     "drug_class": "CDK4/6 inhibitor",
-    "mechanism": "Continuous-dosing CDK4/6 inhibitor (unlike palbociclib/ribociclib which are intermittent) — more potent CDK4 selectivity; monarchE trial showed significant benefit as adjuvant therapy in high-risk early breast cancer",
-    "administration_routes": ["oral tablet"],
+    "mechanism": "Continuous-dosing CDK4/6 inhibitor (unlike palbociclib/ribociclib which are intermittent) \u2014 more potent CDK4 selectivity; monarchE trial showed significant benefit as adjuvant therapy in high-risk early breast cancer",
+    "administration_routes": [
+      "oral tablet"
+    ],
     "biosimilar_risk": "low",
     "biosimilar_note": "Small molecule; fastest-growing CDK4/6 inhibitor due to early breast cancer adjuvant approval",
     "blockbuster": true,
     "revenue_note": "~$4.5B and growing rapidly (2024); adjuvant indication dramatically expanded addressable market",
-    "aliases": ["Verzenio", "Verzenia", "LY2835219", "abemaciclib tablet"]
+    "aliases": [
+      "Verzenio",
+      "Verzenia",
+      "LY2835219",
+      "abemaciclib tablet"
+    ]
   },
   "trastuzumab deruxtecan": {
     "inn": "trastuzumab deruxtecan",
     "rxcui": "2267582",
-    "brand_names": ["Enhertu"],
+    "brand_names": [
+      "Enhertu"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2019-12-20",
     "patent_expiry": "2037-01-01",
     "black_box_warning": true,
-    "black_box_summary": "Interstitial lung disease (ILD) and pneumonitis, including fatal cases — monitor patients for signs/symptoms; embryo-fetal toxicity",
+    "black_box_summary": "Interstitial lung disease (ILD) and pneumonitis, including fatal cases \u2014 monitor patients for signs/symptoms; embryo-fetal toxicity",
     "company": "astrazeneca",
     "company_note": "Co-developed and co-commercialized with Daiichi Sankyo; AstraZeneca holds ex-Japan rights",
-    "indications": ["oncology-breast", "oncology-nsclc", "oncology-crc"],
+    "indications": [
+      "oncology-breast",
+      "oncology-nsclc",
+      "oncology-crc"
+    ],
     "drug_class": "HER2-directed antibody-drug conjugate (ADC)",
-    "mechanism": "Anti-HER2 antibody (trastuzumab) conjugated to topoisomerase I inhibitor payload (DXd) via stable tetrapeptide linker — delivers cytotoxic payload selectively to HER2-expressing cells; bystander killing effect on adjacent tumor cells",
-    "administration_routes": ["intravenous infusion"],
+    "mechanism": "Anti-HER2 antibody (trastuzumab) conjugated to topoisomerase I inhibitor payload (DXd) via stable tetrapeptide linker \u2014 delivers cytotoxic payload selectively to HER2-expressing cells; bystander killing effect on adjacent tumor cells",
+    "administration_routes": [
+      "intravenous infusion"
+    ],
     "biosimilar_risk": "low",
-    "biosimilar_note": "Complex ADC — antibody plus linker plus payload; extremely difficult to replicate; long patent runway",
+    "biosimilar_note": "Complex ADC \u2014 antibody plus linker plus payload; extremely difficult to replicate; long patent runway",
     "blockbuster": true,
     "revenue_note": "~$3.5B and growing very rapidly (2024); expanding across HER2-positive and HER2-low tumor types",
-    "aliases": ["Enhertu", "T-DXd", "DS-8201", "fam-trastuzumab deruxtecan", "trastuzumab-deruxtecan-nxki"]
+    "aliases": [
+      "Enhertu",
+      "T-DXd",
+      "DS-8201",
+      "fam-trastuzumab deruxtecan",
+      "trastuzumab-deruxtecan-nxki"
+    ]
   },
   "olaparib": {
     "inn": "olaparib",
     "rxcui": "1597582",
-    "brand_names": ["Lynparza"],
+    "brand_names": [
+      "Lynparza"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2014-12-19",
     "patent_expiry": "2027-01-01",
@@ -452,96 +730,160 @@
     "black_box_summary": null,
     "company": "astrazeneca",
     "company_note": "Co-developed and co-commercialized with Merck (MSD); AstraZeneca holds manufacturing and lead commercial rights",
-    "indications": ["oncology-breast", "oncology-crc"],
+    "indications": [
+      "oncology-breast",
+      "oncology-crc"
+    ],
     "drug_class": "PARP inhibitor",
-    "mechanism": "Poly (ADP-ribose) polymerase (PARP) 1/2 inhibitor — traps PARP on damaged DNA, causing replication fork collapse in BRCA1/2-mutated cancer cells that cannot complete homologous recombination repair (synthetic lethality)",
-    "administration_routes": ["oral tablet", "oral capsule"],
+    "mechanism": "Poly (ADP-ribose) polymerase (PARP) 1/2 inhibitor \u2014 traps PARP on damaged DNA, causing replication fork collapse in BRCA1/2-mutated cancer cells that cannot complete homologous recombination repair (synthetic lethality)",
+    "administration_routes": [
+      "oral tablet",
+      "oral capsule"
+    ],
     "biosimilar_risk": "low",
     "biosimilar_note": "Small molecule; first PARP inhibitor approved; generic risk post-2027",
     "blockbuster": true,
     "revenue_note": "~$2.5B annual revenue (2024); facing competition from rucaparib, niraparib, talazoparib",
-    "aliases": ["Lynparza", "AZD2281", "KU-0059436", "olaparib tablet"]
+    "aliases": [
+      "Lynparza",
+      "AZD2281",
+      "KU-0059436",
+      "olaparib tablet"
+    ]
   },
   "bevacizumab": {
     "inn": "bevacizumab",
     "rxcui": "253337",
-    "brand_names": ["Avastin", "Mvasi", "Zirabev", "Alymsys", "Vegzelma", "Avzivi", "Jobevne"],
+    "brand_names": [
+      "Avastin",
+      "Mvasi",
+      "Zirabev",
+      "Alymsys",
+      "Vegzelma",
+      "Avzivi",
+      "Jobevne"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2004-02-26",
     "patent_expiry": "2019-07-01",
     "black_box_warning": true,
-    "black_box_summary": "Gastrointestinal perforations, wound healing complications, and hemorrhage — serious and fatal events reported",
+    "black_box_summary": "Gastrointestinal perforations, wound healing complications, and hemorrhage \u2014 serious and fatal events reported",
     "company": "roche",
-    "indications": ["oncology-crc", "oncology-nsclc"],
+    "indications": [
+      "oncology-crc",
+      "oncology-nsclc"
+    ],
     "drug_class": "VEGF inhibitor (anti-VEGF monoclonal antibody)",
-    "mechanism": "Humanized IgG1 anti-VEGF-A monoclonal antibody — inhibits VEGF binding to receptors, blocking tumor angiogenesis and vascular permeability",
-    "administration_routes": ["intravenous infusion"],
+    "mechanism": "Humanized IgG1 anti-VEGF-A monoclonal antibody \u2014 inhibits VEGF binding to receptors, blocking tumor angiogenesis and vascular permeability",
+    "administration_routes": [
+      "intravenous infusion"
+    ],
     "biosimilar_risk": "high",
-    "biosimilar_note": "Patent expired 2019 — multiple FDA-approved biosimilars now on market (Mvasi, Zirabev, Alymsys, Vegzelma, Avzivi, Jobevne); Avastin revenue has declined substantially",
+    "biosimilar_note": "Patent expired 2019 \u2014 multiple FDA-approved biosimilars now on market (Mvasi, Zirabev, Alymsys, Vegzelma, Avzivi, Jobevne); Avastin revenue has declined substantially",
     "blockbuster": false,
     "revenue_note": "Avastin brand declining due to biosimilar competition; Roche total bevacizumab revenue (brand + royalties) still ~$1B",
-    "aliases": ["Avastin", "rhuMAb VEGF", "anti-VEGF", "bevacizumab-awwb", "bevacizumab-bvzr"]
+    "aliases": [
+      "Avastin",
+      "rhuMAb VEGF",
+      "anti-VEGF",
+      "bevacizumab-awwb",
+      "bevacizumab-bvzr"
+    ]
   },
   "cetuximab": {
     "inn": "cetuximab",
     "rxcui": "318341",
-    "brand_names": ["Erbitux"],
+    "brand_names": [
+      "Erbitux"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2004-02-12",
     "patent_expiry": "2018-09-01",
     "black_box_warning": true,
-    "black_box_summary": "Cardiopulmonary arrest and sudden death in patients with squamous cell carcinoma of head and neck receiving radiation; severe infusion reactions — discontinue for serious reactions",
+    "black_box_summary": "Cardiopulmonary arrest and sudden death in patients with squamous cell carcinoma of head and neck receiving radiation; severe infusion reactions \u2014 discontinue for serious reactions",
     "company": "eli-lilly",
     "company_note": "Eli Lilly holds US and Canada commercial rights; Merck KGaA holds European rights (different company from Merck/MSD)",
-    "indications": ["oncology-crc", "oncology-nsclc"],
+    "indications": [
+      "oncology-crc",
+      "oncology-nsclc"
+    ],
     "drug_class": "EGFR inhibitor (anti-EGFR monoclonal antibody)",
-    "mechanism": "Chimeric IgG1 anti-EGFR monoclonal antibody — blocks EGFR ligand binding, inhibiting downstream RAS/RAF/MAPK and PI3K/AKT signaling; only active in RAS wild-type colorectal cancer",
-    "administration_routes": ["intravenous infusion"],
+    "mechanism": "Chimeric IgG1 anti-EGFR monoclonal antibody \u2014 blocks EGFR ligand binding, inhibiting downstream RAS/RAF/MAPK and PI3K/AKT signaling; only active in RAS wild-type colorectal cancer",
+    "administration_routes": [
+      "intravenous infusion"
+    ],
     "biosimilar_risk": "high",
-    "biosimilar_note": "Patent expired — biosimilar development ongoing; older drug losing relevance vs newer targeted therapies",
+    "biosimilar_note": "Patent expired \u2014 biosimilar development ongoing; older drug losing relevance vs newer targeted therapies",
     "blockbuster": false,
-    "revenue_note": "Declining — ~$500M globally; generics and newer agents reducing use",
-    "aliases": ["Erbitux", "IMC-C225", "anti-EGFR", "cetuximab injection"]
+    "revenue_note": "Declining \u2014 ~$500M globally; generics and newer agents reducing use",
+    "aliases": [
+      "Erbitux",
+      "IMC-C225",
+      "anti-EGFR",
+      "cetuximab injection"
+    ]
   },
   "lecanemab": {
     "inn": "lecanemab",
     "rxcui": "2626143",
-    "brand_names": ["Leqembi"],
+    "brand_names": [
+      "Leqembi"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2023-07-06",
     "patent_expiry": "2037-01-01",
     "black_box_warning": true,
-    "black_box_summary": "Amyloid-related imaging abnormalities (ARIA) — including ARIA with edema/effusion (ARIA-E) and ARIA with microhemorrhages (ARIA-H); serious and life-threatening events including death reported; risk higher in APOE e4 homozygotes",
-    "company": "eisai",
-    "company_note": "Co-developed and co-commercialized with Biogen; Eisai leads global development and commercialization",
-    "indications": ["alzheimers"],
+    "black_box_summary": "Amyloid-related imaging abnormalities (ARIA) \u2014 including ARIA with edema/effusion (ARIA-E) and ARIA with microhemorrhages (ARIA-H); serious and life-threatening events including death reported; risk higher in APOE e4 homozygotes",
+    "company": "biogen",
+    "company_note": "Co-developed and co-commercialized with Eisai; Biogen is the US commercialization partner",
+    "indications": [
+      "alzheimers"
+    ],
     "drug_class": "Anti-amyloid beta monoclonal antibody",
-    "mechanism": "Humanized IgG1 anti-amyloid beta protofibril antibody — selectively binds soluble amyloid beta aggregates (protofibrils) and insoluble plaques, promoting clearance; CLARITY AD trial showed 27% slowing of cognitive decline",
-    "administration_routes": ["intravenous infusion"],
+    "mechanism": "Humanized IgG1 anti-amyloid beta protofibril antibody \u2014 selectively binds soluble amyloid beta aggregates (protofibrils) and insoluble plaques, promoting clearance; CLARITY AD trial showed 27% slowing of cognitive decline",
+    "administration_routes": [
+      "intravenous infusion"
+    ],
     "biosimilar_risk": "low",
     "biosimilar_note": "Novel biologic with long patent runway; first disease-modifying Alzheimer's therapy with full FDA approval",
     "blockbuster": false,
-    "revenue_note": "~$200M (2024) — very slow uptake due to ARIA safety monitoring requirements, limited infusion center capacity, and payer access hurdles",
-    "aliases": ["Leqembi", "BAN2401", "lecanemab-irmb", "anti-amyloid protofibril"]
+    "revenue_note": "~$200M (2024) \u2014 very slow uptake due to ARIA safety monitoring requirements, limited infusion center capacity, and payer access hurdles",
+    "aliases": [
+      "Leqembi",
+      "BAN2401",
+      "lecanemab-irmb",
+      "anti-amyloid protofibril"
+    ]
   },
   "donanemab": {
     "inn": "donanemab",
     "rxcui": "2687966",
-    "brand_names": ["Kisunla"],
+    "brand_names": [
+      "Kisunla"
+    ],
     "ndc_product": [],
     "fda_approval_date": "2024-07-02",
     "patent_expiry": "2038-01-01",
     "black_box_warning": true,
-    "black_box_summary": "Amyloid-related imaging abnormalities (ARIA) — ARIA-E and ARIA-H including serious and life-threatening events; three deaths in TRAILBLAZER-ALZ 2 trial; higher risk in APOE e4 homozygotes",
+    "black_box_summary": "Amyloid-related imaging abnormalities (ARIA) \u2014 ARIA-E and ARIA-H including serious and life-threatening events; three deaths in TRAILBLAZER-ALZ 2 trial; higher risk in APOE e4 homozygotes",
     "company": "eli-lilly",
-    "indications": ["alzheimers"],
+    "indications": [
+      "alzheimers"
+    ],
     "drug_class": "Anti-amyloid beta monoclonal antibody",
-    "mechanism": "IgG1 anti-N3pG amyloid beta monoclonal antibody — targets a modified/pyroglutamate form of amyloid that appears early in plaque formation; TRAILBLAZER-ALZ 2 showed 35% slowing of decline and unique treatment-until-clearance dosing design",
-    "administration_routes": ["intravenous infusion"],
+    "mechanism": "IgG1 anti-N3pG amyloid beta monoclonal antibody \u2014 targets a modified/pyroglutamate form of amyloid that appears early in plaque formation; TRAILBLAZER-ALZ 2 showed 35% slowing of decline and unique treatment-until-clearance dosing design",
+    "administration_routes": [
+      "intravenous infusion"
+    ],
     "biosimilar_risk": "low",
     "biosimilar_note": "Very new biologic; long patent runway; competes directly with lecanemab in early Alzheimer's",
     "blockbuster": false,
-    "revenue_note": "Approved July 2024 — very early commercialization; competing with lecanemab for a limited but growing patient population",
-    "aliases": ["Kisunla", "LY3002813", "donanemab-azbt", "N3pG anti-amyloid"]
+    "revenue_note": "Approved July 2024 \u2014 very early commercialization; competing with lecanemab for a limited but growing patient population",
+    "aliases": [
+      "Kisunla",
+      "LY3002813",
+      "donanemab-azbt",
+      "N3pG anti-amyloid"
+    ]
   }
 }

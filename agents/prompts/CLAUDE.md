@@ -65,7 +65,7 @@ astrazeneca         novartis            johnson-and-johnson
 abbvie              amgen               gilead
 biogen              regeneron           vertex
 sanofi              gsk                 takeda
-eisai               bayer
+bayer
 ```
 
 ---

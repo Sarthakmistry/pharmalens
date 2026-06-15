@@ -71,7 +71,7 @@ TRACKED_DRUGS: dict[str, str] = {
     "dapagliflozin": "astrazeneca",
     "apixaban": "pfizer",
     # CNS / Alzheimer's
-    "lecanemab": "eisai",
+    "lecanemab": "biogen",
     "donanemab": "eli-lilly",
     "aducanumab": "biogen",
     # Rare disease

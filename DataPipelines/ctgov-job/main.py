@@ -31,7 +31,6 @@ SLUG_MAP = {
     "Sanofi": "sanofi",
     "GSK": "gsk",
     "Takeda": "takeda",
-    "Eisai": "eisai",
     "Bayer": "bayer"
 }
 
