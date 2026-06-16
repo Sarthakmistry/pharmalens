@@ -30,7 +30,10 @@ WIKI_DIR   = BASE_DIR / "wiki"
 # ── load / save ───────────────────────────────────────────────────────────────
 
 def _load() -> dict:
-    """Load state from JSON file. Returns empty state if file doesn't exist."""
+    """Load state. Uses GCS when GCS_MODE=true, otherwise reads local JSON file."""
+    from agents.wiki_gcs import _gcs_enabled, load_state
+    if _gcs_enabled():
+        return load_state()
     if not STATE_FILE.exists():
         return {
             "processed_files": {},
@@ -45,9 +48,12 @@ def _load() -> dict:
 
 
 def _save(state: dict):
-    """Save state to JSON file atomically."""
+    """Persist state. Uses GCS when GCS_MODE=true, otherwise writes local JSON file atomically."""
+    from agents.wiki_gcs import _gcs_enabled, save_state
+    if _gcs_enabled():
+        save_state(state)
+        return
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
-    # write to temp then rename for atomic save
     tmp = STATE_FILE.with_suffix(".tmp")
     tmp.write_text(json.dumps(state, indent=2))
     tmp.rename(STATE_FILE)
@@ -176,6 +182,40 @@ def reset_timeout_files() -> list[Path]:
     return [Path(p) for p in to_reset]
 
 
+# Errors that are structural bugs — retrying won't help.
+_PERMANENT_ERRORS = (
+    "'str' object has no attribute 'get'",
+    "'NoneType' object is not iterable",
+    "unhashable type: 'dict'",
+)
+
+
+def reset_failed_files() -> list[Path]:
+    """
+    Remove all non-success entries (429s, 499s, timeouts, transient errors)
+    so they are retried on the next run.
+    Skips entries whose errors are known structural bugs — retrying those
+    would just produce the same failure.
+    Returns the list of paths that were reset.
+    """
+    state = _load()
+    to_reset = []
+    for path, meta in state["processed_files"].items():
+        status = meta.get("status", "")
+        if status in ("success", "ok"):
+            continue
+        if any(bug in status for bug in _PERMANENT_ERRORS):
+            continue
+        to_reset.append(path)
+
+    for path in to_reset:
+        del state["processed_files"][path]
+    if to_reset:
+        _save(state)
+        logger.info(f"STATE | reset {len(to_reset)} failed file(s) for retry")
+    return [Path(p) for p in to_reset]
+
+
 # ── lint scheduling ───────────────────────────────────────────────────────────
 
 def should_run_lint() -> bool:
@@ -231,23 +271,26 @@ def mark_nct_processed(nct_id: str, primary_sponsor: str, first_seen: str | None
 def build_wiki_map() -> str:
     """
     Build a navigation map of all current wiki pages for the Q&A agent.
-    Generated fresh from the filesystem at query time — always accurate,
-    zero maintenance overhead.
+    Generated fresh at query time (from GCS or local filesystem).
     """
-    sections = {
-        "Drugs":       sorted(WIKI_DIR.glob("drugs/*.md")),
-        "Companies":   sorted(WIKI_DIR.glob("companies/*.md")),
-        "Indications": sorted(WIKI_DIR.glob("indications/**/_index.md")),
-        "Trials":      sorted(WIKI_DIR.glob("trials/*.md")),
-        "Events":      sorted(WIKI_DIR.glob("events/*.md")),
+    from agents.wiki_gcs import list_wiki
+    all_pages = list_wiki()
+
+    section_prefixes = {
+        "Drugs":       "drugs/",
+        "Companies":   "companies/",
+        "Indications": "indications/",
+        "Trials":      "trials/",
+        "Events":      "events/",
     }
 
     lines = ["Available wiki pages:\n"]
-    for section, paths in sections.items():
-        if paths:
+    for section, prefix in section_prefixes.items():
+        pages = [p for p in all_pages if p.startswith(prefix)]
+        if pages:
             lines.append(f"## {section}")
-            for p in paths:
-                lines.append(f"  - {p.relative_to(WIKI_DIR)}")
+            for p in pages:
+                lines.append(f"  - {p}")
             lines.append("")
 
     return "\n".join(lines)

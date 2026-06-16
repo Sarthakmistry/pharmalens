@@ -119,24 +119,77 @@ function PhaseChart({ phases }) {
   )
 }
 
+function TrialResultCard({ trial }) {
+  const [open, setOpen] = useState(false)
+  const cf = trial.clinical_findings || {}
+  const hasDetail = cf.study_design || cf.sample_size || cf.comparator || cf.secondary_results || cf.safety_note
+
+  return (
+    <div style={{ borderTop: '1px solid #252b3b', paddingTop: 10, marginTop: 10 }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 8 }}>
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <div style={{ fontSize: 10, color: '#7a8099', marginBottom: 3 }}>
+            {trial.primary_completion_date || ''}{cf.journal ? ` · ${cf.journal}` : ''}
+            {cf.publication_year && !cf.journal ? ` · ${cf.publication_year}` : ''}
+          </div>
+          <div style={{ fontSize: 11, color: '#c8cee0', fontWeight: 500, marginBottom: 4 }}>
+            {Array.isArray(trial.drugs) ? trial.drugs.join(', ') : (trial.drugs || '')}
+            {trial.indications?.length ? ` — ${trial.indications.join(', ')}` : ''}
+          </div>
+          <div style={{ fontSize: 11, color: '#dde1f0', lineHeight: 1.5 }}>
+            {trial.primary_result_value}
+          </div>
+        </div>
+        {hasDetail && (
+          <button
+            onClick={() => setOpen(v => !v)}
+            style={{ fontSize: 10, color: '#4d9ef7', background: 'none', border: 'none', cursor: 'pointer', padding: 0, flexShrink: 0, marginTop: 2 }}
+          >
+            {open ? 'less' : 'details'}
+          </button>
+        )}
+      </div>
+
+      {open && hasDetail && (
+        <div style={{ marginTop: 8, fontSize: 10, color: '#9aa3be', lineHeight: 1.6, display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '2px 10px' }}>
+          {cf.study_design  && <><span style={{ color: '#7a8099' }}>Design</span><span>{cf.study_design}</span></>}
+          {cf.sample_size   && <><span style={{ color: '#7a8099' }}>N</span><span>{cf.sample_size}</span></>}
+          {cf.comparator    && <><span style={{ color: '#7a8099' }}>vs</span><span>{cf.comparator}</span></>}
+          {cf.secondary_results && <><span style={{ color: '#7a8099' }}>Secondary</span><span>{cf.secondary_results}</span></>}
+          {cf.safety_note   && <><span style={{ color: '#7a8099' }}>Safety</span><span>{cf.safety_note}</span></>}
+        </div>
+      )}
+    </div>
+  )
+}
+
 export default function TrialsPanel({ slug, researchEvents, recentCompletions }) {
   const [trialsData, setTrialsData] = useState(null)
   const [showAllResults, setShowAllResults] = useState(false)
+  const [showAllTrialResults, setShowAllTrialResults] = useState(false)
 
   useEffect(() => {
     setTrialsData(null)
     setShowAllResults(false)
+    setShowAllTrialResults(false)
     fetchCompanyTrials(slug).then(setTrialsData)
   }, [slug])
 
   if (!trialsData) return null
 
-  const { stats, phases } = trialsData
+  const { stats, phases, trials = [] } = trialsData
   const completedCount = Math.max(stats.completed_90d, recentCompletions ?? 0)
   const hasTrialData   = phases.length > 0
   const hasResearch    = researchEvents.length > 0
 
-  if (!hasTrialData && !hasResearch) return null
+  // Trials with a published result value, sorted newest completion date first
+  const trialResults = trials
+    .filter(t => t.has_results && t.primary_result_value && t.primary_result_value.trim())
+    .sort((a, b) => (b.primary_completion_date || '').localeCompare(a.primary_completion_date || ''))
+  const hasTrialResults  = trialResults.length > 0
+  const visibleTrialResults = showAllTrialResults ? trialResults : trialResults.slice(0, 2)
+
+  if (!hasTrialData && !hasResearch && !hasTrialResults) return null
 
   const visibleResults = showAllResults ? researchEvents : researchEvents.slice(0, 1)
 
@@ -155,12 +208,32 @@ export default function TrialsPanel({ slug, researchEvents, recentCompletions })
         </>
       )}
 
+      {hasTrialResults && (
+        <>
+          <hr className="divider" style={{ margin: '14px 0' }} />
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 4 }}>
+            <p className="sec-label" style={{ margin: 0 }}>Trial results</p>
+            {trialResults.length > 2 && (
+              <button
+                onClick={() => setShowAllTrialResults(v => !v)}
+                style={{ fontSize: 11, color: '#4d9ef7', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
+              >
+                {showAllTrialResults ? 'show less' : `+${trialResults.length - 2} more`}
+              </button>
+            )}
+          </div>
+          {visibleTrialResults.map((t, i) => (
+            <TrialResultCard key={t.trial_id || i} trial={t} />
+          ))}
+        </>
+      )}
+
       {hasResearch && (
         <>
           <hr className="divider" style={{ margin: '14px 0' }} />
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 8 }}>
             <p className="sec-label" style={{ margin: 0 }}>
-              {showAllResults ? 'Published results' : 'Latest published result'}
+              {showAllResults ? 'Published research' : 'Latest published research'}
             </p>
             {researchEvents.length > 1 && (
               <button

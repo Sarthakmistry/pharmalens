@@ -36,6 +36,7 @@ from agents.state import (
     should_run_lint,
     mark_lint_run,
     reset_timeout_files,
+    reset_failed_files,
 )
 from agents.compiler import (
     classify_document,
@@ -126,10 +127,14 @@ def build_template_caches() -> dict[str, str]:
 # ── log helpers ───────────────────────────────────────────────────────────────
 
 def append_log(file_path: Path, status: str, doc_type: str) -> None:
-    """Append a human-readable entry to wiki/log.md.
-    Audit trail only — processing state is tracked in state.py.
+    """Append a human-readable entry to wiki/log.md (local dev only).
+    In GCS_MODE the audit trail lives in Cloud Logging — local file writes are skipped.
     Do not parse this file for logic — use state.py instead.
     """
+    from agents.wiki_gcs import _gcs_enabled
+    if _gcs_enabled():
+        # Cloud Logging captures the full audit trail; no file append needed.
+        return
     WIKI_DIR.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now().strftime("%Y-%m-%dT%H:%M")
     entry = (
@@ -282,14 +287,21 @@ def run_daily_pipeline(limit: int | None = None) -> None:
                 f"drug={len(drug_buffer)}, indication={len(indication_buffer)} "
                 f"({total_signals} total signals)"
             )
-            written = flush_buffered_pages(
-                company_buffer, trial_buffer, drug_buffer, indication_buffer, template_caches,
-            )
-            if not written:
+            try:
+                written = flush_buffered_pages(
+                    company_buffer, trial_buffer, drug_buffer, indication_buffer, template_caches,
+                )
+                if not written:
+                    flush_ok = False
+                    logger.warning(
+                        f"ORCHESTRATOR | Flush wrote 0 pages — skipping success marking "
+                        f"for {len(pending_success)} file(s) so they retry next run"
+                    )
+            except Exception as exc:
                 flush_ok = False
-                logger.warning(
-                    f"ORCHESTRATOR | Flush wrote 0 pages — skipping success marking "
-                    f"for {len(pending_success)} file(s) so they retry next run"
+                logger.error(
+                    f"ORCHESTRATOR | Flush raised an exception — skipping success marking "
+                    f"for {len(pending_success)} file(s) so they retry next run. Error: {exc}"
                 )
 
         # only mark files as processed if flush actually wrote pages (or there were no signals)
@@ -328,6 +340,17 @@ def run_timeout_retry_pipeline() -> None:
     run_daily_pipeline()
 
 
+def run_failed_retry_pipeline() -> None:
+    """Re-run the pipeline for all failed files (429s, 499s, timeouts, transient errors).
+    Skips files whose failures are known structural bugs."""
+    reset_files = reset_failed_files()
+    if not reset_files:
+        logger.info("ORCHESTRATOR | No failed files to retry")
+        return
+    logger.info(f"ORCHESTRATOR | Retrying {len(reset_files)} failed file(s)")
+    run_daily_pipeline()
+
+
 def run_once(limit: int | None = None) -> None:
     """Run the pipeline once immediately — useful during development."""
     run_daily_pipeline(limit=limit)
@@ -355,11 +378,13 @@ if __name__ == "__main__":
             sys.exit(1)
 
     if cmd in ("--help", "-h", "help"):
-        print("Usage: orchestrator.py [once|schedule|retry-timeouts] [--limit N]")
+        print("Usage: orchestrator.py [once|schedule|retry-timeouts|retry-failed] [--limit N]")
         sys.exit(0)
     elif cmd == "schedule":
         run_scheduled()
     elif cmd == "retry-timeouts":
         run_timeout_retry_pipeline()
+    elif cmd == "retry-failed":
+        run_failed_retry_pipeline()
     else:
         run_once(limit=limit)

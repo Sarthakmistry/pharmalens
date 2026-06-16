@@ -11,6 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 python agents/orchestrator.py                   # process all new files from GCS + local raw/
 python agents/orchestrator.py --limit 10        # round-robin subset across doc types (dev)
 python agents/orchestrator.py retry-timeouts    # re-queue files that timed out previously
+python agents/orchestrator.py retry-failed      # re-queue all failed files (429s, 499s, timeouts)
 python agents/orchestrator.py schedule          # scheduled daily at 07:00 (production)
 ```
 

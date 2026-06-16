@@ -29,6 +29,7 @@ from pydantic import BaseModel
 
 from .agent import run_agent
 from .tools import get_stock_price, read_wiki_page
+from agents.wiki_gcs import read_wiki
 
 load_dotenv()
 
@@ -36,7 +37,6 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).parent.parent
 REFERENCE_DIR = BASE_DIR / "reference"
-WIKI_DIR = BASE_DIR / "wiki"
 
 INDICATIONS: dict = json.loads((REFERENCE_DIR / "indications.json").read_text())
 COMPANIES: dict = json.loads((REFERENCE_DIR / "companies.json").read_text())
@@ -87,10 +87,10 @@ def get_indications() -> list[dict]:
     """All indication slugs with display names and reference metadata."""
     result = []
     for slug, ref_meta in INDICATIONS.items():
-        wiki_path = WIKI_DIR / "indications" / slug / "_index.md"
         display_name = slug.replace("-", " ").title()
-        if wiki_path.exists():
-            fm, _ = _parse_frontmatter(wiki_path.read_text())
+        content = read_wiki(f"indications/{slug}/_index.md")
+        if content:
+            fm, _ = _parse_frontmatter(content)
             display_name = fm.get("display_name", display_name)
         result.append({"slug": slug, "display_name": display_name, **ref_meta})
     return result
@@ -130,9 +130,9 @@ def get_indication(slug: str) -> dict:
     if slug not in INDICATIONS:
         raise HTTPException(status_code=404, detail=f"Indication '{slug}' not found")
 
-    wiki_path = WIKI_DIR / "indications" / slug / "_index.md"
-    if wiki_path.exists():
-        fm, wiki_body = _parse_frontmatter(wiki_path.read_text())
+    content = read_wiki(f"indications/{slug}/_index.md")
+    if content:
+        fm, wiki_body = _parse_frontmatter(content)
         meta = {**INDICATIONS[slug], **fm}
     else:
         meta = INDICATIONS[slug]
@@ -151,9 +151,9 @@ def get_company(slug: str) -> dict:
         raise HTTPException(status_code=404, detail=f"Company '{slug}' not found")
 
     company_meta = COMPANIES[slug]
-    wiki_path = WIKI_DIR / "companies" / f"{slug}.md"
-    if wiki_path.exists():
-        _, wiki_body = _parse_frontmatter(wiki_path.read_text())
+    company_content = read_wiki(f"companies/{slug}.md")
+    if company_content:
+        _, wiki_body = _parse_frontmatter(company_content)
     else:
         wiki_body = ""
 
@@ -164,10 +164,10 @@ def get_company(slug: str) -> dict:
     drug_indications: dict[str, list[str]] = {}
     company_drugs = set(company_meta.get("drugs", []))
     for ind_slug in company_meta.get("indications_active", []):
-        ind_path = WIKI_DIR / "indications" / ind_slug / "_index.md"
-        if not ind_path.exists():
+        ind_content = read_wiki(f"indications/{ind_slug}/_index.md")
+        if not ind_content:
             continue
-        fm, _ = _parse_frontmatter(ind_path.read_text())
+        fm, _ = _parse_frontmatter(ind_content)
         for drug in [*fm.get("drugs_approved", []), *fm.get("drugs_pipeline", [])]:
             if drug in company_drugs:
                 drug_indications.setdefault(drug, []).append(ind_slug)
@@ -272,11 +272,9 @@ def get_company_trials(slug: str) -> dict:
     if slug not in COMPANIES:
         raise HTTPException(status_code=404, detail=f"Company '{slug}' not found")
 
-    trial_path = WIKI_DIR / "trials" / f"{slug}.md"
-    if not trial_path.exists():
+    content = read_wiki(f"trials/{slug}.md")
+    if not content:
         return {"trials": [], "stats": {"active": 0, "completed_90d": 0, "with_results": 0}, "phases": []}
-
-    content = trial_path.read_text()
     blocks = re.split(r"^---$", content, flags=re.MULTILINE)
 
     _ACTIVE_STATUSES = {

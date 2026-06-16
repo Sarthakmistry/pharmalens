@@ -78,10 +78,8 @@ for slug, data in COMPANIES.items():
 
 def read_wiki_page(page_path: str) -> str:
     """Read an existing wiki page. Returns empty string if not found."""
-    full_path = WIKI_DIR / page_path
-    if full_path.exists():
-        return full_path.read_text()
-    return ""
+    from agents.wiki_gcs import read_wiki
+    return read_wiki(page_path)
 
 
 def _strip_fenced_code_block(content: str) -> str:
@@ -95,11 +93,9 @@ def _strip_fenced_code_block(content: str) -> str:
 
 
 def write_wiki_page(page_path: str, content: str) -> str:
-    """Write content to a wiki page, creating parent directories as needed."""
-    full_path = WIKI_DIR / page_path
-    full_path.parent.mkdir(parents=True, exist_ok=True)
-    full_path.write_text(_strip_fenced_code_block(content))
-    return page_path
+    """Write content to a wiki page."""
+    from agents.wiki_gcs import write_wiki
+    return write_wiki(page_path, _strip_fenced_code_block(content))
 
 
 # ── prompt helpers ────────────────────────────────────────────────────────────
@@ -1149,8 +1145,10 @@ Rules:
         f"company={len(company_buffer)}, trial={len(trial_buffer)}, "
         f"drug={len(drug_buffer)}, indication={len(indication_buffer)}"
     )
+    # No pool.map timeout — the HTTP client already enforces 300s per call.
+    # A global timeout here kills results from tasks that already finished.
     with _cf.ThreadPoolExecutor(max_workers=min(len(tasks), 20)) as pool:
-        results = list(pool.map(_call_llm, tasks, timeout=600))
+        results = list(pool.map(_call_llm, tasks))
 
     updated_paths   = []
     pages_for_index = []
