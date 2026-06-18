@@ -1255,6 +1255,12 @@ def compile_document(
         extracted["suggested_event_slug"]    = None
         extracted["event_type"]              = None
         extracted["event_summary"]           = None
+        # pmid is read in Python, not asked of the LLM — it's already in raw_content
+        # (preprocess_pubmed includes it) and must survive into the signal verbatim.
+        try:
+            extracted["pmid"] = json.loads(raw_content).get("pmid")
+        except (json.JSONDecodeError, AttributeError):
+            extracted["pmid"] = None
 
     # ctgov events only for terminal status trials
     if doc_type == "ctgov":

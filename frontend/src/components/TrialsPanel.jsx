@@ -10,6 +10,10 @@ const MARGIN  = { top: 4, right: 36, bottom: 20, left: 72 }
 const BAR_H   = 13
 const BAR_GAP = 8
 
+// Some wiki entries have the literal string "None"/"N/A"/"null" instead of a real null —
+// treat those as missing.
+const isRealValue = v => v && v.trim() && !/^(none|n\/a|null)$/i.test(v.trim())
+
 function StatCard({ label, value, sub }) {
   return (
     <div style={{
@@ -146,7 +150,12 @@ function TrialResultCard({ trial }) {
             {Array.isArray(trial.drugs) ? trial.drugs.join(', ') : (trial.drugs || '')}
             {trial.indications?.length ? ` — ${trial.indications.join(', ')}` : ''}
           </div>
-          <div style={{ fontSize: 11, color: '#dde1f0', lineHeight: 1.5 }}>
+          {isRealValue(trial.result_summary) && (
+            <div style={{ fontSize: 11, color: '#dde1f0', lineHeight: 1.5, marginBottom: 3 }}>
+              {trial.result_summary}
+            </div>
+          )}
+          <div style={{ fontSize: 11, color: '#9aa3be', lineHeight: 1.5 }}>
             {trial.primary_result_value}
           </div>
         </div>
@@ -193,9 +202,6 @@ export default function TrialsPanel({ slug, researchEvents, recentCompletions })
   const hasResearch    = researchEvents.length > 0
 
   // Trials with a published result value, sorted newest completion date first.
-  // Some older entries have the literal string "None"/"N/A" instead of a real null —
-  // treat those as missing too.
-  const isRealValue = v => v && v.trim() && !/^(none|n\/a|null)$/i.test(v.trim())
   const trialResults = trials
     .filter(t => t.has_results && isRealValue(t.primary_result_value))
     .sort((a, b) => (b.primary_completion_date || '').localeCompare(a.primary_completion_date || ''))
@@ -258,15 +264,36 @@ export default function TrialsPanel({ slug, researchEvents, recentCompletions })
             )}
           </div>
           <div className="event-list">
-            {visibleResults.map((e, i) => (
-              <div key={i} className="event-row">
-                <span className="evt-dot" style={{ background: eventColor(e.event) }} />
-                <div>
-                  <div className="evt-date">{e.date}</div>
-                  <div className="evt-text">{e.event}</div>
+            {visibleResults.map((e, i) => {
+              // Older wiki entries embed the sentiment word in the text itself
+              // (e.g. "Bullish pubmed result for..."); strip it so we don't double up.
+              const text = e.event.replace(/^(moderately\s+)?(bullish|bearish|neutral)\s+/i, '')
+              const pmid = /^PMID:\s*(\d+)/i.exec(e.source || '')?.[1]
+              return (
+                <div key={i} className="event-row">
+                  <span className="evt-dot" style={{ background: eventColor(e.event) }} />
+                  <div>
+                    <div className="evt-date">
+                      {e.date}
+                      {pmid && (
+                        <>
+                          {' · '}
+                          <a
+                            href={`https://pubmed.ncbi.nlm.nih.gov/${pmid}/`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: '#4d9ef7', textDecoration: 'none' }}
+                          >
+                            PMID:{pmid}
+                          </a>
+                        </>
+                      )}
+                    </div>
+                    <div className="evt-text">{text}</div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </>
       )}

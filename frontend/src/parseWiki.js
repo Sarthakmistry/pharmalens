@@ -73,6 +73,7 @@ export function parseEventsTable(wikiBody) {
       type,
       event,
       signal: stripLinks(r['Signal'] ?? ''),
+      source: stripLinks(r['Source'] ?? ''),
     }
   }).filter(r => r.event)
     .filter(r => !r.date || r.date <= new Date().toISOString().slice(0, 10))

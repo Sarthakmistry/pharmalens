@@ -224,8 +224,8 @@ def get_stock_history(slug: str, period: str = "1d") -> dict:
 
 def _normalize_status(raw: str) -> str:
     """Canonical form: lowercase, spaces/commas/hyphens → underscore, collapsed."""
-    import re as _re
-    return _re.sub(r"[\s,\-]+", "_", (raw or "").strip().lower()).strip("_")
+    from .tools import normalize_status
+    return normalize_status(raw)
 
 
 def _count_concluded_trials(trials: list, lookback_days: int = 365) -> int:
@@ -267,34 +267,14 @@ def get_company_trials(slug: str) -> dict:
     Parse the per-company trials wiki and return structured trial data.
     Includes stats (active, concluded, with results) and phase distribution.
     """
-    import re
+    from .tools import parse_company_trials
 
     if slug not in COMPANIES:
         raise HTTPException(status_code=404, detail=f"Company '{slug}' not found")
 
-    content = read_wiki(f"trials/{slug}.md")
-    if not content:
+    trials = parse_company_trials(slug)
+    if not trials:
         return {"trials": [], "stats": {"active": 0, "completed_90d": 0, "with_results": 0}, "phases": []}
-    blocks = re.split(r"^---$", content, flags=re.MULTILINE)
-
-    _ACTIVE_STATUSES = {
-        "recruiting", "active", "not_yet_recruiting",
-        "enrolling_by_invitation", "approved_for_marketing",
-        "active_not_recruiting",
-    }
-
-    trials = []
-    for block in blocks:
-        try:
-            meta = yaml.safe_load(block.strip())
-        except yaml.YAMLError:
-            continue
-        if not isinstance(meta, dict) or "trial_id" not in meta:
-            continue
-        raw_phase = str(meta.get("phase") or "?").strip()
-        meta["phase_display"] = f"Phase {raw_phase}" if raw_phase != "?" else "Phase unspecified"
-        meta["is_active"] = _normalize_status(str(meta.get("status") or "")) in _ACTIVE_STATUSES
-        trials.append(meta)
 
     active_trials = [t for t in trials if t["is_active"]]
     with_results  = [t for t in trials if t.get("has_results")]

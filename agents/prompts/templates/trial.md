@@ -14,6 +14,7 @@ primary_endpoint: One sentence description
 primary_completion_date: YYYY-MM-DD
 has_results: true | false
 primary_result_value: "97.6% local control at 2 years"
+result_summary: "Significantly improved progression-free survival and overall survival compared to chemotherapy alone."
 clinical_findings:
   study_design: RCT | single-arm | observational | meta-analysis
   sample_size: 302
@@ -34,6 +35,10 @@ RULE: Populate clinical_findings only when has_results is true AND pubmed_result
       Set all clinical_findings fields to null when has_results is false or pubmed_results is absent.
 RULE: primary_result_value must be null (the YAML null, not the string "None") whenever no real
       result text is available. Never write the literal word "None" or "N/A" as a quoted string.
+RULE: result_summary is one plain-English sentence describing the outcome, written like a news
+      headline — no statistics, no jargon, no abbreviations like HR/CI/p-value. Same tone as a
+      pubmed_result event headline. Populate only when has_results is true and a real result
+      exists; null otherwise (never the string "None").
 
 ## {Trial title}
 
