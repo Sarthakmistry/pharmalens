@@ -32,6 +32,8 @@ last_updated: YYYY-MM-DD
 
 RULE: Populate clinical_findings only when has_results is true AND pubmed_results data is present.
       Set all clinical_findings fields to null when has_results is false or pubmed_results is absent.
+RULE: primary_result_value must be null (the YAML null, not the string "None") whenever no real
+      result text is available. Never write the literal word "None" or "N/A" as a quoted string.
 
 ## {Trial title}
 

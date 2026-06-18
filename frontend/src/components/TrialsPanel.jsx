@@ -129,7 +129,17 @@ function TrialResultCard({ trial }) {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 8 }}>
         <div style={{ flex: 1, minWidth: 0 }}>
           <div style={{ fontSize: 10, color: '#7a8099', marginBottom: 3 }}>
-            {trial.primary_completion_date || ''}{cf.journal ? ` · ${cf.journal}` : ''}
+            {trial.trial_id && (
+              <a
+                href={`https://clinicaltrials.gov/study/${trial.trial_id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: '#4d9ef7', textDecoration: 'none' }}
+              >
+                {trial.trial_id}
+              </a>
+            )}
+            {trial.primary_completion_date ? ` · ${trial.primary_completion_date}` : ''}{cf.journal ? ` · ${cf.journal}` : ''}
             {cf.publication_year && !cf.journal ? ` · ${cf.publication_year}` : ''}
           </div>
           <div style={{ fontSize: 11, color: '#c8cee0', fontWeight: 500, marginBottom: 4 }}>
@@ -182,9 +192,12 @@ export default function TrialsPanel({ slug, researchEvents, recentCompletions })
   const hasTrialData   = phases.length > 0
   const hasResearch    = researchEvents.length > 0
 
-  // Trials with a published result value, sorted newest completion date first
+  // Trials with a published result value, sorted newest completion date first.
+  // Some older entries have the literal string "None"/"N/A" instead of a real null —
+  // treat those as missing too.
+  const isRealValue = v => v && v.trim() && !/^(none|n\/a|null)$/i.test(v.trim())
   const trialResults = trials
-    .filter(t => t.has_results && t.primary_result_value && t.primary_result_value.trim())
+    .filter(t => t.has_results && isRealValue(t.primary_result_value))
     .sort((a, b) => (b.primary_completion_date || '').localeCompare(a.primary_completion_date || ''))
   const hasTrialResults  = trialResults.length > 0
   const visibleTrialResults = showAllTrialResults ? trialResults : trialResults.slice(0, 2)
