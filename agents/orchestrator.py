@@ -293,7 +293,28 @@ def _run_daily_pipeline(limit: int | None = None) -> None:
             len(v) for buf in (company_buffer, trial_buffer, drug_buffer, indication_buffer)
             for v in buf.values()
         )
-        flush_ok = True
+
+        # Map each contributing file -> the set of page_paths its signals feed into,
+        # so a partial flush failure only withholds success-marking from the files
+        # that actually fed the failed page(s) — not every file in the batch just
+        # because some other, unrelated page in the same flush succeeded.
+        file_to_pages: dict[str, set] = {}
+
+        def _index_buffer(buf: dict, path_fn) -> None:
+            for key, entries in buf.items():
+                page_path = path_fn(key)
+                for entry in entries:
+                    fp = entry.get("file_path")
+                    if fp:
+                        file_to_pages.setdefault(fp, set()).add(page_path)
+
+        _index_buffer(company_buffer,    lambda slug: f"companies/{slug}.md")
+        _index_buffer(trial_buffer,      lambda sponsor: f"trials/{sponsor}.md")
+        _index_buffer(drug_buffer,       lambda slug: f"drugs/{slug}.md")
+        _index_buffer(indication_buffer, lambda slug: f"indications/{slug}/_index.md")
+
+        all_failed = False  # set when flush itself raises — withhold marking for everyone
+        failed_pages: set = set()
         if total_signals:
             logger.info(
                 f"ORCHESTRATOR | Flushing — "
@@ -302,29 +323,43 @@ def _run_daily_pipeline(limit: int | None = None) -> None:
                 f"({total_signals} total signals)"
             )
             try:
-                written = flush_buffered_pages(
+                written, failed_pages = flush_buffered_pages(
                     company_buffer, trial_buffer, drug_buffer, indication_buffer, template_caches,
                 )
-                if not written:
-                    flush_ok = False
+                if not written and not failed_pages:
+                    all_failed = True
                     logger.warning(
                         f"ORCHESTRATOR | Flush wrote 0 pages — skipping success marking "
                         f"for {len(pending_success)} file(s) so they retry next run"
                     )
+                elif failed_pages:
+                    logger.warning(
+                        f"ORCHESTRATOR | {len(failed_pages)} page(s) failed to write: "
+                        f"{sorted(failed_pages)} — files that fed only these pages will retry next run"
+                    )
             except Exception as exc:
-                flush_ok = False
+                all_failed = True
                 logger.error(
                     f"ORCHESTRATOR | Flush raised an exception — skipping success marking "
                     f"for {len(pending_success)} file(s) so they retry next run. Error: {exc}"
                 )
 
-        # only mark files as processed if flush actually wrote pages (or there were no signals)
-        if flush_ok:
+        # mark a file processed only if none of the pages it contributed to failed
+        marked = 0
+        skipped = 0
+        if not all_failed:
             for file_path, doc_type, company, drug in pending_success:
+                contributed = file_to_pages.get(str(file_path), set())
+                if contributed & failed_pages:
+                    skipped += 1
+                    continue
                 mark_file_processed(file_path, doc_type, "success", company, drug)
                 append_log(file_path, "success", doc_type)
-            if pending_success:
-                logger.info(f"ORCHESTRATOR | Marked {len(pending_success)} file(s) as processed")
+                marked += 1
+        if marked:
+            logger.info(f"ORCHESTRATOR | Marked {marked} file(s) as processed")
+        if skipped:
+            logger.warning(f"ORCHESTRATOR | Left {skipped} file(s) unmarked — fed a failed page, will retry next run")
     else:
         logger.info("ORCHESTRATOR | No new files — skipping cache build")
 

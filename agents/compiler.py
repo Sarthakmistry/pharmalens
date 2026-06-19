@@ -980,16 +980,19 @@ def flush_buffered_pages(
     drug_buffer: dict,
     indication_buffer: dict,
     template_caches: dict,
-) -> list[str]:
+) -> tuple[list[str], set[str]]:
     """Flush all buffered signals — one LLM call per entity covering all accumulated signals.
     Handles company, trial, drug, and indication pages in a single parallel pass.
-    Call once after the per-file loop. Returns list of wiki page paths written.
+    Call once after the per-file loop. Returns (succeeded_page_paths, failed_page_paths) —
+    callers must use failed_page_paths to avoid marking a file as processed when the
+    specific page(s) its signals fed into didn't actually get written (truncation,
+    transient API error, etc.) even if other unrelated pages in the same batch succeeded.
     """
     import concurrent.futures as _cf
     from agents.state import update_index_py
 
     if not any([company_buffer, trial_buffer, drug_buffer, indication_buffer]):
-        return []
+        return [], set()
 
     system_prompt = build_system_prompt()
     tasks: list[tuple] = []
@@ -1173,6 +1176,10 @@ Rules:
     with _cf.ThreadPoolExecutor(max_workers=min(len(tasks), 20)) as pool:
         results = list(pool.map(_call_llm, tasks))
 
+    # pool.map preserves input order, so zipping tasks with results tells us
+    # exactly which page_path failed — not just "something in this batch failed".
+    failed_paths = {task[2] for task, result in zip(tasks, results) if result is None}
+
     updated_paths   = []
     pages_for_index = []
     for result in results:
@@ -1200,7 +1207,7 @@ Rules:
     if pages_for_index:
         update_index_py(pages_for_index)
 
-    return updated_paths
+    return updated_paths, failed_paths
 
 
 def compile_document(
