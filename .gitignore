@@ -22,7 +22,12 @@ __pycache__/
 
 # raw data — large files, managed separately
 raw/
-xs
+
+# compiled wiki + logs — production data now lives on GCS (gs://pharmalens-wiki),
+# not in git. Local copies are dev-only working state.
+wiki/
+logs/
+
 # OS
 .DS_Store
 Thumbs.db
