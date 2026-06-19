@@ -539,7 +539,9 @@ def get_drug_from_path(path: Path) -> str | None:
 
 def classify_document(path: Path) -> str:
     """Infer document type from folder path — no LLM needed.
-    Folder structure: raw/edgar/{company}/8k/ or raw/edgar/{company}/10q/
+    Folder structure: raw/edgar/{company}/8k/, raw/edgar/{company}/10q/, or
+    raw/edgar/{company}/6k/ (foreign private issuers — AstraZeneca, Novartis,
+    GSK, Sanofi, Takeda all file 6-K instead of 8-K with the SEC).
     Returns: ctgov | edgar_8k | edgar_10q | genepool | pubmed | unknown
     """
     parts       = path.parts
@@ -550,7 +552,10 @@ def classify_document(path: Path) -> str:
     elif "edgar" in parts:
         if "10q" in parts_lower:
             return "edgar_10q"
-        elif "8k" in parts_lower:
+        elif "8k" in parts_lower or "6k" in parts_lower:
+            # 6-K (foreign private issuer material event disclosure) is
+            # extracted identically to 8-K — same prompt, same preprocessing,
+            # same purpose, just a different SEC form number for non-US filers.
             return "edgar_8k"
         else:
             logger.warning(f"classify_document | Unknown edgar subfolder for {path}")
