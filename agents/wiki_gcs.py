@@ -3,16 +3,20 @@ agents/wiki_gcs.py
 Wiki file adapter for PharmaLens.
 
 When GCS_MODE=true (production / Cloud Run), wiki pages and the processing
-state file live in GCS:
-  gs://<GCS_BUCKET>/wiki/<page_path>
-  gs://<GCS_BUCKET>/state/processing_state.json
+state file live in a bucket we own — separate from the raw input data bucket
+(pharmalens-raw, owned by the data-engineering side) so the two have independent
+failure domains, retention policies, and IAM. Raw input reads still go through
+agents/gcs.py against GCS_BUCKET; this module writes the compiled output to
+WIKI_BUCKET:
+  gs://<WIKI_BUCKET>/wiki/<page_path>
+  gs://<WIKI_BUCKET>/state/processing_state.json
 
 When GCS_MODE is unset or false (local dev), all operations fall back to the
 local wiki/ and agents/ directories — no code changes needed for dev workflow.
 
 Environment variables (all optional in dev):
-  GCS_MODE   = true          → use GCS storage
-  GCS_BUCKET = pharmalens-raw  → bucket name (default: pharmalens-raw)
+  GCS_MODE    = true            → use GCS storage
+  WIKI_BUCKET = pharmalens-wiki  → output bucket name (default: pharmalens-wiki)
 """
 
 import os
@@ -30,6 +34,10 @@ except NameError:
 LOCAL_WIKI_DIR = BASE_DIR / "wiki"
 WIKI_GCS_PREFIX = "wiki"
 STATE_GCS_KEY = "state/processing_state.json"
+LOCK_GCS_KEY = "state/compiler.lock"
+# Task timeout on the Cloud Run job is 1 day — a lock older than this can only
+# mean the process that held it died without releasing it, so treat it as stale.
+LOCK_STALE_AFTER_SECONDS = 20 * 3600
 
 
 def _gcs_enabled() -> bool:
@@ -37,7 +45,7 @@ def _gcs_enabled() -> bool:
 
 
 def _bucket_name() -> str:
-    return os.environ.get("GCS_BUCKET", "pharmalens-raw")
+    return os.environ.get("WIKI_BUCKET", "pharmalens-wiki")
 
 
 def _client():
@@ -192,3 +200,45 @@ def save_state(state: dict) -> None:
     except Exception as e:
         logger.error(f"STATE | GCS save failed: {e}")
         raise
+
+
+# ── run lock (prevents overlapping pipeline runs, e.g. Scheduler firing while a
+#    manual/backlog run is still in progress) ─────────────────────────────────
+
+def acquire_lock() -> bool:
+    """Try to acquire the pipeline run lock. Returns True if acquired.
+    Returns False if another run already holds a fresh (non-stale) lock.
+    No-op (always succeeds) when GCS_MODE is not set — local dev has no
+    concurrent-run risk worth guarding against."""
+    if not _gcs_enabled():
+        return True
+    import json
+    import time
+    blob = _client().bucket(_bucket_name()).blob(LOCK_GCS_KEY)
+    if blob.exists():
+        try:
+            data = json.loads(blob.download_as_text(encoding="utf-8"))
+            age = time.time() - data.get("started_at", 0)
+            if age < LOCK_STALE_AFTER_SECONDS:
+                logger.warning(f"LOCK | held by another run, age {age:.0f}s — refusing to start")
+                return False
+            logger.warning(f"LOCK | found stale lock (age {age:.0f}s) — overriding")
+        except Exception as e:
+            logger.warning(f"LOCK | unreadable lock file, overriding: {e}")
+    blob.upload_from_string(
+        json.dumps({"started_at": time.time()}),
+        content_type="application/json; charset=utf-8",
+    )
+    return True
+
+
+def release_lock() -> None:
+    """Release the pipeline run lock. No-op when GCS_MODE is not set."""
+    if not _gcs_enabled():
+        return
+    try:
+        blob = _client().bucket(_bucket_name()).blob(LOCK_GCS_KEY)
+        if blob.exists():
+            blob.delete()
+    except Exception as e:
+        logger.warning(f"LOCK | release failed: {e}")

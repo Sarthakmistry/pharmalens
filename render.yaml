@@ -11,5 +11,9 @@ services:
         value: us-central1
       - key: GOOGLE_GENAI_USE_VERTEXAI
         value: "True"
+      - key: GCS_MODE
+        value: "true"
+      - key: WIKI_BUCKET
+        value: pharmalens-wiki
       - key: GOOGLE_CREDENTIALS_JSON
         sync: false   # paste the service-account JSON in the Render dashboard

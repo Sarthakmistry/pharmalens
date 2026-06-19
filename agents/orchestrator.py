@@ -235,7 +235,21 @@ def _pick_subset(files: list[Path], limit: int) -> list[Path]:
 
 
 def run_daily_pipeline(limit: int | None = None) -> None:
-    """Main daily job: build caches, find unprocessed files, compile each one."""
+    """Main daily job: build caches, find unprocessed files, compile each one.
+    Guarded by a GCS-backed lock so the Cloud Scheduler trigger can never start
+    a second run on top of one that's still in progress (e.g. a long backlog
+    catch-up run still going when the next day's 07:00 trigger fires)."""
+    from agents.wiki_gcs import acquire_lock, release_lock
+    if not acquire_lock():
+        logger.warning("ORCHESTRATOR | Another pipeline run is already in progress — skipping this run")
+        return
+    try:
+        _run_daily_pipeline(limit)
+    finally:
+        release_lock()
+
+
+def _run_daily_pipeline(limit: int | None = None) -> None:
     logger.info(f"{'=' * 60}")
     logger.info(f"ORCHESTRATOR | Pipeline starting")
 

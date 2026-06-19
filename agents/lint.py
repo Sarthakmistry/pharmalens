@@ -11,7 +11,7 @@ load_dotenv()  # must be before genai.Client()
 
 logger = get_logger("pharmalens.lint")
 
-client = genai.Client()
+client = genai.Client(http_options=types.HttpOptions(timeout=300_000))  # 300s in ms
 
 PRO_MODEL = "gemini-2.5-pro"
 
@@ -20,9 +20,7 @@ try:
 except NameError:
     BASE_DIR = Path.cwd().parent
 
-WIKI_DIR      = BASE_DIR / "wiki"
 REFERENCE_DIR = BASE_DIR / "reference"
-LOG_FILE      = WIKI_DIR / "log.md"
 
 DRUGS      = json.loads((REFERENCE_DIR / "drugs.json").read_text())
 INDICATIONS = json.loads((REFERENCE_DIR / "indications.json").read_text())
@@ -30,18 +28,20 @@ COMPANIES  = json.loads((REFERENCE_DIR / "companies.json").read_text())
 
 
 def collect_wiki_pages() -> dict[str, str]:
+    from agents.wiki_gcs import read_wiki, list_wiki
     pages = {}
-    for path in WIKI_DIR.rglob("*.md"):
-        if path.name in ("log.md", "health-report.md"):
+    for rel in list_wiki():
+        if rel in ("log.md", "health-report.md"):
             continue
-        rel = str(path.relative_to(WIKI_DIR))
-        pages[rel] = path.read_text()
+        pages[rel] = read_wiki(rel)
     return pages
 
 
 def run_lint():
+    from agents.wiki_gcs import read_wiki, write_wiki
+
     pages = collect_wiki_pages()
-    log_content = LOG_FILE.read_text() if LOG_FILE.exists() else ""
+    log_content = read_wiki("log.md")
 
     structural_issues = _structural_checks(pages)
     semantic_issues = _semantic_checks(pages, log_content)
@@ -49,14 +49,14 @@ def run_lint():
     _write_health_report(structural_issues, semantic_issues, pages)
 
     timestamp = datetime.now().strftime("%Y-%m-%dT%H:%M")
-    with open(LOG_FILE, "a") as f:
-        f.write(
-            f"\n## [{timestamp}] lint | weekly pass\n"
-            f"pages_checked: {len(pages)}\n"
-            f"structural_issues: {len(structural_issues)}\n"
-            f"semantic_issues: {len(semantic_issues)}\n"
-            f"status: success\n"
-        )
+    new_entry = (
+        f"\n## [{timestamp}] lint | weekly pass\n"
+        f"pages_checked: {len(pages)}\n"
+        f"structural_issues: {len(structural_issues)}\n"
+        f"semantic_issues: {len(semantic_issues)}\n"
+        f"status: success\n"
+    )
+    write_wiki("log.md", log_content + new_entry)
 
     logger.info(
         f"LINT | Done. {len(structural_issues)} structural, "
@@ -222,4 +222,5 @@ def _write_health_report(structural: list[dict], semantic: list[dict],
         for item in new_pages:
             lines.append(f"- {item['detail']}")
 
-    (WIKI_DIR / "health-report.md").write_text("\n".join(lines))
+    from agents.wiki_gcs import write_wiki
+    write_wiki("health-report.md", "\n".join(lines))

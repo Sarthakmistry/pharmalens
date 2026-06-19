@@ -1,0 +1,11 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-f'
+      - 'DataPipelines/compiler-job/Dockerfile'
+      - '-t'
+      - 'us-central1-docker.pkg.dev/project-fba8fa53-e9e5-49d2-8dc/pharmalens/compiler-job:latest'
+      - '.'
+images:
+  - 'us-central1-docker.pkg.dev/project-fba8fa53-e9e5-49d2-8dc/pharmalens/compiler-job:latest'

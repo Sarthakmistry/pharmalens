@@ -13,11 +13,7 @@ Required env vars (set in Cloud Run job config):
   GOOGLE_GENAI_USE_VERTEXAI = True
 """
 
-import os
 import sys
-
-# Ensure repo root is on the path so agents.* imports resolve
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)) + "/../..")
 
 from dotenv import load_dotenv
 load_dotenv()

@@ -385,11 +385,11 @@ def update_index_py(pages_to_update: list[dict]):
     pages_to_update: list of {path, type, entity} dicts from compile_document()
     Each entry gets one line in the relevant section of index.md.
     """
-    index_path = WIKI_DIR / "index.md"
+    from agents.wiki_gcs import read_wiki, write_wiki
     today = datetime.now().strftime("%Y-%m-%d")
 
     # read existing index — empty string if first run
-    existing = index_path.read_text() if index_path.exists() else ""
+    existing = read_wiki("index.md")
 
     # collect new lines per section — skip anything already in index
     additions: dict[str, list[str]] = {}
@@ -431,8 +431,7 @@ def update_index_py(pages_to_update: list[dict]):
                 result.extend(new_lines)
         i += 1
 
-    WIKI_DIR.mkdir(parents=True, exist_ok=True)
-    index_path.write_text("\n".join(result))
+    write_wiki("index.md", "\n".join(result))
 
     total_added = sum(len(v) for v in additions.values())
     logger.info(f"INDEX | added {total_added} new entries to index.md")
