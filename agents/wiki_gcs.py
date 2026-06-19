@@ -20,6 +20,7 @@ Environment variables (all optional in dev):
 """
 
 import os
+import time
 from pathlib import Path
 
 from agents.logger import get_logger
@@ -39,6 +40,16 @@ LOCK_GCS_KEY = "state/compiler.lock"
 # mean the process that held it died without releasing it, so treat it as stale.
 LOCK_STALE_AFTER_SECONDS = 20 * 3600
 
+# Wiki content only changes once a day (the compiler job's daily run), so a
+# long-lived process (the Render API) can cache aggressively — this avoids a
+# GCS round-trip on every single page read for every request. A write updates
+# the cache immediately, so a process never sees its own write as stale.
+_CACHE_TTL_SECONDS = 180
+_page_cache: dict[str, tuple[float, str]] = {}      # page_path -> (cached_at, content)
+_list_cache: dict[str, tuple[float, list[str]]] = {}  # prefix -> (cached_at, pages)
+
+_client_singleton = None
+
 
 def _gcs_enabled() -> bool:
     return os.environ.get("GCS_MODE", "").lower() in ("true", "1", "yes")
@@ -49,8 +60,13 @@ def _bucket_name() -> str:
 
 
 def _client():
-    from google.cloud import storage
-    return storage.Client()
+    # Creating storage.Client() does credential/auth setup each time — expensive
+    # if repeated on every call. Reuse one client for the life of the process.
+    global _client_singleton
+    if _client_singleton is None:
+        from google.cloud import storage
+        _client_singleton = storage.Client()
+    return _client_singleton
 
 
 # ── wiki reads / writes ───────────────────────────────────────────────────────
@@ -58,14 +74,21 @@ def _client():
 def read_wiki(page_path: str) -> str:
     """Read a wiki page. Returns '' if not found."""
     if _gcs_enabled():
+        cached = _page_cache.get(page_path)
+        if cached and time.time() - cached[0] < _CACHE_TTL_SECONDS:
+            return cached[1]
+        from google.api_core.exceptions import NotFound
         try:
             blob = _client().bucket(_bucket_name()).blob(f"{WIKI_GCS_PREFIX}/{page_path}")
-            if blob.exists():
-                return blob.download_as_text(encoding="utf-8")
-            return ""
+            content = blob.download_as_text(encoding="utf-8")
+        except NotFound:
+            content = ""
         except Exception as e:
             logger.warning(f"WIKI | GCS read failed for {page_path}: {e}")
-            return ""
+            # serve a stale cache entry rather than nothing, if we have one
+            return cached[1] if cached else ""
+        _page_cache[page_path] = (time.time(), content)
+        return content
     full_path = LOCAL_WIKI_DIR / page_path
     return full_path.read_text() if full_path.exists() else ""
 
@@ -80,6 +103,8 @@ def write_wiki(page_path: str, content: str) -> str:
         except Exception as e:
             logger.error(f"WIKI | GCS write failed for {page_path}: {e}")
             raise
+        _page_cache[page_path] = (time.time(), content)
+        _list_cache.clear()  # a new page may have appeared — invalidate listing cache
     else:
         full_path = LOCAL_WIKI_DIR / page_path
         full_path.parent.mkdir(parents=True, exist_ok=True)
@@ -90,6 +115,9 @@ def write_wiki(page_path: str, content: str) -> str:
 def list_wiki(prefix: str = "") -> list[str]:
     """Return sorted list of .md page paths relative to the wiki root."""
     if _gcs_enabled():
+        cached = _list_cache.get(prefix)
+        if cached and time.time() - cached[0] < _CACHE_TTL_SECONDS:
+            return cached[1]
         try:
             gcs_prefix = f"{WIKI_GCS_PREFIX}/{prefix}" if prefix else f"{WIKI_GCS_PREFIX}/"
             pages = []
@@ -97,10 +125,12 @@ def list_wiki(prefix: str = "") -> list[str]:
                 if blob.name.endswith(".md"):
                     rel = blob.name[len(WIKI_GCS_PREFIX) + 1:]
                     pages.append(rel)
-            return sorted(pages)
+            pages = sorted(pages)
+            _list_cache[prefix] = (time.time(), pages)
+            return pages
         except Exception as e:
             logger.warning(f"WIKI | GCS list failed: {e}")
-            return []
+            return cached[1] if cached else []
     search_dir = LOCAL_WIKI_DIR / prefix if prefix else LOCAL_WIKI_DIR
     if not search_dir.exists():
         return []
@@ -117,23 +147,16 @@ def search_wiki(query: str, prefix: str = "") -> list[dict]:
     results: list[dict] = []
 
     if _gcs_enabled():
-        try:
-            gcs_prefix = f"{WIKI_GCS_PREFIX}/{prefix}" if prefix else f"{WIKI_GCS_PREFIX}/"
-            for blob in _client().list_blobs(_bucket_name(), prefix=gcs_prefix):
-                if not blob.name.endswith(".md"):
-                    continue
-                try:
-                    content = blob.download_as_text(encoding="utf-8")
-                except Exception:
-                    continue
-                if query_lower not in content.lower():
-                    continue
-                rel = blob.name[len(WIKI_GCS_PREFIX) + 1:]
-                _append_snippet(results, rel, content, query_lower)
-                if len(results) >= 20:
-                    break
-        except Exception as e:
-            logger.warning(f"WIKI | GCS search failed: {e}")
+        # Route through list_wiki()/read_wiki() instead of raw blob calls — both
+        # are cached, so a repeated search (or a search after a recent read/list)
+        # mostly hits memory instead of GCS.
+        for rel in list_wiki(prefix):
+            content = read_wiki(rel)
+            if not content or query_lower not in content.lower():
+                continue
+            _append_snippet(results, rel, content, query_lower)
+            if len(results) >= 20:
+                break
         return results
 
     # local fallback
