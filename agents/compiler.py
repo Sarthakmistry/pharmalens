@@ -996,13 +996,21 @@ def flush_buffered_pages(
             for i, s in enumerate(signals)
         )
 
+    # Gemini 2.5 Flash's documented max — pages for companies with hundreds of
+    # accumulated trials can get close to default output limits, so set this
+    # explicitly rather than trusting an SDK default.
+    MAX_OUTPUT_TOKENS = 65536
+
     def _make_config(page_type: str) -> types.GenerateContentConfig:
         cache_name = template_caches.get(page_type)
         if cache_name:
-            return types.GenerateContentConfig(cached_content=cache_name, temperature=0.2)
+            return types.GenerateContentConfig(
+                cached_content=cache_name, temperature=0.2, max_output_tokens=MAX_OUTPUT_TOKENS,
+            )
         page_template = load_page_template(page_type)
         return types.GenerateContentConfig(
-            system_instruction=system_prompt + "\n\n" + page_template, temperature=0.2,
+            system_instruction=system_prompt + "\n\n" + page_template,
+            temperature=0.2, max_output_tokens=MAX_OUTPUT_TOKENS,
         )
 
     # ── company ────────────────────────────────────────────────────────────────
@@ -1135,6 +1143,16 @@ Rules:
         start = time.time()
         try:
             resp = client.models.generate_content(model=FLASH_MODEL, contents=prompt, config=config)
+            finish_reason = resp.candidates[0].finish_reason if resp.candidates else None
+            # STOP is the only "completed normally" reason. Anything else
+            # (MAX_TOKENS, SAFETY, RECITATION, OTHER...) means resp.text is a
+            # partial/incomplete document — never write it.
+            if finish_reason is not None and not str(finish_reason).endswith("STOP"):
+                logger.error(
+                    f"FLUSH | INCOMPLETE | {page_type} {entity} — finish_reason={finish_reason}, "
+                    f"discarding partial content rather than writing a broken page."
+                )
+                return None
             return page_type, entity, page_path, resp.text, resp.usage_metadata, time.time() - start, signals
         except Exception as exc:
             logger.error(f"FLUSH | ERROR | {page_type} {entity}: {exc}")
