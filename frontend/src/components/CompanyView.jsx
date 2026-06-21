@@ -1,25 +1,27 @@
 import { useState, useEffect } from 'react'
-import { fetchCompany } from '../api'
-import { parseEventsTable, eventColor } from '../parseWiki'
+import { fetchCompany, fetchCompanyEvents } from '../api'
+import { eventColor } from '../parseWiki'
 import TrialsPanel from './TrialsPanel'
 import StockChart from './StockChart'
 
 
 export default function CompanyView({ slug, onSelectIndication }) {
   const [data, setData] = useState(null)
+  const [events, setEvents] = useState([])
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     setLoading(true)
     setData(null)
+    setEvents([])
     fetchCompany(slug).then(d => { setData(d); setLoading(false) })
+    fetchCompanyEvents(slug).then(d => setEvents(d.events ?? []))
   }, [slug])
 
   if (loading) return <div className="loading">Loading {slug}…</div>
   if (!data) return null
 
-  const { meta, wiki, stock, drug_indications = {} } = data
-  const events = parseEventsTable(wiki)
+  const { meta, stock, drug_indications = {} } = data
   const secEvents         = events.filter(e => e.type === 'sec')
   const researchEvents    = events.filter(e => e.type === 'research')
   const oneYearAgo        = new Date(); oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1)

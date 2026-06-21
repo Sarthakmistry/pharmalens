@@ -5,6 +5,7 @@
 # Note: google-generativeai and google-cloud-aiplatform genai modules
 # are deprecated as of Nov 2025 — use this instead
 google-genai>=1.10.0
+pydantic>=2.0.0          # response_schema validation for LLM extraction output
 
 # ── orchestrator ───────────────────────────────────────────────────────────────
 schedule>=1.2.0          # daily/weekly job scheduling in orchestrator.py

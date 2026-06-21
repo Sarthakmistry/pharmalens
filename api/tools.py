@@ -7,7 +7,7 @@ These are called both by FastAPI route handlers and by the Q&A agent tool loop.
 import re
 import yfinance as yf
 import yaml
-from agents.wiki_gcs import read_wiki, list_wiki, search_wiki as _search_wiki
+from agents.wiki_gcs import read_wiki, list_wiki, search_wiki as _search_wiki, read_company_events
 
 
 def normalize_status(raw: str) -> str:
@@ -48,6 +48,26 @@ def parse_company_trials(slug: str) -> list[dict]:
         trials.append(meta)
     trials.sort(key=lambda t: t.get("primary_completion_date") or "", reverse=True)
     return trials
+
+
+def parse_company_events(slug: str) -> list[dict]:
+    """Read the canonical per-company event log (CSV, written deterministically
+    by the compiler — never parsed out of markdown). Returns [{date, type, event,
+    signal, source}], newest first. Empty rows from a missing/blank CSV become []."""
+    rows = read_company_events(slug)
+    events = [
+        {
+            "date":   r.get("date", ""),
+            "type":   r.get("type", ""),
+            "event":  r.get("event", ""),
+            "signal": r.get("signal", ""),
+            "source": r.get("source", ""),
+        }
+        for r in rows
+        if r.get("event")
+    ]
+    events.sort(key=lambda e: e["date"], reverse=True)
+    return events
 
 
 def read_wiki_page(page_path: str) -> str:

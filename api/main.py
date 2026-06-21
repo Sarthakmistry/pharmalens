@@ -9,6 +9,8 @@ GET  /api/companies                — list all companies with tickers
 GET  /api/stocks                   — live stock prices for every company (ticker bar)
 GET  /api/indication/{slug}        — indication wiki content + structured meta
 GET  /api/company/{slug}           — company wiki content + meta + live stock
+GET  /api/company/{slug}/trials    — structured trial data (parsed, not raw markdown)
+GET  /api/company/{slug}/events    — structured "Recent events" data (canonical CSV)
 POST /api/ask                      — Q&A agent, streams SSE
 
 Start:
@@ -304,6 +306,21 @@ def get_company_trials(slug: str) -> dict:
         },
         "phases": phases,
     }
+
+
+@app.get("/api/company/{slug}/events")
+def get_company_events(slug: str) -> dict:
+    """
+    Structured "Recent events" data for one company, read directly from the
+    canonical CSV log (agents/wiki_gcs.py:read_company_events) rather than
+    regex-parsing the markdown table — same rationale as /trials above.
+    """
+    from .tools import parse_company_events
+
+    if slug not in COMPANIES:
+        raise HTTPException(status_code=404, detail=f"Company '{slug}' not found")
+
+    return {"events": parse_company_events(slug)}
 
 
 # ── Q&A agent (SSE) ───────────────────────────────────────────────────────────

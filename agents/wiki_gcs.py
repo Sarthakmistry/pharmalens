@@ -36,6 +36,14 @@ LOCAL_WIKI_DIR = BASE_DIR / "wiki"
 WIKI_GCS_PREFIX = "wiki"
 STATE_GCS_KEY = "state/processing_state.json"
 LOCK_GCS_KEY = "state/compiler.lock"
+
+# Canonical per-company event log — the source of truth for each company page's
+# "Recent events" table. Stored as CSV (not JSON) since it's a flat tabular
+# record (date, type, event, signal, source) with no nesting, and Python — not
+# the LLM — owns rendering the markdown table from this data on every flush.
+EVENTS_CSV_PREFIX = "state/company_events"
+LOCAL_EVENTS_DIR = BASE_DIR / "agents" / "company_events"
+EVENT_CSV_FIELDS = ["date", "type", "event", "signal", "source", "file_path"]
 # Task timeout on the Cloud Run job is 1 day — a lock older than this can only
 # mean the process that held it died without releasing it, so treat it as stale.
 LOCK_STALE_AFTER_SECONDS = 20 * 3600
@@ -188,6 +196,66 @@ def _append_snippet(results: list[dict], rel: str, content: str, query_lower: st
             snippet = "\n".join(lines[start:end]).strip()
             results.append({"path": rel, "snippet": snippet[:400]})
             return
+
+
+# ── canonical per-company event log (CSV, GCS-backed when GCS_MODE=true) ─────
+
+def read_company_events(slug: str) -> list[dict]:
+    """Read the canonical event log for one company. Returns [] if not found."""
+    import csv
+    import io
+
+    if _gcs_enabled():
+        from google.api_core.exceptions import NotFound
+        try:
+            blob = _client().bucket(_bucket_name()).blob(f"{EVENTS_CSV_PREFIX}/{slug}.csv")
+            content = blob.download_as_text(encoding="utf-8")
+        except NotFound:
+            return []
+        except Exception as e:
+            logger.warning(f"EVENTS | GCS read failed for {slug}: {e}")
+            return []
+    else:
+        path = LOCAL_EVENTS_DIR / f"{slug}.csv"
+        if not path.exists():
+            return []
+        content = path.read_text()
+
+    if not content.strip():
+        return []
+    return list(csv.DictReader(io.StringIO(content)))
+
+
+def append_company_events(slug: str, new_rows: list[dict]) -> None:
+    """Append rows to a company's canonical event log, deduped by file_path so
+    a retried/replayed file never produces a duplicate row. Rewrites the whole
+    CSV — these files are small (one row per source document touching this
+    company), so a full rewrite is simpler and safer than an in-place append."""
+    import csv
+    import io
+
+    existing = read_company_events(slug)
+    seen_files = {r.get("file_path") for r in existing}
+    to_add = [r for r in new_rows if r.get("file_path") not in seen_files]
+    if not to_add:
+        return
+
+    buf = io.StringIO()
+    writer = csv.DictWriter(buf, fieldnames=EVENT_CSV_FIELDS)
+    writer.writeheader()
+    writer.writerows(existing + to_add)
+    content = buf.getvalue()
+
+    if _gcs_enabled():
+        try:
+            blob = _client().bucket(_bucket_name()).blob(f"{EVENTS_CSV_PREFIX}/{slug}.csv")
+            blob.upload_from_string(content, content_type="text/csv; charset=utf-8")
+        except Exception as e:
+            logger.error(f"EVENTS | GCS write failed for {slug}: {e}")
+            raise
+    else:
+        LOCAL_EVENTS_DIR.mkdir(parents=True, exist_ok=True)
+        (LOCAL_EVENTS_DIR / f"{slug}.csv").write_text(content)
 
 
 # ── state file (GCS-backed when GCS_MODE=true) ───────────────────────────────

@@ -15,7 +15,10 @@ import os
 import re
 import time
 from pathlib import Path
+from typing import Literal
+import yaml
 from dotenv import load_dotenv
+from pydantic import BaseModel, ValidationError
 from google import genai
 from google.genai import types
 
@@ -72,6 +75,66 @@ ALIAS_TO_COMPANY = {}
 for slug, data in COMPANIES.items():
     for alias in data.get("aliases", []):
         ALIAS_TO_COMPANY[alias.lower()] = slug
+
+
+# ── Step 1 extraction schema (Pydantic) ────────────────────────────────────────
+# Passed as response_schema so Gemini's decoding is constrained to this shape —
+# response_mime_type="application/json" alone only asks nicely; this enforces it.
+# The 5-level sentiment enum lets the company "Recent events" table render the
+# Signal column directly from extracted data, with no LLM judgment call needed
+# at page-write time (see _SIGNAL_LABELS / _build_event_row in flush_buffered_pages).
+
+SentimentLevel = Literal[
+    "bullish", "moderately_bullish", "neutral", "moderately_bearish", "bearish",
+]
+
+EventType = Literal[
+    "fda_approval", "fda_rejection", "fda_warning", "label_expansion",
+    "trial_completion", "trial_termination", "trial_initiation",
+    "earnings_signal", "pipeline_update", "patent_event", "news", "pubmed_result",
+]
+
+
+class DrugMention(BaseModel):
+    name: str
+    brand_name: str | None = None
+    revenue_usd_m: float | None = None
+    revenue_growth_pct: float | None = None
+    direction: str | None = None
+    sentiment: SentimentLevel | None = None
+    commentary: str | None = None
+    is_pipeline: bool | None = None
+    is_blockbuster: bool | None = None
+
+
+class ClinicalFindings(BaseModel):
+    study_design: str | None = None
+    sample_size: str | None = None
+    comparator: str | None = None
+    primary_outcome: str | None = None
+    primary_result: str | None = None
+    secondary_results: list[str] = []
+    safety_note: str | None = None
+    conclusions_verbatim: str | None = None
+    journal: str | None = None
+    publication_year: str | None = None
+    industry_sponsored: bool | None = None
+
+
+class ExtractionResult(BaseModel):
+    all_drugs_mentioned: list[DrugMention] = []
+    companies_mentioned: list[str] = []
+    indications_mentioned: list[str] = []
+    trial_ids: list[str] = []
+    event_type: EventType | None = None
+    event_summary: str | None = None
+    sentiment: SentimentLevel | None = None
+    sentiment_reasoning: str | None = None
+    key_facts: list[str] = []
+    event_date: str | None = None
+    requires_new_event_page: bool = False
+    suggested_event_slug: str | None = None
+    clinical_findings: ClinicalFindings | None = None
 
 
 # ── wiki helpers ──────────────────────────────────────────────────────────────
@@ -402,6 +465,17 @@ def extract_ctgov_python(preprocessed: dict) -> dict:
     requires_event = status in _TERMINAL and bool(company)
     event_type = {"COMPLETED": "trial_completion", "TERMINATED": "trial_termination"}.get(status)
 
+    # Deterministic minimum sentiment for the company events table — judging the
+    # actual result direction reliably without LLM interpretation isn't possible
+    # here, so this only covers the part that IS unambiguous: stopping a trial
+    # early is bearish; reaching completion per protocol is neutral by default
+    # (clinical_findings, when attached below, carries the real result detail).
+    sentiment = {
+        "TERMINATED": "bearish",
+        "WITHDRAWN":  "bearish",
+        "COMPLETED":  "neutral",
+    }.get(status)
+
     date = (
         preprocessed.get("primary_completion_date")
         or preprocessed.get("completion_date")
@@ -428,6 +502,18 @@ def extract_ctgov_python(preprocessed: dict) -> dict:
         f"Has results: {preprocessed['has_results']}"           if preprocessed.get("has_results") is not None else None,
     ] if f is not None]
 
+    # One-line, deterministic event description — only built for terminal-status
+    # trials (the only case that produces a company "Recent events" row or an
+    # event page). Non-terminal ctgov documents never need a description since
+    # ongoing trial status already lives on the trials/{company}.md page.
+    event_summary = None
+    if requires_event:
+        phase = preprocessed.get("phase")
+        title = preprocessed.get("brief_title") or nct_id
+        verb = "terminated" if status == "TERMINATED" else "withdrawn" if status == "WITHDRAWN" else "completed"
+        phase_label = f"Phase {phase} " if phase else ""
+        event_summary = f"{title} ({phase_label}{nct_id}) {verb}."
+
     return {
         "all_drugs_mentioned": (
             [{"name": inn, "is_tracked": True} for inn in matched_drugs] +
@@ -437,8 +523,8 @@ def extract_ctgov_python(preprocessed: dict) -> dict:
         "indications_mentioned":   matched_indications,
         "trial_ids":               [nct_id] if nct_id else [],
         "event_type":              event_type,
-        "event_summary":           None,
-        "sentiment":               None,
+        "event_summary":           event_summary,
+        "sentiment":               sentiment,
         "sentiment_reasoning":     None,
         "key_facts":               key_facts,
         "event_date":              date or None,
@@ -477,13 +563,14 @@ def _extract_clinical_findings(pubmed_results_text: str) -> dict | None:
         config=types.GenerateContentConfig(
             temperature=0.1,
             response_mime_type="application/json",
+            response_schema=ClinicalFindings,
         ),
     )
     ledger.record(response.usage_metadata)
     try:
-        return json.loads(response.text)
-    except json.JSONDecodeError:
-        logger.warning(f"_extract_clinical_findings | JSON parse failed: {response.text[:200]}")
+        return ClinicalFindings.model_validate_json(response.text).model_dump()
+    except (json.JSONDecodeError, ValidationError) as e:
+        logger.warning(f"_extract_clinical_findings | schema validation failed: {e} — {response.text[:200]}")
         return None
 
 
@@ -612,7 +699,7 @@ Extract all relevant entities and signals. Return a JSON object:
   "trial_ids": ["NCT03819153"],
   "event_type": "fda_approval | trial_completion | trial_termination | earnings_signal | news | pubmed_result | null",
   "event_summary": "one sentence describing the key signal",
-  "sentiment": "bullish | bearish | neutral | null",
+  "sentiment": "bullish | moderately_bullish | neutral | moderately_bearish | bearish | null",
   "sentiment_reasoning": "brief quote or paraphrase supporting sentiment",
   "key_facts": ["fact 1", "fact 2"],
   "event_date": "YYYY-MM-DD or null",
@@ -642,15 +729,16 @@ Return ONLY valid JSON with no markdown fences.
             system_instruction=system_prompt,
             temperature=0.1,
             response_mime_type="application/json",
+            response_schema=ExtractionResult,
         ),
     )
     ledger.record(step1_response.usage_metadata)
 
     try:
-        return json.loads(step1_response.text)
-    except json.JSONDecodeError:
+        return ExtractionResult.model_validate_json(step1_response.text).model_dump()
+    except (json.JSONDecodeError, ValidationError) as e:
         raise ValueError(
-            f"Step 1 JSON parse failed for {file_path}. "
+            f"Step 1 schema validation failed for {file_path}: {e}. "
             f"Response was: {step1_response.text[:300]}"
         )
 
@@ -974,6 +1062,120 @@ Rules:
     return updated_paths
 
 
+# ── company "Recent events" table — rendered deterministically, never by the LLM ─
+
+_EVENT_DOC_TYPE_LABELS = {"edgar_8k": "sec", "edgar_10q": "sec", "ctgov": "trial", "pubmed": "research"}
+_SIGNAL_LABELS = {
+    "bullish":            "Bullish",
+    "moderately_bullish": "Moderately Bullish",
+    "neutral":            "Neutral",
+    "moderately_bearish": "Moderately Bearish",
+    "bearish":            "Bearish",
+}
+
+
+def _build_event_row(signal: dict) -> dict | None:
+    """Derive one canonical events-table row from a buffered company signal.
+    Returns None when the signal doesn't carry enough to make a meaningful row
+    (e.g. a non-terminal ctgov status update, or a doc type with no mapping)."""
+    extracted = signal.get("extracted", {})
+    doc_type  = signal.get("doc_type", "")
+    event_type_label = _EVENT_DOC_TYPE_LABELS.get(doc_type)
+    event_text = extracted.get("event_summary")
+    if event_type_label is None or not event_text:
+        return None
+
+    pmid = extracted.get("pmid")
+    source = f"PMID:{pmid}" if doc_type == "pubmed" and pmid else ""
+
+    return {
+        "date":      extracted.get("event_date") or "",
+        "type":      event_type_label,
+        "event":     event_text,
+        "signal":    _SIGNAL_LABELS.get(extracted.get("sentiment"), ""),
+        "source":    source,
+        "file_path": signal.get("file_path", ""),
+    }
+
+
+def _render_events_table(rows: list[dict]) -> str:
+    header = "### Recent events\n| Date | Type | Event | Signal | Source |\n|---|---|---|---|---|"
+    if not rows:
+        return header + "\n"
+    sorted_rows = sorted(rows, key=lambda r: r.get("date") or "", reverse=True)
+    body = "\n".join(
+        f"| {r.get('date', '')} | {r.get('type', '')} | {r.get('event', '')} | "
+        f"{r.get('signal', '')} | {r.get('source', '')} |"
+        for r in sorted_rows
+    )
+    return f"{header}\n{body}\n"
+
+
+def _splice_events_section(content: str, table_md: str) -> str:
+    """Strip any '### Recent events' block the LLM wrote anyway (in case it
+    ignored the instruction not to), then insert the canonical, Python-rendered
+    table right before '### Sources' — or at the end if no Sources section."""
+    content = re.sub(r"### Recent events.*?(?=\n### |\n---|\Z)", "", content, flags=re.DOTALL)
+    sources_idx = content.find("### Sources")
+    if sources_idx == -1:
+        return content.rstrip() + "\n\n" + table_md + "\n"
+    return content[:sources_idx] + table_md + "\n" + content[sources_idx:]
+
+
+# ── trial registry "Summary" table — rendered deterministically, never by the LLM ─
+# Unlike the company events table, this needs no separate canonical store: every
+# field the table needs (NCT ID, title, phase, status, completion date, results)
+# already lives verbatim in each trial's own YAML frontmatter block on the same
+# page, which the LLM still writes/updates per trial. We just parse those blocks
+# back out of its response and re-render the table from them.
+
+def _parse_trial_blocks(content: str) -> list[dict]:
+    """Split a trial page on '---' delimiters and yaml.safe_load each frontmatter
+    block. Returns only blocks that look like a trial record (have trial_id)."""
+    blocks = re.split(r"^---$", content, flags=re.MULTILINE)
+    trials = []
+    for block in blocks:
+        try:
+            meta = yaml.safe_load(block.strip())
+        except yaml.YAMLError:
+            continue
+        if isinstance(meta, dict) and meta.get("trial_id"):
+            trials.append(meta)
+    return trials
+
+
+def _render_trial_summary_table(blocks: list[dict]) -> str:
+    header = (
+        "## Summary\n\n"
+        "| NCT ID | Title | Phase | Status | Primary Completion | Results |\n"
+        "|---|---|---|---|---|---|"
+    )
+    if not blocks:
+        return header + "\n"
+    sorted_blocks = sorted(blocks, key=lambda b: str(b.get("trial_id") or ""))
+    rows = "\n".join(
+        f"| [[{b.get('trial_id', '')}]] | {b.get('title', '')} | {b.get('phase', '')} | "
+        f"{b.get('status', '')} | {b.get('primary_completion_date') or ''} | "
+        f"{'Yes' if b.get('has_results') else 'No'} |"
+        for b in sorted_blocks
+    )
+    return f"{header}\n{rows}\n"
+
+
+def _splice_trial_summary(content: str, table_md: str) -> str:
+    """Strip whatever '## Summary' block the LLM wrote (it still may, despite
+    being told not to) and replace it with the canonical, Python-rendered one —
+    same pattern as _splice_events_section for company pages."""
+    content = re.sub(r"## Summary.*?(?=\n## |\Z)", "", content, flags=re.DOTALL)
+    # insert right after the page H1 ("# {Company} Trials"), before the first
+    # remaining "## " section (Active/Completed/Terminated Trials)
+    h1_match = re.search(r"^# .+$", content, flags=re.MULTILINE)
+    if not h1_match:
+        return table_md + "\n" + content
+    insert_at = h1_match.end()
+    return content[:insert_at] + "\n\n" + table_md + content[insert_at:]
+
+
 def flush_buffered_pages(
     company_buffer: dict,
     trial_buffer: dict,
@@ -1043,8 +1245,9 @@ Rules:
 - Integrate ALL signals above into the company page
 - Follow the company template exactly
 - Preserve all existing content — only add or update what these documents affect
-- Timeline section is append-only — add new rows at the top, never delete existing rows
-- End with a ## Sources section listing all raw file paths
+- Do NOT write a "### Recent events" section or table — it is generated
+  programmatically from canonical signal data after this call, not by you.
+  Write everything else on the page as normal.
 - For all_drugs_mentioned: drugs with is_tracked=true get [[drug_name]] links; is_tracked=false as plain text
 - last_updated: use the most recent event_date from the signals above
 - Write ONLY the markdown content — no preamble, no explanation
@@ -1080,9 +1283,14 @@ Trials (ordered as processed):
 {trials_block}
 
 Rules:
-- action=new: add row to summary table + create section under correct status group (Active/Completed/Terminated)
+- action=new: create section under correct status group (Active/Completed/Terminated) with its YAML
+  frontmatter block + body
 - action=update: find existing section by NCT ID, update status/result/completion date — no duplicates
 - Never remove existing trial entries
+- Do NOT write a "## Summary" table — it is generated programmatically from each
+  trial's own frontmatter block after this call, not by you. If you see one in
+  the "current page content" you were given, leave it exactly where it is; it
+  will be replaced automatically.
 - Follow the trial template exactly
 - End with a ## Sources section listing all NCT file paths
 - Write ONLY the markdown content — no preamble, no explanation
@@ -1189,6 +1397,14 @@ Rules:
         n = len(signals)
         logger.info(f"FLUSH | {page_type.upper()} | {entity} — {n} signal(s), API took {elapsed:.1f}s")
         ledger.record(usage)
+        if page_type == "company":
+            from agents.wiki_gcs import append_company_events, read_company_events
+            new_rows = [row for row in (_build_event_row(s) for s in signals) if row]
+            if new_rows:
+                append_company_events(entity, new_rows)
+            content = _splice_events_section(content, _render_events_table(read_company_events(entity)))
+        elif page_type == "trial":
+            content = _splice_trial_summary(content, _render_trial_summary_table(_parse_trial_blocks(content)))
         write_wiki_page(page_path, content)
         updated_paths.append(page_path)
         logger.info(f"FLUSH | WROTE | {page_path}")

@@ -27,6 +27,7 @@ raw/
 # not in git. Local copies are dev-only working state.
 wiki/
 logs/
+agents/company_events/
 
 # OS
 .DS_Store

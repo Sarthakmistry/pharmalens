@@ -31,6 +31,13 @@ last_updated: YYYY-MM-DD
 ---
 ```
 
+RULE: Each company's trials/{company-slug}.md page opens with a "# {Company} Trials" heading
+      followed by a "## Summary" table (NCT ID, Title, Phase, Status, Primary Completion, Results).
+      Do NOT write this table yourself — it is generated programmatically from the frontmatter
+      blocks below after you write them, and will overwrite anything you put there. Your job is
+      only the per-trial sections grouped under "## Active Trials" / "## Completed Trials" /
+      "## Terminated Trials" headings (frontmatter block + body per trial).
+
 RULE: Populate clinical_findings only when has_results is true AND pubmed_results data is present.
       Set all clinical_findings fields to null when has_results is false or pubmed_results is absent.
 RULE: primary_result_value must be null (the YAML null, not the string "None") whenever no real
