@@ -1534,6 +1534,18 @@ def flush_buffered_pages(
             for i, s in enumerate(signals)
         )
 
+    def _chunk_list(items: list, size: int) -> list[list]:
+        return [items[i:i + size] for i in range(0, len(items), size)]
+
+    # Confirmed in production (AstraZeneca/Sanofi backlog catch-up): a company
+    # or drug with hundreds of signals in one batch causes the SAME failure
+    # the trial-page fix already solved, one level up — the main page-update
+    # call embeds every signal's full JSON in one prompt, making the call slow
+    # enough to get cancelled (499) or large enough to risk MAX_TOKENS on
+    # output. >1 chunk triggers sequential multi-call processing for that
+    # entity instead of one call asked to integrate everything at once.
+    ENTITY_SIGNAL_CHUNK_SIZE = 20
+
     # Gemini 2.5 Flash's documented max — pages for companies with hundreds of
     # accumulated trials can get close to default output limits, so set this
     # explicitly rather than trusting an SDK default.
@@ -1550,6 +1562,76 @@ def flush_buffered_pages(
             system_instruction=system_prompt + "\n\n" + page_template,
             temperature=0.2, max_output_tokens=MAX_OUTPUT_TOKENS,
         )
+
+    def _chunk_note(chunk_index: int, total_chunks: int) -> str:
+        if total_chunks <= 1:
+            return ""
+        return (
+            f"\nNOTE: this is part {chunk_index + 1} of {total_chunks} for this batch — "
+            f"earlier parts already integrated earlier signals from this same batch into "
+            f"the \"current page content\" below. Integrate ONLY the signals listed here.\n"
+        )
+
+    def _build_company_prompt(page_path: str, slug: str, current: str, chunk_signals: list[dict],
+                               chunk_index: int, total_chunks: int) -> str:
+        return f"""Update the company wiki page for: {page_path}
+Page type: company
+Entity: {slug}
+{_chunk_note(chunk_index, total_chunks)}
+{len(chunk_signals)} document(s) processed in this batch run.
+
+Current page content (empty if new page):
+---
+{current if current else '[NEW PAGE — write from scratch using the template above]'}
+---
+
+Signals to integrate (ordered as processed):
+{_signals_block(chunk_signals)}
+
+Rules:
+- Integrate ALL signals above into the company page
+- Follow the company template exactly
+- Preserve all existing content — only add or update what these documents affect
+- Do NOT write a "### Recent events" section or table — it is generated
+  programmatically from canonical signal data after this call, not by you.
+- Do NOT write a "### Earnings intelligence" section — it is generated
+  programmatically from an append-only log after this call, not by you.
+  Write everything else on the page as normal.
+- For all_drugs_mentioned: drugs with is_tracked=true get [[drug_name]] links; is_tracked=false as plain text
+- last_updated: use the most recent event_date from the signals above
+- Write ONLY the markdown content — no preamble, no explanation
+"""
+
+    def _build_drug_prompt(page_path: str, drug_slug: str, current: str, chunk_signals: list[dict],
+                            chunk_index: int, total_chunks: int) -> str:
+        return f"""Update the drug wiki page for: {page_path}
+Page type: drug
+Entity: {drug_slug}
+{_chunk_note(chunk_index, total_chunks)}
+{len(chunk_signals)} document(s) processed in this batch run.
+
+Current page content (empty if new page):
+---
+{current if current else '[NEW PAGE — write from scratch using the template above]'}
+---
+
+Signals to integrate (ordered as processed):
+{_signals_block(chunk_signals)}
+
+Rules:
+- Integrate ALL signals above into the drug page
+- Follow the drug template exactly
+- Preserve all existing content — only add or update what these documents affect
+- Do NOT write a "### Timeline" section or table — it is generated
+  programmatically from canonical signal data after this call, not by you.
+- Do NOT write a "### Management sentiment" section — it is generated
+  programmatically from canonical signal data after this call, not by you.
+- Do NOT write a "### Clinical evidence" section — it is generated
+  programmatically from an append-only log after this call, not by you.
+  Write everything else on the page as normal.
+- End with a ## Sources section listing all raw file paths
+- Write ONLY the markdown content — no preamble, no explanation
+"""
 
     # ── company ────────────────────────────────────────────────────────────────
     for slug, signals in company_buffer.items():
@@ -1584,34 +1666,16 @@ Filing data:
 Output ONLY the paragraph text — no heading, no preamble, no markdown fences."""
             tasks.append(("earnings_para", slug, page_path, para_prompt, _make_config("company"), [s]))
 
-        prompt = f"""Update the company wiki page for: {page_path}
-Page type: company
-Entity: {slug}
-
-{len(signals)} document(s) processed in this batch run.
-
-Current page content (empty if new page):
----
-{current if current else '[NEW PAGE — write from scratch using the template above]'}
----
-
-Signals to integrate (ordered as processed):
-{_signals_block(signals)}
-
-Rules:
-- Integrate ALL signals above into the company page
-- Follow the company template exactly
-- Preserve all existing content — only add or update what these documents affect
-- Do NOT write a "### Recent events" section or table — it is generated
-  programmatically from canonical signal data after this call, not by you.
-- Do NOT write a "### Earnings intelligence" section — it is generated
-  programmatically from an append-only log after this call, not by you.
-  Write everything else on the page as normal.
-- For all_drugs_mentioned: drugs with is_tracked=true get [[drug_name]] links; is_tracked=false as plain text
-- last_updated: use the most recent event_date from the signals above
-- Write ONLY the markdown content — no preamble, no explanation
-"""
-        tasks.append(("company", slug, page_path, prompt, _make_config("company"), signals))
+        signal_chunks = _chunk_list(signals, ENTITY_SIGNAL_CHUNK_SIZE)
+        if len(signal_chunks) <= 1:
+            prompt = _build_company_prompt(page_path, slug, current, signals, 0, 1)
+            tasks.append(("company", slug, page_path, prompt, _make_config("company"), signals))
+        else:
+            # Too many signals for one call (confirmed in production: AstraZeneca/
+            # Sanofi with hundreds of signals hit 499 CANCELLED) — process
+            # sequentially, each chunk building on the previous chunk's output.
+            payload = {"current": current, "chunks": signal_chunks, "builder": _build_company_prompt}
+            tasks.append(("company_chunked", slug, page_path, payload, _make_config("company"), signals))
 
     # ── trial ──────────────────────────────────────────────────────────────────
     # Only the trials touched THIS batch are sent to/from the LLM — the rest of
@@ -1738,35 +1802,15 @@ Finding data:
 Output ONLY the paragraph text — no heading, no preamble, no markdown fences."""
             tasks.append(("clinical_para", drug_slug, page_path, para_prompt, _make_config("drug"), [s]))
 
-        prompt = f"""Update the drug wiki page for: {page_path}
-Page type: drug
-Entity: {drug_slug}
-
-{len(signals)} document(s) processed in this batch run.
-
-Current page content (empty if new page):
----
-{current if current else '[NEW PAGE — write from scratch using the template above]'}
----
-
-Signals to integrate (ordered as processed):
-{_signals_block(signals)}
-
-Rules:
-- Integrate ALL signals above into the drug page
-- Follow the drug template exactly
-- Preserve all existing content — only add or update what these documents affect
-- Do NOT write a "### Timeline" section or table — it is generated
-  programmatically from canonical signal data after this call, not by you.
-- Do NOT write a "### Management sentiment" section — it is generated
-  programmatically from canonical signal data after this call, not by you.
-- Do NOT write a "### Clinical evidence" section — it is generated
-  programmatically from an append-only log after this call, not by you.
-  Write everything else on the page as normal.
-- End with a ## Sources section listing all raw file paths
-- Write ONLY the markdown content — no preamble, no explanation
-"""
-        tasks.append(("drug", drug_slug, page_path, prompt, _make_config("drug"), signals))
+        signal_chunks = _chunk_list(signals, ENTITY_SIGNAL_CHUNK_SIZE)
+        if len(signal_chunks) <= 1:
+            prompt = _build_drug_prompt(page_path, drug_slug, current, signals, 0, 1)
+            tasks.append(("drug", drug_slug, page_path, prompt, _make_config("drug"), signals))
+        else:
+            # Same fix as company pages — too many signals for one call
+            # (confirmed in production: dapagliflozin hit MAX_TOKENS).
+            payload = {"current": current, "chunks": signal_chunks, "builder": _build_drug_prompt}
+            tasks.append(("drug_chunked", drug_slug, page_path, payload, _make_config("drug"), signals))
 
     # ── indication ─────────────────────────────────────────────────────────────
     # "Recent events" is the unbounded section here (one row per signal across
@@ -1813,9 +1857,11 @@ Rules:
     FLUSH_MAX_WORKERS = 8
     MAX_429_RETRIES = 4
 
-    def _call_llm(task: tuple) -> tuple | None:
-        page_type, entity, page_path, prompt, config, signals = task
-        start = time.time()
+    def _generate_once(prompt: str, config, label: str) -> tuple[str | None, object | None]:
+        """One LLM call with 429 retry/backoff and finish_reason validation.
+        Returns (text, usage) on success, (None, usage_or_None) on failure —
+        caller decides what to do next (single-call tasks give up; chunked
+        tasks abort the whole entity, same conservative policy as trial chunks)."""
         attempt = 0
         while True:
             try:
@@ -1826,26 +1872,58 @@ Rules:
                 # partial/incomplete document — never write it.
                 if finish_reason is not None and not str(finish_reason).endswith("STOP"):
                     logger.error(
-                        f"FLUSH | INCOMPLETE | {page_type} {entity} — finish_reason={finish_reason}, "
+                        f"FLUSH | INCOMPLETE | {label} — finish_reason={finish_reason}, "
                         f"discarding partial content rather than writing a broken page."
                     )
-                    return None
-                return page_type, entity, page_path, resp.text, resp.usage_metadata, time.time() - start, signals
+                    return None, resp.usage_metadata
+                return resp.text, resp.usage_metadata
             except genai_errors.ClientError as exc:
                 if exc.code == 429 and attempt < MAX_429_RETRIES:
                     attempt += 1
                     delay = min(2 ** attempt, 30) + random.uniform(0, 1)
-                    logger.warning(
-                        f"FLUSH | 429 RATE LIMITED | {page_type} {entity} — "
-                        f"retry {attempt}/{MAX_429_RETRIES} in {delay:.1f}s"
-                    )
+                    logger.warning(f"FLUSH | 429 RATE LIMITED | {label} — retry {attempt}/{MAX_429_RETRIES} in {delay:.1f}s")
                     time.sleep(delay)
                     continue
-                logger.error(f"FLUSH | ERROR | {page_type} {entity}: {exc}")
-                return None
+                logger.error(f"FLUSH | ERROR | {label}: {exc}")
+                return None, None
             except Exception as exc:
-                logger.error(f"FLUSH | ERROR | {page_type} {entity}: {exc}")
+                logger.error(f"FLUSH | ERROR | {label}: {exc}")
+                return None, None
+
+    def _call_llm_chunked(base_type: str, entity: str, page_path: str, payload: dict, config, signals) -> tuple | None:
+        """Sequentially integrate each signal chunk into the page, each call
+        building on the previous call's output — unlike trial chunks (which
+        are independent units merged afterward), company/drug body sections
+        are one shared narrative that every chunk must build on consistently."""
+        current = payload["current"]
+        chunks  = payload["chunks"]
+        builder = payload["builder"]
+        start = time.time()
+        for i, chunk_signals in enumerate(chunks):
+            prompt = builder(page_path, entity, current, chunk_signals, i, len(chunks))
+            text, usage = _generate_once(prompt, config, f"{base_type} {entity} (part {i + 1}/{len(chunks)})")
+            if usage:
+                ledger.record(usage)
+            if text is None:
                 return None
+            current = _strip_fenced_code_block(text)
+            strip_headings = (
+                ("### Recent events", "### Earnings intelligence") if base_type == "company"
+                else ("### Timeline", "### Management sentiment", "### Clinical evidence")
+            )
+            for heading in strip_headings:
+                current = _strip_section_for_prompt(current, heading)
+        return base_type, entity, page_path, current, None, time.time() - start, signals
+
+    def _call_llm(task: tuple) -> tuple | None:
+        page_type, entity, page_path, prompt_or_payload, config, signals = task
+        if page_type.endswith("_chunked"):
+            return _call_llm_chunked(page_type.removesuffix("_chunked"), entity, page_path, prompt_or_payload, config, signals)
+        start = time.time()
+        text, usage = _generate_once(prompt_or_payload, config, f"{page_type} {entity}")
+        if text is None:
+            return None
+        return page_type, entity, page_path, text, usage, time.time() - start, signals
 
     logger.info(
         f"FLUSH | Firing {len(tasks)} page writes (max {FLUSH_MAX_WORKERS} concurrent) — "
