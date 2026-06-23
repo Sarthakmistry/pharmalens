@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
-from .tools import read_wiki_page, list_wiki_pages, get_stock_price, search_wiki
+from .tools import read_wiki_page, list_wiki_pages, get_stock_price, search_wiki, parse_company_trials
 
 load_dotenv()
 
@@ -39,9 +39,10 @@ Wiki layout:
 Instructions:
 1. Always look up relevant wiki pages before answering. Start with read_wiki_page for known paths.
 2. When you don't know the exact path (e.g. looking for an earnings event, NCT number, or specific drug mention), use search_wiki first — it returns matching file paths and snippets so you can then read_wiki_page the right file.
-3. Quote specific numbers, dates, and drug names from the wiki — do not hallucinate.
-4. For live stock data, call get_stock_price with the company's ticker (e.g. NVO, LLY).
-5. Be concise. One short paragraph per topic; bullet points for lists.
+3. For any question about a company's clinical trials (which trials, which indications, dates, status, results), use get_company_trials instead of read_wiki_page on trials/<company>.md — that file can hold 50+ trials and gets cut off well before recent ones, while get_company_trials returns the full structured list pre-sorted newest-first.
+4. Quote specific numbers, dates, and drug names from the wiki — do not hallucinate.
+5. For live stock data, call get_stock_price with the company's ticker (e.g. NVO, LLY).
+6. Be concise. One short paragraph per topic; bullet points for lists.
 """
 
 # ── Gemini tool declarations ──────────────────────────────────────────────────
@@ -99,6 +100,27 @@ TOOL_DECLARATIONS = types.Tool(
             ),
         ),
         types.FunctionDeclaration(
+            name="get_company_trials",
+            description=(
+                "Get the full structured list of clinical trials for a company — trial ID, "
+                "title, phase, status, completion date, indications, drugs, and results if "
+                "published. Sorted newest completion date first. Use this for any question "
+                "about which trials a company is running, in what indications, or trial dates "
+                "— it is far more reliable than reading trials/<company>.md directly, which "
+                "gets truncated before recent trials for companies with many trials."
+            ),
+            parameters=types.Schema(
+                type=types.Type.OBJECT,
+                properties={
+                    "company_slug": types.Schema(
+                        type=types.Type.STRING,
+                        description="Company slug, e.g. 'roche', 'eli-lilly', 'novo-nordisk'",
+                    )
+                },
+                required=["company_slug"],
+            ),
+        ),
+        types.FunctionDeclaration(
             name="search_wiki",
             description=(
                 "Full-text search across all wiki pages. Returns up to 20 matches "
@@ -139,6 +161,14 @@ def _dispatch(name: str, args: dict) -> str:
     if name == "search_wiki":
         result = search_wiki(args.get("query", ""), args.get("prefix", ""))
         return json.dumps(result)
+    if name == "get_company_trials":
+        trials = parse_company_trials(args.get("company_slug", ""))
+        # Drop internal-only fields the LLM doesn't need; keep the rest compact.
+        trimmed = [
+            {k: v for k, v in t.items() if k not in ("phase_display", "is_active")}
+            for t in trials
+        ]
+        return json.dumps(trimmed)
     return f"Unknown tool: {name}"
 
 
@@ -214,8 +244,13 @@ async def run_agent(
                 except Exception as exc:
                     raw = f"Error: {exc}"
 
-                if len(raw) > 8000:
-                    raw = raw[:8000] + "\n...[truncated]"
+                # 8000 chars was silently dropping recent trials from large company
+                # trial rosters (e.g. roche.md at 46K chars, 34 trials — only the
+                # first 3, oldest, survived). Gemini 2.5 Flash has a 1M token context,
+                # so this can afford to be generous; get_company_trials sidesteps the
+                # problem structurally for trial data specifically.
+                if len(raw) > 30000:
+                    raw = raw[:30000] + "\n...[truncated]"
 
                 yield {"type": "tool_result", "name": fn_name, "content": raw[:300]}
 

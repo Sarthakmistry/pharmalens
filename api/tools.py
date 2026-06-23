@@ -4,20 +4,77 @@ Wiki read/list helpers and yfinance stock price lookup.
 These are called both by FastAPI route handlers and by the Q&A agent tool loop.
 """
 
-from pathlib import Path
+import re
 import yfinance as yf
+import yaml
+from agents.wiki_gcs import read_wiki, list_wiki, search_wiki as _search_wiki, read_company_events
 
-BASE_DIR = Path(__file__).parent.parent
-WIKI_DIR = BASE_DIR / "wiki"
+
+def normalize_status(raw: str) -> str:
+    """Canonical form: lowercase, spaces/commas/hyphens → underscore, collapsed."""
+    return re.sub(r"[\s,\-]+", "_", (raw or "").strip().lower()).strip("_")
+
+
+def parse_company_trials(slug: str) -> list[dict]:
+    """Parse wiki/trials/{slug}.md into a list of trial dicts (frontmatter only),
+    sorted newest primary_completion_date first. Shared by the FastAPI route and
+    the Q&A agent's get_company_trials tool — both need the same structured data,
+    not the raw markdown (which is too large for the agent's tool-result budget)."""
+    content = read_wiki(f"trials/{slug}.md")
+    if not content:
+        return []
+    blocks = re.split(r"^---$", content, flags=re.MULTILINE)
+    trials = []
+    for block in blocks:
+        try:
+            meta = yaml.safe_load(block.strip())
+        except yaml.YAMLError:
+            continue
+        if not isinstance(meta, dict) or "trial_id" not in meta:
+            continue
+        # YAML parses unquoted dates as datetime.date — normalize to str for
+        # consistent sorting/serialization (mixed str/date entries otherwise
+        # break both the sort comparison and json.dumps).
+        for date_field in ("primary_completion_date", "last_updated"):
+            if meta.get(date_field) is not None:
+                meta[date_field] = str(meta[date_field])
+        raw_phase = str(meta.get("phase") or "?").strip()
+        meta["phase_display"] = f"Phase {raw_phase}" if raw_phase != "?" else "Phase unspecified"
+        meta["is_active"] = normalize_status(str(meta.get("status") or "")) in {
+            "recruiting", "active", "not_yet_recruiting",
+            "enrolling_by_invitation", "approved_for_marketing",
+            "active_not_recruiting",
+        }
+        trials.append(meta)
+    trials.sort(key=lambda t: t.get("primary_completion_date") or "", reverse=True)
+    return trials
+
+
+def parse_company_events(slug: str) -> list[dict]:
+    """Read the canonical per-company event log (CSV, written deterministically
+    by the compiler — never parsed out of markdown). Returns [{date, type, event,
+    signal, source}], newest first. Empty rows from a missing/blank CSV become []."""
+    rows = read_company_events(slug)
+    events = [
+        {
+            "date":   r.get("date", ""),
+            "type":   r.get("type", ""),
+            "event":  r.get("event", ""),
+            "signal": r.get("signal", ""),
+            "source": r.get("source", ""),
+        }
+        for r in rows
+        if r.get("event")
+    ]
+    events.sort(key=lambda e: e["date"], reverse=True)
+    return events
 
 
 def read_wiki_page(page_path: str) -> str:
     """Read a wiki page. Returns an error string if the path doesn't exist."""
-    full_path = WIKI_DIR / page_path
-    if not full_path.exists():
+    content = read_wiki(page_path)
+    if not content:
         return f"Page not found: {page_path}"
-    content = full_path.read_text()
-    # Strip markdown code-fence wrapper that the compiler sometimes emits
     stripped = content.strip()
     if stripped.startswith("```markdown"):
         stripped = stripped[len("```markdown"):].strip()
@@ -28,48 +85,16 @@ def read_wiki_page(page_path: str) -> str:
 
 
 def list_wiki_pages(prefix: str = "") -> list[str]:
-    """List .md pages under wiki/<prefix>, excluding .gitkeep and checkpoint dirs."""
-    search_dir = WIKI_DIR / prefix if prefix else WIKI_DIR
-    if not search_dir.exists():
-        return [f"Directory not found: {prefix}"]
-    pages = []
-    for p in search_dir.rglob("*.md"):
-        if ".ipynb_checkpoints" in p.parts:
-            continue
-        pages.append(str(p.relative_to(WIKI_DIR)))
-    return sorted(pages)
+    """List .md pages under wiki/<prefix>."""
+    pages = list_wiki(prefix)
+    if not pages:
+        return [f"Directory not found: {prefix}"] if prefix else []
+    return pages
 
 
 def search_wiki(query: str, prefix: str = "") -> list[dict]:
     """Full-text search across wiki files. Returns [{path, snippet}] up to 20 matches."""
-    search_dir = WIKI_DIR / prefix if prefix else WIKI_DIR
-    if not search_dir.exists():
-        return [{"path": "", "snippet": f"Directory not found: {prefix}"}]
-    query_lower = query.lower()
-    results = []
-    for p in sorted(search_dir.rglob("*.md")):
-        if ".ipynb_checkpoints" in p.parts:
-            continue
-        try:
-            content = p.read_text()
-        except Exception:
-            continue
-        if query_lower not in content.lower():
-            continue
-        lines = content.splitlines()
-        for i, line in enumerate(lines):
-            if query_lower in line.lower():
-                start = max(0, i - 1)
-                end = min(len(lines), i + 3)
-                snippet = "\n".join(lines[start:end]).strip()
-                results.append({
-                    "path": str(p.relative_to(WIKI_DIR)),
-                    "snippet": snippet[:400],
-                })
-                break  # one snippet per file
-        if len(results) >= 20:
-            break
-    return results
+    return _search_wiki(query, prefix)
 
 
 def get_stock_price(ticker: str) -> dict:

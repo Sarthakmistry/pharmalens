@@ -22,24 +22,24 @@ last_updated: YYYY-MM-DD
 Link to each drug page and indication hub.}
 
 ### Earnings intelligence
-{Per-drug sentiment summary from most recent earnings call.
-One paragraph per drug with notable management language.}
+This section is generated programmatically from a canonical, append-only log
+after you write the rest of the page — do not write a "### Earnings
+intelligence" heading or any paragraphs here. If you see one in the "current
+page content" you were given, leave it exactly where it is; it will be
+replaced automatically. When financial-filing signals are present in this
+batch, you will be asked separately (after a delimiter) for ONLY the new
+paragraph(s) for those signals — never asked to reproduce past quarters.
 
 ### Pipeline
 - {Drugs not yet approved — phase, indication, expected milestones.}
 
 ### Recent events
-| Date | Type | Event | Signal |
-|---|---|---|---|
-| YYYY-MM-DD | sec | Description | [[event-slug]] |
-| YYYY-MM-DD | trial | Description | [[event-slug]] |
+This section is generated programmatically from canonical signal data after
+you write the rest of the page — do not write a "### Recent events" heading,
+table, or any rows. If you see one in the "current page content" you were
+given, leave it exactly where it is; it will be replaced automatically.
 
-RULE: The Type column must always be one of exactly three values — no other values allowed:
-- `sec`      — source file is an EDGAR filing (doc_type = edgar_8k or edgar_10q)
-- `trial`    — source file is a ClinicalTrials.gov record (doc_type = ctgov)
-- `research` — source file is a PubMed abstract (doc_type = pubmed)
-
-RULE: Only include events, earnings intelligence, and sources from documents filed BY this company (i.e. where the file path contains this company's slug). Do NOT add events or intelligence from another company's filings even if this company is mentioned as a collaborator, licensee, or partner in that document. Cross-company mentions belong only on that other company's page.
+RULE: Only include earnings intelligence and sources from documents filed BY this company (i.e. where the file path contains this company's slug). Do NOT add intelligence from another company's filings even if this company is mentioned as a collaborator, licensee, or partner in that document. Cross-company mentions belong only on that other company's page.
 
 ### Sources
 - `raw/edgar/{company-slug}/`

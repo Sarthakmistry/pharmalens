@@ -32,6 +32,11 @@ export async function fetchCompanyTrials(slug) {
   return r.json()
 }
 
+export async function fetchCompanyEvents(slug) {
+  const r = await fetch(`${BASE}/api/company/${slug}/events`)
+  return r.json()
+}
+
 export async function fetchStockHistory(slug, period = '1d') {
   const r = await fetch(`${BASE}/api/company/${slug}/stock-history?period=${period}`)
   return r.json()

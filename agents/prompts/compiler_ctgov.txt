@@ -19,3 +19,12 @@ Event type mapping:
 - APPROVED (inferred from results + label) → event_type: fda_approval
 
 Do not extract sentiment for CT.gov documents — sentiment is null always.
+
+pubmed_results field (when present):
+- This field contains a compacted PubMed abstract attached by the DE enrichment job
+- It is the source for clinical_findings — use it to populate study_design, sample_size,
+  comparator, primary_result, secondary_results, safety_note, conclusions_verbatim, journal,
+  publication_year, and industry_sponsored
+- primary_result_value in the trial YAML should be a short quote from the FINDINGS/RESULTS
+  section, e.g. "HR 0.72 (95% CI 0.60–0.87); p=0.0006"
+- If pubmed_results is absent, clinical_findings is null

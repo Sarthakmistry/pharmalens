@@ -71,13 +71,6 @@ export default function AIBar({ indication, company, displayName }) {
     }
   }
 
-  const suggestions = [
-    `Tariff impact on this class?`,
-    `Clinical comparison of key drugs?`,
-    `Upcoming trial readouts?`,
-    `Key pipeline risks?`,
-  ]
-
   const contextLabel = displayName
     ? `Asking about ${displayName}`
     : 'Ask about any pharma topic'
@@ -116,16 +109,7 @@ export default function AIBar({ indication, company, displayName }) {
             <div ref={bottomRef} />
           </div>
         ) : (
-          /* Empty state — suggested questions float to the bottom */
-          <div className="ai-empty">
-            <div className="ai-empty-label">Try asking</div>
-            {suggestions.map((s, i) => (
-              <div key={i} className="ai-suggestion" onClick={() => submit(s)}>
-                <span>{s}</span>
-                <span style={{ color: '#7a8099', fontSize: 14 }}>↗</span>
-              </div>
-            ))}
-          </div>
+          <div className="ai-empty" />
         )}
 
         {/* Input + chips — always pinned to bottom */}

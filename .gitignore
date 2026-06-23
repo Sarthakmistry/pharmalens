@@ -22,7 +22,21 @@ __pycache__/
 
 # raw data — large files, managed separately
 raw/
-xs
+
+# compiled wiki + logs + local CSV state caches — production data now lives on
+# GCS (gs://pharmalens-wiki), not in git. Local copies are dev-only working state.
+wiki/
+logs/
+data/
+
+# GCP service account keys
+credentials/
+
+# one-off/ad-hoc scripts — not deployed, not part of the tracked codebase.
+# build_reference.py is the exception: it's a maintained reference-data tool.
+scripts/*
+!scripts/build_reference.py
+
 # OS
 .DS_Store
 Thumbs.db

@@ -9,6 +9,8 @@ GET  /api/companies                — list all companies with tickers
 GET  /api/stocks                   — live stock prices for every company (ticker bar)
 GET  /api/indication/{slug}        — indication wiki content + structured meta
 GET  /api/company/{slug}           — company wiki content + meta + live stock
+GET  /api/company/{slug}/trials    — structured trial data (parsed, not raw markdown)
+GET  /api/company/{slug}/events    — structured "Recent events" data (canonical CSV)
 POST /api/ask                      — Q&A agent, streams SSE
 
 Start:
@@ -29,6 +31,7 @@ from pydantic import BaseModel
 
 from .agent import run_agent
 from .tools import get_stock_price, read_wiki_page
+from agents.wiki_gcs import read_wiki
 
 load_dotenv()
 
@@ -36,7 +39,6 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).parent.parent
 REFERENCE_DIR = BASE_DIR / "reference"
-WIKI_DIR = BASE_DIR / "wiki"
 
 INDICATIONS: dict = json.loads((REFERENCE_DIR / "indications.json").read_text())
 COMPANIES: dict = json.loads((REFERENCE_DIR / "companies.json").read_text())
@@ -87,10 +89,10 @@ def get_indications() -> list[dict]:
     """All indication slugs with display names and reference metadata."""
     result = []
     for slug, ref_meta in INDICATIONS.items():
-        wiki_path = WIKI_DIR / "indications" / slug / "_index.md"
         display_name = slug.replace("-", " ").title()
-        if wiki_path.exists():
-            fm, _ = _parse_frontmatter(wiki_path.read_text())
+        content = read_wiki(f"indications/{slug}/_index.md")
+        if content:
+            fm, _ = _parse_frontmatter(content)
             display_name = fm.get("display_name", display_name)
         result.append({"slug": slug, "display_name": display_name, **ref_meta})
     return result
@@ -130,9 +132,9 @@ def get_indication(slug: str) -> dict:
     if slug not in INDICATIONS:
         raise HTTPException(status_code=404, detail=f"Indication '{slug}' not found")
 
-    wiki_path = WIKI_DIR / "indications" / slug / "_index.md"
-    if wiki_path.exists():
-        fm, wiki_body = _parse_frontmatter(wiki_path.read_text())
+    content = read_wiki(f"indications/{slug}/_index.md")
+    if content:
+        fm, wiki_body = _parse_frontmatter(content)
         meta = {**INDICATIONS[slug], **fm}
     else:
         meta = INDICATIONS[slug]
@@ -151,9 +153,9 @@ def get_company(slug: str) -> dict:
         raise HTTPException(status_code=404, detail=f"Company '{slug}' not found")
 
     company_meta = COMPANIES[slug]
-    wiki_path = WIKI_DIR / "companies" / f"{slug}.md"
-    if wiki_path.exists():
-        _, wiki_body = _parse_frontmatter(wiki_path.read_text())
+    company_content = read_wiki(f"companies/{slug}.md")
+    if company_content:
+        _, wiki_body = _parse_frontmatter(company_content)
     else:
         wiki_body = ""
 
@@ -164,10 +166,10 @@ def get_company(slug: str) -> dict:
     drug_indications: dict[str, list[str]] = {}
     company_drugs = set(company_meta.get("drugs", []))
     for ind_slug in company_meta.get("indications_active", []):
-        ind_path = WIKI_DIR / "indications" / ind_slug / "_index.md"
-        if not ind_path.exists():
+        ind_content = read_wiki(f"indications/{ind_slug}/_index.md")
+        if not ind_content:
             continue
-        fm, _ = _parse_frontmatter(ind_path.read_text())
+        fm, _ = _parse_frontmatter(ind_content)
         for drug in [*fm.get("drugs_approved", []), *fm.get("drugs_pipeline", [])]:
             if drug in company_drugs:
                 drug_indications.setdefault(drug, []).append(ind_slug)
@@ -224,8 +226,8 @@ def get_stock_history(slug: str, period: str = "1d") -> dict:
 
 def _normalize_status(raw: str) -> str:
     """Canonical form: lowercase, spaces/commas/hyphens → underscore, collapsed."""
-    import re as _re
-    return _re.sub(r"[\s,\-]+", "_", (raw or "").strip().lower()).strip("_")
+    from .tools import normalize_status
+    return normalize_status(raw)
 
 
 def _count_concluded_trials(trials: list, lookback_days: int = 365) -> int:
@@ -267,36 +269,14 @@ def get_company_trials(slug: str) -> dict:
     Parse the per-company trials wiki and return structured trial data.
     Includes stats (active, concluded, with results) and phase distribution.
     """
-    import re
+    from .tools import parse_company_trials
 
     if slug not in COMPANIES:
         raise HTTPException(status_code=404, detail=f"Company '{slug}' not found")
 
-    trial_path = WIKI_DIR / "trials" / f"{slug}.md"
-    if not trial_path.exists():
+    trials = parse_company_trials(slug)
+    if not trials:
         return {"trials": [], "stats": {"active": 0, "completed_90d": 0, "with_results": 0}, "phases": []}
-
-    content = trial_path.read_text()
-    blocks = re.split(r"^---$", content, flags=re.MULTILINE)
-
-    _ACTIVE_STATUSES = {
-        "recruiting", "active", "not_yet_recruiting",
-        "enrolling_by_invitation", "approved_for_marketing",
-        "active_not_recruiting",
-    }
-
-    trials = []
-    for block in blocks:
-        try:
-            meta = yaml.safe_load(block.strip())
-        except yaml.YAMLError:
-            continue
-        if not isinstance(meta, dict) or "trial_id" not in meta:
-            continue
-        raw_phase = str(meta.get("phase") or "?").strip()
-        meta["phase_display"] = f"Phase {raw_phase}" if raw_phase != "?" else "Phase unspecified"
-        meta["is_active"] = _normalize_status(str(meta.get("status") or "")) in _ACTIVE_STATUSES
-        trials.append(meta)
 
     active_trials = [t for t in trials if t["is_active"]]
     with_results  = [t for t in trials if t.get("has_results")]
@@ -326,6 +306,21 @@ def get_company_trials(slug: str) -> dict:
         },
         "phases": phases,
     }
+
+
+@app.get("/api/company/{slug}/events")
+def get_company_events(slug: str) -> dict:
+    """
+    Structured "Recent events" data for one company, read directly from the
+    canonical CSV log (agents/wiki_gcs.py:read_company_events) rather than
+    regex-parsing the markdown table — same rationale as /trials above.
+    """
+    from .tools import parse_company_events
+
+    if slug not in COMPANIES:
+        raise HTTPException(status_code=404, detail=f"Company '{slug}' not found")
+
+    return {"events": parse_company_events(slug)}
 
 
 # ── Q&A agent (SSE) ───────────────────────────────────────────────────────────

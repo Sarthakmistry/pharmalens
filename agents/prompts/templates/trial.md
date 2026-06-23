@@ -14,9 +14,38 @@ primary_endpoint: One sentence description
 primary_completion_date: YYYY-MM-DD
 has_results: true | false
 primary_result_value: "97.6% local control at 2 years"
+result_summary: "Significantly improved progression-free survival and overall survival compared to chemotherapy alone."
+clinical_findings:
+  study_design: RCT | single-arm | observational | meta-analysis
+  sample_size: 302
+  comparator: placebo
+  primary_outcome: overall survival
+  primary_result: "HR 0.72 (95% CI 0.60–0.87); p=0.0006"
+  secondary_results: "PFS improved (HR 0.65); ORR 45% vs 22%"
+  safety_note: "Grade ≥3 AEs in 58% vs 49%"
+  conclusions_verbatim: "Verbatim conclusion sentence from abstract"
+  journal: "N Engl J Med"
+  publication_year: 2024
+  industry_sponsored: true
 last_updated: YYYY-MM-DD
 ---
 ```
+
+RULE: Each company's trials/{company-slug}.md page opens with a "# {Company} Trials" heading
+      followed by a "## Summary" table (NCT ID, Title, Phase, Status, Primary Completion, Results).
+      Do NOT write this table yourself — it is generated programmatically from the frontmatter
+      blocks below after you write them, and will overwrite anything you put there. Your job is
+      only the per-trial sections grouped under "## Active Trials" / "## Completed Trials" /
+      "## Terminated Trials" headings (frontmatter block + body per trial).
+
+RULE: Populate clinical_findings only when has_results is true AND pubmed_results data is present.
+      Set all clinical_findings fields to null when has_results is false or pubmed_results is absent.
+RULE: primary_result_value must be null (the YAML null, not the string "None") whenever no real
+      result text is available. Never write the literal word "None" or "N/A" as a quoted string.
+RULE: result_summary is one plain-English sentence describing the outcome, written like a news
+      headline — no statistics, no jargon, no abbreviations like HR/CI/p-value. Same tone as a
+      pubmed_result event headline. Populate only when has_results is true and a real result
+      exists; null otherwise (never the string "None").
 
 ## {Trial title}
 
