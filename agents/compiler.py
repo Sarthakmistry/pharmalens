@@ -1546,6 +1546,30 @@ def flush_buffered_pages(
     # entity instead of one call asked to integrate everything at once.
     ENTITY_SIGNAL_CHUNK_SIZE = 20
 
+    # Smaller chunks for very large batches — confirmed in production that a
+    # 20-signal chunk can still be too slow/large for an entity already deep
+    # into a huge batch (AstraZeneca: 558 signals, 28 chunks of 20 — chunk
+    # 8 alone hit MAX_TOKENS). Smaller, more numerous calls are individually
+    # faster and lighter, even though it doesn't change the total signal count.
+    LARGE_BATCH_THRESHOLD = 100
+    LARGE_BATCH_CHUNK_SIZE = 10
+
+    def _entity_chunk_size(signal_count: int) -> int:
+        return LARGE_BATCH_CHUNK_SIZE if signal_count > LARGE_BATCH_THRESHOLD else ENTITY_SIGNAL_CHUNK_SIZE
+
+    # Smaller chunks alone don't fix AstraZeneca-style failures, because the
+    # thing that actually grows across the sequential chain is the page body
+    # itself (current page content carried from each chunk's output into the
+    # next chunk's input + "preserve everything" instruction) — confirmed in
+    # production: chunk 8/28 (not chunk 1) is what hit MAX_TOKENS, meaning the
+    # accumulated body, not any single chunk's signal count, was the cause.
+    # ~10K tokens of body content still leaves ample room under the 65536
+    # output ceiling for that body to be reproduced plus genuinely new content
+    # — if it's already bigger than that, finishing this chunk is unlikely to
+    # succeed, so stop BEFORE attempting a call we can predict will fail
+    # rather than discovering it after burning the API call.
+    MAX_CURRENT_CHARS_FOR_CHUNKING = 40_000
+
     # Gemini 2.5 Flash's documented max — pages for companies with hundreds of
     # accumulated trials can get close to default output limits, so set this
     # explicitly rather than trusting an SDK default.
@@ -1633,6 +1657,33 @@ Rules:
 - Write ONLY the markdown content — no preamble, no explanation
 """
 
+    def _build_indication_prompt(page_path: str, ind_slug: str, current: str, chunk_signals: list[dict],
+                                  chunk_index: int, total_chunks: int) -> str:
+        return f"""Update the indication hub page for: {page_path}
+Page type: indication_hub
+Entity: {ind_slug}
+{_chunk_note(chunk_index, total_chunks)}
+{len(chunk_signals)} document(s) processed in this batch run.
+
+Current page content (empty if new page):
+---
+{current if current else '[NEW PAGE — write from scratch using the template above]'}
+---
+
+Signals to integrate (ordered as processed):
+{_signals_block(chunk_signals)}
+
+Rules:
+- Integrate ALL signals above into the indication hub page
+- Follow the indication_hub template exactly
+- Preserve all existing content — only add or update what these documents affect
+- Do NOT write a "### Recent events" section or table — it is generated
+  programmatically from canonical signal data after this call, not by you.
+  Write everything else on the page as normal.
+- End with a ## Sources section listing all raw file paths
+- Write ONLY the markdown content — no preamble, no explanation
+"""
+
     # ── company ────────────────────────────────────────────────────────────────
     for slug, signals in company_buffer.items():
         page_path = f"companies/{slug}.md"
@@ -1666,7 +1717,7 @@ Filing data:
 Output ONLY the paragraph text — no heading, no preamble, no markdown fences."""
             tasks.append(("earnings_para", slug, page_path, para_prompt, _make_config("company"), [s]))
 
-        signal_chunks = _chunk_list(signals, ENTITY_SIGNAL_CHUNK_SIZE)
+        signal_chunks = _chunk_list(signals, _entity_chunk_size(len(signals)))
         if len(signal_chunks) <= 1:
             prompt = _build_company_prompt(page_path, slug, current, signals, 0, 1)
             tasks.append(("company", slug, page_path, prompt, _make_config("company"), signals))
@@ -1802,7 +1853,7 @@ Finding data:
 Output ONLY the paragraph text — no heading, no preamble, no markdown fences."""
             tasks.append(("clinical_para", drug_slug, page_path, para_prompt, _make_config("drug"), [s]))
 
-        signal_chunks = _chunk_list(signals, ENTITY_SIGNAL_CHUNK_SIZE)
+        signal_chunks = _chunk_list(signals, _entity_chunk_size(len(signals)))
         if len(signal_chunks) <= 1:
             prompt = _build_drug_prompt(page_path, drug_slug, current, signals, 0, 1)
             tasks.append(("drug", drug_slug, page_path, prompt, _make_config("drug"), signals))
@@ -1822,31 +1873,18 @@ Output ONLY the paragraph text — no heading, no preamble, no markdown fences."
         page_path = f"indications/{ind_slug}/_index.md"
         current   = read_wiki_page(page_path)
         current = _strip_section_for_prompt(current, "### Recent events")
-        prompt = f"""Update the indication hub page for: {page_path}
-Page type: indication_hub
-Entity: {ind_slug}
 
-{len(signals)} document(s) processed in this batch run.
-
-Current page content (empty if new page):
----
-{current if current else '[NEW PAGE — write from scratch using the template above]'}
----
-
-Signals to integrate (ordered as processed):
-{_signals_block(signals)}
-
-Rules:
-- Integrate ALL signals above into the indication hub page
-- Follow the indication_hub template exactly
-- Preserve all existing content — only add or update what these documents affect
-- Do NOT write a "### Recent events" section or table — it is generated
-  programmatically from canonical signal data after this call, not by you.
-  Write everything else on the page as normal.
-- End with a ## Sources section listing all raw file paths
-- Write ONLY the markdown content — no preamble, no explanation
-"""
-        tasks.append(("indication_hub", ind_slug, page_path, prompt, _make_config("indication_hub"), signals))
+        signal_chunks = _chunk_list(signals, _entity_chunk_size(len(signals)))
+        if len(signal_chunks) <= 1:
+            prompt = _build_indication_prompt(page_path, ind_slug, current, signals, 0, 1)
+            tasks.append(("indication_hub", ind_slug, page_path, prompt, _make_config("indication_hub"), signals))
+        else:
+            # Same fix as company/drug pages — indication hubs aggregate
+            # signals across every company/drug in that indication, so they're
+            # exposed to the identical too-many-signals-in-one-call problem
+            # (confirmed in production: oncology-nsclc hit MAX_TOKENS).
+            payload = {"current": current, "chunks": signal_chunks, "builder": _build_indication_prompt}
+            tasks.append(("indication_hub_chunked", ind_slug, page_path, payload, _make_config("indication_hub"), signals))
 
     # Flush bursts every buffered page-write call at once. At 20-24 concurrent
     # calls (confirmed in testing — 3x 429 RESOURCE_EXHAUSTED on a 24-task
@@ -1900,6 +1938,14 @@ Rules:
         builder = payload["builder"]
         start = time.time()
         for i, chunk_signals in enumerate(chunks):
+            if len(current) > MAX_CURRENT_CHARS_FOR_CHUNKING:
+                logger.error(
+                    f"FLUSH | PAGE TOO LARGE TO CONTINUE CHUNKING | {base_type} {entity} — "
+                    f"current page content reached {len(current)} chars after {i}/{len(chunks)} "
+                    f"chunks, stopping before attempting a call likely to hit MAX_TOKENS. "
+                    f"Aborting this entity; all contributing files retry next run."
+                )
+                return None
             prompt = builder(page_path, entity, current, chunk_signals, i, len(chunks))
             text, usage = _generate_once(prompt, config, f"{base_type} {entity} (part {i + 1}/{len(chunks)})")
             if usage:
@@ -1907,10 +1953,12 @@ Rules:
             if text is None:
                 return None
             current = _strip_fenced_code_block(text)
-            strip_headings = (
-                ("### Recent events", "### Earnings intelligence") if base_type == "company"
-                else ("### Timeline", "### Management sentiment", "### Clinical evidence")
-            )
+            if base_type == "company":
+                strip_headings = ("### Recent events", "### Earnings intelligence")
+            elif base_type == "indication_hub":
+                strip_headings = ("### Recent events",)
+            else:
+                strip_headings = ("### Timeline", "### Management sentiment", "### Clinical evidence")
             for heading in strip_headings:
                 current = _strip_section_for_prompt(current, heading)
         return base_type, entity, page_path, current, None, time.time() - start, signals
