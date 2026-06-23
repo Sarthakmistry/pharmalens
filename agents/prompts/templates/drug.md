@@ -33,25 +33,32 @@ last_updated: YYYY-MM-DD
 - {Indication in trial} — Phase {N}, NCT{id}, {status}
 
 ### Management sentiment
-{One paragraph summary of how management has discussed this drug in recent 
-earnings calls. Include quarter, directional language, and any guidance changes.}
+This section is generated programmatically from canonical signal data after
+you write the rest of the page — do not write a "### Management sentiment"
+heading or any paragraphs here. If you see one in the "current page content"
+you were given, leave it exactly where it is; it will be replaced
+automatically. No separate ask is needed from you for this — the per-drug
+commentary you write into all_drugs_mentioned[].commentary during extraction
+is what populates this section.
 
 ### Clinical evidence
-{If this document contains PubMed results: write one paragraph summarizing 
-the key finding, effect size, and study design from this specific paper.
-If existing page already has clinical evidence: APPEND the new finding 
-as a new sentence — do not erase existing evidence.
-Never write "no evidence available" — leave the section blank if this 
-document contains no clinical data.}
+This section is generated programmatically from a canonical, append-only log
+after you write the rest of the page — do not write a "### Clinical
+evidence" heading or any paragraphs here. If you see one in the "current
+page content" you were given, leave it exactly where it is; it will be
+replaced automatically. When clinical-finding signals are present in this
+batch, you will be asked separately (after a delimiter) for ONLY the new
+paragraph(s) for those findings — never asked to reproduce past findings.
 
 ### Competitive position
 {One paragraph on how this drug sits relative to others in its indication class.
 Which drugs compete directly? What is the differentiation?}
 
 ### Timeline
-| Date | Event | Type |
-|---|---|---|
-| YYYY-MM-DD | Description | [[event-slug]] |
+This section is generated programmatically from canonical signal data after
+you write the rest of the page — do not write a "### Timeline" heading or
+table. If you see one in the "current page content" you were given, leave it
+exactly where it is; it will be replaced automatically.
 
 ### Sources
 - `raw/{path/to/source/document}`

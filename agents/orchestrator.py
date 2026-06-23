@@ -234,7 +234,7 @@ def _pick_subset(files: list[Path], limit: int) -> list[Path]:
     return result
 
 
-def run_daily_pipeline(limit: int | None = None) -> None:
+def run_daily_pipeline(limit: int | None = None, file_list: list[Path] | None = None) -> None:
     """Main daily job: build caches, find unprocessed files, compile each one.
     Guarded by a GCS-backed lock so the Cloud Scheduler trigger can never start
     a second run on top of one that's still in progress (e.g. a long backlog
@@ -244,22 +244,29 @@ def run_daily_pipeline(limit: int | None = None) -> None:
         logger.warning("ORCHESTRATOR | Another pipeline run is already in progress — skipping this run")
         return
     try:
-        _run_daily_pipeline(limit)
+        _run_daily_pipeline(limit, file_list=file_list)
     finally:
         release_lock()
 
 
-def _run_daily_pipeline(limit: int | None = None) -> None:
+def _run_daily_pipeline(limit: int | None = None, file_list: list[Path] | None = None) -> None:
     logger.info(f"{'=' * 60}")
     logger.info(f"ORCHESTRATOR | Pipeline starting")
 
-    # get new files first — needed to know which extraction caches to build
-    unprocessed = get_unprocessed_files()
-    logger.info(f"ORCHESTRATOR | Found {len(unprocessed)} new files to process")
+    if file_list is not None:
+        # Caller has already selected exactly which files to run (e.g. a
+        # doc-type-filtered sample) — skip get_unprocessed_files()/_pick_subset's
+        # round-robin entirely so the caller's exact selection is preserved.
+        unprocessed = file_list
+        logger.info(f"ORCHESTRATOR | Explicit file list mode: running {len(unprocessed)} files")
+    else:
+        # get new files first — needed to know which extraction caches to build
+        unprocessed = get_unprocessed_files()
+        logger.info(f"ORCHESTRATOR | Found {len(unprocessed)} new files to process")
 
-    if limit is not None:
-        unprocessed = _pick_subset(unprocessed, limit)
-        logger.info(f"ORCHESTRATOR | Subset mode: running {len(unprocessed)} files (--limit {limit})")
+        if limit is not None:
+            unprocessed = _pick_subset(unprocessed, limit)
+            logger.info(f"ORCHESTRATOR | Subset mode: running {len(unprocessed)} files (--limit {limit})")
 
     if unprocessed:
         # build caches once per pipeline run — shared across all compile calls

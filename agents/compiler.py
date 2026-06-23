@@ -12,6 +12,7 @@ Caches are built once per pipeline run in the orchestrator and passed through co
 
 import json
 import os
+import random
 import re
 import time
 from pathlib import Path
@@ -21,6 +22,7 @@ from dotenv import load_dotenv
 from pydantic import BaseModel, ValidationError
 from google import genai
 from google.genai import types
+from google.genai import errors as genai_errors
 
 from agents.logger import get_logger
 from agents.cost import ledger
@@ -108,6 +110,14 @@ class DrugMention(BaseModel):
 
 
 class ClinicalFindings(BaseModel):
+    # Identifies which tracked drug (INN, matching reference/drugs.json) this
+    # finding is actually about. Without this, a document mentioning multiple
+    # tracked drugs (common in multi-drug press releases) has no way to tell
+    # which drug's page a finding belongs on — every mentioned drug would get
+    # offered the same finding, risking either a dropped paragraph or, worse,
+    # misattributing one drug's trial result to another drug's page.
+    subject_drug: str | None = None
+    trial_name: str | None = None
     study_design: str | None = None
     sample_size: str | None = None
     comparator: str | None = None
@@ -534,6 +544,26 @@ def extract_ctgov_python(preprocessed: dict) -> dict:
     }
 
 
+def _clinical_finding_matches_drug(extracted: dict, drug_slug: str) -> bool:
+    """True if a signal's clinical_findings actually belongs on drug_slug's page.
+
+    Prefers the explicit subject_drug field set at extraction time. Falls back
+    to "this document only mentions one tracked drug, so it's unambiguous"
+    when subject_drug wasn't filled — but if the document mentions several
+    tracked drugs and subject_drug is empty, this returns False rather than
+    guessing, since attributing a finding to the wrong drug's page (a quiet
+    factual error) is worse than skipping it (a logged, retried gap)."""
+    cf = extracted.get("clinical_findings")
+    if not cf:
+        return False
+    subject = (cf.get("subject_drug") or "").strip().lower()
+    slug = drug_slug.strip().lower()
+    if subject:
+        return subject == slug or subject in slug or slug in subject
+    tracked = [d["name"] for d in extracted.get("all_drugs_mentioned", []) if d.get("is_tracked")]
+    return len(tracked) == 1 and tracked[0].strip().lower() == slug
+
+
 def _extract_clinical_findings(pubmed_results_text: str) -> dict | None:
     """Targeted LLM call to extract clinical_findings from a compacted PubMed abstract.
     Called only when the DE enrichment job has attached a `results` field to a ctgov file.
@@ -706,6 +736,10 @@ Extract all relevant entities and signals. Return a JSON object:
   "requires_new_event_page": true,
   "suggested_event_slug": "2026-04-02-semaglutide-ckd-fda-approval",
   "clinical_findings": {{
+    "subject_drug": "the single tracked drug INN this specific finding is about — "
+                     "null if the document mentions no clear single drug, or if you "
+                     "cannot tell which of several mentioned drugs this finding concerns",
+    "trial_name": "trial name/acronym this finding is from, e.g. DESTINY-Breast09, or null",
     "study_design": "RCT | meta-analysis | systematic review | observational | null",
     "sample_size": "3533 patients | null",
     "comparator": "placebo | standard of care | competitor drug | null",
@@ -719,6 +753,10 @@ Extract all relevant entities and signals. Return a JSON object:
     "industry_sponsored": true
   }}
 }}
+IMPORTANT: if this document mentions multiple tracked drugs, subject_drug MUST
+identify which one this specific clinical_findings entry is about — never leave
+it null just because there are several drugs in the document; only leave it
+null when the finding truly can't be attributed to one drug.
 Return ONLY valid JSON with no markdown fences.
 """
 
@@ -1098,6 +1136,18 @@ def _build_event_row(signal: dict) -> dict | None:
     }
 
 
+def _strip_section_for_prompt(content: str, heading: str) -> str:
+    """Remove a deterministic section from page content BEFORE it's shown to
+    the LLM as "current page content" — not after. Confirmed in testing
+    (semaglutide hit MAX_TOKENS repeatedly): telling the LLM "if you see this
+    section, leave it exactly where it is" while still showing it a 170KB
+    section pushes the model toward reproducing that section verbatim in its
+    output to honor "leave it where it is", defeating the entire point of
+    making the section deterministic. If the section never appears in what
+    the LLM sees, there's nothing for it to preserve or reproduce."""
+    return re.sub(rf"{re.escape(heading)}.*?(?=\n### |\n---|\Z)", "", content, flags=re.DOTALL)
+
+
 def _render_events_table(rows: list[dict]) -> str:
     header = "### Recent events\n| Date | Type | Event | Signal | Source |\n|---|---|---|---|---|"
     if not rows:
@@ -1122,26 +1172,193 @@ def _splice_events_section(content: str, table_md: str) -> str:
     return content[:sources_idx] + table_md + "\n" + content[sources_idx:]
 
 
-# ── trial registry "Summary" table — rendered deterministically, never by the LLM ─
-# Unlike the company events table, this needs no separate canonical store: every
-# field the table needs (NCT ID, title, phase, status, completion date, results)
-# already lives verbatim in each trial's own YAML frontmatter block on the same
-# page, which the LLM still writes/updates per trial. We just parse those blocks
-# back out of its response and re-render the table from them.
+# ── company "Earnings intelligence" — append-only log, never reproduced by the LLM ─
+# Same root fix as the events table above, applied to the section that actually
+# grows unboundedly on company pages: one paragraph per financial filing (8-K,
+# 10-Q), forever. Each new paragraph is its own standalone LLM call (see the
+# "earnings_para" task type in flush_buffered_pages) — never asked to
+# reproduce prior quarters, and no delimiter/count-matching needed since each
+# call returns exactly one paragraph.
 
-def _parse_trial_blocks(content: str) -> list[dict]:
-    """Split a trial page on '---' delimiters and yaml.safe_load each frontmatter
-    block. Returns only blocks that look like a trial record (have trial_id)."""
-    blocks = re.split(r"^---$", content, flags=re.MULTILINE)
-    trials = []
-    for block in blocks:
-        try:
-            meta = yaml.safe_load(block.strip())
-        except yaml.YAMLError:
-            continue
-        if isinstance(meta, dict) and meta.get("trial_id"):
-            trials.append(meta)
-    return trials
+_EARNINGS_DOC_TYPES = {"edgar_8k", "edgar_10q"}
+
+
+def _render_earnings_section(rows: list[dict]) -> str:
+    header = "### Earnings intelligence"
+    if not rows:
+        return header + "\n"
+    sorted_rows = sorted(rows, key=lambda r: r.get("date") or "", reverse=True)
+    body = "\n\n".join(r.get("text", "") for r in sorted_rows if r.get("text"))
+    return f"{header}\n{body}\n"
+
+
+def _splice_earnings_section(content: str, section_md: str) -> str:
+    """Strip any '### Earnings intelligence' block the LLM wrote anyway, then
+    insert the canonical, Python-rendered section in its place — or before
+    '### Pipeline' if the LLM omitted the heading, or at the end as a fallback."""
+    content = re.sub(r"### Earnings intelligence.*?(?=\n### |\n---|\Z)", "", content, flags=re.DOTALL)
+    pipeline_idx = content.find("### Pipeline")
+    if pipeline_idx == -1:
+        return content.rstrip() + "\n\n" + section_md + "\n"
+    return content[:pipeline_idx] + section_md + "\n" + content[pipeline_idx:]
+
+
+# ── drug "Timeline" table — rendered deterministically, never by the LLM ────
+# Same append-forever problem as the company events table: one row per trial/
+# event signal touching this drug, accumulating indefinitely. No LLM call is
+# needed at all here (same as company events) — every field the table needs
+# already lives in the extracted signal.
+
+def _build_drug_timeline_row(signal: dict) -> dict | None:
+    extracted = signal.get("extracted", {})
+    event_text = extracted.get("event_summary")
+    if not event_text:
+        return None
+    slug = extracted.get("suggested_event_slug")
+    type_label = f"[[{slug}]]" if slug else _EVENT_DOC_TYPE_LABELS.get(signal.get("doc_type", ""), "")
+    return {
+        "date":      extracted.get("event_date") or "",
+        "event":     event_text,
+        "type":      type_label,
+        "file_path": signal.get("file_path", ""),
+    }
+
+
+def _render_drug_timeline_table(rows: list[dict]) -> str:
+    header = "### Timeline\n| Date | Event | Type |\n|---|---|---|"
+    if not rows:
+        return header + "\n"
+    sorted_rows = sorted(rows, key=lambda r: r.get("date") or "", reverse=True)
+    body = "\n".join(
+        f"| {r.get('date', '')} | {r.get('event', '')} | {r.get('type', '')} |"
+        for r in sorted_rows
+    )
+    return f"{header}\n{body}\n"
+
+
+def _splice_drug_timeline_section(content: str, table_md: str) -> str:
+    content = re.sub(r"### Timeline.*?(?=\n### |\n---|\Z)", "", content, flags=re.DOTALL)
+    sources_idx = content.find("### Sources")
+    if sources_idx == -1:
+        return content.rstrip() + "\n\n" + table_md + "\n"
+    return content[:sources_idx] + table_md + "\n" + content[sources_idx:]
+
+
+# ── drug "Management sentiment" — append-only log, never reproduced by the LLM ─
+# Confirmed in testing: semaglutide's page hit 170KB / MAX_TOKENS because this
+# section accumulated one rolling paragraph stitched together from every
+# earnings filing ever processed, reproduced in full on every flush — same
+# growth pattern as company earnings intelligence. Unlike earnings/clinical-
+# evidence, this needs NO extra LLM call at all: DrugMention.commentary
+# ("one sentence from management or results") is already written during Step 1
+# extraction for exactly this purpose — Python just has to find the right
+# DrugMention and store it.
+
+def _build_drug_sentiment_row(signal: dict, drug_slug: str) -> dict | None:
+    extracted = signal.get("extracted", {})
+    if signal.get("doc_type") not in _EARNINGS_DOC_TYPES or extracted.get("event_type") != "earnings_signal":
+        return None
+    mention = next(
+        (d for d in extracted.get("all_drugs_mentioned", []) if d.get("name") == drug_slug and d.get("commentary")),
+        None,
+    )
+    if not mention:
+        return None
+    return {
+        "date":      extracted.get("event_date") or "",
+        "text":      mention["commentary"],
+        "file_path": signal.get("file_path", ""),
+    }
+
+
+def _render_drug_sentiment_section(rows: list[dict]) -> str:
+    header = "### Management sentiment"
+    if not rows:
+        return header + "\n"
+    sorted_rows = sorted(rows, key=lambda r: r.get("date") or "", reverse=True)
+    body = "\n\n".join(r.get("text", "") for r in sorted_rows if r.get("text"))
+    return f"{header}\n{body}\n"
+
+
+def _splice_drug_sentiment_section(content: str, section_md: str) -> str:
+    """Strip any '### Management sentiment' block the LLM wrote anyway, then
+    insert the canonical section before '### Clinical evidence' (falling back
+    to the same anchor chain as the clinical-evidence splice)."""
+    content = re.sub(r"### Management sentiment.*?(?=\n### |\n---|\Z)", "", content, flags=re.DOTALL)
+    for anchor in ("### Clinical evidence", "### Competitive position", "### Timeline", "### Sources"):
+        idx = content.find(anchor)
+        if idx != -1:
+            return content[:idx] + section_md + "\n" + content[idx:]
+    return content.rstrip() + "\n\n" + section_md + "\n"
+
+
+# ── drug "Clinical evidence" — append-only log, never reproduced by the LLM ──
+# Same fix as company earnings intelligence: one paragraph per pubmed/clinical
+# finding, forever. The LLM is only ever asked for the NEW paragraph(s).
+
+def _render_drug_clinical_evidence_section(rows: list[dict]) -> str:
+    header = "### Clinical evidence"
+    if not rows:
+        return header + "\n"
+    sorted_rows = sorted(rows, key=lambda r: r.get("date") or "", reverse=True)
+    body = "\n\n".join(r.get("text", "") for r in sorted_rows if r.get("text"))
+    return f"{header}\n{body}\n"
+
+
+def _splice_drug_clinical_evidence_section(content: str, section_md: str) -> str:
+    """Strip any '### Clinical evidence' block the LLM wrote anyway, then
+    insert the canonical section before '### Competitive position' (falling
+    back to '### Timeline', then '### Sources', then end of page)."""
+    content = re.sub(r"### Clinical evidence.*?(?=\n### |\n---|\Z)", "", content, flags=re.DOTALL)
+    for anchor in ("### Competitive position", "### Timeline", "### Sources"):
+        idx = content.find(anchor)
+        if idx != -1:
+            return content[:idx] + section_md + "\n" + content[idx:]
+    return content.rstrip() + "\n\n" + section_md + "\n"
+
+
+# ── indication hub "Recent events" table — rendered deterministically, never by the LLM ─
+# Same problem at the widest scope: one row per signal across EVERY company/
+# drug in the indication, accumulating indefinitely (oncology-nsclc was 1334
+# lines, the largest page in the wiki by a wide margin).
+
+def _build_indication_event_row(signal: dict) -> dict | None:
+    extracted = signal.get("extracted", {})
+    event_text = extracted.get("event_summary")
+    if not event_text:
+        return None
+    return {
+        "date":      extracted.get("event_date") or "",
+        "event":     event_text,
+        "signal":    _SIGNAL_LABELS.get(extracted.get("sentiment"), ""),
+        "file_path": signal.get("file_path", ""),
+    }
+
+
+def _render_indication_events_table(rows: list[dict]) -> str:
+    header = "### Recent events\n| Date | Event | Signal |\n|---|---|---|"
+    if not rows:
+        return header + "\n"
+    sorted_rows = sorted(rows, key=lambda r: r.get("date") or "", reverse=True)
+    body = "\n".join(
+        f"| {r.get('date', '')} | {r.get('event', '')} | {r.get('signal', '')} |"
+        for r in sorted_rows
+    )
+    return f"{header}\n{body}\n"
+
+
+def _splice_indication_events_section(content: str, table_md: str) -> str:
+    content = re.sub(r"### Recent events.*?(?=\n### |\n---|\Z)", "", content, flags=re.DOTALL)
+    anchor_idx = content.find("### Active trials")
+    if anchor_idx == -1:
+        return content.rstrip() + "\n\n" + table_md + "\n"
+    return content[:anchor_idx] + table_md + "\n" + content[anchor_idx:]
+
+
+# ── trial registry "Summary" table — rendered deterministically, never by the LLM ─
+# Every field the table needs (NCT ID, title, phase, status, completion date,
+# results) already lives verbatim in each trial's own YAML frontmatter block,
+# parsed out by _parse_trial_page() below.
 
 
 def _render_trial_summary_table(blocks: list[dict]) -> str:
@@ -1162,18 +1379,118 @@ def _render_trial_summary_table(blocks: list[dict]) -> str:
     return f"{header}\n{rows}\n"
 
 
-def _splice_trial_summary(content: str, table_md: str) -> str:
-    """Strip whatever '## Summary' block the LLM wrote (it still may, despite
-    being told not to) and replace it with the canonical, Python-rendered one —
-    same pattern as _splice_events_section for company pages."""
-    content = re.sub(r"## Summary.*?(?=\n## |\Z)", "", content, flags=re.DOTALL)
-    # insert right after the page H1 ("# {Company} Trials"), before the first
-    # remaining "## " section (Active/Completed/Terminated Trials)
-    h1_match = re.search(r"^# .+$", content, flags=re.MULTILINE)
-    if not h1_match:
-        return table_md + "\n" + content
-    insert_at = h1_match.end()
-    return content[:insert_at] + "\n\n" + table_md + content[insert_at:]
+# ── trial pages — per-trial block regeneration ───────────────────────────────
+# The page-level rewrite (send the whole page, ask for the whole page back) is
+# what blew the output-token cap for AstraZeneca (583 trials) and Sanofi (385
+# trials) — response size scaled with total trial count, not with what this
+# batch actually changed. Below: each trial's frontmatter+body is parsed out,
+# kept verbatim if untouched this batch, and only regenerated (small, bounded
+# LLM call) for trials with an actual signal this run. The page is then
+# reassembled in Python, never echoed back by the LLM as a whole.
+
+_TRIAL_BLOCK_DELIM = "===NEXT_TRIAL==="
+
+
+def _strip_trial_structural_noise(body: str) -> str:
+    """Remove stray '### NCT...' / '## Active|Completed|Terminated Trials'
+    headings that legacy pages sometimes carry inside a trial's body text —
+    grouping and trial headings are always re-derived/re-rendered fresh,
+    never trusted from page layout."""
+    body = re.sub(r"^### NCT\d+.*$", "", body, flags=re.MULTILINE)
+    body = re.sub(r"^## (Active|Completed|Terminated) Trials\s*$", "", body, flags=re.MULTILINE)
+    return body
+
+
+def _trial_group(meta: dict) -> str:
+    """Status group is derived fresh from the trial's own `status` field every
+    render — not from whatever section it happened to sit under on the page
+    before. A trial that moved from active to completed self-corrects."""
+    status = str(meta.get("status") or "").strip().lower()
+    if status in ("terminated", "withdrawn"):
+        return "Terminated Trials"
+    if status == "completed":
+        return "Completed Trials"
+    return "Active Trials"
+
+
+def _extract_sources_lines(block: str) -> list[str]:
+    """Pull the '- `path`' bullet lines out of a trial block's '### Sources'
+    section, so they can be carried forward when a trial is regenerated."""
+    match = re.search(r"### Sources\s*\n((?:- .+\n?)*)", block)
+    if not match:
+        return []
+    return [line.strip() for line in match.group(1).splitlines() if line.strip()]
+
+
+def _parse_trial_page(content: str) -> dict[str, dict]:
+    """Parse an existing trials/{company}.md page into nct_id -> {meta, block}.
+    `block` is the trial's frontmatter + body, kept byte-for-byte except for
+    stray structural headings — untouched trials are carried forward exactly
+    as they were, never round-tripped through the LLM."""
+    chunks = re.split(r"^---$", content, flags=re.MULTILINE)
+    blocks: dict[str, dict] = {}
+    i = 1
+    while i + 1 < len(chunks):
+        yaml_text, body_text = chunks[i], chunks[i + 1]
+        i += 2
+        try:
+            meta = yaml.safe_load(yaml_text.strip())
+        except yaml.YAMLError:
+            continue
+        if not isinstance(meta, dict) or not meta.get("trial_id"):
+            continue
+        body_text = _strip_trial_structural_noise(body_text).strip()
+        block = f"---\n{yaml_text.strip()}\n---\n\n{body_text}\n"
+        blocks[str(meta["trial_id"])] = {"meta": meta, "block": block}
+
+    # Legacy pages have mixed conventions (some trial blocks fenced with
+    # ```yaml instead of bare --- delimiters) that this parser can't recover —
+    # those blocks are silently dropped from `blocks` rather than raising, so
+    # surface the gap loudly instead of letting content vanish unnoticed.
+    raw_trial_id_count = len(re.findall(r"^\s*trial_id:\s*\S", content, flags=re.MULTILINE))
+    if raw_trial_id_count > len(blocks):
+        logger.warning(
+            f"_parse_trial_page | found {raw_trial_id_count} 'trial_id:' occurrences "
+            f"but only parsed {len(blocks)} valid blocks — {raw_trial_id_count - len(blocks)} "
+            f"trial(s) are in an unrecognized format and will be dropped if this page is "
+            f"rewritten without every affected NCT ID being regenerated this batch."
+        )
+    return blocks
+
+
+def _count_distinct_ncts(text: str) -> int:
+    """Count distinct NCT IDs anywhere in raw page text, independent of
+    formatting convention. Used as a format-agnostic backstop: _parse_trial_page()
+    only recovers trials written in the current `---`-delimited convention, but
+    real pages exist in several legacy formats (yaml-fenced blocks, a flat
+    markdown table with no per-trial detail at all — found in production
+    AstraZeneca/Sanofi pages during testing). If a legacy-format page isn't
+    fully recoverable by the parser, this catches it before a rewrite would
+    silently drop the unparsed trials."""
+    return len(set(re.findall(r"NCT\d{8}", text)))
+
+
+def _render_trial_page(company_slug: str, blocks: dict[str, dict]) -> str:
+    """Reassemble the full trials/{company}.md page from per-trial blocks —
+    H1, the (already-deterministic) Summary table, then each block grouped by
+    status. Output size here is purely a function of total trial count, with
+    zero LLM involvement — the LLM never sees or produces the whole page."""
+    aliases = COMPANIES.get(company_slug, {}).get("aliases", [])
+    company_label = aliases[0] if aliases else company_slug
+    metas = [b["meta"] for b in blocks.values()]
+    summary = _render_trial_summary_table(metas)
+
+    groups: dict[str, list[str]] = {"Active Trials": [], "Completed Trials": [], "Terminated Trials": []}
+    for nct_id in sorted(blocks):
+        b = blocks[nct_id]
+        groups[_trial_group(b["meta"])].append(b["block"])
+
+    sections = [f"# {company_label} Clinical Trials", summary]
+    for group_name in ("Active Trials", "Completed Trials", "Terminated Trials"):
+        if not groups[group_name]:
+            continue
+        sections.append(f"## {group_name}\n\n" + "\n".join(groups[group_name]))
+    return "\n\n".join(sections) + "\n"
 
 
 def flush_buffered_pages(
@@ -1198,6 +1515,17 @@ def flush_buffered_pages(
 
     system_prompt = build_system_prompt()
     tasks: list[tuple] = []
+
+    # trial-only bookkeeping for the per-block (not per-page) regeneration —
+    # keyed by page_path, consumed in the result loop below.
+    trial_existing_blocks: dict[str, dict[str, dict]] = {}
+    # ordered_ncts is now a FIFO queue of chunks, one entry per LLM call for
+    # that page — chunking (see below) means several "trial" tasks/results can
+    # share one page_path, processed/consumed in the same order they were created.
+    trial_ordered_ncts:    dict[str, list[list[str]]] = {}
+    trial_file_paths:      dict[str, dict[str, list[str]]] = {}
+    trial_raw_current:     dict[str, str] = {}
+    trial_chunks_remaining: dict[str, int] = {}
 
     def _signals_block(signals: list[dict]) -> str:
         return "\n\n".join(
@@ -1227,6 +1555,35 @@ def flush_buffered_pages(
     for slug, signals in company_buffer.items():
         page_path = f"companies/{slug}.md"
         current   = read_wiki_page(page_path)
+        # Strip deterministic sections from what the LLM SEES, not just from
+        # what it's told to avoid writing — see _strip_section_for_prompt.
+        for heading in ("### Recent events", "### Earnings intelligence"):
+            current = _strip_section_for_prompt(current, heading)
+
+        # doc_type alone over-matches — most 8-K/6-K filings are FDA approvals,
+        # share-sale notices, shareholder-threshold crossings, etc., not earnings
+        # reports (confirmed in testing: AstraZeneca had 51 edgar_8k signals in
+        # one batch, only 2 were actual earnings calls). event_type narrows to
+        # what the extraction step itself already classified as guidance/mgmt
+        # commentary, so the ask isn't sent for filings with nothing to summarize.
+        earnings_signals = [
+            s for s in signals
+            if s.get("doc_type") in _EARNINGS_DOC_TYPES and s["extracted"].get("event_type") == "earnings_signal"
+        ]
+        # One standalone, narrow call per finding instead of "give me exactly N
+        # delimited paragraphs in this one call" — confirmed in testing that the
+        # multi-paragraph ask doesn't reliably return the right count. A 1:1
+        # call has nothing to miscount: the whole response IS the paragraph.
+        for s in earnings_signals:
+            para_prompt = f"""Write ONE 1-3 sentence paragraph summarizing this financial filing's
+key guidance/financial commentary, in the style of company earnings intelligence.
+
+Filing data:
+{json.dumps(s["extracted"], indent=2)}
+
+Output ONLY the paragraph text — no heading, no preamble, no markdown fences."""
+            tasks.append(("earnings_para", slug, page_path, para_prompt, _make_config("company"), [s]))
+
         prompt = f"""Update the company wiki page for: {page_path}
 Page type: company
 Entity: {slug}
@@ -1247,6 +1604,8 @@ Rules:
 - Preserve all existing content — only add or update what these documents affect
 - Do NOT write a "### Recent events" section or table — it is generated
   programmatically from canonical signal data after this call, not by you.
+- Do NOT write a "### Earnings intelligence" section — it is generated
+  programmatically from an append-only log after this call, not by you.
   Write everything else on the page as normal.
 - For all_drugs_mentioned: drugs with is_tracked=true get [[drug_name]] links; is_tracked=false as plain text
 - last_updated: use the most recent event_date from the signals above
@@ -1255,52 +1614,130 @@ Rules:
         tasks.append(("company", slug, page_path, prompt, _make_config("company"), signals))
 
     # ── trial ──────────────────────────────────────────────────────────────────
+    # Only the trials touched THIS batch are sent to/from the LLM — the rest of
+    # the page (potentially hundreds of trials) is carried forward verbatim in
+    # Python via _render_trial_page(). This is what actually fixes the
+    # AstraZeneca/Sanofi output-token failures: response size now scales with
+    # batch size, never with total trial-page history.
+    # A company with a deep backlog can have 100+ trials touched in a single
+    # batch (confirmed in testing: AstraZeneca hit MAX_TOKENS at 106 trials in
+    # one call). Capping each LLM call to a small chunk keeps every individual
+    # response well under the output ceiling regardless of how large the batch
+    # or backlog is — chunks fire as separate parallel tasks, merged into the
+    # same page before a single write at the end.
+    TRIAL_CHUNK_SIZE = 15
+
     for sponsor, entries in trial_buffer.items():
         page_path = f"trials/{sponsor}.md"
         current   = read_wiki_page(page_path)
-        trials_block = "\n\n".join(
-            f"Trial {i + 1}: {e['nct_id']} — action: {e['action']}\n"
-            f"Source: {e['file_path']}\n"
-            f"{json.dumps(e['extracted'], indent=2)}"
-            for i, e in enumerate(entries)
-        )
-        new_ncts    = [e["nct_id"] for e in entries if e["action"] == "new"]
-        update_ncts = [e["nct_id"] for e in entries if e["action"] == "update"]
-        prompt = f"""Update the trial registry page for: {page_path}
-Page type: trial
-Entity: {sponsor}
+        existing_blocks = _parse_trial_page(current)
+        trial_existing_blocks[page_path] = existing_blocks
+        trial_raw_current[page_path] = current
 
-{len(entries)} trial(s) to process from this batch run.
-- NCT IDs to ADD as new entries: {new_ncts if new_ncts else 'none'}
-- NCT IDs to UPDATE existing entries: {update_ncts if update_ncts else 'none'}
+        # group entries by nct_id — a trial can appear more than once in a
+        # batch (e.g. multiple files referencing it); later entries win for
+        # action/extracted, all of their file paths are kept for Sources.
+        nct_groups: dict[str, dict] = {}
+        ordered_ncts: list[str] = []
+        for e in entries:
+            nct_id = e["nct_id"]
+            if nct_id not in nct_groups:
+                ordered_ncts.append(nct_id)
+                nct_groups[nct_id] = {"action": e["action"], "file_paths": [], "extracted": []}
+            nct_groups[nct_id]["action"] = e["action"]
+            nct_groups[nct_id]["file_paths"].append(e["file_path"])
+            nct_groups[nct_id]["extracted"].append(e["extracted"])
 
-Current page content (empty if new page):
+        trial_file_paths[page_path] = {n: g["file_paths"] for n, g in nct_groups.items()}
+
+        nct_chunks = [
+            ordered_ncts[i:i + TRIAL_CHUNK_SIZE]
+            for i in range(0, len(ordered_ncts), TRIAL_CHUNK_SIZE)
+        ]
+        trial_ordered_ncts[page_path] = list(nct_chunks)  # FIFO queue, consumed in post-processing
+        trial_chunks_remaining[page_path] = len(nct_chunks)
+
+        for chunk_ncts in nct_chunks:
+            trial_prompts = []
+            for i, nct_id in enumerate(chunk_ncts):
+                group = nct_groups[nct_id]
+                old_block = existing_blocks.get(nct_id, {}).get("block", "")
+                context_block = (
+                    f"Existing block for this trial (update it, don't just copy it verbatim):\n{old_block}"
+                    if group["action"] == "update" and old_block
+                    else "This is a new trial — write its block from scratch using the template."
+                )
+                signals_text = "\n\n".join(
+                    f"Signal: {json.dumps(ext, indent=2)}" for ext in group["extracted"]
+                )
+                trial_prompts.append(
+                    f"Trial {i + 1}: {nct_id} — action: {group['action']}\n"
+                    f"{context_block}\n\n{signals_text}"
+                )
+
+            prompt = f"""Generate ONLY the per-trial frontmatter+body blocks for the {len(chunk_ncts)}
+trial(s) below — nothing else on the page. Do NOT write the page title, the
+Summary table, "## Active/Completed/Terminated Trials" group headings, or any
+other trial. Do NOT write a "### Sources" section — it is generated
+programmatically from the source file path(s) after this call, not by you.
+
+For each trial, output exactly one block in this format:
 ---
-{current if current else '[NEW PAGE — write from scratch using the template above]'}
+{{yaml frontmatter per the trial template}}
 ---
 
-Trials (ordered as processed):
-{trials_block}
+## {{Trial title}}
 
-Rules:
-- action=new: create section under correct status group (Active/Completed/Terminated) with its YAML
-  frontmatter block + body
-- action=update: find existing section by NCT ID, update status/result/completion date — no duplicates
-- Never remove existing trial entries
-- Do NOT write a "## Summary" table — it is generated programmatically from each
-  trial's own frontmatter block after this call, not by you. If you see one in
-  the "current page content" you were given, leave it exactly where it is; it
-  will be replaced automatically.
-- Follow the trial template exactly
-- End with a ## Sources section listing all NCT file paths
-- Write ONLY the markdown content — no preamble, no explanation
+**Phase:** {{N}} | **Status:** {{status}} | **Sponsor:** [[{sponsor}]]
+
+### Design
+{{...}}
+
+### Primary endpoint
+{{...}}
+
+### Results summary
+{{...}}
+
+Separate consecutive trial blocks with a line containing exactly:
+{_TRIAL_BLOCK_DELIM}
+
+Output the {len(chunk_ncts)} blocks in this exact order: {chunk_ncts}
+
+{chr(10).join(trial_prompts)}
+
+Follow the trial template exactly for frontmatter fields.
+Write ONLY the blocks and the delimiter — no preamble, no explanation.
 """
-        tasks.append(("trial", sponsor, page_path, prompt, _make_config("trial"), entries))
+            tasks.append(("trial", sponsor, page_path, prompt, _make_config("trial"), entries))
 
     # ── drug ───────────────────────────────────────────────────────────────────
     for drug_slug, signals in drug_buffer.items():
         page_path = f"drugs/{drug_slug}.md"
         current   = read_wiki_page(page_path)
+        # Strip deterministic sections from what the LLM SEES — confirmed in
+        # testing this is what actually caused semaglutide's repeated
+        # MAX_TOKENS (its 170KB Clinical evidence section was still being
+        # shown as "current page content" even though the LLM was told not
+        # to write it; "leave it exactly where it is" pushed it to reproduce
+        # the whole thing in the response instead). See _strip_section_for_prompt.
+        for heading in ("### Timeline", "### Management sentiment", "### Clinical evidence"):
+            current = _strip_section_for_prompt(current, heading)
+
+        clinical_signals = [s for s in signals if _clinical_finding_matches_drug(s["extracted"], drug_slug)]
+        # Same fix as earnings: one standalone call per finding instead of one
+        # call asked for N delimited paragraphs at once — eliminates the count
+        # mismatch by construction (response IS the paragraph, nothing to count).
+        for s in clinical_signals:
+            para_prompt = f"""Write ONE paragraph summarizing this study's key finding, effect
+size, and design, for the Clinical evidence section of a drug wiki page.
+
+Finding data:
+{json.dumps(s["extracted"]["clinical_findings"], indent=2)}
+
+Output ONLY the paragraph text — no heading, no preamble, no markdown fences."""
+            tasks.append(("clinical_para", drug_slug, page_path, para_prompt, _make_config("drug"), [s]))
+
         prompt = f"""Update the drug wiki page for: {page_path}
 Page type: drug
 Entity: {drug_slug}
@@ -1319,17 +1756,28 @@ Rules:
 - Integrate ALL signals above into the drug page
 - Follow the drug template exactly
 - Preserve all existing content — only add or update what these documents affect
-- Timeline section is append-only — add new rows at the top, never delete existing rows
-- Clinical evidence section: accumulate all study findings, newest first
+- Do NOT write a "### Timeline" section or table — it is generated
+  programmatically from canonical signal data after this call, not by you.
+- Do NOT write a "### Management sentiment" section — it is generated
+  programmatically from canonical signal data after this call, not by you.
+- Do NOT write a "### Clinical evidence" section — it is generated
+  programmatically from an append-only log after this call, not by you.
+  Write everything else on the page as normal.
 - End with a ## Sources section listing all raw file paths
 - Write ONLY the markdown content — no preamble, no explanation
 """
         tasks.append(("drug", drug_slug, page_path, prompt, _make_config("drug"), signals))
 
     # ── indication ─────────────────────────────────────────────────────────────
+    # "Recent events" is the unbounded section here (one row per signal across
+    # every company/drug in the indication) — rendered deterministically from
+    # canonical signal data, same as company/drug events. No LLM call needed
+    # for it at all; the rest of the page (small, fixed-size tables) is still
+    # LLM-maintained since it isn't what grows unboundedly.
     for ind_slug, signals in indication_buffer.items():
         page_path = f"indications/{ind_slug}/_index.md"
         current   = read_wiki_page(page_path)
+        current = _strip_section_for_prompt(current, "### Recent events")
         prompt = f"""Update the indication hub page for: {page_path}
 Page type: indication_hub
 Entity: {ind_slug}
@@ -1348,63 +1796,220 @@ Rules:
 - Integrate ALL signals above into the indication hub page
 - Follow the indication_hub template exactly
 - Preserve all existing content — only add or update what these documents affect
-- Timeline section is append-only — add new rows at the top, never delete existing rows
+- Do NOT write a "### Recent events" section or table — it is generated
+  programmatically from canonical signal data after this call, not by you.
+  Write everything else on the page as normal.
 - End with a ## Sources section listing all raw file paths
 - Write ONLY the markdown content — no preamble, no explanation
 """
         tasks.append(("indication_hub", ind_slug, page_path, prompt, _make_config("indication_hub"), signals))
 
+    # Flush bursts every buffered page-write call at once. At 20-24 concurrent
+    # calls (confirmed in testing — 3x 429 RESOURCE_EXHAUSTED on a 24-task
+    # flush), bursts can exceed Vertex AI's per-minute request/token quota.
+    # Lower concurrency reduces how often that ceiling gets hit; retry-with-
+    # backoff recovers the rest within the same run instead of deferring
+    # every quota hit to the next pipeline run.
+    FLUSH_MAX_WORKERS = 8
+    MAX_429_RETRIES = 4
+
     def _call_llm(task: tuple) -> tuple | None:
         page_type, entity, page_path, prompt, config, signals = task
         start = time.time()
-        try:
-            resp = client.models.generate_content(model=FLASH_MODEL, contents=prompt, config=config)
-            finish_reason = resp.candidates[0].finish_reason if resp.candidates else None
-            # STOP is the only "completed normally" reason. Anything else
-            # (MAX_TOKENS, SAFETY, RECITATION, OTHER...) means resp.text is a
-            # partial/incomplete document — never write it.
-            if finish_reason is not None and not str(finish_reason).endswith("STOP"):
-                logger.error(
-                    f"FLUSH | INCOMPLETE | {page_type} {entity} — finish_reason={finish_reason}, "
-                    f"discarding partial content rather than writing a broken page."
-                )
+        attempt = 0
+        while True:
+            try:
+                resp = client.models.generate_content(model=FLASH_MODEL, contents=prompt, config=config)
+                finish_reason = resp.candidates[0].finish_reason if resp.candidates else None
+                # STOP is the only "completed normally" reason. Anything else
+                # (MAX_TOKENS, SAFETY, RECITATION, OTHER...) means resp.text is a
+                # partial/incomplete document — never write it.
+                if finish_reason is not None and not str(finish_reason).endswith("STOP"):
+                    logger.error(
+                        f"FLUSH | INCOMPLETE | {page_type} {entity} — finish_reason={finish_reason}, "
+                        f"discarding partial content rather than writing a broken page."
+                    )
+                    return None
+                return page_type, entity, page_path, resp.text, resp.usage_metadata, time.time() - start, signals
+            except genai_errors.ClientError as exc:
+                if exc.code == 429 and attempt < MAX_429_RETRIES:
+                    attempt += 1
+                    delay = min(2 ** attempt, 30) + random.uniform(0, 1)
+                    logger.warning(
+                        f"FLUSH | 429 RATE LIMITED | {page_type} {entity} — "
+                        f"retry {attempt}/{MAX_429_RETRIES} in {delay:.1f}s"
+                    )
+                    time.sleep(delay)
+                    continue
+                logger.error(f"FLUSH | ERROR | {page_type} {entity}: {exc}")
                 return None
-            return page_type, entity, page_path, resp.text, resp.usage_metadata, time.time() - start, signals
-        except Exception as exc:
-            logger.error(f"FLUSH | ERROR | {page_type} {entity}: {exc}")
-            return None
+            except Exception as exc:
+                logger.error(f"FLUSH | ERROR | {page_type} {entity}: {exc}")
+                return None
 
     logger.info(
-        f"FLUSH | Firing {len(tasks)} page writes in parallel — "
+        f"FLUSH | Firing {len(tasks)} page writes (max {FLUSH_MAX_WORKERS} concurrent) — "
         f"company={len(company_buffer)}, trial={len(trial_buffer)}, "
         f"drug={len(drug_buffer)}, indication={len(indication_buffer)}"
     )
     # No pool.map timeout — the HTTP client already enforces 300s per call.
     # A global timeout here kills results from tasks that already finished.
-    with _cf.ThreadPoolExecutor(max_workers=min(len(tasks), 20)) as pool:
+    with _cf.ThreadPoolExecutor(max_workers=min(len(tasks), FLUSH_MAX_WORKERS)) as pool:
         results = list(pool.map(_call_llm, tasks))
 
     # pool.map preserves input order, so zipping tasks with results tells us
     # exactly which page_path failed — not just "something in this batch failed".
     failed_paths = {task[2] for task, result in zip(tasks, results) if result is None}
 
-    updated_paths   = []
-    pages_for_index = []
+    # First pass: handle the standalone per-finding paragraph tasks
+    # (earnings_para, clinical_para) — these just append one row each to the
+    # canonical CSV logs. Must run BEFORE the main pass below, since the
+    # company/drug page splice step reads those logs fresh and needs this
+    # batch's new paragraphs already persisted.
+    from agents.wiki_gcs import append_company_earnings, append_drug_clinical_evidence
     for result in results:
         if result is None:
             continue
         page_type, entity, page_path, content, usage, elapsed, signals = result
+        if page_type not in ("earnings_para", "clinical_para"):
+            continue
+        ledger.record(usage)
+        signal = signals[0]
+        para = _strip_fenced_code_block(content).strip()
+        if not para:
+            logger.warning(f"FLUSH | EMPTY {page_type.upper()} | {entity} — file {signal['file_path']}, skipping")
+            continue
+        row = {"date": signal["extracted"].get("event_date") or "", "text": para, "file_path": signal["file_path"]}
+        if page_type == "earnings_para":
+            append_company_earnings(entity, [row])
+        else:
+            append_drug_clinical_evidence(entity, [row])
+
+    updated_paths   = []
+    pages_for_index = []
+    for task, result in zip(tasks, results):
+        if result is None:
+            # A failed trial chunk must still pop the FIFO queue and decrement
+            # the remaining-chunks counter — otherwise later, successful
+            # chunks for the same page would desync and merge into the wrong
+            # chunk's NCT list. The page_path is already in failed_paths via
+            # the comprehension above, so it won't be written even if this
+            # was the last chunk to complete.
+            if task[0] == "trial":
+                page_path = task[2]
+                chunk_queue = trial_ordered_ncts.get(page_path, [])
+                if chunk_queue:
+                    chunk_queue.pop(0)
+                trial_chunks_remaining[page_path] = trial_chunks_remaining.get(page_path, 1) - 1
+            continue
+        page_type, entity, page_path, content, usage, elapsed, signals = result
+        if page_type in ("earnings_para", "clinical_para"):
+            continue  # already handled in the first pass above
         n = len(signals)
         logger.info(f"FLUSH | {page_type.upper()} | {entity} — {n} signal(s), API took {elapsed:.1f}s")
         ledger.record(usage)
         if page_type == "company":
-            from agents.wiki_gcs import append_company_events, read_company_events
+            from agents.wiki_gcs import append_company_events, read_company_events, read_company_earnings
             new_rows = [row for row in (_build_event_row(s) for s in signals) if row]
             if new_rows:
                 append_company_events(entity, new_rows)
             content = _splice_events_section(content, _render_events_table(read_company_events(entity)))
+            content = _splice_earnings_section(content, _render_earnings_section(read_company_earnings(entity)))
         elif page_type == "trial":
-            content = _splice_trial_summary(content, _render_trial_summary_table(_parse_trial_blocks(content)))
+            blocks       = trial_existing_blocks.get(page_path, {})
+            chunk_queue  = trial_ordered_ncts.get(page_path, [])
+            ordered_ncts = chunk_queue.pop(0) if chunk_queue else []
+            file_paths   = trial_file_paths.get(page_path, {})
+            new_blocks_text = content.split(_TRIAL_BLOCK_DELIM)
+            if len(new_blocks_text) != len(ordered_ncts):
+                logger.warning(
+                    f"FLUSH | TRIAL BLOCK COUNT MISMATCH | {entity} — expected "
+                    f"{len(ordered_ncts)} blocks, got {len(new_blocks_text)}. "
+                    f"Unmatched trials keep their previous content."
+                )
+            for nct_id, raw in zip(ordered_ncts, new_blocks_text):
+                raw = _strip_fenced_code_block(raw).strip()
+                sub_chunks = re.split(r"^---$", raw, flags=re.MULTILINE)
+                if len(sub_chunks) < 3:
+                    logger.warning(f"FLUSH | TRIAL BLOCK MALFORMED | {entity}/{nct_id} — skipping")
+                    continue
+                try:
+                    meta = yaml.safe_load(sub_chunks[1].strip())
+                except yaml.YAMLError:
+                    logger.warning(f"FLUSH | TRIAL BLOCK YAML INVALID | {entity}/{nct_id} — skipping")
+                    continue
+                if not isinstance(meta, dict) or not meta.get("trial_id"):
+                    logger.warning(f"FLUSH | TRIAL BLOCK NO trial_id | {entity}/{nct_id} — skipping")
+                    continue
+                body = _strip_trial_structural_noise(sub_chunks[2])
+                body = re.sub(r"### Sources.*", "", body, flags=re.DOTALL).strip()
+
+                old_block = blocks.get(nct_id, {}).get("block", "")
+                old_sources = _extract_sources_lines(old_block)
+                new_source_lines = [f"- `{p}`" for p in file_paths.get(nct_id, [])]
+                source_lines = new_source_lines + [l for l in old_sources if l not in new_source_lines]
+                sources_block = "### Sources\n" + ("\n".join(source_lines) if source_lines else "")
+
+                full_block = f"---\n{sub_chunks[1].strip()}\n---\n\n{body}\n\n{sources_block}\n"
+                blocks[nct_id] = {"meta": meta, "block": full_block}
+
+            # Several chunks can share this page_path — only render/guard/write
+            # once the LAST chunk for this page has been merged in. Earlier
+            # chunks just update the shared `blocks` dict and move on.
+            trial_chunks_remaining[page_path] = trial_chunks_remaining.get(page_path, 1) - 1
+            if trial_chunks_remaining[page_path] > 0:
+                continue
+
+            content = _render_trial_page(entity, blocks)
+
+            # Format-agnostic backstop: _parse_trial_page() only recovers the
+            # current `---`-delimited convention. A legacy-format page (found
+            # in testing: a flat markdown table with zero parseable blocks)
+            # would otherwise have every trial it couldn't parse silently
+            # dropped the moment any single trial on that page gets touched.
+            # Never write a page with fewer distinct NCT IDs than it started
+            # with — fail loud instead, same as a MAX_TOKENS/incomplete response.
+            old_nct_count = _count_distinct_ncts(trial_raw_current.get(page_path, ""))
+            new_nct_count = _count_distinct_ncts(content)
+            if new_nct_count < old_nct_count:
+                logger.error(
+                    f"FLUSH | TRIAL PAGE WOULD LOSE TRIALS | {entity} — old page had "
+                    f"{old_nct_count} distinct NCT IDs, rewrite would only have "
+                    f"{new_nct_count}. Refusing to write; likely an unrecognized legacy "
+                    f"page format. Skipping this page for this batch."
+                )
+                failed_paths.add(page_path)
+                continue
+        elif page_type == "drug":
+            from agents.wiki_gcs import (
+                append_drug_timeline, read_drug_timeline, read_drug_clinical_evidence,
+                append_drug_management_sentiment, read_drug_management_sentiment,
+            )
+            new_timeline_rows = [row for row in (_build_drug_timeline_row(s) for s in signals) if row]
+            if new_timeline_rows:
+                append_drug_timeline(entity, new_timeline_rows)
+
+            new_sentiment_rows = [
+                row for row in (_build_drug_sentiment_row(s, entity) for s in signals) if row
+            ]
+            if new_sentiment_rows:
+                append_drug_management_sentiment(entity, new_sentiment_rows)
+
+            content = _splice_drug_timeline_section(content, _render_drug_timeline_table(read_drug_timeline(entity)))
+            content = _splice_drug_sentiment_section(
+                content, _render_drug_sentiment_section(read_drug_management_sentiment(entity)),
+            )
+            content = _splice_drug_clinical_evidence_section(
+                content, _render_drug_clinical_evidence_section(read_drug_clinical_evidence(entity)),
+            )
+        elif page_type == "indication_hub":
+            from agents.wiki_gcs import append_indication_events, read_indication_events
+            new_rows = [row for row in (_build_indication_event_row(s) for s in signals) if row]
+            if new_rows:
+                append_indication_events(entity, new_rows)
+            content = _splice_indication_events_section(
+                content, _render_indication_events_table(read_indication_events(entity)),
+            )
         write_wiki_page(page_path, content)
         updated_paths.append(page_path)
         logger.info(f"FLUSH | WROTE | {page_path}")
@@ -1482,6 +2087,12 @@ def compile_document(
         if pubmed_results:
             findings = _extract_clinical_findings(pubmed_results)
             if findings:
+                # subject_drug is set here, deterministically, from the ctgov
+                # trial's own resolved drug list — not asked of the LLM, since
+                # this path already knows unambiguously which trial/drug this
+                # finding is about (unlike a multi-drug press release).
+                tracked_drugs = [d["name"] for d in extracted.get("all_drugs_mentioned", []) if d.get("is_tracked")]
+                findings["subject_drug"] = tracked_drugs[0] if tracked_drugs else None
                 extracted["clinical_findings"] = findings
                 logger.info(f"STEP1 | CLINICAL_FINDINGS | {file_name} — extracted from pubmed_results")
     else:

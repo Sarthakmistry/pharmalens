@@ -22,8 +22,13 @@ last_updated: YYYY-MM-DD
 Link to each drug page and indication hub.}
 
 ### Earnings intelligence
-{Per-drug sentiment summary from most recent earnings call.
-One paragraph per drug with notable management language.}
+This section is generated programmatically from a canonical, append-only log
+after you write the rest of the page — do not write a "### Earnings
+intelligence" heading or any paragraphs here. If you see one in the "current
+page content" you were given, leave it exactly where it is; it will be
+replaced automatically. When financial-filing signals are present in this
+batch, you will be asked separately (after a delimiter) for ONLY the new
+paragraph(s) for those signals — never asked to reproduce past quarters.
 
 ### Pipeline
 - {Drugs not yet approved — phase, indication, expected milestones.}

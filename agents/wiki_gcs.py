@@ -42,8 +42,38 @@ LOCK_GCS_KEY = "state/compiler.lock"
 # record (date, type, event, signal, source) with no nesting, and Python — not
 # the LLM — owns rendering the markdown table from this data on every flush.
 EVENTS_CSV_PREFIX = "state/company_events"
-LOCAL_EVENTS_DIR = BASE_DIR / "agents" / "company_events"
+LOCAL_EVENTS_DIR = BASE_DIR / "data" / "company_events"
 EVENT_CSV_FIELDS = ["date", "type", "event", "signal", "source", "file_path"]
+
+# Canonical per-company earnings-intelligence log — same shape of fix as the
+# events log above, for the section of the company page that grows one entry
+# per financial filing forever (one paragraph per 8-K/10-Q, every quarter,
+# indefinitely) rather than one row per discrete event.
+EARNINGS_CSV_PREFIX = "state/company_earnings"
+LOCAL_EARNINGS_DIR = BASE_DIR / "data" / "company_earnings"
+EARNINGS_CSV_FIELDS = ["date", "text", "file_path"]
+
+# Same fix, applied to the two append-forever sections on drug pages and the
+# cross-company event feed on indication hub pages.
+DRUG_TIMELINE_CSV_PREFIX = "state/drug_timeline"
+LOCAL_DRUG_TIMELINE_DIR = BASE_DIR / "data" / "drug_timeline"
+DRUG_TIMELINE_CSV_FIELDS = ["date", "event", "type", "file_path"]
+
+DRUG_EVIDENCE_CSV_PREFIX = "state/drug_clinical_evidence"
+LOCAL_DRUG_EVIDENCE_DIR = BASE_DIR / "data" / "drug_clinical_evidence"
+DRUG_EVIDENCE_CSV_FIELDS = ["date", "text", "file_path"]
+
+# Drug page "Management sentiment" — confirmed in testing to be the same
+# unbounded-growth problem (semaglutide's body hit MAX_TOKENS at 170KB): one
+# rolling paragraph that accumulated commentary from every earnings filing
+# ever processed, reproduced in full on every flush.
+DRUG_SENTIMENT_CSV_PREFIX = "state/drug_management_sentiment"
+LOCAL_DRUG_SENTIMENT_DIR = BASE_DIR / "data" / "drug_management_sentiment"
+DRUG_SENTIMENT_CSV_FIELDS = ["date", "text", "file_path"]
+
+INDICATION_EVENTS_CSV_PREFIX = "state/indication_events"
+LOCAL_INDICATION_EVENTS_DIR = BASE_DIR / "data" / "indication_events"
+INDICATION_EVENTS_CSV_FIELDS = ["date", "event", "signal", "file_path"]
 # Task timeout on the Cloud Run job is 1 day — a lock older than this can only
 # mean the process that held it died without releasing it, so treat it as stale.
 LOCK_STALE_AFTER_SECONDS = 20 * 3600
@@ -198,25 +228,29 @@ def _append_snippet(results: list[dict], rel: str, content: str, query_lower: st
             return
 
 
-# ── canonical per-company event log (CSV, GCS-backed when GCS_MODE=true) ─────
+# ── generic append-only CSV log (GCS-backed when GCS_MODE=true) ──────────────
+# Backs every canonical, never-reproduced-by-the-LLM section across page types:
+# company events/earnings, drug timeline/clinical evidence, indication events.
+# Each is a flat per-entity log, deduped by file_path so a retried/replayed
+# source document never produces a duplicate row — full-rewrite on append since
+# these logs stay small (one row per source document touching that entity).
 
-def read_company_events(slug: str) -> list[dict]:
-    """Read the canonical event log for one company. Returns [] if not found."""
+def _read_csv_log(gcs_prefix: str, local_dir: Path, slug: str) -> list[dict]:
     import csv
     import io
 
     if _gcs_enabled():
         from google.api_core.exceptions import NotFound
         try:
-            blob = _client().bucket(_bucket_name()).blob(f"{EVENTS_CSV_PREFIX}/{slug}.csv")
+            blob = _client().bucket(_bucket_name()).blob(f"{gcs_prefix}/{slug}.csv")
             content = blob.download_as_text(encoding="utf-8")
         except NotFound:
             return []
         except Exception as e:
-            logger.warning(f"EVENTS | GCS read failed for {slug}: {e}")
+            logger.warning(f"CSV_LOG | GCS read failed for {gcs_prefix}/{slug}: {e}")
             return []
     else:
-        path = LOCAL_EVENTS_DIR / f"{slug}.csv"
+        path = local_dir / f"{slug}.csv"
         if not path.exists():
             return []
         content = path.read_text()
@@ -226,36 +260,94 @@ def read_company_events(slug: str) -> list[dict]:
     return list(csv.DictReader(io.StringIO(content)))
 
 
-def append_company_events(slug: str, new_rows: list[dict]) -> None:
-    """Append rows to a company's canonical event log, deduped by file_path so
-    a retried/replayed file never produces a duplicate row. Rewrites the whole
-    CSV — these files are small (one row per source document touching this
-    company), so a full rewrite is simpler and safer than an in-place append."""
+def _append_csv_log(
+    gcs_prefix: str, local_dir: Path, slug: str, fields: list[str], new_rows: list[dict],
+) -> None:
     import csv
     import io
 
-    existing = read_company_events(slug)
+    existing = _read_csv_log(gcs_prefix, local_dir, slug)
     seen_files = {r.get("file_path") for r in existing}
     to_add = [r for r in new_rows if r.get("file_path") not in seen_files]
     if not to_add:
         return
 
     buf = io.StringIO()
-    writer = csv.DictWriter(buf, fieldnames=EVENT_CSV_FIELDS)
+    writer = csv.DictWriter(buf, fieldnames=fields)
     writer.writeheader()
     writer.writerows(existing + to_add)
     content = buf.getvalue()
 
     if _gcs_enabled():
         try:
-            blob = _client().bucket(_bucket_name()).blob(f"{EVENTS_CSV_PREFIX}/{slug}.csv")
+            blob = _client().bucket(_bucket_name()).blob(f"{gcs_prefix}/{slug}.csv")
             blob.upload_from_string(content, content_type="text/csv; charset=utf-8")
         except Exception as e:
-            logger.error(f"EVENTS | GCS write failed for {slug}: {e}")
+            logger.error(f"CSV_LOG | GCS write failed for {gcs_prefix}/{slug}: {e}")
             raise
     else:
-        LOCAL_EVENTS_DIR.mkdir(parents=True, exist_ok=True)
-        (LOCAL_EVENTS_DIR / f"{slug}.csv").write_text(content)
+        local_dir.mkdir(parents=True, exist_ok=True)
+        (local_dir / f"{slug}.csv").write_text(content)
+
+
+def read_company_events(slug: str) -> list[dict]:
+    """Read the canonical event log for one company. Returns [] if not found."""
+    return _read_csv_log(EVENTS_CSV_PREFIX, LOCAL_EVENTS_DIR, slug)
+
+
+def append_company_events(slug: str, new_rows: list[dict]) -> None:
+    """Append rows to a company's canonical event log (see _append_csv_log)."""
+    _append_csv_log(EVENTS_CSV_PREFIX, LOCAL_EVENTS_DIR, slug, EVENT_CSV_FIELDS, new_rows)
+
+
+def read_company_earnings(slug: str) -> list[dict]:
+    """Read the canonical earnings-intelligence log for one company. Returns [] if not found."""
+    return _read_csv_log(EARNINGS_CSV_PREFIX, LOCAL_EARNINGS_DIR, slug)
+
+
+def append_company_earnings(slug: str, new_rows: list[dict]) -> None:
+    """Append rows to a company's canonical earnings-intelligence log (see _append_csv_log)."""
+    _append_csv_log(EARNINGS_CSV_PREFIX, LOCAL_EARNINGS_DIR, slug, EARNINGS_CSV_FIELDS, new_rows)
+
+
+def read_drug_timeline(inn: str) -> list[dict]:
+    """Read the canonical timeline log for one drug. Returns [] if not found."""
+    return _read_csv_log(DRUG_TIMELINE_CSV_PREFIX, LOCAL_DRUG_TIMELINE_DIR, inn)
+
+
+def append_drug_timeline(inn: str, new_rows: list[dict]) -> None:
+    """Append rows to a drug's canonical timeline log (see _append_csv_log)."""
+    _append_csv_log(DRUG_TIMELINE_CSV_PREFIX, LOCAL_DRUG_TIMELINE_DIR, inn, DRUG_TIMELINE_CSV_FIELDS, new_rows)
+
+
+def read_drug_clinical_evidence(inn: str) -> list[dict]:
+    """Read the canonical clinical-evidence log for one drug. Returns [] if not found."""
+    return _read_csv_log(DRUG_EVIDENCE_CSV_PREFIX, LOCAL_DRUG_EVIDENCE_DIR, inn)
+
+
+def append_drug_clinical_evidence(inn: str, new_rows: list[dict]) -> None:
+    """Append rows to a drug's canonical clinical-evidence log (see _append_csv_log)."""
+    _append_csv_log(DRUG_EVIDENCE_CSV_PREFIX, LOCAL_DRUG_EVIDENCE_DIR, inn, DRUG_EVIDENCE_CSV_FIELDS, new_rows)
+
+
+def read_drug_management_sentiment(inn: str) -> list[dict]:
+    """Read the canonical management-sentiment log for one drug. Returns [] if not found."""
+    return _read_csv_log(DRUG_SENTIMENT_CSV_PREFIX, LOCAL_DRUG_SENTIMENT_DIR, inn)
+
+
+def append_drug_management_sentiment(inn: str, new_rows: list[dict]) -> None:
+    """Append rows to a drug's canonical management-sentiment log (see _append_csv_log)."""
+    _append_csv_log(DRUG_SENTIMENT_CSV_PREFIX, LOCAL_DRUG_SENTIMENT_DIR, inn, DRUG_SENTIMENT_CSV_FIELDS, new_rows)
+
+
+def read_indication_events(slug: str) -> list[dict]:
+    """Read the canonical event log for one indication hub. Returns [] if not found."""
+    return _read_csv_log(INDICATION_EVENTS_CSV_PREFIX, LOCAL_INDICATION_EVENTS_DIR, slug)
+
+
+def append_indication_events(slug: str, new_rows: list[dict]) -> None:
+    """Append rows to an indication hub's canonical event log (see _append_csv_log)."""
+    _append_csv_log(INDICATION_EVENTS_CSV_PREFIX, LOCAL_INDICATION_EVENTS_DIR, slug, INDICATION_EVENTS_CSV_FIELDS, new_rows)
 
 
 # ── state file (GCS-backed when GCS_MODE=true) ───────────────────────────────

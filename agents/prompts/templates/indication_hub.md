@@ -36,11 +36,10 @@ For private companies (boehringer-ingelheim, etc.) leave blank.
 | [[novo-nordisk]] | semaglutide, liraglutide | {latest event} |
 
 ### Recent events
-| Date | Event | Signal |
-|---|---|---|
-| YYYY-MM-DD | {description} | [[event-slug]] |
-
-RULE: Recent events must ALWAYS be sorted by date descending (newest row first). When adding new events, insert at the top.
+This section is generated programmatically from canonical signal data after
+you write the rest of the page — do not write a "### Recent events" heading,
+table, or any rows. If you see one in the "current page content" you were
+given, leave it exactly where it is; it will be replaced automatically.
 
 ### Active trials
 | Trial | Drug | Phase | Status |
