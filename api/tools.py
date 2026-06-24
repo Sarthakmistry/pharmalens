@@ -5,9 +5,13 @@ These are called both by FastAPI route handlers and by the Q&A agent tool loop.
 """
 
 import re
+import time
 import yfinance as yf
 import yaml
 from agents.wiki_gcs import read_wiki, list_wiki, search_wiki as _search_wiki, read_company_events
+
+_STOCK_CACHE_TTL_SECONDS = 20
+_stock_cache: dict[str, tuple[float, dict]] = {}
 
 
 def normalize_status(raw: str) -> str:
@@ -98,19 +102,28 @@ def search_wiki(query: str, prefix: str = "") -> list[dict]:
 
 
 def get_stock_price(ticker: str) -> dict:
-    """Return current price, change, and % change for a ticker via yfinance."""
+    """Return current price, change, and % change for a ticker via yfinance.
+    Cached for _STOCK_CACHE_TTL_SECONDS — the ticker bar and company page both
+    call this on every load, and yfinance is slow enough that re-fetching the
+    same ticker within a few seconds just adds latency for no fresher data."""
+    ticker = ticker.upper()
+    cached = _stock_cache.get(ticker)
+    if cached and time.time() - cached[0] < _STOCK_CACHE_TTL_SECONDS:
+        return cached[1]
     try:
-        t = yf.Ticker(ticker.upper())
+        t = yf.Ticker(ticker)
         fi = t.fast_info
         price = fi.last_price
         prev = fi.previous_close
         change = price - prev if price and prev else 0.0
         change_pct = (change / prev * 100) if prev else 0.0
-        return {
-            "ticker": ticker.upper(),
+        result = {
+            "ticker": ticker,
             "price": round(price, 2) if price else None,
             "change": round(change, 2),
             "change_pct": round(change_pct, 2),
         }
     except Exception as e:
-        return {"ticker": ticker.upper(), "price": None, "error": str(e)}
+        result = {"ticker": ticker, "price": None, "error": str(e)}
+    _stock_cache[ticker] = (time.time(), result)
+    return result

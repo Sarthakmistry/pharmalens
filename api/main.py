@@ -20,6 +20,7 @@ Start:
 from . import bootstrap  # must run before any google-genai import  # noqa: F401
 
 import json
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import yaml
@@ -106,21 +107,18 @@ def get_companies() -> list[dict]:
 
 @app.get("/api/stocks")
 def get_stocks() -> list[dict]:
-    """Live stock prices for every tracked company (for the ticker bar)."""
-    result = []
-    for slug, meta in COMPANIES.items():
-        ticker = meta.get("ticker", "")
-        if not ticker:
-            continue
-        stock = get_stock_price(ticker)
-        result.append(
-            {
-                "slug": slug,
-                "full_name": meta["full_name"],
-                **stock,
-            }
-        )
-    return result
+    """Live stock prices for every tracked company (for the ticker bar).
+    yfinance calls are network-bound, so fetch all tickers concurrently
+    instead of one-by-one — serially this took 10+ seconds for ~20 companies."""
+    tickered = [(slug, meta) for slug, meta in COMPANIES.items() if meta.get("ticker")]
+    # Cap concurrency — firing all ~20 requests at once risks Yahoo Finance
+    # throttling a burst from one IP, which would cost more than it saves.
+    with ThreadPoolExecutor(max_workers=min(8, len(tickered) or 1)) as pool:
+        stocks = pool.map(lambda sm: get_stock_price(sm[1]["ticker"]), tickered)
+    return [
+        {"slug": slug, "full_name": meta["full_name"], **stock}
+        for (slug, meta), stock in zip(tickered, stocks)
+    ]
 
 
 @app.get("/api/indication/{slug}")
@@ -206,7 +204,15 @@ def get_stock_history(slug: str, period: str = "1d") -> dict:
     try:
         t   = yf.Ticker(ticker)
         df  = t.history(period=period, interval=interval)
-        prev_close = t.fast_info.previous_close
+        # Reuse get_stock_price's cached fast_info instead of a second fast_info
+        # round-trip — the company page and this chart both load on every page
+        # open, and price - change recovers prev_close without re-fetching it.
+        stock = get_stock_price(ticker)
+        prev_close = (
+            round(stock["price"] - stock["change"], 4)
+            if stock.get("price") is not None
+            else None
+        )
 
         candles = [
             {
