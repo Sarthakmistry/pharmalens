@@ -11,7 +11,52 @@ body {
 
 .app-wrapper { display: flex; flex-direction: column; min-height: 100vh; }
 
-.app { display: grid; grid-template-columns: 280px 1fr 360px; flex: 1; overflow: hidden; }
+.app { display: grid; flex: 1; overflow: hidden; }
+
+/* ── Scrollbars: thin + themed instead of bulky native ones ───────────────────── */
+
+.sidebar, .main, .ai-history {
+  scrollbar-width: thin;
+  scrollbar-color: #252b3b transparent;
+}
+.sidebar::-webkit-scrollbar, .main::-webkit-scrollbar, .ai-history::-webkit-scrollbar {
+  width: 6px;
+}
+.sidebar::-webkit-scrollbar-track, .main::-webkit-scrollbar-track, .ai-history::-webkit-scrollbar-track {
+  background: transparent;
+}
+.sidebar::-webkit-scrollbar-thumb, .main::-webkit-scrollbar-thumb, .ai-history::-webkit-scrollbar-thumb {
+  background: #252b3b;
+  border-radius: 4px;
+}
+.sidebar::-webkit-scrollbar-thumb:hover, .main::-webkit-scrollbar-thumb:hover, .ai-history::-webkit-scrollbar-thumb:hover {
+  background: #34405c;
+}
+
+/* ── Resize handles ─────────────────────────────────────────────────────────── */
+
+.resize-handle {
+  width: 5px;
+  flex-shrink: 0;
+  cursor: col-resize;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+.resize-handle::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2px;
+  width: 1px;
+  background: #252b3b;
+  transition: background 0.15s;
+}
+.resize-handle:hover::after,
+.resize-handle.dragging::after {
+  background: #4d9ef7;
+}
 
 /* ── Ticker bar ──────────────────────────────────────────────────────────────── */
 
