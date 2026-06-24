@@ -16,10 +16,11 @@ import random
 import re
 import time
 from pathlib import Path
+from datetime import date
 from typing import Literal
 import yaml
 from dotenv import load_dotenv
-from pydantic import BaseModel, ValidationError
+from pydantic import BaseModel, ValidationError, field_validator
 from google import genai
 from google.genai import types
 from google.genai import errors as genai_errors
@@ -145,6 +146,136 @@ class ExtractionResult(BaseModel):
     requires_new_event_page: bool = False
     suggested_event_slug: str | None = None
     clinical_findings: ClinicalFindings | None = None
+
+
+# ── Step 3 written-page frontmatter schemas ─────────────────────────────────
+# These validate the LLM's *written* YAML frontmatter against the templates in
+# agents/prompts/templates/*.md, at flush time — a different artifact and
+# pipeline stage from the Step-1 extraction models above. Kept permissive
+# (str | None, not strict enums) for now: the goal is catching structural
+# breakage (missing required fields, wrong shape — what actually caused the
+# AbbVie/Amgen incidents) without rejecting legitimate value variations we
+# haven't seen yet. Tighten enums later once real drift patterns emerge.
+#
+# Date fields accept str | date: YAML parses unquoted dates as datetime.date,
+# not str (see CLAUDE.md "Schema notes" — this already burned the project
+# once in api/tools.py:parse_company_trials() and would otherwise make every
+# legitimately-unquoted date in the wiki a false-positive validation failure).
+DateOrStr = str | date | None
+
+
+class TrialClinicalFindings(BaseModel):
+    study_design: str | None = None
+    sample_size: str | int | None = None
+    comparator: str | None = None
+    primary_outcome: str | None = None
+    primary_result: str | None = None
+    secondary_results: str | list | None = None
+    safety_note: str | None = None
+    conclusions_verbatim: str | None = None
+    journal: str | None = None
+    publication_year: str | int | None = None
+    industry_sponsored: bool | None = None
+
+
+class TrialFrontmatter(BaseModel):
+    trial_id: str
+    title: str
+    phase: str | int | None = None
+    status: str | None = None
+    primary_sponsor: str
+    co_sponsors: list[str] = []
+    drugs: list[str] = []
+    indications: list[str] = []
+    enrollment: int | str | None = None
+    primary_endpoint: str | None = None
+    primary_completion_date: DateOrStr = None
+
+    @field_validator("phase", mode="before")
+    @classmethod
+    def _normalize_phase(cls, v):
+        # The LLM writes combined-phase trials with whatever separator style
+        # it feels like at flush time ("1 | 2", "1|2", "1/2" all confirmed
+        # present in production for the same Phase 1/2 concept), which
+        # fragmented the frontend's phase-distribution chart into duplicate
+        # bars. Canonicalizing here — at the write-time validation
+        # checkpoint — fixes it at the source for every future trial, not
+        # just at display time (see api/tools.py:normalize_phase(), which
+        # remains the read-side safety net for trial pages written before
+        # this validator existed).
+        if v is None or (isinstance(v, str) and v.strip().lower() in ("", "none", "n/a", "null")):
+            return None
+        if isinstance(v, str):
+            return re.sub(r"\s*\|\s*", "/", v.strip())
+        return v
+    has_results: bool
+    primary_result_value: str | None = None
+    result_summary: str | None = None
+    clinical_findings: TrialClinicalFindings | None = None
+    last_updated: DateOrStr = None
+
+    # NOTE: a cross-field "clinical_findings must be null when has_results is
+    # false" rule was tried and dropped — sweeping the existing wiki showed
+    # ~150+ pre-existing trial blocks across many companies violate this in
+    # practice (has_results: false with a populated clinical_findings), which
+    # is exactly the kind of legitimate-but-unanticipated variation this
+    # schema is meant to tolerate. Enforcing it here would freeze those
+    # trials going forward — the opposite of this validation's purpose.
+
+
+class CompanyFrontmatter(BaseModel):
+    company: str
+    full_name: str | None = None
+    ticker: str | None = None
+    exchange: str | None = None
+    indications_active: list[str] = []
+    blockbuster_drugs: list[str] = []
+    pipeline_drugs: list[str] = []
+    last_earnings_date: DateOrStr = None
+    last_updated: DateOrStr = None
+
+
+class DrugFrontmatter(BaseModel):
+    drug: str
+    brand_names: list[str] = []
+    company: str
+    indications: list[str] = []
+    drug_class: str | None = None
+    status: str | None = None
+    fda_approval_date: DateOrStr = None
+    patent_expiry: DateOrStr = None
+    black_box_warning: bool | None = None
+    blockbuster: bool | None = None
+    management_sentiment: SentimentLevel | None = None
+    sentiment_score: str | None = None
+    last_earnings_signal: str | None = None
+    reimbursement_flag: bool | None = None
+    latest_event: str | None = None
+    trials: list[str] = []
+    last_updated: DateOrStr = None
+
+
+class IndicationHubFrontmatter(BaseModel):
+    indication: str
+    display_name: str | None = None
+    icd10: list[str] = []
+    drugs_approved: list[str] = []
+    drugs_pipeline: list[str] = []
+    companies_active: list[str] = []
+    active_trials: int | str | None = None
+    last_updated: DateOrStr = None
+
+
+def _extract_frontmatter(content: str) -> dict | None:
+    """Pull and parse the leading --- YAML frontmatter block. None if missing/invalid."""
+    m = re.match(r"^\s*---\n(.*?)\n---", content, re.DOTALL)
+    if not m:
+        return None
+    try:
+        data = yaml.safe_load(m.group(1))
+    except yaml.YAMLError:
+        return None
+    return data if isinstance(data, dict) else None
 
 
 # ── wiki helpers ──────────────────────────────────────────────────────────────
@@ -2067,6 +2198,20 @@ Output ONLY the paragraph text — no heading, no preamble, no markdown fences."
                 if not isinstance(meta, dict) or not meta.get("trial_id"):
                     logger.warning(f"FLUSH | TRIAL BLOCK NO trial_id | {entity}/{nct_id} — skipping")
                     continue
+                try:
+                    validated = TrialFrontmatter.model_validate(meta)
+                except ValidationError as e:
+                    logger.warning(f"FLUSH | TRIAL BLOCK SCHEMA INVALID | {entity}/{nct_id} — {e} — skipping")
+                    continue
+                # Write the *validated* (and therefore normalized — see
+                # TrialFrontmatter._normalize_phase) model back out, not the
+                # LLM's raw YAML text verbatim — otherwise field-level fixes
+                # like phase-separator canonicalization only ever affect
+                # pass/fail of validation, never the actual bytes on disk.
+                meta = validated.model_dump(exclude_none=False)
+                yaml_text = yaml.safe_dump(
+                    meta, sort_keys=False, default_flow_style=None, allow_unicode=True, width=1000,
+                ).strip()
                 body = _strip_trial_structural_noise(sub_chunks[2])
                 body = re.sub(r"### Sources.*", "", body, flags=re.DOTALL).strip()
 
@@ -2076,7 +2221,7 @@ Output ONLY the paragraph text — no heading, no preamble, no markdown fences."
                 source_lines = new_source_lines + [l for l in old_sources if l not in new_source_lines]
                 sources_block = "### Sources\n" + ("\n".join(source_lines) if source_lines else "")
 
-                full_block = f"---\n{sub_chunks[1].strip()}\n---\n\n{body}\n\n{sources_block}\n"
+                full_block = f"---\n{yaml_text}\n---\n\n{body}\n\n{sources_block}\n"
                 blocks[nct_id] = {"meta": meta, "block": full_block}
 
             # Several chunks can share this page_path — only render/guard/write
@@ -2136,7 +2281,38 @@ Output ONLY the paragraph text — no heading, no preamble, no markdown fences."
             content = _splice_indication_events_section(
                 content, _render_indication_events_table(read_indication_events(entity)),
             )
-        write_wiki_page(page_path, content)
+
+        # Whole-page frontmatter schema validation for the three page types
+        # that have no per-block fallback (trial pages are already validated
+        # per-NCT above and post-render-guarded against losing trials). A
+        # malformed/missing frontmatter block here means the LLM produced a
+        # broken page — skip the write entirely (keep old content) rather
+        # than ship something the API can't parse, same fail-loud philosophy
+        # as the trial-page-would-lose-trials guard above.
+        _FRONTMATTER_MODELS = {
+            "company":        CompanyFrontmatter,
+            "drug":           DrugFrontmatter,
+            "indication_hub": IndicationHubFrontmatter,
+        }
+        if page_type in _FRONTMATTER_MODELS:
+            fm = _extract_frontmatter(content)
+            if fm is None:
+                logger.error(f"FLUSH | NO FRONTMATTER | {entity} ({page_type}) — refusing to write")
+                failed_paths.add(page_path)
+                continue
+            try:
+                _FRONTMATTER_MODELS[page_type].model_validate(fm)
+            except ValidationError as e:
+                logger.error(f"FLUSH | FRONTMATTER SCHEMA INVALID | {entity} ({page_type}) — {e} — refusing to write")
+                failed_paths.add(page_path)
+                continue
+
+        try:
+            write_wiki_page(page_path, content)
+        except Exception:
+            logger.error(f"FLUSH | WRITE FAILED | {page_path}", exc_info=True)
+            failed_paths.add(page_path)
+            continue
         updated_paths.append(page_path)
         logger.info(f"FLUSH | WROTE | {page_path}")
         all_drugs = (

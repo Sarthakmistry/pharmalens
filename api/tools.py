@@ -19,6 +19,21 @@ def normalize_status(raw: str) -> str:
     return re.sub(r"[\s,\-]+", "_", (raw or "").strip().lower()).strip("_")
 
 
+def normalize_phase(raw: str) -> str:
+    """Canonical form for combined-phase trials: "1 | 2", "1|2", "1 /2" all
+    collapse to "1/2". The same trial phase has been written with different
+    separator styles across companies/batches (confirmed in production:
+    "1 | 2" / "1/2" / "1|2" all present for what's the same Phase 1/2
+    bucket), which fragmented the phase-distribution chart into duplicate
+    bars for the same phase. Also treats a literal "None"/"N/A" string
+    (the same YAML-string-vs-null gotcha documented elsewhere in this repo)
+    as unspecified rather than a real phase value."""
+    raw = (raw or "").strip()
+    if not raw or raw.lower() in ("none", "n/a", "null", "?"):
+        return "?"
+    return re.sub(r"\s*\|\s*", "/", raw)
+
+
 def parse_company_trials(slug: str) -> list[dict]:
     """Parse wiki/trials/{slug}.md into a list of trial dicts (frontmatter only),
     sorted newest primary_completion_date first. Shared by the FastAPI route and
@@ -42,7 +57,8 @@ def parse_company_trials(slug: str) -> list[dict]:
         for date_field in ("primary_completion_date", "last_updated"):
             if meta.get(date_field) is not None:
                 meta[date_field] = str(meta[date_field])
-        raw_phase = str(meta.get("phase") or "?").strip()
+        raw_phase = normalize_phase(str(meta.get("phase") or ""))
+        meta["phase"] = raw_phase
         meta["phase_display"] = f"Phase {raw_phase}" if raw_phase != "?" else "Phase unspecified"
         meta["is_active"] = normalize_status(str(meta.get("status") or "")) in {
             "recruiting", "active", "not_yet_recruiting",

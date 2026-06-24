@@ -64,8 +64,90 @@ def run_lint():
     )
 
 
+def _legacy_trial_page_check(pages: dict[str, str]) -> list[dict]:
+    """Detect trial pages stuck in a pre-YAML-frontmatter legacy format (e.g.
+    AbbVie's frozen markdown-table page). These never self-heal on their own:
+    the flush-time "would lose trials" guard in compiler.py only fires when a
+    page IS touched again, and hash-based dedup means a page whose source
+    files are all marked 'success' may never get touched again. This is the
+    proactive check that catches that silently-stuck state."""
+    from agents.compiler import _parse_trial_page, _count_distinct_ncts
+    issues = []
+    for page_path, content in pages.items():
+        if not page_path.startswith("trials/") or not page_path.endswith(".md"):
+            continue
+        nct_mentions = _count_distinct_ncts(content)
+        if nct_mentions == 0:
+            continue  # empty/new page, nothing to recover
+        parsed_blocks = _parse_trial_page(content)
+        if len(parsed_blocks) == 0:
+            issues.append({
+                "type": "legacy_trial_page",
+                "page": page_path,
+                "detail": (
+                    f"{nct_mentions} distinct NCT ID(s) mentioned but zero parseable "
+                    f"trial_id blocks — page is likely stuck in a legacy format and "
+                    f"will not self-heal via normal flushes."
+                ),
+            })
+        elif len(parsed_blocks) < nct_mentions:
+            issues.append({
+                "type": "partially_legacy_trial_page",
+                "page": page_path,
+                "detail": (
+                    f"{nct_mentions} distinct NCT ID(s) mentioned but only "
+                    f"{len(parsed_blocks)} parsed as current-format blocks — "
+                    f"{nct_mentions - len(parsed_blocks)} trial(s) may be silently "
+                    f"unrecoverable on next rewrite."
+                ),
+            })
+    return issues
+
+
+def _frontmatter_schema_check(pages: dict[str, str]) -> list[dict]:
+    """Validate company/drug/indication-hub frontmatter against the Pydantic
+    schemas enforced at flush time (agents/compiler.py). Trial pages are
+    intentionally excluded — they're already covered by
+    _legacy_trial_page_check plus per-flush enforcement; re-validating here
+    would duplicate that without adding signal."""
+    from agents.compiler import (
+        _extract_frontmatter, CompanyFrontmatter, DrugFrontmatter, IndicationHubFrontmatter,
+    )
+    from pydantic import ValidationError
+    type_map = [
+        ("companies/", CompanyFrontmatter),
+        ("drugs/", DrugFrontmatter),
+        ("indications/", IndicationHubFrontmatter),
+    ]
+    issues = []
+    for page_path, content in pages.items():
+        for prefix, model in type_map:
+            if not page_path.startswith(prefix):
+                continue
+            fm = _extract_frontmatter(content)
+            if fm is None:
+                issues.append({
+                    "type": "missing_or_invalid_frontmatter",
+                    "page": page_path,
+                    "detail": "No parseable --- YAML frontmatter block found",
+                })
+                break
+            try:
+                model.model_validate(fm)
+            except ValidationError as e:
+                issues.append({
+                    "type": "frontmatter_schema_violation",
+                    "page": page_path,
+                    "detail": str(e),
+                })
+            break
+    return issues
+
+
 def _structural_checks(pages: dict[str, str]) -> list[dict]:
     issues = []
+    issues.extend(_legacy_trial_page_check(pages))
+    issues.extend(_frontmatter_schema_check(pages))
     all_content = "\n".join(pages.values())
 
     for page_path in pages:

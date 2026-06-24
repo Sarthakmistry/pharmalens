@@ -155,9 +155,11 @@ function TrialResultCard({ trial }) {
               {trial.result_summary}
             </div>
           )}
-          <div style={{ fontSize: 11, color: '#9aa3be', lineHeight: 1.5 }}>
-            {trial.primary_result_value}
-          </div>
+          {isRealValue(trial.primary_result_value) && (
+            <div style={{ fontSize: 11, color: '#9aa3be', lineHeight: 1.5 }}>
+              {trial.primary_result_value}
+            </div>
+          )}
         </div>
         {hasDetail && (
           <button
@@ -201,9 +203,15 @@ export default function TrialsPanel({ slug, researchEvents, recentCompletions })
   const hasTrialData   = phases.length > 0
   const hasResearch    = researchEvents.length > 0
 
-  // Trials with a published result value, sorted newest completion date first.
+  // Trials with a published result — either the short literal stat
+  // (primary_result_value) or the plain-English one-liner (result_summary).
+  // The compiler's trial template treats these as alternatives, not a pair
+  // that's always populated together (confirmed in production: Amgen trials
+  // with rich clinical_findings + result_summary but a deliberately-null
+  // primary_result_value), so a trial with only one of the two is still a
+  // real, displayable result.
   const trialResults = trials
-    .filter(t => t.has_results && isRealValue(t.primary_result_value))
+    .filter(t => t.has_results && (isRealValue(t.primary_result_value) || isRealValue(t.result_summary)))
     .sort((a, b) => (b.primary_completion_date || '').localeCompare(a.primary_completion_date || ''))
   const hasTrialResults  = trialResults.length > 0
   const visibleTrialResults = showAllTrialResults ? trialResults : trialResults.slice(0, 2)
