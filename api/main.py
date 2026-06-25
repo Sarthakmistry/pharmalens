@@ -11,6 +11,8 @@ GET  /api/indication/{slug}        — indication wiki content + structured meta
 GET  /api/company/{slug}           — company wiki content + meta + live stock
 GET  /api/company/{slug}/trials    — structured trial data (parsed, not raw markdown)
 GET  /api/company/{slug}/events    — structured "Recent events" data (canonical CSV)
+GET  /api/news                     — BioSpace articles relevant to tracked companies
+GET  /api/news/article             — fetch + parse a single BioSpace article by URL
 POST /api/ask                      — Q&A agent, streams SSE
 
 Start:
@@ -30,6 +32,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
+from . import news
 from .agent import run_agent
 from .tools import get_stock_price, read_wiki_page
 from agents.wiki_gcs import read_wiki
@@ -329,6 +332,29 @@ def get_company_events(slug: str) -> dict:
     return {"events": parse_company_events(slug)}
 
 
+# ── News (BioSpace reader) ─────────────────────────────────────────────────────
+
+
+@app.get("/api/news")
+def get_news() -> dict:
+    """BioSpace articles mentioning a tracked company, newest first."""
+    try:
+        return {"articles": news.get_relevant_articles()}
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=f"Failed to fetch news: {e}")
+
+
+@app.get("/api/news/article")
+def get_news_article(url: str) -> dict:
+    """Fetch and parse a single BioSpace article by URL."""
+    try:
+        return news.get_article(url)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=f"Failed to fetch article: {e}")
+
+
 # ── Q&A agent (SSE) ───────────────────────────────────────────────────────────
 
 
@@ -336,6 +362,7 @@ class AskRequest(BaseModel):
     question: str
     indication: str | None = None
     company: str | None = None
+    article: str | None = None
 
 
 @app.post("/api/ask")
@@ -351,7 +378,7 @@ async def ask(body: AskRequest) -> StreamingResponse:
     """
 
     async def event_stream():
-        async for event in run_agent(body.question, body.indication, body.company):
+        async for event in run_agent(body.question, body.indication, body.company, body.article):
             yield f"data: {json.dumps(event)}\n\n"
 
     return StreamingResponse(event_stream(), media_type="text/event-stream")

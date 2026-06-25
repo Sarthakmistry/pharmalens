@@ -19,6 +19,7 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
+from . import news
 from .tools import read_wiki_page, list_wiki_pages, get_stock_price, search_wiki, parse_company_trials
 
 load_dotenv()
@@ -178,11 +179,23 @@ async def run_agent(
     question: str,
     indication: str | None = None,
     company: str | None = None,
+    article: str | None = None,
 ) -> AsyncGenerator[dict, None]:
     """Async generator that runs the agentic loop and yields SSE event dicts."""
 
     # Build user message with optional context hint
     context_lines = []
+    if article:
+        # Article text is static and already fetched for display by the time the
+        # user asks a question — inject it directly instead of giving the model a
+        # tool to fetch it, since there's nothing dynamic to decide here.
+        try:
+            art = news.get_article(article)
+            context_lines.append(
+                f"The user is reading this article:\nTitle: {art['title']}\n\n{art['body_text'][:6000]}"
+            )
+        except Exception:
+            pass
     if indication:
         context_lines.append(f"User is currently viewing indication: {indication}")
     if company:

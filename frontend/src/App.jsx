@@ -1,9 +1,10 @@
 import { useState, useEffect, useCallback } from 'react'
-import { fetchIndications, fetchCompanies, fetchStocks } from './api'
+import { fetchIndications, fetchCompanies, fetchStocks, fetchNews } from './api'
 import TickerBar from './components/TickerBar'
 import Sidebar from './components/Sidebar'
 import IndicationHub from './components/IndicationHub'
 import CompanyView from './components/CompanyView'
+import NewsView from './components/NewsView'
 import AIBar from './components/AIBar'
 
 const SIDEBAR_MIN = 200, SIDEBAR_MAX = 480, SIDEBAR_DEFAULT = 280
@@ -49,9 +50,11 @@ function ResizeHandle({ width, setWidth, clamp, direction }) {
 export default function App() {
   const [indications, setIndications] = useState([])
   const [companies, setCompanies] = useState([])
+  const [news, setNews] = useState([])
   const [stocks, setStocks] = useState({}) // keyed by ticker
   const [activeIndication, setActiveIndication] = useState(null)
   const [activeCompany, setActiveCompany] = useState(null)
+  const [activeArticle, setActiveArticle] = useState(null)
 
   const [sidebarWidth, setSidebarWidth, clampSidebar] =
     usePersistedWidth('pharmalens.sidebarWidth', SIDEBAR_DEFAULT, SIDEBAR_MIN, SIDEBAR_MAX)
@@ -80,6 +83,7 @@ export default function App() {
         setActiveCompany(sorted[0].slug)
       }
     })
+    fetchNews().then(data => setNews(data.articles ?? []))
     loadStocks()
 
     // Refresh stock prices every 60 s
@@ -94,10 +98,13 @@ export default function App() {
         <Sidebar
           indications={indications}
           companies={companies}
+          news={news}
           activeIndication={activeIndication}
           activeCompany={activeCompany}
-          onSelectIndication={slug => { setActiveIndication(slug); setActiveCompany(null) }}
-          onSelectCompany={slug => { setActiveCompany(slug); setActiveIndication(null) }}
+          activeArticle={activeArticle}
+          onSelectIndication={slug => { setActiveIndication(slug); setActiveCompany(null); setActiveArticle(null) }}
+          onSelectCompany={slug => { setActiveCompany(slug); setActiveIndication(null); setActiveArticle(null) }}
+          onSelectArticle={url => { setActiveArticle(url); setActiveIndication(null); setActiveCompany(null) }}
         />
         <ResizeHandle width={sidebarWidth} setWidth={setSidebarWidth} clamp={clampSidebar} direction={1} />
         <main className="main">
@@ -118,11 +125,13 @@ export default function App() {
               onSelectIndication={slug => { setActiveIndication(slug); setActiveCompany(null) }}
             />
           )}
+          {activeArticle && <NewsView key={activeArticle} url={activeArticle} />}
         </main>
         <ResizeHandle width={aiWidth} setWidth={setAiWidth} clamp={clampAi} direction={-1} />
         <AIBar
           indication={activeIndication}
           company={activeCompany}
+          article={activeArticle}
           displayName={aiDisplayName}
         />
       </div>

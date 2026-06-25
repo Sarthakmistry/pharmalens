@@ -16,7 +16,7 @@ function toolLabel(name, input) {
   return name
 }
 
-export default function AIBar({ indication, company, displayName }) {
+export default function AIBar({ indication, company, article, displayName }) {
   const [question, setQuestion] = useState('')
   // history = [{question, toolCalls: [{name, input, done}], answer, streaming}]
   const [history, setHistory] = useState([])
@@ -45,7 +45,7 @@ export default function AIBar({ indication, company, displayName }) {
     setHistory(prev => [...prev, { question: q, toolCalls: [], answer: '', streaming: true }])
 
     try {
-      for await (const event of streamAsk(q, indication ?? null, company ?? null)) {
+      for await (const event of streamAsk(q, indication ?? null, company ?? null, article ?? null)) {
         if (event.type === 'tool_call') {
           updateLast(entry => ({
             ...entry,
@@ -71,9 +71,11 @@ export default function AIBar({ indication, company, displayName }) {
     }
   }
 
-  const contextLabel = displayName
-    ? `Asking about ${displayName}`
-    : 'Ask about any pharma topic'
+  const contextLabel = article
+    ? 'Asking about this article'
+    : displayName
+      ? `Asking about ${displayName}`
+      : 'Ask about any pharma topic'
 
   return (
     <div className="ai-panel">

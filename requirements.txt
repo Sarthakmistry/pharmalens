@@ -23,3 +23,4 @@ uvicorn>=0.29.0          # ASGI server for FastAPI
 yfinance>=0.2.40         # live stock price pull at render time
 PyYAML>=6.0              # frontmatter parsing in api/main.py
 google-cloud-storage>=2.0.0  # GCS blob listing and download in agents/gcs.py
+beautifulsoup4>=4.12.0   # BioSpace article HTML parsing in api/news.py

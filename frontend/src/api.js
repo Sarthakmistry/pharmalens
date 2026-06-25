@@ -42,12 +42,27 @@ export async function fetchStockHistory(slug, period = '1d') {
   return r.json()
 }
 
+export async function fetchNews() {
+  const r = await fetch(`${BASE}/api/news`)
+  return r.json()
+}
+
+export async function fetchArticle(url) {
+  const r = await fetch(`${BASE}/api/news/article?url=${encodeURIComponent(url)}`)
+  return r.json()
+}
+
 // POST /api/ask — returns an async generator of SSE event objects
-export async function* streamAsk(question, indication, company) {
+export async function* streamAsk(question, indication, company, article) {
   const response = await fetch(`${BASE}/api/ask`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ question, indication: indication || null, company: company || null }),
+    body: JSON.stringify({
+      question,
+      indication: indication || null,
+      company: company || null,
+      article: article || null,
+    }),
   })
 
   const reader = response.body.getReader()

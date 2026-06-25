@@ -3,10 +3,13 @@ import { useState } from 'react'
 export default function Sidebar({
   indications,
   companies,
+  news,
   activeIndication,
   activeCompany,
+  activeArticle,
   onSelectIndication,
   onSelectCompany,
+  onSelectArticle,
 }) {
   const [search, setSearch] = useState('')
 
@@ -55,6 +58,22 @@ export default function Sidebar({
             >
               <span className="nav-dot" />
               {ind.display_name}
+            </div>
+          ))}
+        </div>
+      )}
+
+      {news?.length > 0 && (
+        <div className="nav-section">
+          <div className="nav-label">News</div>
+          {news.slice(0, 12).map(article => (
+            <div
+              key={article.url}
+              className={`nav-item ${activeArticle === article.url ? 'active' : ''}`}
+              onClick={() => onSelectArticle(article.url)}
+              title={article.title}
+            >
+              {article.title}
             </div>
           ))}
         </div>
